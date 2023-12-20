@@ -1,0 +1,63 @@
+<body><header><h1 data-pagefind-meta="title">Not all software development processes are equal</h1></header><main><h3>Coding is easy / software engineering is hard &#8211; we need more engineers!</h3>
+<p><em>Foreward: This post has been in my drafts for ages. I&#8217;m hesitant to publish because&#8230;well&#8230;how could little old me have a valid critique of such a software engineering giant? Yet I keep reading it and I&#8217;m really happy with what I&#8217;ve written and the light it brings to the topic. I&#8217;m finally clicking &#8220;Publish&#8221;. I hope you like it too!</em></p>
+<p>I was shown <a href="http://blog.cleancoder.com/uncle-bob/2012/04/18/After-The-Disaster.html">Uncle Bob&#8217;s 2012 blog post &#8220;After the Disaster&#8221;</a> a while back &#8211; an interesting piece from a very experienced software developer about how &#8220;If [people] find that [software developers] are disciplined, and self regulating, then perhaps they’ll leave us mostly alone. But if they find that we are undisciplined hacks then you know that they’ll impose all manner of horrible regulation upon us.&#8221;.</p>
+<p>He makes a really good point about how software is encroaching more and more into our daily lives, and that software development <span style="text-decoration: underline;">can be</span> undisciplined and therefore potentially dangerous. And he&#8217;s right.  &#8220;Coding&#8221; has become popular and very easy to learn. But software development &#8211; the broader craft of solving complex problems in maintainable, testable, well-structured, easily-understandable ways &#8211; is harder and needs more discipline than you get by just learning to code.</p>
+<p>Software development is a lot more than just coding. Just yesterday, <a href="https://www.quora.com/Why-is-programming-so-easy#!n=18">this Quora Q&amp;A thread</a> appeared in my inbox titled &#8220;<a href="https://www.quora.com/Why-is-programming-so-easy#!n=18">Why is programming so easy?</a>&#8220;. One of my favourite answers is &#8220;Coding is easy. In fact it is the easiest part of a programming job imo.&#8221; And in my opinion the world&#8217;s ratio of &#8220;software engineers&#8221; to &#8220;coders&#8221; is too low. This needs to change.</p>
+<p>So I get and agree with Uncle Bob&#8217;s point. But I feel I need to give some critique of his explanation of it, and the examples that he uses.</p>
+<h3>Not all software is equal</h3>
+<p>Bob says: &#8220;Is there software in your cell phone&#8230;your watch&#8230;the light switch on the wall&#8230;the light bulbs&#8230;the intercom&#8230;the doorbell&#8230;the thermostat&#8230;your furnace&#8230;your air conditioner&#8230;your refrigerator, dishwasher, washing-machine, drier?&#8221;. And yes, he&#8217;s right. Software is all around us.</p>
+<p>But he then seamlessly switches into this: &#8220;How about your car; and all the other cars on the road? How about the traffic signals? Did you ride an elevator today? Get in a plane or a train? How about an escalator? Do you have a pacemaker? An insulin pump?&#8221;</p>
+<p>So let&#8217;s start by making it clear that not all software is equal. The first list of things is very different to the second list of things. The probability that something very bad will happen if software in the first list of things goes wrong is pretty low.</p>
+<p>Yes, you can concoct scenarios like &#8220;my fridge got too hot and I got food poisoning&#8221; but there are other mitigating factors that prevent that hazard (like the fridge getting too hot) turning into harm (food poisoning).  We&#8217;ll come back to this.</p>
+<p>The probability that something very bad will happen if software in the second list of things goes wrong is pretty high.  Most of those things move large, heavy chunks of metal around at great velocities, and are then subsequently responsible for stopping them moving too. The others are medical equipment that keeps people alive.</p>
+<p>Let&#8217;s be clear &#8211; these are different things. A lightbulb and an airplane have very different requirements for the integrity of their software.</p>
+<p>Not all software is equal.</p>
+<h3>Therefore, not all software processes are equal</h3>
+<p>Bob then says this: &#8220;How many times per day do you put your life in the hands of an ‘if’ statement written by some twenty-two year old at three in the morning, while strung out on vodka and redbull?&#8221;</p>
+<p>And the answer is probably pretty close to &#8220;zero&#8221;.</p>
+<p>I worked in safety critical software for 4 years. I was actually writing and testing safety-critical code when I was twenty-two. And I can tell you that it is definitely NOT the case that a young, junior software developer would be able to commit code to the stable codebase of software for a car, traffic signal, elevator, train, plane, escalator or piece of medical equipment at 2am on a whim.</p>
+<p>The software processes for these kind of things involve:</p>
+<ul>
+<li>rigid, formal software specifications</li>
+<li>coding using appropriate tools and languages that minimise coding errors and help test that code does what it should and meets the spec</li>
+<li>correct levels of testing</li>
+<li>code review by peers, senior engineers, and often external third parties</li>
+<li>compliance with relevant safety standards</li>
+<li>production of safety cases that analyse the potential hazards, risk probabilities, and levels of harm to minimise danger</li>
+</ul>
+<p>AND&#8230;in addition to all that there will be hardware fail-safes and other physical mechanisms that prevent a problem with software becoming something harmful.</p>
+<p>In this context, I&#8217;ve worked on:</p>
+<ul>
+<li>static analysis of compiled code at assembler level</li>
+<li>review of compiled assembler code against the high-level source code</li>
+<li>testing so thorough that I discovered a (already documented but unknown to my team) bug in a microprocessor &#8211; yes, our spec and testing were so good that when the test failed, we turned to the microprocessor manual to see what was up!</li>
+</ul>
+<p>In <a href="https://blog.cleancoder.com/uncle-bob/2014/02/21/WhereIsTheForeman.html">another, related post</a>, Bob writes: &#8220;Where&#8217;s the guy who makes sure all the errors are checked, and that references can&#8217;t be null, and that variables are thread-safe?&#8221;</p>
+<p>Actually, in these industries, languages with provable properties are used. You can eliminate null references and entire classes of basic coding errors and performance issues. And in the safety-critical world these tools are often mandated.</p>
+<p>These processes are expensive. They are used in this context because people&#8217;s lives are clearly at risk.  Rigid, complicated, expensive processes are not needed for all forms of software. The budget for these projects MUST pay for the appropriate level of engineering, testing and approval.</p>
+<p>I currently build websites. In most cases, if my code is wrong, an image is displayed in the wrong place on someone&#8217;s screen.  Linting, code review, static analysis are helpful. But they can be safely omitted if the budget is not large enough.</p>
+<p>Different software needs different software processes.</p>
+<h3>The Disaster</h3>
+<p>Bob then says: &#8220;Some time in the not too distant future, there’s going to be an event. Thousands of people will die. And it will be the fault of some errant piece of code written by some poor schmuck under hellish pressure facing impossible deadlines. Perhaps it will be an airline crash, or a cruise ship sinking. Perhaps it’ll be an explosion at a factory, or a train accident involving toxins. Perhaps it’ll be a simple clerical error at a medical research lab that causes a vial of smallpox or ebola to be improperly disposed of.&#8221;</p>
+<p>Basically, there may well be a disaster as a result of code. But please, an airline crash or a cruise ship sinking or a train accident will not be caused in this way.</p>
+<p>&#8220;Poor schmuck&#8217;s&#8221; are not employed to write code like this. &#8220;Hellish pressure&#8221; is not allowed in this context. &#8220;Impossible deadlines&#8221; exist, but there are protections&#8230; You can not&#8230;you are not allowed to&#8230;ship dangerous code in a safety-critical context like this.</p>
+<p>Even if bad software does get in, the number of things that would need to happen between a software failure on a train and spillage of toxins in transit is huge and the probability of each of them is very low. And there are non-digital things &#8211; handling measures, hardware precautions, and so on &#8211; that try to prevent software hazards becoming physical harm.</p>
+<p>&#8220;Will they find that developers work at all hours of the day and night, are under hellish pressure and impossible deadlines? Will they find that there are no professional standard, practices, or disciplines. Will they discover that we are all really just a bunch of undisciplined hacks?&#8221;</p>
+<p>Well. Umm. No, Bob. In the industries that you keep suggesting will cause the disaster, you will not find these things.</p>
+<h3>We&#8217;re already After the Disaster</h3>
+<p>And Bob&#8217;s conclusion: &#8220;The population will scream for protection, and the lawmakers will respond with self-righteous indignation. In their toolkit they’ll have regulations, restrictions, licensing requirements, and certification tests&#8230;if they find that we are undisciplined hacks then you know that they’ll impose all manner of horrible regulation upon us&#8230;.They might tell us what languages to use. They might tell us what process to use&#8230;we’ll work in a government regulated profession.&#8221;</p>
+<p>So, let me introduce you to the Civil Aviation Authority, the Office of Rail Regulation, the Federal Aviation Authority, the National Highway Traffic Safety Administration, the Office for Nuclear Regulation.</p>
+<p>Is it really thought that development of software in safety-critical applications has no government-backed processes and procedures, legal and regulatory frameworks, restrictions, certification tests?</p>
+<p>Is it really thought that these things don&#8217;t exist? And even if they don&#8217;t, wouldn&#8217;t it be a good thing if a regulatory body told us to use a language that could be statically analysed to prove that it had no out-of-array-bounds accesses, undeclared variable uses, type errors, etc, etc. Would this not be a good thing?</p>
+<p>These industries are already regulated. And rightly so.  You can&#8217;t be a lazy indisciplined coder in these places. It&#8217;s not allowed. The &#8220;disaster&#8221; won&#8217;t lead to regulation because the regulation already exists.</p>
+<p>So what IS Bob advocating?</p>
+<p>&#8220;If they find that we are disciplined, and self regulating, then perhaps they’ll leave us mostly alone.&#8221;</p>
+<p>It&#8217;s a call to arms. We need to self-impose discipline and regulation on ourselves, &#8220;Otherwise we’ll work in a government regulated profession. And then life will be hell.&#8221;</p>
+<p>In contrast to what, I wonder? To working drunk at 2am on code for a lightbulb?  Well, on one thing we agree! Both ends of this spectrum are bad. We need something in the middle.</p>
+<p>We need to stop working when tired, drunk and powered by energy drinks. We need to do testing and code review. We need to use the tools, languages, and processes that make our software better. All of this we should do.</p>
+<p>But we should also be pragmatic. Not every application is a fly-by-wire aircraft control system.  And a good engineer is pragmatic, making trade-offs, assessing risks, defining requirements, building and testing code responsibly.</p>
+<p>A lot of applications aren&#8217;t going to cause &#8220;the disaster&#8221;, and not all code needs to be built to prevent it.</p>
+<p>So while I strongly disagree with Bob&#8217;s examples and his explanation of and implications of some hypothetical disaster, he is right. Our industry is a mess. We need to take ourselves more seriously.</p>
+<p>Don&#8217;t just ship it, coders. Learn your craft well. Work responsibly.  Charge properly. Say &#8220;no&#8221;. Ask difficult questions. Don&#8217;t make assumptions.</p>
+<p>People might not be dying at the hands of your if statements, but that doesn&#8217;t mean you shouldn&#8217;t care.</p>
+</main></body>

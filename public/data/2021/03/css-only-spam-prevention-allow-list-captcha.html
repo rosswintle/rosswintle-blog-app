@@ -1,0 +1,243 @@
+<body><header><h1 data-pagefind-meta="title">Idea: CSS-only spam prevention with a simple allow-list and CAPTCHA</h1></header><main>
+<p>I have a client with a WordPress site who is getting lots of spam form submissions. For a long time I have used Ben Marshall&#8217;s excellent <a href="https://wordpress.org/plugins/zero-spam/">WordPress Zero Spam plugin</a>, which was originally a simple implementation of a <a href="https://davidwalsh.name/wordpress-comment-spam">simple idea from David Walsh</a> for preventing spam.</p>
+
+
+
+<p>David&#8217;s idea was kinda like a reverse honeypot. A traditional honeypot is a hidden HTML input that is empty. It tempts the bots into filling it in with a value. Because it&#8217;s hidden a human won&#8217;t see it and fill it in, so a submitted honeypot value probably means a bot filled the form in.</p>
+
+
+
+<p>David Walsh used JavaScript to ADD an input to the form, and the spam test was to detect this additional input. All this really did was say &#8220;this form was submitted by a browser that runs JavaScript&#8221;.</p>
+
+
+
+<p>There are two problems with this method.</p>
+
+
+
+<p>Firstly, it requires JavaScript to be working.</p>
+
+
+
+<p>And secondly, spam is clearly an arms race, and the game is to stay one step ahead of the bots. Most bots, it seems, aren&#8217;t currently running headless browsers that run JavaScript. I always though the David Walsh method would soon be defeated but it&#8217;s been working well for the many years I&#8217;ve been using it.</p>
+
+
+
+<p>BUT&#8230; Ben Marshall (note: I&#8217;m REALLY grateful for Ben&#8217;s work and I have every respect for him) removed the David Walsh method from version 5 of his plugin, and then added it back in, but it only currently seems to work for comment forms and WordPress registration forms. And I need it to integrate with WP Forms and Gravity Forms.</p>
+
+
+
+<p>Another implementation of the David Walsh method exists in <a href="https://twitter.com/binarymoon">Ben Gillbanks</a>&#8216;s excellent, multi-purpose &#8220;<a href="https://wordpress.org/plugins/wp-toolbelt/">Toolbelt</a>&#8221; plugin. But this only works for Gravity Forms and Jetpack in addition to the standard WordPress forms.</p>
+
+
+
+<p>NOW&#8230; both these plugins are open source, so I could pull-request the features I need into the plugins. And I may do that, but it will take time to understand the plugin structure and add it and get the changes approved and published by the authors.</p>
+
+
+
+<p>My client needs a quick fix.</p>
+
+
+
+<p>And it&#8217;s always bugged me that JavaScript is needed for the David Walsh method. So I got thinking&#8230; can we do something without JavaScript?</p>
+
+
+
+<h2 class="wp-block-heading">An idea</h2>
+
+
+
+<p>So here&#8217;s the idea.</p>
+
+
+
+<p>As the bots don&#8217;t seem to be running browsers, I assume they are just scraping the form, figuring out the input fields, and POST&#8217;ing responses to the action URLs.</p>
+
+
+
+<p>So I thought: we don&#8217;t want JavaScript, but what might we do with CSS? I eventually settled on the idea that we can load an image with CSS and this can hit a server endpoint. If we can do this conditionally based on some user action then we can tell the server we are real.</p>
+
+
+
+<p>The server can then add the IP address of the browser to an allow list temporarily (we&#8217;ll come back to this) and allow form submissions from it!</p>
+
+
+
+<p>Initially I thought you could use the &#8220;active&#8221; state on the submit button element to trigger a load of a background image &#8220;pixel&#8221; on an adjacent element using something like:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: css; title: ; notranslate" title="">
+input&#x5B;type=&quot;submit&quot;]:active + .pixel {
+  background-image: url(&lt;pixel-url&gt;);
+}
+</pre></div>
+
+
+<p>I chose <code>active</code> over <code>focus</code> because I wasn&#8217;t sure if a mobile device button press would trigger focus.</p>
+
+
+
+<p>The problem with <code>active</code> is: does this give enough time before the form submits to do the allow-listing that the pixel URL/endpoint does?</p>
+
+
+
+<p>In my tests the answer was no. I thought I would get a race condition, but it actually seemed that the browser cancelled the background-image load to submit the form.</p>
+
+
+
+<p>So I needed another approach.</p>
+
+
+
+<p>I eventually discovered the <code>focus-within</code> state. This state is set on an element when any child element has focus. And this meant that I could load the pixel and do the allow-listing when the user is filling in the form using CSS like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: css; title: ; notranslate" title="">
+form:focus-within .pixel {
+  background-image: url(&lt;pixel-url&gt;);
+}
+</pre></div>
+
+
+<p>We can then use the pixel URL endpoint to add the browser&#8217;s IP address to the allow-list for a set period of time (would have to be long enough for the user to fill in the form), and then check the allow list when the form is submitted.</p>
+
+
+
+<p>I initially tested this as a proof of concept with a simple Laravel application form:</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="CSS only spam/allow-listing CAPTCHA thingy proof of concept" src="https://player.vimeo.com/video/529274399?dnt=1&amp;app_id=122963" width="640" height="340" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This worked and proved the concept. But as a real test I needed to get it quickly onto my client&#8217;s site that had lots of spam, so I quickly cooked up <a href="https://gist.github.com/rosswintle/0f65bea09a59b19d4486f190c46198bb">a one-file WordPress plugin</a> that integrated this method with WP Forms.</p>
+
+
+
+<p>I tested this locally with success:</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="CSS only spam/allow-listing captcha thingy in WP Forms" src="https://player.vimeo.com/video/529279362?dnt=1&amp;app_id=122963" width="640" height="326" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>And then deployed to the client site to see what happened. I wait to see if it works.</p>
+
+
+
+<p>Update: My client has had two days with no spam, the logs I&#8217;m creating show that spam is being blocked, and we&#8217;re also seeing genuine enquiries getting through. It WORKS!! (I think!!)</p>
+
+
+
+<h2 class="wp-block-heading">Questions and explanations</h2>
+
+
+
+<p>Here are some things I&#8217;ve got questions about and some things that I&#8217;ve already thought through.</p>
+
+
+
+<h3 class="wp-block-heading">How is this better than a traditional honeypot?</h3>
+
+
+
+<p>Bots seem to have figured out how to circumvent some traditional honeypots. I&#8217;ve always found the David Walsh technique to be more effective.</p>
+
+
+
+<h3 class="wp-block-heading">How is this better than the David Walsh technique?</h3>
+
+
+
+<p>It doesn&#8217;t use JavaScript. And it&#8217;s MINE!</p>
+
+
+
+<h3 class="wp-block-heading">Storing the allow-list</h3>
+
+
+
+<p>This, like all spam-prevention solutions, is not perfect. For one thing I&#8217;m using transients to store the allow-listed IP addresses. The reason for this is that if I stored a single option with a list of IP addresses in then this could have race conditions that caused IP addresses to not make it on the list. This will clutter up the options table with transient entries. So I need to re-think that.</p>
+
+
+
+<p>Generating a testing a nonce has been suggested as an alternative. These are not stored in the database so are cleaner. But there&#8217;s probably page-caching issues. I will investigate this.</p>
+
+
+
+<h3 class="wp-block-heading">Won&#8217;t bots just allow-list themselves by hitting the pixel URL?</h3>
+
+
+
+<p>I guess the idea here is that this is not a widely-known spam prevention measure. The aim is to get another step ahead of the bots. The bots go for the easy wins &#8211; they attack the holes that are likely to get them access across a large number of sites. So diversity of spam prevention solutions seems good.</p>
+
+
+
+<p>I think I could get another step ahead by periodically changing the pixel URL and the class name on the pixel element.</p>
+
+
+
+<h3 class="wp-block-heading">Won&#8217;t this stop working once bots start using headless browsers?</h3>
+
+
+
+<p>Yes. But I think at that point, aside from implementing proper (Re)CAPTCHAs, I think we&#8217;re probably screwed.</p>
+
+
+
+<h3 class="wp-block-heading">Accessibility and screen-readers and browser support</h3>
+
+
+
+<p>I probably need to make a couple of accessibility improvements, mainly properly hiding the pixel element from screen readers.</p>
+
+
+
+<p>I&#8217;m also not sure how this will work with some screen readers. Can I assume that screen readers set the focus state? Do screen readers support the focus-within state?</p>
+
+
+
+<p>And focus-within doesn&#8217;t work on IE11.</p>
+
+
+
+<p>One thought I&#8217;d has is that you could detect focus and enable the pixel using Javascript as well as CSS. Then CSS acts as a fallback for when Javascript isn&#8217;t available.</p>
+
+
+
+<h3 class="wp-block-heading">What if CSS is disabled</h3>
+
+
+
+<p>It seems this can be done. But I wonder what the probably that both CSS and JS are unavailable in the real world is? My CSS is inlined, so it doesn&#8217;t need an extra file to be loaded. The only case would be if someone had deliberately disabled CSS. Does anyone do that?</p>
+
+
+
+<h3 class="wp-block-heading">Are there privacy/data protection/GDPR issues?</h3>
+
+
+
+<p>IP addresses are classed as personal data. But if someone&#8217;s sending you a form submission then you&#8217;re probably already collecting personal data. I would just be clear in our the privacy policy that the IP address is stored temporarily for spam prevention purposes. </p>
+
+
+
+<h3 class="wp-block-heading">Will you be making this into a WordPress plugin/Laravel package?</h3>
+
+
+
+<p>Well, you can see <a href="https://gist.github.com/rosswintle/0f65bea09a59b19d4486f190c46198bb">the simple WordPress plugin code I got working with WP Forms</a>. That&#8217;s currently being tested on a site that I know gets spam form entries.</p>
+
+
+
+<p>You can take that and try to make your own integrations/plugins/packages. I&#8217;d love people to take this concept and run with it.</p>
+
+
+
+<p></p>
+</main></body>

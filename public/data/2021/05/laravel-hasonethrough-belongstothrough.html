@@ -1,0 +1,223 @@
+<body><header><h1 data-pagefind-meta="title">Tech Notes: Laravel hasOneThrough / belongsToThrough confusion</h1></header><main>
+<p>It&#8217;s kinda hard to believe that in all my years of writing Laravel I&#8217;ve not come across this before.</p>
+
+
+
+<p>But today I needed &#8220;belongsToThrough&#8221; in an Eloquent Model and I got myself so confused! Turns out it doesn&#8217;t exist, and the docs are (IMO) confusing and others seem to have even got it backwards.</p>
+
+
+
+<p>I&#8217;m assuming some knowledge here to keep things brief. You would know what an ORM is and how relationships work.</p>
+
+
+
+<p>Also &#8211; note for pedants &#8211; I&#8217;m using American &#8220;license&#8221; throughout examples for naming consistency, even for the noun which would otherwise be &#8220;licence&#8221;. I know. And I&#8217;m sorry.</p>
+
+
+
+<h2 class="wp-block-heading">My use case</h2>
+
+
+
+<p>I&#8217;ve been working on my licensing system for software products I&#8217;m developing. It&#8217;s pretty simple. And it has a data model with Customers, Orders, and Licenses.</p>
+
+
+
+<p>It looks like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+License        Order             Customer
+--------       -----------       --------
+order_id  --&gt;  customer_id  --&gt;  email
+</pre></div>
+
+
+<p>In ORM terminology:</p>
+
+
+
+<ul><li>A License <code>belongsTo</code> an Order</li><li>An Order <code>hasMany</code> Licenses</li><li>An Order <code>belongsTo</code> a Customer</li><li>A Customer <code>hasMany</code> Orders</li></ul>
+
+
+
+<p>This is all good. But, for reasons I won&#8217;t go into, I wanted to define a relationship between License and Customer through the Orders table. So I could do:</p>
+
+
+
+<p><code>$license-&gt;customer</code></p>
+
+
+
+<p>I know that I could simply do:</p>
+
+
+
+<p><code>$license-&gt;order-&gt;customer</code></p>
+
+
+
+<p>but please, just let me do my thing and assume I have reasons! Thanks.</p>
+
+
+
+<p>Laravel is a superb framework and often just does what you need. It&#8217;s conventions make sense and you can often guess the name of the thing you need.</p>
+
+
+
+<p>I was vaguely aware of &#8220;hasOneThrough&#8221; (those of you who are ahead of me are already rolling your eyes). And so I attempted to implement it:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+public function customer()
+{
+  return $this-&gt;hasOneThrough(Customer::class, Order::class);
+}
+</pre></div>
+
+
+<p>BUT&#8230;this gave me an error saying that the Order table didn&#8217;t have a license_id.</p>
+
+
+
+<p>My immediate reaction: WHAT? THAT&#8217;S BACKWARDS.</p>
+
+
+
+<h2 class="wp-block-heading">The Laravel Docs Example</h2>
+
+
+
+<p>Time to consult <a href="https://laravel.com/docs/eloquent-relationships#has-one-through">the Laravel docs</a> where the example given is:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+mechanics
+    id - integer
+    name - string
+
+cars
+    id - integer
+    model - string
+    mechanic_id - integer
+
+owners
+    id - integer
+    name - string
+    car_id - integer
+</pre></div>
+
+
+<p>Now, first of all, this is (in my opinion &#8211; sorry documenters) a poor example data model. It says that an owner can only have one car, but a car can have multiple owners. Which is&#8230;err&#8230;backwards? And a car has one mechanic. And I don&#8217;t understand what real-world use-case this data model is modelling. But let&#8217;s go with it.</p>
+
+
+
+<p>In this model:</p>
+
+
+
+<ul><li>A Mechanic <code>hasMany</code> Cars</li><li>A Car <code>belongsTo</code> a Mechanic</li><li>A Car <code>hasMany</code> Owners</li><li>An Owner <code>belongsTo</code> a Car (?!)</li></ul>
+
+
+
+<p>And in the example we want to get the Owner for a given Mechanic (?! &#8211; let&#8217;s go with it!). So you can do:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+public function carOwner()
+{
+  return $this-&gt;hasOneThrough(Owner::class, Car::class);
+}
+</pre></div>
+
+
+<p>I don&#8217;t know about you but I&#8217;m so confused. (And no, I&#8217;m not going to PR the docs. I&#8217;ve tried this before. It&#8217;s no fun.)</p>
+
+
+
+<p>In this model a Mechanic hasMany Cars and a Car hasMany Owners. So a Mechanic has many, many Owners! And we&#8217;re asking for one of them. And what&#8217;s even more confusing is that the docs don&#8217;t specify which one we will get? The most-recently created? The most-recently updated? A random owner? It&#8217;s just weird.</p>
+
+
+
+<p>The <a href="https://laravel.com/docs/8.x/eloquent-relationships#has-one-of-many">Laravel docs</a> are explicit about this for <code>hasOne</code> saying:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Sometimes a model may have many related models, yet you want to easily retrieve the &#8220;latest&#8221; or &#8220;oldest&#8221; related model of the relationship.</p></blockquote>
+
+
+
+<p>and it defines <code>latestOfMany()</code>, <code>oldestOfMany()</code> and a generic <code>ofMany()</code> modifiers.</p>
+
+
+
+<p>I can see that you might want to use this. For example, you might have <code>Category &lt;- Post &lt;- Comment</code> and you might want to get the most recent Comment for a Category? Maybe? This is the kind of thing that <code>hasOneThrough</code> seems to do.</p>
+
+
+
+<h2 class="wp-block-heading">Has and BelongsTo naming&#8230;</h2>
+
+
+
+<p>To get why this is all like it is, you have to properly understand the Has and BelongsTo conventions in ORMs.</p>
+
+
+
+<p>Has/have is always about having lots of things. You can haveMany. And you can haveOne. But haveOne is actually really haveOneOfMany.</p>
+
+
+
+<p>Belongs is sometimes about having one (<code>belongsTo</code>) and, confusingly, sometimes about having many (which is called <code>belongsToMany</code>). But let&#8217;s just ignore <code>belongToMany</code> for now. Belongs is about being related to one of another thing. It&#8217;s the child -&gt; parent relationship.</p>
+
+
+
+<p>But this is really confusing. Deal with it.</p>
+
+
+
+<h2 class="wp-block-heading">Enter stage left: belongsToThrough !</h2>
+
+
+
+<p>Finally, with the tenacious web-searching that only a persistent nerd like me has, I found a &#8220;<a href="https://github.com/staudenmeir/belongs-to-through">belongsToThrough</a>&#8221; package for Eloquent. And I realised that I had had it wrong all along.</p>
+
+
+
+<p>The existence of this package with the relationship named correctly made me realise that I&#8217;d misunderstood <code>hasOneThrough</code> and the whole has/belongs convention. THIS was what I needed.</p>
+
+
+
+<p>My only remaining questions:</p>
+
+
+
+<p>1. Is this the best way to do this? Does this not exist for a reason in Laravel core?</p>
+
+
+
+<p>and</p>
+
+
+
+<p>2. <a href="https://github.com/staudenmeir/belongs-to-through/issues/50">Why DOESN&#8217;T this exist in Laravel&#8217;s core?</a></p>
+
+
+
+<p>And it seems that this doesn&#8217;t exist in Laravel&#8217;s core because:</p>
+
+
+
+<p>a) There aren&#8217;t good use cases for it (apparently, even though OrderItem -&gt; Order -&gt; Customer seems like a really common use case)</p>
+
+
+
+<p>b) There are other ways of achieving it, such as with an accessor, or just by chaining the relationships (e.g. <code>$license-&gt;order-&gt;customer</code>)</p>
+
+
+
+<p>It seems that the potential benefits of being able to eager load, or use PHP Reflection on this relationship just aren&#8217;t there.</p>
+
+
+
+<p></p>
+</main></body>

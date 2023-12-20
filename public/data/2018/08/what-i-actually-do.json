@@ -1,0 +1,225 @@
+{
+    "id": 4103,
+    "date": "2018-08-25T08:14:19",
+    "date_gmt": "2018-08-25T07:14:19",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=4103"
+    },
+    "modified": "2018-08-25T08:14:21",
+    "modified_gmt": "2018-08-25T07:14:21",
+    "slug": "what-i-actually-do",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/",
+    "title": {
+        "rendered": "What I (actually) do!"
+    },
+    "content": {
+        "rendered": "<p>The other day <a href=\"https:\/\/rosswintle.uk\/2018\/08\/what-i-do\/\">I wrote about writing about what I do<\/a>. So I guess I should write about what I do!<\/p>\n<p>Some of my bio\u2019s and \u201cAbout\u201d pages are a bit out of date &#8211; I must remedy that. For now, here\u2019s some of the things I\u2019m up to right now.<\/p>\n<p><span style=\"color: #23282d; font-size: 1.6em; font-weight: 600;\">Technology<\/span><\/p>\n<p>I\u2019m a software developer who happens to mostly build websites and web applications, because that\u2019s where I can make money making software on a freelance basis in the sector I want to work in. I\u2019d love to do more back-end, data processing, and general coding stuff really.<\/p>\n<p>I mostly develop with WordPress, but also use Laravel and \u00a0other PHP things. WordPress knowledge is pretty deep, and I do some highly technical projects with lots of data wrangling and custom user interface. But I also build small sites for small organisations using page builders.<\/p>\n<p>(Note to page-builder-haters: Yes, really I do! It\u2019s the pragmatic choice for smaller budgets.)<\/p>\n<p>I\u2019m proficient in a whole load of the back-end web stack from how CPUs work, through language compilation and execution, right up to server operations and how HTTP works. Though some knowledge will be old and there are some holes in knowledge in some places&#8230;it\u2019s a broad field.<\/p>\n<p>I know JavaScript reasonably well but don\u2019t like it and struggle to see how you would build any significant back-end application with it &#8211; but I know people do! I\u2019ve been trying to #learnToLoveJS, but it\u2019s hard. It\u2019s not my kind of language at all.<\/p>\n<p>I prefer functional, declarative and typed languages. I prefer a language to tell me I got something wrong than to guess what I meant. But also, I never got to running JS as a process outside the browser, so I\u2019m still mostly using it for DOM manipulation in the browser, and stepping it up to doing node.js seems like a big jump to me.<\/p>\n<p>I have a MacBook and an iPhone, but these are tools and I\u2019m not wedded to either of them.<\/p>\n<h2>Work and business<\/h2>\n<p>I run my own company to do my software development, but I also work with groups of other freelancers on larger projects.<\/p>\n<p>Though highly technical, I love working with people and using technology to solve people\u2019s problems.<\/p>\n<p>I do some amount of user interface and user experience work, but I\u2019m not a visual designer and those kinds of \u00a0artistic flourishes are out-sourced.<\/p>\n<p>I care about my work and business a lot, but I\u2019m not set on growth. I have a good flow of work, mostly through recommendations and referrals. It\u2019s a mildly-profitable, bootstrapped business, not a hard-and-fast startup.<\/p>\n<h2>On the side<\/h2>\n<p>I sometimes learn new tech, or practice existing tech, by building small side projects. I have a few of these on the go at any one time. My current focusses are:<\/p>\n<ul>\n<li>\u00a0<a href=\"https:\/\/blog.kownter.com\/about-kownter\/\">Kownter<\/a>: Simple, self-hosted, privacy aware analytics<\/li>\n<li><a href=\"https:\/\/rosswintle.uk\/2018\/08\/about-schoolbot\/\">SchoolBot<\/a>: a parent information system that started as a chatbot, but will hopefully become more<\/li>\n<\/ul>\n<h2>Life<\/h2>\n<p>I have a wife and two small children; I work flexibly to look after the kids and life mostly revolves around them. I love to cycle &#8211; though I\u2019m mostly just commuting at the moment. We have a large-ish garden that we try to grow stuff in, and we are part of a small local church.<\/p>\n<p>Its a pretty busy life. More on the specifics soon!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>The other day I wrote about writing about what I do. So I guess I should write about what I do! Some of my bio\u2019s and \u201cAbout\u201d pages are a bit out of date &#8211; I must remedy that. For now, here\u2019s some of the things I\u2019m up to right now. Technology I\u2019m a software [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>What I (actually) do! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"What I (actually) do! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The other day I wrote about writing about what I do. So I guess I should write about what I do! Some of my bio\u2019s and \u201cAbout\u201d pages are a bit out of date &#8211; I must remedy that. For now, here\u2019s some of the things I\u2019m up to right now. Technology I\u2019m a software [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-08-25T07:14:19+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-08-25T07:14:21+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/\",\"name\":\"What I (actually) do! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-08-25T07:14:19+00:00\",\"dateModified\":\"2018-08-25T07:14:21+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"What I (actually) do!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "What I (actually) do! - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "What I (actually) do! - Ross Wintle",
+        "og_description": "The other day I wrote about writing about what I do. So I guess I should write about what I do! Some of my bio\u2019s and \u201cAbout\u201d pages are a bit out of date &#8211; I must remedy that. For now, here\u2019s some of the things I\u2019m up to right now. Technology I\u2019m a software [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2018-08-25T07:14:19+00:00",
+        "article_modified_time": "2018-08-25T07:14:21+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/",
+                    "url": "https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/",
+                    "name": "What I (actually) do! - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2018-08-25T07:14:19+00:00",
+                    "dateModified": "2018-08-25T07:14:21+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/08\/what-i-actually-do\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "What I (actually) do!"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4103"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4103"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 6,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4103\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 4111,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4103\/revisions\/4111"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4103"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4103"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4103"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

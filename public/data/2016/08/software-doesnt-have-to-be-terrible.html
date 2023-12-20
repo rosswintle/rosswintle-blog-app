@@ -1,0 +1,29 @@
+<body><header><h1 data-pagefind-meta="title">Software doesn&#8217;t have to be terrible</h1></header><main><p><em>TL;DR: We&#8217;re coding for the web all wrong. And it&#8217;s mostly because of the languages we&#8217;re using. We&#8217;re piling hack upon hack upon hack. Good&nbsp;coding principles and practices are becoming more common in web development, but I can&#8217;t help wishing&nbsp;we could take a few steps back and start with tools that help us write better code in the first place.</em></p>
+<p>WARNING: contains opinions. &nbsp;Some of which may be uninformed.</p>
+<p>Anyone involved in software that knows me well will know a couple of things about me:</p>
+<ol>
+<li>I have a different approach to web development&nbsp;than a lot of people &#8211; mostly because I have a background in safety critical software, which is written very differently to code for a website.</li>
+<li>Despite that background, I&#8217;m pretty pragmatic. Horses are for courses. Tools are just tools.</li>
+<li>(Because of that background) l hate JavaScript. Any language that guesses what you want to do seems to me to be unhelpful. PHP is better, but far from perfect.</li>
+</ol>
+<p>I mostly write PHP for back end code&nbsp;<span style="text-decoration: underline;">because</span> I&#8217;m pragmatic. It&#8217;s not perfect. It&#8217;s slow. It promotes better discipline than JavaScript. But it&#8217;s also relatively accessible, hugely widespread, easy to deploy.</p>
+<p>And I&#8217;m always looking to write better PHP. Which is why I&#8217;m currently reading <a href="https://adamwathan.me/refactoring-to-collections/">Adam Wathan&#8217;s Refactoring to Collections</a>. A book which tries to apply some declarative&nbsp;programming principles to PHP coding. &nbsp;This, in short, means he&#8217;s come up with some nice ways to write code that says what you more want to get done, and less HOW to get it done.</p>
+<p>And it&#8217;s great and it&#8217;s already transforming the way that I think.</p>
+<p>But&#8230;and maybe this is addressed in later chapters that I&#8217;ve not read yet&#8230;I can&#8217;t read stuff like this without thinking about simplicity and performance. Here&#8217;s me wanting to do some simple transformations on some arrays, and I need to:</p>
+<ul>
+<li>use composer to pull down the package that contains the Collection class;</li>
+<li>load an autoloader that loads the dependencies;</li>
+<li>probably, in doing so, include a load of code that I&#8217;m never going to run.</li>
+</ul>
+<p>And thats before we even write a line of code. Once we have some code written using collections, method chaining, etc, then because I&#8217;m using other people&#8217;s implementations of higher-order functions, I&#8217;m totally removed from how efficient and scalable that code is.</p>
+<p>This is a more general problem with declarative programming. It&#8217;s really nice and easy to read, but you don&#8217;t have the implementation detail. So how are you to know if using these collections going to make code that scales?</p>
+<p>I find myself thinking &#8220;Why aren&#8217;t collections part of the standard library of PHP?&#8221;</p>
+<p>That&#8217;s because, PHP isn&#8217;t a declarative language, it&#8217;s an imperative language. Adding collections to it is a fudge that makes it something that it isn&#8217;t.</p>
+<p>So if you really want to do declarative programming nicely, you have two options: use a different language (options limited), or pile layer upon layer of abstraction on top of an existing language to make it something that it isn&#8217;t (options many and varied!).</p>
+<p>Which is exactly what we do with JavaScript: all these frameworks and transpilers that we have are really compensating for the fact that vanilla JavaScript is a terribly loose language that needs additional structure and discipline put on top of it to make it something you can work with.</p>
+<p>I do lament that the web &#8211; and that I specifically &#8211; ended up with PHP and JavaScript. And I long to learn Elm (yes, complied to JS) or Ruby or Go or Python instead.</p>
+<p>But I&#8217;m pragmatic too. PHP and JavaScript are the tools I have to work with right now until I learn something new.</p>
+<p>Don&#8217;t get me wrong. I love that coding is so easy and accessible and these open languages have transformed my life for the better. I&#8217;m also really enjoying Refactoring to Collections and it will transform how I code. And I&#8217;m indebted to and hugely respectful of the open source project creators and maintainers and documenters and book writers that make things like <a href="https://github.com/illuminate/support">illuminate/support</a>, <a href="https://laravel.com/">Laravel</a>, PHP itself, WordPress, Drupal, heck <a href="https://jquery.com/">jQuery</a> and all the JavaScript libraries and frameworks and&nbsp;stuff that makes so many amazing things possible and easy.</p>
+<p>This is just a pedantic, ex-<a href="https://en.wikipedia.org/wiki/SPARK_(programming_language)">SPARK95</a>-coder&#8217;s rant, wishing that we could choose base-level tools and languages that help us write better code in the first place, inspired by <a href="https://jaco.by/2016/08/04/todays-software-is-terrible/">JJJ</a> and the <a href="https://twitter.com/jasonyeojs/status/760456348211433472">guy who (allegedly) couldn&#8217;t deploy an app because Angular had 40,000 files in it</a>.</p>
+<p>It can be better. Software really, doesn&#8217;t have to be terrible.</p>
+</main></body>

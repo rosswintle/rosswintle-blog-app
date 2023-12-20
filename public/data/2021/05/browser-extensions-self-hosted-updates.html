@@ -1,0 +1,99 @@
+<body><header><h1 data-pagefind-meta="title">Browser Extensions: Self-hosted updates</h1></header><main>
+<p>I&#8217;m currently developing a paid-for browser extension that will run on both Firefox and Chrome/Chromium browsers. I&#8217;ll write more about this (very-involved!) process soon.</p>
+
+
+
+<p>But in the last couple of days, I just made the decision to self-host updates for the Firefox version rather than host it on addons.mozilla.org. This post details the steps to do that.</p>
+
+
+
+<h2 class="wp-block-heading">Why?</h2>
+
+
+
+<p>So, I have had a version of Turbo Admin approved for addons.mozilla.org (AMO for short), but they only give two options there:</p>
+
+
+
+<ul><li>Listed &#8211; AMO host the extension and all updates. It&#8217;s publicly listed. Anyone can find and install it from AMO.</li><li>Invisible &#8211; AMO verify and sign the extension, but it&#8217;s not publicly listed, and you self-host the extension and all updates to it.</li></ul>
+
+
+
+<p>I really want a third option:</p>
+
+
+
+<ul><li>Unlisted &#8211; AMO host the extension and all updates but it&#8217;s NOT publicly listed, people have to have the link to install it.</li></ul>
+
+
+
+<p>This is an option that the Chrome Web Store gives you.</p>
+
+
+
+<p>I guess there are some advantages to being on AMO. It could be a marketing and discovery channel. But I feel like finding my extension and immediately seeing that you have to pay for it could be frustrating for users. The AMO listing can show that &#8220;Some features may require payment&#8221; but I&#8217;d just rather people took a different journey to purchase.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://rosswintle.uk/wp-content/uploads/2021/05/CleanShot-2021-05-31-at-09.26.15@2x-1024x296.png" alt="Turbo Admin - AMO - Some features may require payment" class="wp-image-10248" width="769" height="222" srcset="https://rosswintle.uk/wp-content/uploads/2021/05/CleanShot-2021-05-31-at-09.26.15@2x-1024x296.png 1024w, https://rosswintle.uk/wp-content/uploads/2021/05/CleanShot-2021-05-31-at-09.26.15@2x-300x87.png 300w, https://rosswintle.uk/wp-content/uploads/2021/05/CleanShot-2021-05-31-at-09.26.15@2x-768x222.png 768w, https://rosswintle.uk/wp-content/uploads/2021/05/CleanShot-2021-05-31-at-09.26.15@2x-1536x444.png 1536w, https://rosswintle.uk/wp-content/uploads/2021/05/CleanShot-2021-05-31-at-09.26.15@2x.png 1756w" sizes="(max-width: 769px) 100vw, 769px" /></figure></div>
+
+
+
+<h2 class="wp-block-heading">Documentation</h2>
+
+
+
+<p>I&#8217;ve completely skipped the whole process of making and bundling the extension. Maybe I&#8217;ll write about that another time. So let&#8217;s get straight to self-hosting.</p>
+
+
+
+<p>The official docs for self-hosting are actually pretty good. Main links are:</p>
+
+
+
+<ul><li><a href="https://extensionworkshop.com/documentation/publish/submitting-an-add-on/#self-distribution">Extension Workshop &#8211; Self Distribution</a></li><li><a href="https://extensionworkshop.com/documentation/manage/updating-your-extension/">Extension Workshop &#8211; Updating your Extension</a></li></ul>
+
+
+
+<p>Follow those and you should be OK. Other than deciding WHERE to host the extension packages and <code>updates.json</code> it&#8217;s not too hard, but there are a few steps, which I&#8217;ll outline.</p>
+
+
+
+<h2 class="wp-block-heading">Self-hosting steps</h2>
+
+
+
+<p>The main steps (and my tips along the way) are:</p>
+
+
+
+<ul><li>Bump the version number in <code>manifest.json</code>, <code>package.json</code> and anywhere else that you need to. </li><li>Sign the addon and create the xpi. I use the <code>web-ext</code> command-line tool to do this, but you can upload a zip file to Mozilla too. And I have some excluded files that I put in a <code>web-ext-config.js</code> file.</li></ul>
+
+
+
+<p><code>web-ext sign --api-key="user:XXXXXXXX" --api-secret="&lt;api_key"&gt;</code></p>
+
+
+
+<ul><li>With the CLI tool, this will create the signed xpi file in <code>/web-ext-artifacts</code> (or wherever you specify)</li><li>Create the SHA256 hash of this using (on MacOS):</li></ul>
+
+
+
+<p><code>shasum -a 256 web-ext-artifacts/&lt;plugin-name>-&lt;version>-an+fx.xpi</code></p>
+
+
+
+<ul><li>Add the new version and hash to your <code>updates.json</code>. You&#8217;ll need to host this somewhere too. It&#8217;s a good idea to validate the JSON formatting before uploading.</li><li>Upload the <code>.xpi</code> and <code>updates.json</code> to wherever you are hosting them.</li><li>Test an update (you might want to go to about:config and set <code>extensions.update.interval</code> to <code>120</code> for a two-minute check. Note that you can see console messages about update checks in Firefox, Tools -> Browser Tools -> Browser Console)</li></ul>
+
+
+
+<h2 class="wp-block-heading">Automation</h2>
+
+
+
+<p>A lot of this process is ripe for automation. I&#8217;m add this later. Might be a good opportunity to try out GitHub Actions in more depth!</p>
+
+
+
+<p>Let me know if you know of any existing automations for this stuff. I&#8217;ve not even searched yet!</p>
+</main></body>

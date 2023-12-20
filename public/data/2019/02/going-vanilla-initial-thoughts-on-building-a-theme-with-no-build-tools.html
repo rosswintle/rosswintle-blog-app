@@ -1,0 +1,75 @@
+<body><header><h1 data-pagefind-meta="title">Going Vanilla &#8211; initial thoughts on building a theme with no build tools</h1></header><main>
+<p>I&#8217;ve become pretty fed up with using build tools for small web projects. So I&#8217;m attempting to build a WordPress theme with no build tool using only &#8220;vanilla&#8221; CSS and JS. Here&#8217;s some initial thoughts I&#8217;ve had after getting started.</p>
+
+
+
+<h3 class="wp-block-heading">What are you doing and why?</h3>
+
+
+
+<p>I&#8217;m attempting to build a new custom theme for my own blog (yes, this one you are reading), and I&#8217;m doing it with no npm, grunt, gulp, parcel.js, or anything. It&#8217;s zero config because there&#8217;s nothing to configure.</p>
+
+
+
+<p>I&#8217;m starting with the <a href="http://underscores.me/">_s</a> (&#8220;<a href="http://underscores.me/">Underscores</a>&#8220;) starter theme, just to get me off the starting blocks with something, but with the &#8220;SASSify&#8221; option turned off.</p>
+
+
+
+<p>I&#8217;m actually basing it on my own fork of Underscores that I&#8217;ve called oiko_s &#8211; this previously had a simple webpack setup added with SASS, Babel transpilation, LiveReload and so on.</p>
+
+
+
+<p>But actually, as I mention in <a href="https://rosswintle.uk/2019/01/my-new-css-framework-sucss/">my post about my silly SUCSS idea</a>, I&#8217;m wondering if modern CSS and JS that now has good browser support (CSS variables, HTTP2, ES6, etc) allows us to write good, clean front-end code for small projects with no build process at all.</p>
+
+
+
+<h3 class="wp-block-heading">What have you found so far?</h3>
+
+
+
+<p>Well, I&#8217;m PROBABLY figuring out why people build frameworks. A few things have come up, even in the very early days of working like this, that make me think it won&#8217;t work. But I also have some optimism that I can make this work.</p>
+
+
+
+<h4 class="wp-block-heading">A large, single CSS file is hard to work with</h4>
+
+
+
+<p>I should really have seen this coming, but Underscores without SASS has one big CSS file and this is hard to work with.  It has sections and a table of contents, but it feels like it needs to be properly broken down OR that some conventions or editor/IDE tool is needed to help efficiently navigate it.</p>
+
+
+
+<p>I&#8217;ve also considered that HTTP2 (you&#8217;re all using HTTPS and HTTP2, right?) is much more efficient at downloading lots of small files, so maybe I can just break it up into lots of smaller files and use a loop in my PHP to inject them into the HTML? I could even defer loading of non-critical CSS more easily this way. Hmm&#8230;</p>
+
+
+
+<h4 class="wp-block-heading">Live-reloaders are nice</h4>
+
+
+
+<p>Yeah, I&#8217;m missing this. I think I can do it using BrowserSync proxying or something that I can run from npm globally, rather than having it local. There will be a way. But I&#8217;m without it for now.</p>
+
+
+
+<h4 class="wp-block-heading">Internet Explorer</h4>
+
+
+
+<p>Yes, I would really like to support IE11 if I can. There are polyfills of sorts for some things I will probably use, but without them the site will NOT look right. CSS variables in particular are an issue.</p>
+
+
+
+<p>And I find myself wondering if I should but a notice up saying &#8220;You&#8217;re not getting the best experience in IE&#8221; or something. Don&#8217;t people rally against this? Or is this an acceptable kind of notice to display these days, especially if you&#8217;re working WITH modern web standards, not against them.</p>
+
+
+
+<h3 class="wp-block-heading">Forging ahead</h3>
+
+
+
+<p>So, I&#8217;ve made a start, and I&#8217;m happy with how it is. There are issues to sort out and things need to be done to improve the workflow. But I&#8217;m happy with the direction.</p>
+
+
+
+<p>Watch this space for more!</p>
+</main></body>

@@ -1,0 +1,47 @@
+<body><header><h1 data-pagefind-meta="title">Custom WooCommerce Checkout Fields</h1></header><main>
+<p>I have a confession: despite being a WordPress developer since 2010, I&#8217;ve rarely used WooCommerce! Where I have I&#8217;ve only done the very basics. And now I&#8217;m knee deep in a custom WooCommerce project with a lot to figure out.</p>
+
+
+
+<p>Creating custom fields on the checkout was a particular area of confusion. Here&#8217;s what I needed:</p>
+
+
+
+<ul><li>A bunch of custom fields&#8230;</li><li>with conditional logic (i.e. some fields are only sometimes visible depending on values of other fields)&#8230;</li><li>that save in the order (and get displayed in the back-end order screen, and, potentially, in emails)&#8230;</li><li>and that can be passed to MailChimp &#8211; again, conditionally, based on the values of some fields.</li></ul>
+
+
+
+<p>The logic is something like:</p>
+
+
+
+<ul><li>Ask if a user is over 18.</li><li>If they are collect their year of birth and send it to MailChimp as part of the ordering process.</li><li>If they aren&#8217;t collect their date of birth, and only let them order if they are over 13, and send the date of birth to MailChimp as part of the ordering process.</li></ul>
+
+
+
+<p>Initially I was thinking that I could do this with some custom fields plugin maybe? But I consulted with some expert friends and they encouraged me to code this myself. Which, for this application with two interacting integrations (custom fields and MailChimp) and the conditional logic and stuff was probably a good idea. Bullying off-the-shelf plugins into doing this was never going to work.</p>
+
+
+
+<p>It turns out that WooCommerce has <a href="https://docs.woocommerce.com/document/tutorial-customising-checkout-fields-using-actions-and-filters/">a pretty good guide</a> to doing most of this. And they have REALLY EXTENSIVE <a href="https://docs.woocommerce.com/document/introduction-to-hooks-actions-and-filters/">action and filter hooks</a> &#8211; so much so that it&#8217;s hard to know what you should be hooking into.</p>
+
+
+
+<p>There was one thing that tripped me up along the way though. I was trying to write some JavaScript to work on some markup that was added with the <code>woocommerce_checkout_before_terms_and_conditions</code> hook, just above the button to make the purchase.</p>
+
+
+
+<p>Any event handlers added to input in this area were inactive. It was like WooCommerce was removing them or intercepting them somehow, and despite <a href="https://github.com/woocommerce/woocommerce/blob/4dd42309315b8938beb47b3e877d0ae8dc56db83/assets/js/frontend/checkout.js#L247">source-diving</a> a little I&#8217;ve still not quite figured out what it was doing.</p>
+
+
+
+<p>I think that every time the cart updates via AJAX on the checkout page, the HTML elements are re-created. And there is an update when the page first loads. So any event handlers I added during page initialisation were immediately overridden or remvoed.</p>
+
+
+
+<p>The solution was to add my event handlers when the <code>updated_checkout</code> event fired in JavaScript. This ensured that after the checkout update, my handlers were added to the elements.</p>
+
+
+
+<p>Phew!</p>
+</main></body>

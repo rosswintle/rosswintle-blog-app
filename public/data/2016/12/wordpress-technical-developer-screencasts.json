@@ -1,0 +1,240 @@
+{
+    "id": 2478,
+    "date": "2016-12-21T22:21:02",
+    "date_gmt": "2016-12-21T22:21:02",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=2478"
+    },
+    "modified": "2016-12-21T22:29:12",
+    "modified_gmt": "2016-12-21T22:29:12",
+    "slug": "wordpress-technical-developer-screencasts",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/",
+    "title": {
+        "rendered": "Forays into WordPress Technical Developer Screencasts"
+    },
+    "content": {
+        "rendered": "<p>For a long time, many people told me &#8220;you should be a teacher&#8221;. And, I confess, I actually love the idea of teaching people &#8211; but only really if I can\u00a0teach people who want to learn. \u00a0Regular teachers have to teach even those who don&#8217;t want to learn &#8211; and they have my utmost respect because of it (seriously&#8230;school teachers: you have so much respect here!).<\/p>\n<p>So I guess my forays into public speaking at meetups and conferences this year have been a stab at some kind of teaching. But I also set up a challenge to myself to produce <a href=\"http:\/\/press-ups.com\/about-press-ups\/\">some screencast tutorial videos<\/a>\u00a0back in 2015 (which I gave the cheesy name &#8220;<a href=\"http:\/\/press-ups.com\/\">Press Ups<\/a>&#8220;), and that was useful both as a resource to share with others, and as an exercise for myself in creating such things.<\/p>\n<p>More recently I have, myself, been learning a LOT from screencast tutorials from Jefferey Way&#8217;s <a href=\"https:\/\/laracasts.com\/\">Laracasts<\/a>\u00a0and Wes Bos&#8217;s many <a href=\"http:\/\/wesbos.com\/courses\/\">JavaScript courses<\/a>.<\/p>\n<p>So when my attendance at <a href=\"http:\/\/wpbristol.co.uk\/\">my local WordPress meetup<\/a> started to wain due to family commitments and health issues, I started wondering\u00a0if I could contribute answers to questions that had come up at the meetup, in the form of videos.<\/p>\n<p>So I&#8217;ve had a go at that. First, an attempt at answering the question &#8220;What&#8217;s the difference between WP_Query, query_posts, and get_posts?&#8221;<\/p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"VR2C5AHIQr\"><p><a href=\"https:\/\/press-ups.com\/2016\/11\/wordpress-loops-queries-guide-developers\/\">WordPress Loops and Queries &#8211; A guide for developers<\/a><\/p><\/blockquote>\n<p><iframe class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https:\/\/press-ups.com\/2016\/11\/wordpress-loops-queries-guide-developers\/embed\/#?secret=VR2C5AHIQr\" data-secret=\"VR2C5AHIQr\" width=\"600\" height=\"338\" title=\"&#8220;WordPress Loops and Queries &#8211; A guide for developers&#8221; &#8212; Press Ups\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"><\/iframe><\/p>\n<p>And then a follow up where I expand on a technique referenced in the first video that I use for structuring code related to post types:<\/p>\n<blockquote class=\"wp-embedded-content\" data-secret=\"5t3tUCwN2W\"><p><a href=\"https:\/\/press-ups.com\/2016\/12\/keeping-wordpress-post-types-code-clean-simple-classes\/\">Keeping WordPress post types code clean with simple classes<\/a><\/p><\/blockquote>\n<p><iframe class=\"wp-embedded-content\" sandbox=\"allow-scripts\" security=\"restricted\" style=\"position: absolute; clip: rect(1px, 1px, 1px, 1px);\" src=\"https:\/\/press-ups.com\/2016\/12\/keeping-wordpress-post-types-code-clean-simple-classes\/embed\/#?secret=5t3tUCwN2W\" data-secret=\"5t3tUCwN2W\" width=\"600\" height=\"338\" title=\"&#8220;Keeping WordPress post types code clean with simple classes&#8221; &#8212; Press Ups\" frameborder=\"0\" marginwidth=\"0\" marginheight=\"0\" scrolling=\"no\"><\/iframe><\/p>\n<p>I&#8217;ve really enjoyed making these. They&#8217;re not perfect, but I&#8217;ve had positive and constructive feedback on them that I&#8217;ve tried to take to heart. And I hope they are really useful for people out there.<\/p>\n<p>I&#8217;m not about to be the next Jeffrey Way, or Wes Bos, but I do enjoy making these and have a setup for making them that is steadily improving. So if you have a technical question that you think I might be able to cover in a tutorial, submit a request on the <a href=\"http:\/\/press-ups.com\/suggest\/\">Press Ups suggestions page<\/a>, grab me in a meetup, or drop me a line <a href=\"https:\/\/twitter.com\/magicroundabout\">on Twitter<\/a>, and I&#8217;ll see if I can help you &#8211; and others &#8211; out. And if you have constructive feedback about any of this, feel free to drop me a line too.<\/p>\n<p>People have stopped saying it of late, but perhaps I should be a teacher after all?<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Perhaps I should be a teacher after all? The whys and hows of my first forays into technical developer screencasts.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 2479,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        187
+    ],
+    "tags": [
+        635,
+        463,
+        636,
+        343,
+        462
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Forays into WordPress Technical Developer Screencasts - Ross Wintle<\/title>\n<meta name=\"description\" content=\"Perhaps I should be a teacher after all? The whys and hows of my first forays into technical developer screencasts.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Forays into WordPress Technical Developer Screencasts - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Perhaps I should be a teacher after all? The whys and hows of my first forays into technical developer screencasts.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2016-12-21T22:21:02+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2016-12-21T22:29:12+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2016\/12\/screencast.png\" \/>\n\t<meta property=\"og:image:width\" content=\"2330\" \/>\n\t<meta property=\"og:image:height\" content=\"1308\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/\",\"url\":\"https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/\",\"name\":\"Forays into WordPress Technical Developer Screencasts - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2016-12-21T22:21:02+00:00\",\"dateModified\":\"2016-12-21T22:29:12+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"description\":\"Perhaps I should be a teacher after all? The whys and hows of my first forays into technical developer screencasts.\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Forays into WordPress Technical Developer Screencasts\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Forays into WordPress Technical Developer Screencasts - Ross Wintle",
+        "description": "Perhaps I should be a teacher after all? The whys and hows of my first forays into technical developer screencasts.",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Forays into WordPress Technical Developer Screencasts - Ross Wintle",
+        "og_description": "Perhaps I should be a teacher after all? The whys and hows of my first forays into technical developer screencasts.",
+        "og_url": "https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2016-12-21T22:21:02+00:00",
+        "article_modified_time": "2016-12-21T22:29:12+00:00",
+        "og_image": [
+            {
+                "width": 2330,
+                "height": 1308,
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2016\/12\/screencast.png",
+                "type": "image\/png"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/",
+                    "url": "https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/",
+                    "name": "Forays into WordPress Technical Developer Screencasts - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2016-12-21T22:21:02+00:00",
+                    "dateModified": "2016-12-21T22:29:12+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "description": "Perhaps I should be a teacher after all? The whys and hows of my first forays into technical developer screencasts.",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2016\/12\/wordpress-technical-developer-screencasts\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Forays into WordPress Technical Developer Screencasts"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2478"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2478"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2478\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 2481,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2478\/revisions\/2481"
+            }
+        ],
+        "wp:featuredmedia": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/2479"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2478"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2478"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2478"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

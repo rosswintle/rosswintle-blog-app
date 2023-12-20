@@ -1,0 +1,229 @@
+{
+    "id": 1715,
+    "date": "2013-12-11T13:45:02",
+    "date_gmt": "2013-12-11T13:45:02",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?p=1715"
+    },
+    "modified": "2013-12-12T10:18:32",
+    "modified_gmt": "2013-12-12T10:18:32",
+    "slug": "treachery-code",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+    "title": {
+        "rendered": "The Treachery of Code"
+    },
+    "content": {
+        "rendered": "<h2>Conversations about Code<\/h2>\n<p>I&#8217;ve had a couple of great conversations lately about coding, languages and teaching people to code. \u00a0The latter conversation was on the back of <a title=\"CodeAcademy\" href=\"http:\/\/www.codecademy.com\/\">CodeAcademy<\/a> launching an <a href=\"http:\/\/www.theguardian.com\/technology\/2013\/dec\/09\/codecademy-hour-of-code-iphone-app\">&#8220;Hour of Code&#8221; app<\/a> that aims to teach the basics of programming to anyone with a smartphone (iOS only at present, I believe, sorry!).<\/p>\n<p>Now, I actually think CodeAcademy is a great resource with a great mission: making learning to code easy! \u00a0But, I think CodeAcademy&#8217;s approach, and in particular, the focus on JavaScript (which is, in my opinion, a bad language to learn to code in), isn&#8217;t great. \u00a0And the app version has some serious flaws.<\/p>\n<p>(I&#8217;m keen to point out at this point that this is <em>opinion<\/em>, and that I have a particular, very formal background in software engineering on which those opinions are based. Other opinions may also be valid!)<\/p>\n<h2>Examples<\/h2>\n<p>To demonstrate these flaws, I had a conversation with someone older than me who&#8217;s done no coding. \u00a0I explained, in very basic terms, a particular aspect of why I dislike JavaScript as a language to learn to code. \u00a0It went something like this.<\/p>\n<p>In coding, there are different types of things. \u00a0There is the number 2, and there is the text representing the number 2.<\/p>\n<p>The number two is written like this:<\/p>\n<p>2<\/p>\n<p>This is actually a number.<\/p>\n<p>Here is another number:<\/p>\n<p>4<\/p>\n<p>You can do maths with numbers. \u00a0So you can add numbers together:<\/p>\n<p>2 + 4 = 6<\/p>\n<p>Now. \u00a0In most programming languages you can also write 2 with quotes around it, like this:<\/p>\n<p>&#8220;2&#8221;<\/p>\n<p>This is not a number. \u00a0This is called a &#8220;string&#8221;. \u00a0<span style=\"line-height: 1.5;\">Strings are just text &#8211; they can contain any symbols: letters, numbers, dollar signs, etc. \u00a0<\/span><\/p>\n<p>It&#8217;s like the old &#8220;Ceci n&#8217;est pas une pipe&#8221; thing. <a title=\"The Treachery of Images - Wikipedia\" href=\"http:\/\/en.wikipedia.org\/wiki\/The_Treachery_of_Images\">Magritte&#8217;s painting of a pipe<\/a>. \u00a0It&#8217;s not actually a pipe, it&#8217;s just a painting of a pipe. \u00a0This is not the number two, it&#8217;s a textual version of the number 2.<\/p>\n<p>We can have a string with a letter in:<\/p>\n<p>&#8220;a&#8221;<\/p>\n<p>Or we can have a string with several letters and\/or numbers:<\/p>\n<p>&#8220;abc123&#8221;<\/p>\n<p>And, conveniently, you can join strings together. \u00a0Oddly, in some languages, you use the + sign to do this:<\/p>\n<p>&#8220;abc&#8221; + &#8220;123&#8221; = &#8220;abc123&#8221;<\/p>\n<p>So. Let&#8217;s do some &#8220;addition&#8221; and see what we get.<\/p>\n<p>2 + 4 = 6<\/p>\n<p>but<\/p>\n<p>&#8220;2&#8221; + &#8220;4&#8221; = &#8220;24&#8221;<\/p>\n<p>remember these have quotes around them and so they are strings, not numbers. \u00a0+ joins them together, rather than adding them. \u00a0So we can also do:<\/p>\n<p>&#8220;2&#8221; + &#8220;a&#8221; = &#8220;2a&#8221;<\/p>\n<p>Hope you&#8217;re still with me.<\/p>\n<p>To the conundrum then. \u00a0What is this?:<\/p>\n<p>2 + &#8220;a&#8221; = ?<\/p>\n<p>When I put this to said older person who has no coding experience he said &#8220;It&#8217;s not allowed&#8221;.<\/p>\n<p>And, in my opinion, he&#8217;s right. \u00a0This shouldn&#8217;t be allowed. It should print an error message and force you to correct it.<\/p>\n<p>There are other opinions. \u00a0Some would say that, clearly, this should be:<\/p>\n<p>2 + &#8220;a&#8221; = &#8220;2a&#8221;<\/p>\n<p>In this case it&#8217;s assumed that the language will convert the number 2 from a number into a string and then do the joining.<\/p>\n<p>But assumptions are bad. \u00a0If you assume that then do you assume the same thing happens with two numbers?<\/p>\n<p>2 + 2 = &#8220;22&#8221; ?<\/p>\n<p>Clearly that&#8217;s an exaggeration, because it&#8217;s so simple. The intention there is clearly to do addition.<\/p>\n<p>But what about something even ever-so-slightly more complex like:<\/p>\n<p>2 + 2 + &#8220;a&#8221; =?<\/p>\n<p>Is this:<\/p>\n<p>2 + 2 + &#8220;a&#8221; = 4 + a = &#8220;4a&#8221;<\/p>\n<p>or<\/p>\n<p>2 + 2 + &#8220;a&#8221; = 2 + &#8220;2a&#8221; = &#8220;22a&#8221;<\/p>\n<p>Note to coders: yes, we can learn something from trying this. We can learn type casting\/coercion, and we can learn operator precedence. My point is that we shouldn&#8217;t have to. \u00a0Code should be clear and meaningful, not ambiguous. \u00a0We should teach people to understand the code that they write, and it&#8217;s much easier to teach that if the code that they write is correct and meaningful.<\/p>\n<p>So it kind of pained me to see an ambiguous example of hugely ambiguous code in CodeAcademy&#8217;s app. \u00a0The image below is a screen shot:<\/p>\n<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06.png\"><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter size-medium wp-image-1716\" alt=\"CodeAcademy App Bad Code\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png\" width=\"200\" height=\"300\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png 200w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06.png 640w\" sizes=\"(max-width: 200px) 100vw, 200px\" \/><\/a><\/p>\n<p>Here&#8217;s the code (I&#8217;ve filled in the minus symbol that is the correct answer to the question):<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&lt;span style=&quot;line-height: 1.5;&quot;&gt;var currentYear = 2013;&lt;\/span&gt;\r\n\r\nvar moonLandingYear = 1969;\r\n\r\nprint(&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;);\r\n\r\n<\/pre>\n<p><span style=\"line-height: 1.5;\">This has introduced an extra concept: the = sign is used to save a value. \u00a0So when you see &#8220;var currentYear = 2013&#8221; that means &#8220;store the value 2013 using the name currentYear&#8221;. \u00a0The code can then get the value 2013 back by asking for currentYear. Note that currentYear and moonLandingYear are numbers, not strings; they are 2013, not &#8220;2013&#8221;.<\/span><\/p>\n<p>Now, this code example isn&#8217;t JavaScript, but it looks a lot like it. The question is, what gets printed? \u00a0What is the result of &#8220;adding&#8221; the combination of strings and numbers:<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n<\/pre>\n<p>Option 1: Assume that the subtract is done first and the resulting number automatically converted to a string and joined with the rest<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 2013 - 1969 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 44 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was 44 years ago&quot;\r\n\r\n<\/pre>\n<p>This seems correct. But is it what the code actually does? \u00a0There&#8217;s another possible interpretation.<\/p>\n<p>Option 2: Assume that we process the + symbols from left to right (as you do in maths), converting numbers to strings as you go:<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 2013 - 1969 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was 2013&quot; - 1969 + &quot; years ago&quot; = ....?\r\n\r\n<\/pre>\n<p>Oh.<\/p>\n<p>Hang on.<\/p>\n<p>We know that the plus sign joins two strings together. \u00a0But what does the minus sign do with a string?<\/p>\n<p>It turns out that not only is this a really bad code example. But if you convert it into actual JavaScript you don&#8217;t get the intended result. You get the rather odd output of &#8220;NaN years ago&#8221;. \u00a0This is because a string minus a number is a special thing called &#8220;Not a Number&#8221;, or &#8220;NaN&#8221; for short.<\/p>\n<p>Here it is in practice:\u00a0<a href=\"http:\/\/jsfiddle.net\/8Xs4Q\/\">http:\/\/jsfiddle.net\/8Xs4Q\/<\/a>\u00a0&#8211; you can click the &#8220;Run&#8221; button at the top as many times as you like to run the code, which is in the bottom-left box, and see what gets printed in the pop-up box.<\/p>\n<h2>Why is this so bad?<\/h2>\n<p>Well, aside from the fact that CodeAcademy&#8217;s examples are broken&#8230;<\/p>\n<p>JavaScript is a neat, easy-to-use, very forgiving language. In some ways it&#8217;s ideal for learning to code because it&#8217;s installed on pretty much everyone&#8217;s PC as part of their web browser. \u00a0Just hit the F12 key, click &#8220;Console&#8221; and you can write JavaScript. And in the right hands it&#8217;s a very powerful language too. I don&#8217;t deny these things.<\/p>\n<p>But!&#8230;it&#8217;s SO easy to write the wrong code in JavaScript. It doesn&#8217;t tell you when you&#8217;ve made a basic error. \u00a0YES, yes you CAN learn by making mistakes and finding out what you did wrong. But is it not better to teach people not to make those mistakes in the first place? \u00a0To use a language that points out your mistakes clearly rather than one which makes assumptions about what you mean and carries on regardless?<\/p>\n<p>Code should be easy to understand, it should communicate the correct meaning to both the computer AND the reader. \u00a0The reader shouldn&#8217;t need a detailed understanding of operator precedence and type coercion to understand what&#8217;s going on in their first ever hour of coding.<\/p>\n<p>I&#8217;m not a perfect coder &#8211; no one is. I don&#8217;t do all the things in code that I think people should do all the time. But real-world projects have contraints that mean sometimes you have to work a bit quicker, deliver something to a deadline or budget.<\/p>\n<p>But I do think we should <em>teach<\/em> people to write code that&#8217;s meaningful and understandable. We should teach people to write code where it&#8217;s clear what the code does, not dependant on assumptions about the language or some deeper understanding. \u00a0It&#8217;s my opinion that neither JavaScript nor CodeAcademy&#8217;s new app are good tools for doing that. \u00a0Which is a shame, because I LOVE the CodeAcademy concept. Heck, if you&#8217;re interested in learning to code, it&#8217;s better than anywhere else to get self-taught. \u00a0Ignore my ranting and <a href=\"http:\/\/codeacademy.com\" target=\"_blank\">go and do something&#8230;errr&#8230;interesting<\/a>?<\/p>\n<p><iframe loading=\"lazy\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/L4p-Osvw3sQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe><\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I think we should teach people to write code that&#8217;s meaningful and understandable.  It&#8217;s my opinion that neither JavaScript nor CodeAcademy&#8217;s new app are good tools for doing that. <\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        24
+    ],
+    "tags": [
+        28,
+        387,
+        464,
+        107,
+        463
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Treachery of Code - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Treachery of Code - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I think we should teach people to write code that&#039;s meaningful and understandable. It&#039;s my opinion that neither JavaScript nor CodeAcademy&#039;s new app are good tools for doing that.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2013-12-11T13:45:02+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2013-12-12T10:18:32+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"7 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\",\"url\":\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\",\"name\":\"The Treachery of Code - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2013-12-11T13:45:02+00:00\",\"dateModified\":\"2013-12-12T10:18:32+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Treachery of Code\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "The Treachery of Code - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "The Treachery of Code - Ross Wintle",
+        "og_description": "I think we should teach people to write code that's meaningful and understandable. It's my opinion that neither JavaScript nor CodeAcademy's new app are good tools for doing that.",
+        "og_url": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2013-12-11T13:45:02+00:00",
+        "article_modified_time": "2013-12-12T10:18:32+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "7 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+                    "url": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+                    "name": "The Treachery of Code - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2013-12-11T13:45:02+00:00",
+                    "dateModified": "2013-12-12T10:18:32+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "The Treachery of Code"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1715"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1715"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 9,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1715\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 1744,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1715\/revisions\/1744"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1715"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1715"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1715"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

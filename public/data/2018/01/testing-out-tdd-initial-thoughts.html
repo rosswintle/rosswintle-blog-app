@@ -1,0 +1,99 @@
+<body><header><h1 data-pagefind-meta="title">Testing out TDD &#8211; initial thoughts</h1></header><main>
+<p><em>TDD is a BIG change of mindset for development. Here&#x27;s my initial thoughts after paddling around in the shallow end for a little bit.﻿</em></p>
+
+
+
+<p>TDD &#8211; Test Driven Development &#8211; has been on my radar for a while. This week, following conversations with friends <a href="http://twitter.com/keiron">Keiron</a> and <a href="https://twitter.com/joelambert">Joe</a>, I decided I&#x27;d try to dig in a little bit in my &quot;spare time&quot; and give it a go on a micro-side-project.</p>
+
+
+
+<p>I&#x27;m signed up to Adam Wathan&#x27;s video course <a href="https://adamwathan.me/test-driven-laravel/">Test Driven Laravel</a> (which, it turns out, is one of the best produced video courses I&#x27;ve taken &#8211; so far at least). So I&#x27;m using that to find out both Adam&#x27;s way of developing with Laravel, and how to use PHPUnit (and all of Laravel&#x27;s helpers) along with it.</p>
+
+
+
+<h2 class="wp-block-heading">Initial Impressions</h2>
+
+
+
+<p>I&#x27;d watched an intro video, and I&#x27;d seen other Laravel videos on TDD, and my initial impression has always been that this looks like a very tedious way of writing code.</p>
+
+
+
+<p>The loop of run test -&gt; determine failure -&gt; write the next bit of code -&gt; run test without any thinking ahead of what you might do next (e.g. I KNOW I have to create a model, migration and controller to make this test pass, so why don&#x27;t I just go ahead and do all of that) has always bothered me slightly.</p>
+
+
+
+<p>But I put this aside on the advice of others to try it out.</p>
+
+
+
+<h2 class="wp-block-heading">Questions as I went</h2>
+
+
+
+<p>I&#x27;ve watched 11 of the videos now &#8211; I&#x27;m just at the stage where we&#x27;re simulating a real data-creation procedure.</p>
+
+
+
+<p>And as I&#x27;ve gone through, I&#x27;ve been trying to apply what I&#x27;ve learned directly to this tiny micro-project I&#x27;ve started.</p>
+
+
+
+<p>A few questions came up for me when I hit data creation that haven&#x27;t been addressed yet, but I suspect will come up in future videos soon. But at the moment they are real questions:</p>
+
+
+
+<ol>
+    <li>How do I test CRSF tokens?</li>
+    <li>How do I check constraints that SHOULD be in the database (but aren&#x27;t yet) such as column uniqueness?</li>
+    <li>And, following on from question 2: if, as I&#x27;m doing the test -&gt; write -&gt; test loop, I have thoughts about what needs to happen in future (e.g. some column in my database will need to have unique values), where do I record those? Should I go off and write some kind of stub of a test that just passes for now?</li>
+</ol>
+
+
+
+<p>You can see that small questions about the specifics of testing lead to bigger ones about the nature of how I should develop.</p>
+
+
+
+<p>I&#x27;m SURE all this will be addressed in the course.  But at the moment, I have a growing list of these kinds of issues.</p>
+
+
+
+<figure class="wp-block-image"><img decoding="async" src="https://rosswintle.uk/wp-content/uploads/2018/01/Screen-Shot-2018-01-24-at-23.05.04.png" alt="Screengrab of lovely green TDD tests" /></figure>
+
+
+
+<h2 class="wp-block-heading">Other thoughts about the TDD process</h2>
+
+
+
+<p>The TDD process has other things about it that need shifts inside my head.</p>
+
+
+
+<p>Other things that have come up:</p>
+
+
+
+<ol>
+    <li>How do I commit this stuff to version control in an orderly fashion? Do I commit the test and the code that makes the test pass at the same time? I wouldn&#x27;t normally commit a whole set of route, controller, model and migration all at once. Is this the way now?</li>
+    <li>It&#x27;s REALLY weird being able to write code that I know works, because the tests pass, but without actually having to visit the pages you&#x27;re creating. But GOOD weird!</li>
+    <li>How do I track all the stubbed-out stuff and work that needs to be done to complete it? Adam, in the videos, is striving to get his tests to green, and he sometimes makes tests pass by creating some incomplete stub. If the development process is being driven by the tests, and the tests are all running OK, then how am I supposed to know that there is more work to do?</li>
+</ol>
+
+
+
+<h2 class="wp-block-heading">Summing up</h2>
+
+
+
+<p>I&#x27;m enjoying this process. I&#x27;m enjoying learning. And Adam&#x27;s course is fantastic. And I REALLY want to get to grips with testing.</p>
+
+
+
+<p>But at the moment, I feel like I&#x27;ve learned enough to be able to ask more and bigger questions. And I&#x27;m concerned that it will take a while to get those bigger questions answered.</p>
+
+
+
+<p>Are you a developer who does TDD? What do you love about it? How did you learn? What questions &#8211; or answers &#8211; do you have?</p>
+</main></body>

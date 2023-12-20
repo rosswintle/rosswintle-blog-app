@@ -1,0 +1,235 @@
+{
+    "id": 254567,
+    "date": "2023-08-19T17:33:25",
+    "date_gmt": "2023-08-19T16:33:25",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=254567"
+    },
+    "modified": "2023-08-19T17:37:52",
+    "modified_gmt": "2023-08-19T16:37:52",
+    "slug": "free-websites-for-side-projects",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/",
+    "title": {
+        "rendered": "FREE WEBSITES!! How I make small, side-project websites for free (pretty much)"
+    },
+    "content": {
+        "rendered": "\n<p>There was a time when a new web-based side project was a case of buying a domain, firing up a WordPress instance, wading through installs of a bunch of plugins and maybe a page builder theme. But this was slow and, in many cases, bloated, and could get expensive with domain and hosting costs. In many cases it was way more than I actually needed.<\/p>\n\n\n\n<p>I now have a process that gets me small, fast, side-project websites for virtually zero cost.<\/p>\n\n\n\n<p>This week I quickly spun up <a href=\"https:\/\/ev-tools.veryuseful.app\/\">EV Tools<\/a> for me to do some calculations while I was in Europe. Zero cost. Just the coding. So easy. Kick-ass performance scores. Automated deployment from Git. What&#8217;s not to like?<\/p>\n\n\n\n<p>This method is not for the everyday web user, as you will see. But if you do web dev, there may be some stuff here that&#8217;s an &#8220;Aha!&#8221; moment for you.<\/p>\n\n\n\n<p>Let&#8217;s see how it works&#8230;<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The Stack<\/h2>\n\n\n\n<p>Essentially the not-so-secret sauce here is:<\/p>\n\n\n\n<ul>\n<li>A simple static site generator (I made <a href=\"https:\/\/rosswintle.uk\/2021\/12\/hang-on-php-is-a-static-site-generator\/\">my own in PHP<\/a>, but you can choose your own tech)<\/li>\n\n\n\n<li>Some neat domains that I make sub-domains from (free side-project domains FTW!!)<\/li>\n\n\n\n<li><a href=\"https:\/\/pages.cloudflare.com\/\">Cloudflare Pages<\/a> or <a href=\"https:\/\/www.netlify.com\/\">Netlify<\/a> (or <a href=\"https:\/\/pages.github.com\/\">GitHub pages<\/a>) for hosting<\/li>\n<\/ul>\n\n\n\n<p>In addition I have a <a href=\"https:\/\/github.com\/rosswintle\/small-site-template\/tree\/main\">starter template<\/a> that includes TailwindCSS, Tailwind Forms and Typography plugins and <a href=\"https:\/\/alpinejs.dev\/\">AlpineJS<\/a> for JavaScript sprinkles. I happen to own a license for TailwindUI too if I need something more fancy, as I&#8217;m NOT a designer.<\/p>\n\n\n\n<p>For those domains I put subdomains on? I happen to own <code>veryuseful.app<\/code> (which has <a href=\"https:\/\/veryuseful.app\/\">a nice index<\/a>, built using this very system, of course!) and <code>forwp.dev<\/code> (which is new and only has one secret project on it at the moment).<\/p>\n\n\n\n<p>If you can find one that works (and with all the new top-level domains like <code>.tools<\/code> and <code>.dev<\/code> and <code>.app<\/code> it&#8217;s not so hard!) then these let you create as many sub-domains as you like, for free!<\/p>\n\n\n\n<p>Sure, they may not have the SEO juice or be so memorable. But the point of these projects is to quickly put something on the web for me, or to share on social media. Not to build a new SaaS or something. So it really doesn&#8217;t matter. And if it does: keep forking our for those domains, or just upgrade later!!<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The Process<\/h2>\n\n\n\n<p>As I said, the process is a bit complicated if you don&#8217;t know what you&#8217;re doing. You&#8217;ll need to do DNS and Git and command-line and hand-code (or copy and paste, or generate with AI) HTML and CSS. You can bolt onto that whatever you like, but that&#8217;s a minimum.<\/p>\n\n\n\n<p>And once you &#8220;get it&#8221;, you can replicate this process pretty quickly. You can probably even automate more of it with CLI tools and APIs.<\/p>\n\n\n\n<p>I won&#8217;t go into <em>how<\/em> to do each step. If you&#8217;re qualified to use this process, you <em>probably<\/em> don&#8217;t need those extra details anyway.<\/p>\n\n\n\n<p>Here&#8217;s the main steps:<\/p>\n\n\n\n<ol>\n<li>Create a new Git repository from <a href=\"https:\/\/github.com\/rosswintle\/small-site-template\/\">my template in GitHub<\/a>.<\/li>\n\n\n\n<li>Clone the new repository locally.<\/li>\n\n\n\n<li>Make some HTML files.<\/li>\n\n\n\n<li>Run the build step (<code>.\/build.sh<\/code>)<\/li>\n\n\n\n<li>Commit everything to Git and push to GitHub<\/li>\n\n\n\n<li>Set up a new Cloudflare Pages project, connect to GitHub if you need to, and deploy the application on a temporary URL (Cloudflare uses <code>&lt;something>.pages.dev<\/code>)\n<ul>\n<li>With my template you need to set the build output directory to &#8220;public&#8221;<\/li>\n<\/ul>\n<\/li>\n\n\n\n<li>Save and deploy the site<\/li>\n\n\n\n<li>Once deployed, you can go and add the custom domain. If you specify a new subdomain of a domain that you own, this will be created and DNS set up for you. It will even create an HTTPS certificate!<\/li>\n<\/ol>\n\n\n\n<p>That&#8217;s it. Now you can edit your HTML\/CSS\/JS files, use the build step when you need to, and a push to GitHub will trigger a deploy. Magic!<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">This new tech is awesome<\/h2>\n\n\n\n<p>So many cool new bits of tech have come together to make this possible.<\/p>\n\n\n\n<p>Modern CSS and JavaScript is amazing. You don&#8217;t need libraries\/frameworks for simple sites.<\/p>\n\n\n\n<p>I pair it with Tailwind because I like that for small projects that I need to revisit from time to time and it&#8217;s proven to be robust and &#8211; crucially for this kind of project &#8211; low on dependencies.<\/p>\n\n\n\n<p>And I use AlpineJS for those reactive JS sprinkles without needing a full-on framework that will go out of date.<\/p>\n\n\n\n<p>&#8220;Jamstack&#8221; hosting gives us static hosting for free.<\/p>\n\n\n\n<p>LetsEncrypt secures the web for us for free with HTTPS.<\/p>\n\n\n\n<p>Subdomains give me unlimited domains (virtually) for free for new small projects.<\/p>\n\n\n\n<p>GitHub hosts the code and pairs with the static hosting to achieve automated deployments with no FTP or anything.<\/p>\n\n\n\n<p>I also use <a href=\"https:\/\/usefathom.com\/ref\/SVE71E\">Fathom Analytics<\/a> on some sites. This is not free, but as long as they remain low-traffic I get 100,000 page views a month spread across up to 50 sites. This lets me get some idea of who is coming and from where without the need for faffy cookie banners or privacy policies.<\/p>\n\n\n\n<p>WHAT AN AMAZING WORLD WE LIVE IN that we have access to all this at low cost so we can tinker and play and create as web people!?<\/p>\n\n\n\n<p>And if you&#8217;re curious, here&#8217;s some sites that I use some of all of this technique on:<\/p>\n\n\n\n<ul>\n<li><a href=\"https:\/\/turbo-admin.com\/\">Turbo Admin<\/a><\/li>\n\n\n\n<li><a href=\"https:\/\/ev-tools.veryuseful.app\/\">EV Tools<\/a><\/li>\n\n\n\n<li><a href=\"https:\/\/tweet-finder.veryuseful.app\/\">Tweet Finder<\/a><\/li>\n\n\n\n<li><a href=\"https:\/\/wordlepress.com\/\">WordlePress<\/a><\/li>\n\n\n\n<li><a href=\"https:\/\/caniphp.com\/\">Can I PHP?<\/a><\/li>\n<\/ul>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I now have a process that gets me small, fast, side-project websites for virtually zero cost. Let&#8217;s see how it works&#8230;<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10,
+        23
+    ],
+    "tags": [
+        286,
+        59,
+        64,
+        98,
+        107,
+        5061,
+        181,
+        712
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>FREE WEBSITES!! How I make small, side-project websites for free (pretty much) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"FREE WEBSITES!! How I make small, side-project websites for free (pretty much) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I now have a process that gets me small, fast, side-project websites for virtually zero cost. Let&#039;s see how it works...\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-08-19T16:33:25+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-08-19T16:37:52+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/\",\"name\":\"FREE WEBSITES!! How I make small, side-project websites for free (pretty much) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-08-19T16:33:25+00:00\",\"dateModified\":\"2023-08-19T16:37:52+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"FREE WEBSITES!! How I make small, side-project websites for free (pretty much)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "FREE WEBSITES!! How I make small, side-project websites for free (pretty much) - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "FREE WEBSITES!! How I make small, side-project websites for free (pretty much) - Ross Wintle",
+        "og_description": "I now have a process that gets me small, fast, side-project websites for virtually zero cost. Let's see how it works...",
+        "og_url": "https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2023-08-19T16:33:25+00:00",
+        "article_modified_time": "2023-08-19T16:37:52+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/",
+                    "url": "https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/",
+                    "name": "FREE WEBSITES!! How I make small, side-project websites for free (pretty much) - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2023-08-19T16:33:25+00:00",
+                    "dateModified": "2023-08-19T16:37:52+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "FREE WEBSITES!! How I make small, side-project websites for free (pretty much)"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254567"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=254567"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 3,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254567\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 254571,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254567\/revisions\/254571"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=254567"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=254567"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=254567"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

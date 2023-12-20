@@ -1,0 +1,225 @@
+{
+    "id": 667,
+    "date": "2009-11-21T13:09:33",
+    "date_gmt": "2009-11-21T13:09:33",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?p=667"
+    },
+    "modified": "2009-11-21T13:09:33",
+    "modified_gmt": "2009-11-21T13:09:33",
+    "slug": "notsoeasyhosting-comtricky-css",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/",
+    "title": {
+        "rendered": "notsoeasyhosting.com\/tricky.css"
+    },
+    "content": {
+        "rendered": "<p><a href=\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"alignright size-medium wp-image-668\" title=\"CSS by Aaron Landry http:\/\/flickr.com\/photos\/s4xton\" src=\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\" alt=\"CSS\" width=\"300\" height=\"199\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton-300x199.jpg 300w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><\/a>After a little flurry of activity last Christmas the updating of my web development skills has been slow for most of the rest of the year.<\/p>\n<p>But I&#8217;m currently running&#8230;err&#8230;at least 4 small web-based projects at the moment, so I decided to invest in some web hosting to get some prototype sites actually up onto the &#8216;net. \u00a0I&#8217;ll probably host this blog there eventually too, with all the benefits and flexibility that come with hosting your own WordPress install.<\/p>\n<p><strong>Internet Reviews<\/strong><\/p>\n<p>Now, I have another post in my head titled &#8220;How to do an Internet Review&#8221;; maybe that&#8217;s for another day, but the premise will be that internet reviews of anything are either by people who are so completely in awe of the product that it&#8217;s worth 5 stars, or people who&#8217;ve had a problem and therefore thing it&#8217;s the worst thing in the world and so worth zero stars and lots of use of the words &#8220;suck&#8221;, &#8220;sucks&#8221; and &#8220;sucky&#8221;. \u00a0Such reviews have made objectively choosing a host difficult.<\/p>\n<p><strong>Hosting Requirements and Recommendations<\/strong><\/p>\n<p>My requirements for a web host are basically that I need lots of php, domain name, and MySQL flexibility at low cost and, preferably, on a month-by-month contract while I try things out. \u00a0I can see the benefits of having limits on storage and data transfer &#8211; this will put off people who just want to waste server resources and probably make for a speedier service.<\/p>\n<p>I also really wanted a UK-based host &#8211; because it would make for localised support and less trans-atlantic lag, while helping out the UK economy (a LITTLE!!)<\/p>\n<p>With internet reviews being mostly very unhelpful I Tweeted for recommendations and was surprised to only get one. \u00a0But the company looked good, met the requirements and allowed me to sign up for a month at a time.<\/p>\n<p><strong>DNS woes<\/strong><\/p>\n<p>Once up and running I then had to delve into the world of DNS, subdomains, add-on domains, CNAMEs, MX records, virtual hosts, domain transfers, and&#8230;err&#8230;other stuff. \u00a0I know about all this, but it&#8217;s been a while since I practically did anything with it, so it took a bit of refreshing. \u00a0Plus, you&#8217;re playing with the real live internet when you&#8217;re doing this and I didn&#8217;t want people&#8217;s email and websites going off line, so I was doing things cautiously.<\/p>\n<p>I think it&#8217;s worked out that I understand things better then the hosting company&#8217;s support team &#8211; who are quick but don&#8217;t seem to really read what I&#8217;ve asked of them and understand my problem. \u00a0It&#8217;s been difficult to convince them of what needs to happen, but I think we&#8217;re getting there. \u00a0Currently the host does NEARLY all that I need it to, but not quite. \u00a0If their support team can turn around adding me a new domain that&#8217;s hosted with them but DNS-managed elsewhere then I&#8217;ll be happy.<\/p>\n<p><strong>CSS complications<\/strong><\/p>\n<p>With that all sorted I could turn to doing some web-page mock-ups for one of my apps. \u00a0I&#8217;ve moved on a bit from when I was <a title=\"Debugging the Borders\" href=\"https:\/\/rosswintle.uk\/2009\/02\/12\/debugging-the-borders\/\" target=\"_self\">Debugging the Borders<\/a>, but I still find CSS awkward to use.<\/p>\n<p>When I was a software engineer we used to say that the engineering principles were the key skill and that languages were like tools. \u00a0What&#8217;s important for a woodworker is knowing how to build things out of wood. \u00a0What type of plane or screwdriver you use is almost irrelevant. \u00a0And to a well-trained software engineer a new language is like a new type of screwdriver, it&#8217;s a tool that you use to apply the engineering principles and can be learned and applied quickly.<\/p>\n<p>However, as I previously wrote, HTML and CSS aren&#8217;t really\u00a0programming languages and so don&#8217;t fit with an existing paradigm in my head. \u00a0It&#8217;s not just another type of screwdriver &#8211; it requires learning a new set of principles and practices.<\/p>\n<p>In the past I&#8217;ve just applied what little CSS I know in a fairly unstructured fashion. \u00a0But what I really need to do is learn CSS from first principles and see it applied by others to get to grips with it. \u00a0I need to understand &#8220;non-replaced elements&#8221;, &#8220;block-level layouts&#8221; and &#8220;selectors&#8221; and how these, and other things, fit together in &#8220;the cascade&#8221;.<\/p>\n<p>In the meantime, does anyone know how to left-align text in a centre-aligned box?<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I&#8217;m currently running&#8230;err&#8230;at least 4 small web-based projects at the moment, so I&#8217;m getting to grips with Hosting, DNS and CSS again.<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "aside",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        59,
+        64,
+        98,
+        131,
+        181
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>notsoeasyhosting.com\/tricky.css - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"notsoeasyhosting.com\/tricky.css - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m currently running...err...at least 4 small web-based projects at the moment, so I&#039;m getting to grips with Hosting, DNS and CSS again.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2009-11-21T13:09:33+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\",\"url\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\",\"name\":\"notsoeasyhosting.com\/tricky.css - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-11-21T13:09:33+00:00\",\"dateModified\":\"2009-11-21T13:09:33+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"notsoeasyhosting.com\/tricky.css\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "notsoeasyhosting.com\/tricky.css - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "notsoeasyhosting.com\/tricky.css - Ross Wintle",
+        "og_description": "I'm currently running...err...at least 4 small web-based projects at the moment, so I'm getting to grips with Hosting, DNS and CSS again.",
+        "og_url": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2009-11-21T13:09:33+00:00",
+        "og_image": [
+            {
+                "url": "http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/",
+                    "url": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/",
+                    "name": "notsoeasyhosting.com\/tricky.css - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2009-11-21T13:09:33+00:00",
+                    "dateModified": "2009-11-21T13:09:33+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "notsoeasyhosting.com\/tricky.css"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/667"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=667"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 0,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/667\/revisions"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=667"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=667"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=667"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

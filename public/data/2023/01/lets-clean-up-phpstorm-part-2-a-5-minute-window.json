@@ -1,0 +1,225 @@
+{
+    "id": 11605,
+    "date": "2023-01-16T12:00:00",
+    "date_gmt": "2023-01-16T12:00:00",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=11605"
+    },
+    "modified": "2023-01-16T22:51:51",
+    "modified_gmt": "2023-01-16T22:51:51",
+    "slug": "lets-clean-up-phpstorm-part-2-a-5-minute-window",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/",
+    "title": {
+        "rendered": "Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window"
+    },
+    "content": {
+        "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Tidying up PHPStorm pt 2 - A 5 Minute Window\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/EO65ypDl4wg?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>Today I&#8217;ll finish cleaning up PHP Storm:<\/p>\n\n\n\n<p>Here&#8217;s the list of remaining tasks:<\/p>\n\n\n\n<ul>\n<li>Browser icons bar (only shows in some files)<\/li>\n<\/ul>\n\n\n\n<p>There&#8217;s this browser icons bar that shows up in some file types. Let&#8217;s see\u2026<\/p>\n\n\n\n<p>Let&#8217;s turn that off. It&#8217;s annoying.<\/p>\n\n\n\n<p>That&#8217;s better!<\/p>\n\n\n\n<ul>\n<li>Error bar (hover, three dots)<\/li>\n<\/ul>\n\n\n\n<p>There&#8217;s also this error bar. It&#8217;s difficult to hide. Do this\u2026<\/p>\n\n\n\n<p>That&#8217;s better &#8211; errors are shown inline and in the scroll bar anyway.<\/p>\n\n\n\n<ul>\n<li>Navigation bars &#8211; delete items<\/li>\n<\/ul>\n\n\n\n<p>You can clean up the navigation bars as you like.<\/p>\n\n\n\n<p>Do what you like with that!<\/p>\n\n\n\n<ul>\n<li>Status bar &#8211; delete items<\/li>\n<\/ul>\n\n\n\n<p>The bottom bar is easier to delete from\u2026<\/p>\n\n\n\n<p>Better &#8211; only what I need.<\/p>\n\n\n\n<ul>\n<li>Material Atom Icons<\/li>\n<\/ul>\n\n\n\n<p>Let&#8217;s install the Material Icons too &#8211; they&#8217;re colourful!<\/p>\n\n\n\n<ul>\n<li>Select &#8220;Light&#8221; theme (not in Material settings) to get dark title bar<\/li>\n<\/ul>\n\n\n\n<p>Finally, I like a light theme with a dark title bar\u2026<\/p>\n\n\n\n<p>I think you need to restart for the title bar\u2026<\/p>\n\n\n\n<p>Oh\u2026<\/p>\n\n\n\n<p>There we go. It&#8217;s just called &#8220;Light&#8221;<\/p>\n\n\n\n<p>And we&#8217;re done!<\/p>\n\n\n\n<p>Oh! Font sizes!!<\/p>\n\n\n\n<p>Settings for this are all over the place. Let&#8217;s do some\u2026<\/p>\n\n\n\n<p>I&#8217;m old. My eyes are failing me. What can I say?! \ud83d\ude42<\/p>\n\n\n\n<p>What do you think? Do I look good like this?<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Today I&#8217;ll finish cleaning up PHP Storm<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        5175
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Today I&#039;ll finish cleaning up PHP Storm\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-01-16T12:00:00+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-01-16T22:51:51+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/\",\"name\":\"Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-01-16T12:00:00+00:00\",\"dateModified\":\"2023-01-16T22:51:51+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window - Ross Wintle",
+        "og_description": "Today I'll finish cleaning up PHP Storm",
+        "og_url": "https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2023-01-16T12:00:00+00:00",
+        "article_modified_time": "2023-01-16T22:51:51+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/",
+                    "url": "https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/",
+                    "name": "Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2023-01-16T12:00:00+00:00",
+                    "dateModified": "2023-01-16T22:51:51+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/01\/lets-clean-up-phpstorm-part-2-a-5-minute-window\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Let\u2019s Clean Up PHPStorm Part 2 \u2013 A 5 Minute Window"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11605"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11605"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11605\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 11609,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11605\/revisions\/11609"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11605"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11605"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11605"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

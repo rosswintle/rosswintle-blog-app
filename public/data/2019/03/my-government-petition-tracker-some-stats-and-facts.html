@@ -1,0 +1,43 @@
+<body><header><h1 data-pagefind-meta="title">My Government Petition Tracker: Some stats and facts</h1></header><main>
+<p>So my government petition tracker has been pretty heavily used in the last couple of days. I thought it was worth putting together a little article on how it works and how it&#8217;s handling being (a little bit) busy.</p>
+
+
+
+<h2 class="wp-block-heading">How it&#8217;s made</h2>
+
+
+
+<ul><li>The tool is built with Laravel on PHP and MySQL</li><li>It has no login or back-end as such</li><li>It uses the government petition site&#8217;s JSON API: you can stick &#8216;.json&#8217; on the end of a URL and get a snapshot of the current count and the current counts by geographic region</li><li>The system only collects data for petitions it knows about. You have to tell it to collect data for a specific petition. It does not collect data for all petitions.</li><li>For each petition, the system collects the count data every 5 minutes (if it can! the goverenment&#8217;s system has been struggling this week)</li><li>I only store the global count and a &#8220;delta&#8221; &#8211; the different between the current point and the precious point, to get an idea of growth rate</li><li>The delta&#8217;s are a bit rubbish. I should average them out over the time since the last count was collected. It&#8217;s on my list!</li><li>It runs on a $10 Digital Ocean droplet/VPS alongside a few other side projects of mine.</li><li>I deploy using Git and <a href="https://forge.laravel.com/">Laravel Forge</a></li></ul>
+
+
+
+<h3 class="wp-block-heading">How&#8217;s it doing?</h3>
+
+
+
+<p>Well, unlike the government site, it has stayed up! And it&#8217;s been performing fine. It&#8217;s not had HUGE traffic, but&#8230;well&#8230;here&#8217;s some stats. Bear in mind that I use <a href="https://blog.kownter.com/">my own very simple privacy-aware analytics</a>, so numbers are helpful but won&#8217;t be the kind of super-accurate stuff you get from more sophisticated analytics tools:</p>
+
+
+
+<ul><li>The petition tracker has had 22,500 page views in the last 24 hours (to 09:45 on Friday 22nd)</li><li>It&#8217;s only had 30,100 page views in the last year, so 75% of the year&#8217;s traffic has been in the last 24 hours.</li><li>The server peaked at 36.14% CPU and has averaged about 15% throughout the day</li><li>Memory usage is pretty flat</li></ul>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="677" src="https://rosswintle.uk/wp-content/uploads/2019/03/Screenshot-2019-03-22-at-09.50.50-1024x677.png" alt="" class="wp-image-4706" srcset="https://rosswintle.uk/wp-content/uploads/2019/03/Screenshot-2019-03-22-at-09.50.50-1024x677.png 1024w, https://rosswintle.uk/wp-content/uploads/2019/03/Screenshot-2019-03-22-at-09.50.50-300x198.png 300w, https://rosswintle.uk/wp-content/uploads/2019/03/Screenshot-2019-03-22-at-09.50.50-768x507.png 768w, https://rosswintle.uk/wp-content/uploads/2019/03/Screenshot-2019-03-22-at-09.50.50.png 1704w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Charts of server utilisation over last 24 hours</figcaption></figure>
+
+
+
+<p>And this despite me not really having any caching in place.</p>
+
+
+
+<p>OK, so I&#8217;m getting 1,000&#8217;s views per day rather than per minute, but I&#8217;m pretty happy with this.</p>
+
+
+
+<p>Though I am a bit scared that a retweet from the <del>wrong</del>right person could take the thing down!</p>
+
+
+
+<p>Let&#8217;s see how today goes!</p>
+</main></body>

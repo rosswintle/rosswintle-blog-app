@@ -1,0 +1,32 @@
+<body><header><h1 data-pagefind-meta="title">Tools of the Trade</h1></header><main><p>Learning all this new software development stuff is all well and good, but at some point you actually have to develop something.  And developing a computer program of any size, like any engineering trade, requires some tools and some planning.</p>
+<p>One of my main applications of what I&#8217;m learning is to a database that I maintain at work.  This is currently running on a Windows server with MS SQL as the database and MS IIS (Internet Information Service?) as the web server.</p>
+<p>This is all well and good, but it&#8217;s not an environment I can easily and cheaply re-create for testing and development purposes, and some of my code is not portable between databases.  (I&#8217;ve made a good attempt at adding a database abstraction layer, but it&#8217;s not QUITE there).</p>
+<p>So, the natural thing to do is to migrate to Unix, Apache and MySQL, which I can freely and easily deploy pretty much anywhere.  And that&#8217;s what I&#8217;ve been up to this week.</p>
+<h2>I LIKE Windows?</h2>
+<p>I do link Unix.  It&#8217;s a much better server OS than Windows, in my opinon.  But I&#8217;m also a user &#8211; even as a developer &#8211; and Windows IS much more user friendly.</p>
+<p>For example, I&#8217;ve been using NotePad++ as my text editor, which has syntax-highlighting, auto-indentation, auto-completion of words, good handling of multiple files, and a whole host of other lovely things.</p>
+<p>Moving to Unix means moving to Vi or EMACS.  Tools which are great but not simple to learn (do I HAVE to learn to use another tool to do this?!).</p>
+<p>Don&#8217;t get me wrong, I like vi, in a massochistic sort of way, but not for writing a complex software project!</p>
+<h2>Keeping Track</h2>
+<p>I&#8217;m also vaguely aware that this sort of project would be good to have under version control (which I won&#8217;t explain here &#8211; ask if you want to know).</p>
+<p>I used to use CVS in my old job and it was a great help.  If I&#8217;m setting up a development system, making significant code changes, and migrating to a new platform, then a version control system would be a great help.</p>
+<h2>Considering My Options</h2>
+<p>So I need some of the following:</p>
+<ul>
+<li>a nice Unix text editor for my command line/terminal</li>
+<li>a GUI for my Unix system (with a nice GUI text editor)</li>
+<li>a version control system</li>
+</ul>
+<p>Asking around, the text editor of choice with Unix boffins is&#8230;vi!  But I&#8217;m not happy with that.  vim has been suggested as it has syntax-highlighting, split screens, and stuff like that.  Maybe it&#8217;s a nice half-way house.</p>
+<p>I&#8217;ve been playing with getting the X Windowing System to work.  There&#8217;s a free, open source X server called &#8220;X Ming&#8221; which does the job and works prett seamlessly over ssh tunnels, but I&#8217;ve found setting up the client side (which is actually on the server!) a bit difficult.  Too complicated.  And I&#8217;d probably only end up using xvim, which would probably only be a three-quarters-way house.</p>
+<h2>Sublime Subversion</h2>
+<p>Version control has been a boon though!  I quickly read the important bits of <a title="the subversion book" href="http://svnbook.red-bean.com/" target="_blank">the Subversion book</a> and  realised what I&#8217;d been missing.  My vague rememberance of CVS should have spurred me on sooner &#8211; this is REALLY important stuff!</p>
+<p>In minutes (well, OK, hours, but not many) I had a SVN server accessible locally and over SVN and SSH protocols, with my production code on it and with all my development areas, in both Windows and Unix land, using checked-out, version-controlled copies.  Woo hoo!!  I was genuinely excitied &#8211; in a geeky sort of way.</p>
+<h2>Where now?</h2>
+<p>Well, I&#8217;m mostly happy with the set up.  I&#8217;ll probably miss my Windows editors for a while, but I&#8217;m generally content.</p>
+<p>I have a Linux production server, running open-source tools, which I&#8217;ve nearly migrated to.  I have easy and safe access to the code from multiple locations.  I have a reasonably good text editor, with scope for GUI access in the future.  I can bring my code home to develop.  And I can easily and cheaply set up a test or development environment if I need to.</p>
+<p>It&#8217;s a whole world better than the old Microsoft one!  And I&#8217;ve learned some good stuff along the way.</p>
+<p>Now&#8230;the tools are in place&#8230;time to apply my new HTML, JavaScript, CSS, PHP, W3C DOM, Apache and MySQL skills to the task!</p>
+<p>Amazingly, I&#8217;m not feeling very confused by this.  Are you?</p>
+<p>[polldaddy poll=1264157]</p>
+</main></body>

@@ -1,0 +1,235 @@
+{
+    "id": 4119,
+    "date": "2018-08-27T23:10:07",
+    "date_gmt": "2018-08-27T22:10:07",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=4119"
+    },
+    "modified": "2018-08-27T23:10:09",
+    "modified_gmt": "2018-08-27T22:10:09",
+    "slug": "blooming-mailchimp-groups-and-gdpr-fields",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+    "title": {
+        "rendered": "Blooming MailChimp Groups and GDPR fields"
+    },
+    "content": {
+        "rendered": "<h3>Because some things on the internet are inexplicably hard to do<\/h3>\n<p>Gosh, what a frustrating afternoon.<\/p>\n<p>This is a case of knowing the individual parts of a task pretty well, but not having put all the parts together in this particular way before.<\/p>\n<p>Today I needed\/wanted to create a simple email sign-up\/opt-in form with:<\/p>\n<ul>\n<li>The excellent Elegant Themes <a href=\"https:\/\/www.elegantthemes.com\/plugins\/bloom\/\">Bloom email sign-up plugin<\/a>\u00a0(though it could have been pretty much any email sign-up plugin)<\/li>\n<li>A regular MailChimp List<\/li>\n<li>MailChimp groups<\/li>\n<li>MailChimp&#8217;s new GDPR fields<\/li>\n<li>and when I got stuck, <a href=\"http:\/\/wpforms.com\/\">WPForms<\/a> too.<\/li>\n<\/ul>\n<p>I reckon I&#8217;ve combined two of these things together in several different combinations. And I&#8217;m pretty sure I&#8217;ve done one specific combination of three of them. But never more than that.<\/p>\n<p>And I needed at least four of them. And the GDPR fields in MailChimp are new and, well, let&#8217;s say they seem to have been shoe-horned in in a bit of a hurry.<\/p>\n<p>Now&#8230;let&#8217;s go down the rabbit hole&#8230;<\/p>\n<p>Bloom integrates with regular MailChimp, but won&#8217;t let you use groups.\u00a0 To do that you need to use a &#8220;custom HTML form&#8221; in the Bloom opt-in which you copy and paste from MailChimp&#8217;s embedded forms section.<\/p>\n<p>The problem with that is that in a pop-up (we have a good case for using a pop-up, it&#8217;s OK!) is that the GDPR text and fields make the form really long and it won&#8217;t fit nicely on a smaller screen.<\/p>\n<p>So I tried reducing the form to just an email input and a button, and then sending that input to a WPForms form using a URL parameter to autocomplete the email field on the &#8220;full&#8221; form. Great! That works really nicely.<\/p>\n<p>Only&#8230;WPForms doesn&#8217;t send the GDPR opt-in fields. Rats! I assume Gravity Forms won&#8217;t do this either.<\/p>\n<p>So maybe, rather than linking the Bloom opt-in to an on-site form, I&#8217;ll link it to an off-site form. That will work!<\/p>\n<p>Only, I want the subscriber to sign up to a specific group, and it turns out that <a href=\"https:\/\/mailchimp.com\/help\/automatically-add-subscribers-to-a-group-at-signup\/\">you sort-of can&#8217;t have a pre-selected group on MailChimps own, hosted forms<\/a>.<\/p>\n<p>So what am I left with? Taking a MailChimp embedded form, sticking it in a WordPress page, editing the HTML of the form to make the required group pre-selected and hiding the group selection from the user and linking my Bloom pop-up to that page.<\/p>\n<p>That&#8217;s pretty gross. But it does work.<\/p>\n<p>I&#8217;m hoping that at some point MailChimp&#8217;s API will work nicer with the GDPR fields. It seems to have the ability to send &#8220;marketing_permissions&#8221; with a new subscriber, but it&#8217;s not clear how you get the ID&#8217;s needed to send. When this does work nicely, hopefully WPForms or Bloom or Gravity Forms will integrate with it and let me do this properly.<\/p>\n<p>For now&#8230;making a simple form requires a humongous kludge.<\/p>\n<p>Welcome to the internet, everybody!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        639
+    ],
+    "tags": [
+        70,
+        103,
+        703,
+        317,
+        462,
+        582
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Blooming MailChimp Groups and GDPR fields - Ross Wintle<\/title>\n<meta name=\"description\" content=\"Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Blooming MailChimp Groups and GDPR fields - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-08-27T22:10:07+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-08-27T22:10:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\",\"name\":\"Blooming MailChimp Groups and GDPR fields - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-08-27T22:10:07+00:00\",\"dateModified\":\"2018-08-27T22:10:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"description\":\"Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blooming MailChimp Groups and GDPR fields\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Blooming MailChimp Groups and GDPR fields - Ross Wintle",
+        "description": "Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Blooming MailChimp Groups and GDPR fields - Ross Wintle",
+        "og_description": "Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f",
+        "og_url": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2018-08-27T22:10:07+00:00",
+        "article_modified_time": "2018-08-27T22:10:09+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+                    "url": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+                    "name": "Blooming MailChimp Groups and GDPR fields - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2018-08-27T22:10:07+00:00",
+                    "dateModified": "2018-08-27T22:10:09+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "description": "Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Blooming MailChimp Groups and GDPR fields"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4119"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4119"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4119\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 4120,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4119\/revisions\/4120"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4119"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4119"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4119"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

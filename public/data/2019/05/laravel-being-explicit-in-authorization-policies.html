@@ -1,0 +1,84 @@
+<body><header><h1 data-pagefind-meta="title">Laravel: Being explicit in authorization policies</h1></header><main>
+<p>I&#8217;m working on a Laravel application right now and I got myself in a bit of a tangle about authorization policies because of an undocumented way of using them.</p>
+
+
+
+<h2 class="wp-block-heading">Overview of policies</h2>
+
+
+
+<p>In Laravel, Policies are a way of specifying who can take particular actions. In this application we are using resource controllers (with typical resource methods like <code>index</code>, <code>create</code>, <code>store</code>, etc) and manually authorizing in the controllers using the controller helper method described in <a href="https://laravel.com/docs/5.8/authorization#via-controller-helpers">the documentation</a>.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+$this-&gt;authorize('create', Post::class);
+</pre></div>
+
+
+<p>or, for methods that require authorization for a particular object/model:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+public function update(Request $request, Post $post)
+{
+    $this-&gt;authorize('update', $post);
+}
+</pre></div>
+
+
+<h2 class="wp-block-heading">The problem</h2>
+
+
+
+<p>The problem I had here is that in the latter example, it&#8217;s kinda unclear which policy is being used. In the first example above it&#8217;s explicit &#8211; we&#8217;re using using the <code>PostPolicy</code> because we passed in <code>Post::class</code> to specify which model we are using.</p>
+
+
+
+<p>In the second example the Policy is not specified &#8211; I&#8217;m guessing that the class of the type-hinted <code>Post</code> is used to determine which policy is called. But it&#8217;s not clear especially when&#8230;</p>
+
+
+
+<h2 class="wp-block-heading">The use case &#8211; and why the problem is a problem</h2>
+
+
+
+<p>In my case I&#8217;m authorizing users to edit users, so my controllers looked like:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+public function update(Request $request, User $user)
+{
+    $this-&gt;authorize('update', $user);
+}
+</pre></div>
+
+
+<p>But then I wanted <a href="https://tighten.co/blog/extending-models-in-eloquent">some child classes</a> of the <code>User</code> model, which look like:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+class SuperAdmin extends User
+{
+    protected $table = 'users';
+}
+</pre></div>
+
+
+<p>Now, if a SuperAdmin is passed to the UserController, which Policy is used? And &#8211; I know I probably shouldn&#8217;t but &#8211; if I wanted to use a specific policy here, what do I do? My only option is to change the type hint, isn&#8217;t it? And I may not want to do that?</p>
+
+
+
+<h2 class="wp-block-heading">The solution!</h2>
+
+
+
+<p>Well, no. It&#8217;s not the only option. It turns out you can pass an array to the <code>authorize</code> helper which seems to let you specify both the object you are trying to authorize for, and a specific class/policy:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+$this-&gt;authorize('update', &#x5B;SuperAdmin::class, $user]);
+</pre></div>
+
+
+<p>So yay! Now, there&#8217;s probably a whole bunch of reasons you wouldn&#8217;t/shouldn&#8217;t do this, but that&#8217;s not the point. I want to remember that you can choose a policy by specifying a class name. And&#8230;job done!</p>
+</main></body>

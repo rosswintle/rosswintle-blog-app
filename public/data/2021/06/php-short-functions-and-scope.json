@@ -1,0 +1,227 @@
+{
+    "id": 10257,
+    "date": "2021-06-02T10:29:50",
+    "date_gmt": "2021-06-02T09:29:50",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=10257"
+    },
+    "modified": "2021-06-02T10:36:24",
+    "modified_gmt": "2021-06-02T09:36:24",
+    "slug": "php-short-functions-and-scope",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/",
+    "title": {
+        "rendered": "PHP Short Functions and Scope"
+    },
+    "content": {
+        "rendered": "\n<p>Yesterday I took an interest in PHP internals looking into <a href=\"https:\/\/twitter.com\/enunomaduro\">@enunomaduro<\/a>&#8216;s RFC for <a href=\"https:\/\/wiki.php.net\/rfc\/auto-capture-closure\">Auto-capturing multi-statement closures<\/a>.<\/p>\n\n\n\n<p>(Have I said before that I loved studying compilers in CS?)<\/p>\n\n\n\n<p>This lead me down some interesting rabbit holes and I wanted to make some notes on what I found.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Short vs Long closures<\/h2>\n\n\n\n<p>There are a two forms of &#8220;closure&#8221; in PHP.<\/p>\n\n\n\n<p>Long closures have the form:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\n$a = &#x5B;1, 2, 3];\n\n$addToArray = function ($item) use ($a) {\n  array_push($a, $item);\n  var_dump($a); \/\/ outputs 1, 2, 3, 4\n};\n\n$addToArray(4);\n<\/pre><\/div>\n\n\n<p>Short closures have the form:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\n$a = &#x5B;1, 2, 3];\n\n$addToArray = fn($item) =&gt; var_dump(array_merge($a, &#x5B;$item])); \/\/ outputs 1,2,3,4\n\n$addToArray(4);\n<\/pre><\/div>\n\n\n<p>Note that short closures (aka &#8220;arrow functions&#8221;):<\/p>\n\n\n\n<ul><li>use <code>fn()<\/code> instead of <code>function()<\/code><\/li><li>&#8220;auto-capture&#8221; the enclosing scope: you don&#8217;t need to include the <code>use()<\/code><\/li><li>can only execute a single <em>expression<\/em>, and this is what is returned from the closure (which I why I had to wrangle the <code>array_merge<\/code> into there)<\/li><\/ul>\n\n\n\n<p>The proposed RFC (which seems to make a lot of sense to me) would allows a multi-line, auto-capturing closure with the syntax:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\n$a = &#x5B;1, 2, 3];\n\n$addToArray = fn ($item) {\n  array_push($a, $item);\n  var_dump($a); \/\/ outputs 1, 2, 3, 4\n};\n\n$addToArray(4);\n<\/pre><\/div>\n\n\n<h2 class=\"wp-block-heading\">All the different functions and their conventions<\/h2>\n\n\n\n<p>There are three different things going on in the different kinds of function definition:<\/p>\n\n\n\n<ol><li><strong>Anonymous vs named functions<\/strong><\/li><\/ol>\n\n\n\n<p>A named function has a name and must be declared before use:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\nfunction addToArray() { ... }\n\naddToArray(...);\n<\/pre><\/div>\n\n\n<p>Whereas an anonymous function has no name. This means that it can be assigned to a variable, as I have done above:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\n$addToArray = function ($item) use ($a) { ... };\n\n$addToArray(...);\n<\/pre><\/div>\n\n\n<p>or it can be used &#8220;inline&#8221;<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\narray_map( function ($item) use($var) { ... }, $someArray );\n<\/pre><\/div>\n\n\n<p><strong>2. Auto-capturing vs non-auto-capturing<\/strong><\/p>\n\n\n\n<p>The short <code>fn()<\/code> syntax is &#8220;auto-capturing&#8221;. This means you don&#8217;t need to use <code>use()<\/code> to import variables from the outer scope.<\/p>\n\n\n\n<p>The longer <code>function()<\/code> syntax is not &#8220;auto-capturing&#8221;. You need to manually import variables from the outer scope using <code>use()<\/code><\/p>\n\n\n\n<p><strong>3. Statement vs expression<\/strong><\/p>\n\n\n\n<p>The statement version is the &#8220;multi-line&#8221; version of a function definition. You use the curly braces to define the statement that the function executes. This may or may not return a value.<\/p>\n\n\n\n<p>The expression is the shorter &#8220;single-line&#8221; version (though the single expression may actually span multiple lines) and always returns the value of the expression.<\/p>\n\n\n\n<p>These three syntax forms allow up to eight different types of function:<\/p>\n\n\n\n<ul><li>Anonymous, auto-capturing statement (which Nuno is proposing)<\/li><li>Anonymous, non-auto-capturing, statement (which exists)<\/li><li>Names, non-auto-capturing, statement (which most people would consider a &#8216;regular&#8217; PHP function)<\/li><li>etc.<\/li><\/ul>\n\n\n\n<p>This is all described in the <a href=\"https:\/\/wiki.php.net\/rfc\/auto-capture-closure#background\">&#8220;Background&#8221; section of the RFC<\/a> along with reasons why some of them may\/should never exist.<\/p>\n\n\n\n<p>Understanding the conventions of <code>fn()<\/code> vs <code>function()<\/code>, and  expression vs statement is really helpful in understanding PHP code and what type of function to write when.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">ONE MORE THING: Scope!<\/h2>\n\n\n\n<p>BUT&#8230; the biggest thing that I learned about PHP closures &#8211; that is all anonymous functions regardless of auto- or non-auto-capturing &#8211; is that the imported variables from the outer scope are imported as VALUES, not REFERENCES&#8230; That is, if you change the value inside the function, the outer scope is not affected:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\n$a = 2;\n$fn = function() use ($a) {\n  $a = $a + 1;\n}\nvar_dump($a); \/\/ outputs 2\n$fn();\nvar_dump($a); \/\/ outputs 2\n<\/pre><\/div>\n\n\n<p>You can see that at work in <a href=\"https:\/\/web.tinkerwell.app\/#\/snippets\/dd4c777d-233e-4ac3-841e-995484137fe0\">this live snippet<\/a>.<\/p>\n\n\n\n<p>AND!!\u2026 the function captures that value at the time the function is declared not the time the function is called:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\n$a = 2;\n$fn = function() use ($a) {\n  var_dump($a); \/\/ outputs 2\n};\n$a++;\nvar_dump($a); \/\/ outputs 3\n$fn();\n<\/pre><\/div>\n\n\n<p>You can see that at work in <a href=\"https:\/\/web.tinkerwell.app\/#\/snippets\/a907d9ee-fb50-48fb-9d29-4e94f3fc6b15\">this live snippet<\/a>.<\/p>\n\n\n\n<p>This is all VERY different to how closures work in JavaScript and definitely worth knowing if, like me, you&#8217;ve done functional-style programming in JS and want to switch to a similar style in PHP.<\/p>\n\n\n\n<p>So&#8230; I learned a lot diving into this little RFC. It was fun! I hope you learned something too.<\/p>\n\n\n\n<p>Useful reference: <a href=\"https:\/\/stitcher.io\/blog\/short-closures-in-php\">Short Closures in PHP on the Stitcher blog<\/a>.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Yesterday I took an interest in PHP internals looking into @enunomaduro&#8216;s RFC for Auto-capturing multi-statement closures. (Have I said before that I loved studying compilers in CS?) This lead me down some interesting rabbit holes and I wanted to make some notes on what I found. Short vs Long closures There are a two forms [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        291
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>PHP Short Functions and Scope - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"PHP Short Functions and Scope - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Yesterday I took an interest in PHP internals looking into @enunomaduro&#8216;s RFC for Auto-capturing multi-statement closures. (Have I said before that I loved studying compilers in CS?) This lead me down some interesting rabbit holes and I wanted to make some notes on what I found. Short vs Long closures There are a two forms [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2021-06-02T09:29:50+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-06-02T09:36:24+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/\",\"url\":\"https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/\",\"name\":\"PHP Short Functions and Scope - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2021-06-02T09:29:50+00:00\",\"dateModified\":\"2021-06-02T09:36:24+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"PHP Short Functions and Scope\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "PHP Short Functions and Scope - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "PHP Short Functions and Scope - Ross Wintle",
+        "og_description": "Yesterday I took an interest in PHP internals looking into @enunomaduro&#8216;s RFC for Auto-capturing multi-statement closures. (Have I said before that I loved studying compilers in CS?) This lead me down some interesting rabbit holes and I wanted to make some notes on what I found. Short vs Long closures There are a two forms [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2021-06-02T09:29:50+00:00",
+        "article_modified_time": "2021-06-02T09:36:24+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/",
+                    "url": "https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/",
+                    "name": "PHP Short Functions and Scope - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2021-06-02T09:29:50+00:00",
+                    "dateModified": "2021-06-02T09:36:24+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2021\/06\/php-short-functions-and-scope\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "PHP Short Functions and Scope"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10257"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=10257"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 3,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10257\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 10261,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10257\/revisions\/10261"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=10257"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=10257"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=10257"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

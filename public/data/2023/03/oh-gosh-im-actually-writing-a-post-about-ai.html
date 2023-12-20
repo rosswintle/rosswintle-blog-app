@@ -1,0 +1,268 @@
+<body><header><h1 data-pagefind-meta="title">Oh gosh. I&#8217;m actually writing a post about AI.</h1></header><main>
+<p>WOW! <em>I made a properly &#8220;magic method&#8221; WordPress plugin that allows you to just write a function name, and have that function created for you by an AI. It just works! (Some of the time).</em></p>
+
+
+
+<p>I&#8217;ve been trying really hard not to do this because literally everyone else has. But this is a post about &#8220;AI&#8221; generated content.</p>
+
+
+
+<p>To start with, I&#8217;m skeptical about all the AI hype, which is why I&#8217;m reluctant to use it and post about it. More on this another time.</p>
+
+
+
+<p>But&#8230; Caleb Porzio &#8211; maker of my beloved <a href="https://alpinejs.dev/">Alpine.js</a> and Wizard number 2 in my personal Laravel community rankings &#8211; posted this:</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">🪄 What if you could write code that doesn&#39;t exist yet and it just&#8230; worked? <a href="https://t.co/zfF4cEdRXs">pic.twitter.com/zfF4cEdRXs</a></p>&mdash; Caleb Porzio (@calebporzio) <a href="https://twitter.com/calebporzio/status/1632766792211877890?ref_src=twsrc%5Etfw">March 6, 2023</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>If you don&#8217;t want to watch the video (or if Twitter has, in the meantime, died) Caleb makes a Laravel &#8220;Ai&#8221; helper class that lets him write things like:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+echo Ai::beforeFirstDot('caleb.porzio');
+</pre></div>
+
+
+<p>and it generates the function from the name, stores the function in a file so that it doesn&#8217;t have to be regenerated in future, and runs it!</p>
+
+
+
+<p>Caleb himself notes that &#8220;this is just a random toy I made for fun.&#8221; &#8211; and I get that.</p>
+
+
+
+<p>But for some reason it lodged itself in my brain. And when I finally decided that I wanted to play with the OpenAI API myself, I had the idea: &#8220;What if we did this in WordPress?&#8221;</p>
+
+
+
+<h2 class="wp-block-heading">A WordPress AI function generator!</h2>
+
+
+
+<p>A few hours hacking later, and this exists.</p>
+
+
+
+<p>I can type:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+WPAI::add_is_awesome_to_all_these_strings(
+  strings: &#x5B;'WordPress', 'Ross', 'AI']
+);
+</pre></div>
+
+
+<p>and the AI will create me the function and run it:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+&#x5B;
+  &quot;WordPress is awesome&quot;,
+  &quot;Ross is awesome&quot;,
+  &quot;AI is awesome&quot;
+]
+</pre></div>
+
+
+<p>It made this function and added it to a file in a mu-plugin:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+function add_is_awesome_to_all_these_strings ( array $strings ) {
+	foreach ( $strings as &amp;$string ) {
+		$string .= ' is awesome';
+	}
+	return $strings;
+}
+</pre></div>
+
+
+<p>That&#8217;s not how I&#8217;d have written that function, but it works.</p>
+
+
+
+<p>It knows about WordPress. You can write:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+WPAI::get_an_array_of_all_post_types();
+</pre></div>
+
+
+<p>And it will return something like:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+&#x5B;
+  'post' =&gt; &quot;post&quot;,
+  'page' =&gt; &quot;page&quot;,
+  'attachment' =&gt; &quot;attachment&quot;
+]
+</pre></div>
+
+
+<p>Because it created:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+function get_an_array_of_all_post_types (  ) {
+	$post_types = get_post_types(
+      array( 'public' =&gt; true ),
+      'names'
+    );
+	return $post_types;
+}
+</pre></div>
+
+
+<p>I mean&#8230; this is pretty impressive.</p>
+
+
+
+<p>It can write WP queries too. I wrote a special generator for that. You can type:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+WPAI::query(
+  '3 latest posts from the news post type that
+   have the metadata test=true and that do not
+   have a meta key called &quot;ignore&quot;'
+);
+</pre></div>
+
+
+<p>and it will run:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+get_posts(&#x5B;
+	'post_type'=&gt;'news',
+	'posts_per_page'=&gt;3,
+	'meta_query'=&gt;&#x5B;
+		&#x5B;
+			'key'=&gt;'test',
+			'value'=&gt;'true',
+			'compare'=&gt;'='
+		],
+		&#x5B;
+			'key'=&gt;'ignore',
+			'compare'=&gt;'NOT EXISTS'
+		]
+	]
+]);
+</pre></div>
+
+
+<p>So you can kind-of sorta build a website just by writing what you want. Like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+WPAI::register_recipe_post_type();
+WPAI::register_recipe_type_taxonomy_for_recipe_type();
+WPAI::register_acf_repeater_field_for_ingredients_for_recipe_type();
+</pre></div>
+
+
+<p>Does this work? Absolutely it does! With a few glitches here and there (that I think I can fix). Here&#8217;s the three minutes of me building this code:</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="WPAI Post Types" src="https://player.vimeo.com/video/809333286?h=0cb83f35b7&amp;dnt=1&amp;app_id=122963" width="640" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h2 class="wp-block-heading">The Big Buts</h2>
+
+
+
+<p>This really, totally does work. <a href="https://github.com/rosswintle/wpai">Here&#8217;s the code</a>. About 200 lines of PHP.</p>
+
+
+
+<p>(It&#8217;s currently pretty rough, my &#8220;prompt engineering&#8221; is probably not very good, and it needs a README to tell you how to use it. But that&#8217;s it.)</p>
+
+
+
+<p>But&#8230;</p>
+
+
+
+<p>DON&#8217;T DO THIS!!!!!</p>
+
+
+
+<p>&#8220;What?&#8221; I hear you cry.</p>
+
+
+
+<p>DON&#8217;T DO THIS!!! THIS IS REALLY DANGEROUS AND STUPID!!!</p>
+
+
+
+<p>You run this code ENTIRELY AT YOUR OWN RISK!!!</p>
+
+
+
+<p>I take no responsibility for you website being broken beyond repair; your laptop or server being wiped of all files; or ANYTHING that might happen as a result of you using this code.</p>
+
+
+
+<p>This code tells an AI of dubious trustworthiness to generate more code and then runs the more code on your computer.</p>
+
+
+
+<p>You should not do this.</p>
+
+
+
+<p>And if you DO do it, do it on a temporary VPS, or a walled-off temporary site, or an <a href="https://app.instawp.io/register?ref=pRVI2c79Ne">instawp.com site</a> or something. And you do that &#8211; and I can&#8217;t say this strongly enough &#8211; entirely at your own risk.</p>
+
+
+
+<h2 class="wp-block-heading">Some thoughts on all this</h2>
+
+
+
+<p>This seems very cool. But it is a fun toy or experiment. Nothing more. Don&#8217;t use this in production.</p>
+
+
+
+<p>Will we write code like this one day? Maybe.</p>
+
+
+
+<p>I&#8217;m not convinced the AIs are coming for us yet. These are fun toys to play with the large language models and cool tech. People will use them. And they seem helpful.</p>
+
+
+
+<p>We are at the early stages of having these things around. I suspect they have the power to transform how we do certain kinds of work. They will inevitably impact society &#8211; in my opinion. But we don&#8217;t understand them well enough yet.</p>
+
+
+
+<p>For me&#8230; </p>
+
+
+
+<p>I’ve now tinkered with generative code AI APIs.</p>
+
+
+
+<p>And I find myself in the position of thinking: “I’m not entirely happy with this technology existing, but I’ve played with it, and it’s really fun!”</p>
+
+
+
+<p>And the scary thing is: this is where most people started with crypto and NFT’s. And I didn&#8217;t like where that went AT ALL.</p>
+
+
+
+<p>I will wait and see.</p>
+</main></body>

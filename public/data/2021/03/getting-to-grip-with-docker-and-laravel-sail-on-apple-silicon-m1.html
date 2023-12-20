@@ -1,0 +1,295 @@
+<body><header><h1 data-pagefind-meta="title">Getting to grips with Docker and Laravel Sail (on Apple Silicon/M1)</h1></header><main>
+<p>So I wanted to have a play with <a href="https://laravel.com/docs/8.x/starter-kits#laravel-breeze">Laravel Breeze</a> and <a href="https://jetstream.laravel.com/">Jetstream</a>. In doing so I noticed that the instructions for Breeze (and for Laravel in general) suggest a Docker-based <a href="https://laravel.com/docs/8.x/sail">Laravel Sail</a> install by default.</p>
+
+
+
+<p>I had not looked into Docker despite a lot of hype around it recently in my tech world. So I used the new Laravel encouragements to give it a shot.</p>
+
+
+
+<p>BUT&#8230;I have the slight problem that I have an ARM/Apple Silicon/M1 MacBook, and, while a <a href="https://docs.docker.com/docker-for-mac/apple-m1/">Docker Tech Preview (beta) exists for this</a>, it has issues, and there are some things that aren&#8217;t suppored &#8211; including MySQL!</p>
+
+
+
+<p>This post is a super-quick overview of Sail, the issues I had on Apple Silicon and how I fixed them.</p>
+
+
+
+<h2 class="wp-block-heading">Overview of Docker and Laravel Sail</h2>
+
+
+
+<p>This is covered in much more detail elsewhere, but Docker is a way of making lightweight virtual machines called &#8220;containers&#8221;. Rather than running a full blown operating system, these make use of what is already there in the existing operating system and they only add or change what is not there or different.</p>
+
+
+
+<p><a href="https://twitter.com/olilafleur">Olivier Lafleur</a> recommended <a href="https://twitter.com/shanselman">Scott Hanselman&#8217;s</a> excellent <a href="https://www.youtube.com/watch?v=0oEsMwSxBsk">video introduction</a> if you want more detail on this.</p>
+
+
+
+<p>Laravel Sail is a set of scripts and configurations that allow you to fire up a bunch of containers running services that, together, get a Laravel application up and running. These services include MySQL and PHP but you get others too like Redis and Mailhog.</p>
+
+
+
+<p>You may, after digging in a bit, note that there is no web server (Apache/nginx) and this is because Sail uses PHP&#8217;s built-in web server. You can see it starting up <a href="http://command=/usr/bin/php -d variables_order=EGPCS /var/www/html/artisan serve --host=0.0.0.0 --port=80">in the supervisord.conf file</a> of the Laravel container.</p>
+
+
+
+<p>It&#8217;s also worth noting that the containers are, for the most part, temporary/ephemeral and kinda don&#8217;t save their state. They get created. And they get destroyed.</p>
+
+
+
+<p>The exception to this is the MySql container which uses a Docker &#8220;volume&#8221; to store its data.</p>
+
+
+
+<p>If you&#8217;re not familiar with Docker and aren&#8217;t interested in its internals then what you need to know is:</p>
+
+
+
+<ul><li>Your Laravel project files are mapped into the container. Any changes you make locally are reflected inside the container immediately.</li><li>Your database is persisted. (I believe Redis state is too, but I&#8217;m not sure what the benefit of this is.)</li><li>Everything else is destroyed when you shut Sail down. Mostly because it doesn&#8217;t NEED to be saved. You just recreate everything in its default state the next time you need it.</li></ul>
+
+
+
+<p><a href="https://twitter.com/osteel">Yannick</a>&#8216;s <a href="https://tech.osteel.me/posts/you-dont-need-laravel-sail">awesome post</a> gives an excellent and very detailed overview of both Docker and Sail that I&#8217;ve yet to read in full. And the free <a href="https://laracasts.com/series/whats-new-in-laravel-8/episodes/12">Laracasts video</a> was also pretty helpful in understanding Sail.</p>
+
+
+
+<p>You may be a Valet or MAMP user who&#8217;s wondering what the benefits of this approach are. And I think that for smaller projects there probably aren&#8217;t many benefits. But for bigger projects there definitely are, such as ensuring the development and live environments are the same.</p>
+
+
+
+<p>My own curiosity came from the fact that I&#8217;d been thinking about security and how all these node and composer packages could be doing anything on my laptop. Putting them inside a container limited their ability to run amok on my laptop when doing local development. So I wanted to try it out from that point of view.</p>
+
+
+
+<h2 class="wp-block-heading">Issues with Apple Silicon/M1</h2>
+
+
+
+<h3 class="wp-block-heading">Summary: Sail doesn&#8217;t quite work</h3>
+
+
+
+<p>Sail, out of the box, doesn&#8217;t work with Apple Silicon/M1 computers. But you can make most of it work. If you know how.</p>
+
+
+
+<p>Given this, I found it pretty surprising that it&#8217;s now the recommended way to get up and running with Laravel. If you&#8217;re a beginner then following the installation instructions and immediately hitting a very-complicated-to-resolve failure may put you right off. I&#8217;m NOT a beginner, but I&#8217;m empathetic and often see different sides of an experience. This would not be a good experience for a new-to-Laravel developer on an M1 Mac.</p>
+
+
+
+<p>Sail advertises itself as &#8220;a great starting point for building a Laravel application using PHP, MySQL, and Redis without requiring prior Docker experience&#8221;, but on my machine, I needed to learn an awful lot of Docker to make it work and understand a few other things too.</p>
+
+
+
+<p>You could argue that Docker for the M1 Mac&#8217;s is in tech preview/beta, so you should not expect things to work. But I still think that people will want to try it, the documentation around it isn&#8217;t good enough, and there are some small changes that would really help.</p>
+
+
+
+<p>These instructions assume you have a new Laravel project created with Sail, or you&#8217;ve installed Sail into an existing Laravel project.</p>
+
+
+
+<h3 class="wp-block-heading">Fix 1: Remove Meilisearch</h3>
+
+
+
+<p>Meilisearch is broken. You can build the Docker images with it in place, and you can start Sail up, but when you try to interact with Sail you get an error and Sail shuts down:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: bash; title: ; notranslate" title="">
+$ vendor/bin/sail shell
+breeze_meilisearch_1    tini -- /bin/sh -c ./meili ...   Exit 1
+Shutting down old Sail processes...
+Sail is not running.
+</pre></div>
+
+
+<p>Meilisearch feels like a very optional requirement. So I removed it.</p>
+
+
+
+<p>Edit the docker-compose.yml in the root of your Laravel project and remove <code>meilisearch</code> from the <code>depends_on</code> section of the <code>laravel.test</code> service:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: yaml; title: ; notranslate" title="">
+        depends_on:
+            - mariadb
+            - redis
+            - selenium
+            - meilisearch
+</pre></div>
+
+
+<p>Then you can delete, or if you&#8217;re hopeful of a future fix comment out, the lines for the <code>meilisearch</code> service lower down.</p>
+
+
+
+<p>Then rebuild your containers with <code>vendor/bin/sail build</code></p>
+
+
+
+<p>Note: I believe that if you&#8217;re installing Sail interactively then you are prompted to choose which services to install. You can just not install Meilisearch at this point and skip this first fix.</p>
+
+
+
+<h3 class="wp-block-heading">Fix 2: Swap MySql for MariaDB</h3>
+
+
+
+<p>Next you&#8217;ll find that the <a href="https://hub.docker.com/_/mysql">MySql Docker image</a> doesn&#8217;t support ARM processors like the M1. This is even <a href="https://docs.docker.com/docker-for-mac/apple-m1/#known-issues">documented by Docker</a> with two solutions:</p>
+
+
+
+<ul><li>Run with the <code>--platform linux/amd64</code> flag, which I couldn&#8217;t figure out how to do.</li><li>Use MariaDB instead. This <em>seemed</em> like an easier option, and would perform better as it would run native.</li></ul>
+
+
+
+<p>To do this you need to modify a couple of things.</p>
+
+
+
+<p>First, edit the <code>docker-compose.yml</code> file in the root of your project and replace <code>mysql</code> with <code>mariadb</code> in the <code>depends_on</code> section of the <code>laravel.test</code> service:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+        depends_on:
+            - mariadb
+            - redis
+            - selenium
+</pre></div>
+
+
+<p>You&#8217;ll then want to rename the <code>mysql</code> service as a <code>mariadb</code> service and install the right Docker image (this needs a version number but I don&#8217;t know what to give, so I&#8217;m just using the latest I guess?)</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: yaml; title: ; notranslate" title="">
+    mariadb:
+        image: 'mariadb'
+</pre></div>
+
+
+<p>Leave the rest of the mysql config intact.</p>
+
+
+
+<p>Then again, rebuild the containers with <code>vendor/bin/sail build</code></p>
+
+
+
+<p>This installs MariaDB instead of MySQL which will nicely run native, but if you try to do anything with your database at this point you&#8217;ll get connection errors:</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="474" src="https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-10.54.57@2x-1024x474.png" alt="" class="wp-image-9973" srcset="https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-10.54.57@2x-1024x474.png 1024w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-10.54.57@2x-300x139.png 300w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-10.54.57@2x-768x356.png 768w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-10.54.57@2x-1536x712.png 1536w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-10.54.57@2x-2048x949.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>but you need to configure your app to talk to the right service on the network, so edit your <code>.env</code> and change the <code>DB_HOST</code> from <code>mysql</code> to <code>mariadb</code></p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+DB_HOST=mariadb
+</pre></div>
+
+
+<p>You don&#8217;t need to rebuild your containers for this. But this should fix everything!</p>
+
+
+
+<h3 class="wp-block-heading">No fix for sail share / Expose</h3>
+
+
+
+<p>In theory Sail has a great sharing function that lets you share your local sail-hosted site with the outside world. It makes use of <a href="https://beyondco.de/">Beyond Code</a>&#8216;s open-source <a href="https://beyondco.de/docs/expose/introduction">Expose</a> product which sets up tunnels similar to ngrok and the &#8220;valet share&#8221; command if you&#8217;ve ever used that.</p>
+
+
+
+<p>But this also fails.</p>
+
+
+
+<p>This appears to run and set up a connections, but it seems that something somewhere just isn&#8217;t running. Connecting to the URL just does nothing.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="397" src="https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.01.48@2x-1024x397.png" alt="" class="wp-image-9974" srcset="https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.01.48@2x-1024x397.png 1024w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.01.48@2x-300x116.png 300w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.01.48@2x-768x297.png 768w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.01.48@2x-1536x595.png 1536w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.01.48@2x-2048x793.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>I&#8217;m not sure if this is an M1-specific problem or not. I&#8217;ve copied <a href="https://github.com/laravel/sail/blob/f7a857531a135c756c980f6df1bc47978577ca8e/bin/sail#L268">the command from the Sail script</a> and tried running it manually with the platform flag:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: bash; title: ; notranslate" title="">
+docker run --platform linux/amd64 --init beyondcodegmbh/expose-server share http://host.docker.internal:&quot;$APP_PORT&quot; \
+            --server-host=laravel-sail.site \
+            --server-port=8080
+</pre></div>
+
+
+<p>This gets rid of the platform error, but this still didn&#8217;t work, so maybe it&#8217;s a wider expose problem. I don&#8217;t know.</p>
+
+
+
+<h2 class="wp-block-heading">Where are my volumes/databases?</h2>
+
+
+
+<p>Finally, there&#8217;s this very hidden-away bit of Docker that I really wanted to understand but couldn&#8217;t: volumes.</p>
+
+
+
+<p>I&#8217;d wondered if I could see the database files and maybe run a non-Docker database against them. But for all my hunting I could not find any data files for my application.</p>
+
+
+
+<p>The closest I got was running <code>docker inspect &lt;volume name&gt;</code>, which gave me this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+$ docker inspect breeze_sailmysql
+&#x5B;
+    {
+        &quot;CreatedAt&quot;: &quot;2021-03-02T10:53:58Z&quot;,
+        &quot;Driver&quot;: &quot;local&quot;,
+        &quot;Labels&quot;: {
+            &quot;com.docker.compose.project&quot;: &quot;breeze&quot;,
+            &quot;com.docker.compose.version&quot;: &quot;1.28.2&quot;,
+            &quot;com.docker.compose.volume&quot;: &quot;sailmysql&quot;
+        },
+        &quot;Mountpoint&quot;: &quot;/var/lib/docker/volumes/breeze_sailmysql/_data&quot;,
+        &quot;Name&quot;: &quot;breeze_sailmysql&quot;,
+        &quot;Options&quot;: null,
+        &quot;Scope&quot;: &quot;local&quot;
+    }
+]
+</pre></div>
+
+
+<p>And I figured I should look for <code>/var/lib/docker/volumes/breeze_sailmysql/_data</code>, but I couldn&#8217;t find this or anything like it anywhere.</p>
+
+
+
+<p>Searching my local filesystem for Docker stuff revealed a 60GB file at <code>/Users/rosswintle/Library/Containers/com.docker.docker/Data/vms/0/data/Docker.raw</code></p>
+
+
+
+<p>This is referenced in the Docker preferences:</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="641" src="https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.31.42@2x-1024x641.png" alt="" class="wp-image-9977" srcset="https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.31.42@2x-1024x641.png 1024w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.31.42@2x-300x188.png 300w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.31.42@2x-768x481.png 768w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.31.42@2x-1536x961.png 1536w, https://rosswintle.uk/wp-content/uploads/2021/03/CleanShot-2021-03-02-at-11.31.42@2x-2048x1282.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>So I&#8217;m assuming this is some kind of virtual filesystem thing that stores my containers volumes locally. This was kinda <a href="https://twitter.com/osteel/status/1366287151382597634?s=20">confirmed by Yannik</a> also.</p>
+
+
+
+<h2 class="wp-block-heading">Fin</h2>
+
+
+
+<p>That&#8217;s all I got. Let me know what you think of Sail, of if you think I got anything wrong.</p>
+</main></body>

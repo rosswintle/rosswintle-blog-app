@@ -1,0 +1,122 @@
+<body><header><h1 data-pagefind-meta="title">Re-learning to learn to code (and discovering JavaScript&#8217;s foibles!)</h1></header><main><h2>I don&#8217;t know JS</h2>
+<p>So I&#8217;ve kinda got <a href="https://rosswintle.uk/2017/01/2016-transition-2017-accepting-the-inevitable/">stuck in to learning JavaScript</a>. I&#8217;ve previously said that I think JavaScript is like the assembler of the web: coding in vanilla JS isn&#8217;t really something you should do because it&#8217;s too easy to get things wrong, so you should have a layer of abstraction on top.</p>
+<p>But&#8230;oddly&#8230;I&#8217;ve actually really got into vanilla JS.</p>
+<p>I was thinking about the origin of this and I think it was that I got stuck reading ES6 code, or was baffled by it in the <a href="https://laracasts.com/series/learning-vue-step-by-step">Laracasts Vue.js tutorials</a>. So I started doing <a href="https://es6.io/">Wes Bos&#8217;s ES6 tutorials</a> (paid but excellent &#8211; <a href="https://laracasts.com/series/es6-cliffsnotes">Laracasts also now has an ES6/ES2015 series</a>) and it kinda went from there.</p>
+<p>On suggestion from a friend, I got a couple of Kyle Simpson’s excellent <a href="https://wordery.com/search?term=you+don%27t+know+js&#038;oid=1625_1">You Don’t Know JS books</a> (<- Note: affiliate link!), and have got stuck into the first one: Up and Going. Which is short (about 50 pages of real content), but...well.
+
+My mind has been blown.
+
+
+<h2>JS: Behind the scenes</h2>
+<p>I&#8217;m the kinda person that likes to know what&#8217;s going on behind the scenes. And I&#8217;ve never really understood exactly how JavaScript works. And so learning it form first principles is quite revelatory. It&#8217;s actually very different to other languages that I was brought up on in quite a number of ways. So no wonder it always baffled and freaked me out a little.</p>
+<p>Here are some of the quirks/oddities/differences that I&#8217;ve discovered along the way.</p>
+<h3>Values are typed, variables are not</h3>
+<p>Yep. This may seem obvious, but it&#8217;s actually quite a shift of thinking from someone who&#8217;s previously coded in strictly-typed languages. I&#8217;ve never even come across the phrase &#8220;values are typed&#8221; before.</p>
+<p>What does this mean?</p>
+<p>Well, in other languages you have typed variables. So when you declare a variable you give it a type:</p>
+<p><code>int age = 0;</code></p>
+<p>for example. This can be handy because the program can detect when a value that is not an integer is assigned to the variable, which can catch errors. But it&#8217;s also constraining because you can&#8217;t assign, say, a <code>null</code> or <code>false</code> value to say that there isn&#8217;t a number yet.</p>
+<p>Does it affect how I code? Probably not. But it&#8217;s good to know and understand.</p>
+<h3>Equality shenanigans</h3>
+<p>On top of type coercion (more below) when doing equality, and issues with comparing references (also see below) there&#8217;s also this list of unusual values and their equal-nesses.  Some of these are really quite bizarre:</p>
+<ul>
+<li><code>0 === -0 //  true - what the heck is -0 anyway?</code></li>
+<li><code>NaN === NaN // false, because NaN is defined to be unequal to any other value</code></li>
+<li>and so on</li>
+</ul>
+<p>What does this mean? Well, it&#8217;s just stuff you need to know.</p>
+<p>Does it affect how I code? Not in a big way. It may help with debugging when values aren&#8217;t what you expect them to be. It&#8217;s knowledge that&#8217;s also helpful for the odd challenges at &#8220;<a href="https://alf.nu/ReturnTrue">return true</a>&#8220;.</p>
+<h3>Objects/Arrays/etc are assigned and passed as references</h3>
+<p>Forgive me if I don&#8217;t get my terminology exactly right, but &#8220;non-primitive&#8221; values like objects and arrays are passed around as references.</p>
+<p>What does this mean?</p>
+<p>Well, if the same object is assigned to two variables &#8211; which is possible because assignment is of the reference and not a copied value &#8211; then updating one will update the other:</p>
+<pre>let a = {
+  x: 1,
+  y: 2
+};
+let b = a;
+b.x = 4;
+console.log(a);
+</pre>
+<p>Logs:</p>
+<pre>[object Object] {
+  x: 4,
+  y: 2
+}</pre>
+<p>Does it affect how I code? Yes. Stuff like this is REALLY good to know.</p>
+<h3>Objects/Arrays/etc equality is not by value</h3>
+<p>The fact that non-primitives are assigned and passed by reference also means that comparisons are also made on references, not values.</p>
+<p>What does this mean? So you have:<br />
+<code>[1,2,3] == [1,2,3] // false - they are two different arrays</code><br />
+And also, if you want to copy an array you have to do it via some other means than simple assignment (the ES6 rest/spread operator helps here).</p>
+<p>I also learned that when coerced to a string, arrays are joined with a comma!:<br />
+<code>[1,2,3] == "1,2,3" // true!</code><br />
+Does this affect how I code?</p>
+<p>Yes. Be careful with non-primitives!</p>
+<h3>Object wrappers &#8211; e.g. `String` vs `string`</h3>
+<p>I confess I still don&#8217;t understand this &#8211; need to do more reading. But:</p>
+<pre>typeof("a"); // gives "string"</pre>
+<p>but string values are actually &#8220;wrapped&#8221; by the type <code>String</code>. And this &#8220;wrapping&#8221; is also true for all primitive types.  So you can see this:</p>
+<pre>a = new String;
+
+typeof(a); // gives "object"
+</pre>
+<p>I&#8217;m not quite sure what it means yet and I don&#8217;t think it will affect my programming. But who knows what else I&#8217;ll find out?</p>
+<h3>Inequality not the same as (symmetric) non-equality &#8211; WHAT?!?!</h3>
+<p>This line appears in one of the books and also, at first, confused me:</p>
+<blockquote><p>The ! forms [of equality operators] are of course the symmetric &#8220;not equal&#8221; versions of their counterparts; <em>non-equality</em> should not be confused with <em>inequality</em>.</p></blockquote>
+<p>It&#8217;s later on made&#8230;hmm&#8230;clearer (?) that <em>inequality</em> is the greater-than, less-than and so-on conditional operators.</p>
+<p>What does this mean? Oh. Well. Nothing. It was an interesting interlude though.</p>
+<p>Onwards. What else?</p>
+<h3>Oh. Equality?</h3>
+<p>So with the knowledge that values, not variables, are typed, some other things need to be put into place.</p>
+<p>One of which is the equality operators. They aren&#8217;t &#8220;typed equality&#8221; and &#8220;untyped equality&#8221;. They are actually compare-without-coercion and compare-with-coercion.</p>
+<p>What does this mean? Well, it means that understanding the coercion can help you understand how to write correct conditions.</p>
+<p>Does this affect my code?  I think so, in subtle ways. It should make things a bit more predictable.</p>
+<h3>Hoisting applies to functions too&#8230;sort of?</h3>
+<p>I only learned about variable hoisting recently while learning about <code>let</code> and <code>const</code> in ES6.</p>
+<p>With non-ES6 <code>var</code> declarations, if you make them in the middle of a scope they are &#8220;hoisted&#8221; to the top of the scope. So when the code is running, the variable exists in an undefined state in the scope until the point of the <code>var</code> declaration.  Best explained in an example. Here we use a variable without ever declaring it (you&#8217;ll need to put this in a file and run it, not just type it into the console):</p>
+<pre>console.log(x);
+
+&gt; ReferenceError: x is not defined</pre>
+<p>Then if we use the variable before later declaring it:</p>
+<pre>console.log(x);
+
+var x = 4;
+
+&gt; undefined</pre>
+<p>Spot the difference!</p>
+<p>What does this mean?</p>
+<p>Well not much in reality, though it was good to understand.</p>
+<p>What is interesting is that function declaration is also effectively variable declaration, and so functions can be used before they are declared&#8230;</p>
+<p>But&#8230;oh&#8230;hang on.  They&#8217;re hoisted AND DEFINED!:</p>
+<pre>foo();
+
+function foo() {
+ console.log('foo');
+}
+
+&gt; "foo"</pre>
+<p>That&#8217;s not <code>undefined</code>. OK. I&#8217;m curious now. So what happens if I&#8230;:</p>
+<pre>bar();
+
+var bar = function() {
+ console.log('bar');
+}
+
+
+&gt; TypeError: bar is not a function</pre>
+<p>Oh. Well, that&#8217;s not entirely simple then.</p>
+<p>Will this affect my code? Probably not, but it&#8217;s good to know how both variables and functions are hoisted, even if the behaviour is slightly different in a way that I don&#8217;t currently understand.</p>
+<h3>Initial variable assignment without var makes a global</h3>
+<p>I&#8217;d forgotten this! I used to not use <code>var</code> at all when declaring variables and was forever accidentally making globals.</p>
+<p>What does this mean?  That I&#8217;ve already been on a journey of learning JavaScript long enough that I&#8217;ve forgotten about this.</p>
+<p>Will it affect my code? Well, no. But it&#8217;s a good reminder of how far I&#8217;ve come, even before the last few months.</p>
+<h2>What do I think of JS now?</h2>
+<p>Well so far so geeky.  Let&#8217;s wrap up.</p>
+<p>This almost feels more like research than practical learning. Though I&#8217;m hopeful that learning these things will have very positive practical benefits. I&#8217;m coming to know JavaScript as a fascinating and mis-understood teenager of a language.</p>
+<p>I still don&#8217;t like it. I <a href="https://rosswintle.uk/2013/12/treachery-code/">still wouldn&#8217;t want anyone to learn it as a first language</a>. In fact, in some ways, understanding it more reinforces this view.</p>
+<p>JavaScript is a language of enigma and subtlety. Things are not always what they seem. And choosing to know it deeply is not, actually, something for the beginner coder (or the faint-hearted).</p>
+<p>I hope you&#8217;ve enjoyed a little tour of some of the subtleties. I hope that you have learned something new. And I hope that you are encouraged to learn more!</p>
+<p>&nbsp;</p>
+</main></body>

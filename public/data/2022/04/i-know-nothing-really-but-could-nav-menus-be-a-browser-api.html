@@ -1,0 +1,255 @@
+<body><header><h1 data-pagefind-meta="title">I know nothing, really, but could nav menus be a browser API?</h1></header><main>
+<p>Let&#8217;s not start with nav menus. Let&#8217;s start somewhere else&#8230;</p>
+
+
+
+<p>What do Github, Laravel Forge, MacOS, VS Code, Sublime Text, JetBrains IDEs like PHPStorm, Google Chrome&#8217;s dev tools, Windows Terminal, the Warp terminal application, and Netlify all have in common?</p>
+
+
+
+<p>They all have &#8220;command palettes&#8221; &#8211; as do an increasing number of both native and web-based applications.</p>
+
+
+
+<p>For those not familiar, command palettes are pop-up user interfaces that provide keyboard-driven, searchable menus of actions for your application. They take all the things you can do in the application and make them available with a few keystrokes. And some include more advanced features like searching content or files too.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="613" src="https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.52.38@2x-1024x613.png" alt="" class="wp-image-10981" srcset="https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.52.38@2x-1024x613.png 1024w, https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.52.38@2x-300x180.png 300w, https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.52.38@2x-768x460.png 768w, https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.52.38@2x-1536x920.png 1536w, https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.52.38@2x-2048x1226.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>GitHub&#8217;s command palette &#8211; press Ctrl/Cmd-K to access!</figcaption></figure>
+
+
+
+<p>For those who love to use their keyboard to navigate their computer, they are valuable tools, allowing keyboard access to application features that goes way beyond keyboard shortcuts, and removing the need to memorise a large number of keyboard shortcuts to be efficient.</p>
+
+
+
+<p>And command palettes seem to be a growing trend. All the applications I mentioned above have command palettes, but there&#8217;s <a href="https://www.alfredapp.com/">Alfred App</a> for MacOS, <a href="https://www.raycast.com/">Raycast</a>, MacOS&#8217;s own Spotlight. Plus <a href="https://tailwindui.com/components/application-ui/navigation/command-palettes">TailwindUI</a> added some command palette designs so that other people can add them to their web apps, and <a href="https://kbar.vercel.app/">kbar</a> is a JS library to help you add them too.</p>
+
+
+
+<p>This trend is one that I claim I was ahead of the curve on as I made my own <a href="https://turbo-admin.com/">command palette tool for WordPress</a>, and then played with making that same tool work on other web applications, such as <a href="https://twitter.com/magicroundabout/status/1401983433296039943">Laravel Forge</a> and <a href="https://twitter.com/magicroundabout/status/1419748068564639749">Github</a> months before they added their own command palettes.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="550" src="https://rosswintle.uk/wp-content/uploads/2022/04/Turbo-Admin-Screengrab-1024x550.png" alt="" class="wp-image-10982" srcset="https://rosswintle.uk/wp-content/uploads/2022/04/Turbo-Admin-Screengrab-1024x550.png 1024w, https://rosswintle.uk/wp-content/uploads/2022/04/Turbo-Admin-Screengrab-300x161.png 300w, https://rosswintle.uk/wp-content/uploads/2022/04/Turbo-Admin-Screengrab-768x412.png 768w, https://rosswintle.uk/wp-content/uploads/2022/04/Turbo-Admin-Screengrab-1536x825.png 1536w, https://rosswintle.uk/wp-content/uploads/2022/04/Turbo-Admin-Screengrab-2048x1099.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption><a href="https://turbo-admin.com/">Turbo Admin</a> is my attempt to bring a command palette to the WordPress Dashboard.</figcaption></figure>
+
+
+
+<p>But there&#8217;s a problem &#8211; especially with web applications such as Forge, GitHub and Netlify: Each command palette is different! The keyboard shortcut to trigger the palette may be different. The presentation of the commands may be different. The way that search and sub-menus work may be different.</p>
+
+
+
+<p>There must be a better way! And I think that there could be.</p>
+
+
+
+<h2 class="wp-block-heading">Config-driven Turbo Admin</h2>
+
+
+
+<p>Let&#8217;s go back a bit to the inception of my &#8220;Turbo Admin&#8221; command palette for WordPress.</p>
+
+
+
+<p>I had seen &#8220;<a href="https://philo.dev/getting-started-with-laravel-spotlight/">Laravel Spotlight</a>&#8220;, and the moment I saw it my first thought was &#8220;That&#8217;s genius &#8211; why don&#8217;t all web apps have command palettes?&#8221;</p>
+
+
+
+<p>My second thought was &#8220;WordPress should have a command palette!&#8221;</p>
+
+
+
+<p>I set to it, and the easiest way I could come up with to gather up the menu items and commands was, surprisingly, not to hook into the back-end somehow, but to use JavaScript to scrape the menu items and their URLs from the WordPress dashboard.</p>
+
+
+
+<p>This worked fine as a basic first implementation. But it quickly hit limitations.</p>
+
+
+
+<p>Initially I just wanted to add some of my own hard-coded extra commands for things like &#8220;Logout&#8221;, but then I realised that the Logout link was in the admin bar at the top of the WordPress dashboard. So I added the ability to grab that too.</p>
+
+
+
+<p>And as I wanted to grab more and more links from throughout the Dashboard I realised I needed some kind of array of things to grab. And this idea eventually evolved into a configuration-based system for injecting items into the Turbo Admin palette.</p>
+
+
+
+<p>This configuration lets you specify:</p>
+
+
+
+<ul><li>The &#8220;type&#8221; of link to discover &#8211; it can be a hard-coded title and URL, or dynamically discovered links using a DOM/CSS selector</li><li>The selector to use (for selector-based links)</li><li>Either the title to use, or a function for generating a title from a discovered element</li><li>Either the URL to use, or a function for generating a URL from a discovered element</li></ul>
+
+
+
+<p>This probably makes sense with a simple example. This config entry discovers all of the &#8220;New &lt;post type&gt;&#8221; links in the WordPress admin bar, such as &#8220;New Post&#8221;, &#8220;New Page&#8221; and so on:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+{
+  'detectType': 'dom',
+  'detectSelector': '#wp-admin-bar-new-content .ab-submenu a',
+  'itemTitleFunction': (item) =&gt; 'New ' + item.textContent,
+  'itemUrlFunction': (item) =&gt; item.href
+},
+</pre></div>
+
+
+<p>With this config-driven approach I can specify DOM selectors for non-WordPress applications too &#8211; and this is exactly how my simple palettes for GitHub and Forge came about. (I note that these were just demos, and never made it into public in any way other than teaser videos).</p>
+
+
+
+<h2 class="wp-block-heading">An API for command palettes</h2>
+
+
+
+<p>With this config driven approach in place, I can seemingly inject a command palette into any* web-based application!</p>
+
+
+
+<p><em>* &#8211; Not quite any, some use dynamically generated items or randomly generated IDs. What can you do?</em></p>
+
+
+
+<p>What I&#8217;ve made here is an API or protocol for defining command palette items.</p>
+
+
+
+<p>The next obvious step is something like: &#8220;What if an application can provide these configurations itself?&#8221;</p>
+
+
+
+<p>Or if not &#8220;What if standard-format configurations could be user/community-generated, like <a href="https://en.wikipedia.org/wiki/Userscript">user scripts</a> and <a href="https://en.wikipedia.org/wiki/Stylus_(browser_extension)">user styles</a>?&#8221; (Note: use these at your own risk!)</p>
+
+
+
+<p>Then there could be any number of command palette browser extensions that sucked in these configs and made the menus for you. Or maybe the browsers could have them built in themselves?</p>
+
+
+
+<p>You&#8217;d have the same interface and the same keyboard shortcut for all your web applications. It would be amazing!</p>
+
+
+
+<h2 class="wp-block-heading">An API for menu items in general?</h2>
+
+
+
+<p><em>A note to designers and people who love fancy websites with intricate designs: you&#8217;re gonna hate me! I make no apology for that. UI conventions are a thing that can be useful, and I&#8217;m just exploring ideas. Bear with me.</em></p>
+
+
+
+<p>So if we have a system for a website or web application to specify command palette items&#8230; well&#8230; aren&#8217;t these just the menu items? So&#8230; umm&#8230; can&#8217;t we also use this API/protocol for defining the menu items for a website rather than scraping them from the DOM. Use the configuration to ADD them to the DOM? Or just let the browser handle all this for you.</p>
+
+
+
+<p>Items wouldn&#8217;t have to be links. They could be callbacks/functions that &#8220;do stuff&#8221;. This doesn&#8217;t have to be a restriction.</p>
+
+
+
+<p>Yes, I know it would be really boring if every website had the same menus. We&#8217;d have to figure that out. Perhaps there is some compromise with design?</p>
+
+
+
+<p>But look at how applications on your desktop/laptop work&#8230; the menus are in the same place for most apps.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="640" src="https://rosswintle.uk/wp-content/uploads/2022/04/standard-macos-menus-1024x640.jpg" alt="" class="wp-image-10985" srcset="https://rosswintle.uk/wp-content/uploads/2022/04/standard-macos-menus-1024x640.jpg 1024w, https://rosswintle.uk/wp-content/uploads/2022/04/standard-macos-menus-300x188.jpg 300w, https://rosswintle.uk/wp-content/uploads/2022/04/standard-macos-menus-768x480.jpg 768w, https://rosswintle.uk/wp-content/uploads/2022/04/standard-macos-menus-1536x961.jpg 1536w, https://rosswintle.uk/wp-content/uploads/2022/04/standard-macos-menus-2048x1281.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>And those that do things their own way are SUPER annoying (I&#8217;m looking at YOU Warp terminal&#8230;)</p>
+
+
+<div class="wp-block-image is-style-default">
+<figure class="aligncenter size-large is-resized"><img loading="lazy" decoding="async" src="https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.06.54@2x-1024x696.png" alt="Screengrab of Warp terminal app showing their menu on the top-right-hand corner." class="wp-image-10979" width="604" height="410" srcset="https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.06.54@2x-1024x696.png 1024w, https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.06.54@2x-300x204.png 300w, https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.06.54@2x-768x522.png 768w, https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.06.54@2x-1536x1045.png 1536w, https://rosswintle.uk/wp-content/uploads/2022/04/CleanShot-2022-04-26-at-22.06.54@2x-2048x1393.png 2048w" sizes="(max-width: 604px) 100vw, 604px" /><figcaption>Warp terminal is cool and fast and smart, but I can NEVER find the settings!</figcaption></figure></div>
+
+
+<p>And look at how the MS Office suite and Apple&#8217;s work applications have consistently placed user interface components. Once you have learned one tool, you can easily learn others.</p>
+
+
+
+<p>User interface conventions can be helpful.</p>
+
+
+
+<p>AND&#8230; as the developer&#8230; building nav menus is flippin hard, and we so often don&#8217;t get interactions and accessibility right. What if this was all handled for us? We just provide the data, and the browser takes care of it, and we get the possibility of command palettes &#8211; and maybe other kinds of interface &#8211; for free?</p>
+
+
+
+<p>And why stop at menus? You could define keyboard shortcuts too, thus removing a zillion</p>
+
+
+
+<h2 class="wp-block-heading">How would this work?</h2>
+
+
+
+<p>If this was a thing then we would need a way to get the configuration to the browser or browser extension. It would probably be JSON. I guess. But how would it be delivered/discovered?</p>
+
+
+
+<p>I&#8217;ve not thought about this a lot, but there seem to be a few obvious ways to me:</p>
+
+
+
+<ol><li>A file in the root of a site, like robots.txt, or the old standardised favicon location, with a standard name. Maybe &#8220;commands.json&#8221; or something.</li><li>Like the above, but with a meta tag in the HTML to specify the file&#8217;s location.</li><li>A standardised &#8211; or meta-tag specified &#8211; API route. This would work like the above but could allow options to be passed and deliver dynamic configurations.</li></ol>
+
+
+
+<h2 class="wp-block-heading">So, Ross, this sounds great. Why do you say you &#8220;know nothing&#8221;?</h2>
+
+
+
+<p>(<em>This probably is not the question you were asking, but if you were</em>&#8230;)</p>
+
+
+
+<p>Simply because it seems so obvious that many people MUST have thought of it before and dismissed it for a hundred and one good reasons that I&#8217;m too stupid to have thought of.</p>
+
+
+
+<p>Perhaps they just want to maintain the ability to design menus. In which case, let&#8217;s find that compromise because a standardised, easy-to-develop, accessible-by-default, machine-readable website navigation seems to have a lot of benefits!</p>
+
+
+
+<p>I&#8217;ve really tried to think of some downsides. I don&#8217;t think it&#8217;s insecure or open to abuse (though I&#8217;m sure people will tell me I&#8217;m wrong). I&#8217;m sure it can handle translations, sub-menus, mega-menus and some elements of design. You wouldn&#8217;t have to worry about responsive design or RTL languages &#8211; it would all be taken care of for you!</p>
+
+
+
+<p>It could even help Google discover <a href="https://developers.google.com/search/docs/advanced/appearance/sitelinks">site links</a> and improve search results!</p>
+
+
+
+<p>I&#8217;ve had the thought that &#8220;We don&#8217;t have other APIs like this that send config to the browser?&#8221;, but we clearly do! Especially in modern browsers.</p>
+
+
+
+<p>We have all manner of meta headers we can add to control languages and browser features and icons that get displayed and color schemes.</p>
+
+
+
+<p>We have <a href="https://developer.mozilla.org/en-US/docs/Web/Manifest">web app manifests</a> that specify all sorts of options.</p>
+
+
+
+<p>We have all sorts of APIs for interacting with things like the clipboard, bluetooth devices, browser history, scroll behaviour and standard sharing options.</p>
+
+
+
+<p>The browser is doing so much for us these days&#8230; why do we continue to handle navigation manually?</p>
+
+
+
+<p>Why would we not do this? Am I really the first to have thought of it?</p>
+
+
+
+<p>I&#8217;m not a browser engineer, or involved in any way at all with the committees that define browser APIs. This just seems like a good idea to me. Perhaps there&#8217;s already an RFC? I really don&#8217;t know.</p>
+
+
+
+<p>As I said&#8230; I know nothing. So tell me what you know. Why shouldn&#8217;t this happen?</p>
+</main></body>

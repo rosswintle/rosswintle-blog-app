@@ -1,0 +1,31 @@
+<body><header><h1 data-pagefind-meta="title">Software Testing</h1></header><main><p>I don&#8217;t normally talk about my work, but if I generalise this I reckon I can make a half-decent point about modern software practices.</p>
+<p>I work with a set of tools provided by a best-in-class software house.  These tools aren&#8217;t cheap, and we expect them to be good.</p>
+<p>But we&#8217;ve been having problems with quality lately and this has caused me to be contacting the supplier for support.</p>
+<p><!--more--></p>
+<p>I&#8217;ll spare the details, but basically, if I ran an upgrade of this software as the wrong user, it brought the whole system down.  Testing for this condition with either:</p>
+<ul>
+<li>if user = &#8220;&#8221; then&#8230;</li>
+</ul>
+<p>or</p>
+<ul>
+<li> if response from task is &#8220;insufficient privileges&#8221;</li>
+</ul>
+<p>Seems like a simple and obvious thing to want to do.</p>
+<p>Yet here&#8217;s the response I got:</p>
+<p style="padding-left:30px;">&#8220;Generally all testing are done with the same single administrator user.&#8221;</p>
+<p>Hmmm&#8230;OK.  Now, I did a computing A&#8217; level and in that we studied software testing and it was pretty much basic practice that you tested with:</p>
+<ul>
+<li>valid data</li>
+<li>invalid data</li>
+<li>data from the boundary of validity</li>
+</ul>
+<p>So, for a percentage value which only has valid values between 0 and 100 you would test with, say:</p>
+<ul>
+<li>20, 54 and 78</li>
+<li>-13, 1000</li>
+<li>-1, 0, 1, 99, 100, 101</li>
+</ul>
+<p>You didn&#8217;t say: &#8220;I&#8217;m going to test with the value 50 every time&#8221; because it would rarely tell you anything useful about whether or not your software functons.</p>
+<p>I&#8217;m assured that the quality assurances processes for this software are excellent, however, to miss a simple case like this makes me wonder, not just what other simple errors may not be tested for in my expensive, best-in-class software, but what&#8217;s happened to software development processes that this is allowed to happen.</p>
+<p>Back to school folks&#8230;</p>
+</main></body>

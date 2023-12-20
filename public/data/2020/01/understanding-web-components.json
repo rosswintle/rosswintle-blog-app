@@ -1,0 +1,231 @@
+{
+    "id": 8928,
+    "date": "2020-01-13T19:28:02",
+    "date_gmt": "2020-01-13T19:28:02",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=8928"
+    },
+    "modified": "2020-01-13T19:28:04",
+    "modified_gmt": "2020-01-13T19:28:04",
+    "slug": "understanding-web-components",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/",
+    "title": {
+        "rendered": "Understanding web &quot;components&quot;"
+    },
+    "content": {
+        "rendered": "\n<p><em>This is a pre-amble to some other posts I&#8217;m about to write about components and Tailwind CSS. I tried re-writing this in the past tense but it didn&#8217;t make sense. So just know that this is me writing at the very start of the year a week or so back.<\/em><\/p>\n\n\n\n<p>I think one of my tech goals for 2020 needs to be getting a proper understanding of building using web \u201ccomponents\u201d. I feel like I understand what components are and how to use them individually, but not how to compose them together onto bigger things.<\/p>\n\n\n\n<p>Example: I get how a table could be a component. Or a row of a table could be a component. But I don\u2019t think I understand which of those things should be components, or if the rows should be child components of the table component.<\/p>\n\n\n\n<p>I tried the table-component-with-child-row-components thing once and it was HORRIBLE. Either it\u2019s not \u201cthe way\u201d, or I was doing it totally wrong.<\/p>\n\n\n\n<p>This is the kind of thing I want to understand.<\/p>\n\n\n\n<p>I\u2019m happy to do it in React or Vue or whatever. It\u2019s the principles I want to learn.<\/p>\n\n\n\n<p>I also think that once I\u2019ve done this, the Tailwind CSS framework (that everyone else raves about but that I don&#8217;t yet &#8220;get&#8221;) will make more sense. I THINK Tailwind and \u201ccomponents\u201d go hand in hand and it will make much more sense to me as creator.<\/p>\n\n\n\n<p>I still fear that any Tailwind stuff I create will be incomprehensible to others though. ??\u200d\u2642\ufe0f<\/p>\n\n\n\n<p>In all of this I note this piece of wisdom from Adam Wathan &#8211; the creator of Tailwind:<\/p>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">A framework that I&#39;ve found useful for filtering through the bullshit:<br><br>Be suspicious of people who talk about how *you* should do things, and pay close attention to people who talk about what works for *them*.<\/p>&mdash; Adam Wathan (@adamwathan) <a href=\"https:\/\/twitter.com\/adamwathan\/status\/1213870157480767489?ref_src=twsrc%5Etfw\">January 5, 2020<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>The pre-amble to my Tailwind thoughts in which I lay down my goal to properly get to grips with &#8220;components&#8221;<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        4899,
+        59,
+        64,
+        733,
+        181
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Understanding web &quot;components&quot; - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Understanding web &quot;components&quot; - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The pre-amble to my Tailwind thoughts in which I lay down my goal to properly get to grips with &quot;components&quot;\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2020-01-13T19:28:02+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-01-13T19:28:04+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/\",\"url\":\"https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/\",\"name\":\"Understanding web &quot;components&quot; - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2020-01-13T19:28:02+00:00\",\"dateModified\":\"2020-01-13T19:28:04+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Understanding web &quot;components&quot;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Understanding web &quot;components&quot; - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Understanding web &quot;components&quot; - Ross Wintle",
+        "og_description": "The pre-amble to my Tailwind thoughts in which I lay down my goal to properly get to grips with \"components\"",
+        "og_url": "https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2020-01-13T19:28:02+00:00",
+        "article_modified_time": "2020-01-13T19:28:04+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/",
+                    "url": "https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/",
+                    "name": "Understanding web &quot;components&quot; - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2020-01-13T19:28:02+00:00",
+                    "dateModified": "2020-01-13T19:28:04+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2020\/01\/understanding-web-components\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Understanding web &quot;components&quot;"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8928"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8928"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8928\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 8942,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8928\/revisions\/8942"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8928"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8928"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8928"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

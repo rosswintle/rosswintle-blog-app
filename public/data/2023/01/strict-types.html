@@ -1,0 +1,64 @@
+<body><header><h1 data-pagefind-meta="title">Strict Types &#8211; A 5 Minute Window</h1></header><main>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Strict Types - A 5 Minute Window:" width="640" height="480" src="https://www.youtube.com/embed/ryArp9w88gY?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; quick-code: false; notranslate" title="">
+&lt;?php
+
+// Hello!
+
+// Here's our code from the other day.
+
+// We started with an array and converted it to an object to see how
+// objects, types and an IDE/editor can help us.
+
+// I wanted to point out some stuff about MY IDE, which is PHPStorm.
+
+// It has a built-in understanding of PHP code and can provide lots of help.
+
+// I don't use it all the time. It can be slow and clumsy. But for bigger projects
+// it's better.
+
+// Here's some quirks though.
+
+// Remember we had to add strict types to get that help with the types of
+// the object properties?
+
+// We can turn this on for all files if we want it.
+
+// Let's see if I can find that in the settings.
+
+// Great - now we can remove the strict types declaration and still have type
+// checking.
+
+// That might get annoying. But it's an option if you want it.
+
+// A quicker way is to search the settings. But you have to know what you are looking
+// for.
+
+// I'll show you another quirk tomorrow!
+
+// Have a nice day!!
+
+class Post {
+    // Each post has a publicly accessible ID and title
+    public int $id = 0;
+    public string $title = '';
+
+    // We will set these for each thing
+}
+
+
+$posts = &#x5B;];
+
+$posts&#x5B;0] = new Post();
+$posts&#x5B;0]-&gt;id = '123'; // &lt;- like this!
+$posts&#x5B;0]-&gt;title = 'Hello World';
+
+$posts&#x5B;1] = new Post();
+$posts&#x5B;1]-&gt;id = '456';
+$posts&#x5B;1]-&gt;title = 'Hello again';
+
+</pre></div></main></body>

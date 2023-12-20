@@ -1,0 +1,163 @@
+<body><header><h1 data-pagefind-meta="title">More struggling with JS: how the PHP -> JS interface is broken and why this is painful</h1></header><main>
+<p><a href="https://rosswintle.uk/2018/06/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model/">Yesterday</a> I was struggling with getting Vue components to do non-AJAXy things and wondering why on earth this was so difficult.</p>
+
+
+
+<p>The conclusion I came to, with the help of some good people on Twitter, is that if you&#8217;re using a component-based reactive framework like Vue, you don&#8217;t want to be half-hearted about it. You need to go all in. They aren&#8217;t intended to be mashed up with traditional HTML page reloads.</p>
+
+
+
+<p>So I then tried to work out how to use the Axios HTTP client library to do my delete action.</p>
+
+
+
+<p>And was that easy?</p>
+
+
+
+<p>Well&#8230;hmm&#8230;.</p>
+
+
+
+<p>The Axios/AJAX thing was actually pretty simple. I&#8217;ll give you that.</p>
+
+
+
+<p>But I was then faced with the propsect of having to delete the <code>thing</code> from my list of things stored as data in the top-level component instance.</p>
+
+
+
+<p>And the problem with this is that this data is a nested array that comes from PHP via JSON.</p>
+
+
+
+<p>Now I know some people complain that PHP arrays are trying to be all things to all men, but from a developer happiness point of view they are pretty nice and I&#8217;ve got very used to their flexibility and ease of use.</p>
+
+
+
+<p>But getting them from PHP into JS isn&#8217;t so simple.</p>
+
+
+
+<p>In my case I have a list of things for each day of the week. But not every day needs a list. So I can have:</p>
+
+
+
+<pre class="wp-block-preformatted">[<br/>  1 => [<br/>          'thing1',<br/>          'thing2'<br/>  ],<br/>  3 => [<br/>          'thing3',<br/>          'thing4'<br/>  ]<br/>]</pre>
+
+
+
+<p>And I can have this in JavaScript too. Sort of.  JavaScript doesn&#8217;t like the gaps &#8211; note in the image below the <code>empty</code> slots and the length:</p>
+
+
+
+<figure class="wp-block-image is-resized"><img loading="lazy" decoding="async" src="https://rosswintle.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-15-at-09.45.08.png" alt="" class="wp-image-3778" width="316" height="84" srcset="https://rosswintle.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-15-at-09.45.08.png 632w, https://rosswintle.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-15-at-09.45.08-300x80.png 300w, https://rosswintle.uk/wp-content/uploads/2018/06/Screen-Shot-2018-06-15-at-09.45.08-600x159.png 600w" sizes="(max-width: 316px) 100vw, 316px" /></figure>
+
+
+
+<p>BUT&#8230;to get between PHP and JS we generally use JSON as a kind of intermediate format.</p>
+
+
+
+<p>And JSON doesn&#8217;t have arrays with indexes. JSON arrays have no specific indices. They always start at zero and subsequent elements are indexed with the next integer.</p>
+
+
+
+<p>So to get around this, PHP&#8217;s <code>json_encode()</code> function works out if the PHP array is compatible with JSON. If it is then it spits out a JSON array. And if it isn&#8217;t then it spits out a JSON OBJECT!</p>
+
+
+
+<p>Here&#8217;s a valid JSON array &#8211; zero-indexed and all sequential keys:</p>
+
+
+
+<pre class="wp-block-preformatted">> $a = [ 0 => 'a', 1 => 'b' ];<br/>> echo json_encode( $a );<br/>["a","b"]</pre>
+
+
+
+<p>Here&#8217;s a non-JSON compatible array:</p>
+
+
+
+<pre class="wp-block-preformatted">> $b = [ 1 => 'a', 2 => 'b' ];<br/>> echo json_encode( $b );<br/>{"1":"a","2":"b"}<br/></pre>
+
+
+
+<p>Fun! Now I note that you can add the <code>JSON_FORCE_OBJECT</code> flag to always convert PHP arrays to JSON objects, even if they are JSON-array compatible. But for the most part, you sometime get an array in JSON, and you sometimes get an object.</p>
+
+
+
+<p>And my list of things, not being JSON-array compatible, was being spat out as an object.</p>
+
+
+
+<p>And here&#8217;s my issue: JavaScript objects aren&#8217;t really iterable. You can&#8217;t easily loop over them. I mean, yes, you can get the keys, and you can use <code>for...of</code> or <code>for...in</code> or something. But sometimes you&#8217;ll get properties you don&#8217;t want (such as a Vue <code>__ob__</code> observer property) and&#8230;well&#8230;objects just aren&#8217;t really intended to be used in this way. Objects are objects, not lists or arrays.</p>
+
+
+
+<p>So what to do?</p>
+
+
+
+<p>Well, I could use <code>JSON_FORCE_OBJECT</code> and treat ALL my arrays as objects and deal with it. That would probably be OK. But then I&#8217;m stuck using objects for lists of things in JS and that&#8217;s not right.</p>
+
+
+
+<p>Or I could try to make all my PHP arrays JSON compatible. So my list would be zero-indexed and sequential, like this:</p>
+
+
+
+<pre class="wp-block-preformatted">[<br/>  0 => [],<br/>  1 => [<br/>    'thing1',<br/>    'thing2'<br/>  ],<br/>  2 => [],<br/>  3 => [<br/>    'thing3',<br/>    'thing4'<br/>  ]<br/>]</pre>
+
+
+
+<p>But enforcing this inside PHP doesn&#8217;t seem like the right thing to do.</p>
+
+
+
+<p>Or I could try to find a way to convert JSON objects that only have numeric keys back into JS arrays. But that still has issues.</p>
+
+
+
+<p>This, I think, is a major pain point and frustration for me.  Once my data is in the right places and in the right types of data structure, I know what I&#8217;m doing and can work quickly.</p>
+
+
+
+<p>But moving data between the different parts of these multi-part systems is hard to get right. And doing it in a scalable and maintainable way is even harder.</p>
+
+
+
+<p>Yesterday I also had problems with:</p>
+
+
+
+<h4 class="wp-block-heading">JavaScript scope</h4>
+
+
+
+<p>How how how How HOW do I pass a variable to a lexically-out-of-scope callback, like:</p>
+
+
+
+<pre class="wp-block-preformatted">function deleteThingFromData( thingToDelete ) {<br/>  newData = _.mapValues( data, myOutOfScopeCallback );<br/>  data = newData;<br/>}<br/><br/>function myOutOfScopeCallback( dataItem ) {<br/>  // Needs access to thingToDelete!<br/>}</pre>
+
+
+
+<h4 class="wp-block-heading">this</h4>
+
+
+
+<p>this is perpetually not my friend. Nothing in programming should be called <code>this</code>, especially when its meaning can vary so wildly.</p>
+
+
+
+<p>Yesterday I got caught by the fact that <code>this</code> inside an arrow function is different to <code>this</code> with a normal function. </p>
+
+
+
+<h4 class="wp-block-heading">#learnToLoveJs</h4>
+
+
+
+<p>For now, my delete now works (YAY!), and I&#8217;m still motivated to #learnToLoveJS, but gosh it&#8217;s hard work.</p>
+</main></body>

@@ -1,0 +1,207 @@
+<body><header><h1 data-pagefind-meta="title">Turbo Admin: The Story of a First Software Product</h1></header><main>
+<p>Someone asked me today if and how I had had any success marketing Turbo Admin, as they were developing a software product of their own and wanted to hear some experiences.</p>
+
+
+
+<p>And the truth is that I have no idea what I&#8217;m doing. I hate marketing. I&#8217;m a total newbie. And <a href="https://turbo-admin.com/">Turbo Admin</a> &#8211; a browser extension that improves your WordPress Dashboard experience on ALL your sites&#8230; WHAT? &#8211; is a pretty unconventional product too.</p>
+
+
+
+<p>So I have no &#8220;tips&#8221; or &#8220;advice&#8221;. But I do have stories and experiences.</p>
+
+
+
+<p>I&#8217;ve been trying to build in the open a bit and be transparent. So sharing a bit about what I&#8217;m doing and why and how seems like a good thing to do. If nothing else, to set the expectations of other people who may be in a similar position to myself. So this seemed like a good time to do that.</p>
+
+
+
+<p>So here&#8217;s what I wrote back to this person, tidied up a bit, and presented for your own enjoyment.</p>
+
+
+
+<h2 class="wp-block-heading">I made Turbo Admin for me&#8230;</h2>
+
+
+
+<p>&#8230;and the initial prototype took about 2 days of my spare time to make.</p>
+
+
+
+<p>But then realised it could totally be something that other people would love, and that it could easily be packaged up with a price tag and sold.</p>
+
+
+
+<p>It seemed like an ideal first product to launch. So off I went!</p>
+
+
+
+<h2 class="wp-block-heading">“Easily” was a bad assumption</h2>
+
+
+
+<p>Some of the difficulty was related specifically to the process of selling browser extensions. But there’s also just the huge hassle of bundling releases, shipping stuff, marketing it, maintaining docs, etc.</p>
+
+
+
+<p>Documentation and automation are key here. I have a documented release process and some shell scripts that do some of the work.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Pricing</strong></h2>
+
+
+
+<p>I didn’t want to be bothered with subscriptions. I didn’t think there was THAT much value in it anyway. So I put a reasonable (in my opinion) price tag on it, and was sure to offer no guaranteed support (after all, it should “just work”) and updates for the life of v1. But all without <em>promising</em> anything.</p>
+
+
+
+<p>This gives me the option of making a v2 with a different pricing model if I want to. But doesn’t commit me to doing ANYTHING. Though, in reality, v1 has grown a LOT and I&#8217;ve been supporting people when needed.</p>
+
+
+
+<h2 class="wp-block-heading">Marketing</h2>
+
+
+
+<p>I’ve mostly marketed by <a href="https://twitter.com/TurboAdmn/status/1501598332002738182">“teasing” features on Twitter</a>. I have a reasonable following with a good number of WordPress developer “influencers” on the list. And announcing releases too.</p>
+
+
+
+<p>I’ve taken the approach that every new feature or release is an excuse to talk about it, to the extent that I’m quite worried my followers are getting bored/annoyed (sorry!). I’ve also used self-promotion channels in places like Slack groups.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>More marketing</strong></h2>
+
+
+
+<p>My product is HARD to market, because people aren’t necessarily searching for it. But people that do find it love it (see <a href="https://rosswintle.uk/2022/03/turbo-admin-wordpress-command-palette-free-trial/">the testimonials on this post!</a>). So I’ve relied a lot on word of mouth, recommendations, etc.</p>
+
+
+
+<p>But this is HARD.</p>
+
+
+
+<p>I’ve done a bit of SEO work, and have been featured by Chris Coyier (on Twitter), on the WP Builds podcast/stream (Nathan Wrigley) and a few other places.</p>
+
+
+
+<p>That&#8217;s helped. But I need more of it and don&#8217;t know how to get it. I&#8217;ve done NO paid ads or anything.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Free trial/more pricing</strong></h2>
+
+
+
+<p>I only recently <a href="https://rosswintle.uk/2022/03/turbo-admin-wordpress-command-palette-free-trial/">implemented a free trial</a>. Initially I didn’t want the support burden of a heap of free users. And I used <a href="https://wordpress.org/plugins/turbo-admin/">the plugin version</a> as the gateway/trial of the main features. But arguably you don’t see the full benefit of my product from that. So the price tag was a kinda deliberate barrier to entry. You had to want it!<br><br>Plus, at first, I only thought about time-limited trials. But I didn’t want to do that for various reasons. But then I realised I could do a site-limited trial and that would work better. So I implemented that. (And have had ZERO sales since doing so! ( ? / ? ) )</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Riding media waves</strong></h2>
+
+
+
+<p>One of my features is notice hiding, so I tried to take advantage of the <a href="https://wptavern.com/clarity-ad-blocker-for-wordpress-announced-receives-mixed-reactions">recent debate around notice hiding/ad blocking</a> and plug that feature a lot. There was a small bump in sales from this, but the impact wasn&#8217;t huge (other than this is how Nathan Wrigley picked it up).</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Sales and Software Licensing</strong></h2>
+
+
+
+<p>Honestly, doing software licensing is HARD. I evaluated <a href="https://paddle.com/">Paddle</a>, <a href="https://freemius.com/">Freemius</a>, <a href="https://gumroad.com/">Gumroad</a>, <a href="https://payhip.com/">PayHip</a>, and even started building my own solution, before settling on the very new <a href="https://www.lemonsqueezy.com/">Lemon Squeezy</a> platform.</p>
+
+
+
+<p>This has been great, but if I was new to it their pricing model wouldn’t work for my kind of sales volumes (I’m locked into a good deal as I was a beta tester).</p>
+
+
+
+<p>DO use a “merchant of record” to avoid all the tax faffing though. It’s worth every penny of the fees you pay. And test out the licensing APIs thoroughly. They may look the same, but they are not!</p>
+
+
+
+<h2 class="wp-block-heading"><strong>SHIP IT!</strong></h2>
+
+
+
+<p>I maybe have an advantage here in that my product won’t do anything bad on your site. Really: It injects some JavaScript to scrape and manipulate the DOM. That’s it. It handles no data or anything.</p>
+
+
+
+<p>So, I’ve very much taken the approach of “it’s good enough &#8211; ship it!“ to keep the releases and features coming and to keep it interesting. I actually do a lot of testing myself, and I can always fix things up later. I&#8217;ve aimed for &#8220;done&#8221; not &#8220;perfect&#8221;.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Have fun. Don’t burn out</strong></h2>
+
+
+
+<p>I have a day job with the wonderful <a href="https://deliciousbrains.com/">Delicious Brains</a>. So I&#8217;ve been doing this all in my &#8220;spare&#8221; time. I’ve had “sprints” on this where I barely talk to my family in the evenings to get stuff done. It’s fun. But it’s also not sustainable. Keep tabs on that. Don’t burn yourself out.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Deals and Freebies</strong></h2>
+
+
+
+<p>I’ve avoided sales because I think people should pay what it’s worth, I think the price is fair, and because I hate scarcity marketing.</p>
+
+
+
+<p>Where I’ve done this I’ve tried to have fun and do something a bit different (putting discount codes on the website as “<a href="https://twitter.com/magicroundabout/status/1465411502723248131">easter eggs</a>” for people to find, for example).</p>
+
+
+
+<p>And I’ve given out free licenses to some influential people with big followings in the hope that they will like it and promote it. This hasn&#8217;t done a huge amount (some people haven&#8217;t even used their coupons) but it seems like a good tactic that will maybe one day pay off.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Social media is fickle</strong></h2>
+
+
+
+<p>Algorithms suck. I had a really good suggestion from someone to use more links to the product website in my Tweets about it. But honestly, Tweets with links seem to tank in the algorithm. Tweets with images and videos seem to do well.</p>
+
+
+
+<p>So&#8230; I don&#8217;t know. Someone out there knows this better than I do. But try, learn, fail, try again, and figure it out as you go.</p>
+
+
+
+<h2 class="wp-block-heading"><strong>Aim low. Be prepared for failure</strong></h2>
+
+
+
+<p>My basic goal was VERY low: I wanted 10 sales to be happy. If I had a stretch goal, it was 100 sales.</p>
+
+
+
+<p>You want to know how it&#8217;s done? Really?</p>
+
+
+
+<p>OK, here&#8217;s some numbers so you can get a feel for how it’s done.</p>
+
+
+
+<ul><li>v1 released: 28th June 2021</li><li>Active plugin installs: 100+</li><li>Total paid browser extension sales: 65</li><li>Total revenue: nearly $2,500 (before fees)</li><li>Chrome extension installs: 111</li><li>5-star reviews: 7 &#8211; and there are ONLY 5-star reviews!</li></ul>
+
+
+
+<p>I&#8217;m pretty chuffed with that. It&#8217;s not taken the world by storm. That&#8217;s OK. But people use it and love it. That&#8217;s what&#8217;s important. I’m still hopeful I’ll hit my stretch goal within the year.</p>
+
+
+
+<p>I&#8217;m convinced I&#8217;m onto something that&#8217;s clever, unique and useful. But I&#8217;ve also had moments where I&#8217;ve done a big release and there&#8217;s been crickets. It feels futile sometimes. If it wasn&#8217;t enjoyable and interesting I&#8217;d have given up a long time ago.</p>
+
+
+
+<p>But sales are great. Sometimes I’m out and about and I get a sale notification on my phone and I smile because it paid for a meal out or a day trip with the kids. I work hard at it. But it is occasional passive income.</p>
+
+
+
+<p>And writing posts like this? Yes. That&#8217;s totally part of the strategy. So <a href="https://turbo-admin.com/">find out more</a>, <a href="https://turbo-admin.com/try.html">try it for free</a>, or <a href="https://turbo-admin.com/#the-deal">buy a license to support me</a>. You could be buying my family dinner tonight!</p>
+</main></body>

@@ -1,0 +1,231 @@
+{
+    "id": 3072,
+    "date": "2018-01-06T22:55:46",
+    "date_gmt": "2018-01-06T22:55:46",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=3072"
+    },
+    "modified": "2018-01-06T22:55:46",
+    "modified_gmt": "2018-01-06T22:55:46",
+    "slug": "laravel-simple-cookie-auth-simple-apis",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/",
+    "title": {
+        "rendered": "Laravel: Simple cookie auth for your simple APIs"
+    },
+    "content": {
+        "rendered": "<p><em>Laravel uses token auth by default, here&#8217;s how to switch it out for simple cookie-based auth for quick and easy API tinkering for logged-in users.<\/em><\/p>\n<p>Note: I&#8217;m not a general PHP security expert. There may be good reasons not to do this aside from the fact that it&#8217;s not stateless (please comment if so!) and definitely use it over HTTPS if you can!!<\/p>\n<p>I&#8217;ve been through this several times and I forget about it each time.\u00a0 So it&#8217;s worth writing down because it doesn&#8217;t seem to be well documented or explained even on Laracasts or Stack Overflow.<\/p>\n<h3>The issue<\/h3>\n<p>Let&#8217;s say you&#8217;re in the early stages of creating a simple app and you want to allow some actions to be taken using AJAX so you want to write some simple API routes that will return JSON.<\/p>\n<p>Laravel has an <a href=\"https:\/\/laravel.com\/docs\/5.5\/routing#basic-routing\">api.php routes file<\/a> which automatically applies some useful middlewares to requests, such as request throttling, and returns responses in JSON with appropriate HTTP headers.\u00a0 But it also uses per-user token auth by default using a token guard. A part of the framework that doesn&#8217;t even seem to be documented.\u00a0 The best I could find was a few <a href=\"https:\/\/www.cloudways.com\/blog\/api-token-authentication-laravel-5-2\/\">tutorials<\/a>, and the alternative seems to be to implement oAuth2 using <a href=\"https:\/\/laravel.com\/docs\/5.5\/passport\">Passport<\/a>, which seems like overkill for smaller, simpler apps.<\/p>\n<p>So perhaps this method really is frowned upon because it&#8217;s not stateless and violates REST principles. In any case, I&#8217;m pragmatic and I want to get started with my requests. So I want to switch this out for session based auth.<\/p>\n<h3>The config in question<\/h3>\n<p><em>Note: this is Laravel 5.5 &#8211; things may have changed.<\/em><\/p>\n<p>So you put your route into <code>routes\/api.php<\/code>\u00a0and you may note that that has the <code>auth:api<\/code>\u00a0middleware applied.\u00a0 Though I&#8217;m not quite sure (and am really struggling to find out) how this happens and exactly what gets applied.<\/p>\n<p>It also has a bunch of other middleware applied that we can control, as we&#8217;ll see later.<\/p>\n<p>Let&#8217;s deal with the latter first.\u00a0 The &#8220;other middleware&#8221; used are specified in <code>app\/Http\/Kernel.php<\/code><\/p>\n<p>You&#8217;ll see in there the <code>$middlewareGroups<\/code>\u00a0property which looks like this:<\/p>\n<pre class=\"brush: php; title: ; notranslate\" title=\"\">\r\nprotected $middlewareGroups = &#x5B;\r\n    'web' =&gt; &#x5B;\r\n        \\App\\Http\\Middleware\\EncryptCookies::class,\r\n        \\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse::class,\r\n        \\Illuminate\\Session\\Middleware\\StartSession::class,\r\n        \/\/ \\Illuminate\\Session\\Middleware\\AuthenticateSession::class,\r\n        \\Illuminate\\View\\Middleware\\ShareErrorsFromSession::class,\r\n        \\App\\Http\\Middleware\\VerifyCsrfToken::class,\r\n        \\Illuminate\\Routing\\Middleware\\SubstituteBindings::class,\r\n    ],\r\n\r\n    'api' =&gt; &#x5B;\r\n        'throttle:60,1',\r\n        'bindings',\r\n    ],\r\n]\r\n<\/pre>\n<p>And you&#8217;ll hopefully note that there&#8217;s a <code>web<\/code> and an <code>api<\/code> group in here. The <code>api<\/code> group includes the throttling and something called bindings\u00a0that remains mysterious to me.<\/p>\n<p>Now, I THINK that the <code>auth:api<\/code> middleware that you see mentioned in <code>routes\/api.php<\/code> refers to the guards listed in <code>config\/auth.php<\/code>. These look like:<\/p>\n<pre class=\"brush: php; title: ; notranslate\" title=\"\">\r\n'guards' =&gt; &#x5B;\r\n    'web'=&gt;&#x5B;\r\n        'driver'=&gt;'session',\r\n        'provider'=&gt;'users',\r\n    ],\r\n'api'=&gt;&#x5B;\r\n \u00a0 \u00a0 'driver'=&gt;'token',\r\n \u00a0 \u00a0 'provider'=&gt;'users',\r\n    ],\r\n],\r\n<\/pre>\n<p>Note that the driver for the <code>api<\/code>\u00a0guard here is token.\u00a0 Now I think this refers to a per-user-token style of authentication (a bit like the method described <a href=\"https:\/\/laracasts.com\/discuss\/channels\/laravel\/53-api-routes-auth-middleware-confusion\">here<\/a>), but this token-driver-auth is not, as far as I can tell, document ANYWHERE, even though it seems to be the default for routes in <code>routes\/api.php<\/code>.<\/p>\n<p>So that what we seem to be dealing with. BUT&#8230;something either is not right with my understanding of the <code>auth:api<\/code>\u00a0middleware or it doesn&#8217;t work, or something else is going on that I don&#8217;t know about (and that no one seems to be able to tell me about).<\/p>\n<h3>The solution<\/h3>\n<p>Given what I found about the config, you&#8217;d think that the solution is to set the <code>api<\/code>\u00a0driver in <code>config\/auth.php<\/code>\u00a0to be <code>session<\/code>, but this doesn&#8217;t work.<\/p>\n<p>One reason this doesn&#8217;t work is that the other lot of middleware defined in <code>Kernel.php<\/code> doesn&#8217;t include the middleware needed to start sessions and use cookies.\u00a0 To do that you need to add the right middleware in <code>Kernel.php<\/code><\/p>\n<pre class=\"brush: php; title: ; notranslate\" title=\"\">\r\n'api' =&gt; &#x5B;\r\n    \\App\\Http\\Middleware\\EncryptCookies::class,\r\n    \\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse::class,\r\n    \\Illuminate\\Session\\Middleware\\StartSession::class, \r\n    'throttle:60,1',\r\n    'bindings',\r\n],\r\n<\/pre>\n<p>But this STILL doesn&#8217;t work.<\/p>\n<p>And in the absence of any further information about how the <code>auth:api<\/code>\u00a0middleware works, I can only get this working by changing <code>auth:api<\/code>\u00a0to just <code>auth<\/code>\u00a0in <code>routes\/api.php<\/code>.<\/p>\n<p>So&#8230;steps to get this working<\/p>\n<ol>\n<li>Add the cookies and session middlewares to the <code>api<\/code>\u00a0group in <code>Kernel.php<\/code><\/li>\n<li>Change <code>api:auth<\/code>\u00a0to just <code>api<\/code>\u00a0in <code>routes\/api.php<\/code><\/li>\n<li>Add your routes and controllers and away you go!<\/li>\n<li>Oh, and make sure you&#8217;re using HTTPS. You don&#8217;t want your cookies being intercepted!<\/li>\n<\/ol>\n<h3>Finally&#8230;<\/h3>\n<p>If you know how the <code>auth:api<\/code>\u00a0middleware works, or if you can explain why any of what I&#8217;ve suggested is a bad idea, please leave comments.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Laravel uses token auth by default, here&#8217;s how to switch it out for simple cookie-based auth for quick and easy API tinkering for logged-in users.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        642,
+        23
+    ],
+    "tags": [
+        589,
+        680,
+        679,
+        643,
+        681
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Laravel: Simple cookie auth for your simple APIs - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Laravel: Simple cookie auth for your simple APIs - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Laravel uses token auth by default, here&#039;s how to switch it out for simple cookie-based auth for quick and easy API tinkering for logged-in users.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-06T22:55:46+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/\",\"name\":\"Laravel: Simple cookie auth for your simple APIs - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-01-06T22:55:46+00:00\",\"dateModified\":\"2018-01-06T22:55:46+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Laravel: Simple cookie auth for your simple APIs\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Laravel: Simple cookie auth for your simple APIs - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Laravel: Simple cookie auth for your simple APIs - Ross Wintle",
+        "og_description": "Laravel uses token auth by default, here's how to switch it out for simple cookie-based auth for quick and easy API tinkering for logged-in users.",
+        "og_url": "https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2018-01-06T22:55:46+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/",
+                    "url": "https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/",
+                    "name": "Laravel: Simple cookie auth for your simple APIs - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2018-01-06T22:55:46+00:00",
+                    "dateModified": "2018-01-06T22:55:46+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/01\/laravel-simple-cookie-auth-simple-apis\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Laravel: Simple cookie auth for your simple APIs"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3072"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=3072"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 8,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3072\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 3081,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3072\/revisions\/3081"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=3072"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=3072"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=3072"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

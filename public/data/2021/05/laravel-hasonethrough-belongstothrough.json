@@ -1,0 +1,229 @@
+{
+    "id": 10236,
+    "date": "2021-05-27T10:16:56",
+    "date_gmt": "2021-05-27T09:16:56",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=10236"
+    },
+    "modified": "2021-06-04T07:21:21",
+    "modified_gmt": "2021-06-04T06:21:21",
+    "slug": "laravel-hasonethrough-belongstothrough",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/",
+    "title": {
+        "rendered": "Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion"
+    },
+    "content": {
+        "rendered": "\n<p>It&#8217;s kinda hard to believe that in all my years of writing Laravel I&#8217;ve not come across this before.<\/p>\n\n\n\n<p>But today I needed &#8220;belongsToThrough&#8221; in an Eloquent Model and I got myself so confused! Turns out it doesn&#8217;t exist, and the docs are (IMO) confusing and others seem to have even got it backwards.<\/p>\n\n\n\n<p>I&#8217;m assuming some knowledge here to keep things brief. You would know what an ORM is and how relationships work.<\/p>\n\n\n\n<p>Also &#8211; note for pedants &#8211; I&#8217;m using American &#8220;license&#8221; throughout examples for naming consistency, even for the noun which would otherwise be &#8220;licence&#8221;. I know. And I&#8217;m sorry.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">My use case<\/h2>\n\n\n\n<p>I&#8217;ve been working on my licensing system for software products I&#8217;m developing. It&#8217;s pretty simple. And it has a data model with Customers, Orders, and Licenses.<\/p>\n\n\n\n<p>It looks like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nLicense        Order             Customer\n--------       -----------       --------\norder_id  --&gt;  customer_id  --&gt;  email\n<\/pre><\/div>\n\n\n<p>In ORM terminology:<\/p>\n\n\n\n<ul><li>A License <code>belongsTo<\/code> an Order<\/li><li>An Order <code>hasMany<\/code> Licenses<\/li><li>An Order <code>belongsTo<\/code> a Customer<\/li><li>A Customer <code>hasMany<\/code> Orders<\/li><\/ul>\n\n\n\n<p>This is all good. But, for reasons I won&#8217;t go into, I wanted to define a relationship between License and Customer through the Orders table. So I could do:<\/p>\n\n\n\n<p><code>$license-&gt;customer<\/code><\/p>\n\n\n\n<p>I know that I could simply do:<\/p>\n\n\n\n<p><code>$license-&gt;order-&gt;customer<\/code><\/p>\n\n\n\n<p>but please, just let me do my thing and assume I have reasons! Thanks.<\/p>\n\n\n\n<p>Laravel is a superb framework and often just does what you need. It&#8217;s conventions make sense and you can often guess the name of the thing you need.<\/p>\n\n\n\n<p>I was vaguely aware of &#8220;hasOneThrough&#8221; (those of you who are ahead of me are already rolling your eyes). And so I attempted to implement it:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\npublic function customer()\n{\n  return $this-&gt;hasOneThrough(Customer::class, Order::class);\n}\n<\/pre><\/div>\n\n\n<p>BUT&#8230;this gave me an error saying that the Order table didn&#8217;t have a license_id.<\/p>\n\n\n\n<p>My immediate reaction: WHAT? THAT&#8217;S BACKWARDS.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The Laravel Docs Example<\/h2>\n\n\n\n<p>Time to consult <a href=\"https:\/\/laravel.com\/docs\/eloquent-relationships#has-one-through\">the Laravel docs<\/a> where the example given is:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nmechanics\n    id - integer\n    name - string\n\ncars\n    id - integer\n    model - string\n    mechanic_id - integer\n\nowners\n    id - integer\n    name - string\n    car_id - integer\n<\/pre><\/div>\n\n\n<p>Now, first of all, this is (in my opinion &#8211; sorry documenters) a poor example data model. It says that an owner can only have one car, but a car can have multiple owners. Which is&#8230;err&#8230;backwards? And a car has one mechanic. And I don&#8217;t understand what real-world use-case this data model is modelling. But let&#8217;s go with it.<\/p>\n\n\n\n<p>In this model:<\/p>\n\n\n\n<ul><li>A Mechanic <code>hasMany<\/code> Cars<\/li><li>A Car <code>belongsTo<\/code> a Mechanic<\/li><li>A Car <code>hasMany<\/code> Owners<\/li><li>An Owner <code>belongsTo<\/code> a Car (?!)<\/li><\/ul>\n\n\n\n<p>And in the example we want to get the Owner for a given Mechanic (?! &#8211; let&#8217;s go with it!). So you can do:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\npublic function carOwner()\n{\n  return $this-&gt;hasOneThrough(Owner::class, Car::class);\n}\n<\/pre><\/div>\n\n\n<p>I don&#8217;t know about you but I&#8217;m so confused. (And no, I&#8217;m not going to PR the docs. I&#8217;ve tried this before. It&#8217;s no fun.)<\/p>\n\n\n\n<p>In this model a Mechanic hasMany Cars and a Car hasMany Owners. So a Mechanic has many, many Owners! And we&#8217;re asking for one of them. And what&#8217;s even more confusing is that the docs don&#8217;t specify which one we will get? The most-recently created? The most-recently updated? A random owner? It&#8217;s just weird.<\/p>\n\n\n\n<p>The <a href=\"https:\/\/laravel.com\/docs\/8.x\/eloquent-relationships#has-one-of-many\">Laravel docs<\/a> are explicit about this for <code>hasOne<\/code> saying:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Sometimes a model may have many related models, yet you want to easily retrieve the &#8220;latest&#8221; or &#8220;oldest&#8221; related model of the relationship.<\/p><\/blockquote>\n\n\n\n<p>and it defines <code>latestOfMany()<\/code>, <code>oldestOfMany()<\/code> and a generic <code>ofMany()<\/code> modifiers.<\/p>\n\n\n\n<p>I can see that you might want to use this. For example, you might have <code>Category &lt;- Post &lt;- Comment<\/code> and you might want to get the most recent Comment for a Category? Maybe? This is the kind of thing that <code>hasOneThrough<\/code> seems to do.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Has and BelongsTo naming&#8230;<\/h2>\n\n\n\n<p>To get why this is all like it is, you have to properly understand the Has and BelongsTo conventions in ORMs.<\/p>\n\n\n\n<p>Has\/have is always about having lots of things. You can haveMany. And you can haveOne. But haveOne is actually really haveOneOfMany.<\/p>\n\n\n\n<p>Belongs is sometimes about having one (<code>belongsTo<\/code>) and, confusingly, sometimes about having many (which is called <code>belongsToMany<\/code>). But let&#8217;s just ignore <code>belongToMany<\/code> for now. Belongs is about being related to one of another thing. It&#8217;s the child -&gt; parent relationship.<\/p>\n\n\n\n<p>But this is really confusing. Deal with it.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Enter stage left: belongsToThrough !<\/h2>\n\n\n\n<p>Finally, with the tenacious web-searching that only a persistent nerd like me has, I found a &#8220;<a href=\"https:\/\/github.com\/staudenmeir\/belongs-to-through\">belongsToThrough<\/a>&#8221; package for Eloquent. And I realised that I had had it wrong all along.<\/p>\n\n\n\n<p>The existence of this package with the relationship named correctly made me realise that I&#8217;d misunderstood <code>hasOneThrough<\/code> and the whole has\/belongs convention. THIS was what I needed.<\/p>\n\n\n\n<p>My only remaining questions:<\/p>\n\n\n\n<p>1. Is this the best way to do this? Does this not exist for a reason in Laravel core?<\/p>\n\n\n\n<p>and<\/p>\n\n\n\n<p>2. <a href=\"https:\/\/github.com\/staudenmeir\/belongs-to-through\/issues\/50\">Why DOESN&#8217;T this exist in Laravel&#8217;s core?<\/a><\/p>\n\n\n\n<p>And it seems that this doesn&#8217;t exist in Laravel&#8217;s core because:<\/p>\n\n\n\n<p>a) There aren&#8217;t good use cases for it (apparently, even though OrderItem -&gt; Order -&gt; Customer seems like a really common use case)<\/p>\n\n\n\n<p>b) There are other ways of achieving it, such as with an accessor, or just by chaining the relationships (e.g. <code>$license-&gt;order-&gt;customer<\/code>)<\/p>\n\n\n\n<p>It seems that the potential benefits of being able to eager load, or use PHP Reflection on this relationship just aren&#8217;t there.<\/p>\n\n\n\n<p><\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>How I found out that I wanted belongsToThrough, not hasOneThrough in Laravel Eloquent, and why it doesn&#8217;t exist.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        642,
+        23
+    ],
+    "tags": [
+        5083,
+        5084
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"How I found out that I wanted belongsToThrough, not hasOneThrough in Laravel Eloquent, and why it doesn&#039;t exist.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2021-05-27T09:16:56+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-06-04T06:21:21+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/\",\"url\":\"https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/\",\"name\":\"Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2021-05-27T09:16:56+00:00\",\"dateModified\":\"2021-06-04T06:21:21+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion - Ross Wintle",
+        "og_description": "How I found out that I wanted belongsToThrough, not hasOneThrough in Laravel Eloquent, and why it doesn't exist.",
+        "og_url": "https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2021-05-27T09:16:56+00:00",
+        "article_modified_time": "2021-06-04T06:21:21+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/",
+                    "url": "https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/",
+                    "name": "Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2021-05-27T09:16:56+00:00",
+                    "dateModified": "2021-06-04T06:21:21+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2021\/05\/laravel-hasonethrough-belongstothrough\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Tech Notes: Laravel hasOneThrough \/ belongsToThrough confusion"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10236"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=10236"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 5,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10236\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 10265,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10236\/revisions\/10265"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=10236"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=10236"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=10236"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

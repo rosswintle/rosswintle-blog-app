@@ -1,0 +1,26 @@
+<body><header><h1 data-pagefind-meta="title">Blooming MailChimp Groups and GDPR fields</h1></header><main><h3>Because some things on the internet are inexplicably hard to do</h3>
+<p>Gosh, what a frustrating afternoon.</p>
+<p>This is a case of knowing the individual parts of a task pretty well, but not having put all the parts together in this particular way before.</p>
+<p>Today I needed/wanted to create a simple email sign-up/opt-in form with:</p>
+<ul>
+<li>The excellent Elegant Themes <a href="https://www.elegantthemes.com/plugins/bloom/">Bloom email sign-up plugin</a> (though it could have been pretty much any email sign-up plugin)</li>
+<li>A regular MailChimp List</li>
+<li>MailChimp groups</li>
+<li>MailChimp&#8217;s new GDPR fields</li>
+<li>and when I got stuck, <a href="http://wpforms.com/">WPForms</a> too.</li>
+</ul>
+<p>I reckon I&#8217;ve combined two of these things together in several different combinations. And I&#8217;m pretty sure I&#8217;ve done one specific combination of three of them. But never more than that.</p>
+<p>And I needed at least four of them. And the GDPR fields in MailChimp are new and, well, let&#8217;s say they seem to have been shoe-horned in in a bit of a hurry.</p>
+<p>Now&#8230;let&#8217;s go down the rabbit hole&#8230;</p>
+<p>Bloom integrates with regular MailChimp, but won&#8217;t let you use groups.  To do that you need to use a &#8220;custom HTML form&#8221; in the Bloom opt-in which you copy and paste from MailChimp&#8217;s embedded forms section.</p>
+<p>The problem with that is that in a pop-up (we have a good case for using a pop-up, it&#8217;s OK!) is that the GDPR text and fields make the form really long and it won&#8217;t fit nicely on a smaller screen.</p>
+<p>So I tried reducing the form to just an email input and a button, and then sending that input to a WPForms form using a URL parameter to autocomplete the email field on the &#8220;full&#8221; form. Great! That works really nicely.</p>
+<p>Only&#8230;WPForms doesn&#8217;t send the GDPR opt-in fields. Rats! I assume Gravity Forms won&#8217;t do this either.</p>
+<p>So maybe, rather than linking the Bloom opt-in to an on-site form, I&#8217;ll link it to an off-site form. That will work!</p>
+<p>Only, I want the subscriber to sign up to a specific group, and it turns out that <a href="https://mailchimp.com/help/automatically-add-subscribers-to-a-group-at-signup/">you sort-of can&#8217;t have a pre-selected group on MailChimps own, hosted forms</a>.</p>
+<p>So what am I left with? Taking a MailChimp embedded form, sticking it in a WordPress page, editing the HTML of the form to make the required group pre-selected and hiding the group selection from the user and linking my Bloom pop-up to that page.</p>
+<p>That&#8217;s pretty gross. But it does work.</p>
+<p>I&#8217;m hoping that at some point MailChimp&#8217;s API will work nicer with the GDPR fields. It seems to have the ability to send &#8220;marketing_permissions&#8221; with a new subscriber, but it&#8217;s not clear how you get the ID&#8217;s needed to send. When this does work nicely, hopefully WPForms or Bloom or Gravity Forms will integrate with it and let me do this properly.</p>
+<p>For now&#8230;making a simple form requires a humongous kludge.</p>
+<p>Welcome to the internet, everybody!</p>
+</main></body>

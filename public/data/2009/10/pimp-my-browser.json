@@ -1,0 +1,231 @@
+{
+    "id": 283,
+    "date": "2009-10-09T22:34:28",
+    "date_gmt": "2009-10-09T22:34:28",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?p=283"
+    },
+    "modified": "2009-10-09T22:34:28",
+    "modified_gmt": "2009-10-09T22:34:28",
+    "slug": "pimp-my-browser",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/",
+    "title": {
+        "rendered": "Pimp my browser"
+    },
+    "content": {
+        "rendered": "<h3>What this is really all about<\/h3>\n<p>Ok, I confess.  This post started as a note to self about various things that I want to record for my own future reference.  I&#8217;ve tried to flesh it out into something that may be of interest to others.<\/p>\n<h3>A geek&#8217;s dilemma<\/h3>\n<p>It&#8217;s probably quite clear that I&#8217;m a bit of a geek.  In fact I&#8217;ve already proudly annouced this fact at least twice here.  And one of the things about being a geek (of the computer kind) is that you discover lots of useful software tools for doing computery-type things.<\/p>\n<p>Some of these things aren&#8217;t useful for the everyday person.  I wouldn&#8217;t expect my average reader to care about <a href=\"https:\/\/rosswintle.uk\/2009\/01\/10\/tools-of-the-trade\/\">subversion, vi or X<\/a> because you don&#8217;t do the sorts of tasks that those tools are designed to help with.<\/p>\n<p>Some of the tools are useful to non-geeks, but require some investment in learning about new technologies or concepts.\u00a0 Perhaps something like an RSS Feed Reader would come into this category.\u00a0 Some people jump at the idea of using a new tool to do something useful.\u00a0 Others take an &#8220;it ain&#8217;t broken so don&#8217;t fix it&#8221; approach.<\/p>\n<p>Some of the tools are not obviously useful in that they don&#8217;t let you do anything new or different &#8211; but they are &#8220;important&#8221;.\u00a0 Things like virus checkers, firewalls, and other security tools fit this category.<\/p>\n<p>And some of the tools are quick, simple little things, or incredibly useful things and you&#8217;ll wonder why you don&#8217;t know about them already (or perhaps you already do).<\/p>\n<p>This post is a little list of things that I&#8217;ve found useful as a computer user, making his way around the internet and sharing things with his friends as he does so.<\/p>\n<p>Not all of them fit into the last category, but I offer them for, as I said, both my own future reference and for the information of any readers.<\/p>\n<p><!--more--><\/p>\n<h3>Avast and AVG<\/h3>\n<p>Most virus software comes with updated for a year and I used to have a policy of buying new virus software within the last 3 months (when it started nagging me that the updates were running out). \u00a0There was almost always something for sale in WHSmith for half price.<\/p>\n<p>But most of the major anti-virus vendors sell huge packages full of software, most of which you don&#8217;t need, and some of which has, in my experience, broken other bits of software.<\/p>\n<p>So I started looking for something that was more light-weight &#8211; JUST a virus scanner.<\/p>\n<p>And it turns out there are some free ones around. \u00a0I&#8217;ve given both <a title=\"AVG Free\" href=\"http:\/\/free.avg.com\/\" target=\"_blank\">AVG Free<\/a> and <a title=\"Avast Home Edition Anti-Virus\" href=\"http:\/\/www.avast.com\/eng\/download-avast-home.html\" target=\"_blank\">Avast<\/a> a go and have had no problems with either. \u00a0Why pay?<\/p>\n<h3>Internet Link Tools<\/h3>\n<p>As you float around the Internet and surf the vast oceans of information that are out there, occasionally you come across things that you want to remember for later, or to send on to others.<\/p>\n<p>There are many ways of doing these things, but two that I use a lot are bit.ly and Delicious.<\/p>\n<p><strong>Bit.ly<\/strong><\/p>\n<p><a title=\"Bit.ly\" href=\"http:\/\/bit.ly\" target=\"_blank\">http:\/\/bit.ly<\/a> is a URL shortener. \u00a0This takes a long internet link like, say:<\/p>\n<blockquote><p><a title=\"BBC News: Barack Obama Wins Nobel Peace Prize\" href=\"http:\/\/news.bbc.co.uk\/1\/hi\/world\/americas\/8299824.stm\" target=\"_blank\">http:\/\/news.bbc.co.uk\/1\/hi\/world\/americas\/8299824.stm<\/a><\/p><\/blockquote>\n<p><a title=\"BBC News: Barack Obama Wins Nobel Peace Prize\" href=\"http:\/\/news.bbc.co.uk\/1\/hi\/world\/americas\/8299824.stm\" target=\"_blank\"><\/a>and shortens it to something like<\/p>\n<blockquote><p><a title=\"BBC News: Barack Wins Nobel Peace Prize, via bit.ly\" href=\"http:\/\/bit.ly\/2t8Oua\" target=\"_blank\">http:\/\/bit.ly\/2t8Oua<\/a><\/p><\/blockquote>\n<p>Why is this useful? \u00a0Well, mostly if you want to share a link when you&#8217;re constrained by the length of your message &#8211; like with Twitter where you can only use 140 characters. \u00a0But you could send links like this in SMS or emails.<\/p>\n<p>To make life quick and easy there are &#8220;bookmarklets&#8221; and plug-ins that let you get one-click buttons for shortening links.<\/p>\n<p>There are LOADS of link shortening services but bit.ly offers plenty more. \u00a0If it&#8217;s not taken already you can use your own reference for the link. It wouldn&#8217;t let me shorten this link to news about Obama&#8217;s Nobel prize to ObNob, but it would let me use <a title=\"BBC News: Obama Wins Nobel Prize\" href=\"http:\/\/bit.ly\/0bNob\" target=\"_blank\">http:\/\/bit.ly\/0bNob<\/a><\/p>\n<p>And it tracks stats too&#8230;so if you&#8217;re running a marketing campaign and don&#8217;t have tools that will let you track who&#8217;s clicked on links that you&#8217;ve sent, bit.ly will tell you how many times the shortened link is clicked.<\/p>\n<p>A quick warning &#8211; when you shortened link you don&#8217;t know where it&#8217;s going. It could go somewhere bad! \u00a0You can check the destination of a bit.ly link by adding a &#8220;+&#8221; to the end; e.g. <a title=\"Link Info\" href=\"http:\/\/bit.ly\/0bNob+\" target=\"_blank\">http:\/\/bit.ly\/0bNob+<\/a><\/p>\n<h3>Delicious<\/h3>\n<p>Do you ever, while browsing the internet, come across something &#8211; \u00a0say, a news article or a knitting pattern, or a nice bike &#8211; that you want to remember and recall, but you don&#8217;t want to clog up your browser bookmarks?<\/p>\n<p>I use a tool called Delicious for this. \u00a0It&#8217;s a &#8220;social bookmarking&#8221; tool&#8230;don&#8217;t get scared&#8230;it allows you to set up a user account and install a bookmarklet (a little button) or a browser plug in that lets you save stuff like this for later use.<\/p>\n<p>You can &#8220;tag&#8221; links to help you remember them. \u00a0So you could tag my Obama getting his Nobel Prize artical with the terms &#8220;obama, nobel, prize, news&#8221; and then use those tags to recall the article later.<\/p>\n<p>Then, when you think &#8220;Ah, didn&#8217;t I see a nice commuter bike the other day?&#8221;, you can <a title=\"Search Delicious for Bike and Commuter\" href=\"http:\/\/delicious.com\/rwintle\/bike+commuter\" target=\"_blank\">search for bike and commuter<\/a> tags and find it!<\/p>\n<p>Bookmarks can be shared too (this happens by default), so you can search for links that other people have tagged. \u00a0Here&#8217;s the <a title=\"Search Delicious for Bike and Commuter\" href=\"http:\/\/delicious.com\/tag\/bike+commuter\" target=\"_blank\">&#8220;bike + commuter&#8221; list<\/a>.<\/p>\n<p>To top it all, there&#8217;s a great plug in for Firefox (see below) which makes saving and recall links easy!<\/p>\n<h3>Firefox\/Chrome<\/h3>\n<p>I suspect that if you&#8217;re reading my blog you&#8217;re probably a fairly advanced internet used. \u00a0But maybe not. \u00a0In which case, let me say a little about the tool that you use to browse the internet.<\/p>\n<p>Most people will use Internet Explorer (the big blue &#8220;e&#8221;) to get to the Internet. \u00a0But a lot of people would argue that this isn&#8217;t the best way.<\/p>\n<p>There are other free programs that do what Internet Explorer does, and they do it much better.<\/p>\n<p><a title=\"Firefox\" href=\"http:\/\/www.mozilla-europe.org\/en\/firefox\/\" target=\"_blank\">Firefox<\/a> has been around for a while and, while I find it slow to start up, it&#8217;s quick once it gets going and has lots of options and a great plug-in system that makes it do more stuff (read about some of the plug-ins that I use below).<\/p>\n<p>I depend on it for most of my internet access both at home and at work because it&#8217;s fast and flexible.<\/p>\n<p>Google have recently released a web browser too, called <a title=\"Google Chrome\" href=\"http:\/\/www.google.com\/chrome\" target=\"_blank\">Chrome<\/a>. \u00a0It&#8217;s lightning fast, but still quite new on the scene so it doesn&#8217;t do quite as much as Firefox, but it will improve quickly.<\/p>\n<p>If you&#8217;re a Mac user then you&#8217;re probably happy with Safari but Firefox is also available for you and will, with the right plug-ins handily syncronise your data with Firefox running on another computer.<\/p>\n<p>Installing a new program may sound a bit scary, but these things are hard to break and I encourage you to give them a try and check out the help pages and tutorials that show you what they do.<\/p>\n<h3>Firefox Add-Ons<\/h3>\n<p>Firefox does lots when you first install it, but people have written little <a title=\"Firefox Add Ons\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/\" target=\"_blank\">add-on bits<\/a> for it that make it do more. \u00a0Here are some that I use.<\/p>\n<h4>Fire Gestures<\/h4>\n<p>Gestures debuted in the Opera Web Browser which is also still around). \u00a0They allow you to move around the internet more easily with just a mouse. \u00a0A gesture usually involves holding down a mouse button and &#8220;swiping&#8221; the mouse in a direction to do something. \u00a0For example, holding down the right mouse button and moving the mouse left goes &#8220;back&#8221; (like clicking the big left arrow button).<\/p>\n<p>This can save you time and lots of mouse movement.<\/p>\n<p><a title=\"FireGestures\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/6366\" target=\"_blank\">Fire Gestures<\/a> brings this to Firefox and it works a treat. \u00a0I get confused now when I CAN&#8217;T use gestures&#8230;why doesn&#8217;t it work?<\/p>\n<h4>Foxmarks\/XMarks<\/h4>\n<p>All web browsers have favourites, or bookmarks; places to store links that you go to often. \u00a0But a lot of people these days have more than one computer, so it would be handy to have the same lists of bookmarks on each computer.<\/p>\n<p><a title=\"XMarks - Bookmark Sync and Search\" href=\"http:\/\/www.xmarks.com\/\" target=\"_blank\">XMarks<\/a> (previously known as Foxmarks) does this; it synchronises your lists of bookmarks across different computers and broswers.<\/p>\n<p>It&#8217;s clever, works without you really knowing it&#8217;s there, you can get to your bookmarks by going to a web page (e.g. if you&#8217;re in an internet cafe and can&#8217;t install the add-on), and you can even have &#8220;profiles&#8221; to keep your work and leisure bookmarks separate.<\/p>\n<p><strong>Gui:Config<\/strong><\/p>\n<p>As the name might suggest, probably not for the average user, but <a title=\"GUI:Config add on\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/5523\" target=\"_blank\">this add on<\/a> gives you a whole extra load of settings for changing how the browser works<\/p>\n<h4>NoScript<\/h4>\n<p>A lot of the clever stuff that you can do on the Internet these days is accomplished using scripts &#8211; small bits of code that are downloaded from the internet and run on your computer.<\/p>\n<p>The problem with this is that people can write nasty scripts that do stuff that you don&#8217;t want.<\/p>\n<p>Again, don&#8217;t get scared. \u00a0For the average internet user this doesn&#8217;t happen much.<\/p>\n<p>What <a title=\"NoScript\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/722\" target=\"_blank\">NoScript<\/a> does is it blocks scripts from any sites that you haven&#8217;t approved. \u00a0This is highly annoying at first while you &#8220;whitelist&#8221; all the things that you actually need to be able to do. \u00a0But once you&#8217;ve been through that process you&#8217;re a fair bit safer than you were.<\/p>\n<p>Blocking scripts can also:<\/p>\n<ul>\n<li>Remove adverts and automatically-appearing videos and sounds.<\/li>\n<li>Prevent you being redirected to nasty web sites.<\/li>\n<li>Prevent your visits being registered by sites which track visits<\/li>\n<li>Give you an insight into where all these scripts come from.<\/li>\n<\/ul>\n<p>This isn&#8217;t essential security, but useful extra protection if you can spend some time working it out.<\/p>\n<h4>URLBarExt<\/h4>\n<p>Again, for more advanced users. \u00a0I&#8217;m not entirely convinced of its use just yet, but it adds a load of extra little icons to the address bar (aka the &#8220;Awesome Bar&#8221;) at the top of the browser.<\/p>\n<p>My favourite is the link shortener.<\/p>\n<p><em>[Advanced user note and note to self:<\/em><\/p>\n<p><em>If you have a bit.ly API key you can configure the shortener to use a URL like: <\/em><\/p>\n<p style=\"padding-left:30px;\"><em>http:\/\/api.bit.ly\/shorten?version=2.0.1&amp;login=&lt;login&gt;&amp;apiKey=&lt;apiKey&gt;&amp;history=1&amp;longUrl=<\/em><\/p>\n<p><em>and a filter like:<\/em><\/p>\n<p style=\"padding-left:30px;\"><em>\\&#8221;shortUrl\\&#8221;: \\&#8221;(.+)\\&#8221;<\/em><\/p>\n<p><em>to have all shortened links tracked in your bit.ly account]<\/em><\/p>\n<h4>Other Add-Ons<\/h4>\n<p>Other add-ons I use are:<\/p>\n<ul>\n<li><a title=\"Compact Menu 2\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/4550\" target=\"_blank\">Compact Menu 2<\/a> &#8211; reduces the menu bar to a single icon with a drop-down menu system &#8211; great for saving screen space and especially great for use on a NetBook with a small screen.<\/li>\n<li><a title=\"Delicious Bookmarks Addon\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/3615\" target=\"_blank\">Delicious Bookmarks<\/a> &#8211; plug in for Delicious bookmarks mentioned above.<\/li>\n<li><a title=\"Feedly\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/8538\" target=\"_blank\">Feedly<\/a> &#8211; if you use Google Reader you MUST check this out &#8211; it&#8217;s a magazine-style layout for your Google Reader items. \u00a0Brilliant!<\/li>\n<li><a title=\"Tab Mix Plus\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/1122\" target=\"_blank\">Tab Mix Plus<\/a> &#8211; almost-essential new options for using tabs.<\/li>\n<li><a title=\"EchoFon\" href=\"https:\/\/addons.mozilla.org\/en-US\/firefox\/addon\/5081\" target=\"_blank\">EchoFon<\/a> (was Twitterfox) &#8211; neat and unobtrusive Twitter gadget for Firefox.<\/li>\n<\/ul>\n<h3>Firefox Keyword Searches<\/h3>\n<p>One final note on Firefox before I shut up. Firefox has the ability to use &#8220;keywords&#8221; for searches. \u00a0This means that you can things like:<\/p>\n<ul>\n<li>&#8220;amazon the da vinci code&#8221; to go straight to Amazon results for &#8220;the da vinci code&#8221;<\/li>\n<li>&#8220;ebay food processor&#8221; to find food processors on ebay<\/li>\n<\/ul>\n<p>You get the idea.<\/p>\n<p>But these are also customisable. \u00a0So if there&#8217;s a site that you search a lot, set up a key word for it. \u00a0It&#8217;s usually enough just to find the text box where you type your search, right-click in it and select &#8220;Add a Keyword for this search&#8221;. \u00a0This is all described in more detail <a title=\"Mozillazine - Keyword Searches\" href=\"http:\/\/kb.mozillazine.org\/Using_keyword_searches\" target=\"_blank\">here<\/a>.<\/p>\n<p>Combined with the fact that pressing Ctrl-L on the keyboard takes you to the bar and you can do quick and easy searches without even using the mouse!<\/p>\n<h3>Summing Up<\/h3>\n<p>I like to think I&#8217;m a pretty advanced web user but I don&#8217;t know the half of what&#8217;s out there. I get lots of tips from the <a title=\"Lifehacker Blog\" href=\"http:\/\/www.lifehacker.com\/\" target=\"_blank\">LifeHacker Blog<\/a> and from people on Twitter who know more than I.<\/p>\n<p>I&#8217;m not entirely happy that I pitched this post at the right technical level. \u00a0Man, you could run week-long courses on this stuff. \u00a0Remember it was mostly notes to self, but hopefully there&#8217;s something useful for someone else too.<\/p>\n<p>I&#8217;d encourage you not to be content with a half-hearted internet-browsing experience! \u00a0If you&#8217;re a novice, feel free to use the comments to ask me more. \u00a0Or perhaps you&#8217;d like to share a tip or two of your own&#8230;be my guest.<\/p>\n<p>Happy Browsing!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Don&#8217;t be content with a half-hearted internet-browsing experience!<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "aside",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10,
+        23
+    ],
+    "tags": [
+        25,
+        74,
+        86,
+        103,
+        153,
+        164,
+        165
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Pimp my browser - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Pimp my browser - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Don&#039;t be content with a half-hearted internet-browsing experience!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2009-10-09T22:34:28+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"11 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/\",\"url\":\"https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/\",\"name\":\"Pimp my browser - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-10-09T22:34:28+00:00\",\"dateModified\":\"2009-10-09T22:34:28+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Pimp my browser\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Pimp my browser - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Pimp my browser - Ross Wintle",
+        "og_description": "Don't be content with a half-hearted internet-browsing experience!",
+        "og_url": "https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2009-10-09T22:34:28+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "11 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/",
+                    "url": "https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/",
+                    "name": "Pimp my browser - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2009-10-09T22:34:28+00:00",
+                    "dateModified": "2009-10-09T22:34:28+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2009\/10\/pimp-my-browser\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Pimp my browser"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/283"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=283"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 0,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/283\/revisions"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=283"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=283"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=283"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

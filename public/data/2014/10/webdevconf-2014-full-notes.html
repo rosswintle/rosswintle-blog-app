@@ -1,0 +1,365 @@
+<body><header><h1 data-pagefind-meta="title">WebDevConf 2014 &#8211; full notes</h1></header><main><h2>Introduction</h2>
+<p>Today was my first time at WebDevConf in Bristol. I was taking notes as I went. These are currently un-edited, and will probably make more sense to me than they will to others. But there might be useful tips and links in there.</p>
+<p>I may edit/tidy up at some point.</p>
+<p>Here&#8217;s the silly intro video:</p>
+<p><iframe loading="lazy" width="640" height="360" src="https://www.youtube.com/embed/AV4YNfJflmI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">I love the <a href="https://twitter.com/webdevconf?ref_src=twsrc%5Etfw">@webdevconf</a> programme ? <a href="http://t.co/1AyKr10jLi">pic.twitter.com/1AyKr10jLi</a></p>
+<p>&mdash; ?? Simon Starr ?? (@sstarr) <a href="https://twitter.com/sstarr/status/520487227777093632?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h2>Frank West &#8211; Think inside the box</h2>
+<p>Kids + imagination. Adults stop playing with boxes.</p>
+<p>Webdev is exploring and learning. Always choosing directions, fighting battles, learning new things.</p>
+<p>7 steps in building a website</p>
+<ul>
+<li>Code. &#8211; creates the page</li>
+<li>SEO/marketing &#8211; helps people find it</li>
+<li>performance &#8211; people could turn away here</li>
+<li>Design &#8211; could also put people off</li>
+<li>Interaction &#8211; keeps people engaged with the site/page</li>
+<li>Usability &#8211; make things easy</li>
+<li>Accessibility</li>
+</ul>
+<p>Developers can’t be experts in all these things…need to specialise.</p>
+<p>As we get experienced we get stale &#8211; we use the things we know rather than continuing to explore and learn. We get set in our ways. We lose our childlike imagination!</p>
+<p>We should come at problems as both the young, enthusiastic, imaginative child, but also as the older, wiser expert. And we should work with others: designers, performance experts, etc</p>
+<p>We don’t often have time on projects to try out lots of new things. But perhaps we can focus on a particular area for each project. Try something out, user-test it. Learn as we go.</p>
+<p>“Bus Stops” are the best times to do user testing. People ask with nothing to do who have a fixed amount of time.</p>
+<p>We can get ordinary people to do user testing!!</p>
+<p>Or we can do A/B testing.</p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">Good talk by <a href="https://twitter.com/FrankJWest?ref_src=twsrc%5Etfw">@FrankJWest</a> reminding us to keep that wide-eyed wonder and openness to new ideas we all had starting out <a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a></p>
+<p>&mdash; Mike Babb (@mikegbabb) <a href="https://twitter.com/mikegbabb/status/520514612354355201?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">My slides &quot;Think inside the box&quot; are now online: <a href="http://t.co/gaLPQsQDUD">http://t.co/gaLPQsQDUD</a> <a href="http://t.co/FrKF4DO4oE">http://t.co/FrKF4DO4oE</a> <a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a>  <a href="https://twitter.com/webdevconf?ref_src=twsrc%5Etfw">@webdevconf</a></p>
+<p>&mdash; Frank West (@FrankJWest) <a href="https://twitter.com/FrankJWest/status/521710516671356928?ref_src=twsrc%5Etfw">October 13, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h2>Richard Healy (Basekit) &#8211; Designing for the unknown</h2>
+<p>Basekit is a CMS. Has 1.5million sites. Uses themes. The theme design team often don’t know what purposes the themes will be put to. So they are ‘designing for the unknown’</p>
+<p>Twice as many websites are created every minute than babies are born!</p>
+<p>“Content first” is a trend but doesn’t really reflect what Basekit does, or the reality of web development. TakeAway: you don’t need the content before designing.</p>
+<p>But think about content when designing, . The design will need to fit the content rather than the other way around. E.g. Three column feature boxes: often designed to be the same length, when content is anything but.</p>
+<p>Flexbox can come to the rescue here! Flexbox also gives you a cheeky generic vertical centre/middle alignment!</p>
+<h3>Images</h3>
+<p>70% of images on Basekit are landscape. 20% portrait. Only 10% square. But most galleries are designed for square and so crop images. The design doesn’t work with the content!</p>
+<h3>Headers</h3>
+<p>These are really contentious and VERY unknown. E.g. Logo formats and layouts, number of nav items.</p>
+<p>Nav is HARD!</p>
+<h3>Logos</h3>
+<p>People upload HUGE logos images. Often including the company name.</p>
+<p>The best way to handle this “unknown” is to just centre-align everything.</p>
+<p>But need more control. Use “element queries” (this is a poly-fill, not built in)</p>
+<h3>Other</h3>
+<p>Lots of businesses running on Facebook. Users much more likely to update social media than a website through the CMS.</p>
+<p>https://twitter.com/richardhealy/status/520627667742490624</p>
+<h2>Juksie &#8211; The Numbers Game</h2>
+<p>Works for Office for National Statistics.</p>
+<p>“…the most important, worst website in the UK…”</p>
+<p>And so on…</p>
+<p>https://twitter.com/DoctorRobotnik/status/520519410998857728</p>
+<p>Current website is a litany of bad choices: bad tech, bad CMS, etc.</p>
+<p>ONS is a monopoly. There’s nowhere else to get their data.</p>
+<p>But the website is fragile: changing code is dangerous and often brings the site down.</p>
+<p>Jukesie was given a blank canvas to rework the site. But he’s subject to the “cult” of GDS (see <a href="https://www.gov.uk/service-manual">service manual</a> and <a href="https://www.gov.uk/design-principles">design principles</a></p>
+<p>American equivalent (<a href="playbook.cio.gov">playbook.cio.gov</a>)</p>
+<p>HiPPO (Highest Paid Persons Opinion) vs proper user testing</p>
+<h3>ONS design principles</h3>
+<h4>1. Users first</h4>
+<p>The media aren’t ONSs biggest users, they are just the most vocal.</p>
+<p>The biggest user group are personal “foragers”</p>
+<h4>2. Data driven</h4>
+<h4>3. Google is their homepage</h4>
+<p>80% of traffic comes from Google</p>
+<p>Social hardly makes a dent (and isn’t really expected to) (interesting!)</p>
+<h4>4. It is about the numbers</h4>
+<p>Surface the stuff in HTML</p>
+<p>The easiest thing for ONS staff to do is to upload Excel. They work TOTALLY in Excel and don’t consider that people might want to USE the data in other ways.</p>
+<h4>5. Don’t reinvent the wheel</h4>
+<h4>6. Build for sustainability</h4>
+<p>Not bleeding edge, but technologies that have strong communities.</p>
+<p>Interestingly, they’re in Newport and want local people available. This may affect tech choice?</p>
+<h4>7. Accessibility from day one</h4>
+<p>And inclusivity &#8211; make it simple and relevant to everyone.</p>
+<h4>8. agile not Agile</h4>
+<p>Take the bits that work for them without subscribing to any particular Agile ‘religion’.</p>
+<h4>9. Machines have needs too</h4>
+<p>APIs and OpenData are needed!</p>
+<h4>10. If all else fails: WWGDSD</h4>
+<p>What Would GDS Do?!</p>
+<h3>Style Guide</h3>
+<p><a href="http://maban.co.uk/projects/front-end/style-guides">http://maban.co.uk/projects/front-end/style-guides</a></p>
+<h3>Alpha?</h3>
+<p>No. New site being opened to public for feedback in Dec/Jan</p>
+<p>Old site on verge of breaking.</p>
+<p>The process is transparent and open:</p>
+<ul>
+<li><a href="http://digitalpublishing.ons.gov.uk">http://digitalpublishing.ons.gov.uk</a></li>
+<li><a href="http://github.com/onsdigital">http://github.com/onsdigital</a></li>
+<li><a href="http://twitter.com/onsdigital">@onsdigital</a></li>
+</ul>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">The notes for the talk I planned to give at <a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a> is here <a href="https://t.co/PBM90agXRd">https://t.co/PBM90agXRd</a> went off script a fair bit though.</p>
+<p>&mdash; Matt Jukes (@jukesie) <a href="https://twitter.com/jukesie/status/520533873198108672?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h2>Jon Gold &#8211; A New Architecture</h2>
+<p>“Unicorn”? Makes multidisciplinary skills sound unattainable.</p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/t-v-OuP-3A/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:640px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+<div style="padding:16px;"> <a href="https://www.instagram.com/p/t-v-OuP-3A/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </p>
+<div style=" display: flex; flex-direction: row; align-items: center;">
+<div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+</div>
+</div>
+<div style="padding: 19% 0;"></div>
+<div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div>
+<div style="padding-top: 8px;">
+<div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div>
+</div>
+<div style="padding: 12.5% 0;"></div>
+<div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+<div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+<div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+</div>
+<div style="margin-left: 8px;">
+<div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+<div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+</div>
+<div style="margin-left: auto;">
+<div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+<div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+<div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+</div>
+</div>
+<p></a> </p>
+<p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/t-v-OuP-3A/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Job descriptions by @gold #webdevconf</a></p>
+<p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/robsterlini/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Rob Sterlini</a> (@robsterlini) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-10-10T17:31:51+00:00">Oct 10, 2014 at 10:31am PDT</time></p>
+</div>
+</blockquote>
+<p><script async src="//www.instagram.com/embed.js"></script></p>
+<p>“Designgineer” &#8211; also used in derogatory manner</p>
+<p>“Devigner”?!?!</p>
+<p>Why do we have to break it down?:</p>
+<p>“I MAKE INTERNET”</p>
+<p>&nbsp;</p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/t-v-nFF0oN/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:640px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+<div style="padding:16px;"> <a href="https://www.instagram.com/p/t-v-nFF0oN/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </p>
+<div style=" display: flex; flex-direction: row; align-items: center;">
+<div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+</div>
+</div>
+<div style="padding: 19% 0;"></div>
+<div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div>
+<div style="padding-top: 8px;">
+<div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div>
+</div>
+<div style="padding: 12.5% 0;"></div>
+<div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+<div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+<div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+</div>
+<div style="margin-left: 8px;">
+<div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+<div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+</div>
+<div style="margin-left: auto;">
+<div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+<div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+<div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+</div>
+</div>
+<p></a> </p>
+<p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/t-v-nFF0oN/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">In summary #webdevconf</a></p>
+<p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/mozzy16/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Thomas Morris</a> (@mozzy16) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-10-10T17:31:55+00:00">Oct 10, 2014 at 10:31am PDT</time></p>
+</div>
+</blockquote>
+<p><script async src="//www.instagram.com/embed.js"></script></p>
+<p>The division between designer/developer exists because of older technologies.</p>
+<p>We can bulldoze these titles and their separation.</p>
+<p>Stories from history:</p>
+<ul>
+<li>Bauhaus</li>
+<li>AJAX and Total Football</li>
+<li>Dutch design firm (Experimental Jet Set) who share workload</li>
+</ul>
+<p>It’s not that we need new job titles. We need a culture of tearing down silos.</p>
+<p>We should do the combination of things that keeps you motivated and creative. This will probably be unique to you!!</p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">First sketchnote of the day for <a href="https://twitter.com/jongold?ref_src=twsrc%5Etfw">@jongold</a>&#39;s <a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a> talk <a href="http://t.co/ZYEYue3mux">pic.twitter.com/ZYEYue3mux</a></p>
+<p>&mdash; Luke Murphy-Wearmouth (@lurkmoophy) <a href="https://twitter.com/lurkmoophy/status/520536506717704192?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h2>Rachel Andrew &#8211; Were not a startup</h2>
+<p>Perch &#8211; their business &#8211; is “fully bootstrapped” &#8211; they aren’t funded by investors…and they won’t be.</p>
+<p>Funded startups are different &#8211; they need to move fast to get quick ROI.</p>
+<p>Rachel’s business is More like a marathon. Long term.</p>
+<p>Funded startups also don’t tend to talk about money until they have to. Only when a sale or reinvestment is needed.</p>
+<p>Product choice:</p>
+<ul>
+<li>Something for your community</li>
+<li>Something you can deliver quickly</li>
+<li>Something that solves a problem that people will be willing to pay to be solved</li>
+<li>Launch a product that has competition</li>
+</ul>
+<h3>Something for the community</h3>
+<p>Look for problems close to home, that you understand and can test assumptions of.</p>
+<p>But be aware: Does the community want the product? Do they want you to come in and fix that problem for them?</p>
+<h3>Ship quickly</h3>
+<p>Perch v1.0 was about 4 weekends of work. Plus, another 4 weeks setting up documentation, website, sales, etc.</p>
+<p>Ship something that you will use yourself, so it it fails, you’ve still benefitted.</p>
+<p>Ship small: come up with a minimum product, but one that is a usable product. Keep it specific and small.</p>
+<h3>Something that people will pay for</h3>
+<p>Easier to businesses than consumers.</p>
+<p>(<a href="http://www.bootstrappedwithkids.com/">Bootstrapped with Kids</a> podcast)</p>
+<p>Do people care that their workflow sucks and you think it could be better?</p>
+<p>With Perch, agencies could solve the problem themselves, but Perch saves them time so they are willing to pay. Price appropriately: relate to time saved.</p>
+<p>Getting people to pay is good!</p>
+<p>Feedback from paid users is better. Free, community products take more time to build up a community base.</p>
+<h3>Launch a product that has competiton</h3>
+<p>Existing products allow you to research how you are different.</p>
+<p>Totally new things need user education about why they need it.</p>
+<h3>Finding the time</h3>
+<p>Focus on one thing: one completed thing is worth way more than lots of incomplete things.</p>
+<p>People find time for things that are important. Make your product important!</p>
+<p>Make use of dead time between projects or when waiting for feedback from clients.</p>
+<p>(Personal thought: Hack days?)</p>
+<p>Make the product a ‘first class citizen’. Make them as important as your other jobs.</p>
+<p>Set aside time. Plan in advance your tasks.</p>
+<p>Set goals! Tasks with deadlines.</p>
+<p>If not time, either re-plan, or re-scope: remove features to get MVP out of the door. Missing features will be more important to you than to your customers.</p>
+<p>Don’t be apologetic about small feature set. Sell what you have!</p>
+<p>Start small. Get feedback from customers. Improve based on feedback.</p>
+<h3>Launch and beyond</h3>
+<p>Side projects need support. Launch isn’t the end, it’s the beginning!</p>
+<p>If it’s not profitable then why? Are you using expensive services? Pricing too low?</p>
+<p>Growth of bootstraps is slow. How to manage it and keep it slow.</p>
+<p>Don’t promise dates for features.</p>
+<p>Don’t publish a roadmap. Allows you to adjust roadmap according to customer needs.</p>
+<p>Work to use cases, not feature requests. Make sure you tell people when new features are implemented. Make it personal. Delight your customers in this way.</p>
+<p>Sometimes, where appropriate and changes are trivial and non-breaking, release things quickly.</p>
+<p>But don’t lose focus on your core use case. Don’t just do anything and everything. Say ‘no’!</p>
+<p>Keep releases small. A major release could be done alongside a new website, payments, etc. avoid this!!</p>
+<p>Don’t be led by a noisy Minority of customers.</p>
+<h3>Marketing</h3>
+<p>Marketing is about stories, not solutions. Tell people about real use cases.</p>
+<p>Pre-launch sign-up: collect email address.</p>
+<p>Market to a community that might want the product. This will work for a while but then you will flatline. Need to expand.</p>
+<p>Content marketing: not just writing blog posts. Write and speak.</p>
+<p>Sponsorship: conferences, podcasts, sites that you like.</p>
+<p>Paid ads. Google, etc.</p>
+<p>If you can’t track ads, don’t pay for it.</p>
+<p>Target long-tail keywords. They’re cheaper and better targeted.</p>
+<p>Buy sell ads. Research smaller sites that your ideal customer might visit. Advertise on them?</p>
+<p>Social media: if someone mentions Perch to ask about it, perch retweet it, customers then reply.</p>
+<p>Tractionbook.com</p>
+<p>Create your own definition of success. Billion pound acquisitions are rare. But you can still be ‘successful’.</p>
+<p>Slides at: <a href="http://rachelandrew.co.uk/presentations/not-doing-a-startup">http://rachelandrew.co.uk/presentations/not-doing-a-startup</a></p>
+<h2>Rob Hawkes &#8211; ViziCities</h2>
+<p>How do cities work? Food distribution, transport, waste.</p>
+<p>Lots of BIG numbers when looking at city stats.</p>
+<p>London has only 1 air ambulance!!</p>
+<p>London has 7 power stations.</p>
+<p>Cities are complex. It’s amazing that they work.</p>
+<p>Understanding them is important.</p>
+<p>Lots of data about cities: data.gov.uk</p>
+<p>Vizicities already exists: SimCity’s data views</p>
+<p>ViziCities aims to create these kinds of views for real cities.</p>
+<p>Tube in 3D with live trains!</p>
+<p>Aircraft.</p>
+<p>Flooding.</p>
+<p>Data journalists are starting to use it.</p>
+<p>Open sourcing was the scariest and best decision of the project.</p>
+<h3>Making the complex simple</h3>
+<p>Cities aren’t 2D: streets, underground, airspace, buildings</p>
+<p>BBC Crossrail documentary might be interesting to see.</p>
+<p>ViziCities is potentially HUGE in terms of data. Too much to see.</p>
+<p>Need to show people simplest form of things and allow them to dig deeper. But don’t dumb things down. “Progressive Complexity”</p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a> Awesome UI  deconstruction for ViziCities, it&#39;s beautiful. 🙂 <a href="https://twitter.com/robhawkes?ref_src=twsrc%5Etfw">@robhawkes</a> My pic doesn&#39;t do it justice. <a href="http://t.co/N8NV0gUTy9">pic.twitter.com/N8NV0gUTy9</a></p>
+<p>&mdash; Laura Nevo (@lauranevo) <a href="https://twitter.com/lauranevo/status/520587787566059521?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p><a href="http://vizicities.com">http://vizicities.com</a></p>
+<p>Get Involved!</p>
+<p>Future:</p>
+<ul>
+<li>Oculus Rift</li>
+<li><a href="https://www.thalmic.com/en/myo/">Myo band</a> &#8211; gesture control</li>
+</ul>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a> just became Minority Report. o_O <a href="http://t.co/ZO2MjlBsUu">pic.twitter.com/ZO2MjlBsUu</a></p>
+<p>&mdash; Laura Nevo (@lauranevo) <a href="https://twitter.com/lauranevo/status/520588900461740032?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<h2>Gavin Strange &#8211; Graft, Craft, Being Daft</h2>
+<p>Gavin (see <a href="http://news.jam-factory.com/">here)</a> kinda just went nuts with some thrown together slides and animation. I didn&#8217;t take many notes. My main thought was that I wished I was more visually creative. But must remember this:</p>
+<p>“The reason we struggle with insecurity is because we compare our behind-the-scenes with everyone else’s highlight reel”<br />
+? Steven Furtick<br />
+(See <a href="https://www.goodreads.com/author/quotes/4057607.Steven_Furtick">https://www.goodreads.com/author/quotes/4057607.Steven_Furtick</a></p>
+<p>He basically got where he is today by being a polymath &#8211; doing loads of different things very enthusiastically.  Throwing stuff at the wall and seeing what sticks (a phrase I&#8217;m going to use a lot for a while).</p>
+<p>Other takeaways:</p>
+<ul>
+<li>&#8220;Being crap is OK&#8221;</li>
+<li>&#8220;Make stuff that matters&#8221;</li>
+</ul>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">A few things from <a href="https://twitter.com/JamFactory?ref_src=twsrc%5Etfw">@JamFactory</a>&#39;s <a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a> talk: try your hardest, fail repeatedly, have passion &amp; get excited 😀 <a href="http://t.co/XiPbyWAvkb">pic.twitter.com/XiPbyWAvkb</a></p>
+<p>&mdash; Jess Darnes (@JessDarnes) <a href="https://twitter.com/JessDarnes/status/520639973125799937?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/t-wKhlv-3a/?utm_source=ig_embed&amp;utm_medium=loading" data-instgrm-version="12" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:640px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+<div style="padding:16px;"> <a href="https://www.instagram.com/p/t-wKhlv-3a/?utm_source=ig_embed&amp;utm_medium=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> </p>
+<div style=" display: flex; flex-direction: row; align-items: center;">
+<div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div>
+<div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div>
+<div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div>
+</div>
+</div>
+<div style="padding: 19% 0;"></div>
+<div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div>
+<div style="padding-top: 8px;">
+<div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;"> View this post on Instagram</div>
+</div>
+<div style="padding: 12.5% 0;"></div>
+<div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+<div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div>
+<div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div>
+<div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div>
+</div>
+<div style="margin-left: 8px;">
+<div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div>
+<div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div>
+</div>
+<div style="margin-left: auto;">
+<div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div>
+<div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div>
+<div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div>
+</div>
+</div>
+<p></a> </p>
+<p style=" margin:8px 0 0 0; padding:0 4px;"> <a href="https://www.instagram.com/p/t-wKhlv-3a/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;" target="_blank">Feel like this perfectly sums up @jamfactory&#39;s talk. Fantastic end to the day! #webdevconf</a></p>
+<p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">A post shared by <a href="https://www.instagram.com/robsterlini/?utm_source=ig_embed&amp;utm_medium=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;" target="_blank"> Rob Sterlini</a> (@robsterlini) on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2014-10-10T17:33:32+00:00">Oct 10, 2014 at 10:33am PDT</time></p>
+</div>
+</blockquote>
+<p><script async src="//www.instagram.com/embed.js"></script></p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">My favourite talk of the day, by far. Inspired. Thanks, <a href="https://twitter.com/JamFactory?ref_src=twsrc%5Etfw">@JamFactory</a>! <a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a> <a href="http://t.co/F9ayr4rBpP">pic.twitter.com/F9ayr4rBpP</a></p>
+<p>&mdash; Pete Gale (@Pete_Gale) <a href="https://twitter.com/Pete_Gale/status/520620428688384000?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true">
+<p lang="en" dir="ltr">Personal projects have heart 😉 &lt;3 Put your heart and soul in everything. Another inspiring talk <a href="https://twitter.com/JamFactory?ref_src=twsrc%5Etfw">@JamFactory</a> <a href="https://twitter.com/hashtag/webdevconf?src=hash&amp;ref_src=twsrc%5Etfw">#webdevconf</a></p>
+<p>&mdash; Magda Faizov (@magdawebdesign) <a href="https://twitter.com/magdawebdesign/status/520602492712022016?ref_src=twsrc%5Etfw">October 10, 2014</a></p></blockquote>
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
+<p>And he referenced two books:</p>
+<ul>
+<li>“<a href="http://www.amazon.co.uk/dp/0857193465">Spark for the fire</a>”</li>
+<li>Do/Purpose (see <a href="http://thedobook.co/collections/guidebooks">http://thedobook.co/collections/guidebooks</a>)</li>
+</ul>
+</main></body>

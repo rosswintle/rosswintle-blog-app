@@ -1,0 +1,228 @@
+{
+    "id": 248,
+    "date": "2008-12-27T18:07:44",
+    "date_gmt": "2008-12-27T18:07:44",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?p=248"
+    },
+    "modified": "2008-12-27T18:07:44",
+    "modified_gmt": "2008-12-27T18:07:44",
+    "slug": "javaaaarrghhscript",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/",
+    "title": {
+        "rendered": "Javaaaarrghhscript"
+    },
+    "content": {
+        "rendered": "<p>Geeky post&#8230;sorry if you get lost.<\/p>\n<p>I&#8217;m still playing with Web Development languages and tools.\u00a0 A few days in Devon with not much to do is a good time to invest in some self-learning and I&#8217;ve been given the O&#8217;Reilly <a href=\"http:\/\/oreilly.com\/catalog\/9780596514082\/\">JavaScript and DHTML Cookbook<\/a> for Christmas too, so I&#8217;m working through that.<\/p>\n<p>I&#8217;m pretty proficient with server-side scripting now, but it had limitatations and performance issues.\u00a0 I&#8217;ve been so impressed by some of the Web 2.0-type sites out there (<a href=\"http:\/\/www.letsfreckle.com\">www.letsfreckle.com<\/a>, <a href=\"http:\/\/www.twitter.com\">www.twitter.com<\/a>, <a href=\"http:\/\/www.facebook.com\">www.facebook.com<\/a>) that I feel I really need to get a handle on client-side scripting too.\u00a0 That&#8217;s where JavaScript and DHTML come in.<\/p>\n<p>But I&#8217;m really not liking JavaScript.\u00a0 See, I was educated with a quite deep knowledge of programming languages.\u00a0 I&#8217;ve studied both imperative (statement-based) and declarative (logic-based) languages.\u00a0 I&#8217;ve studied compiler construction and language structure and analysis.\u00a0 I understand object-orientation.\u00a0 I know what&#8217;s going on under the hood, and I know the pitfalls of various programming languages styles.<\/p>\n<p>I&#8217;ve also got a background in safety-critical software engineering.\u00a0 Writing programs where you know what must happen and if that doesn&#8217;t happen then people&#8217;s lives are at risk.\u00a0 I like to know what my programs are doing.<\/p>\n<p>And with JavaScript, most of the time, I don&#8217;t have a clue what&#8217;s going on!\u00a0 The language makes so many guesses on your behalf, allows you to pass objects and functions as data and doesn&#8217;t (appear to) contain notation for distinguishing between passing parameters by value and by reference.<\/p>\n<p>To the uninitiated this will mean nothing&#8230;let&#8217;s take an example.\u00a0 Lets say we want to write a little computer program called &#8220;add-one&#8221;.\u00a0 This program has one input, a number, and one output, which will be the number plus one.<\/p>\n<p>The preferred way to do this is to write what&#8217;s called a &#8220;function&#8221;.\u00a0 A function is a little program which gives you back a value.\u00a0 Like this:<\/p>\n<pre style=\"padding-left:30px;\">function add-one ( x )\nbegin\n\u00a0 return x + 1\nend<\/pre>\n<p>Here, x is the input and we &#8220;return&#8221; x + 1.\u00a0 Simple.\u00a0 So we can now do:<\/p>\n<pre style=\"padding-left:30px;\">a =\u00a01\nprint a\nb = add-one ( a )\nprint b<\/pre>\n<p>I hope you can see (I&#8217;m racing ahead) that this will print &#8220;1&#8221; then &#8220;2&#8221;.<\/p>\n<p>But you can also write this as what&#8217;s called a procedure.\u00a0 A procedure does some &#8220;stuff&#8221; but doesnt return a value.\u00a0 Like this:<\/p>\n<pre style=\"padding-left:30px;\">procedure add-one ( x )\nbegin\n\u00a0 x = x + 1\nend<\/pre>\n<p>So what happens if we do the following with the procedure?:<\/p>\n<pre style=\"padding-left:30px;\">a = 1\nprint a\nadd-one ( a )\nprint a<\/pre>\n<p>&#8220;That&#8217;s easy!&#8221; you may say, &#8220;it prints 1 then 2 again&#8221;.\u00a0 But it&#8217;s not that easy.\u00a0 Sometimes the language will take a &#8220;copy&#8221; of x into the procedure and modify the copy, leaving the original untouched.\u00a0 This is called &#8220;pass-by-value&#8221;.\u00a0 Why would you want to do this?\u00a0 Well, let&#8217;s write a procedure that has someone&#8217;s full name as an input and prints their first name:<\/p>\n<pre style=\"padding-left:30px;\">procedure print-first-name ( name )\nbegin\n\u00a0\u00a0remove surname from name\n\u00a0 print name\nend<\/pre>\n<p>In this case we only want &#8220;name&#8221; to change within the procedure or the following would not work:<\/p>\n<pre style=\"padding-left:30px;\">my-name = \"Fred Flintstone\"\nprint-first-name ( my-name )\u00a0\nprint-surname ( my-name )<\/pre>\n<p>Here, print-surname would not work because the print-first-name removed the surname from my-name.<\/p>\n<p>Your head probably aches now.<\/p>\n<p>Anyway, JavaScript does LOTS of this sort of thing where pass-by-vaue and pass-by-reference really make a difference.<\/p>\n<p>Another complication is that there&#8217;s two ways to create strings that return different types:<\/p>\n<pre style=\"padding-left:30px;\">my-name1 = \"Fred Flintstone\";<\/pre>\n<p>and<\/p>\n<pre style=\"padding-left:30px;\">my-name2 =\u00a0new string(\"Fred Flintstone\");<\/pre>\n<p>But these actualy do different things.\u00a0 One creates a string <span style=\"text-decoration:underline;\">value<\/span> and one creates a string <span style=\"text-decoration:underline;\">object<\/span>.\u00a0 And we find that:<\/p>\n<pre style=\"padding-left:30px;\">my-name1 == my-name2<\/pre>\n<p>is true because the interpreter automatically converts the type but<\/p>\n<pre style=\"padding-left:30px;\">my-name1 === my-name2<\/pre>\n<p>is false because it does type comparison too.<\/p>\n<p>It has a variable called &#8220;this&#8221;, which refers to different things in different contexts.<\/p>\n<p>And it doesn&#8217;t enforce important bits of syntax.\u00a0 You&#8217;re supposed to end statements with a semi-colon, but if you split a statement over a line, then it will add the semi-colon at the line end (if that&#8217;s a valid place to end a statement).<\/p>\n<p>These are all very minor examples of how this is a complex, weakly-typed, language the enforces very little checking on the programmer, makes lots of assumptions about what you mean in your program, and doesn&#8217;t seem to give you ways to enforce the meaning that you want.<\/p>\n<p>All in all, I can see why so many web applications are so liable to not working.<\/p>\n<p>Perhaps with a proper JavaScript tutorial, rather than just a cookbook, I might get a better grasp of the language and find some strong typing and better structures.<\/p>\n<p>But for the moment it&#8217;s looking pretty complicated and chaotic!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I&#8217;m still playing with Web Development languages and tools&#8230;but I&#8217;m really not liking JavaScript.<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "aside",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        64,
+        107,
+        109,
+        131,
+        181
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Javaaaarrghhscript - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Javaaaarrghhscript - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m still playing with Web Development languages and tools...but I&#039;m really not liking JavaScript.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-12-27T18:07:44+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/\",\"name\":\"Javaaaarrghhscript - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-12-27T18:07:44+00:00\",\"dateModified\":\"2008-12-27T18:07:44+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Javaaaarrghhscript\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Javaaaarrghhscript - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Javaaaarrghhscript - Ross Wintle",
+        "og_description": "I'm still playing with Web Development languages and tools...but I'm really not liking JavaScript.",
+        "og_url": "https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2008-12-27T18:07:44+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/",
+                    "url": "https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/",
+                    "name": "Javaaaarrghhscript - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2008-12-27T18:07:44+00:00",
+                    "dateModified": "2008-12-27T18:07:44+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2008\/12\/javaaaarrghhscript\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Javaaaarrghhscript"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/248"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=248"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 0,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/248\/revisions"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=248"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=248"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=248"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

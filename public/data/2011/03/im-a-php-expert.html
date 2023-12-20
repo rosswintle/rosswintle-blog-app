@@ -1,0 +1,57 @@
+<body><header><h1 data-pagefind-meta="title">I&#8217;m a PHP Expert!</h1></header><main><p>OK, OK, yes, this post is partly blatent self-promotion, but it&#8217;s also a moment of honesty and a hopefully-interesting reflection on an interesting little test that I did today.</p>
+<h2><!--more-->What I do know</h2>
+<p>Here&#8217;s the facts:</p>
+<ul>
+<li>I do class myself as an expert in software engineering &#8211; the process of solving a given real-world problem using computer software.</li>
+<li>I do class myself as a very good developer and can quickly turn my hand to new languages and tools for developing software.</li>
+<li>I do class myself as a very good web developer.  I know back-end technologies like databases, SQL, and server administration; I know application development technologies like PHP and MVC frameworks; and I know front-end technologies: HTML, CSS, JavaScript and jQuery.  Plus, importantly, I understand the purposes of each and the interaction between them.</li>
+<li>However, I would only class myself as upper-intermediate in my PHP skills.  Yes, I&#8217;ve been using PHP for 4 years are part of my job, but it&#8217;s not been a full-time occupation and I&#8217;m still learning some of the more detailed aspects of the language.</li>
+</ul>
+<p>So, to prove my worth as a PHP developer, a recruitment consultant sent me a PHP technical test yesterday, and I was a little surprised by the result.  I got 95% and was in the top 4th percentile of people who took the test.  It suggested that, far from being intermediate, I was a PHP expert!!</p>
+<h2>A confession</h2>
+<p>A slight confession is needed at this point.  The test had a time limit and I approached this test as I would approach a working situation with a tight deadline.  If I could quickly look something up and understand it enough to answer the question (like, which parameters get passed to a given function), I did, but if it was going to take a while to understand I would either work it out or skip the question.  So yes, I did quickly look a couple of things up, but I also skipped those questions that I genuinely didn&#8217;t have a clue about.  And I completed the test in average time.</p>
+<p>Even so, I found the test tricky and felt far from confident at the end.  Why then, did I manage to do so well?</p>
+<h2>Languages are just tools</h2>
+<p>It&#8217;s a become a bit of a cliche for me that &#8220;languages are just tools&#8221;, but there is a lot of truth in that.  My A&#8217; level computing teacher used to say that languages were like screwdrivers or chisels are to a woodworker: a good woodworker can pick up a new tool and use it effectively, the important thing is to know how to do woodwork &#8211; how to fit bits of wood together to build things.</p>
+<p>I did well at this test because I have a deep understanding of the building blocks of writing code; things like what functions do, recursion, variable scoping, operator precedence and associativity, objects and classes, bitwise operators, loop invariants, interactions between different elements of the system (the database, back-end and front-end), and so on.</p>
+<p>I understand the fundamentals of abstraction, encapsulation and decomposition upon which every program should be based.</p>
+<p>These are advanced programming concepts that someone who&#8217;s just learned a bit of PHP out of a book won&#8217;t understand, but which I can apply to pretty much any programming language.</p>
+<p>And to demonstrate the point, I&#8217;ve used languages as diverse as:</p>
+<ul>
+<li>Scheme and Miranda (functional);</li>
+<li>C, Pascal and Ada (procedural);</li>
+<li>assembler (low-level);</li>
+<li>SmallTalk (object-oriented);</li>
+<li>JavaScript (most of the above, plus event-driven)</li>
+<li>Perl and PHP (text processing);</li>
+<li>Prolog (logic);</li>
+<li>and SQL (declarative, query-based).</li>
+</ul>
+<p><span style="font-size: 20px; font-weight: bold;">An example</span></p>
+<p>The operator precedence question is a good example. Not giving too much away, the question was along the lines of:</p>
+<blockquote><p>What output will you get from the following statements:</p>
+<p>x=4;<br />
+echo x&lt;=6 ? &#8216;less than or equal to&#8217; : &#8216;greater than&#8217; . &#8216; six&#8217;;</p></blockquote>
+<p>NOTE: Apologies to those that don&#8217;t code at this point &#8211; this won&#8217;t make a whole load of sense.</p>
+<p>It&#8217;s a clever question because it lures you into thinking that the code is correct and will print &#8216;less than or equal to six&#8217;, but it actually prints just &#8216;less than or equal to&#8217;, because the precedence of the conditional operator is lower than that of string concatenation.  In case you&#8217;re wondering, no, I didn&#8217;t look this up as I know that the ternary operator has quite low precedence.</p>
+<p>It&#8217;s also worth nothing that this is, in my opinion, ambiguous code and any statement like this should always be written more clearly:</p>
+<blockquote><p>echo (x &lt;= 6 ? &#8216;less than or equal to&#8217; : &#8216;greater than&#8217; ) . &#8216; six&#8217;;<sup class='footnote'><a href='#fn-1011-1' id='fnref-1011-1' onclick='return fdfootnote_show(1011)'>1</a></sup></p></blockquote>
+<p>Adding parentheses adds no computational overhead <sup class='footnote'><a href='#fn-1011-2' id='fnref-1011-2' onclick='return fdfootnote_show(1011)'>2</a></sup> and makes the code easier to understand.</p>
+<h2>Learning languages</h2>
+<p>Do I also have evidence that learning new tools and languages is easier if you have a good grounding in computer science?  Well, yes.</p>
+<p>I was recently on a training course where we were learning a tool that had a built-in scripting language.  Some of the other guys on the course didn&#8217;t have my computer science background and theory. <sup class='footnote'><a href='#fn-1011-3' id='fnref-1011-3' onclick='return fdfootnote_show(1011)'>3</a></sup></p>
+<p>When we got to doing exercises, they raced ahead for the first few, applying the specific bits of knowledge about the language they&#8217;d picked up from the course slides, while I was slow, asking questions like &#8220;what does that function return?&#8221;, or &#8220;why does that query do what it does?&#8221;.</p>
+<p>However, come the later exercises, where you had to do more than just refer back to the the slides, I&#8217;d gained a deeper understanding of the language and raced ahead.</p>
+<h2>Conclusion</h2>
+<p>I&#8217;ve always believed that a thorough grounding in the principles of programming makes you a better coder than someone who just picked up a book and started writing code.  Occasionally I see practical evidence of this being the case.</p>
+<p>Yesterday&#8217;s test proved to me that, while I may not know the exact syntax and purpose of every last PHP function or configuration setting, I can still be a PHP expert, and that I have skills and knowledge that are more valuable than I thought.</p>
+<p>Perhaps tomorrow I&#8217;ll be a C# expert!</p>
+<div class='footnotes' id='footnotes-1011'>
+<div class='footnotedivider'></div>
+<ol>
+<li id='fn-1011-1'> You can argue about putting the comparison operator in parentheses too, but it&#8217;s pretty safe to assume that a simple numerical comparison will have greater precedence over the conditional operator. <span class='footnotereverse'><a href='#fnref-1011-1'>&#8617;</a></span></li>
+<li id='fn-1011-2'> OK, perhaps a TINY overhead when PHP tokenises the script. <span class='footnotereverse'><a href='#fnref-1011-2'>&#8617;</a></span></li>
+<li id='fn-1011-3'> If they&#8217;re reading, I hope they don&#8217;t mind me sharing this story! <span class='footnotereverse'><a href='#fnref-1011-3'>&#8617;</a></span></li>
+</ol>
+</div>
+</main></body>

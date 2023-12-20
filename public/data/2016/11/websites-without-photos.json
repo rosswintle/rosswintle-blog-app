@@ -1,0 +1,231 @@
+{
+    "id": 2440,
+    "date": "2016-11-22T09:12:19",
+    "date_gmt": "2016-11-22T09:12:19",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=2440"
+    },
+    "modified": "2016-11-22T09:12:19",
+    "modified_gmt": "2016-11-22T09:12:19",
+    "slug": "websites-without-photos",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/",
+    "title": {
+        "rendered": "Websites without photos"
+    },
+    "content": {
+        "rendered": "<p>I&#8217;ve really struggled <span style=\"text-decoration: underline;\">designing<\/span>\u00a0(not developing&#8230;designing!) my own websites (this blog, <a href=\"https:\/\/oikos.digital\/\">Oikos Digital<\/a>, etc) for two reasons:<\/p>\n<ol>\n<li>I&#8217;m really not a visual designer or an aesthetically minded person.<\/li>\n<li>A lot of design trends use lots of photography, and it&#8217;s really hard to use photography to portray what I do, particularly in my work.<\/li>\n<\/ol>\n<p>So I&#8217;ve mostly just bailed on visuals and gone for simple layouts and focussed on the content.<\/p>\n<p>It was interesting then to follow a link from <a href=\"https:\/\/changelog.com\/posts\/why-we-chose-turbolinks\">the ChangeLog podcast&#8217;s blog<\/a>\u00a0about their use of Turbolinks\u00a0to their <a href=\"https:\/\/changelog.com\">main website<\/a>\u00a0and to spend some time browsing their (INSANELY FAST) website and realising that there are virtually no photos. \u00a0There are some simple graphics, but NO PHOTOS. And the site looks and works great.<\/p>\n<p>This, in the same week that Jeffery Way launched a re-designed <a href=\"https:\/\/laracasts.com\/\">Laracasts<\/a> site which does actually have photos, but they&#8217;re pretty understated and the focus is on content and graphics, rather than photographic imagery. \u00a0Laracasts is also pretty\u00a0speedy.<\/p>\n<p>&nbsp;<\/p>\n<p>I note that, as well as a lack of photos, neither of these sites have any social media integration: they have links to profiles, but there&#8217;s no sharing buttons or feed widgets.<\/p>\n<p>Large photos and these social widgets and buttons are great for slowing your site down, and art direction\/photo editing for images on responsive websites is really hard. I love how these sites have really gone to town and simplified and optimised things &#8211; not only using high-tech\u00a0web development tricks, but also using higher level design decisions.<\/p>\n<p>Perhaps &#8220;no photos&#8221; is an interesting design challenge for future projects.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Examples of websites that use no, or very few photos, simplifying design choices, and making them super fast.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        24
+    ],
+    "tags": [
+        540,
+        64,
+        126,
+        253,
+        181
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Websites without photos - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Websites without photos - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Examples of websites that use no, or very few photos, simplifying design choices, and making them super fast.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2016-11-22T09:12:19+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/\",\"url\":\"https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/\",\"name\":\"Websites without photos - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2016-11-22T09:12:19+00:00\",\"dateModified\":\"2016-11-22T09:12:19+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Websites without photos\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Websites without photos - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Websites without photos - Ross Wintle",
+        "og_description": "Examples of websites that use no, or very few photos, simplifying design choices, and making them super fast.",
+        "og_url": "https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2016-11-22T09:12:19+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/",
+                    "url": "https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/",
+                    "name": "Websites without photos - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2016-11-22T09:12:19+00:00",
+                    "dateModified": "2016-11-22T09:12:19+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2016\/11\/websites-without-photos\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Websites without photos"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2440"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2440"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2440\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 2441,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2440\/revisions\/2441"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2440"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2440"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2440"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

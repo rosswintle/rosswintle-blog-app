@@ -1,0 +1,233 @@
+{
+    "id": 8349,
+    "date": "2019-05-24T10:02:54",
+    "date_gmt": "2019-05-24T09:02:54",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=8349"
+    },
+    "modified": "2019-05-24T10:02:55",
+    "modified_gmt": "2019-05-24T09:02:55",
+    "slug": "laravel-custom-error-messages-in-form-requests",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/",
+    "title": {
+        "rendered": "Laravel: Custom error messages in form requests"
+    },
+    "content": {
+        "rendered": "\n<p>Another thing where I feel like: &#8220;I must have done this a hundred times before, but it feels new&#8221;.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">CRUDdy conventions<\/h3>\n\n\n\n<p>Laravel apps generally use forms a lot. They don&#8217;t have to, but a lot of the time you need to make some kind of CRUD (Create, Read, Update and Delete) interface for objects, and you so end up needing simple forms.<\/p>\n\n\n\n<p>And Laravel uses &#8220;<a href=\"https:\/\/en.wikipedia.org\/wiki\/Convention_over_configuration\">convention over configuration<\/a>&#8221; to determine a lot of things. For example, rather than getting the developer to explicitly say &#8220;The <code>User<\/code> model uses the <code>users<\/code> table&#8221;, the framework assumes a default by convention:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>By convention, the &#8220;snake case&#8221;, plural name of the class will be used as the table name unless another name is explicitly specified<\/p><cite><a href=\"https:\/\/laravel.com\/docs\/5.8\/eloquent#eloquent-model-conventions\">https:\/\/laravel.com\/docs\/5.8\/eloquent#eloquent-model-conventions<\/a><\/cite><\/blockquote>\n\n\n\n<p>This is great because once you&#8217;ve learned the conventions, you can get on with coding without having to be explicit about a load of things.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Form validation is easy<\/h3>\n\n\n\n<p>And Laravel also lets you take a lot of shortcuts with creating forms. Such as the built-in validation. This lets you set a bunch of rules about the data submitted in a request, and the framework:<\/p>\n\n\n\n<ul><li>Applies the rules<\/li><li>Sanitises the inputs<\/li><li>Redirects on failure and&#8230;<\/li><li>&#8230;stores errors in the session.<\/li><\/ul>\n\n\n\n<p>This is great. Under certain circumstances. But you can&#8217;t just set the rules and go. You still need to pay attention to what&#8217;s going on.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">The wrong error<\/h3>\n\n\n\n<p>One place that this beautifully-automatic system falls down is with error messages. It does its best, but really it needs a little more work.<\/p>\n\n\n\n<p>Say you have a simple profile-updating form for a company object. You could have an <code>input<\/code> named <code>name<\/code>, but your label for this input is <code>Company Name<\/code>:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;h3&gt;Your company details&lt;\/h3&gt;\n\n&lt;div class=&quot;input-group&quot;&gt;\n  &lt;label for=&quot;name&quot;&gt;Company name&lt;\/label&gt;\n  &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot;&gt;\n&lt;\/div&gt;\n<\/pre><\/div>\n\n\n<p>You can validate this for, say, required-ness in your controller like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n$validatedRequest = $request-&gt;validate(&#x5B;\n  'name' =&gt; 'required'\n]);\n\n\/\/ Do stuff with the request\n<\/pre><\/div>\n\n\n<p>The framework does its best to be clever here if validation fails, and it sill stores an error in the session that you can print in your template. BUT&#8230;the error will say that &#8220;The <strong>name<\/strong> field is required&#8221; (or similar &#8211; emphasis mine) and it will use the input&#8217;s name rather than the label. This is confusing for the user because the label for the input was &#8220;Company name&#8221; so the error should be &#8220;The <strong>Company name<\/strong> field is required&#8221;.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Custom error messages<\/h3>\n\n\n\n<p>You can create custom error messages for validations, but you have to use a more verbose form of validation. This is <a href=\"https:\/\/laravel.com\/docs\/5.8\/validation#custom-error-messages\">documented here<\/a>, and I won&#8217;t go into too much detail, but you basically create an array of new messages like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n$messages = &#x5B;\n  'name.required' =&gt; 'You must provide a company name',\n];\n<\/pre><\/div>\n\n\n<p>There are various ways to pass this to the validator &#8211; check the docs.<\/p>\n\n\n\n<p>And this all works nicely. So far so good. But&#8230;<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">A complication<\/h3>\n\n\n\n<p>But there&#8217;s a slight complication for my application: I&#8217;m using <a href=\"https:\/\/laravel.com\/docs\/5.8\/validation#form-request-validation\">form requests!<\/a> These allow you to group authorisation, validation, and so on into a single class for handling the input, and to have lots of that taken care of for you. Their usage in a controller looks like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\npublic function store(CompanyUpdate $request)\n{\n  $validated = $request-&gt;validated();\n}\n<\/pre><\/div>\n\n\n<p>Once you&#8217;ve created the <code>CompanyUpdate<\/code> request class here, authorisation is automatic, and validation is taken care of in that single line.<\/p>\n\n\n\n<p>But where, then, do I put my custom messages?!<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">The solution<\/h3>\n\n\n\n<p>I confess that custom error messages for form requests <a href=\"https:\/\/laravel.com\/docs\/5.8\/validation#customizing-the-error-messages\">ARE documented<\/a>, and I just missed them, which is why I&#8217;ve ended up writing this up for my own sanity.<\/p>\n\n\n\n<p>To customise the error messages in your form request you can override the <code>messages<\/code> method in your form request class:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\npublic function messages()\n{\n  return &#x5B;\n    'name.required' =&gt; 'You must provide a company name',\n    ];\n}\n<\/pre><\/div>\n\n\n<p>Simple. But a kinda-tucked away, done-by-convention feature of form requests that&#8217;s really useful to know.<\/p>\n\n\n\n<p>Hoepfully, like my future self, you&#8217;re now happy that:<\/p>\n\n\n\n<ul><li>you need to customise your form validation messages; and<\/li><li>you can now do this however you are doing your validations&#8230;<\/li><li>&#8230;even if they are within a form request!<\/li><\/ul>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Note to self: this is why you should, and how you can customise form validation error messages in Laravel &#8211; even when using form requests<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        642
+    ],
+    "tags": [
+        387,
+        297,
+        4782,
+        643,
+        4783,
+        164,
+        531
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Laravel: Custom error messages in form requests - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Laravel: Custom error messages in form requests - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Note to self: this is why you should, and how you can customise form validation error messages in Laravel - even when using form requests\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-05-24T09:02:54+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-05-24T09:02:55+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/\",\"name\":\"Laravel: Custom error messages in form requests - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-05-24T09:02:54+00:00\",\"dateModified\":\"2019-05-24T09:02:55+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Laravel: Custom error messages in form requests\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Laravel: Custom error messages in form requests - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Laravel: Custom error messages in form requests - Ross Wintle",
+        "og_description": "Note to self: this is why you should, and how you can customise form validation error messages in Laravel - even when using form requests",
+        "og_url": "https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2019-05-24T09:02:54+00:00",
+        "article_modified_time": "2019-05-24T09:02:55+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/",
+                    "url": "https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/",
+                    "name": "Laravel: Custom error messages in form requests - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2019-05-24T09:02:54+00:00",
+                    "dateModified": "2019-05-24T09:02:55+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/05\/laravel-custom-error-messages-in-form-requests\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Laravel: Custom error messages in form requests"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8349"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8349"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8349\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 8350,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8349\/revisions\/8350"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8349"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8349"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8349"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

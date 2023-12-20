@@ -1,0 +1,222 @@
+{
+    "id": 93,
+    "date": "2007-12-26T16:02:00",
+    "date_gmt": "2007-12-26T16:02:00",
+    "guid": {
+        "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/12\/26\/the-blog\/"
+    },
+    "modified": "2007-12-26T16:02:00",
+    "modified_gmt": "2007-12-26T16:02:00",
+    "slug": "the-blog",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2007\/12\/the-blog\/",
+    "title": {
+        "rendered": "The Blog"
+    },
+    "content": {
+        "rendered": "<div>I&#8217;ve been considering the purpose of this Blog lately<\/div>\n<p><\/p>\n<div>It&#8217;s really only &#8220;notes to self&#8221; and yet, I started it after being inspired by other people, who were writing interesting stuff&#8230;or at least stuff about what they were up to that was of interest to me. It&#8217;s stuff that I&#8217;d like good friends to be able to see, but not stuff that I want the whole world to see.<\/div>\n<p>Truth is that, though there&#8217;s an element of pride in having a set of hopefully interesting\/funny \/useful notes that others can read, I&#8217;m slightly embarassed about it.  Some people recently heard that I had a Blog and all questioned with surprise&#8230;&#8221;you have a blog???&#8221;.  In opening it up to the world, I open myself to the critical eye of the world.<\/p>\n<p>I originally set up my Blog such that people had to be approved as readers.  However, I recently &#8220;imported&#8221; my Blog into my Facebook &#8220;notes&#8221; application &#8211; which meant that people could easily be updated when I post something new, and I really value having RSS feeds of other people&#8217;s Blogs as it makes it easier to stay up to date.  Both of these required me to open up my Blogger RSS feed, which I can only do by opening up the whole Blog to the world.<\/p>\n<p>I&#8217;m nervous about this.<\/p>\n<p>I don&#8217;t mind people that I know are nice and won&#8217;t make silly comments reading and commenting but I don&#8217;t think I want everyone to see.  There&#8217;s a security risk in there, and, though I&#8217;m careful about what I write and I make sure I set my Blog up so that search engines aren&#8217;t informed about my posts, I don&#8217;t want all of what I write searchable by Google and so on.<\/p>\n<p>This, though, poses some challenges.<\/p>\n<p>Firstly, I don&#8217;t currently have a way to only allow RSS access to a select group.  I&#8217;ve tried importing my notes into a WordPress setup, but this doesn&#8217;t seem to allow secure RSS feeds either (if such things exist). <\/p>\n<p>There&#8217;s also pride in knowing who&#8217;s reading too.  I don&#8217;t want to think I&#8217;m big because the world can read my musings and hopefully be entertained by them.  But having control of who can see means I&#8217;m retaining control and I become aware of how popular I am (or am not).  That could work either way.<\/p>\n<p>And I&#8217;m challenged about what I&#8217;m writing too.  Why am I nervous about the world seeing it?  Do I not believe it?  Do I not think it&#8217;s interesting\/useful\/funny?  Am I not prepared to stand by what I&#8217;ve written and be identified with it?<\/p>\n<p>So I&#8217;m a bit confused about what to do at the moment.  I think I&#8217;ve turned public access off, but it may be on and off for a while, while I work out what to do.<\/p>\n<p>If anyone IS reading (I know at least one person is), I&#8217;d appreciate your comments and thoughts.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I&#8217;ve been considering the purpose of this Blog lately It&#8217;s really only &#8220;notes to self&#8221; and yet, I started it after being inspired by other people, who were writing interesting stuff&#8230;or at least stuff about what they were up to that was of interest to me. It&#8217;s stuff that I&#8217;d like good friends to be [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "aside",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Blog - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/12\/the-blog\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Blog - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;ve been considering the purpose of this Blog lately It&#8217;s really only &#8220;notes to self&#8221; and yet, I started it after being inspired by other people, who were writing interesting stuff&#8230;or at least stuff about what they were up to that was of interest to me. It&#8217;s stuff that I&#8217;d like good friends to be [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/12\/the-blog\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-12-26T16:02:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/the-blog\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/12\/the-blog\/\",\"name\":\"The Blog - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-12-26T16:02:00+00:00\",\"dateModified\":\"2007-12-26T16:02:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/the-blog\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/12\/the-blog\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/the-blog\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Blog\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "The Blog - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2007\/12\/the-blog\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "The Blog - Ross Wintle",
+        "og_description": "I&#8217;ve been considering the purpose of this Blog lately It&#8217;s really only &#8220;notes to self&#8221; and yet, I started it after being inspired by other people, who were writing interesting stuff&#8230;or at least stuff about what they were up to that was of interest to me. It&#8217;s stuff that I&#8217;d like good friends to be [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2007\/12\/the-blog\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2007-12-26T16:02:00+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2007\/12\/the-blog\/",
+                    "url": "https:\/\/rosswintle.uk\/2007\/12\/the-blog\/",
+                    "name": "The Blog - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2007-12-26T16:02:00+00:00",
+                    "dateModified": "2007-12-26T16:02:00+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2007\/12\/the-blog\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2007\/12\/the-blog\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2007\/12\/the-blog\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "The Blog"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/93"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=93"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 0,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/93\/revisions"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=93"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=93"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=93"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,227 @@
+{
+    "id": 9145,
+    "date": "2020-04-09T14:29:00",
+    "date_gmt": "2020-04-09T13:29:00",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=9145"
+    },
+    "modified": "2020-04-16T14:32:15",
+    "modified_gmt": "2020-04-16T13:32:15",
+    "slug": "video-using-keyboard-shortcuts-with-multiple-monitor-setups",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/",
+    "title": {
+        "rendered": "Video: Using Keyboard Shortcuts with multiple monitor setups"
+    },
+    "content": {
+        "rendered": "\n<p>Some tips on using tools like BetterTouchTool and Moom on a Mac to speed up working across multiple monitors.<\/p>\n\n\n\n<figure class=\"wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-21-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Using Keyboard Shortcuts with multiple monitor setups\" src=\"https:\/\/player.vimeo.com\/video\/405763604?dnt=1&amp;app_id=122963\" width=\"640\" height=\"216\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>Also on <a href=\"https:\/\/youtu.be\/LXmDduUmKu4\">YouTube<\/a><\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Some tips on using tools like BetterTouchTool and Moom on a Mac to speed up working across multiple monitors.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        231,
+        722
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Video: Using Keyboard Shortcuts with multiple monitor setups - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Video: Using Keyboard Shortcuts with multiple monitor setups - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some tips on using tools like BetterTouchTool and Moom on a Mac to speed up working across multiple monitors.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2020-04-09T13:29:00+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-04-16T13:32:15+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/\",\"url\":\"https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/\",\"name\":\"Video: Using Keyboard Shortcuts with multiple monitor setups - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2020-04-09T13:29:00+00:00\",\"dateModified\":\"2020-04-16T13:32:15+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Video: Using Keyboard Shortcuts with multiple monitor setups\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Video: Using Keyboard Shortcuts with multiple monitor setups - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Video: Using Keyboard Shortcuts with multiple monitor setups - Ross Wintle",
+        "og_description": "Some tips on using tools like BetterTouchTool and Moom on a Mac to speed up working across multiple monitors.",
+        "og_url": "https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2020-04-09T13:29:00+00:00",
+        "article_modified_time": "2020-04-16T13:32:15+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/",
+                    "url": "https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/",
+                    "name": "Video: Using Keyboard Shortcuts with multiple monitor setups - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2020-04-09T13:29:00+00:00",
+                    "dateModified": "2020-04-16T13:32:15+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2020\/04\/video-using-keyboard-shortcuts-with-multiple-monitor-setups\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Video: Using Keyboard Shortcuts with multiple monitor setups"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9145"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=9145"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9145\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 9147,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9145\/revisions\/9147"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=9145"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=9145"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=9145"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

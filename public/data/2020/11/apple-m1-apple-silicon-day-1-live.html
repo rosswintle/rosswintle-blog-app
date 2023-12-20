@@ -1,0 +1,379 @@
+<body><header><h1 data-pagefind-meta="title">Apple M1/Apple Silicon Day 1 LIVE</h1></header><main>
+<p>Follow up &#8211; day 3!</p>
+
+
+
+<p>So, overall I&#8217;m pretty happy with the 8GB M1 Air. Outstanding issues I have are:</p>
+
+
+
+<ul><li>ScreenFlow and some Rogue Amoeba audio apps don&#8217;t work &#8211; I guess these are doing some clever low-level stuff.</li><li>I&#8217;m having issues importing my MySQL databases from backup. This is not really an M1 specific issue, apart from the fact that I can&#8217;t use homebrew to install anything other than the latest version of MariaDB.</li></ul>
+
+
+
+<p>Some useful links that have helped me out along the way:</p>
+
+
+
+<ul><li><a href="https://github.com/Homebrew/brew/issues/7857">Status of Homebrew on Apple Silicon</a></li><li>&#8220;Sam&#8221; has <a href="https://soffes.blog/homebrew-on-apple-silicon">a tip on running command line stuff using Rosetta</a></li><li>A clever person figured out that if you make a copy of terminal (or iTerm) and <a href="https://www.notion.so/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602">set it to &#8220;Run as Rosetta&#8221;</a> it seems to run any sub-commands using Rosetta too.</li></ul>
+
+
+
+<p>I&#8217;ll have some write ups &#8211; or possibly unstructured brain dumps &#8211; on stuff I&#8217;ve learned along the way.</p>
+
+
+
+<p>22:42</p>
+
+
+
+<p>Aside: yarn and npm are the one thing that I&#8217;ve noticed it REALLY FREAKING FAST on this machine.</p>
+
+
+
+<p>22:32</p>
+
+
+
+<p>Yes &#8211; I&#8217;m still at it &#8211; in between other things.</p>
+
+
+
+<p>So I&#8217;d heard from a friend that lib-sass or node-sass &#8211; I don&#8217;t recall which &#8211; maybe both would fail to work.</p>
+
+
+
+<p>And that&#8217;s true. And it raises a whole weird load of questions about how Rosetta works.</p>
+
+
+
+<p>yarn and npm both seem to work OK. But if I understand correctly, lib-sass was a compiled binary, and it refused to run with the usual webpack/npm/webpack barf, including:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+Module build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: OS X Unsupported architecture (arm64) with Unsupported runtime (88)
+</pre></div>
+
+
+<p>So why does everything else seem to run fine under Rosetta, but not this one thing?</p>
+
+
+
+<p>Anyway, I eventually found a way to:</p>
+
+
+
+<ul><li>update <code>node-sass</code> to <code>dart-sass</code></li><li>update the <code>sass-loader</code> (v10 is too high &#8211; I get more barf and errors &#8211; v7.1 seems to work)</li><li>update the sass-loader config</li></ul>
+
+
+
+<p>This then all runs under node 15, which I have compiled for ARM/M1. And&#8230;YAY!!! I can successfully build the project I need to put live VERY SOON!!!</p>
+
+
+
+<p>20:18</p>
+
+
+
+<p>Gosh I have a LOT of software!</p>
+
+
+
+<p>This is going pretty well considering. HOWEVER&#8230;  brew and node are pretty confusing.</p>
+
+
+
+<p>I&#8217;ve basically got brew working, but it&#8217;s giving me this nudge to run it with Rosetta which I have no idea how to do.</p>
+
+
+
+<p>And I have node v15 installed using <code>brew install -s node</code> (I had to run it a few times to get it to work)</p>
+
+
+
+<p>I can&#8217;t get the &#8216;<code>n</code>&#8216; node version manager to do anything &#8211; it&#8217;s installed but won&#8217;t list or install any versions.</p>
+
+
+
+<p>And I can&#8217;t get node@10 or node@12 to install with homebrew.</p>
+
+
+
+<p>Next up &#8211; can I actually compile a project that uses node?</p>
+
+
+
+<p>16:28</p>
+
+
+
+<p>While pretty much every download-to-your-applicaitons folder app seems fine, the problems are on command-line.</p>
+
+
+
+<p>I&#8217;ve got Homebrew installed. And seem to have compiled my own version of PHP with <code>brew install -s php</code>, but I can&#8217;t get a build of nodeJs to compile.</p>
+
+
+
+<p>Perhaps there&#8217;s a better way than homebrew for this?</p>
+
+
+
+<p>15:29</p>
+
+
+
+<p>To be honest, this is going pretty well. I&#8217;ve not got some system utilities like Moom, Better Touch Tool, Bartender and the Harvest time tracking app installed. I&#8217;ve yet to set them up properly but they all seem to be working.</p>
+
+
+
+<p>I also have Sequel Ace for databases and Wavebox for managing some web apps &#8211; this is an Electron app and I thought there was issues with Electron. But seems it&#8217;s OK!</p>
+
+
+
+<p>Dashdocs, Tweetbot and iTerm are all doing fine now too.</p>
+
+
+
+<p>Nice that MacOS now has zsh by default but there&#8217;s some dotfiles I&#8217;ll need to recover!</p>
+
+
+
+<p>14:43</p>
+
+
+
+<p>I have a school run to do&#8230; back later!</p>
+
+
+
+<p>14:17</p>
+
+
+
+<p>I also have Homebrew and am attempting a PHP 7.4 install. Not sure what&#8217;s gonna happen!</p>
+
+
+
+<p>14:15</p>
+
+
+
+<p>Tinkerwell and HELO installed. I have iTunes/Music set up. I&#8217;ve attempted ClamXAV install but need to get a new license. Hmmm&#8230; Hurrying through now.</p>
+
+
+
+<p>13:54</p>
+
+
+
+<p>Weird &#8211; having installed the MacOS command-line tools, Firefox seems much happier! Perhaps extensions need some command line thing installed to work?</p>
+
+
+
+<p>Slack is installed and fine.</p>
+
+
+
+<p>13:10</p>
+
+
+
+<p>In the meantime I have an update from the Apple Service centre about my old MacBook &#8211; they can&#8217;t do anything. What diagnostics they can do are showing &#8211; surprise! &#8211; logic board failures.</p>
+
+
+
+<p>It&#8217;s back to Apple.</p>
+
+
+
+<p>13:16</p>
+
+
+
+<p>I&#8217;m going to have to do some real work now. But just to add:</p>
+
+
+
+<ul><li>Homebrew not properly supported yet &#8211; it says to run it under Rosetta, but I don&#8217;t know how you do that from the command line! Work ongoing <a href="https://github.com/Homebrew/brew/issues/7857">here</a>. Another dev linked from that issue also has <a href="https://github.com/mikelxc/Workarounds-for-ARM-mac">a list of fixes and workarounds</a> for things.</li><li>PHP 7.3 in installed by default. I have composer running.</li><li>Git not installed by default? Having to download Apple&#8217;s command line utilities &#8211; this could take a while!</li><li>SourceTree is incoming&#8230;</li></ul>
+
+
+
+<p>Also &#8211; I will need to find a way to copy over, or recreate a LOT of configuration from my old machine. Not just dot files, but other stuff too.</p>
+
+
+
+<p>A fun few days ahead!</p>
+
+
+
+<p>13:07</p>
+
+
+
+<p>I&#8217;m not able to specifically point to anything wrong with Firefox extensions, but they generally seem broken. I turned them all off, and I could get a couple of them back on, but the Containers extension and React Dev tools seemed to just break Firefox.</p>
+
+
+
+<p>This needs sorting FAST!!</p>
+
+
+
+<p>12:54</p>
+
+
+
+<p>Well, I&#8217;m gonna call it: Something in Firefox doesn&#8217;t work! It kinda opens tabs, but doesn&#8217;t load them. Incognito windows are fine. So it&#8217;s probably extension related.</p>
+
+
+
+<p>12:06</p>
+
+
+
+<p>Blazing through app installs &#8211; I have a lot of stuff to install.</p>
+
+
+
+<p>Is this my first Apple Silicon issue though? Wow! Not where I expected it!</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="368" src="https://rosswintle.uk/wp-content/uploads/2020/11/Screenshot-2020-11-17-at-12.06.25-1024x368.png" alt="Operating system error sating &quot;Google Chrome quit unexpectedly&quot;" class="wp-image-9658" srcset="https://rosswintle.uk/wp-content/uploads/2020/11/Screenshot-2020-11-17-at-12.06.25-1024x368.png 1024w, https://rosswintle.uk/wp-content/uploads/2020/11/Screenshot-2020-11-17-at-12.06.25-300x108.png 300w, https://rosswintle.uk/wp-content/uploads/2020/11/Screenshot-2020-11-17-at-12.06.25-768x276.png 768w, https://rosswintle.uk/wp-content/uploads/2020/11/Screenshot-2020-11-17-at-12.06.25.png 1036w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>11:52</p>
+
+
+
+<p>Weird that the 1Password APP wouldn&#8217;t take a physical security key. That was a test.</p>
+
+
+
+<p>Dropbox seems fine.</p>
+
+
+
+<p>Firefox and Chrome are incoming.</p>
+
+
+
+<p>No issues as yet. How do I know if apps are using Rosetta or are built for ARM?</p>
+
+
+
+<p>11:37</p>
+
+
+
+<p>So, so far so good. I have 1Password (was a good test of my own security getting in on a new device!). I have Telegram and WhatsApp for chatting to some people. I have Alfred because I&#8217;m an option-space person, not a Cmd-space one! I&#8217;m downloading Dropbox&#8230;  argh! Is that going to work?!</p>
+
+
+
+<p>11:23</p>
+
+
+
+<p>OK &#8211; here I am in WordPress in Safari. First step: Get 1Password up and running so I can log in to stuff.</p>
+
+
+
+<p>Install from App Store was OK. But then it wouldn&#8217;t open. Eventually found a little window asking me to install Rosetta. Surprised 1Password isn&#8217;t a universal build yet! But it&#8217;s open and working!</p>
+
+
+
+<p>11:06</p>
+
+
+
+<p>No I’m not “unboxing” it. You don’t care about that. You want to know what software runs on it.</p>
+
+
+
+<p>I also have a dongle. You don’t need a photo of that! ?<br><br>11:04</p>
+
+
+
+<p>Here&#8230;</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="2560" height="1920" src="https://rosswintle.uk/wp-content/uploads/2020/11/31318691-B160-46B0-BD72-11B2917399CA-scaled.jpeg" alt="" class="wp-image-9647" srcset="https://rosswintle.uk/wp-content/uploads/2020/11/31318691-B160-46B0-BD72-11B2917399CA-scaled.jpeg 2560w, https://rosswintle.uk/wp-content/uploads/2020/11/31318691-B160-46B0-BD72-11B2917399CA-300x225.jpeg 300w" sizes="(max-width: 2560px) 100vw, 2560px" /></figure>
+
+
+
+<p>11:00</p>
+
+
+
+<p>Here we are then. I have travelled to the stars (OK, to Cirencester) and I have forged new elements (OK, I have a new laptop with Apple Silicon)</p>
+
+
+
+<p>The big question is: can I get WordPress on my phone to upload photos?</p>
+
+
+
+<p>9:10</p>
+
+
+
+<p>I should say that this isn’t some vain, impulse buy. It’s well thought through. I’ve been wanting to upgrade for about two years, but wanted a robust keyboard. That came along from Apple last year. And then Apple Silicon was announced and it’s a call between a) how long before software stops working on Intel and b) how long before it starts working on M1?</p>
+
+
+
+<p>I NEED to get a new laptop and I’m trying to play the long game. If I want this machine to be running all my software in 5 or 6 years, the new chips seem to be the right choice. I hope.</p>
+
+
+
+<p><br>8:40</p>
+
+
+
+<p>Some people have been warning me about compatibility of software and I do have concerns. But I’ve researched and discussed this with people and let me say where I’m at:</p>
+
+
+
+<p>I don’t do much/any virtualisation. I don’t use Docker &#8211; which I know doesn’t work. What virtualisation I do is minimal and not mission-critical.</p>
+
+
+
+<p>Looks like some software that integrates with the OS at low level like screen recorders and audio tools might struggle.</p>
+
+
+
+<p>There seem to have been concerns around Electron apps but I couldn’t find anything concrete. It looks like Electron apps will build. But I’m not sure what specific tools are.</p>
+
+
+
+<p>I have concerns about Homebrew, PHP, composer, databases. But these are all Linux things right? Creating ARM binaries &#8211; if they don’t already exist &#8211; should be OK?</p>
+
+
+
+<p>Well &#8211; that’s what we’re about to find out!</p>
+
+
+
+<p>8:15 am: My late 2013 MacBook Pro has failed. Totally bricked. Others are reporting this failure too and a fix could be weeks away.</p>
+
+
+
+<p>I’m normally a risk-averse person. But for some stupid reason I’ve decided to jump in on day 1 with an Apple Silicon M1 MacBook Air that I’m collecting this morning.</p>
+
+
+
+<p>Will I sink or swim? I know not everything will work on day 1. But will it be disastrous? Or just mildly annoying?</p>
+
+
+
+<p>Follow along and see how it goes. If nothing else it might be an insight into the tools of this full-stack PHP/WordPress/Laravel developer.</p>
+
+
+
+<p>I’ll post updates here rather than Twitter. I guess you have to revisit occasionally to see what’s going on!</p>
+
+
+
+<p></p>
+</main></body>

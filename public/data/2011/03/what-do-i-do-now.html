@@ -1,0 +1,59 @@
+<body><header><h1 data-pagefind-meta="title">What do I do now?</h1></header><main><p>Bizarrely this is not a post about my job hunting/exploration of work options.  It&#8217;s a post about user experience with software.</p>
+<p>I did a module at University about human computer interaction and it was fascinating.  I love exploring psychology and how people interact with each other, themselves and what&#8217;s around them.  So I&#8217;ve been enjoying <a title="Experience not Evangelism - Andy Fryer's Blog" href="http://andyfryer.blogspot.com">Andy Fryer&#8217;s blog</a> which combines three topics of interest to me: User Experience; Pragmatic Environmentalism and; Cycling.</p>
+<p><!--more-->Andy&#8217;s posts about user experience have got me thinking a lot about my own experiences of human computer interaction and today has raised an interesting example.</p>
+<h2>IE9 for the Average Joe</h2>
+<p>As a web developer I like to stay on top of technology so I used a spare moment to get downloading Microsoft&#8217;s Internet Explorer 9.</p>
+<p>We should bear in mind that web browsers are a pretty key piece of computer software these days and Microsoft are, of course, competing more and more with Mozilla&#8217;s Firefox, Google&#8217;s Chrome and others.  So an average man-on-the-street, non-technical person, wanting to take advantage of the new features and increased speed of IE9 should be given a VERY easy time when doing this upgrade.</p>
+<p><strong>And yet, I &#8211; a highly technical person &#8211; was initially bamboozled at pretty much step one of the install process.</strong></p>
+<p>After double-clicking the installer that I&#8217;d downloaded by clicking the big &#8220;Download Now&#8221; button, I got the following message:</p>
+<p><a href="https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1020" title="IE9 Install Error" src="https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error.jpg" alt="Internet Explorer 9 Install Error: &quot;Wrong Version of Internet Explorer Installer - This version of setup doesn't support your Windows system type (32/64 bit)&quot;" width="506" height="145" srcset="https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error.jpg 506w, https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error-300x85.jpg 300w, https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error-150x42.jpg 150w" sizes="(max-width: 506px) 100vw, 506px" /></a></p>
+<p>My first thought was, &#8220;wrong version?&#8221;.  I didn&#8217;t remember having a choice of versions.  I just clicked the &#8220;Download Now&#8221; button.  Was there another version?</p>
+<p>My second thought was &#8220;What?&#8221;.  I mean, what is this telling me?</p>
+<ul>
+<li>It tells me that I&#8217;ve done something wrong, but it doesn&#8217;t really tell me what I&#8217;ve done wrong.</li>
+<li>It uses technical language that a lot of people won&#8217;t understand: &#8220;32-bit/64-bit&#8221;.</li>
+<li>It assumes that you know that there are two &#8220;Windows system types&#8221;, which is not necessarily true.</li>
+<li>It tells me nothing about how to fix the problem or what I need to do to complete the install.</li>
+</ul>
+<p>Of particular confusion is the fact that it tells me I&#8217;ve used the wrong installer, but doesn&#8217;t tell me where to get the right installer.</p>
+<h2>Giving Up</h2>
+<p>I confess, I actually gave up at that point.  If MS can&#8217;t make this easy for a busy person I&#8217;m wasn&#8217;t going to bother.</p>
+<p>For the average user at this point I&#8217;ve got an error I probably don&#8217;t understand and no help in doing the job right.  There&#8217;s no encouragement to persevere and get it right either.</p>
+<h2>A Better Error</h2>
+<p>If this message was to remain technical, it should say something more like:</p>
+<blockquote><p>&#8220;You&#8217;re trying to use the 32-bit installer on a 64-bit Windows system.  Please use the 64-bit installer instead&#8221;</p></blockquote>
+<p>But, even better, this more technical information should be hidden under a &#8220;More information&#8221; button.  The error needs to be as simple as possible and give the user the simplest resolution.</p>
+<p>I suggest:</p>
+<blockquote><p>&#8220;You are using the wrong version of the installer for your system.  Please download and install the right version to continue your upgrade to a faster, better internet experience.</p>
+<ul>
+<li><span style="text-decoration: underline;">Download Internet Explorer version 9 for your system</span></li>
+<li><span style="text-decoration: underline;">More Information on this error</span>&#8220;</li>
+</ul>
+</blockquote>
+<h2>Get it Right First Time</h2>
+<p>Even better would be to try to deliver the correct installer anyway &#8211; detect if the user is using 32- or 64-bit and have the download button deliver the correct version.  This can be easily done in JavaScript by testing the values of:</p>
+<p style="padding-left: 30px;"><code>window.navigator.cpuClass</code></p>
+<p style="padding-left: 30px;"><code>window.navigator.platform</code></p>
+<p>(I confess to not having used these values before and a quick test shows that, in practice, cpuClass is &#8220;unknown&#8221; for my system and platform is &#8220;Win32&#8221;, so maybe MS try to detect this but it&#8217;s not reported correctly)</p>
+<h2>Lessons Learned</h2>
+<p>As a techie it&#8217;s easy to assume that everyone knows what I do and to unthoughtfully write error messages that may not be understood.  But especially for a tool that non-technical people will be installing, errors need to be:</p>
+<ul>
+<li>clear;</li>
+<li>non-technical (but with an option to get a more technical message); and</li>
+<li>help me fix the problem or take the appropriate action to achieve my objective.</li>
+</ul>
+<p>In the meantime I&#8217;m downloading the 64-bit version and will let you know what I think soon.</p>
+<h3>Update</h3>
+<p>ARRGH!  OK, I&#8217;m now running the 64-bit version and I get this message:</p>
+<p><a href="https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error-2.jpg"><img loading="lazy" decoding="async" class="aligncenter size-full wp-image-1024" title="Confusing IE9 Install Dialog" src="https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error-2.jpg" alt="A confusing IE9 install dialog" width="492" height="190" srcset="https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error-2.jpg 492w, https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error-2-300x115.jpg 300w, https://rosswintle.uk/wp-content/uploads/2011/03/ie9-install-error-2-150x57.jpg 150w" sizes="(max-width: 492px) 100vw, 492px" /></a></p>
+<p>Which again, suggests something quite complicated and scary while giving me very little help.  At this point I&#8217;m thinking:</p>
+<ul>
+<li>What customized settings does this install include?  What will it change?</li>
+<li>What additional programs will it install?</li>
+<li>Is there an option to not install the additional programs?</li>
+<li>Is there a version that doesn&#8217;t include customized settings and additional programs?</li>
+<li>And if so where do I get it from?</li>
+</ul>
+<p>At least I get a link to the license terms but at this point I&#8217;m still clicking cancel.  I&#8217;ve been bitten before by &#8220;additional programs&#8221; being installed and I don&#8217;t trust Microsoft not to mess up my system.</p>
+<p>Back to watching the rugby.</p>
+</main></body>

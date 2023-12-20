@@ -1,0 +1,86 @@
+<body><header><h1 data-pagefind-meta="title">Hang on, PHP IS a static site generator!</h1></header><main>
+<p>Regular followers will have heard me talk about <a href="https://turbo-admin.com/">Turbo Admin</a>. And you may also know that I am, where possible, trying to #DitchTheBuild and use vanilla HTML, CSS and JS as much as possible.</p>
+
+
+
+<p>So for the Turbo Admin website I kinda wanted to embrace this philosophy, get cheap-and-easy, static-file hosting, and make my build and maintenance process as simple as possible.</p>
+
+
+
+<p>BUT&#8230; I also wanted to make use of the <a href="https://tailwindui.com">Tailwind UI</a> component library that I have access to, so I wanted to embrace TailwindCSS and it&#8217;s component-based philosophy as well. How could I do all this but with a minimal build process.</p>
+
+
+
+<p>I investigated a number of options like <a href="https://www.11ty.dev">Eleventy</a>, <a href="https://mozilla.github.io/nunjucks/">Nunjucks</a>, <a href="https://jigsaw.tighten.co/">Jigsaw</a>, and some others. I decided that they were all too much for what I needed and that I didn&#8217;t want such a big dependency for the build.</p>
+
+
+
+<p>So what DID I need? It&#8217;s just a few HTML pages with a common header and footer, and some template partials with a bit of conditional logic. Maybe some environment variables for testing, API keys, tags and stuff.</p>
+
+
+
+<ul><li>variables</li><li>some simple logic for building different environments</li><li>simple template includes/extends</li><li>a command-line build process for a few files.</li></ul>
+
+
+
+<p>And then it occurred to me: PHP does all of this! Can&#8217;t I just use PHP?</p>
+
+
+
+<ul><li>PHP has includes for templates</li><li>PHP has variables and logic</li><li>PHP can be run from the command line</li></ul>
+
+
+
+<p>So I set out to see what was possible.</p>
+
+
+
+<p>And with a bit of clever <a href="https://www.php.net/manual/en/book.outcontrol.php">output buffering</a> it turns out that it&#8217;s not so hard to loop over a bunch of files, processing them with PHP, capturing the output, injecting it into a template and writing it out.</p>
+
+
+
+<p>This is a bit hacky, but it&#8217;s all standard PHP. It may not be the easiest code to understand, but <a href="https://gist.github.com/rosswintle/c1f466250879e1281afe1bab72bed65d">these 162 lines of PHP</a> are a simple, command-line static site generator.</p>
+
+
+
+<p>Combined with <a href="https://esbuild.github.io/">esbuild</a> (only required because I&#8217;m using JavaScript modules to power the interactive parts of the homepage) and the <a href="https://tailwindcss.com/docs/installation">Tailwind CLI</a> this can build my whole site with very few dependencies.</p>
+
+
+
+<p>Tailwind can even now be <a href="https://tailwindcss.com/blog/standalone-cli">used standalone without node/npm</a>.</p>
+
+
+
+<p>I also use standardised build scripts for my projects. So each project has a <code>build.sh</code> and a <code>prod.sh</code> so I don&#8217;t have to remember what commands to run for each.</p>
+
+
+
+<p>If you&#8217;re curious, the script for this project is:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: bash; gutter: false; title: ; quick-code: false; notranslate" title="">
+#!/bin/sh
+node_modules/.bin/esbuild src/js/turbo-admin/main.js --bundle --minify --sourcemap --outfile=public/js/turbo-admin/main.min.js
+php ./build.php
+npm run build:dev
+</pre></div>
+
+
+<p>Sure, this doesn&#8217;t have hot-module reloading or automatic browser refresh. But it&#8217;s not changing so much that I need those things.</p>
+
+
+
+<p>Yes, this project has a build step. It uses npm (for now). But it&#8217;s pretty minimal.</p>
+
+
+
+<p>So there you go. Summary:</p>
+
+
+
+<ul><li>Vanilla <a href="https://gist.github.com/rosswintle/c1f466250879e1281afe1bab72bed65d">PHP static site builder</a> in 162 lines</li><li><a href="https://esbuild.github.io/">ESBuild</a></li><li><a href="https://tailwindcss.com/docs/installation">Tailwind CLI</a></li></ul>
+
+
+
+<p>All you need to build a simple site with minimal dependencies.</p>
+</main></body>

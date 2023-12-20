@@ -1,0 +1,230 @@
+{
+    "id": 8715,
+    "date": "2019-10-21T20:44:17",
+    "date_gmt": "2019-10-21T19:44:17",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=8715"
+    },
+    "modified": "2019-10-21T20:55:19",
+    "modified_gmt": "2019-10-21T19:55:19",
+    "slug": "tech-note-checking-the-integrity-of-npm-modules",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/",
+    "title": {
+        "rendered": "Tech Note: Checking the integrity of npm modules"
+    },
+    "content": {
+        "rendered": "\n<p>A quick tech note I want to jot down because it took me a LOT of Googling to find the answer.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Auto-patches in Github are clever!<\/h2>\n\n\n\n<p>I got an email from a GitHub bot while working today. It told me that there was an automatically-generated pull request waiting for me on a project I&#8217;ve not touched in a while that fixed a critical security vulnerability in a dependency &#8211; in this case the very popular &#8220;lodash&#8221; library.<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"691\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot_2019-10-21_at_20_21_52-1024x691.jpg\" alt=\"Screengrab of email from Github\" class=\"wp-image-8716\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot_2019-10-21_at_20_21_52-1024x691.jpg 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot_2019-10-21_at_20_21_52-300x203.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot_2019-10-21_at_20_21_52-768x518.jpg 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot_2019-10-21_at_20_21_52.jpg 1754w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>This is pretty neat! Thanks dependabot! (You can read more about automatic security updating in GitHub <a href=\"https:\/\/help.github.com\/en\/github\/managing-security-vulnerabilities\/configuring-automated-security-fixes\">here<\/a>)<\/p>\n\n\n\n<p>But I trust nothing, especially computers. So I went looking at the pull request to see what it had done. Here&#8217;s the update to my <code>package.lock<\/code> file:<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"540\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.25.45-1024x540.png\" alt=\"Screen grab of diff to package.lock file\" class=\"wp-image-8717\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.25.45-1024x540.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.25.45-300x158.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.25.45-768x405.png 768w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>Just a simple minor version number bump and updated hash.<\/p>\n\n\n\n<p>For those that don&#8217;t know, the hash is a special code that&#8217;s generated from all the files in the package. This code is always the same for the same set of files, and so I can test if the files I have are the same as the files that npm says I should have by generating the hash from my files and comparing it against the specified hash value.<\/p>\n\n\n\n<p>If, for some reason, the hash of my files is different then I have different files and something might have been hacked and I should be very wary.<\/p>\n\n\n\n<p>Anyway, the <a href=\"https:\/\/rosswintle.uk\/2015\/07\/highly-sensitive\/\">highly sensitive<\/a> perfectionist in me wanted to know that dependabot had given me the right hash.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Finding the npm package&#8217;s hash<\/h2>\n\n\n\n<p><a href=\"https:\/\/docs.npmjs.com\/verifying-the-pgp-signature-for-a-package-from-the-npm-public-registry\">This article<\/a> explains the process. But basically you go to:<\/p>\n\n\n\n<p><code>https:\/\/registry.npmjs.org\/[npm package name]<\/code><\/p>\n\n\n\n<p>This gives you back some JSON.  In Chrome I have an extension that pretty-prints JSON, but this is in Firefox which I think has JSON formatting built in.<\/p>\n\n\n\n<p>You need to follow the JSON path through:<\/p>\n\n\n\n<ul><li><code>version<\/code><\/li><li>the version you want the hash for<\/li><li><code>dist<\/code><\/li><\/ul>\n\n\n\n<p>Then you will see the <code>integrity<\/code> value. This is the hash!<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"764\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.37.13-1024x764.png\" alt=\"Screen grab of npm registry JSON data with the relevant hash value highlighted\" class=\"wp-image-8718\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.37.13-1024x764.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.37.13-300x224.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.37.13-768x573.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot-2019-10-21-at-20.37.13.png 1786w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>I can compare this value to the one in the pull request and be assured that, actually, I can trust the bot this time.<\/p>\n\n\n\n<p>But will I next time?!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Quick tech note on how to find and check the integrity hash value of an npm package.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        286,
+        64,
+        4859,
+        107,
+        4858,
+        165,
+        181
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Tech Note: Checking the integrity of npm modules - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Tech Note: Checking the integrity of npm modules - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Quick tech note on how to find and check the integrity hash value of an npm package.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-10-21T19:44:17+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-10-21T19:55:19+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot_2019-10-21_at_20_21_52-1024x691.jpg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/\",\"name\":\"Tech Note: Checking the integrity of npm modules - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-10-21T19:44:17+00:00\",\"dateModified\":\"2019-10-21T19:55:19+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Tech Note: Checking the integrity of npm modules\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Tech Note: Checking the integrity of npm modules - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Tech Note: Checking the integrity of npm modules - Ross Wintle",
+        "og_description": "Quick tech note on how to find and check the integrity hash value of an npm package.",
+        "og_url": "https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2019-10-21T19:44:17+00:00",
+        "article_modified_time": "2019-10-21T19:55:19+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/10\/Screenshot_2019-10-21_at_20_21_52-1024x691.jpg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/",
+                    "url": "https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/",
+                    "name": "Tech Note: Checking the integrity of npm modules - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2019-10-21T19:44:17+00:00",
+                    "dateModified": "2019-10-21T19:55:19+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/10\/tech-note-checking-the-integrity-of-npm-modules\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Tech Note: Checking the integrity of npm modules"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8715"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8715"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8715\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 8720,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8715\/revisions\/8720"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8715"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8715"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8715"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

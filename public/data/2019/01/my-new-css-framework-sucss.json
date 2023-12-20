@@ -1,0 +1,227 @@
+{
+    "id": 4495,
+    "date": "2019-01-16T22:08:22",
+    "date_gmt": "2019-01-16T22:08:22",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=4495"
+    },
+    "modified": "2019-01-16T22:08:24",
+    "modified_gmt": "2019-01-16T22:08:24",
+    "slug": "my-new-css-framework-sucss",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/",
+    "title": {
+        "rendered": "My new CSS framework: SUCSS!"
+    },
+    "content": {
+        "rendered": "\n<p>Everyone is writing about CSS, and I work with CSS, so I guess I should write about CSS too. Please bear in mind I\u2019ve spent far less time thinking about this than others. But these are my thoughts.<\/p>\n\n\n\n<p>Today, I half-jokingly present you my new convention: SUCSS. But before I tell you what it\u2019s all about let&#8217;s get some context.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">CSS and Me<\/h2>\n\n\n\n<p>I\u2019m relatively old friends with CSS. I guess I started working in web development for real in 2010. I remember the stupid IE6 margin bugs, and learning the box model. It was hard work, but it was all we had. And once you knew the quirks it was actually powerful to work with. And I&#8217;d argue that it has remained powerful and only gotten MORE powerful over the years. Regardless of where you put it and how you name things, CSS is THE underlying technology for all styling of HTML on the web. <\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Presentational vs Semantic Classes<\/h2>\n\n\n\n<p>Back in the day \u201csemantic classes\u201d were all the rage. This was What You Should Do. And the hard line on this appeared to be a push back against people wanting to make \u201cpresentational\u201d classes like \u201cbig-padding\u201d or \u201cfloat-left\u201d or \u201cblue-text\u201d.<\/p>\n\n\n\n<p>This kind of stuff, they said, shouldn\u2019t clutter up your markup. The markup describes the structure of the document not its presentation!<\/p>\n\n\n\n<p>Classes should be things like \u201cmain-header\u201d, \u201cwidget-area\u201d, \u201cfooter-credits\u201d. Names that describe what something is, not what it looks like. After all the sidebar could be on the left or the right or at the bottom. You shouldn\u2019t constrain your presentation by what you write in your markup.<\/p>\n\n\n\n<p>But I always found writing CSS for semantic classes was a bind. Well, not so much writing it, but editing it. Especially other people\u2019s CSS. I remember spending time searching huge CSS files (and later entire directories of SASS files) to try and work out where a class was so that I could tweak the padding on it, only to realise then that this would affect ALL instances of this class and might have unintended knock-on effects.<\/p>\n\n\n\n<p>I wished that I had some kind of permission to add an inline style attribute, or a \u201cbig-padding-top\u201d class to safely tweak just that one instance of this thing in this one place.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">BEM, OOCSS, SMACSS and so on<\/h2>\n\n\n\n<p>Various conventions then emerged from some very clever people to try and name your classes and structure your CSS in better ways. These were great. They kept semantics, but allowed you to add contexts and modifiers, inherit properties between classes in an ordered way, and flatten the cascade toprevent styles bleeding from one place to another.<\/p>\n\n\n\n<p>Clever stuff!!<\/p>\n\n\n\n<p>And I liked this. But the problem was that anyone involved in the project had to be along for the ride. In an agency this is possible but I\u2019m a freelancer who sometimes works solo and sometimes with other freelancers or agencies, and so I never really fully adopted one of these techniques because each project was different. Yes, they informed the techniques and conventions I used but I found it hard to take them on 100%.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Aside: Less and SASS and tooling.<\/h2>\n\n\n\n<p>Let\u2019s quickly touch on these. I\u2019m not an early adopter of new things. I\u2019m a cautious semi-early adopter. I picked SASS and was glad I did. I don\u2019t use it in a big way: variables, nesting (not needed so much if you\u2019re full-on BEM), and file includes to break things up all help though. I\u2019m pretty much SASS by default now.<\/p>\n\n\n\n<p>But the tooling&#8230;THE TOOLING! Yes, it was good. But it came in many forms. And so many people had so many different setups. Again, if you work in one big team and do the same thing everywhere this isn\u2019t so bad. But working in multiple places and often inheriting projects from others made this hard work: what\u2019s the darned build command on THIS project then?!?!? The README.txt became king.<\/p>\n\n\n\n<p>npm, grunt, gulp, webpack, PostCSS, and so on have not helped in this regard. Yes, tool chains have got way more powerful than they were, but they are also way more complicated!!<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">And so we come full circle<\/h2>\n\n\n\n<p>So it came to pass that one day I inherited a project that used \u201cTachyons\u201d. <\/p>\n\n\n\n<p>And so I\u2019m looking at markup with things like <code>class=\"f4 mt3 bt bw1 b\u2014gray br2\"<\/code> and I\u2019m thinking: WHAT?!?!<\/p>\n\n\n\n<p>This, it turns out, was my first exposure to \u201cfunctional\u201d or \u201c    utility\u201d CSS. This is basically writing styles in the markup, but disguised as CSS classes. Which is, you know, the thing everyone rallied hard against 6 or 7 years ago.<\/p>\n\n\n\n<p>BUT&#8230;whereas everyone can understand <code>style=\"font-size: 1.5rem; margin-top: 1.25rem;\"<\/code> etc, Tachyons has its own language that only Tachyons people understand. All, presumably, in the name of saving bytes (a measure which, at this scale, is probably irrelevant).<\/p>\n\n\n\n<p>And also&#8230;reading and understanding markup with Tachyons classes in it is horrendous. Just what is this thing? Yes, it\u2019s a large, blue, margin-topped, bottom-bordered THING with white text. But, like, WHAT IS IT?<\/p>\n\n\n\n<p>HTML5 elements can help identify things, of course, as can IDs or components, if that\u2019s your thing. But&#8230;just&#8230;.gah!!!<\/p>\n\n\n\n<p>Yes, I get that you can define your colours and type scales and so on, but I, personally, didn&#8217;t like Tachyons (can you tell?) and it left me along with the project I inherited that used it.<\/p>\n\n\n\n<p><em>Aside: I&#8217;m being somewhat extreme for dramatic effect here. If you use Tachyons and love it then that&#8217;s awesome. If you made Tachyons &#8211; great job, thank you! I, personally didn&#8217;t get on with it at all though and these were my genuine reactions on seeing it.<\/em><\/p>\n\n\n\n<p>Then Tailwind came on my radar. Tailwind is like Tachyons but seems to be to be substantially more friendly. Mostly its nicer because the class names aren\u2019t all abbreviated beyond readability.<\/p>\n\n\n\n<p>Some people in my industry are raving about it. And I\u2019ve not tried it yet. And one reason is that I\u2019m put off by the very first example in the docs:<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"686\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender-1024x686.jpg\" alt=\"screenshot of TailWind docs showing complicated markup.\" class=\"wp-image-4497\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender-1024x686.jpg 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender-300x201.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender-768x514.jpg 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender-945x633.jpg 945w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender-600x402.jpg 600w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender.jpg 1519w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>I do NOT want my code to look like that. I don\u2019t mean with a picture of <a href=\"https:\/\/adamwathan.me\/\">Adam Wathan<\/a> above it, of course (He&#8217;s great and has made <a href=\"https:\/\/refactoringui.com\/book\">some<\/a> <a href=\"https:\/\/course.testdrivenlaravel.com\/\">awesome<\/a> <a href=\"http:\/\/www.fullstackradio.com\/\">stuff<\/a>, by the way!). But this is the exact opposite end of the scale of all the things that were wrong with semantic classes.<\/p>\n\n\n\n<p>With semantic classes I could see what all the things were, but not how they were styled. With both Tachyons and Tailwind I can see all the styles, but not what the things are!<\/p>\n\n\n\n<p>Beyond the first example you find that collecting styles into components with helpful names is encouraged in Tailwind. And this seems like we\u2019re almost in my CSS heaven: I can write <code>&lt;a href=\"button-link\"&gt;<\/code> and have my semantic class or component that says what the thing is but then also easily tweak it for the context it\u2019s in. Yippee!!!<\/p>\n\n\n\n<p>OK, so there\u2019s still some unhelpful abbreviation there, but it\u2019s not that bad once you\u2019ve been introduced to the basics.<\/p>\n\n\n\n<p>Tailwind is \u201cutility first\u201d. You START by writing with just utilities and extract re-usable components where needed.  And in my head I get that creating things with it should be quick, but I\u2019ve seen videos of people working with it and it\u2019s often painful:<\/p>\n\n\n\n<ul><li>I want to increase this font size a little\n<\/li><li>So I\u2019ll inspect it in dev tools and tweak the size until it\u2019s what I want.\n<\/li><li>Then I take the size I want and look it up in my config file to find the class I need to make it that size\n<\/li><li>Then I\u2019ll add the class to my HTML\n<\/li><\/ul>\n\n\n\n<p>This isn\u2019t right! CSS and dev tools work beautifully together, and now we have a naming abstraction and a config layer and..ugh&#8230;it just seems like we\u2019ve made things harder.<\/p>\n\n\n\n<p>My other beef with Tailwind is tooling. It introduces PostCSS and JavaScript configuration and&#8230;well&#8230;I just don\u2019t want to have to get to grips with these things to write CSS.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">CSS with added awesome!<\/h2>\n\n\n\n<p>CSS itself has come a long way. We have variables baked in, and Flexbox in pretty much every browser I work with and Grid support growing quickly.  With a good naming convention you don&#8217;t need nesting so much.<\/p>\n\n\n\n<p>All we&#8217;re really lacking is includes. But arguably HTTP2 takes care of the problem of having lots of small regular CSS files, and caching and service workers probably help here too. There&#8217;s probably good arguments for lots of small CSS files loaded as and when you need them.<\/p>\n\n\n\n<p>So I think we will soon reach a point where the tooling isn\u2019t necessary. I see a day where I just write CSS.<\/p>\n\n\n\n<p>But I still need to organise it on large projects.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">CSS Heaven<\/h2>\n\n\n\n<p>Then, in a discussion about exactly these things: CSS, Tailwind and BEM, my Twitter friend Ben posts this (and I note that the whole conversation was interesting and read-worthy):<\/p>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">That\u2019s it. I\u2019m calling it BEU &#8211; block, element, utility!<\/p>&mdash; Ben Furfie (@frontendben) <a href=\"https:\/\/twitter.com\/frontendben\/status\/1085280423805100032?ref_src=twsrc%5Etfw\">January 15, 2019<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>And my mind blows.<\/p>\n\n\n\n<p>This is it!<\/p>\n\n\n\n<p>No one has explicitly defined it before, but this is it! This is what I want! Semantically-named, re-usable components with utility modifiers!!<\/p>\n\n\n\n<p>And with modern day CSS variables we can probably do this, can\u2019t we? <\/p>\n\n\n\n<ul><li>Relatively flat CSS&#8230;\n<\/li><li>&#8230;with built in variables&#8230;\n<\/li><li>&#8230;that needs no toolchain to build.\n<\/li><li>We have re-usable components that let us state what our markup IS, not just what it looks like&#8230;\n<\/li><li>&#8230;but we have utility modifiers in the form of classes we can add sparingly to make adjustments to components to make them fit their context&#8230;\n<\/li><li>&#8230;but without cluttering up our markup with ALL the styles.\n<\/li><\/ul>\n\n\n\n<p>Ben calls this \u201cBEU: Block, element, utility\u201d, which is nice.<\/p>\n\n\n\n<p>But I call it \u201cSUCSS: Sematics + Utility CSS\u201d, not to spite Ben. Just because it\u2019s funnier.<\/p>\n\n\n\n<p>As I said at the start, I&#8217;m no expert. So help me , CSS gurus. Please tell me why this is wrong. Which bit of component + utility + vanilla CSS is bad here? What wouldn&#8217;t work with this approach?<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Everyone is writing about CSS, and I work with CSS, so I guess I should write about CSS too. Here&#8217;s the new idea: SUCSS!<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        286,
+        59,
+        732,
+        733
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>My new CSS framework: SUCSS! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"My new CSS framework: SUCSS! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Everyone is writing about CSS, and I work with CSS, so I guess I should write about CSS too. Here&#039;s the new idea: SUCSS!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-01-16T22:08:22+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-01-16T22:08:24+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender-1024x686.jpg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"9 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/\",\"name\":\"My new CSS framework: SUCSS! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-01-16T22:08:22+00:00\",\"dateModified\":\"2019-01-16T22:08:24+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"My new CSS framework: SUCSS!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "My new CSS framework: SUCSS! - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "My new CSS framework: SUCSS! - Ross Wintle",
+        "og_description": "Everyone is writing about CSS, and I work with CSS, so I guess I should write about CSS too. Here's the new idea: SUCSS!",
+        "og_url": "https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2019-01-16T22:08:22+00:00",
+        "article_modified_time": "2019-01-16T22:08:24+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/FullSizeRender-1024x686.jpg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "9 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/",
+                    "url": "https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/",
+                    "name": "My new CSS framework: SUCSS! - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2019-01-16T22:08:22+00:00",
+                    "dateModified": "2019-01-16T22:08:24+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "My new CSS framework: SUCSS!"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4495"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4495"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4495\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 4498,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4495\/revisions\/4498"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4495"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4495"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4495"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

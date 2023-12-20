@@ -1,0 +1,225 @@
+{
+    "id": 3583,
+    "date": "2018-06-14T14:08:04",
+    "date_gmt": "2018-06-14T13:08:04",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=3583"
+    },
+    "modified": "2018-06-14T14:08:06",
+    "modified_gmt": "2018-06-14T13:08:06",
+    "slug": "adding-a-delete-link-to-a-vue-component-representing-a-laravel-model",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/",
+    "title": {
+        "rendered": "Adding a &#8220;delete&#8221; link to a Vue component representing a Laravel model"
+    },
+    "content": {
+        "rendered": "\n<p>This very much falls into the category of &#8220;things that must surely be easier&#8221;. So let me know in the comments if it is actually easier.<\/p>\n\n\n\n<p>Here&#8217;s the thing, I&#8217;m tinkering with Vue and Laravel. I have a Vue component that represents a Laravel model object. I note that the component has a hierarchy of parent components.<\/p>\n\n\n\n<p>In it&#8217;s simplest form it looks like this:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">&lt;template><br\/>  &lt;div class=\"thing\"><br\/>    {{ thingData.title }}<br\/>  &lt;\/div><br\/>&lt;\/template><br\/>&lt;script><br\/>  export default {<br\/>    props: [<br\/>      'thingData'<br\/>    ]<br\/>  }<br\/>&lt;\/script><\/pre>\n\n\n\n<p>Now, I want to add a delete button that will fire a request off to Laravel to delete the model and the redirect back to the model index.<\/p>\n\n\n\n<p>Maybe it looks something like this:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">&lt;template><br\/>  &lt;div class=\"thing\"><br\/>    {{ thingData.title }} ( &lt;a href=\"...\">Delete&lt;\/a> )<br\/>  &lt;\/div><br\/>&lt;\/template><br\/>&lt;script><br\/>  export default {<br\/>    props: [<br\/>      'thingData'<br\/>    ]<br\/>  }<br\/>&lt;\/script> <br\/><\/pre>\n\n\n\n<p>And we need to work out what the HREF should be.<\/p>\n\n\n\n<p>I COULD create a &#8220;GET&#8221; route for this. But let&#8217;s try and keep it RESTful\/resourceful.<\/p>\n\n\n\n<p>A delete request should really use the DELETE HTTP method.<\/p>\n\n\n\n<p>So we need to add a little hidden form to make this work and submit that on click:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">&lt;template><br\/>  &lt;div class=\"thing\"><br\/>    {{ thingData.title }} ( &lt;a href=\"...\">Delete&lt;\/a> )<br\/>    &lt;form style=\"display: none;\" :action=\"deleteUrl\" method=\"delete\"><br\/>    &lt;\/form><br\/>  &lt;\/div><br\/>&lt;\/template><br\/>&lt;script><br\/>  export default {<br\/>    props: [<br\/>      'thingData'<br\/>    ]<br\/>  }<br\/>&lt;\/script> <br\/><\/pre>\n\n\n\n<p>OK. Getting there. Now I need to get the <code>deleteUrl<\/code>\u00a0into the action property of the form. But this is a Vue component, not something in Blade that I can use Laravel methods in; I can&#8217;t do something like <code>{{ action('SomeController@destroy') }}<\/code><\/p>\n\n\n\n<p>I confess, at this point, I took a bit of a shortcut and just coded this as a computed property with a hard-coded base URL and making use of the thing&#8217;s ID:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">&lt;template><br\/>  &lt;div class=\"thing\"><br\/>    {{ thingData.title }} ( &lt;a href=\"...\">Delete&lt;\/a> )<br\/>    &lt;form style=\"display: none;\" :action=\"deleteUrl\" method=\"delete\"><br\/>    &lt;\/form><br\/>  &lt;\/div><br\/>&lt;\/template><br\/>&lt;script><br\/>  export default {<br\/>    props: [<br\/>      'thingData'<br\/>    ],<br\/>    computed: {<br\/>      deleteUrl: function () {<br\/>        return '\/admin\/things\/' <strong>+ <\/strong>this.thingData.id;<br\/>      }<br\/>    }<br\/>  }<br\/>&lt;\/script> <br\/><\/pre>\n\n\n\n<p>Hmm. This is not simple is it?<\/p>\n\n\n\n<p>Now we need to trigger the form submission when the delete link is clicked. To do that we need to identify the components form element and submit it.<\/p>\n\n\n\n<p>Let&#8217;s start with adding a method and calling that method on click:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">&lt;template><br\/>  &lt;div class=\"thing\"><br\/>    {{ thingData.title }} ( &lt;a href=\"...\" @click=\"deleteThing\">Delete&lt;\/a> )<br\/>    &lt;form style=\"display: none;\" :action=\"deleteUrl\" method=\"delete\"><br\/>    &lt;\/form><br\/>  &lt;\/div><br\/>&lt;\/template><br\/>&lt;script><br\/>  export default {<br\/>    props: [<br\/>      'thingData'<br\/>    ],<br\/>    computed: {<br\/>      deleteUrl: function () {<br\/>        return '\/admin\/things\/' <strong>+ <\/strong>this.thingData.id;<br\/>      }<br\/>    },<br\/>    methods: {<br\/>      deleteThing: function( ev ) {<br\/>        ev.preventDefault();<br\/>        \/\/ What now?<br\/>      }<br\/>    }<br\/>  }<br\/>&lt;\/script> <br\/><\/pre>\n\n\n\n<p>So&#8230;how do we track down the form element we need to submit? A bit of Googling shows that I can use\u00a0<code>this.$el<\/code>\u00a0in JavaScript to get my component, and I can <code>getElementsByTagName('form')<\/code>\u00a0from there. So here&#8217;s the method:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">methods<strong>: <\/strong>{<br\/>  deleteThing<strong>: <\/strong>function ( event ) {<br\/>    event.preventDefault();<br\/>    this.$el.getElementsByTagName('form')[0].submit();<br\/>  }<br\/>}<\/pre>\n\n\n\n<p>Now this will fail because we don&#8217;t have a CSRF token. Yes, Laravel kindly adds this as a header to all AJAX requests made using Axios. But with a straight form submission I&#8217;ll need to add the token.\u00a0 This is easy in Blade, you just add <code>@csrf<\/code>\u00a0and go and make yourself a celebratory cup of coffee.<\/p>\n\n\n\n<p>But in a component?<\/p>\n\n\n\n<p>Well, I can&#8217;t find any Laravel cleverness that somehow automatically gives you some kind of global token in Vue that you can use in any component.<\/p>\n\n\n\n<p>So I COULD pass it down through my component hierarchy as props, but that seems messy.<\/p>\n\n\n\n<p>A better way would be to have it as some kind of global state\/prop that I can use.<\/p>\n\n\n\n<p>One method for doing this is to add an <a href=\"https:\/\/vuejs.org\/v2\/cookbook\/adding-instance-properties.html\">Instance Property<\/a>.<\/p>\n\n\n\n<p>Laravel DOES give you a head start in having an HTML meta element in the <code>&lt;head><\/code> that has the CSRF token in it. So that&#8217;s helpful.<\/p>\n\n\n\n<p>We can the set a Vue instance property in our top-level app.js like so:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">\/\/ Add the token<br\/>Vue.prototype.$token <strong>= <\/strong>document.head.querySelector('meta[name=\"csrf-token\"]').content;<br\/><\/pre>\n\n\n\n<p>I could not then find a way to directly reference this in my components template. So I had to pull it into the components <code>data<\/code>\u00a0and then bind that to a new hidden input in the form:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">&lt;template><br\/>  &lt;div class=\"thing\"><br\/>    {{ thingData.title }} ( &lt;a href=\"...\" @click=\"deleteThing\">Delete&lt;\/a> )<br\/>    &lt;form style=\"display: none;\" :action=\"deleteUrl\" method=\"delete\"><br\/>      &lt;input type=\"hidden\" name=\"_token\" :value=\"token\"><br\/>    &lt;\/form><br\/>  &lt;\/div><br\/>&lt;\/template><br\/>&lt;script><br\/>  export default {<br\/>    props: [<br\/>      'thingData'<br\/>    ],<br\/>    data: function () {<br\/>      return {<br\/>        token: this.$token<br\/>      }<br\/>    },<br\/>    computed: {<br\/>      deleteUrl: function () {<br\/>        return '\/admin\/things\/' <strong>+ <\/strong>this.thingData.id;<br\/>      }<br\/>    },<br\/>    methods: {<br\/>      deleteThing: function( ev ) {<br\/>        ev.preventDefault();<br\/>        this.$el.getElementsByTagName('form')[0].submit();<br\/>      }<br\/>    }<br\/>  }<br\/>&lt;\/script> <br\/><\/pre>\n\n\n\n<p>Oh, and, hang on, one final thing&#8230;<\/p>\n\n\n\n<p><code>method=\"delete\"<\/code>\u00a0on a <code>form<\/code> rarely works, so you need to fake it with a <code>post<\/code>\u00a0request and another input.<\/p>\n\n\n\n<p>Here&#8217;s the final code:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">&lt;template><br\/>  &lt;div class=\"thing\"><br\/>    {{ thingData.title }} ( &lt;a href=\"...\" @click=\"deleteThing\">Delete&lt;\/a> )<br\/>    &lt;form style=\"display: none;\" :action=\"deleteUrl\" method=\"post\"><br\/>      &lt;input type=\"hidden\" name=\"_token\" :value=\"token\"><br\/>      &lt;input type=\"hidden\" name=\"_method\" value=\"DELETE\"><br\/>    &lt;\/form><br\/>  &lt;\/div><br\/>&lt;\/template><br\/>&lt;script><br\/>  export default {<br\/>    props: [<br\/>      'thingData'<br\/>    ],<br\/>    data: function () {<br\/>      return {<br\/>        token: this.$token<br\/>      }<br\/>    },<br\/>    computed: {<br\/>      deleteUrl: function () {<br\/>        return '\/admin\/things\/' <strong>+ <\/strong>this.thingData.id;<br\/>      }<br\/>    },<br\/>    methods: {<br\/>      deleteThing: function( ev ) {<br\/>        ev.preventDefault();<br\/>        this.$el.getElementsByTagName('form')[0].submit();<br\/>      }<br\/>    }<br\/>  }<br\/>&lt;\/script> <br\/><\/pre>\n\n\n\n<p>Phew!<\/p>\n\n\n\n<p>Really&#8230;what did I miss here? This is SO complicated. There HAS to be a better way.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>This very much falls into the category of &#8220;things that must surely be easier&#8221;. So let me know in the comments if it is actually easier. Here&#8217;s the thing, I&#8217;m tinkering with Vue and Laravel. I have a Vue component that represents a Laravel model object. I note that the component has a hierarchy of [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Adding a &quot;delete&quot; link to a Vue component representing a Laravel model - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Adding a &quot;delete&quot; link to a Vue component representing a Laravel model - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This very much falls into the category of &#8220;things that must surely be easier&#8221;. So let me know in the comments if it is actually easier. Here&#8217;s the thing, I&#8217;m tinkering with Vue and Laravel. I have a Vue component that represents a Laravel model object. I note that the component has a hierarchy of [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-06-14T13:08:04+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-06-14T13:08:06+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/\",\"name\":\"Adding a \\\"delete\\\" link to a Vue component representing a Laravel model - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-06-14T13:08:04+00:00\",\"dateModified\":\"2018-06-14T13:08:06+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Adding a &#8220;delete&#8221; link to a Vue component representing a Laravel model\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Adding a \"delete\" link to a Vue component representing a Laravel model - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Adding a \"delete\" link to a Vue component representing a Laravel model - Ross Wintle",
+        "og_description": "This very much falls into the category of &#8220;things that must surely be easier&#8221;. So let me know in the comments if it is actually easier. Here&#8217;s the thing, I&#8217;m tinkering with Vue and Laravel. I have a Vue component that represents a Laravel model object. I note that the component has a hierarchy of [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2018-06-14T13:08:04+00:00",
+        "article_modified_time": "2018-06-14T13:08:06+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "5 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/",
+                    "url": "https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/",
+                    "name": "Adding a \"delete\" link to a Vue component representing a Laravel model - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2018-06-14T13:08:04+00:00",
+                    "dateModified": "2018-06-14T13:08:06+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Adding a &#8220;delete&#8221; link to a Vue component representing a Laravel model"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3583"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=3583"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 134,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3583\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 3722,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3583\/revisions\/3722"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=3583"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=3583"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=3583"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

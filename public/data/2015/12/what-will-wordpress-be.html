@@ -1,0 +1,40 @@
+<body><header><h1 data-pagefind-meta="title">What will WordPress be?</h1></header><main><h2>Change is upon us!</h2>
+<p>If you work with WordPress, that is.</p>
+<p>I won&#8217;t go into details on the <a href="http://wptavern.com/the-first-half-of-the-rest-api-is-officially-added-to-wordpress-core">WordPress REST API that&#8217;s going to be a part of the software soon</a>, or of &#8220;<a href="http://wptavern.com/automattic-unveils-open-source-wordpress-desktop-application-for-the-mac">Calypso</a>&#8221; which is a new tool for edit content and managing WordPress sites (both wordpress.com and self-hosted wordpress.org) that uses an API (or two) to communicate with WordPress.</p>
+<p>But these things are coming&#8230;or are already here&#8230;and they will change what WordPress is.</p>
+<p>I&#8217;ve been thinking about this for a while. The idea of having a WordPress REST API seems really good on the surface. It will let developers do some amazing things. But here&#8217;s the problem: <em>it will let developers do amazing things!</em></p>
+<p>If developers can build cool things they will. They will build amazing new themes based on JS frameworks. And they will build new dashboards and editing interfaces.</p>
+<p>Is this good? Well, who knows? We can only guess and speculate at this point.</p>
+<p>I predict short term pain and confusion as lots of new things bolt on to the WordPress API. There will be fragmentation and experimentation as new user interfaces for WordPress appear. Users will be confused about what WordPress is. And after a while this will probably settle down and the good things will mature. But I think there may still be confusion. And people may have lost faith in the mean time.</p>
+<h2>Ssssh&#8230;don&#8217;t tell anyone but&#8230;</h2>
+<p>Now&#8230;here&#8217;s the thing. And I kinda need to whisper this because it may be quite controversial:</p>
+<p><em><span style="color: #999999;">WordPress doesn&#8217;t have a great data model for general purpose app development!</span></em></p>
+<p>Some people try to build really complex web applications using WordPress &#8211; yes, I have too! &#8211; and it&#8217;s hard and inefficient because of the limitations of the data model.</p>
+<p>So if you&#8217;re going to build a new JavaScript-based user interface that communicates with a back-end using a REST API then, well, it doesn&#8217;t matter what the back-end is. You can write your own. And it could well be better suited to a web-application&#8217;s needs than WordPress is.</p>
+<p>Many people are asking &#8220;What can we build on top of WordPress now that it has an API?&#8221; but an alternative question might be &#8220;If Calypso is a good user experience, what can we build to go behind Calypso?&#8221;</p>
+<p>There&#8217;s another way of looking at this too. I&#8217;m going to call it:</p>
+<h2>Throwing the baby out with the bathwater</h2>
+<p>Here are some of the things I really like about WordPress:</p>
+<ul>
+<li>It&#8217;s actually a really well thought out blogging tool and simple CMS that has evolved over time</li>
+<li>It has (relatively) great built-in media management</li>
+<li>LOTS of people already know how to use it and are familiar with the UI</li>
+<li>It has loads of plugins that you can use to extend its functionality, many of which extend the UI</li>
+<li>It&#8217;s really easy to install and update &#8211; automatic security updates are great!</li>
+<li>It&#8217;s templating system isn&#8217;t great, but its easy to get to grips with which makes simple development work easy, and it&#8217;s a low barrier-of-entry for new developers.</li>
+</ul>
+<p>Here are some of the things that I don&#8217;t like about WordPress:</p>
+<ul>
+<li>It has a limited data model with no relationships between object types (taxonomies are not general purpose objects!) and no real ORM</li>
+<li>It&#8217;s well coded and easy to understand, but it doesn&#8217;t use modern &#8211; well quite well-established now! &#8211; patterns for development</li>
+<li>The PHP code is well documented. But the JavaScript code and libraries is/are really hard to learn how to use.</li>
+</ul>
+<p>It seems to me that building a new user interface using the REST API will embrace those things that I dislike while throwing away a lot of the things that I like. If you&#8217;re not going to use the Dashboard, then why accept the limitations of the data model?</p>
+<p>If I&#8217;m going to build a complex web app, I&#8217;m not going to use WordPress as a back-end because its data model is not good enough. It&#8217;s a data model designed for blogs and low-to-moderately complex websites.</p>
+<p>If I&#8217;m going to build a blog or low-to-moderately complex website then WordPress is ideal precisely because of the user interface. It&#8217;s a user interface designed for blogs and low-to-moderately complex websites.</p>
+<p>It seems to me that it&#8217;s the combination of these two things that makes WordPress what it is: the de-facto website content management system that powers more than 25% of the web. And that separating them could actually be a disaster.</p>
+<p>Even one of the WordPress REST API&#8217;s developers seems to agree:</p>
+<p>https://twitter.com/danielbachhuber/status/672207252019945472</p>
+<p>So the future for WordPress seems uncertain to me. In some ways I hope that all the UI experimentation comes to nothing and the API is just used to enhance the existing WordPress dashboard (AJAX-based post filtering and pagination PLEASE!!!). It seems to me that the Dashboard is one of WordPress&#8217;s best assets. Throw it out and it&#8217;s not WordPress anymore. Throw it out, and you may as well use something else altogether.</p>
+<p>This, for me, is the identity crisis that WordPress will have in the months and years to come.</p>
+</main></body>

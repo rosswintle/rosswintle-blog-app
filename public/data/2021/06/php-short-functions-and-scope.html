@@ -1,0 +1,201 @@
+<body><header><h1 data-pagefind-meta="title">PHP Short Functions and Scope</h1></header><main>
+<p>Yesterday I took an interest in PHP internals looking into <a href="https://twitter.com/enunomaduro">@enunomaduro</a>&#8216;s RFC for <a href="https://wiki.php.net/rfc/auto-capture-closure">Auto-capturing multi-statement closures</a>.</p>
+
+
+
+<p>(Have I said before that I loved studying compilers in CS?)</p>
+
+
+
+<p>This lead me down some interesting rabbit holes and I wanted to make some notes on what I found.</p>
+
+
+
+<h2 class="wp-block-heading">Short vs Long closures</h2>
+
+
+
+<p>There are a two forms of &#8220;closure&#8221; in PHP.</p>
+
+
+
+<p>Long closures have the form:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+$a = &#x5B;1, 2, 3];
+
+$addToArray = function ($item) use ($a) {
+  array_push($a, $item);
+  var_dump($a); // outputs 1, 2, 3, 4
+};
+
+$addToArray(4);
+</pre></div>
+
+
+<p>Short closures have the form:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+$a = &#x5B;1, 2, 3];
+
+$addToArray = fn($item) =&gt; var_dump(array_merge($a, &#x5B;$item])); // outputs 1,2,3,4
+
+$addToArray(4);
+</pre></div>
+
+
+<p>Note that short closures (aka &#8220;arrow functions&#8221;):</p>
+
+
+
+<ul><li>use <code>fn()</code> instead of <code>function()</code></li><li>&#8220;auto-capture&#8221; the enclosing scope: you don&#8217;t need to include the <code>use()</code></li><li>can only execute a single <em>expression</em>, and this is what is returned from the closure (which I why I had to wrangle the <code>array_merge</code> into there)</li></ul>
+
+
+
+<p>The proposed RFC (which seems to make a lot of sense to me) would allows a multi-line, auto-capturing closure with the syntax:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+$a = &#x5B;1, 2, 3];
+
+$addToArray = fn ($item) {
+  array_push($a, $item);
+  var_dump($a); // outputs 1, 2, 3, 4
+};
+
+$addToArray(4);
+</pre></div>
+
+
+<h2 class="wp-block-heading">All the different functions and their conventions</h2>
+
+
+
+<p>There are three different things going on in the different kinds of function definition:</p>
+
+
+
+<ol><li><strong>Anonymous vs named functions</strong></li></ol>
+
+
+
+<p>A named function has a name and must be declared before use:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+function addToArray() { ... }
+
+addToArray(...);
+</pre></div>
+
+
+<p>Whereas an anonymous function has no name. This means that it can be assigned to a variable, as I have done above:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+$addToArray = function ($item) use ($a) { ... };
+
+$addToArray(...);
+</pre></div>
+
+
+<p>or it can be used &#8220;inline&#8221;</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+array_map( function ($item) use($var) { ... }, $someArray );
+</pre></div>
+
+
+<p><strong>2. Auto-capturing vs non-auto-capturing</strong></p>
+
+
+
+<p>The short <code>fn()</code> syntax is &#8220;auto-capturing&#8221;. This means you don&#8217;t need to use <code>use()</code> to import variables from the outer scope.</p>
+
+
+
+<p>The longer <code>function()</code> syntax is not &#8220;auto-capturing&#8221;. You need to manually import variables from the outer scope using <code>use()</code></p>
+
+
+
+<p><strong>3. Statement vs expression</strong></p>
+
+
+
+<p>The statement version is the &#8220;multi-line&#8221; version of a function definition. You use the curly braces to define the statement that the function executes. This may or may not return a value.</p>
+
+
+
+<p>The expression is the shorter &#8220;single-line&#8221; version (though the single expression may actually span multiple lines) and always returns the value of the expression.</p>
+
+
+
+<p>These three syntax forms allow up to eight different types of function:</p>
+
+
+
+<ul><li>Anonymous, auto-capturing statement (which Nuno is proposing)</li><li>Anonymous, non-auto-capturing, statement (which exists)</li><li>Names, non-auto-capturing, statement (which most people would consider a &#8216;regular&#8217; PHP function)</li><li>etc.</li></ul>
+
+
+
+<p>This is all described in the <a href="https://wiki.php.net/rfc/auto-capture-closure#background">&#8220;Background&#8221; section of the RFC</a> along with reasons why some of them may/should never exist.</p>
+
+
+
+<p>Understanding the conventions of <code>fn()</code> vs <code>function()</code>, and  expression vs statement is really helpful in understanding PHP code and what type of function to write when.</p>
+
+
+
+<h2 class="wp-block-heading">ONE MORE THING: Scope!</h2>
+
+
+
+<p>BUT&#8230; the biggest thing that I learned about PHP closures &#8211; that is all anonymous functions regardless of auto- or non-auto-capturing &#8211; is that the imported variables from the outer scope are imported as VALUES, not REFERENCES&#8230; That is, if you change the value inside the function, the outer scope is not affected:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+$a = 2;
+$fn = function() use ($a) {
+  $a = $a + 1;
+}
+var_dump($a); // outputs 2
+$fn();
+var_dump($a); // outputs 2
+</pre></div>
+
+
+<p>You can see that at work in <a href="https://web.tinkerwell.app/#/snippets/dd4c777d-233e-4ac3-841e-995484137fe0">this live snippet</a>.</p>
+
+
+
+<p>AND!!… the function captures that value at the time the function is declared not the time the function is called:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+$a = 2;
+$fn = function() use ($a) {
+  var_dump($a); // outputs 2
+};
+$a++;
+var_dump($a); // outputs 3
+$fn();
+</pre></div>
+
+
+<p>You can see that at work in <a href="https://web.tinkerwell.app/#/snippets/a907d9ee-fb50-48fb-9d29-4e94f3fc6b15">this live snippet</a>.</p>
+
+
+
+<p>This is all VERY different to how closures work in JavaScript and definitely worth knowing if, like me, you&#8217;ve done functional-style programming in JS and want to switch to a similar style in PHP.</p>
+
+
+
+<p>So&#8230; I learned a lot diving into this little RFC. It was fun! I hope you learned something too.</p>
+
+
+
+<p>Useful reference: <a href="https://stitcher.io/blog/short-closures-in-php">Short Closures in PHP on the Stitcher blog</a>.</p>
+</main></body>

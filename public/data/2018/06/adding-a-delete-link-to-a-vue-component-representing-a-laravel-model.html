@@ -1,0 +1,151 @@
+<body><header><h1 data-pagefind-meta="title">Adding a &#8220;delete&#8221; link to a Vue component representing a Laravel model</h1></header><main>
+<p>This very much falls into the category of &#8220;things that must surely be easier&#8221;. So let me know in the comments if it is actually easier.</p>
+
+
+
+<p>Here&#8217;s the thing, I&#8217;m tinkering with Vue and Laravel. I have a Vue component that represents a Laravel model object. I note that the component has a hierarchy of parent components.</p>
+
+
+
+<p>In it&#8217;s simplest form it looks like this:</p>
+
+
+
+<pre class="wp-block-preformatted">&lt;template><br/>  &lt;div class="thing"><br/>    {{ thingData.title }}<br/>  &lt;/div><br/>&lt;/template><br/>&lt;script><br/>  export default {<br/>    props: [<br/>      'thingData'<br/>    ]<br/>  }<br/>&lt;/script></pre>
+
+
+
+<p>Now, I want to add a delete button that will fire a request off to Laravel to delete the model and the redirect back to the model index.</p>
+
+
+
+<p>Maybe it looks something like this:</p>
+
+
+
+<pre class="wp-block-preformatted">&lt;template><br/>  &lt;div class="thing"><br/>    {{ thingData.title }} ( &lt;a href="...">Delete&lt;/a> )<br/>  &lt;/div><br/>&lt;/template><br/>&lt;script><br/>  export default {<br/>    props: [<br/>      'thingData'<br/>    ]<br/>  }<br/>&lt;/script> <br/></pre>
+
+
+
+<p>And we need to work out what the HREF should be.</p>
+
+
+
+<p>I COULD create a &#8220;GET&#8221; route for this. But let&#8217;s try and keep it RESTful/resourceful.</p>
+
+
+
+<p>A delete request should really use the DELETE HTTP method.</p>
+
+
+
+<p>So we need to add a little hidden form to make this work and submit that on click:</p>
+
+
+
+<pre class="wp-block-preformatted">&lt;template><br/>  &lt;div class="thing"><br/>    {{ thingData.title }} ( &lt;a href="...">Delete&lt;/a> )<br/>    &lt;form style="display: none;" :action="deleteUrl" method="delete"><br/>    &lt;/form><br/>  &lt;/div><br/>&lt;/template><br/>&lt;script><br/>  export default {<br/>    props: [<br/>      'thingData'<br/>    ]<br/>  }<br/>&lt;/script> <br/></pre>
+
+
+
+<p>OK. Getting there. Now I need to get the <code>deleteUrl</code> into the action property of the form. But this is a Vue component, not something in Blade that I can use Laravel methods in; I can&#8217;t do something like <code>{{ action('SomeController@destroy') }}</code></p>
+
+
+
+<p>I confess, at this point, I took a bit of a shortcut and just coded this as a computed property with a hard-coded base URL and making use of the thing&#8217;s ID:</p>
+
+
+
+<pre class="wp-block-preformatted">&lt;template><br/>  &lt;div class="thing"><br/>    {{ thingData.title }} ( &lt;a href="...">Delete&lt;/a> )<br/>    &lt;form style="display: none;" :action="deleteUrl" method="delete"><br/>    &lt;/form><br/>  &lt;/div><br/>&lt;/template><br/>&lt;script><br/>  export default {<br/>    props: [<br/>      'thingData'<br/>    ],<br/>    computed: {<br/>      deleteUrl: function () {<br/>        return '/admin/things/' <strong>+ </strong>this.thingData.id;<br/>      }<br/>    }<br/>  }<br/>&lt;/script> <br/></pre>
+
+
+
+<p>Hmm. This is not simple is it?</p>
+
+
+
+<p>Now we need to trigger the form submission when the delete link is clicked. To do that we need to identify the components form element and submit it.</p>
+
+
+
+<p>Let&#8217;s start with adding a method and calling that method on click:</p>
+
+
+
+<pre class="wp-block-preformatted">&lt;template><br/>  &lt;div class="thing"><br/>    {{ thingData.title }} ( &lt;a href="..." @click="deleteThing">Delete&lt;/a> )<br/>    &lt;form style="display: none;" :action="deleteUrl" method="delete"><br/>    &lt;/form><br/>  &lt;/div><br/>&lt;/template><br/>&lt;script><br/>  export default {<br/>    props: [<br/>      'thingData'<br/>    ],<br/>    computed: {<br/>      deleteUrl: function () {<br/>        return '/admin/things/' <strong>+ </strong>this.thingData.id;<br/>      }<br/>    },<br/>    methods: {<br/>      deleteThing: function( ev ) {<br/>        ev.preventDefault();<br/>        // What now?<br/>      }<br/>    }<br/>  }<br/>&lt;/script> <br/></pre>
+
+
+
+<p>So&#8230;how do we track down the form element we need to submit? A bit of Googling shows that I can use <code>this.$el</code> in JavaScript to get my component, and I can <code>getElementsByTagName('form')</code> from there. So here&#8217;s the method:</p>
+
+
+
+<pre class="wp-block-preformatted">methods<strong>: </strong>{<br/>  deleteThing<strong>: </strong>function ( event ) {<br/>    event.preventDefault();<br/>    this.$el.getElementsByTagName('form')[0].submit();<br/>  }<br/>}</pre>
+
+
+
+<p>Now this will fail because we don&#8217;t have a CSRF token. Yes, Laravel kindly adds this as a header to all AJAX requests made using Axios. But with a straight form submission I&#8217;ll need to add the token.  This is easy in Blade, you just add <code>@csrf</code> and go and make yourself a celebratory cup of coffee.</p>
+
+
+
+<p>But in a component?</p>
+
+
+
+<p>Well, I can&#8217;t find any Laravel cleverness that somehow automatically gives you some kind of global token in Vue that you can use in any component.</p>
+
+
+
+<p>So I COULD pass it down through my component hierarchy as props, but that seems messy.</p>
+
+
+
+<p>A better way would be to have it as some kind of global state/prop that I can use.</p>
+
+
+
+<p>One method for doing this is to add an <a href="https://vuejs.org/v2/cookbook/adding-instance-properties.html">Instance Property</a>.</p>
+
+
+
+<p>Laravel DOES give you a head start in having an HTML meta element in the <code>&lt;head></code> that has the CSRF token in it. So that&#8217;s helpful.</p>
+
+
+
+<p>We can the set a Vue instance property in our top-level app.js like so:</p>
+
+
+
+<pre class="wp-block-preformatted">// Add the token<br/>Vue.prototype.$token <strong>= </strong>document.head.querySelector('meta[name="csrf-token"]').content;<br/></pre>
+
+
+
+<p>I could not then find a way to directly reference this in my components template. So I had to pull it into the components <code>data</code> and then bind that to a new hidden input in the form:</p>
+
+
+
+<pre class="wp-block-preformatted">&lt;template><br/>  &lt;div class="thing"><br/>    {{ thingData.title }} ( &lt;a href="..." @click="deleteThing">Delete&lt;/a> )<br/>    &lt;form style="display: none;" :action="deleteUrl" method="delete"><br/>      &lt;input type="hidden" name="_token" :value="token"><br/>    &lt;/form><br/>  &lt;/div><br/>&lt;/template><br/>&lt;script><br/>  export default {<br/>    props: [<br/>      'thingData'<br/>    ],<br/>    data: function () {<br/>      return {<br/>        token: this.$token<br/>      }<br/>    },<br/>    computed: {<br/>      deleteUrl: function () {<br/>        return '/admin/things/' <strong>+ </strong>this.thingData.id;<br/>      }<br/>    },<br/>    methods: {<br/>      deleteThing: function( ev ) {<br/>        ev.preventDefault();<br/>        this.$el.getElementsByTagName('form')[0].submit();<br/>      }<br/>    }<br/>  }<br/>&lt;/script> <br/></pre>
+
+
+
+<p>Oh, and, hang on, one final thing&#8230;</p>
+
+
+
+<p><code>method="delete"</code> on a <code>form</code> rarely works, so you need to fake it with a <code>post</code> request and another input.</p>
+
+
+
+<p>Here&#8217;s the final code:</p>
+
+
+
+<pre class="wp-block-preformatted">&lt;template><br/>  &lt;div class="thing"><br/>    {{ thingData.title }} ( &lt;a href="..." @click="deleteThing">Delete&lt;/a> )<br/>    &lt;form style="display: none;" :action="deleteUrl" method="post"><br/>      &lt;input type="hidden" name="_token" :value="token"><br/>      &lt;input type="hidden" name="_method" value="DELETE"><br/>    &lt;/form><br/>  &lt;/div><br/>&lt;/template><br/>&lt;script><br/>  export default {<br/>    props: [<br/>      'thingData'<br/>    ],<br/>    data: function () {<br/>      return {<br/>        token: this.$token<br/>      }<br/>    },<br/>    computed: {<br/>      deleteUrl: function () {<br/>        return '/admin/things/' <strong>+ </strong>this.thingData.id;<br/>      }<br/>    },<br/>    methods: {<br/>      deleteThing: function( ev ) {<br/>        ev.preventDefault();<br/>        this.$el.getElementsByTagName('form')[0].submit();<br/>      }<br/>    }<br/>  }<br/>&lt;/script> <br/></pre>
+
+
+
+<p>Phew!</p>
+
+
+
+<p>Really&#8230;what did I miss here? This is SO complicated. There HAS to be a better way.</p>
+</main></body>

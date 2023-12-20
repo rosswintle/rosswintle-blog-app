@@ -1,0 +1,71 @@
+<body><header><h1 data-pagefind-meta="title">WordPress REST API with a Laravel Zero CLI and Tinkerwell</h1></header><main>
+<p>Today I decided to start work on a silly new thing.</p>
+
+
+
+<p>It will involve CLI commands, so I went for <a href="https://laravel-zero.com/">Laravel Zero</a>.</p>
+
+
+
+<p>I needed to use the WordPress REST API. I figured someone must have written a Laravel HTTP client wrapper for this and <a href="https://github.com/rickwest/laravel-wordpress-api">Rick West delivered for me</a> there!</p>
+
+
+
+<p>But then I wanted to get Tinkering. And I reach for <a href="https://tinkerwell.app/ref/Bzl4z9qvNO">Tinkerwell</a> (&lt;- referral link) for that.</p>
+
+
+
+<p>And that&#8217;s when the problems started. And I couldn&#8217;t find easy answers to any of these problems. So here they are:</p>
+
+
+
+<h2 class="wp-block-heading">&#8220;Target class [config] does not exist&#8221; error in Tinkerwell with Laravel Zero</h2>
+
+
+
+<p>I had this error appearing in Tinkerwell. I searched. I scoured. I even ChatGPT&#8217;d to no avail!</p>
+
+
+
+<p>Eventually I realised that Laravel Zero needs its own Tinkerwell driver. And fortunately <a href="https://gist.github.com/owenvoke/e3bf8c7394826c2541d450a5b12b2853">Owen Voke has provided that</a>!</p>
+
+
+
+<h2 class="wp-block-heading">&#8220;cURL error 60: SSL certificate problem: unable to get local issuer certificate&#8221;</h2>
+
+
+
+<p>Of course, I&#8217;m working locally. I&#8217;m trying to use the WordPress REST API served from a local site running on Laravel Valet. And even though I&#8217;ve gone through the Valet certificate trusting dance, <code>curl</code> needs a little extra help.</p>
+
+
+
+<p>My immediate thought was to reach for the <code>'verify' => false</code> option. But could I find out how to set this?</p>
+
+
+
+<p>Laravel provides <a href="https://laravel.com/docs/10.x/http-client#global-middleware">Global Request Middleware</a>, but this doesn&#8217;t let you set options. These can only be changed when creating an instance of the <code>Http</code> client.</p>
+
+
+
+<p>And Rick&#8217;s wonderful WordPress API wrapper doesn&#8217;t let you set options.</p>
+
+
+
+<p>SO&#8230; I hacked Http options into that and that works a treat.</p>
+
+
+
+<p>I will PR this and hope that Rick accepts it.</p>
+
+
+
+<p>In the meantime&#8230;</p>
+
+
+
+<p>Laravel Zero with Tinkerwell and the WordPress REST API package!</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="509" src="https://rosswintle.uk/wp-content/uploads/2023/12/CleanShot-2023-12-06-at-22.02.48-1024x509.png" alt="Screenshot of the Tinkerwell tinkering app showing the use of Rick West's WordPress REST API package, complete with an API response! Yay!" class="wp-image-254758" srcset="https://rosswintle.uk/wp-content/uploads/2023/12/CleanShot-2023-12-06-at-22.02.48-1024x509.png 1024w, https://rosswintle.uk/wp-content/uploads/2023/12/CleanShot-2023-12-06-at-22.02.48-300x149.png 300w, https://rosswintle.uk/wp-content/uploads/2023/12/CleanShot-2023-12-06-at-22.02.48-768x382.png 768w, https://rosswintle.uk/wp-content/uploads/2023/12/CleanShot-2023-12-06-at-22.02.48-1536x764.png 1536w, https://rosswintle.uk/wp-content/uploads/2023/12/CleanShot-2023-12-06-at-22.02.48.png 1906w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</main></body>

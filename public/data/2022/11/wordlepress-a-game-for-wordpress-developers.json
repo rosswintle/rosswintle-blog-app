@@ -1,0 +1,225 @@
+{
+    "id": 11450,
+    "date": "2022-11-27T11:00:27",
+    "date_gmt": "2022-11-27T11:00:27",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=11450"
+    },
+    "modified": "2022-11-27T11:09:19",
+    "modified_gmt": "2022-11-27T11:09:19",
+    "slug": "wordlepress-a-game-for-wordpress-developers",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/",
+    "title": {
+        "rendered": "WordlePress &#8211; a silly (and very difficult) game for WordPress developers"
+    },
+    "content": {
+        "rendered": "\n<p>Announcing (or re-announcing) <a href=\"https:\/\/wordlepress.netlify.app\/\">WordlePress<\/a>: a silly function-name guessing game for WordPress developers (and anyone else stupid enough to try).<\/p>\n\n\n\n<p><strong>This post serves as the help page\/instructions for WordlePress until I get some proper help up on the actual WordlePress site.<\/strong><\/p>\n\n\n\n<p>Earlier this year, the daily Wordle puzzle was all the rage. And early on I suggested that &#8220;WordlePress&#8221; should be a thing. So I made something that may fit the name. Here&#8217;s how it works:<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Background<\/h2>\n\n\n\n<p>WordPress core has over 900 global PHP functions with four underscore-separated &#8220;parts&#8221;, such as `wp_get_attachment_image`. This is a &#8220;function&#8221;, and each of the parts is a &#8220;word&#8221;.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Aim of the game<\/h2>\n\n\n\n<p>Each day (changing at midnight UTC) WordlePress selects a new 4-part function for you to guess. You need to guess all 4 &#8220;words&#8221; correctly to win.<\/p>\n\n\n\n<p>There is also the option to guess a randomly picked function name from the list to practice.<\/p>\n\n\n\n<p>When you win, or give up, the answer is shown and the documentation for the function is linked. So this is an educational tool too!<\/p>\n\n\n\n<p>The function list is from (I think) WordPress 5.9, released in January 2022. If it helps this is just after the first beta of the full-site editing feature was added to core.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">How to play<\/h2>\n\n\n\n<p>Enter your word guesses in the four input boxes and click &#8220;Guess&#8221;. The result boxes will tell you how many of them are correct:<\/p>\n\n\n\n<ul>\n<li>A green box means you got the right word in the right position<\/li>\n\n\n\n<li>An orange box means you got a word that is in the function, but it&#8217;s in the wrong position<\/li>\n<\/ul>\n\n\n\n<p>The aim is to get all four result boxes to green!<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Words and suggestions<\/h3>\n\n\n\n<p><a href=\"https:\/\/wordlepress.netlify.app\">The game<\/a> helps you by only allowing words from the list of functions to be entered. There are 695 valid words and the game shows you how many you have not guessed with.<\/p>\n\n\n\n<p>To further help you, there is a &#8220;Suggest&#8221; button. This will choose random words from the unused words list for you and put them in the input boxes. If you have correctly guessed a word this is kept in the correct place.<\/p>\n\n\n\n<p>You will notice that the input boxes sometimes have coloured highlights:<\/p>\n\n\n\n<ul>\n<li>Red: You tried this word before and it&#8217;s not in the function<\/li>\n\n\n\n<li>Orange: You tried this word before and it&#8217;s in the function, but you didn&#8217;t get the right place<\/li>\n\n\n\n<li>Green: You&#8217;ve found this word in the correct place<\/li>\n<\/ul>\n\n\n\n<p>The game saves your progress across reloads but does not keep any player stats yet.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Limitations\/roadmap<\/h2>\n\n\n\n<p>First of all, no, I&#8217;m not a designer. The game works but the UI needs improvement. I&#8217;m well aware of that. But it&#8217;s still perfectly playable for now.<\/p>\n\n\n\n<p>I&#8217;ve hacked this together fairly quickly (it&#8217;s not my finest code!) and some of the interaction is quite complex so I&#8217;m making not claims about the accessibility of this game.<\/p>\n\n\n\n<p>I&#8217;ve had a request to add a color-blind-friendly mode, and that will probably come soon.<\/p>\n\n\n\n<p>I&#8217;d love to add some player stats and an option to share your result to social media.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Technology<\/h2>\n\n\n\n<p>This game is built on a single HTML page (with some JS files loaded too) using vanilla CSS and a combination of vanilla JavaScript and <a href=\"https:\/\/www.alpinejs.dev\/\">AlpineJS<\/a>.<\/p>\n\n\n\n<p>It&#8217;s hosted on Netlify.<\/p>\n\n\n\n<p>It&#8217;s been hacked together quickly so is not my finest code and needs some refactoring!<\/p>\n\n\n\n<p>If you&#8217;re interested I previously <a href=\"https:\/\/rosswintle.uk\/2022\/03\/wordlepress-and-nerding-out-about-wordpress-function-names\/\">wrote some stuff about how I made this<\/a> with some &#8220;interesting&#8221; stats on WordPress function names.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Contact\/suggestions<\/h2>\n\n\n\n<p>If you have feedback or suggestions then please drop me a line &#8211; probably on social media. You can find all my details at <a href=\"https:\/\/rw.omg.lol\/\">https:\/\/rw.omg.lol\/<\/a>. Just bear in mind this is a fun side-project, don&#8217;t expect first-class support.<\/p>\n\n\n\n<p>Thanks for playing! I hope you have fun and learn something.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Announcing (or re-announcing) WordlePress: a silly function-name guessing game for WordPress developers (and anyone else stupid enough to try). This post serves as the help page\/instructions for WordlePress until I get some proper help up on the actual WordlePress site. Earlier this year, the daily Wordle puzzle was all the rage. And early on I [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>WordlePress - a silly (and very difficult) game for WordPress developers - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"WordlePress - a silly (and very difficult) game for WordPress developers - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Announcing (or re-announcing) WordlePress: a silly function-name guessing game for WordPress developers (and anyone else stupid enough to try). This post serves as the help page\/instructions for WordlePress until I get some proper help up on the actual WordlePress site. Earlier this year, the daily Wordle puzzle was all the rage. And early on I [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2022-11-27T11:00:27+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-11-27T11:09:19+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/\",\"url\":\"https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/\",\"name\":\"WordlePress - a silly (and very difficult) game for WordPress developers - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2022-11-27T11:00:27+00:00\",\"dateModified\":\"2022-11-27T11:09:19+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"WordlePress &#8211; a silly (and very difficult) game for WordPress developers\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "WordlePress - a silly (and very difficult) game for WordPress developers - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "WordlePress - a silly (and very difficult) game for WordPress developers - Ross Wintle",
+        "og_description": "Announcing (or re-announcing) WordlePress: a silly function-name guessing game for WordPress developers (and anyone else stupid enough to try). This post serves as the help page\/instructions for WordlePress until I get some proper help up on the actual WordlePress site. Earlier this year, the daily Wordle puzzle was all the rage. And early on I [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2022-11-27T11:00:27+00:00",
+        "article_modified_time": "2022-11-27T11:09:19+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/",
+                    "url": "https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/",
+                    "name": "WordlePress - a silly (and very difficult) game for WordPress developers - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2022-11-27T11:00:27+00:00",
+                    "dateModified": "2022-11-27T11:09:19+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2022\/11\/wordlepress-a-game-for-wordpress-developers\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "WordlePress &#8211; a silly (and very difficult) game for WordPress developers"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11450"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11450"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 3,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11450\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 11455,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11450\/revisions\/11455"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11450"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11450"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11450"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,238 @@
+{
+    "id": 8631,
+    "date": "2019-09-13T21:55:43",
+    "date_gmt": "2019-09-13T20:55:43",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=8631"
+    },
+    "modified": "2020-06-15T13:46:16",
+    "modified_gmt": "2020-06-15T12:46:16",
+    "slug": "wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
+    "title": {
+        "rendered": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields"
+    },
+    "content": {
+        "rendered": "\n<p>There wasn&#8217;t really a shorter title for this post.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Too long? Didn&#8217;t read?<\/h2>\n\n\n\n<p>Here&#8217;s the quick bit of learning: WordPress runs the <code>wp_enqueue_scripts<\/code> action hook during the execution of <code>wp_head<\/code> and it encourages you to register scripts on this hook. SO if you do something that you want to enqueue scripts correctly, you must do it AFTER <code>wp_head<\/code> runs &#8211; which usually means after <code>wp_header()<\/code> is called in the theme.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">My use case and problem<\/h2>\n\n\n\n<p>I was working for a client doing some maintenance on a theme that someone else had built. The theme used Advanced Custom Fields, and in some cases shortcodes were used inside ACF WYSIWYG fields.<\/p>\n\n\n\n<p>One of the shortcodes used needed some styles and\/or scripts to be enqueued to make the shortcode work. But this should be fine right? Executing the shortcode would enqueue the assets. No problem there.<\/p>\n\n\n\n<p>Well, then my theme had some code that was using the ACF field&#8217;s content. It set up some values near the top of the file, grabbing values from the ACF fields using the <code>get_field()<\/code> function, before outputting the template&#8217;s HTML content. Something like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;?php\n$title = get_field('title');\n$content = get_field('content');\n?&gt;\n\n&lt;?php\n  wp_header();\n?&gt;\n\n&lt;main&gt;\n  \/\/ Output the content here\n&lt;\/main&gt;\n<\/pre><\/div>\n\n\n<p>But, while the shortcode was definitely running, as I was seeing it&#8217;s output, the scripts that made the shortcode work were not being enqueued.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">What&#8217;s going on?<\/h2>\n\n\n\n<p>The plugin that gave me the shortcode actually worked correctly:<\/p>\n\n\n\n<ul><li>Scripts were registered correctly using <code>wp_register_script()<\/code> on the <code>wp_enqueue_scripts<\/code> action hook<\/li><li>The callback function that generated the shortcode output was running the <code>wp_enqueue_script()<\/code> function<\/li><li>The scripts were registered to be output in the footer, so enqueuing them during the shortcode output function should be fine<\/li><\/ul>\n\n\n\n<p>BUT&#8230;because the <code>wp_enqueue_scripts<\/code> action hook fires during <code>wp_header()<\/code> this code was failing.<\/p>\n\n\n\n<p>It failed because the shortcode callback was run when I did the <code>get_field()<\/code> call on the WYSIWYG field. The <code>get_field()<\/code> call is before <code>wp_header()<\/code> and therefore before the scripts are registered. So at the point the shortcode call back runs, the script is not registered so it can not be enqueued.<\/p>\n\n\n\n<p>Phew. Are you still with me?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The fix<\/h2>\n\n\n\n<p>The fix is simple &#8211; get the content, and therefore run the shortcodes, after <code>wp_header()<\/code> has been called so that the scripts are registered before they are enqueued:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;?php\n  wp_header();\n?&gt;\n\n&lt;?php\n$title = get_field('title');\n$content = get_field('content');\n?&gt;\n\n&lt;main&gt;\n  \/\/ Output the content here\n&lt;\/main&gt;\n<\/pre><\/div>\n\n\n<p><\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        736,
+        639
+    ],
+    "tags": [
+        4849,
+        286,
+        64,
+        4850,
+        4848,
+        4847,
+        181,
+        462
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle<\/title>\n<meta name=\"description\" content=\"A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-09-13T20:55:43+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-06-15T12:46:16+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\",\"name\":\"WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-09-13T20:55:43+00:00\",\"dateModified\":\"2020-06-15T12:46:16+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"description\":\"A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle",
+        "description": "A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle",
+        "og_description": "A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.",
+        "og_url": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2019-09-13T20:55:43+00:00",
+        "article_modified_time": "2020-06-15T12:46:16+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
+                    "url": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
+                    "name": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2019-09-13T20:55:43+00:00",
+                    "dateModified": "2020-06-15T12:46:16+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "description": "A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8631"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8631"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8631\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 8632,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8631\/revisions\/8632"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8631"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8631"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8631"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

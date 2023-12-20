@@ -1,0 +1,56 @@
+<body><header><h1 data-pagefind-meta="title">Laravel: Going back() after form validation errors</h1></header><main>
+<p>I&#8217;m SURE I must have done this before. Like&#8230;so many times. But this felt new today and is definitely worth remembering.</p>
+
+
+
+<p>When you&#8217;re using forms in Laravel, you sometimes want a &#8220;cancel&#8221; or &#8220;back&#8221; button or link that takes you to where you were before. And Laravel provides a handy <code>url()</code> helper that gets a URL builder that you can add a <code>previous()</code> method call to get the referring URL:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+url()-&gt;previous()
+</pre></div>
+
+
+<p>So you can put this as the <code>href</code> of a link and you&#8217;re done.</p>
+
+
+
+<p>Well&#8230;unless&#8230;</p>
+
+
+
+<p>You see, if you submit your form with errors, and Laravel&#8217;s validation is being used, your POST request, will result in the form page being reloaded. And the referrer &#8211; and therefore the <code>previous()</code> URL &#8211; will be the form page, because that&#8217;s where you came from.</p>
+
+
+
+<p>So you need to remember the original previous URL between loads of the form page.</p>
+
+
+
+<p>As always with Laravel there&#8217;s many ways to skin that cat. But I like this one: put a hidden field in your form to remember the original previous URL.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; gutter: false; title: ; notranslate" title="">
+&lt;input type=&quot;hidden&quot;
+       name=&quot;back_to&quot;
+       value=&quot;{{ old('back_to') ?: url()-&gt;previous() }}&quot;&gt;
+</pre></div>
+
+
+<p>And then use that in your back/cancel button link:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: xml; gutter: false; title: ; notranslate" title="">
+&lt;a class=&quot;btn btn-default&quot;
+   href=&quot;{{ old('back_to') ?: url()-&gt;previous() }}&gt;
+  Cancel
+&lt;/a&gt;
+</pre></div>
+
+
+<p>Note the use of the <code>old()</code> helper &#8211; because the POST to the form results in a redirect which loses the request data &#8211; so we need to grab it from the session.</p>
+
+
+
+<p>Anyway, that&#8217;s a note to self, but maybe it helped you too.</p>
+</main></body>

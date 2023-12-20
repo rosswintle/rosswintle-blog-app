@@ -1,0 +1,104 @@
+<body><header><h1 data-pagefind-meta="title">The Treachery of Code</h1></header><main><h2>Conversations about Code</h2>
+<p>I&#8217;ve had a couple of great conversations lately about coding, languages and teaching people to code.  The latter conversation was on the back of <a title="CodeAcademy" href="http://www.codecademy.com/">CodeAcademy</a> launching an <a href="http://www.theguardian.com/technology/2013/dec/09/codecademy-hour-of-code-iphone-app">&#8220;Hour of Code&#8221; app</a> that aims to teach the basics of programming to anyone with a smartphone (iOS only at present, I believe, sorry!).</p>
+<p>Now, I actually think CodeAcademy is a great resource with a great mission: making learning to code easy!  But, I think CodeAcademy&#8217;s approach, and in particular, the focus on JavaScript (which is, in my opinion, a bad language to learn to code in), isn&#8217;t great.  And the app version has some serious flaws.</p>
+<p>(I&#8217;m keen to point out at this point that this is <em>opinion</em>, and that I have a particular, very formal background in software engineering on which those opinions are based. Other opinions may also be valid!)</p>
+<h2>Examples</h2>
+<p>To demonstrate these flaws, I had a conversation with someone older than me who&#8217;s done no coding.  I explained, in very basic terms, a particular aspect of why I dislike JavaScript as a language to learn to code.  It went something like this.</p>
+<p>In coding, there are different types of things.  There is the number 2, and there is the text representing the number 2.</p>
+<p>The number two is written like this:</p>
+<p>2</p>
+<p>This is actually a number.</p>
+<p>Here is another number:</p>
+<p>4</p>
+<p>You can do maths with numbers.  So you can add numbers together:</p>
+<p>2 + 4 = 6</p>
+<p>Now.  In most programming languages you can also write 2 with quotes around it, like this:</p>
+<p>&#8220;2&#8221;</p>
+<p>This is not a number.  This is called a &#8220;string&#8221;.  <span style="line-height: 1.5;">Strings are just text &#8211; they can contain any symbols: letters, numbers, dollar signs, etc.  </span></p>
+<p>It&#8217;s like the old &#8220;Ceci n&#8217;est pas une pipe&#8221; thing. <a title="The Treachery of Images - Wikipedia" href="http://en.wikipedia.org/wiki/The_Treachery_of_Images">Magritte&#8217;s painting of a pipe</a>.  It&#8217;s not actually a pipe, it&#8217;s just a painting of a pipe.  This is not the number two, it&#8217;s a textual version of the number 2.</p>
+<p>We can have a string with a letter in:</p>
+<p>&#8220;a&#8221;</p>
+<p>Or we can have a string with several letters and/or numbers:</p>
+<p>&#8220;abc123&#8221;</p>
+<p>And, conveniently, you can join strings together.  Oddly, in some languages, you use the + sign to do this:</p>
+<p>&#8220;abc&#8221; + &#8220;123&#8221; = &#8220;abc123&#8221;</p>
+<p>So. Let&#8217;s do some &#8220;addition&#8221; and see what we get.</p>
+<p>2 + 4 = 6</p>
+<p>but</p>
+<p>&#8220;2&#8221; + &#8220;4&#8221; = &#8220;24&#8221;</p>
+<p>remember these have quotes around them and so they are strings, not numbers.  + joins them together, rather than adding them.  So we can also do:</p>
+<p>&#8220;2&#8221; + &#8220;a&#8221; = &#8220;2a&#8221;</p>
+<p>Hope you&#8217;re still with me.</p>
+<p>To the conundrum then.  What is this?:</p>
+<p>2 + &#8220;a&#8221; = ?</p>
+<p>When I put this to said older person who has no coding experience he said &#8220;It&#8217;s not allowed&#8221;.</p>
+<p>And, in my opinion, he&#8217;s right.  This shouldn&#8217;t be allowed. It should print an error message and force you to correct it.</p>
+<p>There are other opinions.  Some would say that, clearly, this should be:</p>
+<p>2 + &#8220;a&#8221; = &#8220;2a&#8221;</p>
+<p>In this case it&#8217;s assumed that the language will convert the number 2 from a number into a string and then do the joining.</p>
+<p>But assumptions are bad.  If you assume that then do you assume the same thing happens with two numbers?</p>
+<p>2 + 2 = &#8220;22&#8221; ?</p>
+<p>Clearly that&#8217;s an exaggeration, because it&#8217;s so simple. The intention there is clearly to do addition.</p>
+<p>But what about something even ever-so-slightly more complex like:</p>
+<p>2 + 2 + &#8220;a&#8221; =?</p>
+<p>Is this:</p>
+<p>2 + 2 + &#8220;a&#8221; = 4 + a = &#8220;4a&#8221;</p>
+<p>or</p>
+<p>2 + 2 + &#8220;a&#8221; = 2 + &#8220;2a&#8221; = &#8220;22a&#8221;</p>
+<p>Note to coders: yes, we can learn something from trying this. We can learn type casting/coercion, and we can learn operator precedence. My point is that we shouldn&#8217;t have to.  Code should be clear and meaningful, not ambiguous.  We should teach people to understand the code that they write, and it&#8217;s much easier to teach that if the code that they write is correct and meaningful.</p>
+<p>So it kind of pained me to see an ambiguous example of hugely ambiguous code in CodeAcademy&#8217;s app.  The image below is a screen shot:</p>
+<p><a href="https://rosswintle.uk/wp-content/uploads/2013/12/2013-12-11-08.09.06.png"><img loading="lazy" decoding="async" class="aligncenter size-medium wp-image-1716" alt="CodeAcademy App Bad Code" src="https://rosswintle.uk/wp-content/uploads/2013/12/2013-12-11-08.09.06-200x300.png" width="200" height="300" srcset="https://rosswintle.uk/wp-content/uploads/2013/12/2013-12-11-08.09.06-200x300.png 200w, https://rosswintle.uk/wp-content/uploads/2013/12/2013-12-11-08.09.06.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a></p>
+<p>Here&#8217;s the code (I&#8217;ve filled in the minus symbol that is the correct answer to the question):</p>
+<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+
+&lt;span style=&quot;line-height: 1.5;&quot;&gt;var currentYear = 2013;&lt;/span&gt;
+
+var moonLandingYear = 1969;
+
+print(&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;);
+
+</pre>
+<p><span style="line-height: 1.5;">This has introduced an extra concept: the = sign is used to save a value.  So when you see &#8220;var currentYear = 2013&#8221; that means &#8220;store the value 2013 using the name currentYear&#8221;.  The code can then get the value 2013 back by asking for currentYear. Note that currentYear and moonLandingYear are numbers, not strings; they are 2013, not &#8220;2013&#8221;.</span></p>
+<p>Now, this code example isn&#8217;t JavaScript, but it looks a lot like it. The question is, what gets printed?  What is the result of &#8220;adding&#8221; the combination of strings and numbers:</p>
+<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+
+&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;
+
+</pre>
+<p>Option 1: Assume that the subtract is done first and the resulting number automatically converted to a string and joined with the rest</p>
+<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+
+&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;
+
+= &quot;The first landing was &quot; + 2013 - 1969 + &quot; years ago&quot;
+
+= &quot;The first landing was &quot; + 44 + &quot; years ago&quot;
+
+= &quot;The first landing was 44 years ago&quot;
+
+</pre>
+<p>This seems correct. But is it what the code actually does?  There&#8217;s another possible interpretation.</p>
+<p>Option 2: Assume that we process the + symbols from left to right (as you do in maths), converting numbers to strings as you go:</p>
+<pre class="brush: plain; gutter: false; title: ; notranslate" title="">
+
+&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;
+
+= &quot;The first landing was &quot; + 2013 - 1969 + &quot; years ago&quot;
+
+= &quot;The first landing was 2013&quot; - 1969 + &quot; years ago&quot; = ....?
+
+</pre>
+<p>Oh.</p>
+<p>Hang on.</p>
+<p>We know that the plus sign joins two strings together.  But what does the minus sign do with a string?</p>
+<p>It turns out that not only is this a really bad code example. But if you convert it into actual JavaScript you don&#8217;t get the intended result. You get the rather odd output of &#8220;NaN years ago&#8221;.  This is because a string minus a number is a special thing called &#8220;Not a Number&#8221;, or &#8220;NaN&#8221; for short.</p>
+<p>Here it is in practice: <a href="http://jsfiddle.net/8Xs4Q/">http://jsfiddle.net/8Xs4Q/</a> &#8211; you can click the &#8220;Run&#8221; button at the top as many times as you like to run the code, which is in the bottom-left box, and see what gets printed in the pop-up box.</p>
+<h2>Why is this so bad?</h2>
+<p>Well, aside from the fact that CodeAcademy&#8217;s examples are broken&#8230;</p>
+<p>JavaScript is a neat, easy-to-use, very forgiving language. In some ways it&#8217;s ideal for learning to code because it&#8217;s installed on pretty much everyone&#8217;s PC as part of their web browser.  Just hit the F12 key, click &#8220;Console&#8221; and you can write JavaScript. And in the right hands it&#8217;s a very powerful language too. I don&#8217;t deny these things.</p>
+<p>But!&#8230;it&#8217;s SO easy to write the wrong code in JavaScript. It doesn&#8217;t tell you when you&#8217;ve made a basic error.  YES, yes you CAN learn by making mistakes and finding out what you did wrong. But is it not better to teach people not to make those mistakes in the first place?  To use a language that points out your mistakes clearly rather than one which makes assumptions about what you mean and carries on regardless?</p>
+<p>Code should be easy to understand, it should communicate the correct meaning to both the computer AND the reader.  The reader shouldn&#8217;t need a detailed understanding of operator precedence and type coercion to understand what&#8217;s going on in their first ever hour of coding.</p>
+<p>I&#8217;m not a perfect coder &#8211; no one is. I don&#8217;t do all the things in code that I think people should do all the time. But real-world projects have contraints that mean sometimes you have to work a bit quicker, deliver something to a deadline or budget.</p>
+<p>But I do think we should <em>teach</em> people to write code that&#8217;s meaningful and understandable. We should teach people to write code where it&#8217;s clear what the code does, not dependant on assumptions about the language or some deeper understanding.  It&#8217;s my opinion that neither JavaScript nor CodeAcademy&#8217;s new app are good tools for doing that.  Which is a shame, because I LOVE the CodeAcademy concept. Heck, if you&#8217;re interested in learning to code, it&#8217;s better than anywhere else to get self-taught.  Ignore my ranting and <a href="http://codeacademy.com" target="_blank">go and do something&#8230;errr&#8230;interesting</a>?</p>
+<p><iframe loading="lazy" width="640" height="480" src="https://www.youtube.com/embed/L4p-Osvw3sQ?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+</main></body>

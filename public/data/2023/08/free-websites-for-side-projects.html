@@ -1,0 +1,189 @@
+<body><header><h1 data-pagefind-meta="title">FREE WEBSITES!! How I make small, side-project websites for free (pretty much)</h1></header><main>
+<p>There was a time when a new web-based side project was a case of buying a domain, firing up a WordPress instance, wading through installs of a bunch of plugins and maybe a page builder theme. But this was slow and, in many cases, bloated, and could get expensive with domain and hosting costs. In many cases it was way more than I actually needed.</p>
+
+
+
+<p>I now have a process that gets me small, fast, side-project websites for virtually zero cost.</p>
+
+
+
+<p>This week I quickly spun up <a href="https://ev-tools.veryuseful.app/">EV Tools</a> for me to do some calculations while I was in Europe. Zero cost. Just the coding. So easy. Kick-ass performance scores. Automated deployment from Git. What&#8217;s not to like?</p>
+
+
+
+<p>This method is not for the everyday web user, as you will see. But if you do web dev, there may be some stuff here that&#8217;s an &#8220;Aha!&#8221; moment for you.</p>
+
+
+
+<p>Let&#8217;s see how it works&#8230;</p>
+
+
+
+<h2 class="wp-block-heading">The Stack</h2>
+
+
+
+<p>Essentially the not-so-secret sauce here is:</p>
+
+
+
+<ul>
+<li>A simple static site generator (I made <a href="https://rosswintle.uk/2021/12/hang-on-php-is-a-static-site-generator/">my own in PHP</a>, but you can choose your own tech)</li>
+
+
+
+<li>Some neat domains that I make sub-domains from (free side-project domains FTW!!)</li>
+
+
+
+<li><a href="https://pages.cloudflare.com/">Cloudflare Pages</a> or <a href="https://www.netlify.com/">Netlify</a> (or <a href="https://pages.github.com/">GitHub pages</a>) for hosting</li>
+</ul>
+
+
+
+<p>In addition I have a <a href="https://github.com/rosswintle/small-site-template/tree/main">starter template</a> that includes TailwindCSS, Tailwind Forms and Typography plugins and <a href="https://alpinejs.dev/">AlpineJS</a> for JavaScript sprinkles. I happen to own a license for TailwindUI too if I need something more fancy, as I&#8217;m NOT a designer.</p>
+
+
+
+<p>For those domains I put subdomains on? I happen to own <code>veryuseful.app</code> (which has <a href="https://veryuseful.app/">a nice index</a>, built using this very system, of course!) and <code>forwp.dev</code> (which is new and only has one secret project on it at the moment).</p>
+
+
+
+<p>If you can find one that works (and with all the new top-level domains like <code>.tools</code> and <code>.dev</code> and <code>.app</code> it&#8217;s not so hard!) then these let you create as many sub-domains as you like, for free!</p>
+
+
+
+<p>Sure, they may not have the SEO juice or be so memorable. But the point of these projects is to quickly put something on the web for me, or to share on social media. Not to build a new SaaS or something. So it really doesn&#8217;t matter. And if it does: keep forking our for those domains, or just upgrade later!!</p>
+
+
+
+<h2 class="wp-block-heading">The Process</h2>
+
+
+
+<p>As I said, the process is a bit complicated if you don&#8217;t know what you&#8217;re doing. You&#8217;ll need to do DNS and Git and command-line and hand-code (or copy and paste, or generate with AI) HTML and CSS. You can bolt onto that whatever you like, but that&#8217;s a minimum.</p>
+
+
+
+<p>And once you &#8220;get it&#8221;, you can replicate this process pretty quickly. You can probably even automate more of it with CLI tools and APIs.</p>
+
+
+
+<p>I won&#8217;t go into <em>how</em> to do each step. If you&#8217;re qualified to use this process, you <em>probably</em> don&#8217;t need those extra details anyway.</p>
+
+
+
+<p>Here&#8217;s the main steps:</p>
+
+
+
+<ol>
+<li>Create a new Git repository from <a href="https://github.com/rosswintle/small-site-template/">my template in GitHub</a>.</li>
+
+
+
+<li>Clone the new repository locally.</li>
+
+
+
+<li>Make some HTML files.</li>
+
+
+
+<li>Run the build step (<code>./build.sh</code>)</li>
+
+
+
+<li>Commit everything to Git and push to GitHub</li>
+
+
+
+<li>Set up a new Cloudflare Pages project, connect to GitHub if you need to, and deploy the application on a temporary URL (Cloudflare uses <code>&lt;something>.pages.dev</code>)
+<ul>
+<li>With my template you need to set the build output directory to &#8220;public&#8221;</li>
+</ul>
+</li>
+
+
+
+<li>Save and deploy the site</li>
+
+
+
+<li>Once deployed, you can go and add the custom domain. If you specify a new subdomain of a domain that you own, this will be created and DNS set up for you. It will even create an HTTPS certificate!</li>
+</ol>
+
+
+
+<p>That&#8217;s it. Now you can edit your HTML/CSS/JS files, use the build step when you need to, and a push to GitHub will trigger a deploy. Magic!</p>
+
+
+
+<h2 class="wp-block-heading">This new tech is awesome</h2>
+
+
+
+<p>So many cool new bits of tech have come together to make this possible.</p>
+
+
+
+<p>Modern CSS and JavaScript is amazing. You don&#8217;t need libraries/frameworks for simple sites.</p>
+
+
+
+<p>I pair it with Tailwind because I like that for small projects that I need to revisit from time to time and it&#8217;s proven to be robust and &#8211; crucially for this kind of project &#8211; low on dependencies.</p>
+
+
+
+<p>And I use AlpineJS for those reactive JS sprinkles without needing a full-on framework that will go out of date.</p>
+
+
+
+<p>&#8220;Jamstack&#8221; hosting gives us static hosting for free.</p>
+
+
+
+<p>LetsEncrypt secures the web for us for free with HTTPS.</p>
+
+
+
+<p>Subdomains give me unlimited domains (virtually) for free for new small projects.</p>
+
+
+
+<p>GitHub hosts the code and pairs with the static hosting to achieve automated deployments with no FTP or anything.</p>
+
+
+
+<p>I also use <a href="https://usefathom.com/ref/SVE71E">Fathom Analytics</a> on some sites. This is not free, but as long as they remain low-traffic I get 100,000 page views a month spread across up to 50 sites. This lets me get some idea of who is coming and from where without the need for faffy cookie banners or privacy policies.</p>
+
+
+
+<p>WHAT AN AMAZING WORLD WE LIVE IN that we have access to all this at low cost so we can tinker and play and create as web people!?</p>
+
+
+
+<p>And if you&#8217;re curious, here&#8217;s some sites that I use some of all of this technique on:</p>
+
+
+
+<ul>
+<li><a href="https://turbo-admin.com/">Turbo Admin</a></li>
+
+
+
+<li><a href="https://ev-tools.veryuseful.app/">EV Tools</a></li>
+
+
+
+<li><a href="https://tweet-finder.veryuseful.app/">Tweet Finder</a></li>
+
+
+
+<li><a href="https://wordlepress.com/">WordlePress</a></li>
+
+
+
+<li><a href="https://caniphp.com/">Can I PHP?</a></li>
+</ul>
+</main></body>

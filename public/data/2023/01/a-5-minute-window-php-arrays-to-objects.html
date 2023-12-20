@@ -1,0 +1,74 @@
+<body><header><h1 data-pagefind-meta="title">A 5 Minute Window: PHP Arrays to Objects</h1></header><main>
+<p>An experiment.</p>
+
+
+
+<p>Here&#8217;s 5 minutes on how you can, and some reasons why you would want to, convert PHP structured arrays to objects.</p>
+
+
+
+<p>The code is below.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="A 5 Minute Window: PHP Arrays to Objects" width="640" height="480" src="https://www.youtube.com/embed/pHH9RURpUjE?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; quick-code: false; notranslate" title="">
+&lt;?php
+declare(strict_types=1);
+
+// Hi
+
+// Here's some code that I see often in WordPress projects...
+
+$pages = &#x5B;
+  &#x5B;
+    'id'    =&gt; 1,
+    'title' =&gt; 'Home'
+  ],
+  &#x5B;
+    'id'    =&gt; 2,
+    'title' =&gt; 'About'
+  ],
+  &#x5B;
+    'id'    =&gt; 3,
+    'title' =&gt; 'Contact'
+  ]
+];
+
+// An array of arrays that are &quot;things&quot;.
+
+// These are much better expressed as objects.
+
+// And this is a really good first introduction to objects if you don't use them much.
+
+// Let's make a &quot;class&quot; - this is like a template for the &quot;things&quot;.
+
+class Post {
+    // Each post has a publicly accessible ID and title
+    public int $id = 0;
+    public string $title = '';
+
+    // We will set these for each thing
+}
+
+// Now we have the template, let's make the things.
+
+$posts = &#x5B;];
+
+$posts&#x5B;] = new Post();
+$posts&#x5B;0]-&gt;id = '123'; // Aha! See, with objects and types, we get help with errors! Nice.
+$posts&#x5B;0]-&gt;title = 'Hello World';
+
+// Did you see how the editor helped us? Because it knows what the properties of the things are!
+
+$posts&#x5B;1] = new Post();
+$posts&#x5B;1]-&gt;id = '456';
+$posts&#x5B;1]-&gt;title = 'Hello again';
+
+// We can also use types to be even more specific and helpful!
+
+</pre></div></main></body>

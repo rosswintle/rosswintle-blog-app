@@ -1,0 +1,225 @@
+{
+    "id": 4506,
+    "date": "2019-01-28T11:00:02",
+    "date_gmt": "2019-01-28T11:00:02",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=4506"
+    },
+    "modified": "2019-01-28T11:00:06",
+    "modified_gmt": "2019-01-28T11:00:06",
+    "slug": "the-week-28th-january-2019",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/",
+    "title": {
+        "rendered": "The week: 28th January 2019"
+    },
+    "content": {
+        "rendered": "\n<p>Back in September and October last year I had a weekly thing of writing up my week in posts (I was blogging more frequently then), projects (what I was up to!) and pins (things I had bookmarked).<\/p>\n\n\n\n<p>It was a really good discipline and I enjoyed doing it (even if it didn&#8217;t benefit anyone else), so inspired by <a href=\"https:\/\/andy-bell.design\/notes\/95\/\">Andy Bell<\/a>, who was in turn inspired by <a href=\"https:\/\/paulrobertlloyd.com\/2019\/01\/weeknotes_1\">Paul Robert Lloyd<\/a>, I&#8217;m trying to get back into it.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Projects: what I&#8217;ve been up to<\/h2>\n\n\n\n<ul><li>Generally after a slow start to the year, work is starting to come in. I&#8217;ve been reviewing spec&#8217;s and working up a proposal for a new Laravel project.<\/li><li>I finished off a custom WordPress-to-MailChimp integration that needed to be added to a past project that I worked on.<\/li><li>I&#8217;ve been helping my friends at <a href=\"https:\/\/handsup.co.uk\">Hands Up<\/a> finish off some last minute snags on a custom WordPress build.<\/li><li>I&#8217;ve had the usual background load of fixing other people&#8217;s hosting, DNS and coding issues &#8211; as someone with a strong(er-than-average) networking and hosting background I pick up a lot of this stuff.<\/li><li>In side-project land I&#8217;ve been making a bit of progress with SchoolBot, adding a few commands, some back-end admin stuff that&#8217;s been needed for ages and starting to add some randomness\/fun\/politeness to the bot&#8217;s tone of voice. I&#8217;ve also actually posting some useful information about it on <a href=\"https:\/\/twitter.com\/het_schoolbot\">Twitter<\/a>. I still need to make a marketing\/landing page for it and to try to recruit a forward-thinking tech-savvy school that may want to pilot it at some point.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Posts: things I made<\/h2>\n\n\n\n<p>I&#8217;ve not posted to the blog this week, but following Paul Jarvis&#8217;s &#8220;Greatest Hits&#8221; idea I don&#8217;t see why I shouldn&#8217;t surface some old stuff and things that were posted in the &#8220;gap&#8221; of my week-notes:<\/p>\n\n\n\n<ul><li><a href=\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/\">My new CSS framework: SUCSS<\/a> &#8211; I&#8217;ve never been happy with how people do CSS. I always thought there was a missing middle-ground between all the frameworks and techniques. Maybe I found it? Includes my history with CSS and some ideas about how I may try and drop CSS build tools entierly.<\/li><li><a href=\"https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/\">Not all software development processes are equal<\/a>: In which I summon up the courage to add my own experiences to that of a software engineering legend. Ultimately I agree with him, but the illustration he chooses may not be the best and I hopefully add some insight into a software world you may not be familiar with!<\/li><li><\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Pins: things I read and remembered<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/github.com\/sindresorhus\/quick-look-plugins\">Quick Look Plugins<\/a>: A list of MacOS\/Finder Quick Look plugins for developers <\/li><li><a href=\"https:\/\/securitycheckli.st\/\">SecurityCheckli.st<\/a>: A list of things you can do to improve your online security and privacy. Really nicely done too!<\/li><li><a href=\"https:\/\/docs.beyondco.de\/laravel-mailbox\">Laravel Mailbox<\/a>: A package for handling INCOMING mail in Laravel. <a href=\"https:\/\/twitter.com\/marcelpociot\">Marcel<\/a> is brilliant and prolific and this latest tool looks as brilliant as ever.<\/li><li><a href=\"https:\/\/tarekraafat.github.io\/autoComplete.js\/\">autocomplete.js<\/a>: Nice-looking JS autocomplete library<\/li><li><a href=\"https:\/\/terminal.sexy\/\">terminal.sexy<\/a>: I hate to think what this will do for my SEO, but here&#8217;s a nice interactive tool for creating and editing terminal\/command-line colour schemes (via <a href=\"https:\/\/twitter.com\/miss_jwo\">Jenny Wong<\/a>)<\/li><li><a href=\"https:\/\/www.swindonadvertiser.co.uk\/news\/17377921.the-carto-group-to-launch-mobile-app-mapping-swindons-heritage-sites\/?fbclid=IwAR2CVBlT8IobpJGr_434FWDs2QGezpzrHAmKTOIrMIIGW7CCCRMNTG9B0wY\">Swindon Heritage Trail mobile app with AR<\/a>: I had ideas to develop <a href=\"https:\/\/zapthemap.com\/\">Zap the Map<\/a> to do trails, but looks like the lovely Carto Group people are doing a better job and beating me to it!<\/li><li><a href=\"https:\/\/echo.labstack.com\/\">Echo (Go Framework)<\/a>: I&#8217;m slowly starting out on the journey of learning the <a href=\"https:\/\/golang.org\/\">Go language<\/a> (inspiration <a href=\"https:\/\/dannyvankooten.com\/laravel-to-golang\/\">here<\/a> and <a href=\"https:\/\/deliciousbrains.com\/golang-tutorial\/\">here<\/a>).  <a href=\"https:\/\/twitter.com\/javorszky\">Gabor<\/a> kindly pointed me to Echo which will almost certainly help!<\/li><li><a href=\"https:\/\/github.com\/fabiospampinato\/notable\">Notable<\/a>: I&#8217;m not about to ditch <a href=\"https:\/\/bear.app\/\">Bear<\/a>, but if I was this open source, cross-platform (but not mobile) Markdown note editor looks great.<\/li><\/ul>\n\n\n\n<p>Have a great week!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>A weekly thing of writing up my week in posts (things I&#8217;ve written and made), projects (what I&#8217;m up to!) and pins (things I&#8217;ve bookmarked)<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        709
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The week: 28th January 2019 - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The week: 28th January 2019 - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A weekly thing of writing up my week in posts (things I&#039;ve written and made), projects (what I&#039;m up to!) and pins (things I&#039;ve bookmarked)\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-01-28T11:00:02+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-01-28T11:00:06+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/\",\"name\":\"The week: 28th January 2019 - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-01-28T11:00:02+00:00\",\"dateModified\":\"2019-01-28T11:00:06+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The week: 28th January 2019\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "The week: 28th January 2019 - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "The week: 28th January 2019 - Ross Wintle",
+        "og_description": "A weekly thing of writing up my week in posts (things I've written and made), projects (what I'm up to!) and pins (things I've bookmarked)",
+        "og_url": "https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2019-01-28T11:00:02+00:00",
+        "article_modified_time": "2019-01-28T11:00:06+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/",
+                    "url": "https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/",
+                    "name": "The week: 28th January 2019 - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2019-01-28T11:00:02+00:00",
+                    "dateModified": "2019-01-28T11:00:06+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/01\/the-week-28th-january-2019\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "The week: 28th January 2019"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4506"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4506"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4506\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 4546,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4506\/revisions\/4546"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4506"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4506"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4506"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

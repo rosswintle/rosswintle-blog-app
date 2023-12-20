@@ -1,0 +1,231 @@
+{
+    "id": 254273,
+    "date": "2023-03-19T23:29:30",
+    "date_gmt": "2023-03-19T23:29:30",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=254273"
+    },
+    "modified": "2023-03-20T09:19:57",
+    "modified_gmt": "2023-03-20T09:19:57",
+    "slug": "oh-gosh-im-actually-writing-a-post-about-ai",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/",
+    "title": {
+        "rendered": "Oh gosh. I&#8217;m actually writing a post about AI."
+    },
+    "content": {
+        "rendered": "\n<p>WOW! <em>I made a properly &#8220;magic method&#8221; WordPress plugin that allows you to just write a function name, and have that function created for you by an AI. It just works! (Some of the time).<\/em><\/p>\n\n\n\n<p>I&#8217;ve been trying really hard not to do this because literally everyone else has. But this is a post about &#8220;AI&#8221; generated content.<\/p>\n\n\n\n<p>To start with, I&#8217;m skeptical about all the AI hype, which is why I&#8217;m reluctant to use it and post about it. More on this another time.<\/p>\n\n\n\n<p>But&#8230; Caleb Porzio &#8211; maker of my beloved <a href=\"https:\/\/alpinejs.dev\/\">Alpine.js<\/a> and Wizard number 2 in my personal Laravel community rankings &#8211; posted this:<\/p>\n\n\n\n<figure class=\"wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">\ud83e\ude84 What if you could write code that doesn&#39;t exist yet and it just&#8230; worked? <a href=\"https:\/\/t.co\/zfF4cEdRXs\">pic.twitter.com\/zfF4cEdRXs<\/a><\/p>&mdash; Caleb Porzio (@calebporzio) <a href=\"https:\/\/twitter.com\/calebporzio\/status\/1632766792211877890?ref_src=twsrc%5Etfw\">March 6, 2023<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>If you don&#8217;t want to watch the video (or if Twitter has, in the meantime, died) Caleb makes a Laravel &#8220;Ai&#8221; helper class that lets him write things like:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\necho Ai::beforeFirstDot('caleb.porzio');\n<\/pre><\/div>\n\n\n<p>and it generates the function from the name, stores the function in a file so that it doesn&#8217;t have to be regenerated in future, and runs it!<\/p>\n\n\n\n<p>Caleb himself notes that &#8220;this is just a random toy I made for fun.&#8221; &#8211; and I get that.<\/p>\n\n\n\n<p>But for some reason it lodged itself in my brain. And when I finally decided that I wanted to play with the OpenAI API myself, I had the idea: &#8220;What if we did this in WordPress?&#8221;<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">A WordPress AI function generator!<\/h2>\n\n\n\n<p>A few hours hacking later, and this exists.<\/p>\n\n\n\n<p>I can type:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nWPAI::add_is_awesome_to_all_these_strings(\n  strings: &#x5B;'WordPress', 'Ross', 'AI']\n);\n<\/pre><\/div>\n\n\n<p>and the AI will create me the function and run it:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\n&#x5B;\n  &quot;WordPress is awesome&quot;,\n  &quot;Ross is awesome&quot;,\n  &quot;AI is awesome&quot;\n]\n<\/pre><\/div>\n\n\n<p>It made this function and added it to a file in a mu-plugin:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nfunction add_is_awesome_to_all_these_strings ( array $strings ) {\n\tforeach ( $strings as &amp;$string ) {\n\t\t$string .= ' is awesome';\n\t}\n\treturn $strings;\n}\n<\/pre><\/div>\n\n\n<p>That&#8217;s not how I&#8217;d have written that function, but it works.<\/p>\n\n\n\n<p>It knows about WordPress. You can write:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nWPAI::get_an_array_of_all_post_types();\n<\/pre><\/div>\n\n\n<p>And it will return something like:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\n&#x5B;\n  'post' =&gt; &quot;post&quot;,\n  'page' =&gt; &quot;page&quot;,\n  'attachment' =&gt; &quot;attachment&quot;\n]\n<\/pre><\/div>\n\n\n<p>Because it created:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nfunction get_an_array_of_all_post_types (  ) {\n\t$post_types = get_post_types(\n      array( 'public' =&gt; true ),\n      'names'\n    );\n\treturn $post_types;\n}\n<\/pre><\/div>\n\n\n<p>I mean&#8230; this is pretty impressive.<\/p>\n\n\n\n<p>It can write WP queries too. I wrote a special generator for that. You can type:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nWPAI::query(\n  '3 latest posts from the news post type that\n   have the metadata test=true and that do not\n   have a meta key called &quot;ignore&quot;'\n);\n<\/pre><\/div>\n\n\n<p>and it will run:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nget_posts(&#x5B;\n\t'post_type'=&gt;'news',\n\t'posts_per_page'=&gt;3,\n\t'meta_query'=&gt;&#x5B;\n\t\t&#x5B;\n\t\t\t'key'=&gt;'test',\n\t\t\t'value'=&gt;'true',\n\t\t\t'compare'=&gt;'='\n\t\t],\n\t\t&#x5B;\n\t\t\t'key'=&gt;'ignore',\n\t\t\t'compare'=&gt;'NOT EXISTS'\n\t\t]\n\t]\n]);\n<\/pre><\/div>\n\n\n<p>So you can kind-of sorta build a website just by writing what you want. Like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nWPAI::register_recipe_post_type();\nWPAI::register_recipe_type_taxonomy_for_recipe_type();\nWPAI::register_acf_repeater_field_for_ingredients_for_recipe_type();\n<\/pre><\/div>\n\n\n<p>Does this work? Absolutely it does! With a few glitches here and there (that I think I can fix). Here&#8217;s the three minutes of me building this code:<\/p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"WPAI Post Types\" src=\"https:\/\/player.vimeo.com\/video\/809333286?h=0cb83f35b7&amp;dnt=1&amp;app_id=122963\" width=\"640\" height=\"400\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">The Big Buts<\/h2>\n\n\n\n<p>This really, totally does work. <a href=\"https:\/\/github.com\/rosswintle\/wpai\">Here&#8217;s the code<\/a>. About 200 lines of PHP.<\/p>\n\n\n\n<p>(It&#8217;s currently pretty rough, my &#8220;prompt engineering&#8221; is probably not very good, and it needs a README to tell you how to use it. But that&#8217;s it.)<\/p>\n\n\n\n<p>But&#8230;<\/p>\n\n\n\n<p>DON&#8217;T DO THIS!!!!!<\/p>\n\n\n\n<p>&#8220;What?&#8221; I hear you cry.<\/p>\n\n\n\n<p>DON&#8217;T DO THIS!!! THIS IS REALLY DANGEROUS AND STUPID!!!<\/p>\n\n\n\n<p>You run this code ENTIRELY AT YOUR OWN RISK!!!<\/p>\n\n\n\n<p>I take no responsibility for you website being broken beyond repair; your laptop or server being wiped of all files; or ANYTHING that might happen as a result of you using this code.<\/p>\n\n\n\n<p>This code tells an AI of dubious trustworthiness to generate more code and then runs the more code on your computer.<\/p>\n\n\n\n<p>You should not do this.<\/p>\n\n\n\n<p>And if you DO do it, do it on a temporary VPS, or a walled-off temporary site, or an <a href=\"https:\/\/app.instawp.io\/register?ref=pRVI2c79Ne\">instawp.com site<\/a> or something. And you do that &#8211; and I can&#8217;t say this strongly enough &#8211; entirely at your own risk.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Some thoughts on all this<\/h2>\n\n\n\n<p>This seems very cool. But it is a fun toy or experiment. Nothing more. Don&#8217;t use this in production.<\/p>\n\n\n\n<p>Will we write code like this one day? Maybe.<\/p>\n\n\n\n<p>I&#8217;m not convinced the AIs are coming for us yet. These are fun toys to play with the large language models and cool tech. People will use them. And they seem helpful.<\/p>\n\n\n\n<p>We are at the early stages of having these things around. I suspect they have the power to transform how we do certain kinds of work. They will inevitably impact society &#8211; in my opinion. But we don&#8217;t understand them well enough yet.<\/p>\n\n\n\n<p>For me&#8230; <\/p>\n\n\n\n<p>I\u2019ve now tinkered with generative code AI APIs.<\/p>\n\n\n\n<p>And I find myself in the position of thinking: \u201cI\u2019m not entirely happy with this technology existing, but I\u2019ve played with it, and it\u2019s really fun!\u201d<\/p>\n\n\n\n<p>And the scary thing is: this is where most people started with crypto and NFT\u2019s. And I didn&#8217;t like where that went AT ALL.<\/p>\n\n\n\n<p>I will wait and see.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>WOW! I made a properly &#8220;magic method&#8221; WordPress plugin that allows you to just write a function name, and have that function created for you by an AI. It just works! (Some of the time).<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        639
+    ],
+    "tags": [
+        4886,
+        286,
+        64,
+        462
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Oh gosh. I&#039;m actually writing a post about AI. - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Oh gosh. I&#039;m actually writing a post about AI. - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"WOW! I made a properly &quot;magic method&quot; WordPress plugin that allows you to just write a function name, and have that function created for you by an AI. It just works! (Some of the time).\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-03-19T23:29:30+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-03-20T09:19:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/\",\"name\":\"Oh gosh. I'm actually writing a post about AI. - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-03-19T23:29:30+00:00\",\"dateModified\":\"2023-03-20T09:19:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Oh gosh. I&#8217;m actually writing a post about AI.\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Oh gosh. I'm actually writing a post about AI. - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Oh gosh. I'm actually writing a post about AI. - Ross Wintle",
+        "og_description": "WOW! I made a properly \"magic method\" WordPress plugin that allows you to just write a function name, and have that function created for you by an AI. It just works! (Some of the time).",
+        "og_url": "https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2023-03-19T23:29:30+00:00",
+        "article_modified_time": "2023-03-20T09:19:57+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/",
+                    "url": "https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/",
+                    "name": "Oh gosh. I'm actually writing a post about AI. - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2023-03-19T23:29:30+00:00",
+                    "dateModified": "2023-03-20T09:19:57+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/03\/oh-gosh-im-actually-writing-a-post-about-ai\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Oh gosh. I&#8217;m actually writing a post about AI."
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254273"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=254273"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 6,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254273\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 254283,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254273\/revisions\/254283"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=254273"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=254273"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=254273"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,232 @@
+{
+    "id": 4584,
+    "date": "2019-02-11T11:01:26",
+    "date_gmt": "2019-02-11T11:01:26",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=4584"
+    },
+    "modified": "2019-02-24T22:24:44",
+    "modified_gmt": "2019-02-24T22:24:44",
+    "slug": "going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/",
+    "title": {
+        "rendered": "Going Vanilla &#8211; initial thoughts on building a theme with no build tools"
+    },
+    "content": {
+        "rendered": "\n<p>I&#8217;ve become pretty fed up with using build tools for small web projects. So I&#8217;m attempting to build a WordPress theme with no build tool using only &#8220;vanilla&#8221; CSS and JS. Here&#8217;s some initial thoughts I&#8217;ve had after getting started.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">What are you doing and why?<\/h3>\n\n\n\n<p>I&#8217;m attempting to build a new custom theme for my own blog (yes, this one you are reading), and I&#8217;m doing it with no npm, grunt, gulp, parcel.js, or anything. It&#8217;s zero config because there&#8217;s nothing to configure.<\/p>\n\n\n\n<p>I&#8217;m starting with the <a href=\"http:\/\/underscores.me\/\">_s<\/a> (&#8220;<a href=\"http:\/\/underscores.me\/\">Underscores<\/a>&#8220;) starter theme, just to get me off the starting blocks with something, but with the &#8220;SASSify&#8221; option turned off.<\/p>\n\n\n\n<p>I&#8217;m actually basing it on my own fork of Underscores that I&#8217;ve called oiko_s &#8211; this previously had a simple webpack setup added with SASS, Babel transpilation, LiveReload and so on.<\/p>\n\n\n\n<p>But actually, as I mention in <a href=\"https:\/\/rosswintle.uk\/2019\/01\/my-new-css-framework-sucss\/\">my post about my silly SUCSS idea<\/a>, I&#8217;m wondering if modern CSS and JS that now has good browser support (CSS variables, HTTP2, ES6, etc) allows us to write good, clean front-end code for small projects with no build process at all.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">What have you found so far?<\/h3>\n\n\n\n<p>Well, I&#8217;m PROBABLY figuring out why people build frameworks. A few things have come up, even in the very early days of working like this, that make me think it won&#8217;t work. But I also have some optimism that I can make this work.<\/p>\n\n\n\n<h4 class=\"wp-block-heading\">A large, single CSS file is hard to work with<\/h4>\n\n\n\n<p>I should really have seen this coming, but Underscores without SASS has one big CSS file and this is hard to work with.  It has sections and a table of contents, but it feels like it needs to be properly broken down OR that some conventions or editor\/IDE tool is needed to help efficiently navigate it.<\/p>\n\n\n\n<p>I&#8217;ve also considered that HTTP2 (you&#8217;re all using HTTPS and HTTP2, right?) is much more efficient at downloading lots of small files, so maybe I can just break it up into lots of smaller files and use a loop in my PHP to inject them into the HTML? I could even defer loading of non-critical CSS more easily this way. Hmm&#8230;<\/p>\n\n\n\n<h4 class=\"wp-block-heading\">Live-reloaders are nice<\/h4>\n\n\n\n<p>Yeah, I&#8217;m missing this. I think I can do it using BrowserSync proxying or something that I can run from npm globally, rather than having it local. There will be a way. But I&#8217;m without it for now.<\/p>\n\n\n\n<h4 class=\"wp-block-heading\">Internet Explorer<\/h4>\n\n\n\n<p>Yes, I would really like to support IE11 if I can. There are polyfills of sorts for some things I will probably use, but without them the site will NOT look right. CSS variables in particular are an issue.<\/p>\n\n\n\n<p>And I find myself wondering if I should but a notice up saying &#8220;You&#8217;re not getting the best experience in IE&#8221; or something. Don&#8217;t people rally against this? Or is this an acceptable kind of notice to display these days, especially if you&#8217;re working WITH modern web standards, not against them.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Forging ahead<\/h3>\n\n\n\n<p>So, I&#8217;ve made a start, and I&#8217;m happy with how it is. There are issues to sort out and things need to be done to improve the workflow. But I&#8217;m happy with the direction.<\/p>\n\n\n\n<p>Watch this space for more!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I&#8217;m attempting to build a WordPress theme with no build tool using only &#8220;vanilla&#8221; CSS and JS. Here&#8217;s some initial thoughts I&#8217;ve had after getting started.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10,
+        23,
+        736,
+        639,
+        187
+    ],
+    "tags": [
+        59,
+        107
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Going Vanilla - initial thoughts on building a theme with no build tools - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Going Vanilla - initial thoughts on building a theme with no build tools - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m attempting to build a WordPress theme with no build tool using only &quot;vanilla&quot; CSS and JS. Here&#039;s some initial thoughts I&#039;ve had after getting started.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-02-11T11:01:26+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-02-24T22:24:44+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/\",\"name\":\"Going Vanilla - initial thoughts on building a theme with no build tools - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-02-11T11:01:26+00:00\",\"dateModified\":\"2019-02-24T22:24:44+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Going Vanilla &#8211; initial thoughts on building a theme with no build tools\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Going Vanilla - initial thoughts on building a theme with no build tools - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Going Vanilla - initial thoughts on building a theme with no build tools - Ross Wintle",
+        "og_description": "I'm attempting to build a WordPress theme with no build tool using only \"vanilla\" CSS and JS. Here's some initial thoughts I've had after getting started.",
+        "og_url": "https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2019-02-11T11:01:26+00:00",
+        "article_modified_time": "2019-02-24T22:24:44+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/",
+                    "url": "https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/",
+                    "name": "Going Vanilla - initial thoughts on building a theme with no build tools - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2019-02-11T11:01:26+00:00",
+                    "dateModified": "2019-02-24T22:24:44+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/02\/going-vanilla-initial-thoughts-on-building-a-theme-with-no-build-tools\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Going Vanilla &#8211; initial thoughts on building a theme with no build tools"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4584"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4584"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4584\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 4586,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4584\/revisions\/4586"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4584"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4584"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4584"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

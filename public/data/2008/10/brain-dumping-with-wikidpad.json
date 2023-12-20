@@ -1,0 +1,222 @@
+{
+    "id": 208,
+    "date": "2008-10-22T11:21:00",
+    "date_gmt": "2008-10-22T11:21:00",
+    "guid": {
+        "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/10\/22\/brain-dumping-with-wikidpad\/"
+    },
+    "modified": "2008-10-22T11:21:00",
+    "modified_gmt": "2008-10-22T11:21:00",
+    "slug": "brain-dumping-with-wikidpad",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/",
+    "title": {
+        "rendered": "Brain Dumping with wikidpad"
+    },
+    "content": {
+        "rendered": "<p>Recently someone asked if there was a good tool for dumping lots of stuff that was in their head in a GTD (<a href=\"http:\/\/en.wikipedia.org\/wiki\/Getting_Things_Done\">Getting Things Done<\/a>) manner.<\/p>\n<p>I use a tool called<a href=\"http:\/\/groups.google.com\/group\/wikidpad\/web\/home?pli=1\"> Wikidpad<\/a> for this. It&#8217;s a desktop Wiki, which enabled you to write short or long notes, and link them together in a variety of ways &#8211; in much the same way as a web-based Wiki.  But it&#8217;s not very well documented and there&#8217;s not tutorial for using it.  So here&#8217;s my own little guide to how I use it.<\/p>\n<p>I&#8217;m not going to cover the basics of Wikis &#8211; you can read about them elsewhere.  Wikidpad uses simple CamelCase as WikiWords that automatically become links to other pages (though you can suppress this for specified words).<\/p>\n<p>I&#8217;d recommend opening the help Wiki and looking at the pages TextFormatting, TodoItems and WikiDocumentAttributes as a starting point.<\/p>\n<p>For me, what really makes Wikidpad useful is its auto-indexed attributes and todo-type tags.  Not only do your pages appear in a tree showing their location within the Wiki (essentially creating folders of related information), but you can also create hierarchical attributes that are<br \/>indexed and then displayed as a tree in the &#8220;Views&#8221; section.  This is essentially an index of information that you&#8217;ve &#8220;tagged&#8221; with attributes.<\/p>\n<p>For example, I can have a &#8220;Customer&#8221; attribute.  If I put the text &#8220;<span style=\"font-family:courier new;\">[Customer:New Technologies Inc]<\/span>&#8221; on a page, this will create, in the index, a customer folder, containing a New Technologies Inc folder, containing all the pages with that attribute.<\/p>\n<p>This is HUGELY useful because it means I can &#8220;tag&#8221; information in a whole multitude of different ways:<\/p>\n<ul>\n<li>By customer<\/li>\n<li>By any number of different references that may exist (e.g. a request for change reference).<\/li>\n<li>How&#8217;s about atrtributes by date?  I can effectively create a journal by using attributes like &#8220;<span style=\"font-family:courier new;\">[Diary.2008.10:07]<\/span>&#8221; &#8211; then everything I did on that date is referenced from the index views under 2008 -&gt; 10 -&gt; 07.<\/li>\n<\/ul>\n<p>Another example is meetings &#8211; I write up meeting notes in my wiki with<br \/>attributes for like:<\/p>\n<p style=\"font-family:courier new;\">[Diary.2008.18:15]<br \/>[Customer:Random Corp]<br \/>[Meetings.Present:Dave Smith]<br \/>[Meetings.Present:Joe Bloggs]<\/p>\n<p>Thus helping me answer questions like &#8220;Wasn&#8217;t that mentioned in a meeting with Dave back in November?&#8221; quickly and easily.<\/p>\n<p>The todo&#8217;s are good too.  I can use keywords like &#8220;action&#8221;, &#8220;todo&#8221;, &#8220;done&#8221;, &#8220;track&#8221; and &#8220;question&#8221; to gather items that need my attention. If I write &#8220;<span style=\"font-family:courier new;\">action: Send documentation to account manager<\/span>&#8220;, this will appear in the index under my actions.  These can also be nested &#8211; so I can classify actions.  e.g. &#8220;<span style=\"font-family:courier new;\">todo.Personal: Book next year&#8217;s holiday<\/span>&#8220;, or &#8220;<span style=\"font-family:courier new;\">action.Objectives:Deliver storage improvement project<\/span>&#8220;.<\/p>\n<p>I&#8217;m not entirely clear in on the GTD philosophy &#8211; I know a little &#8211; but this is great, it allows me to group all my meeting actions and todo&#8217;s together, review them in one go, pick off the little ones that can be cleared down easily, and then focus on the bigger ones.<\/p>\n<p>The only thing that this doesn&#8217;t really allow is setting deadlines.  But I&#8217;m sure you could use some combination of todo&#8217;s and attributes to do this.<\/p>\n<p>In fact, it&#8217;s the combination of a page hierarchy (as in a standard Wiki), todos, and attributes, that make this tool powerful and flexible. You can really customise it to how you want to work!<\/p>\n<p>Of course, these&#8217;s a full search facililty, as well as the ability to produce lists of backlinks, rename pages while keeping WikiWords consistent, and you can do neat things like add little icons to your<br \/>hierarchy of pages.<\/p>\n<p>It&#8217;s a bit clunky at first but worth persevering with &#8211; it really has become my second brain (and it&#8217;s backed up to a memory stick FREQUENTLY!).  I also export all the pages to HTML every now and then so that Google Desktop can index them too.<\/p>\n<p>Hopefully that&#8217;s of use to someone.  Enjoy!  And if you&#8217;ve any other tips for productivity, let me know!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Recently someone asked if there was a good tool for dumping lots of stuff that was in their head in a GTD (Getting Things Done) manner. I use a tool called Wikidpad for this. It&#8217;s a desktop Wiki, which enabled you to write short or long notes, and link them together in a variety of [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "aside",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Brain Dumping with wikidpad - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Brain Dumping with wikidpad - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Recently someone asked if there was a good tool for dumping lots of stuff that was in their head in a GTD (Getting Things Done) manner. I use a tool called Wikidpad for this. It&#8217;s a desktop Wiki, which enabled you to write short or long notes, and link them together in a variety of [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-10-22T11:21:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/\",\"name\":\"Brain Dumping with wikidpad - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-10-22T11:21:00+00:00\",\"dateModified\":\"2008-10-22T11:21:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Brain Dumping with wikidpad\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Brain Dumping with wikidpad - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Brain Dumping with wikidpad - Ross Wintle",
+        "og_description": "Recently someone asked if there was a good tool for dumping lots of stuff that was in their head in a GTD (Getting Things Done) manner. I use a tool called Wikidpad for this. It&#8217;s a desktop Wiki, which enabled you to write short or long notes, and link them together in a variety of [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2008-10-22T11:21:00+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/",
+                    "url": "https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/",
+                    "name": "Brain Dumping with wikidpad - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2008-10-22T11:21:00+00:00",
+                    "dateModified": "2008-10-22T11:21:00+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2008\/10\/brain-dumping-with-wikidpad\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Brain Dumping with wikidpad"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/208"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=208"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 0,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/208\/revisions"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=208"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=208"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=208"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

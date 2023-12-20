@@ -1,0 +1,229 @@
+{
+    "id": 3227,
+    "date": "2018-01-29T23:22:59",
+    "date_gmt": "2018-01-29T23:22:59",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=3227"
+    },
+    "modified": "2018-01-30T11:56:14",
+    "modified_gmt": "2018-01-30T11:56:14",
+    "slug": "im-now-wordpress-gutenberg-developer",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/",
+    "title": {
+        "rendered": "Where I&#8217;m NOW at with WordPress: Gutenberg as a developer"
+    },
+    "content": {
+        "rendered": "<p><em>&#8220;As a developer, I think I&#8217;m coming around to the idea of the new WordPress Gutenberg editor. Here&#8217;s my updated thoughts and reflections.&#8221;<\/em><\/p>\n<p>My previous post about <a href=\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\">Gutenberg as a business owner and developer<\/a> got quite a lot of feedback from other people who felt a similar way, and generated some discussion. This is an update on that after exploring and thinking and conversing a bit about the topic.<\/p>\n<h3>What prompted the update?<\/h3>\n<p>This update stems from some thoughts that came about from doing Zac Gordon&#8217;s excellent video course on <a href=\"https:\/\/gutenberg.courses\/development\/\">Gutenberg for developers<\/a>.\u00a0 I reached a point on this course where I realised that if you create a custom Gutenberg block in the way that was being demonstrated in the course, it would save the block&#8217;s content to HTML, using a template that you define, in the post content. And if you decided to change the template that the block used to save its content then you would have to re-save every post that uses that block to update them all.<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Ooooooooh. <a href=\"https:\/\/twitter.com\/hashtag\/WordPress?src=hash&amp;ref_src=twsrc%5Etfw\">#WordPress<\/a> <a href=\"https:\/\/twitter.com\/hashtag\/gutenberg?src=hash&amp;ref_src=twsrc%5Etfw\">#gutenberg<\/a> Just realised that Gutenberg saves block markup\/output to post content when saving the post. If the markup for a block changes you&#39;ll have to re-save every post that uses that block. ?<\/p>\n<p>&mdash; Ross Wintle (@magicroundabout) <a href=\"https:\/\/twitter.com\/magicroundabout\/status\/957381194395594753?ref_src=twsrc%5Etfw\">January 27, 2018<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p><em>Note: some of you will be thinking &#8220;yes, but that&#8217;s not the only way to save data in Gutenberg&#8221;. And you&#8217;re right. And I&#8217;m coming to that!<\/em><\/p>\n<p>I actually got some good responses to the Tweet above. Matthew Haines-Young, in particular, made some comments that got me thinking:<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Think of these as separate things. One is an interface for editing. One is   the rendered output. Even if there is some overlap because you want them to look the same, they\u2019ll probable be quite different.<\/p>\n<p>&mdash; Matthew Haines-Young (@matth_eu) <a href=\"https:\/\/twitter.com\/matth_eu\/status\/957615443069538305?ref_src=twsrc%5Etfw\">January 28, 2018<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Well you can have the code to create the output markup in JS if you want it together. And probably in future there will be plugins that let you create a basic block UI in PHP. Or just have a directory for each block with a PHP and a JS file in it.<\/p>\n<p>&mdash; Matthew Haines-Young (@matth_eu) <a href=\"https:\/\/twitter.com\/matth_eu\/status\/957630683408666624?ref_src=twsrc%5Etfw\">January 28, 2018<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>I actually stopped replying to the conversation at that point because I wanted to think. I wanted to consolidate my thoughts.<\/p>\n<h3>So where are you at now?<\/h3>\n<p>I think what happened was this: while watching Zac&#8217;s videos (which I&#8217;m only part way through) I got stuck in the mindset of only having <code>registerBlockType<\/code>&#8216;s <code>edit<\/code>\u00a0and <code>save<\/code>\u00a0attributes to work with. These allow you to specify, in JavaScript, what the editing interface for your block looks like, and what information gets saved to the post content when the block is saved.<\/p>\n<p>So I was stuck with only these options. But also, I was stuck with the impression that this should be a WYSIWYG as possible: the editing experience should look much like the front end.<\/p>\n<p><strong>I realised that editing and displaying don&#8217;t need to look the same<\/strong><\/p>\n<p>My first change of mind was to realise that currently, in WordPress, my editing interface for most of my structured data &#8211; custom meta boxes &#8211; looks and works very differently to the output that&#8217;s generated (if any) from those meta boxes. So they can actually be very different things.<\/p>\n<p>In other words, the equivalent of <code>registerBlockType<\/code>&#8216;s edit setting is all my meta box code. And the equivalent of <code>registerBlockType<\/code>&#8216;s save setting is&#8230;well&#8230;it depends on where you&#8217;re saving your block data to.<\/p>\n<p>But if you&#8217;re saving the block&#8217;s content to post-meta (which is possible in Gutenberg) then I guess the save method doesn&#8217;t apply, I&#8217;m generating PHP in my template files, and I&#8217;m not really any worse off than I was when I was using custom meta boxes. The code for editing and output is very different and is in different places.<\/p>\n<p><strong>I realised that thoughtful code organisation can help solve the JS+PHP issue<\/strong><\/p>\n<p>Having accepted that it&#8217;s OK to save my data to post-meta and generate my output elsewhere, the next issue is the clumsy fact that I have code about the same block type in both JS and PHP.<\/p>\n<p>Why is this an issue? Well, mostly for reasons of understandability and maintainability of my code.<\/p>\n<p>So the question then is how can I structure the code for my blocks so that it all makes sense and is easily maintainable by future developers.<\/p>\n<p>Let&#8217;s be clear: having code about the same thing in both PHP and JS is never going to be great. But it&#8217;s going to happen more and more in modern web development that I have to describe my data in two very different places, so I kinda have to get used to this and figure out ways to work with it.<\/p>\n<p>Matthew&#8217;s idea of putting both PHP and JS for a block in the same directory is good and I&#8217;m sure there will be other architectural solutions to this.<\/p>\n<p>I then have questions like:<\/p>\n<ul>\n<li>How do I pull all the JS into the build process?<\/li>\n<li>Do I even want to pull all the JS into a build process, or should I avoid code that needs to be compiled\/transpiled?<\/li>\n<li>Do I want one big JS\/CSS file that loads on every page regardless of which blocks are used?<\/li>\n<li>If I want separate JS\/CSS for blocks, how do I configure the build process to make multiple outputs?<\/li>\n<\/ul>\n<p>And so on.<\/p>\n<p>So I&#8217;m not quite there with the detail. But nothing that can&#8217;t be worked out, I think.<\/p>\n<p>I still have a problem with post meta data being in blocks. It doesn&#8217;t always seem like the right thing. But that&#8217;s for future thought.<\/p>\n<h3>Can you sum up the technical bits?<\/h3>\n<p>I&#8217;ll try.<\/p>\n<ol>\n<li>My issues with Gutenberg from a development standpoint have been around how I can manage structured data that I would typically store in post meta.<\/li>\n<li>I trust that the Gutenberg developers will find an appropriate way to keep existing meta boxes working. PLEASE!!!<\/li>\n<li>For better or worse &#8211; probably both depending on&#8230;stuff &#8211; Gutenberg gives us a new way to build interfaces for that post meta.<\/li>\n<li>Yes, Gutenberg can save the data in a block to post meta!<\/li>\n<li>The editing interface for post meta, and the display of post meta do not have to look or work the same &#8211; they aren&#8217;t with the current meta boxes!<\/li>\n<li>There are ways that you can structure your code so that having PHP and JS code about the same data objects is understandable and maintainable and probably no worse than current solutions for building meta boxes.<\/li>\n<\/ol>\n<h3>Well, of course! Gosh, it took you a long time to figure that out?<\/h3>\n<p>Again, this may be what some of you are thinking.\u00a0 Let&#8217;s get a couple of things clear:<\/p>\n<p><strong>I&#8217;m struggling with this a bit<\/strong>. It&#8217;s a big change learning Gutenberg, bits of React, assessing it from both a user and developer perspective, talking to others, raising issues, making voices heard.\u00a0 It will change how I&#8217;m going to work and I&#8217;m trying to learn, process, think, and plan while looking after two small children, doing my day job, and having a life. So I&#8217;m sorry if I&#8217;m a bit behind.<\/p>\n<p>BUT&#8230;<strong>I hope that this process has shown that I&#8217;m\u00a0<em>trying<\/em><\/strong> to be as open minded as I can, and that, though I&#8217;m struggling, I want to be positive about Gutenberg.<\/p>\n<h3>Lessons<\/h3>\n<p>I think there are some lessons from this process too though.<\/p>\n<p>The people building Gutenberg are doing an AMAZING job. I can&#8217;t over-state that fact. But there&#8217;s this perfectly natural phenomenon whereby if you&#8217;re deeply involved in something and have been working on it for a long time, you&#8217;ve been on a journey of learning and understanding and changing your mindset that&#8217;s taken months.<\/p>\n<p>I&#8217;m trying to take that same mindset-changing journey in a shorter space of time and with lots of other things going on around me (GDPR anyone? A two-year-old&#8217;s birthday? My day job? ARGH <a href=\"https:\/\/wpbristol.co.uk\/developer-tools-tips-tricks-and-social-media-for-business-qa-tues-6th-feb\/\">I&#8217;M PRESENTING AT WORDPRESS BRISTOL PEOPLE NEXT WEEK<\/a>!!!).\u00a0 I&#8217;m playing catchup with limited mental capacity for it.<\/p>\n<p>And I sometimes feel like responses to questions or statements I&#8217;ve made about Gutenberg have been of the form &#8220;but it works if you use this method\/trick\/workaround, so what&#8217;s the problem?&#8221;, when actually, what&#8217;s needed isn&#8217;t a one-off workaround, but for me to have my mind changed about something more fundamental.<\/p>\n<p>This is NOT blaming any person for any specific comment or interaction. And us developers shouldn&#8217;t expect the Gutenberg developers to have time to be coaching us individually on changing our mindset (though they are having a really good job at trying).<\/p>\n<p>But it is an observation about communication that is limited by where different people are in their thinking, the time that people have, the written medium we have in GitHub issues and Tweets to convey complex ideas.\u00a0 And it&#8217;s as much my fault for leaping into discussions at the wrong times and places and without thinking things through before venting. For which I&#8217;m sorry.<\/p>\n<p>Basically, I&#8217;m an old dude who thinks hard about everything and is set in my old WordPressy ways &#8211; heck, I&#8217;d still be writing <a href=\"https:\/\/en.wikipedia.org\/wiki\/SPARK_(programming_language)\">SPARK Ada<\/a> if I could. It&#8217;s hard to teach me new things. You have to be slow and deliberate and careful. You can&#8217;t always just tell me stuff; sometimes I have to find it out for myself.<\/p>\n<p>And I suspect others are in the same boat.<\/p>\n<h3>So what&#8217;s next?<\/h3>\n<p>I&#8217;m choosing to persevere and I&#8217;m grateful to those who have helped.<\/p>\n<p>I see the opportunity, but I sense and understand a lot of developer unhappiness, and I still have some of my own too, and that has some good foundation in some cases.<\/p>\n<p>I&#8217;m starting to think this will be OK from a developer point of view. It will be hard, there is work to do, but it will be OK.<\/p>\n<p>If you, like me, are a WordPress developer getting to grips with all this, I urge you to persevere; to ask questions; to read <a href=\"https:\/\/wordpress.org\/gutenberg\/handbook\/\">the handbook<\/a>;\u00a0to\u00a0<a href=\"http:\/\/gutenberg.news\/\">track down the resources<\/a>\u00a0people are making available; to be in the learning process for the long game, not the quick win; and to remember as you do so that the answers may not be simple workarounds, they may be more difficult shifts of thinking.<\/p>\n<p>If you&#8217;re way ahead with thinking about Gutenberg then please remember to be gentle with old dinosaurs like me who lack a bit of <a href=\"https:\/\/en.wikipedia.org\/wiki\/Neuroplasticity\">neuroplasticity<\/a> and are trying their best to catch up. We may need more than a quick fix!<\/p>\n<p>I still have reservations about Gutenberg as a user, and I still think the upgrade process will be a shock to many who use WordPress. But as a developer, I think I&#8217;m coming around.<\/p>\n<p>And I hope you will too.<\/p>\n<p>&nbsp;<\/p>\n<p>&nbsp;<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>As a developer, I think I&#8217;m coming around to the idea of the new WordPress Gutenberg editor. Here&#8217;s my updated thoughts and reflections.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        639
+    ],
+    "tags": [
+        286,
+        677,
+        462
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Where I&#039;m NOW at with WordPress: Gutenberg as a developer - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Where I&#039;m NOW at with WordPress: Gutenberg as a developer - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"As a developer, I think I&#039;m coming around to the idea of the new WordPress Gutenberg editor. Here&#039;s my updated thoughts and reflections.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-29T23:22:59+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-30T11:56:14+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"8 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\",\"name\":\"Where I'm NOW at with WordPress: Gutenberg as a developer - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-01-29T23:22:59+00:00\",\"dateModified\":\"2018-01-30T11:56:14+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Where I&#8217;m NOW at with WordPress: Gutenberg as a developer\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Where I'm NOW at with WordPress: Gutenberg as a developer - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Where I'm NOW at with WordPress: Gutenberg as a developer - Ross Wintle",
+        "og_description": "As a developer, I think I'm coming around to the idea of the new WordPress Gutenberg editor. Here's my updated thoughts and reflections.",
+        "og_url": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2018-01-29T23:22:59+00:00",
+        "article_modified_time": "2018-01-30T11:56:14+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "8 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/",
+                    "url": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/",
+                    "name": "Where I'm NOW at with WordPress: Gutenberg as a developer - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2018-01-29T23:22:59+00:00",
+                    "dateModified": "2018-01-30T11:56:14+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Where I&#8217;m NOW at with WordPress: Gutenberg as a developer"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3227"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=3227"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 6,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3227\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 3240,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3227\/revisions\/3240"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=3227"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=3227"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=3227"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

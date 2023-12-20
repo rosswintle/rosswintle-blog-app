@@ -1,0 +1,79 @@
+<body><header><h1 data-pagefind-meta="title">Back to Turbo Admin</h1></header><main>
+<p>I’m FINALLY getting around to chipping away at <a href="https://turbo-admin.com/">Turbo Admin</a>&#8216;s next steps. Having decided to put off manifest v3 support (a browser extension thing that I will need to do at some point) I’m focussing on making the tool more “frameworky” and building an internal plugin/addon API.</p>
+
+
+
+<p>This won&#8217;t be something that the public can build for. At least, not initially. But it will allow me to apply a standard structure to many of the various &#8220;features&#8221; of Turbo Admin.</p>
+
+
+
+<p>Most of the existing features are currently in separate JS files/classes. But they are &#8220;pulled in&#8221; to the appropriate bits of palette code in an ad-hoc way.</p>
+
+
+
+<p>With the new code structure, they will register themselves and offer up features to the palette system, and they will (mostly) use a standard API to interact with the command palette. For example, they will be able to add items, save the palette state and clear it, and provide keyword-based &#8220;search modes&#8221;.</p>
+
+
+
+<p>These search modes are where most of the future power will lie. Typing &#8220;posts&#8221; will search posts using the REST API. Typing &#8220;plugin&#8221; could search your plugins. Typing &#8220;user&#8221; could initiate a user search. Or (and this is HUGE for me &#8211; and maybe for you!) typing &#8220;order&#8221; or &#8220;customer&#8221; could search WooCommerce!</p>
+
+
+
+<p>Many of these features are prototyped and living in branches in Git. Adding this core API is what will free me up to pull them all together into the product.</p>
+
+
+
+<p>But&#8230; how do you do this in JavaScript?</p>
+
+
+
+<h2 class="wp-block-heading">Frameworky JavaScript</h2>
+
+
+
+<p>I&#8217;m a PHP coder. So my natural instinct was to do something object-oriented. JavaScript is sort-of object oriented too. So I was hoping this would work. But it&#8217;s been a strange journey. How do I take my knowledge of how to structure large PHP apps, and turn it into JS architecture?</p>
+
+
+
+<p>One issue here is that very few tutorials seem to guide you through architecting with a given language. They show you the principles, but rarely build anything substantial where you get to see the principles applied at scale.</p>
+
+
+
+<p>So I&#8217;m figuring this out from scratch. And yes, I made mistakes along the way.</p>
+
+
+
+<p>I&#8217;ve ended up with an abstract class approach where each &#8220;plugin&#8221; inherits and extends the functionality of a base, abstract &#8220;plugin&#8221;.</p>
+
+
+
+<p>It seems that getting the level of abstraction right when you&#8217;re architecting something like this is REALLY difficult. And I&#8217;ve swung both ways. Sometimes with lots of duplicate/boilerplate code. And sometimes with lots of classes and objects flying around.</p>
+
+
+
+<p>It feels important to get it right, so that I don&#8217;t have to re-work all my plugins later. So the pressure is on.</p>
+
+
+
+<p>I don&#8217;t want to show you REAMS of code, but here&#8217;s an example of the kind of place I&#8217;m at:</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="859" src="https://rosswintle.uk/wp-content/uploads/2022/09/CleanShot-2022-09-22-at-21.04.52@2x-1024x859.png" alt="" class="wp-image-11341" srcset="https://rosswintle.uk/wp-content/uploads/2022/09/CleanShot-2022-09-22-at-21.04.52@2x-1024x859.png 1024w, https://rosswintle.uk/wp-content/uploads/2022/09/CleanShot-2022-09-22-at-21.04.52@2x-300x252.png 300w, https://rosswintle.uk/wp-content/uploads/2022/09/CleanShot-2022-09-22-at-21.04.52@2x-768x644.png 768w, https://rosswintle.uk/wp-content/uploads/2022/09/CleanShot-2022-09-22-at-21.04.52@2x-1536x1288.png 1536w, https://rosswintle.uk/wp-content/uploads/2022/09/CleanShot-2022-09-22-at-21.04.52@2x.png 1894w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Doing this sort of OO in JS feels very weird. I&#8217;m not quite sure it&#8217;s the right approach, and I&#8217;ve heard people frowning on JS classes (is that just a React thing?). But it works a treat, and I&#8217;m pretty sure this will soon allow me to start &#8220;merging in&#8221; all the various prototype code that I have lying around.</p>
+
+
+
+<p>Hopefully, evening by evening, little by little, it will start coming together, and the full power of command-pallette-driven WordPress and WooCommerce will reveal itself!</p>
+
+
+
+<p>Of course, if you like this sound of all this, please <a href="https://turbo-admin.com/try.html">give it a try (for free!)</a>, <a href="https://wordpress.org/plugins/turbo-admin/#reviews">review it</a>, <a href="https://chrome.google.com/webstore/detail/turbo-admin/hfafpihfemmbjhppilebphmcpepglkfp?hl=en-GB">rate it</a>, <a href="https://turbo-admin.com/">go and buy a license</a>, or share it with a friend or colleague, or <a href="https://twitter.com/turboadmn">Tweet me</a> something nice. This is a labour of love, and every ker-ching of a sale is an encouragement that I&#8217;m doing something useful. All these features will be in a free update in the future, so buy now to get locked in.</p>
+
+
+
+<p>Thanks for following along and for all your support.</p>
+</main></body>

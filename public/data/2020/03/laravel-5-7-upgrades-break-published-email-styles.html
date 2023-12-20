@@ -1,0 +1,54 @@
+<body><header><h1 data-pagefind-meta="title">Laravel 5.7 upgrades break published email styles</h1></header><main>
+<p>I&#8217;ve been updating some old Laravel apps and I just came across <a href="https://github.com/laravel/framework/issues/25597">this issue</a> with updating from 5.6 to 5.7. It&#8217;s noted in <a href="https://laravel.com/docs/5.7/upgrade">the upgrade docs</a> (see &#8220;Template Theme&#8221;) but easy to miss. I know I&#8217;ll come across this again, so it&#8217;s worth noting here for the future.</p>
+
+
+
+<p>If you have published your mail templates to customise them, when you upgrade to Laravel 5.7 the button classes change from <code>button-blue</code>, <code>button-green</code> and <code>button-red</code> to <code>button-primary</code>, <code>button-success</code>, and <code>button-error</code>.</p>
+
+
+
+<p>This results in the action button in the password reset email being white or unreadable because it has no background style.</p>
+
+
+
+<p>The fix for this is to edit <code>resources/views/vendor/mail/html/themes/default.css</code> and change:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+.button-blue {
+   ...
+}
+
+.button-green {
+   ...
+}
+
+.button-red {
+   ...
+}
+</pre></div>
+
+
+<p>to </p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+.button-blue,
+.button-primary {
+   ...
+}
+
+.button-green,
+.button-success {
+   ...
+}
+
+.button-red,
+.button-error {
+   ...
+}
+</pre></div>
+
+
+<p>You can see <a href="https://github.com/laravel/framework/blob/8e69728f1c80a024588adbd24c65c4fcf9aa9192/src/Illuminate/Mail/resources/views/html/themes/default.css#L212">the equivalent Laravel 5.7 file in GitHub</a>.</p>
+</main></body>

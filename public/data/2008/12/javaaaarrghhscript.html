@@ -1,0 +1,57 @@
+<body><header><h1 data-pagefind-meta="title">Javaaaarrghhscript</h1></header><main><p>Geeky post&#8230;sorry if you get lost.</p>
+<p>I&#8217;m still playing with Web Development languages and tools.  A few days in Devon with not much to do is a good time to invest in some self-learning and I&#8217;ve been given the O&#8217;Reilly <a href="http://oreilly.com/catalog/9780596514082/">JavaScript and DHTML Cookbook</a> for Christmas too, so I&#8217;m working through that.</p>
+<p>I&#8217;m pretty proficient with server-side scripting now, but it had limitatations and performance issues.  I&#8217;ve been so impressed by some of the Web 2.0-type sites out there (<a href="http://www.letsfreckle.com">www.letsfreckle.com</a>, <a href="http://www.twitter.com">www.twitter.com</a>, <a href="http://www.facebook.com">www.facebook.com</a>) that I feel I really need to get a handle on client-side scripting too.  That&#8217;s where JavaScript and DHTML come in.</p>
+<p>But I&#8217;m really not liking JavaScript.  See, I was educated with a quite deep knowledge of programming languages.  I&#8217;ve studied both imperative (statement-based) and declarative (logic-based) languages.  I&#8217;ve studied compiler construction and language structure and analysis.  I understand object-orientation.  I know what&#8217;s going on under the hood, and I know the pitfalls of various programming languages styles.</p>
+<p>I&#8217;ve also got a background in safety-critical software engineering.  Writing programs where you know what must happen and if that doesn&#8217;t happen then people&#8217;s lives are at risk.  I like to know what my programs are doing.</p>
+<p>And with JavaScript, most of the time, I don&#8217;t have a clue what&#8217;s going on!  The language makes so many guesses on your behalf, allows you to pass objects and functions as data and doesn&#8217;t (appear to) contain notation for distinguishing between passing parameters by value and by reference.</p>
+<p>To the uninitiated this will mean nothing&#8230;let&#8217;s take an example.  Lets say we want to write a little computer program called &#8220;add-one&#8221;.  This program has one input, a number, and one output, which will be the number plus one.</p>
+<p>The preferred way to do this is to write what&#8217;s called a &#8220;function&#8221;.  A function is a little program which gives you back a value.  Like this:</p>
+<pre style="padding-left:30px;">function add-one ( x )
+begin
+  return x + 1
+end</pre>
+<p>Here, x is the input and we &#8220;return&#8221; x + 1.  Simple.  So we can now do:</p>
+<pre style="padding-left:30px;">a = 1
+print a
+b = add-one ( a )
+print b</pre>
+<p>I hope you can see (I&#8217;m racing ahead) that this will print &#8220;1&#8221; then &#8220;2&#8221;.</p>
+<p>But you can also write this as what&#8217;s called a procedure.  A procedure does some &#8220;stuff&#8221; but doesnt return a value.  Like this:</p>
+<pre style="padding-left:30px;">procedure add-one ( x )
+begin
+  x = x + 1
+end</pre>
+<p>So what happens if we do the following with the procedure?:</p>
+<pre style="padding-left:30px;">a = 1
+print a
+add-one ( a )
+print a</pre>
+<p>&#8220;That&#8217;s easy!&#8221; you may say, &#8220;it prints 1 then 2 again&#8221;.  But it&#8217;s not that easy.  Sometimes the language will take a &#8220;copy&#8221; of x into the procedure and modify the copy, leaving the original untouched.  This is called &#8220;pass-by-value&#8221;.  Why would you want to do this?  Well, let&#8217;s write a procedure that has someone&#8217;s full name as an input and prints their first name:</p>
+<pre style="padding-left:30px;">procedure print-first-name ( name )
+begin
+  remove surname from name
+  print name
+end</pre>
+<p>In this case we only want &#8220;name&#8221; to change within the procedure or the following would not work:</p>
+<pre style="padding-left:30px;">my-name = "Fred Flintstone"
+print-first-name ( my-name ) 
+print-surname ( my-name )</pre>
+<p>Here, print-surname would not work because the print-first-name removed the surname from my-name.</p>
+<p>Your head probably aches now.</p>
+<p>Anyway, JavaScript does LOTS of this sort of thing where pass-by-vaue and pass-by-reference really make a difference.</p>
+<p>Another complication is that there&#8217;s two ways to create strings that return different types:</p>
+<pre style="padding-left:30px;">my-name1 = "Fred Flintstone";</pre>
+<p>and</p>
+<pre style="padding-left:30px;">my-name2 = new string("Fred Flintstone");</pre>
+<p>But these actualy do different things.  One creates a string <span style="text-decoration:underline;">value</span> and one creates a string <span style="text-decoration:underline;">object</span>.  And we find that:</p>
+<pre style="padding-left:30px;">my-name1 == my-name2</pre>
+<p>is true because the interpreter automatically converts the type but</p>
+<pre style="padding-left:30px;">my-name1 === my-name2</pre>
+<p>is false because it does type comparison too.</p>
+<p>It has a variable called &#8220;this&#8221;, which refers to different things in different contexts.</p>
+<p>And it doesn&#8217;t enforce important bits of syntax.  You&#8217;re supposed to end statements with a semi-colon, but if you split a statement over a line, then it will add the semi-colon at the line end (if that&#8217;s a valid place to end a statement).</p>
+<p>These are all very minor examples of how this is a complex, weakly-typed, language the enforces very little checking on the programmer, makes lots of assumptions about what you mean in your program, and doesn&#8217;t seem to give you ways to enforce the meaning that you want.</p>
+<p>All in all, I can see why so many web applications are so liable to not working.</p>
+<p>Perhaps with a proper JavaScript tutorial, rather than just a cookbook, I might get a better grasp of the language and find some strong typing and better structures.</p>
+<p>But for the moment it&#8217;s looking pretty complicated and chaotic!</p>
+</main></body>

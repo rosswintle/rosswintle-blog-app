@@ -1,0 +1,147 @@
+<body><header><h1 data-pagefind-meta="title">WordlePress &#8211; a silly (and very difficult) game for WordPress developers</h1></header><main>
+<p>Announcing (or re-announcing) <a href="https://wordlepress.netlify.app/">WordlePress</a>: a silly function-name guessing game for WordPress developers (and anyone else stupid enough to try).</p>
+
+
+
+<p><strong>This post serves as the help page/instructions for WordlePress until I get some proper help up on the actual WordlePress site.</strong></p>
+
+
+
+<p>Earlier this year, the daily Wordle puzzle was all the rage. And early on I suggested that &#8220;WordlePress&#8221; should be a thing. So I made something that may fit the name. Here&#8217;s how it works:</p>
+
+
+
+<h2 class="wp-block-heading">Background</h2>
+
+
+
+<p>WordPress core has over 900 global PHP functions with four underscore-separated &#8220;parts&#8221;, such as `wp_get_attachment_image`. This is a &#8220;function&#8221;, and each of the parts is a &#8220;word&#8221;.</p>
+
+
+
+<h2 class="wp-block-heading">Aim of the game</h2>
+
+
+
+<p>Each day (changing at midnight UTC) WordlePress selects a new 4-part function for you to guess. You need to guess all 4 &#8220;words&#8221; correctly to win.</p>
+
+
+
+<p>There is also the option to guess a randomly picked function name from the list to practice.</p>
+
+
+
+<p>When you win, or give up, the answer is shown and the documentation for the function is linked. So this is an educational tool too!</p>
+
+
+
+<p>The function list is from (I think) WordPress 5.9, released in January 2022. If it helps this is just after the first beta of the full-site editing feature was added to core.</p>
+
+
+
+<h2 class="wp-block-heading">How to play</h2>
+
+
+
+<p>Enter your word guesses in the four input boxes and click &#8220;Guess&#8221;. The result boxes will tell you how many of them are correct:</p>
+
+
+
+<ul>
+<li>A green box means you got the right word in the right position</li>
+
+
+
+<li>An orange box means you got a word that is in the function, but it&#8217;s in the wrong position</li>
+</ul>
+
+
+
+<p>The aim is to get all four result boxes to green!</p>
+
+
+
+<h3 class="wp-block-heading">Words and suggestions</h3>
+
+
+
+<p><a href="https://wordlepress.netlify.app">The game</a> helps you by only allowing words from the list of functions to be entered. There are 695 valid words and the game shows you how many you have not guessed with.</p>
+
+
+
+<p>To further help you, there is a &#8220;Suggest&#8221; button. This will choose random words from the unused words list for you and put them in the input boxes. If you have correctly guessed a word this is kept in the correct place.</p>
+
+
+
+<p>You will notice that the input boxes sometimes have coloured highlights:</p>
+
+
+
+<ul>
+<li>Red: You tried this word before and it&#8217;s not in the function</li>
+
+
+
+<li>Orange: You tried this word before and it&#8217;s in the function, but you didn&#8217;t get the right place</li>
+
+
+
+<li>Green: You&#8217;ve found this word in the correct place</li>
+</ul>
+
+
+
+<p>The game saves your progress across reloads but does not keep any player stats yet.</p>
+
+
+
+<h2 class="wp-block-heading">Limitations/roadmap</h2>
+
+
+
+<p>First of all, no, I&#8217;m not a designer. The game works but the UI needs improvement. I&#8217;m well aware of that. But it&#8217;s still perfectly playable for now.</p>
+
+
+
+<p>I&#8217;ve hacked this together fairly quickly (it&#8217;s not my finest code!) and some of the interaction is quite complex so I&#8217;m making not claims about the accessibility of this game.</p>
+
+
+
+<p>I&#8217;ve had a request to add a color-blind-friendly mode, and that will probably come soon.</p>
+
+
+
+<p>I&#8217;d love to add some player stats and an option to share your result to social media.</p>
+
+
+
+<h2 class="wp-block-heading">Technology</h2>
+
+
+
+<p>This game is built on a single HTML page (with some JS files loaded too) using vanilla CSS and a combination of vanilla JavaScript and <a href="https://www.alpinejs.dev/">AlpineJS</a>.</p>
+
+
+
+<p>It&#8217;s hosted on Netlify.</p>
+
+
+
+<p>It&#8217;s been hacked together quickly so is not my finest code and needs some refactoring!</p>
+
+
+
+<p>If you&#8217;re interested I previously <a href="https://rosswintle.uk/2022/03/wordlepress-and-nerding-out-about-wordpress-function-names/">wrote some stuff about how I made this</a> with some &#8220;interesting&#8221; stats on WordPress function names.</p>
+
+
+
+<h2 class="wp-block-heading">Contact/suggestions</h2>
+
+
+
+<p>If you have feedback or suggestions then please drop me a line &#8211; probably on social media. You can find all my details at <a href="https://rw.omg.lol/">https://rw.omg.lol/</a>. Just bear in mind this is a fun side-project, don&#8217;t expect first-class support.</p>
+
+
+
+<p>Thanks for playing! I hope you have fun and learn something.</p>
+</main></body>

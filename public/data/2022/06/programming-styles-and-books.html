@@ -1,0 +1,37 @@
+<body><header><h1 data-pagefind-meta="title">Programming styles and books</h1></header><main>
+<p>I confess, while I have my CS degree and am well-read, I&#8217;ve never read many of the &#8220;classics&#8221;: Clean Code, Refactoring, The Pragmatic Programmer. So with <a href="https://sandimetz.com/99bottles">Sandi Metz&#8217;s &#8220;99 Bottles of OOP&#8221;</a> on offer, I thought I&#8217;d make a start there.</p>
+
+
+
+<p>I&#8217;m trying to be disciplined about finishing old books/courses before starting new ones, but I was so intrigued and dived in.</p>
+
+
+
+<p>The book starts with an exercise that you&#8217;re supposed to spend 30 minutes on: Write the code to output the &#8220;99 bottles of beer on the wall&#8221; song.</p>
+
+
+
+<p>I completed the exercise in 16 minutes with what I considered an elegant solution that was neither too abstract nor too concrete. I made a lot of &#8220;YAGNI&#8221; (You Ain&#8217;t Gonna Need It) calls, for example.</p>
+
+
+
+<p>But here&#8217;s the kicker: it&#8217;s recursive!</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; quick-code: false; notranslate" title="">
+public function verses( $start, $end ) {
+    if ($start === $end) {
+        return $this-&gt;verse($start);
+    }
+
+    return $this-&gt;verse($start) . &quot;\n&quot; . $this-&gt;verses($start - 1, $end);
+}
+</pre></div>
+
+
+<p>I&#8217;m sure that this is not optimal in many ways. But the fact that, while working in a hurry, this solution came to mind tells you something about how I was taught computing. I&#8217;m very curious about where this book goes and what I learn from it.</p>
+
+
+
+<p>So on we go&#8230;with an open mind!</p>
+</main></body>

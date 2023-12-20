@@ -1,0 +1,59 @@
+<body><header><h1 data-pagefind-meta="title">Tech note: WordPress multisite in sub-domains redirects without path when you have a domain alias</h1></header><main>
+<p>Well this is a super-niche issue that I came across today. I don&#8217;t have an answer &#8211; maybe you do?</p>
+
+
+
+<p>I have a WP multisite running in sub-DIRECTORIES. And it has a domain alias pointing at it. There are some redirection plugins installed but these turned out to be irrelevant.</p>
+
+
+
+<p>The domain alias was redirecting to the main domain BUT… it was stripping any path off. So:</p>
+
+
+
+<p>https://my-domain-alias.com/some-path</p>
+
+
+
+<p>was being redirected to:</p>
+
+
+
+<p>https://my-domain.com/</p>
+
+
+
+<p>Which was annoying because I wanted the path so I could do further redirects.</p>
+
+
+
+<p>I experimented and eliminated the other redirection plugins as a cause.</p>
+
+
+
+<p>And then I added some stuff to <code>wp-config.php</code> to trap my requests. These WERE being triggered and so I eliminated the web server as a cause.</p>
+
+
+
+<p>So I figured WordPress core was doing a redirect to the main domain without the URL.</p>
+
+
+
+<p>There is a <a href="https://developer.wordpress.org/reference/functions/maybe_redirect_404/"><code>maybe_redirect_404</code></a> function that seems to do the redirect I&#8217;m describing and runs in multisite IF a <code>NOBLOGREDIRECT</code> constant is set. But this constant was NOT set.</p>
+
+
+
+<p>I then tried trapping the request in a must-use plugin, figuring that this was the earliest I could load anything custom, but this code wasn&#8217;t being hit!</p>
+
+
+
+<p>So this redirect was happening AFTER loading <code>wp-config.php</code> but before mu-plugins are loaded.</p>
+
+
+
+<p>It&#8217;s really odd. I&#8217;ve added the hacky fix of redirecting from <code>wp-config.php</code> but I&#8217;m not very happy about doing so!</p>
+
+
+
+<p>Does anyone with WP Multisite internals knowlegde know what&#8217;s going on here?</p>
+</main></body>

@@ -1,0 +1,188 @@
+{
+    "id": 329,
+    "date": "2009-03-04T23:14:28",
+    "date_gmt": "2009-03-04T23:14:28",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?page_id=329"
+    },
+    "modified": "2022-06-20T21:38:00",
+    "modified_gmt": "2022-06-20T20:38:00",
+    "slug": "projects",
+    "status": "publish",
+    "type": "page",
+    "link": "https:\/\/rosswintle.uk\/projects\/",
+    "title": {
+        "rendered": "Projects"
+    },
+    "content": {
+        "rendered": "\n<p>This is a collection of stuff that I&#8217;ve made.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Web applications and things<\/h3>\n\n\n\n<ul><li><a href=\"https:\/\/turbo-admin.com\/\">Turbo Admin<\/a> &#8211; A WordPress plugin and browser extension that adds a command palette, notice hiding and a bunch of other improvements to the WordPress dashboard.<\/li><li><a href=\"https:\/\/caniphp.com\/\">Can I PHP?<\/a> &#8211; Like caniuse.com but for PHP features.<\/li><li><a href=\"https:\/\/beyond-wp.com\/\">Beyond WP<\/a> &#8211; A resource that aims to level-up WordPress developers by introducing them to resources and tools from outside the WordPress space.<\/li><li><a href=\"https:\/\/twitter.com\/hey_schoolbot\">SchoolBot<\/a> &#8211; a smart, parent information system based on <a href=\"https:\/\/laravel.com\/\">Laravel<\/a> and <a href=\"https:\/\/botman.io\/\">BotMan<\/a><\/li><li><a href=\"https:\/\/twitter.com\/haswhatyet\">Has What Yet?<\/a> &#8211; Simple yes\/no status pages (on the best domain name I ever bought)<\/li><li><a href=\"https:\/\/www.zapthemap.com\/\">Zap the Map<\/a> &#8211; A surprisingly successful attempt to create a virtual <a href=\"https:\/\/beatthestreet.me\/\">Beat the Street<\/a><\/li><li><a href=\"https:\/\/tweet-finder.veryuseful.app\/\">Tweet Finder<\/a> &#8211; A simple interface to Twitter&#8217;s Advanced Search<\/li><li><a href=\"https:\/\/blog.kownter.com\/about-kownter\/\">Kownter<\/a> &#8211; An attempt at my own simple, privacy-aware website analytics tool, documenting progress as I go<\/li><li><a href=\"https:\/\/today-i.com\/\">Today I<\/a> &#8211; a tool to encourage and record daily creativity<\/li><li><a href=\"https:\/\/wptolaravel.com\/\">WP to Laravel<\/a> &#8211; A video course introducing the Laravel framework to WordPress developers<\/li><li><a href=\"http:\/\/press-ups.com\">Press Ups &#8211; simple WordPress training<\/a><\/li><li><a href=\"https:\/\/petition-track.uk\/\">Government Petition Tracker<\/a><\/li><li><a href=\"http:\/\/hasyourbabyarrivedyet.com\">hasyourbabyarrivedyet.com<\/a><\/li><li>swaptheworld.uk &#8211; This was an app I span up for swapping the &#8220;Build the World&#8221; trading cards.<\/li><li>wichelstowe.world &#8211; This was an app for tracking a round-the-world exercise challenge, very quickly converted from Today I&#8217;s code.<\/li><\/ul>\n\n\n\n<ul><li><a href=\"http:\/\/screentime.wintle.org\/\">ScreenTimer<\/a> &#8211; a simple screen timer, yes, ironically, on a screen<\/li><li><a href=\"https:\/\/rosswintle.uk\/swindon-quiz\/\">The Swindon Quiz<\/a><\/li><\/ul>\n\n\n\n<h3 class=\"wp-block-heading\">Plugins and Packages<\/h3>\n\n\n\n<ul><li><a href=\"https:\/\/github.com\/Peekobot\/peekobot\">Peekobot<\/a>&nbsp;(JS\/CSS) &#8211; a simple, choice-driven chatbot framework for your website written in less than 100 lines of ES6 vanilla JavaScript (and some CSS).<\/li><li><a href=\"https:\/\/github.com\/rosswintle\/laravel-asset-cache\">Laravel Asset Cache<\/a>&nbsp;(Laravel package) &#8211; Local caching for inclusion of JavaScript and CSS assets in Laravel projects<\/li><li><a href=\"https:\/\/wordpress.org\/plugins\/wp-quick-image\/\">WP Quick Image<\/a> (WordPress) &#8211; Like Quick Draft but for images &#8211; a quick way to post an image to WordPress<\/li><li><a href=\"https:\/\/wordpress.org\/plugins\/sync-pinboard\/\">Sync Pinboard<\/a> (WordPress) &#8211; Plugin to sun WordPress pins to a custom post type, complete with Gutenberg block for display of pins.<\/li><\/ul>\n\n\n\n<h3 class=\"wp-block-heading\">Articles and Podcasts elsewhere<\/h3>\n\n\n\n<ul><li><a href=\"https:\/\/deliciousbrains.com\/php-static-code-analysis\/\">Get Started with PHP Static Code\u00a0Analysis<\/a> &#8211; on Delicious Brains blog<\/li><li><a href=\"https:\/\/delicious-brains.castos.com\/podcasts\/12445\/episodes\/episode-12-javascript-for-backend-developers\">JavaScript for Back End Developers<\/a> &#8211; on Delicious Brains podcast<\/li><li><a href=\"https:\/\/delicious-brains.castos.com\/podcasts\/12445\/episodes\/episode-10-degrees-and-web-development-with-ahmed-iain-and-ross\">Degrees and Web Development<\/a> &#8211; on Delicious Brains podcast<\/li><\/ul>\n\n\n\n<h3 class=\"wp-block-heading\">Tech Talks<\/h3>\n\n\n\n<p>It&#8217;s been a privilege to speak at some WordPress-focussed tech conferences on not-WordPress-specific topics:<\/p>\n\n\n\n<ul><li><a href=\"https:\/\/vimeo.com\/463988477\">I Tried Writing Some Code\u2026 You Won\u2019t Believe What Happened Next!<\/a> (WordCamp London, 2019)<\/li><li><a href=\"http:\/\/wordpress.tv\/2016\/05\/28\/ross-wintle-user-experience-its-for-everyone\/\">User Experience \u2013 it\u2019s for&nbsp;everyone<\/a>&nbsp;(WordCamp London, 2016)<\/li><li><a href=\"http:\/\/wordpress.tv\/2016\/08\/09\/ross-wintle-you-are-creative\/\">You Are Creative<\/a>&nbsp;(WordCamp Brighton, 2016)<\/li><li><a href=\"http:\/\/wordpress.tv\/2017\/06\/06\/ross-wintle-why-and-how-to-use-screencasts-to-train-users\/\">Why and how to use screencasts to train users<\/a>&nbsp;(WordCamp London, 2017)<\/li><\/ul>\n\n\n\n<h3 class=\"wp-block-heading\">Blog Series<\/h3>\n\n\n\n<ul><li><a title=\"Controversial Commute Tips\" href=\"https:\/\/rosswintle.uk\/make-and-do\/controversial-cycle-commute-tips\/\" target=\"_self\" rel=\"noopener noreferrer\">Controversial Cycle Commute Tips<\/a><\/li><li><a title=\"Twitter Basics\" href=\"https:\/\/rosswintle.uk\/make-and-do\/twitter-basics\" target=\"_blank\" rel=\"noopener noreferrer\">Twitter Basics<\/a>&nbsp;(old now!)<\/li><\/ul>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>This is a collection of stuff that I&#8217;ve made. Web applications and things Turbo Admin &#8211; A WordPress plugin and browser extension that adds a command palette, notice hiding and a bunch of other improvements to the WordPress dashboard. Can I PHP? &#8211; Like caniuse.com but for PHP features. Beyond WP &#8211; A resource that [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 4,
+    "comment_status": "closed",
+    "ping_status": "open",
+    "template": "",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Projects - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/projects\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Projects - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This is a collection of stuff that I&#8217;ve made. Web applications and things Turbo Admin &#8211; A WordPress plugin and browser extension that adds a command palette, notice hiding and a bunch of other improvements to the WordPress dashboard. Can I PHP? &#8211; Like caniuse.com but for PHP features. Beyond WP &#8211; A resource that [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/projects\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:modified_time\" content=\"2022-06-20T20:38:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/projects\/\",\"url\":\"https:\/\/rosswintle.uk\/projects\/\",\"name\":\"Projects - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-03-04T23:14:28+00:00\",\"dateModified\":\"2022-06-20T20:38:00+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/projects\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/projects\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/projects\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Projects\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Projects - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/projects\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Projects - Ross Wintle",
+        "og_description": "This is a collection of stuff that I&#8217;ve made. Web applications and things Turbo Admin &#8211; A WordPress plugin and browser extension that adds a command palette, notice hiding and a bunch of other improvements to the WordPress dashboard. Can I PHP? &#8211; Like caniuse.com but for PHP features. Beyond WP &#8211; A resource that [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/projects\/",
+        "og_site_name": "Ross Wintle",
+        "article_modified_time": "2022-06-20T20:38:00+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Estimated reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/projects\/",
+                    "url": "https:\/\/rosswintle.uk\/projects\/",
+                    "name": "Projects - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2009-03-04T23:14:28+00:00",
+                    "dateModified": "2022-06-20T20:38:00+00:00",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/projects\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/projects\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/projects\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Projects"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/329"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/page"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=329"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 15,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/329\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 11159,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/329\/revisions\/11159"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=329"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

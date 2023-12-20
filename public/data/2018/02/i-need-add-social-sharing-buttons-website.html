@@ -1,0 +1,37 @@
+<body><header><h1 data-pagefind-meta="title">I need to add social sharing buttons to a website&#8230;</h1></header><main><p>I don&#8217;t like Twitter threads. I don&#8217;t like putting my content on a commercial platform that way where I&#8217;m the customer. BUT&#8230;I wrote a thread today and it got a lot of engagement. So it turns out they work.</p>
+<p>But I don&#8217;t want my content JUST sat on someone else&#8217;s servers. So I&#8217;m copying it here.</p>
+<p>Here&#8217;s a thread designed to help non-web people understand how something that seems trivial on a website can lead to so many micro-decisions needing to be made.</p>
+<h3>I need to add social sharing buttons to a website&#8230;</h3>
+<p>First of all, I could use a plugin. But most of the plugins for social sharing are terrible. Many use third party services with tracking. They often can&#8217;t be styled to match the site. So I&#8217;m not going with that approach.</p>
+<p>I could use standard buttons from the social media platforms themselves, but, though are nice to use and have good user interfaces, they are basically hidden tracking tags for the social networks. And they can&#8217;t be styled. So I&#8217;m not using them either.</p>
+<p>So I think I&#8217;ll use the basic sharing links, which aren&#8217;t quite as nice to use, but no-one uses these things anyway (Do they? Why do we have these buttons at all? Are they even needed?). I can generate those at <a href="http://sharingbuttons.io/">http://sharingbuttons.io/</a></p>
+<p>Now I have to actually add the icons themselves. We don&#8217;t use standard fixed-resolution images (jpg or png files) these days. So we&#8217;ll use some kind of &#8220;vector&#8221; that will look nice on any screen. I could use inline icons with SVG or an icon font like FontAwesome.</p>
+<p>But I don&#8217;t want to include the WHOLE of FontAwesome because it&#8217;s full of icons and code that I won&#8217;t use. (Unless I already am including it on this project for some reason. Am I? No, I&#8217;m not. OK.)</p>
+<p>And, actually, my links have text in and I&#8217;m using a CSS text-hiding technique to not show it. So I can&#8217;t use inline icons. I&#8217;ll have to use a positioned CSS pseudo-class. That works best with FontAwesome and the like but I think I&#8217;ve ruled that out for bloat. So&#8230;</p>
+<p>I think I&#8217;m back to using SVG. Probably positioned using CSS with the icon as a background image. So I need the icons as SVG&#8217;s. Sure I can find them somewhere. Ah! <a href="http://sharingbuttons.io/">http://sharingbuttons.io/</a> includes them. Hurrah! But they&#8217;re inline and I don&#8217;t want inline.</p>
+<p>So options are:</p>
+<p>&#8211; put each SVG in a separate file<br />
+&#8211; use an SVG sprite<br />
+&#8211; insert it directly into my CSS styles somehow</p>
+<p>Each of these has pros and cons.</p>
+<p>SVGs in separate files are maybe fine if you&#8217;re running HTTP2 on the web server which needs HTTPS as well.</p>
+<p>But I don&#8217;t really want lots of separate files.</p>
+<p>SVG sprites (which have more than one image in a single image file and you only show the bit you need) can be done, but it&#8217;s ugly.</p>
+<p>So including in my CSS seems like the favoured option.</p>
+<p>(I&#8217;m sure this is what I normally do, but I seem to go through this process every time. This thread is partly me documenting the process for the next time I go through it. Thanks for bearing with me.)</p>
+<p>Aside: My office mate is reading. We have agreed that front-end development is&#8230;a word that I won&#8217;t use. Oh how simple it was when you just inserted a image.</p>
+<p>But all these &#8220;retina&#8221; and &#8220;3x&#8221; devices came along, which is what &#8220;vector&#8221; graphics are great for.</p>
+<p>Needs must!</p>
+<p>Right, so I&#8217;ve got the SVG code from http://sharingbuttons.io/. All I need to do is encode it in BASE64, and stick it into my CSS &#8211; probably (as I&#8217;m using SASS) as a handy variable or mixin.</p>
+<p>Of course, the downside of this is that I won&#8217;t be able to re-style the icon as a different colour if I need to. But I THINK I&#8217;m only using them in white on this site. Hmm.</p>
+<p>Oh well. Off to Dan&#8217;s Tools to encode the icons. <a href="https://www.cleancss.com/base64-encode/">https://www.cleancss.com/base64-encode/</a></p>
+<p>So there we go. &#8220;Just&#8221; adding sharing buttons. Simple, huh?</p>
+<p>Hopefully that&#8217;s given some insight into the mind of a web developer.</p>
+<p>We have to think of future-proofing, performance, hi-res displays, privacy, accessibility, security, user experience &amp; more!</p>
+<p>Ta for reading!</p>
+<p><em>Note: this was the end of the thread, but then&#8230;</em></p>
+<p>Actually, I just found a better way. In this case I CAN inline the SVG in my HTML and then use CSS to absolutely position it thus avoiding the text-hiding. I could probably avoid the text-hiding with an icon font this way too. You learn/figure out every day on this job!</p>
+<p>Also, it wasn&#8217;t my intention to share this when I started, but if this has been of interest &amp; you want to know a bit more about how people like me have to think about what we&#8217;re making, I did a fun, fast-paced talk on User Experience a while back.</p>
+<p><iframe loading="lazy" width="640" height="360" src="https://www.youtube.com/embed/XskEx1b9n9g?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+<p>&nbsp;</p>
+</main></body>

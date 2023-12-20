@@ -1,0 +1,187 @@
+{
+    "id": 759,
+    "date": "2010-01-30T11:55:47",
+    "date_gmt": "2010-01-30T11:55:47",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?page_id=759"
+    },
+    "modified": "2010-01-30T11:55:47",
+    "modified_gmt": "2010-01-30T11:55:47",
+    "slug": "privacy-policy",
+    "status": "publish",
+    "type": "page",
+    "link": "https:\/\/rosswintle.uk\/privacy-policy\/",
+    "title": {
+        "rendered": "Privacy Policy"
+    },
+    "content": {
+        "rendered": "<p>A few simple facts about your privacy on my site:<\/p>\n<ol>\n<li>I use cookies to track visits to this site.<\/li>\n<li>A cookie is a small data file that is stored in your web browser and allows you to be identifed each time you visit.<\/li>\n<li>Cookies themselves do not contain any personal data about you and do not personally identify who you are. \u00a0Cookies don&#8217;t tell me who you are, but they tell me if you return to my site.<\/li>\n<li>I&#8217;m currently using both WordPress Stats and Google Analytics to track visits to the site.<\/li>\n<li>Both WordPress and Google may also store cookies in your web browser.<\/li>\n<li>The usage data collected is stored on WordPress and Google&#8217;s servers.<\/li>\n<li>I do not publish or share any of the collected usage data and have taken reasonable security precautions to protect any data collected.<\/li>\n<li>If you wish to opt out of this usage data collection then please disable cookies or use a browser plugin that disables Javascript such as <a title=\"NoScript Java Script Blocker for Firefox\" href=\"http:\/\/noscript.net\" target=\"_blank\">NoScript<\/a>.<\/li>\n<li>If you choose to comment then that&#8217;s great, but I have the last word on all comments and can choose to approve comments or not for any reason whatsoever.<\/li>\n<li>If you comment then, obviously, I collect and store additional information from you in order to let you do this. \u00a0This information may be published to make the comments system work. \u00a0Only provide this information if you are willing for it to be published on the internet.<\/li>\n<\/ol>\n<p>I don&#8217;t want to make reading my site full of legal complications, but I&#8217;m supposed to tell you these things.<\/p>\n<p>Thanks!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>A few simple facts about your privacy on my site: I use cookies to track visits to this site. A cookie is a small data file that is stored in your web browser and allows you to be identifed each time you visit. Cookies themselves do not contain any personal data about you and do [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 99,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Privacy Policy - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/privacy-policy\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Privacy Policy - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A few simple facts about your privacy on my site: I use cookies to track visits to this site. A cookie is a small data file that is stored in your web browser and allows you to be identifed each time you visit. Cookies themselves do not contain any personal data about you and do [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/privacy-policy\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/privacy-policy\/\",\"url\":\"https:\/\/rosswintle.uk\/privacy-policy\/\",\"name\":\"Privacy Policy - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-01-30T11:55:47+00:00\",\"dateModified\":\"2010-01-30T11:55:47+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/privacy-policy\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/privacy-policy\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/privacy-policy\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Privacy Policy\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Privacy Policy - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/privacy-policy\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Privacy Policy - Ross Wintle",
+        "og_description": "A few simple facts about your privacy on my site: I use cookies to track visits to this site. A cookie is a small data file that is stored in your web browser and allows you to be identifed each time you visit. Cookies themselves do not contain any personal data about you and do [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/privacy-policy\/",
+        "og_site_name": "Ross Wintle",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/privacy-policy\/",
+                    "url": "https:\/\/rosswintle.uk\/privacy-policy\/",
+                    "name": "Privacy Policy - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2010-01-30T11:55:47+00:00",
+                    "dateModified": "2010-01-30T11:55:47+00:00",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/privacy-policy\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/privacy-policy\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/privacy-policy\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Privacy Policy"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/759"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/page"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=759"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/759\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 760,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/759\/revisions\/760"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=759"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

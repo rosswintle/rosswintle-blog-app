@@ -1,0 +1,81 @@
+<body><header><h1 data-pagefind-meta="title">The Oikos Site re-build &#8211; Part 1</h1></header><main>
+<p>I hate my own business website. I built it quickly with a page builder. Like this site it&#8217;s kinda deliberately minimalist because I&#8217;m not a designer, and yes, it&#8217;s better than previous iterations.</p>
+
+
+
+<p>But there&#8217;s so much I don&#8217;t like about it.</p>
+
+
+
+<p>And I&#8217;m working, behind the scenes, with <a href="https://statamic.com/">Statamic</a>, trying to get to a point where I can use it on client projects. I started trying to rebuild my blog on Statamic and I got so far, but there&#8217;s reasons I don&#8217;t think this will work for MY particular blog (that&#8217;s not to say I wouldn&#8217;t use Statamic for other blogs &#8211; it&#8217;s just that my blog is actually a bit more than a blog right now).</p>
+
+
+
+<p>My business site, however, is perfect for converting to Statamic.</p>
+
+
+
+<p>So off I set.</p>
+
+
+
+<h2 class="wp-block-heading">The super-minimal SUCSS approach</h2>
+
+
+
+<p>I&#8217;ve writing about <a href="https://rosswintle.uk/2019/01/my-new-css-framework-sucss/">my jokingly-named &#8220;SUCSS&#8221; approach to CSS</a> before. But the basic premise is that I&#8217;m fed up of node-based build tools and complex frameworks, and CSS now has things like custom properties (i.e. variables) and calc and flexbox that are supported well enough to make them OK to use in vanilla form.</p>
+
+
+
+<p>So my aim is &#8211;  for small sites at least &#8211; to ditch the build process entirely, work in vanilla CSS (and vanilla JS where needed too) and, for my own site, just keep things as small and simple as possible.</p>
+
+
+
+<p>I&#8217;m not a designer and I&#8217;m embracing that with few images and a super-simple design. This will aid page weight and load times and make my site clean, lean and green! Nice!</p>
+
+
+
+<p>I confess that my starting point was, for whatever reason, a compiled, vanilla-CSS version of Bootstrap 4. I&#8217;ve ditched 95% of it, but I know the grid and can work easily with the grid, so I&#8217;ve kept that, and used the rest as a &#8220;reset&#8221; and built upon it. This has worked out just fine!</p>
+
+
+
+<h2 class="wp-block-heading">Centre-align is a cheap trick that doesn&#8217;t always work</h2>
+
+
+
+<p>At one point I kinda forgot to add <code>text-align: centre</code> to a block and when I looked at it it looked better! So I started left-aligning everything and it actually &#8211; I think &#8211; looks neater and smarter. Who&#8217;d have thought &#8211; I was blindly following trends in my own non-designery way, and it turns out that centre-aligning stuff isn&#8217;t always the best way.</p>
+
+
+
+<p>So, I&#8217;m still learning. Lots. Every day.</p>
+
+
+
+<div class="wp-block-columns has-2-columns is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="853" src="https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.29.30-1024x853.png" alt="Old Oikos site with WordPress and a page builder" class="wp-image-8405" srcset="https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.29.30-1024x853.png 1024w, https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.29.30-300x250.png 300w, https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.29.30-768x640.png 768w, https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.29.30.png 1210w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>Old Oikos site with WordPress and a page builder</figcaption></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="860" src="https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.39.20-1024x860.png" alt="New, Statamic-powered, vanilla CSS, site with no page-builder!" class="wp-image-8407" srcset="https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.39.20-1024x860.png 1024w, https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.39.20-300x252.png 300w, https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.39.20-768x645.png 768w, https://rosswintle.uk/wp-content/uploads/2019/06/Screenshot-2019-06-20-at-10.39.20.png 1177w" sizes="(max-width: 1024px) 100vw, 1024px" /><figcaption>New, Statamic-powered, vanilla CSS, site with no page-builder!</figcaption></figure>
+</div>
+</div>
+
+
+
+<h2 class="wp-block-heading">Results</h2>
+
+
+
+<p>So far, and this is without adding in a navigation, search or my <a href="https://blog.kownter.com">Kownter analytics</a>, I&#8217;ve got the homepage down from 1.74MB over 33 requests to 67.5K over 4 requests. This is about 4% as big as the existing page.</p>
+
+
+
+<p>THIS is why I wanted to hand-code my own templates. Statamic isn&#8217;t really influencing page load at all &#8211; well, maybe some WordPressy cruft is gone. But Statamic IS making building a template super easy!</p>
+
+
+
+<p></p>
+</main></body>

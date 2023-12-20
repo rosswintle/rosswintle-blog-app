@@ -1,0 +1,157 @@
+<body><header><h1 data-pagefind-meta="title">Laravel 8, Jetstream and learning Laravel</h1></header><main>
+<p>UPDATE &#8211; 6/10/2020</p>
+
+
+
+<p>This article was written before the Jetstream Drama over the weekend and it&#8217;s worth clarifying a few things, and saying what I&#8217;ve learned from the drama.</p>
+
+
+
+<ol><li>I really hope I didn&#8217;t contribute any hate. That&#8217;s really NOT my intention. I&#8217;ve tried to say that I think Laravel and Jetstream are amazing things and Taylor has my utmost respect and thanks. My comments are meant to be entirely constructive. And I&#8217;ve presented small, concrete things that I think could improve first-time experience with Jetstream for some audiences.</li><li>I come at this from the point of view of someone who&#8217;s far from a Laravel expert &#8211; I&#8217;m really still learning. But that&#8217;s part of my point: for someone in my position, Jetstream feels a bit inaccessible.</li><li>Taylor Otwell (the creator of Laravel) <a href="https://www.youtube.com/watch?v=krn39HjxPTs">has clarified</a> that he made Jetstream as the kind of thing that HE would use. So in some ways, any critique of it from a less-experienced Laravel developer&#8217;s perspective (which is what this article presents) isn&#8217;t valid. Is it fair to say that it seems this is not a tool intended for beginners with the framework?</li><li>However, I feel that with a few small changes and some additions to the documentation, it could be made more accessible for beginners and this would be a good thing for everyone.</li><li>Yes, I should have read more of the docs before diving in. But Jetstream seems too inviting, I dived in headfirst and so got stuck. That&#8217;s a lesson for me. </li><li>It&#8217;s because I think Laravel and Jetstream are awesome that I&#8217;d love them to be more accessible to more developers. Jetstream is actually a really good example of a set of components and classes at work, and it could serve as some easily explorable code demonstrating good practices. Auth scaffolding is like the &#8220;Hello world&#8221; of Laravel and I&#8217;d love for it to be as easy for the first time Laravel dev to explore as it is for the experienced one.</li></ol>
+
+
+
+<hr class="wp-block-separator"/>
+
+
+
+<p>Laravel 8 is out today, along with the amazing new &#8220;Jetstream&#8221; authentication scaffolding that has been built.</p>
+
+
+
+<p>So I&#8217;ve just worked through doing a quick install and had a poke around and it is incredible what you get out of the box now. But also, I have two issues with it. This isn&#8217;t really a rant, I do love it. Just observations and possible things that could be thought about for the future.</p>
+
+
+
+<h3 class="wp-block-heading">1. The barrier to entry is too high now</h3>
+
+
+
+<p>If you install Laravel + Jetstream (the Livewire version), you are now faced with this as your welcome template:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+&lt;x-app-layout&gt;
+    &lt;x-slot name=&quot;header&quot;&gt;
+        &lt;h2 class=&quot;font-semibold text-xl text-gray-800 leading-tight&quot;&gt;
+            Dashboard
+        &lt;/h2&gt;
+    &lt;/x-slot&gt;
+
+    &lt;div class=&quot;py-12&quot;&gt;
+        &lt;div class=&quot;max-w-7xl mx-auto sm:px-6 lg:px-8&quot;&gt;
+            &lt;div class=&quot;bg-white overflow-hidden shadow-xl sm:rounded-lg&quot;&gt;
+                &lt;x-jet-welcome /&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/x-app-layout&gt;
+
+</pre></div>
+
+
+<p>My first question was &#8220;How can I customise the welcome component? That <code>&lt;x-jet-welcome /&gt;</code> bit?</p>
+
+
+
+<p>And so I spent half an hour tracking down the <code>JetstreamServiceProvider.php</code> which registers all the components using this method:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+protected function registerComponent(string $component)
+    {
+        Blade::component('jetstream::components.'.$component, 'jet-'.$component);
+    }
+</pre></div>
+
+
+<p>And what&#8217;s super-annoying about this is that:</p>
+
+
+
+<p>a) Because the <code>registerComponent()</code> method dynamically prefixes the component name with <code>'jet-</code>&#8216;, you can&#8217;t search the code for the full component name and find where it&#8217;s registered</p>
+
+
+
+<p>b) Even if you could, it wouldn&#8217;t help very much finding the component template, but it would at least leave you able to search for the component name and find something!</p>
+
+
+
+<p>So anyone without a pretty good grasp of Blade components and how to dive around in the vendor directory to find stuff, is going to be a bit stuck!</p>
+
+
+
+<p>Unless they notice that you can publish the components (if you know what that means), which you need to do to modify them. Sure, you can find out about publishing the components by reading <a href="https://jetstream.laravel.com/1.x/installation.html#livewire-components">the Jetstream docs</a>. But I was keen to dive in and thought it would be easy to see how to edit what is effectively the &#8220;Hello world&#8221; page.</p>
+
+
+
+<p>I feel like if I came from basic PHP, or some other eco system into Laravel now, I&#8217;d get stuck pretty quickly. There&#8217;s a LOT of implied knowledge needed to get started: Tailwind; Blade Components; Livewire/Inertia.</p>
+
+
+
+<p>That barrier to entry just got a whole heap higher!</p>
+
+
+
+<h3 class="wp-block-heading">2. There&#8217;s too much out of the box</h3>
+
+
+
+<p><em>[Note: Taylor took note of people&#8217;s feedback on this and has disabled the API and profile photos by default as of <a href="https://github.com/laravel/jetstream/releases/tag/v1.3.2">version 1.3.2</a>!]</em></p>
+
+
+
+<p>I was on <a href="https://www.youtube.com/watch?v=E8pZvl6L5N4">a live-streamed chat</a> with some WordPress friends today about the benefits of looking into Laravel if you&#8217;re a WordPress developer.</p>
+
+
+
+<p>And one thing I said was that so often with WordPress core and many plugins, I find myself with too much stuff and wanting to turn some of it off.</p>
+
+
+
+<p>I really think that the out-of-the box Laravel Jetstream setup has too much turned on:</p>
+
+
+
+<ul><li>API tokens</li><li>Profile photos</li><li>2FA</li><li>Account deleting</li></ul>
+
+
+
+<p>I LOVE that I could turn these on with a single-line-of-code change, but, perhaps with the exception of 2FA, should these really all be on by default? I&#8217;m really not sure they should, and my first step on many projects will be to turn some of these features off.</p>
+
+
+
+<p>This is easy enough to do: the <code>config/jetstream.php</code> file has a features array that allows you to turn off profile pictures and the API bits:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+    'features' =&gt; &#x5B;
+        Features::profilePhotos(),
+        Features::api(),
+        // Features::teams(),
+    ],
+</pre></div>
+
+
+<p> But I still think they should be off by default!</p>
+
+
+
+<h3 class="wp-block-heading">In summary</h3>
+
+
+
+<p>As a slightly-experienced Laravel developer, this is all really exciting stuff, if a little enigmatic in places &#8211; how DOES this stuff work!?</p>
+
+
+
+<p>But as someone who wants to introduce people to Laravel as a way to build cool stuff, I really feel like there are some issues here.</p>
+
+
+
+<p>But who am I to say? Kudos to Taylor and the team for an awesome release.</p>
+
+
+
+<p>I&#8217;m off to build something!</p>
+</main></body>

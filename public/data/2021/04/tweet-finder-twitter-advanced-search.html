@@ -1,0 +1,122 @@
+<body><header><h1 data-pagefind-meta="title">Mini Project: Tweet Finder &#8211; Twitter Advanced Search</h1></header><main>
+<p><em>How and why I made <a href="https://tweet-finder.veryuseful.app/">a simple interface for Twitter&#8217;s advanced search</a>.</em></p>
+
+
+
+<p>This has been on my mind for ages.</p>
+
+
+
+<p>I often search for Tweets that I remember seeing. And Twitter has this advanced search that lets you search Tweets from and to specific users, on or between specific dates, mentioning specific users or hashtags, and some other things.</p>
+
+
+
+<p>This advanced search is hard to get to: you need to do a simple search, and then click the settings dots, and then select &#8220;Advanced search&#8221; and THEN you get a pop up with the options.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Twitter Advanced Search - getting to it!" src="https://player.vimeo.com/video/536005074?dnt=1&amp;app_id=122963" width="640" height="373" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>So it&#8217;s hard to get to. But it&#8217;s also hard to use.</p>
+
+
+
+<ul><li>I have to think twice about whether or not usernames need @&#8217;s before them;</li><li>once you&#8217;ve done a search, it defaults to &#8220;Top&#8221; Tweets, which i rarely want;</li><li>the options pop-up resets itself so refining your search is tricky.</li></ul>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Advanced Twitter Search - weird options experience" src="https://player.vimeo.com/video/536009269?dnt=1&amp;app_id=122963" width="640" height="373" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>So I&#8217;ve had this idea for a while that someone could probably pretty easily figure out how the parameters are sent to Twitter&#8217;s search page and create a simpler interface.</p>
+
+
+
+<p>And, though I&#8217;m sure someone must have done it before, that&#8217;s exactly what I did.</p>
+
+
+
+<p>I&#8217;ve started with the options I use most. Condensed the search query into a single field with explainer, and added &#8220;from account&#8221; and &#8220;to account&#8221;. This covers quite a lot of bases:</p>
+
+
+
+<ul><li>Find that Tweet I sent about&#8230;</li><li>Find that Tweet I sent to @specific_person about&#8230;</li><li>Find that Tweet someone sent to me about&#8230;</li><li>Find that Tweet the @specifc_person sent to me about&#8230;</li><li>Find that recent conversation I had with @specific_person</li></ul>
+
+
+
+<p>I figured out the parameters, created a form, gave it some styling and shoved it online using <a href="https://netlify.com/">Netlify</a> &#8211; it&#8217;s only a single HTML file and some Tailwind styles so static hosting is fine.</p>
+
+
+
+<p>Try it at <a href="https://tweet-finder.veryuseful.app/">https://tweet-finder.veryuseful.app/</a></p>
+
+
+
+<h2 class="wp-block-heading">Creator notes</h2>
+
+
+
+<p>Creating the form was pretty simple.</p>
+
+
+
+<p>I had to use a bit of vanilla JavaScript to improve the experience: adding @&#8217;s to usernames where they aren&#8217;t provided so that you don&#8217;t have to think about it and compiling the form data into a query string.</p>
+
+
+
+<p>When it came to styling, it was total overkill, but I wanted to see how easy it was to add TailwindCSS to such a simple project.</p>
+
+
+
+<p>Initially I got confused by <a href="https://tailwindcss.com/docs/installation">the documentation</a> which very much assumes you&#8217;re already using a framework or build tool, or otherwise have PostCSS in a toolchain somehow.</p>
+
+
+
+<p>I was about to give up but eventually found the &#8220;<a href="https://tailwindcss.com/docs/installation#using-tailwind-without-post-css">Using Tailwind without PostCSS</a>&#8221; section. This is really not that hard to find but for some reason I ignored it the first time I read through. Maybe I thought this was about the &#8220;include vast amounts of CSS using <a href="https://tailwindcss.com/docs/installation#using-tailwind-via-cdn">the CDN version</a>&#8221; approach? Not sure.</p>
+
+
+
+<p>Anyway, with a simple <code>npx</code> command (once you&#8217;ve got node and everything sorted out) you can get going.</p>
+
+
+
+<p>I wanted to use <a href="https://github.com/tailwindlabs/tailwindcss-forms">the forms plugin</a> so I had to <a href="https://tailwindcss.com/docs/installation#customizing-your-configuration">init myself a Tailwind config file</a>, create a <a href="https://github.com/rosswintle/tweet-finder/blob/main/src/tailwind.css">boilerplate custom CSS file</a>, create a <code>package.json</code> (did the <code>npx</code> command do this for me?) and add <code>@tailwindcss/forms</code> to it as a dependency.</p>
+
+
+
+<p>Suddenly I was doing a lot, and I now had custom build commands to remember, so I added these to my <code>package.json</code> too:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; title: ; notranslate" title="">
+&quot;scripts&quot;: {
+    &quot;build&quot;: &quot;npx tailwindcss-cli@latest build ./src/tailwind.css -o ./dist/tailwind.css&quot;,
+    &quot;prod&quot;: &quot;NODE_ENV=production npx tailwindcss-cli@latest build ./src/tailwind.css -o ./dist/tailwind.css&quot;
+  },
+</pre></div>
+
+
+<p>So I can now <code>npm run build</code> or <code>npm run prod</code> to get what I need.</p>
+
+
+
+<p>I don&#8217;t have a hot-reloading dev environment or anything, but don&#8217;t really need that for this single-page HTML thing.</p>
+
+
+
+<p>And yes, let me say it again, Tailwind IS overkill, and it&#8217;s technical debt, and I&#8217;m generally against build processes for simple websites, but, hey, we learned some stuff, right! That was the aim.</p>
+
+
+
+<p>You can see <a href="https://github.com/rosswintle/tweet-finder/">the code on GitHub</a>.</p>
+
+
+
+<p>And dont forget to use the search at <a href="https://tweet-finder.veryuseful.app/">tweet-finder.veryuseful.app</a> !</p>
+</main></body>

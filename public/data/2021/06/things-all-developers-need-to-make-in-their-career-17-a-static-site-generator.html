@@ -1,0 +1,99 @@
+<body><header><h1 data-pagefind-meta="title">Things all developers need to make in their career #17: A static site generator</h1></header><main>
+<p>There&#8217;s a sort-of-joke that there&#8217;s a bunch of things that all developers are supposed to code from scratch at some point in their career. A blog. A to-do list app. The &#8220;canonical&#8221; applications. And one of these is a static site generator.</p>
+
+
+
+<p>I&#8217;ve actually never built any of these things from scratch. But while making <a href="https://turbo-admin.com/">Turbo Admin</a> I wanted to make a really simple landing page. I wanted to use TailwindCSS, because I can work quickly with that and use <a href="https://tailwindui.com">TailwindUI</a>. And to use Tailwind properly you kinda need to have &#8220;components&#8221;, or at least &#8220;template partials&#8221;.</p>
+
+
+
+<p>So I kinda needed a way to do &#8220;HTML includes&#8221;. Which is a thing that doesn&#8217;t exist.</p>
+
+
+
+<p>I put the feelers out for a SUPER simple solution for doing this. Ideally I wanted to avoid a huge <code>node_modules</code> folder, and a tool that would at some point require me to downgrade node by three versions just to update a CSS class or change a hyperlink.</p>
+
+
+
+<p>Responses to this were:</p>
+
+
+
+<ul><li>FlightPHP &#8211; Micro-framework. Does routing, but not static output. via <a href="https://twitter.com/BinaryMoon">Ben Gilbanks</a>.</li><li>The <a href="https://medium.com/objects-in-space/considering-a-static-site-tool-learn-gulp-2fd5f9821fc4">Gulp-only approach</a> &#8211; Needs Gulp. Will probably break at some point. Also via <a href="https://twitter.com/BinaryMoon">Ben Gilbanks</a>.</li><li>Jekyll &#8211; Tried it before. Didn&#8217;t like it. Got confused by all the Ruby stuff. Also via <a href="https://twitter.com/BinaryMoon">Ben Gilbanks</a>.</li><li><a href="https://codekitapp.com/help/kit/">CodeKit</a> &#8211; Looks good, but needs CodeKit. ALSO via <a href="https://twitter.com/BinaryMoon">Ben Gilbanks</a>.</li><li><a href="https://www.11ty.dev/">11ty</a> &#8211; Which looks awesome but starts with <code>npm install</code>, and then I looked at <a href="https://www.11ty.dev/docs/resources/">the docs</a> and was overwhelmed. So big nope. via Pretty Much Everyone Else.</li><li><a href="https://mozilla.github.io/nunjucks/">Nunjucks</a> &#8211; Which is a &#8220;a more sophisticated templating engine for JavaScript&#8221;, which meets neither my requirement for something super-simple, nor my desire to avoid JavaScript in the build. It probably needs something like Gulp as well. via <a href="https://twitter.com/richard_bell">Richard Bell</a> and <a href="https://twitter.com/dogwonder">Rich Holman</a>.</li></ul>
+
+
+
+<p>Then I started to think: &#8220;Hang on a minute. This is a basic function of PHP isn&#8217;t it? This is just <code>&lt;?php include('some_partial.php') ?&gt;</code>. Can&#8217;t I just run PHP on the command line to transform files? I&#8217;ll probably have PHP installed forever anyway, and it&#8217;s very unlikely to break. Is PHP not the magic I need?&#8221;</p>
+
+
+
+<p><a href="https://twitter.com/edwario/status/1393275855829274625">Scott Edward Carver</a> backed me up: &#8220;I sometimes use a build process which runs php files in the root directory, outputs to an .html of the same name&#8221;.</p>
+
+
+
+<p>YES SCOTT!!!! THANK YOU!!!</p>
+
+
+
+<p><a href="https://twitter.com/ryangjchandler">Ryan Chandler</a> (who is literally one of the most helpful and prolific people on the PHP internet) then chipped in with: <code>extract($data); include __DIR__.'/path/to/view.php; // ;)</code></p>
+
+
+
+<p>It turns out Ryan has built a quick-and-dirty vanilla-PHP-based static site generator script in the past. He called his <a href="https://github.com/ryangjchandler/mink">Mink</a>, and describes it as: &#8220;It&#8217;s disgusting really. Using globals, you can only call <code>extend()</code> at the very end of a template file. You have to define the name of a slot in the <code>stop</code> function.&#8221; And he says it&#8217;s &#8220;for educational purposes (obvs)&#8221;</p>
+
+
+
+<p>But it turns out that while Ryan was trying to find where he had a lefotver copy of this script so I could see it, I was already building something VERY similar.</p>
+
+
+
+<p>And, yeah, I guess it is &#8220;disgusting&#8221;. But it works a charm and totally fulfills my criteria:</p>
+
+
+
+<ul><li>Super-simple</li><li>Constraints that I&#8217;m 100% happy with</li><li>Ability to extend a layout template of your choosing, and pass data to it</li><li>Ability to include partials and pass data to them</li><li>Ability to have &#8220;environment variables&#8221;</li><li>Simple build process</li><li>Minimal dependencies</li></ul>
+
+
+
+<p>I COULD wrap this up in a fancy command line with <a href="https://laravel-zero.com/">Laravel Zero</a> or <a href="https://twitter.com/erikaheidi">Erika Heidi</a>&#8216;s <a href="https://github.com/minicli/minicli">Mini CLI</a>. But I don&#8217;t need to.</p>
+
+
+
+<p>I COULD make this a PHP composer-installable package. But why should I?</p>
+
+
+
+<p>I&#8217;m probably not going to update it. It&#8217;s a &#8220;finished&#8221; piece of software as far as I&#8217;m concerned.</p>
+
+
+
+<p>It&#8217;s unlikely to stop working in the near future.</p>
+
+
+
+<p>So let&#8217;s keep it REALLY simple. Like I did with <a href="https://peekobot.github.io/peekobot/">Peekobot</a>.</p>
+
+
+
+<p>It&#8217;s just 160-odd lines of PHP in a Gist:</p>
+
+
+
+<p><a href="https://gist.github.com/rosswintle/c1f466250879e1281afe1bab72bed65d">https://gist.github.com/rosswintle/c1f466250879e1281afe1bab72bed65d</a></p>
+
+
+
+<p>Take it. Download it. Use it. Modify it. Make it do what YOU need it to do.</p>
+
+
+
+<p>Combined with the new <a href="https://tailwindcss.com/docs/installation#using-tailwind-cli">TailwindCSS CLI</a> tool, I can now have simple, static sites, with almost-zero-dependency build processes! Amazing.</p>
+
+
+
+<p>So yes, I guess I built a static site generator.</p>
+
+
+
+<p>Now&#8230;what&#8217;s next. Todo app?</p>
+</main></body>

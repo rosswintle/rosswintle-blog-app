@@ -1,0 +1,236 @@
+{
+    "id": 2632,
+    "date": "2017-05-17T09:54:30",
+    "date_gmt": "2017-05-17T08:54:30",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=2632"
+    },
+    "modified": "2017-05-17T10:24:23",
+    "modified_gmt": "2017-05-17T09:24:23",
+    "slug": "getting-grips-laravels-service-container",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/",
+    "title": {
+        "rendered": "Getting to grips with Laravel&#8217;s service container"
+    },
+    "content": {
+        "rendered": "<p><strong>I finally feel like I&#8217;m getting to grips with Laravel&#8217;s service container. I&#8217;ve understood HOW it works and WHAT is does for a while, but it&#8217;s taken a simple, real-world example to pull it all together and make it all &#8220;stick&#8221;.<\/strong><\/p>\n<p>Disclaimer: I may still have all this wrong, in which case correct me in the comments. I also note that while Laravel is opinionated, sometimes there&#8217;s many ways to do a particular job, so this may not be the only way to solve my problem.<\/p>\n<p>Also, while I&#8217;m pre-ambling, I find myself talking to quite a lot of WordPress developers about the benefits of Laravel so I&#8217;m thinking of doing a couple of screencasts introducing the differences and benefits. If this is of interest leave a note in the comments. If there&#8217;s demand I&#8217;ll record some &#8220;Laravel for WordPressers&#8221; tutorials and let you know when they&#8217;re up.<\/p>\n<h3>Example: Application stats<\/h3>\n<p>Here&#8217;s my simple example that I think fits really well. I have a really simple side-project application that has users and actions, and a relationship between the two: every action has a user, and every user has zero or more actions.<\/p>\n<p>I want to display in this application some statistics about how many actions have been taken by all users over different time periods.<\/p>\n<p>This is really simple data to get in Laravel:<\/p>\n<pre class=\"brush: php; title: ; notranslate\" title=\"\">\r\n$dayCount = App\\Action::whereDate( Carbon\\Carbon::now()-&gt;toDateString() )-&gt;count();\r\n<\/pre>\n<p>But I wanted to wrap this up into a class so that I could write:<\/p>\n<pre class=\"brush: php; title: ; notranslate\" title=\"\">\r\n$dayCount = App\\Stats-&gt;dayCount;\r\n<\/pre>\n<p>and so that I could implement any caching that might be necessary to improve performance.<\/p>\n<p>But where should I put this code within Laravel? And how do I load it and make it available when I need it?<\/p>\n<p>The service container is the answer.<\/p>\n<h3>Where do I put the stats code?<\/h3>\n<p>The answer is, it doesn&#8217;t really matter all that much. I chose to just create a class in <code>\/app<\/code>\u00a0and in the <code>\\App<\/code>\u00a0namespace, so I have, in the file <code>app\/stats.php<\/code>:<\/p>\n<pre class=\"brush: php; title: ; notranslate\" title=\"\">\r\n&lt;?php\r\n\r\nnamespace App;\r\n\r\nuse App\\Action;\r\nuse Carbon\\Carbon;\r\n\r\nclass Stats\r\n{\r\n\r\n  \/* Code *\/\r\n\r\n}\r\n<\/pre>\n<p>And then a bunch of simple methods and properties that do all the calculations and store the results. I use the constructor of this class to run all the queries and populate the class properties with the counts. Simple.<\/p>\n<h3>How do I load the code?<\/h3>\n<p>This is the weird bit, particularly for a developer who&#8217;s so deep in WordPress and so used to just <code>require<\/code>ing everything I need. \u00a0Laravel doesn&#8217;t have a <code>require<\/code>\u00a0in sight. It&#8217;s using the composer autoloader to load PHP files and the service providers\/container to create instances of classes when needed.<\/p>\n<p>So this is where the service container comes in. The service container is Laravel&#8217;s way of loading stuff like this into the application and making it available.<\/p>\n<p>You can think of the application as just a bunch of services. When you need a service you grab it from the container. \u00a0Most Laravel code is using services all the time without you knowing it. It hides the details of what&#8217;s going on behind facades and helper functions. Auth, cookies, sessions, mail, caching and views are all provided by Laravel services. For example, when setting a session you might use the <code>session()<\/code>\u00a0helper function, like this:<\/p>\n<p><code>session()-&gt;get( 'savedData' );<\/code><\/p>\n<p>This is just getting you a (or the) session object from the service container and running the get method of it.<\/p>\n<p>But how do services get into the container?<\/p>\n<p>Well, you create a service provider, or add it to an existing service provider.<\/p>\n<p>A service provider is a simple class that has two methods.<\/p>\n<ul>\n<li><code>register()<\/code>, which places the service into the container by registering it and;<\/li>\n<li><code>boot()<\/code>, which is called after all services are registered and allows you do do some initialisation<\/li>\n<\/ul>\n<p>My stats class needs the application to be set up before it runs the calculation so I&#8217;m registering it in the <code>boot()<\/code> method, like this:<\/p>\n<pre class=\"brush: php; title: ; notranslate\" title=\"\">\r\npublic function boot()\r\n    {\r\n        $this-&gt;app-&gt;singleton( Stats::class, function () {\r\n            return new Stats();\r\n        });\r\n\r\n    }\r\n<\/pre>\n<p>And I&#8217;m registering it as a singleton so that there&#8217;s only ever one instance as the class will instantiate once and then just be referred to. (Question: Is this any better than making things static?)<\/p>\n<p>I then need to register the service provider in <code>config\/app.php<\/code>, which is easy; just add this to the list of providers:<\/p>\n<p><code>App\\Providers\\StatsServiceProvider::class,<\/code><\/p>\n<p>So we now have the class, we&#8217;ve created the service provider to shove it into the service container for later use, and we&#8217;ve registered the service provider with Laravel. Laravel starts up, knows about the service provider, runs <code>register()<\/code>, which does nothing, and later runs <code>boot()<\/code>\u00a0which instantiates the class instance and puts it into the service container for when it&#8217;s needed.<\/p>\n<p>Nice.<\/p>\n<p>I can then access the class whenever I need, either:<\/p>\n<ul>\n<li>explicitly from the container (which is the <code>App<\/code> class) by using <code>App::make( 'App\\Stats' )<\/code><\/li>\n<li>explicitly using the <code>app()<\/code>\u00a0helper: <code>app( 'App\\Stats' )<\/code><\/li>\n<li>using dependency injection through type hinting (or so I believe, I&#8217;ve not tried this out!)<\/li>\n<\/ul>\n<p>In my case, I actually want the stats to appear in pretty much every view that I load, and there&#8217;s a shortcut for that, which is to &#8220;share&#8221; the data with the views by adding this to the <code>boot()<\/code>\u00a0method of the service provider:<\/p>\n<p><code>View::share('stats', app('App\\Stats'));<\/code><\/p>\n<p>Every view (or a component of every view) can then have access to the stats without me having to explicitly make the stats available in every controller method. \u00a0So my blade templates can just do:<\/p>\n<p><code>&lt;strong&gt;Today:&lt;\/strong&gt; {{ $stats-&gt;dayCount }}<\/code><\/p>\n<p>Neat! (But use wisely)<\/p>\n<h3>Conclusion<\/h3>\n<p>Hopefully I did all this right and explained it well.<\/p>\n<p>Yes, this is a very simple example and perhaps the service container is overkill for loading this class. But I think it&#8217;s a simple and real enough example that it helps us see how to add this kind of generic, re-usable functionality into our app.<\/p>\n<p>I certainly understand the service container better having done this. Hopefully you will too.<\/p>\n<p>For greater completness, most of the code files involved are shown in <a href=\"https:\/\/gist.github.com\/rosswintle\/428ae8a3e0c215a7b3ecbfd186b5520c\">this Gist<\/a>.<\/p>\n<p>&nbsp;<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I finally feel like I&#8217;m getting to grips with Laravel&#8217;s service container. I&#8217;ve understood HOW it works and WHAT is does for a while, but it&#8217;s taken a simple, real-world example to pull it all together and make it all &#8220;stick&#8221;. Disclaimer: I may still have all this wrong, in which case correct me in [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        642,
+        23
+    ],
+    "tags": [
+        387,
+        645,
+        643,
+        569,
+        644,
+        547,
+        646
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Getting to grips with Laravel&#039;s service container - Ross Wintle<\/title>\n<meta name=\"description\" content=\"Getting to grips with Laravel&#039;s service container: It&#039;s taken a simple, real-world example to pull it all together and make it all &quot;stick&quot;.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Getting to grips with Laravel&#039;s service container - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Getting to grips with Laravel&#039;s service container: It&#039;s taken a simple, real-world example to pull it all together and make it all &quot;stick&quot;.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2017-05-17T08:54:30+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2017-05-17T09:24:23+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/\",\"url\":\"https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/\",\"name\":\"Getting to grips with Laravel's service container - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2017-05-17T08:54:30+00:00\",\"dateModified\":\"2017-05-17T09:24:23+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"description\":\"Getting to grips with Laravel's service container: It's taken a simple, real-world example to pull it all together and make it all \\\"stick\\\".\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Getting to grips with Laravel&#8217;s service container\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Getting to grips with Laravel's service container - Ross Wintle",
+        "description": "Getting to grips with Laravel's service container: It's taken a simple, real-world example to pull it all together and make it all \"stick\".",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Getting to grips with Laravel's service container - Ross Wintle",
+        "og_description": "Getting to grips with Laravel's service container: It's taken a simple, real-world example to pull it all together and make it all \"stick\".",
+        "og_url": "https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2017-05-17T08:54:30+00:00",
+        "article_modified_time": "2017-05-17T09:24:23+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "5 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/",
+                    "url": "https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/",
+                    "name": "Getting to grips with Laravel's service container - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2017-05-17T08:54:30+00:00",
+                    "dateModified": "2017-05-17T09:24:23+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "description": "Getting to grips with Laravel's service container: It's taken a simple, real-world example to pull it all together and make it all \"stick\".",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2017\/05\/getting-grips-laravels-service-container\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Getting to grips with Laravel&#8217;s service container"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2632"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2632"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 4,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2632\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 2636,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2632\/revisions\/2636"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2632"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2632"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2632"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

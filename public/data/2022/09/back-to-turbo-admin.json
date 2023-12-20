@@ -1,0 +1,229 @@
+{
+    "id": 11340,
+    "date": "2022-09-22T21:36:07",
+    "date_gmt": "2022-09-22T20:36:07",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=11340"
+    },
+    "modified": "2022-09-22T21:36:09",
+    "modified_gmt": "2022-09-22T20:36:09",
+    "slug": "back-to-turbo-admin",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/",
+    "title": {
+        "rendered": "Back to Turbo Admin"
+    },
+    "content": {
+        "rendered": "\n<p>I\u2019m FINALLY getting around to chipping away at <a href=\"https:\/\/turbo-admin.com\/\">Turbo Admin<\/a>&#8216;s next steps. Having decided to put off manifest v3 support (a browser extension thing that I will need to do at some point) I\u2019m focussing on making the tool more \u201cframeworky\u201d and building an internal plugin\/addon API.<\/p>\n\n\n\n<p>This won&#8217;t be something that the public can build for. At least, not initially. But it will allow me to apply a standard structure to many of the various &#8220;features&#8221; of Turbo Admin.<\/p>\n\n\n\n<p>Most of the existing features are currently in separate JS files\/classes. But they are &#8220;pulled in&#8221; to the appropriate bits of palette code in an ad-hoc way.<\/p>\n\n\n\n<p>With the new code structure, they will register themselves and offer up features to the palette system, and they will (mostly) use a standard API to interact with the command palette. For example, they will be able to add items, save the palette state and clear it, and provide keyword-based &#8220;search modes&#8221;.<\/p>\n\n\n\n<p>These search modes are where most of the future power will lie. Typing &#8220;posts&#8221; will search posts using the REST API. Typing &#8220;plugin&#8221; could search your plugins. Typing &#8220;user&#8221; could initiate a user search. Or (and this is HUGE for me &#8211; and maybe for you!) typing &#8220;order&#8221; or &#8220;customer&#8221; could search WooCommerce!<\/p>\n\n\n\n<p>Many of these features are prototyped and living in branches in Git. Adding this core API is what will free me up to pull them all together into the product.<\/p>\n\n\n\n<p>But&#8230; how do you do this in JavaScript?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Frameworky JavaScript<\/h2>\n\n\n\n<p>I&#8217;m a PHP coder. So my natural instinct was to do something object-oriented. JavaScript is sort-of object oriented too. So I was hoping this would work. But it&#8217;s been a strange journey. How do I take my knowledge of how to structure large PHP apps, and turn it into JS architecture?<\/p>\n\n\n\n<p>One issue here is that very few tutorials seem to guide you through architecting with a given language. They show you the principles, but rarely build anything substantial where you get to see the principles applied at scale.<\/p>\n\n\n\n<p>So I&#8217;m figuring this out from scratch. And yes, I made mistakes along the way.<\/p>\n\n\n\n<p>I&#8217;ve ended up with an abstract class approach where each &#8220;plugin&#8221; inherits and extends the functionality of a base, abstract &#8220;plugin&#8221;.<\/p>\n\n\n\n<p>It seems that getting the level of abstraction right when you&#8217;re architecting something like this is REALLY difficult. And I&#8217;ve swung both ways. Sometimes with lots of duplicate\/boilerplate code. And sometimes with lots of classes and objects flying around.<\/p>\n\n\n\n<p>It feels important to get it right, so that I don&#8217;t have to re-work all my plugins later. So the pressure is on.<\/p>\n\n\n\n<p>I don&#8217;t want to show you REAMS of code, but here&#8217;s an example of the kind of place I&#8217;m at:<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"859\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/CleanShot-2022-09-22-at-21.04.52@2x-1024x859.png\" alt=\"\" class=\"wp-image-11341\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/CleanShot-2022-09-22-at-21.04.52@2x-1024x859.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/CleanShot-2022-09-22-at-21.04.52@2x-300x252.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/CleanShot-2022-09-22-at-21.04.52@2x-768x644.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/CleanShot-2022-09-22-at-21.04.52@2x-1536x1288.png 1536w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/CleanShot-2022-09-22-at-21.04.52@2x.png 1894w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>Doing this sort of OO in JS feels very weird. I&#8217;m not quite sure it&#8217;s the right approach, and I&#8217;ve heard people frowning on JS classes (is that just a React thing?). But it works a treat, and I&#8217;m pretty sure this will soon allow me to start &#8220;merging in&#8221; all the various prototype code that I have lying around.<\/p>\n\n\n\n<p>Hopefully, evening by evening, little by little, it will start coming together, and the full power of command-pallette-driven WordPress and WooCommerce will reveal itself!<\/p>\n\n\n\n<p>Of course, if you like this sound of all this, please <a href=\"https:\/\/turbo-admin.com\/try.html\">give it a try (for free!)<\/a>, <a href=\"https:\/\/wordpress.org\/plugins\/turbo-admin\/#reviews\">review it<\/a>, <a href=\"https:\/\/chrome.google.com\/webstore\/detail\/turbo-admin\/hfafpihfemmbjhppilebphmcpepglkfp?hl=en-GB\">rate it<\/a>, <a href=\"https:\/\/turbo-admin.com\/\">go and buy a license<\/a>, or share it with a friend or colleague, or <a href=\"https:\/\/twitter.com\/turboadmn\">Tweet me<\/a> something nice. This is a labour of love, and every ker-ching of a sale is an encouragement that I&#8217;m doing something useful. All these features will be in a free update in the future, so buy now to get locked in.<\/p>\n\n\n\n<p>Thanks for following along and for all your support.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I\u2019m FINALLY getting around to chipping away at Turbo Admin&#8217;s next steps. But how do I make &#8220;frameworky&#8221; things in JavaScript?<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        286,
+        64,
+        107,
+        181,
+        462,
+        582
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Back to Turbo Admin - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Back to Turbo Admin - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I\u2019m FINALLY getting around to chipping away at Turbo Admin&#039;s next steps. But how do I make &quot;frameworky&quot; things in JavaScript?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2022-09-22T20:36:07+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-09-22T20:36:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/CleanShot-2022-09-22-at-21.04.52@2x-1024x859.png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/\",\"url\":\"https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/\",\"name\":\"Back to Turbo Admin - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2022-09-22T20:36:07+00:00\",\"dateModified\":\"2022-09-22T20:36:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Back to Turbo Admin\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Back to Turbo Admin - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Back to Turbo Admin - Ross Wintle",
+        "og_description": "I\u2019m FINALLY getting around to chipping away at Turbo Admin's next steps. But how do I make \"frameworky\" things in JavaScript?",
+        "og_url": "https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2022-09-22T20:36:07+00:00",
+        "article_modified_time": "2022-09-22T20:36:09+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/CleanShot-2022-09-22-at-21.04.52@2x-1024x859.png"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/",
+                    "url": "https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/",
+                    "name": "Back to Turbo Admin - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2022-09-22T20:36:07+00:00",
+                    "dateModified": "2022-09-22T20:36:09+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2022\/09\/back-to-turbo-admin\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Back to Turbo Admin"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11340"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11340"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11340\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 11342,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11340\/revisions\/11342"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11340"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11340"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11340"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

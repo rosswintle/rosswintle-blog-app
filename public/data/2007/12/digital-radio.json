@@ -1,0 +1,222 @@
+{
+    "id": 95,
+    "date": "2007-12-31T16:19:00",
+    "date_gmt": "2007-12-31T16:19:00",
+    "guid": {
+        "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/12\/31\/digital-radio\/"
+    },
+    "modified": "2007-12-31T16:19:00",
+    "modified_gmt": "2007-12-31T16:19:00",
+    "slug": "digital-radio",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/",
+    "title": {
+        "rendered": "Digital Radio"
+    },
+    "content": {
+        "rendered": "<p>We&#8217;ve been toying with the idea of digital radio for a while.  We listen to the radio quite a lot and it&#8217;s been annoying us that we get bad reception in the new house.<\/p>\n<p>But DAB radio&#8217;s are expensive and we&#8217;ve questioned the value.  Several of our friends have them though &#8211; a surprising number in fact! &#8211; and with moving out of London meaning we get less access to stations like XFM that we like, we decided to look into them a bit more closely.<\/p>\n<p>I, with my techie hat on, was looking for features.  We like the &#8220;live pause and rewind&#8221; on our Sky+ box, and I was hoping to get that functionality in the radio too &#8211; should be simple enough you would think.  I also wanted to be able to plug an iPod into it &#8211; preferable through a line-in socket.  Sally, with her aesthetics hat on (we&#8217;re a good team) wouldn&#8217;t let me get a cheap, plastic-looking one &#8211; preferring the slightly vintage look of the Pure and Robert&#8217;s models.<\/p>\n<p>We tested the water by getting a cheap (\u00a335) Roberts clock radio.  A lot of our listening is done in bed as we attempt to wake up, so this seemed like a good way to try it out.  And&#8230;<\/p>\n<p>I was astonished!<\/p>\n<p>I thought we&#8217;d get poor reception, with it constantly breaking up.  But, no.  DAB, here in Swindon at least, is crystal clear.  We get a good range of stations.  The sound quality is excellent.  And the radios are incredibly easy to use &#8211; I don&#8217;t say that lightly by the way, but you literally plug it in and it works with barely a button press.<\/p>\n<p>We were SO impressed that we almost immediately went to Amazon and spent a lot more money on a Pure Evoke 1S for the kitchen.  Which is equally easy to use, crystal clear, well built, has most of the technical features I wanted (not live pause and rewind &#8211; surprisingly few models had this!), and looks the business.<\/p>\n<p>I&#8217;d happily evangelise DAB radio to anyone.  If you&#8217;re thinking you have reason to switch &#8211; do it!<\/p>\n<p>I still think the receivers aren&#8217;t particularly good value but in this case I&#8217;m happy to pay the premium for being a fairly-early adopter.  Perhaps prices will come down as take-up increases?  Or maybe the signal is sufficiently poor on other places to limit its take up.  I guess only time will tell.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>We&#8217;ve been toying with the idea of digital radio for a while. We listen to the radio quite a lot and it&#8217;s been annoying us that we get bad reception in the new house. But DAB radio&#8217;s are expensive and we&#8217;ve questioned the value. Several of our friends have them though &#8211; a surprising number [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "aside",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Digital Radio - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Digital Radio - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"We&#8217;ve been toying with the idea of digital radio for a while. We listen to the radio quite a lot and it&#8217;s been annoying us that we get bad reception in the new house. But DAB radio&#8217;s are expensive and we&#8217;ve questioned the value. Several of our friends have them though &#8211; a surprising number [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-12-31T16:19:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/\",\"name\":\"Digital Radio - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-12-31T16:19:00+00:00\",\"dateModified\":\"2007-12-31T16:19:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Digital Radio\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Digital Radio - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Digital Radio - Ross Wintle",
+        "og_description": "We&#8217;ve been toying with the idea of digital radio for a while. We listen to the radio quite a lot and it&#8217;s been annoying us that we get bad reception in the new house. But DAB radio&#8217;s are expensive and we&#8217;ve questioned the value. Several of our friends have them though &#8211; a surprising number [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2007-12-31T16:19:00+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/",
+                    "url": "https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/",
+                    "name": "Digital Radio - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2007-12-31T16:19:00+00:00",
+                    "dateModified": "2007-12-31T16:19:00+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2007\/12\/digital-radio\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Digital Radio"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/95"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=95"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 0,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/95\/revisions"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=95"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=95"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=95"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,75 @@
+<body><header><h1 data-pagefind-meta="title">Simple free domain redirection with Netlify</h1></header><main>
+<p><em>Note: I&#8217;m jotting this down quickly while I remember &#8211; I may expand it with example code in future.</em></p>
+
+
+
+<p>It&#8217;s always frustrated me that to redirect one domain to another domain can be tricky and costly.</p>
+
+
+
+<p>Yes, some domain/DNS providers let you do this, but not all.</p>
+
+
+
+<p>And yes, you might be able to add the source domain to the hosting for the target domain. </p>
+
+
+
+<p>But if, for some reason, you can&#8217;t do either of those things. You kinda have to pay for a small hosting account just to do the redirects. </p>
+
+
+
+<p>However, today I went looking into whether you can do this for free with GitHub Pages or Netlify or something, and <a href="https://netlify.com/">Netlify</a> has come up trumps!</p>
+
+
+
+<p>It turns out you can add a <code>_redirects</code> file to your Netlify site. This file lets you do reasonably sophisticated redirecting with wildcards and placeholders and status code control. Neat! Map your domain, and you get HTTPS for free too.</p>
+
+
+
+<p>You can add a site to Netlify by dragging and dropping files into the &#8220;Dropzone&#8221; or, if you&#8217;re happy using Git, you can deploy from a Git repository.</p>
+
+
+
+<figure class="wp-block-image size-large is-resized"><img loading="lazy" decoding="async" src="https://rosswintle.uk/wp-content/uploads/2021/02/CleanShot-2021-02-05-at-18.37.53-1024x694.png" alt="Screengrab showing Netlify's &quot;Dropzone&quot; for creating new sites" class="wp-image-9891" width="768" height="521" srcset="https://rosswintle.uk/wp-content/uploads/2021/02/CleanShot-2021-02-05-at-18.37.53-1024x694.png 1024w, https://rosswintle.uk/wp-content/uploads/2021/02/CleanShot-2021-02-05-at-18.37.53-300x203.png 300w, https://rosswintle.uk/wp-content/uploads/2021/02/CleanShot-2021-02-05-at-18.37.53-768x520.png 768w, https://rosswintle.uk/wp-content/uploads/2021/02/CleanShot-2021-02-05-at-18.37.53.png 1258w" sizes="(max-width: 768px) 100vw, 768px" /></figure>
+
+
+
+<h2 class="wp-block-heading">Documentation</h2>
+
+
+
+<p>Netlify&#8217;s documentation explains the details of how this works and the redirects file format.</p>
+
+
+
+<ul><li><a href="https://docs.netlify.com/routing/redirects/">Details of the redirection feature</a></li><li><a href="https://docs.netlify.com/routing/redirects/redirect-options/">_redirects file format</a></li></ul>
+
+
+
+<p>The one gotcha I found is that you do actually have to deploy a file other than <code>_redirects</code> into your Netlify site. Otherwise the deployment gets stuck. But don&#8217;t create an index.html as this will be served as a default for the domain breaking any fallback redirect. So I suggest creating a <code>404.html</code> or something.</p>
+
+
+
+<h2 class="wp-block-heading">Process</h2>
+
+
+
+<ul><li>Create a folder on your computer with a <code>404.html</code> (this can contain whatever you need) and a <code>_redirects</code> file.</li><li>Edit the redirects file to add the rules you need</li><li>Log in to Netlify &#8211; create an account if you don&#8217;t have one</li><li>Click &#8220;Sites&#8221; in the Netlify menu and scroll down (if you need to) to the Dropzone (as seen in the image above)</li><li>Drag and drop the folder from your cpmputer into the drop zone to create the site (you can drag and drop the folder to update the site&#8217;s files too)</li><li>In the Netlify site settings, map your domain (for the source URLs) and then go to your DNS provider and update your DNS according to the instructions provided by Netlify.</li><li>LetsEncrypt HTTPS certificates will be provided automatically by Netlify when DNS has propagated.</li></ul>
+
+
+
+<h2 class="wp-block-heading">Using Git</h2>
+
+
+
+<p>You can deploy from a Git repository too. If you&#8217;re happy with doing this then I&#8217;m doing to assume you&#8217;re tech-savvy enough to figure this out for yourself. Sorry if that&#8217;s an incorrect assumption.</p>
+
+
+
+<h2 class="wp-block-heading">Other uses&#8230;?</h2>
+
+
+
+<p>Now I&#8217;m even thinking this could be a very simple way to run a free custom URL shortener. Hmm&#8230;</p>
+</main></body>

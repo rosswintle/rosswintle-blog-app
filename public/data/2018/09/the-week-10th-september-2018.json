@@ -1,0 +1,225 @@
+{
+    "id": 4164,
+    "date": "2018-09-10T10:33:42",
+    "date_gmt": "2018-09-10T09:33:42",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=4164"
+    },
+    "modified": "2018-09-10T10:47:02",
+    "modified_gmt": "2018-09-10T09:47:02",
+    "slug": "the-week-10th-september-2018",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/",
+    "title": {
+        "rendered": "The week: 10th September 2018"
+    },
+    "content": {
+        "rendered": "\n<p>Having seen someone else do similar, I thought I&#8217;d summarise my week in projects, posts, and pins. This is probably as much for my benefit as anything, but let me know if you find it interesting or helpful. Use the comments &#8211; I&#8217;m happy to tweak the format to make it more useful for others.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Projects: what I&#8217;ve been up to<\/h3>\n\n\n\n<p>It was back to work &#8220;full time&#8221; this week as kids went back to school.\u00a0<\/p>\n\n\n\n<ul><li>I can now say that <a href=\"https:\/\/safestrongfree.org.uk\/\">the site I launched the week before<\/a> was for a brilliant little Devon-based charity called <a href=\"https:\/\/safestrongfree.org.uk\/\">CAP UK<\/a> that do assault prevention education, workshops and resources.<br\/><br\/>This is the first project where I&#8217;ve not had to work with a graphic designer &#8211; I did some iterative design in the browser and that was sufficient. So I&#8217;m not officially a &#8220;web designer&#8221; as well as a &#8220;web developer&#8221;! I&#8217;m pretty proud of what we&#8217;ve achieved and it came in under budget too. (P.S. Thanks to <a href=\"https:\/\/www.34sp.com\/\">34SP.com<\/a> for the <a href=\"https:\/\/www.34sp.com\/charity-hosting\">free charity hosting<\/a>!)<\/li><li>I finished off building a small, <a href=\"https:\/\/laravel.com\/\">Laravel<\/a>-based proxy API for <a href=\"https:\/\/mailchimp.com\/\">MailChimp<\/a>.<br\/><br\/>The client was sending requests from a third-party tool into MailChimp and they were sometimes getting lost in transit, and the third party tool had no logs or error checking or anything.<br\/><br\/>This proxy takes the request, validates it, and passes it on to MailChimp. The benefit of the proxy is that it logs ALL signup attempts, regardless of validity, and records errors that come back from the MailChimp API.<\/li><li>I did some post-go-live snagging on a recently launched <a href=\"https:\/\/wordpress.org\/\">WordPress<\/a> site.<\/li><li>I worked more on <a href=\"https:\/\/rosswintle.uk\/2018\/08\/about-schoolbot\/\">SchoolBot<\/a> to try to get it to a point where I can demo it to demonstrate its usefulness. It now does better keyword recognition (though still not natural language processing), and has a number of new APIs that allow data to be got into a website using the WordPress plugin that I&#8217;m building alongside it. This remains a non-public project, and is only really for my own use and testing.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Posts: things I made<\/h2>\n\n\n\n<p>Wow &#8211; after really posting a lot in the previous week, last week I managed a grand total of ZERO blog posts. I will try to do better this week. I guess that&#8217;s what going back to work does! But I did dig up and share some old content that was relevant this week:<\/p>\n\n\n\n<ul><li>I regurgitated\u00a0<a href=\"https:\/\/rosswintle.uk\/2012\/05\/parenthood-the-sum-of-my-knowledge\/\">this old post about everything I know about parenting<\/a>.<\/li><li>As much as I enjoy public speaking, I&#8217;ve only actually done three conference talks! Two of them I am REALLY proud of. So I put out a reminder of &#8220;<a href=\"https:\/\/wordpress.tv\/2016\/08\/09\/ross-wintle-you-are-creative\/\">You Are Creative<\/a>&#8221; If you think you&#8217;re NOT a creative person, I&#8217;d like to try to convince you otherwise:<\/li><\/ul>\n\n\n\n<figure class=\"wp-block-embed-wordpress-tv wp-block-embed is-type-video\">\n<iframe width='640' height='360' src='https:\/\/videopress.com\/embed\/x6vaH1Tn?hd=0' frameborder='0' allowfullscreen><\/iframe><script src='https:\/\/v0.wordpress.com\/js\/next\/videopress-iframe.js?m=1435166243'><\/script>\n<\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">Pins: things I read and remembered<\/h2>\n\n\n\n<p>Things I&#8217;ve bookmarked this week<\/p>\n\n\n\n<ul><li><a href=\"https:\/\/github.com\/antvis\/f2\" target=\"_blank\" rel=\"noreferrer noopener\">antvis\/f2: ??An elegant, interactive and flexible charting library for mobile.<\/a><\/li><li><a href=\"http:\/\/www.cas.org.uk\/publications\/locked-out-smartphone-deficit\" target=\"_blank\" rel=\"noreferrer noopener\">Locked Out: The Smartphone Deficit | Citizens Advice Scotland<\/a>\u00a0 &#8211; excellent report about how many people are smartphone only, and the issues they face<br\/><\/li><li><a href=\"https:\/\/blog.usejournal.com\/wordpress-is-at-a-crossroads-133638714a52\" target=\"_blank\" rel=\"noreferrer noopener\">WordPress is at a Crossroads \u2013 Noteworthy &#8211; The Journal Blog<\/a>\u00a0&#8211; interesting Gutenberg perspective<br\/><\/li><li><a href=\"https:\/\/bubble.is\/\" target=\"_blank\" rel=\"noreferrer noopener\">Visual Programming | Bubble<\/a>\u00a0&#8211; a web app for visually building web apps &#8211; should I fear for my job?<\/li><li><a href=\"https:\/\/www.webdesignmuseum.org\/\" target=\"_blank\" rel=\"noreferrer noopener\">Web Design Museum<\/a>\u00a0&#8211; this did the rounds several times &#8211; web nostalgia!<\/li><li><a href=\"https:\/\/streamlineicons.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">Streamline 3.0 \u2013 The World&#8217;s Largest Icon Library<\/a>\u00a0 &#8211; given that I do a lot of UI design these days, the hefty introductory discount on this massive icon set was attractive.<\/li><li><a href=\"http:\/\/www.kateraworth.com\/animations\/\" target=\"_blank\" rel=\"noreferrer noopener\">Seven Ways to Think Like a 21st-Century Economist | Kate Raworth<\/a>\u00a0 &#8211; Interesting economic ideas &#8211; not sure we can make it work.<\/li><li><a href=\"https:\/\/novathemes.beyondco.de\/\" target=\"_blank\" rel=\"noreferrer noopener\">Nova Theme Generator<\/a>\u00a0&#8211; Laravel Nova looks great. I&#8217;ve yet to test it. But this looks like a great tool for working with it.<\/li><li><a href=\"https:\/\/wpastra.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">Astra \u2013 Fast, Lightweight &amp; Customizable WordPress Theme for Any Website<\/a>\u00a0 &#8211; Astra&#8217;s off-the-shelf WordPress themes came highly recommended in a Slack discussion this week<\/li><li><a href=\"https:\/\/jwong.co.uk\/blog\/2018\/09\/01\/useful-github-features\/\" target=\"_blank\" rel=\"noreferrer noopener\">Useful GitHub Features<\/a>\u00a0 &#8211; I finally got around to reading Jenny&#8217;s post on GitHub features. Good knowledge here!<\/li><li><a href=\"https:\/\/www.goabstract.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">Version control and design workflow management for Sketch files | Abstract<\/a>\u00a0&#8211; interesting tool to maybe check out in the future<\/li><li><a href=\"https:\/\/github.com\/spatie\/laravel-newsletter\" target=\"_blank\" rel=\"noreferrer noopener\">spatie\/laravel-newsletter: Manage newsletters in Laravel<\/a>\u00a0&#8211; Laravel -> MailChimp API package I used this week.<\/li><li><a href=\"https:\/\/www.pwabuilder.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">www.pwabuilder.com<\/a>\u00a0&#8211; Tool for generating boilerplate PWA code and manifests that was spotted on Twitter<\/li><li><a href=\"https:\/\/pjrvs.us6.list-manage.com\/track\/click?u=26857d08cfc91db6993e0bfc4&amp;id=55cdf38961&amp;e=74be526996\" target=\"_blank\" rel=\"noreferrer noopener\"><\/a><a href=\"https:\/\/pjrvs.com\/noticed\/\" target=\"_blank\" rel=\"noreferrer noopener\">Paul Jarvis &#8211; How do you get people to notice your business<\/a>\u00a0&#8211; I&#8217;ll probably link Paul every week &#8211; I LOVE his perspective on business. This was a great post.<\/li><\/ul>\n\n\n\n<p>Have a great week!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Having seen someone else do similar, I thought I&#8217;d summarise my week in projects, posts, and pins. This is probably as much for my benefit as anything, but let me know if you find it interesting or helpful. Use the comments &#8211; I&#8217;m happy to tweak the format to make it more useful for others. [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The week: 10th September 2018 - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The week: 10th September 2018 - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Having seen someone else do similar, I thought I&#8217;d summarise my week in projects, posts, and pins. This is probably as much for my benefit as anything, but let me know if you find it interesting or helpful. Use the comments &#8211; I&#8217;m happy to tweak the format to make it more useful for others. [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-09-10T09:33:42+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-09-10T09:47:02+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/\",\"name\":\"The week: 10th September 2018 - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-09-10T09:33:42+00:00\",\"dateModified\":\"2018-09-10T09:47:02+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The week: 10th September 2018\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "The week: 10th September 2018 - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "The week: 10th September 2018 - Ross Wintle",
+        "og_description": "Having seen someone else do similar, I thought I&#8217;d summarise my week in projects, posts, and pins. This is probably as much for my benefit as anything, but let me know if you find it interesting or helpful. Use the comments &#8211; I&#8217;m happy to tweak the format to make it more useful for others. [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2018-09-10T09:33:42+00:00",
+        "article_modified_time": "2018-09-10T09:47:02+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/",
+                    "url": "https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/",
+                    "name": "The week: 10th September 2018 - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2018-09-10T09:33:42+00:00",
+                    "dateModified": "2018-09-10T09:47:02+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/09\/the-week-10th-september-2018\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "The week: 10th September 2018"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4164"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4164"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 3,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4164\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 4167,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4164\/revisions\/4167"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4164"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4164"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4164"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

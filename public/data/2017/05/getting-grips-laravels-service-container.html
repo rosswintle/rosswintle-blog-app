@@ -1,0 +1,81 @@
+<body><header><h1 data-pagefind-meta="title">Getting to grips with Laravel&#8217;s service container</h1></header><main><p><strong>I finally feel like I&#8217;m getting to grips with Laravel&#8217;s service container. I&#8217;ve understood HOW it works and WHAT is does for a while, but it&#8217;s taken a simple, real-world example to pull it all together and make it all &#8220;stick&#8221;.</strong></p>
+<p>Disclaimer: I may still have all this wrong, in which case correct me in the comments. I also note that while Laravel is opinionated, sometimes there&#8217;s many ways to do a particular job, so this may not be the only way to solve my problem.</p>
+<p>Also, while I&#8217;m pre-ambling, I find myself talking to quite a lot of WordPress developers about the benefits of Laravel so I&#8217;m thinking of doing a couple of screencasts introducing the differences and benefits. If this is of interest leave a note in the comments. If there&#8217;s demand I&#8217;ll record some &#8220;Laravel for WordPressers&#8221; tutorials and let you know when they&#8217;re up.</p>
+<h3>Example: Application stats</h3>
+<p>Here&#8217;s my simple example that I think fits really well. I have a really simple side-project application that has users and actions, and a relationship between the two: every action has a user, and every user has zero or more actions.</p>
+<p>I want to display in this application some statistics about how many actions have been taken by all users over different time periods.</p>
+<p>This is really simple data to get in Laravel:</p>
+<pre class="brush: php; title: ; notranslate" title="">
+$dayCount = App\Action::whereDate( Carbon\Carbon::now()-&gt;toDateString() )-&gt;count();
+</pre>
+<p>But I wanted to wrap this up into a class so that I could write:</p>
+<pre class="brush: php; title: ; notranslate" title="">
+$dayCount = App\Stats-&gt;dayCount;
+</pre>
+<p>and so that I could implement any caching that might be necessary to improve performance.</p>
+<p>But where should I put this code within Laravel? And how do I load it and make it available when I need it?</p>
+<p>The service container is the answer.</p>
+<h3>Where do I put the stats code?</h3>
+<p>The answer is, it doesn&#8217;t really matter all that much. I chose to just create a class in <code>/app</code> and in the <code>\App</code> namespace, so I have, in the file <code>app/stats.php</code>:</p>
+<pre class="brush: php; title: ; notranslate" title="">
+&lt;?php
+
+namespace App;
+
+use App\Action;
+use Carbon\Carbon;
+
+class Stats
+{
+
+  /* Code */
+
+}
+</pre>
+<p>And then a bunch of simple methods and properties that do all the calculations and store the results. I use the constructor of this class to run all the queries and populate the class properties with the counts. Simple.</p>
+<h3>How do I load the code?</h3>
+<p>This is the weird bit, particularly for a developer who&#8217;s so deep in WordPress and so used to just <code>require</code>ing everything I need.  Laravel doesn&#8217;t have a <code>require</code> in sight. It&#8217;s using the composer autoloader to load PHP files and the service providers/container to create instances of classes when needed.</p>
+<p>So this is where the service container comes in. The service container is Laravel&#8217;s way of loading stuff like this into the application and making it available.</p>
+<p>You can think of the application as just a bunch of services. When you need a service you grab it from the container.  Most Laravel code is using services all the time without you knowing it. It hides the details of what&#8217;s going on behind facades and helper functions. Auth, cookies, sessions, mail, caching and views are all provided by Laravel services. For example, when setting a session you might use the <code>session()</code> helper function, like this:</p>
+<p><code>session()-&gt;get( 'savedData' );</code></p>
+<p>This is just getting you a (or the) session object from the service container and running the get method of it.</p>
+<p>But how do services get into the container?</p>
+<p>Well, you create a service provider, or add it to an existing service provider.</p>
+<p>A service provider is a simple class that has two methods.</p>
+<ul>
+<li><code>register()</code>, which places the service into the container by registering it and;</li>
+<li><code>boot()</code>, which is called after all services are registered and allows you do do some initialisation</li>
+</ul>
+<p>My stats class needs the application to be set up before it runs the calculation so I&#8217;m registering it in the <code>boot()</code> method, like this:</p>
+<pre class="brush: php; title: ; notranslate" title="">
+public function boot()
+    {
+        $this-&gt;app-&gt;singleton( Stats::class, function () {
+            return new Stats();
+        });
+
+    }
+</pre>
+<p>And I&#8217;m registering it as a singleton so that there&#8217;s only ever one instance as the class will instantiate once and then just be referred to. (Question: Is this any better than making things static?)</p>
+<p>I then need to register the service provider in <code>config/app.php</code>, which is easy; just add this to the list of providers:</p>
+<p><code>App\Providers\StatsServiceProvider::class,</code></p>
+<p>So we now have the class, we&#8217;ve created the service provider to shove it into the service container for later use, and we&#8217;ve registered the service provider with Laravel. Laravel starts up, knows about the service provider, runs <code>register()</code>, which does nothing, and later runs <code>boot()</code> which instantiates the class instance and puts it into the service container for when it&#8217;s needed.</p>
+<p>Nice.</p>
+<p>I can then access the class whenever I need, either:</p>
+<ul>
+<li>explicitly from the container (which is the <code>App</code> class) by using <code>App::make( 'App\Stats' )</code></li>
+<li>explicitly using the <code>app()</code> helper: <code>app( 'App\Stats' )</code></li>
+<li>using dependency injection through type hinting (or so I believe, I&#8217;ve not tried this out!)</li>
+</ul>
+<p>In my case, I actually want the stats to appear in pretty much every view that I load, and there&#8217;s a shortcut for that, which is to &#8220;share&#8221; the data with the views by adding this to the <code>boot()</code> method of the service provider:</p>
+<p><code>View::share('stats', app('App\Stats'));</code></p>
+<p>Every view (or a component of every view) can then have access to the stats without me having to explicitly make the stats available in every controller method.  So my blade templates can just do:</p>
+<p><code>&lt;strong&gt;Today:&lt;/strong&gt; {{ $stats-&gt;dayCount }}</code></p>
+<p>Neat! (But use wisely)</p>
+<h3>Conclusion</h3>
+<p>Hopefully I did all this right and explained it well.</p>
+<p>Yes, this is a very simple example and perhaps the service container is overkill for loading this class. But I think it&#8217;s a simple and real enough example that it helps us see how to add this kind of generic, re-usable functionality into our app.</p>
+<p>I certainly understand the service container better having done this. Hopefully you will too.</p>
+<p>For greater completness, most of the code files involved are shown in <a href="https://gist.github.com/rosswintle/428ae8a3e0c215a7b3ecbfd186b5520c">this Gist</a>.</p>
+<p>&nbsp;</p>
+</main></body>

@@ -1,0 +1,232 @@
+{
+    "id": 11129,
+    "date": "2022-06-05T22:28:53",
+    "date_gmt": "2022-06-05T21:28:53",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=11129"
+    },
+    "modified": "2022-06-05T22:28:56",
+    "modified_gmt": "2022-06-05T21:28:56",
+    "slug": "programming-styles-and-books",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/",
+    "title": {
+        "rendered": "Programming styles and books"
+    },
+    "content": {
+        "rendered": "\n<p>I confess, while I have my CS degree and am well-read, I&#8217;ve never read many of the &#8220;classics&#8221;: Clean Code, Refactoring, The Pragmatic Programmer. So with <a href=\"https:\/\/sandimetz.com\/99bottles\">Sandi Metz&#8217;s &#8220;99 Bottles of OOP&#8221;<\/a> on offer, I thought I&#8217;d make a start there.<\/p>\n\n\n\n<p>I&#8217;m trying to be disciplined about finishing old books\/courses before starting new ones, but I was so intrigued and dived in.<\/p>\n\n\n\n<p>The book starts with an exercise that you&#8217;re supposed to spend 30 minutes on: Write the code to output the &#8220;99 bottles of beer on the wall&#8221; song.<\/p>\n\n\n\n<p>I completed the exercise in 16 minutes with what I considered an elegant solution that was neither too abstract nor too concrete. I made a lot of &#8220;YAGNI&#8221; (You Ain&#8217;t Gonna Need It) calls, for example.<\/p>\n\n\n\n<p>But here&#8217;s the kicker: it&#8217;s recursive!<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\npublic function verses( $start, $end ) {\n    if ($start === $end) {\n        return $this-&gt;verse($start);\n    }\n\n    return $this-&gt;verse($start) . &quot;\\n&quot; . $this-&gt;verses($start - 1, $end);\n}\n<\/pre><\/div>\n\n\n<p>I&#8217;m sure that this is not optimal in many ways. But the fact that, while working in a hurry, this solution came to mind tells you something about how I was taught computing. I&#8217;m very curious about where this book goes and what I learn from it.<\/p>\n\n\n\n<p>So on we go&#8230;with an open mind!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I confess, while I have my CS degree and am well-read, I&#8217;ve never read many of the &#8220;classics&#8221;: Clean Code, Refactoring, The Pragmatic Programmer. So with Sandi Metz&#8217;s &#8220;99 Bottles of OOP&#8221; on offer, I thought I&#8217;d make a start there.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        4,
+        23
+    ],
+    "tags": [
+        425,
+        286,
+        64,
+        5152,
+        153
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Programming styles and books - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Programming styles and books - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I confess, while I have my CS degree and am well-read, I&#039;ve never read many of the &quot;classics&quot;: Clean Code, Refactoring, The Pragmatic Programmer. So with Sandi Metz&#039;s &quot;99 Bottles of OOP&quot; on offer, I thought I&#039;d make a start there.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2022-06-05T21:28:53+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-06-05T21:28:56+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/\",\"url\":\"https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/\",\"name\":\"Programming styles and books - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2022-06-05T21:28:53+00:00\",\"dateModified\":\"2022-06-05T21:28:56+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Programming styles and books\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Programming styles and books - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Programming styles and books - Ross Wintle",
+        "og_description": "I confess, while I have my CS degree and am well-read, I've never read many of the \"classics\": Clean Code, Refactoring, The Pragmatic Programmer. So with Sandi Metz's \"99 Bottles of OOP\" on offer, I thought I'd make a start there.",
+        "og_url": "https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2022-06-05T21:28:53+00:00",
+        "article_modified_time": "2022-06-05T21:28:56+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/",
+                    "url": "https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/",
+                    "name": "Programming styles and books - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2022-06-05T21:28:53+00:00",
+                    "dateModified": "2022-06-05T21:28:56+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2022\/06\/programming-styles-and-books\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Programming styles and books"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11129"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11129"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11129\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 11131,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11129\/revisions\/11131"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11129"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11129"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11129"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

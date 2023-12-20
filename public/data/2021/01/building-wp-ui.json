@@ -1,0 +1,235 @@
+{
+    "id": 9786,
+    "date": "2021-01-01T15:31:43",
+    "date_gmt": "2021-01-01T15:31:43",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=9786"
+    },
+    "modified": "2021-01-01T15:32:56",
+    "modified_gmt": "2021-01-01T15:32:56",
+    "slug": "building-wp-ui",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/",
+    "title": {
+        "rendered": "Building WP-UI"
+    },
+    "content": {
+        "rendered": "\n<p>I was listening to the <a href=\"https:\/\/noplanstomerge.com\/63\">No Plans To Merge guys today discussing the rebuild of Laravel Livewire<\/a>.<\/p>\n\n\n\n<p>There was a segment where they were talking about the difference between building an application and building a framework and how you start to build things one way that\u2019s a bit hacky to get things going and then completely rework things later on to make it more modular.<\/p>\n\n\n\n<p>And I realised that this is KINDA what I\u2019m doing with building <a href=\"https:\/\/twitter.com\/wpui_app\">WP-UI<\/a>. And so I thought it was time to get some rambling thoughts down on paper about WP-UI.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"What is WP-UI?\">What is WP-UI?<\/h2>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/wpui_app\">WP-UI<\/a> is a desktop app I\u2019m building in <a href=\"https:\/\/www.electronjs.org\/\">Electron<\/a> that makes working with WordPress quick and easy.<\/p>\n\n\n\n<p>It\u2019s quite hard to explain, but:<\/p>\n\n\n\n<ul><li>If you know what <a href=\"https:\/\/wp-cli.org\/\">WP-CLI<\/a> is, then the aim is for it to be a GUI version of that.<\/li><li>If you know what <a href=\"https:\/\/www.phpmyadmin.net\/\">PHPMyAdmin<\/a> or <a href=\"https:\/\/www.adminer.org\/\">Adminer<\/a> or <a href=\"https:\/\/sequelpro.com\/\">Sequel Pro<\/a> or <a href=\"https:\/\/sequel-ace.com\/\">Sequel Ace<\/a> or <a href=\"https:\/\/www.araelium.com\/querious\">Querious<\/a> or <a href=\"https:\/\/www.tableplus.io\/\">Table Plus<\/a> are then it\u2019s like a WordPress-aware version of that that requires no SQL knowledge.<\/li><\/ul>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter size-large is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/01\/WP-UI-screen-1024x649.jpg\" alt=\"Screen grab of WP-UI\" class=\"wp-image-9787\" width=\"768\" height=\"487\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/01\/WP-UI-screen-1024x649.jpg 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/01\/WP-UI-screen-300x190.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/01\/WP-UI-screen-768x487.jpg 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/01\/WP-UI-screen.jpg 1365w\" sizes=\"(max-width: 768px) 100vw, 768px\" \/><figcaption>Screengrab of WP-UI showing a post list<\/figcaption><\/figure><\/div>\n\n\n\n<p>WP-UI lets you inspect WordPress data quickly and easily. And ultimately I\u2019d like you to be able to modify data through it and take actions like managing plugins and themes, deleting transients, running cron jobs &#8211; lots of the things WP-CLI lets you do.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"Why I\u2019m building it\">Why I\u2019m building it<\/h2>\n\n\n\n<p>Kinda because I wanted it.<\/p>\n\n\n\n<p>I\u2019d seen a product called \u201c<a href=\"https:\/\/invoker.dev\/\">Invoker<\/a>\u201d that does a similar thing for Laravel applications, and thought \u201cI\u2019d love this for WordPress\u201d. And I had <a href=\"https:\/\/desktopappswithelectron.com\/\">a video course on building Electron apps<\/a>. So I put the two together and started building to see what was possible.<\/p>\n\n\n\n<p>My initial aim was to:<\/p>\n\n\n\n<ul><li>See if my initial ideas were possible<\/li><li>Learn some more <a href=\"https:\/\/www.electronjs.org\/\">Electron<\/a> and <a href=\"https:\/\/vuejs.org\/\">Vue.js<\/a> and <a href=\"https:\/\/tailwindcss.com\/\">Tailwind CSS<\/a>.<\/li><\/ul>\n\n\n\n<p>But I got in quite deep beyond an initial prototype!<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"How I\u2019m building WP-UI\">How I\u2019m building WP-UI<\/h2>\n\n\n\n<p>I\u2019m using <a href=\"https:\/\/www.electronjs.org\/\">Electron<\/a> and <a href=\"https:\/\/vuejs.org\/\">VueJS.<\/a> I currently use <a href=\"https:\/\/router.vuejs.org\/\">vue-router<\/a>, but not <a href=\"https:\/\/vuex.vuejs.org\/\">vuex<\/a>. I\u2019m kinda putting off adding vuex into the mix because it seems to come with warnings of \u201cyou probably don\u2019t need this\u201d, yet I think it\u2019s inevitable for what I\u2019m doing here.<\/p>\n\n\n\n<p>I\u2019m styling with <a href=\"https:\/\/tailwindcss.com\/\">TailwindCSS<\/a> and <a href=\"https:\/\/tailwindui.com\/\">TailwindUI<\/a>.<\/p>\n\n\n\n<p>In terms of the abstractions I currently have that power the thing, I have a bunch of Vue components for things like table headers, rows and data items. These help componentise the markup, which is essential for using Tailwind without going crazy.<\/p>\n\n\n\n<p>I also have a fairly good abstraction for running PHP\/WordPress. Electron has a node back-end that lets me call command line commands. So I\u2019m running a PHP command line instance and passing it some PHP code to run, then catching the output of the command.<\/p>\n\n\n\n<p>The abstraction automatically uses the PHP binary set in the applications options, and loads <code class=\"code-inline\">wp-load.php<\/code> (I should do this more intelligently &#8211; it assumes it\u2019s in the root of your project for now).<\/p>\n\n\n\n<p>This PHP code has to echo something out that we can get back into JavaScript for display. You usually end with something like:<\/p>\n\n\n\n<p><code class=\"code-inline\">echo json_encode( [ ... some stuff you need \u2026 ] );<\/code><\/p>\n\n\n\n<p>Then, back in JavaScript\/Vue land you JSON.parse the output back into a usable object.<\/p>\n\n\n\n<p>This all works nicely and doesn\u2019t require any plugins or anything to be installed into WordPress. Writing PHP code inside a JavaScript string is pretty weird but I\u2019m not doing anything hugely complex. I\u2019m sure there\u2019s a better way though.<\/p>\n\n\n\n<p>I should add that I\u2019m trying, where possible, to use WordPress APIs rather than going straight to writing SQL queries, though in some cases SQL is needed.<\/p>\n\n\n\n<p>As an extra abstraction, the application uses lots of \u201cpost lists\u201d. So I\u2019ve build a post list API that runs instances of <code>WP_Query<\/code> for you and populates a table. You pass it query options and it creates the table for you. It adds pagination, search, and (I hope, eventually) sorting in for you.<\/p>\n\n\n\n<p>Posts are kinda special and used a lot though, and I\u2019m considering what other abstractions would be helpful. This is where the \u201cam I building a framework?\u201d thing comes in. More on this later.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"Security\">Security<\/h2>\n\n\n\n<p>I need to jot things down about security while I think of them.<\/p>\n\n\n\n<p>I\u2019ve honestly not thought through security properly yet. But I guess it works on the principle that if you can use WP-UI on a WordPress install you\u2019ve got shell access anyways so all bets are off.<\/p>\n\n\n\n<p>But I am thinking through things like: can someone store something in the WordPress database that when I pull it out could do weird stuff on your local machine?<\/p>\n\n\n\n<p>Definitely needs more thought though.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"What is your plan for it?\">What is your plan for it?<\/h2>\n\n\n\n<p>I\u2019m not entirely sure.<\/p>\n\n\n\n<p>I\u2019d like it to be a paid product of some sort, but there are a LOT of steps to get to that point (licensing, allowing trials, payments and eCommerce, support processes, documentation, legal stuff, tax stuff like VAT, marketing, to name but a few).<\/p>\n\n\n\n<p>Several people have asked if I will open source it? But I\u2019ve put a fair bit of time into this now and I consider it an \u201casset\u201d that I think has value and would like to make some money from if I can. And I hope it\u2019s a tool that will have value for others.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"Will this need to be GPL licensed?\">Will this need to be GPL licensed?<\/h2>\n\n\n\n<p>So, there\u2019s this thing about tools that integrate with WordPress needing to be GPL licensed. I think this is possible without making the source code public. And if I\u2019m to keep it as a paid product then this is what I will want to do.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"Thoughts about extending WP-UI\">Thoughts about extending WP-UI<\/h2>\n\n\n\n<p>This is where Caleb and Daniel\u2019s discussion application code vs framework code and the iterations of framework code got me thinking.<\/p>\n\n\n\n<p>Part of their conversation was about how, eventually, if you\u2019re writing a framework, it\u2019s good to be super-modular. They talk about how good frameworks seem to end up with \u201cloader\u201d files that contain a bunch of lines that just import functionality from discrete packages.<\/p>\n\n\n\n<p>I would LOVE for WP-UI to be like this and, subsequently, extendable by others in this sort of way. This is how WP-CLI works. And I think Invoker will eventually have extensions that work like this too.<\/p>\n\n\n\n<p>And this is a REALLY interesting space. I\u2019m kinda chuffed that my brain has gone down the route of thinking like this. I feel like it\u2019s a pretty advanced thing to be thinking of this in abstract enough terms.<\/p>\n\n\n\n<p>RIGHT NOW I\u2019m in a place where I\u2019m almost daily, when working on WP-UI, having to decide if I make a layer abstract or not. Whether to do something quickly so that I can deliver WP-UI into the hands of people, or whether to spend time on refactor to make things more abstract and extendable.<\/p>\n\n\n\n<p>At the moment, I have a couple of good abstractions as mentioned above:<\/p>\n\n\n\n<ul><li>One for running PHP (though this could be better) &#8211; a JavaScript class\/object that I can pass some PHP code to and have that code executed in the context of the currently-configured WordPress project.<\/li><li>One for lists of WordPress posts (you basically pass it a set of WP_Query options and it builds the data table)<\/li><\/ul>\n\n\n\n<p>I think Post Lists will always be \u201cspecial\u201d because they\u2019re quite complex. But I feel like the other tables probably need to be abstracted.<\/p>\n\n\n\n<p>I can see a world where an extension:<\/p>\n\n\n\n<ul><li>Defines a new \u201cPage\u201d in the app<\/li><li>Gives some PHP code to run that produces output matching a specific format<\/li><li>Specifies how that data output is converted into tables (by specifying column types, which columns are searchable and sortable, for example)<\/li><li>Specifies how rows in the data table map to other, \u201csingle-entry\u201d screens.<\/li><li>Somehow specifies \u201cactions\u201d for rows in the data table that can run PHP code to make stuff happen &#8211; this probably needs variables\/placeholders to be made available somehow.<\/li><\/ul>\n\n\n\n<p>These \u201cdo I abstract?\u201d questions are huge at this point, because I\u2019m accumulating technical debt. I\u2019m deciding to add work to the pile for myself if I want to make the abstraction later on.<\/p>\n\n\n\n<p>I\u2019m tending towards thinking that I need to get a version 1 out that\u2019s less frameworky and extendable. I want people to be able to use this thing! So that\u2019s v1.<\/p>\n\n\n\n<p>Then v2 will be a big refactor that makes it more frameworky. Build the internal APIs, define the data formats, then refactor all my internal pages to use those APIs.<\/p>\n\n\n\n<p>So my main App file should become a loader file that contains a bunch of lines that import the pages of the app from discrete packages! Win!!<\/p>\n\n\n\n<p>Does this mean I\u2019m building a framework? This isn\u2019t what I set out to do!! But maybe I AM! Eeeek!<\/p>\n\n\n\n<p>However, something like this would allow you to do stuff like extend WP-UI to allow it to act as a desktop app for managing WooCommerce orders.<\/p>\n\n\n\n<p>Bonkers! (In a good way)<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"A brief aside on datatables and UI libraries\">A brief aside on datatables and UI libraries<\/h2>\n\n\n\n<p>While writing this I looked into some datatable libraries like <a href=\"https:\/\/datatables.net\/\">https:\/\/datatables.net\/<\/a> and I came across the <a href=\"https:\/\/vuetifyjs.com\/en\/\">Vuetify<\/a> design framework too.<\/p>\n\n\n\n<p>It got me wondering if it would be possible and beneficial to use something like this rather than crafting everything myself with Tailwind UI.<\/p>\n\n\n\n<p>For the initial phase of this project it\u2019s been SUPER helpful for me to build things by myself with just Tailwind UI taking care of the layout and some styling. I\u2019ve learned a LOT of Vue along the way and really feel like a JavaScript application programmer (which I never thought I would say).<\/p>\n\n\n\n<p>But maybe I\u2019ll eject out into a UI framework like this in future. It certainly seems like I\u2019ve re-invented the wheel a bit! In some cases this may be necessary, but in many I suspect it\u2019s not.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"What else would you like it to do?\">What else would you like it to do?<\/h2>\n\n\n\n<p>I have a roadmap with a bunch of minor tweaks, and some bigger ideas. Eventually I\u2019d like:<\/p>\n\n\n\n<ul><li>To allow editing as well as just viewing of data<\/li><li>To handle serialised data nicely somehow<\/li><li>To be able to use with remote (live?!) sites over SSH<\/li><li>To allow actions to be taken, such as updating plugins, or expiring transients<\/li><li>There was also a cool idea that someone suggested where the application could show you the code that it runs. This would allow you to visually build a query or action in WP-UI by selecting the page, filters, pagination options, sorting, etc and then get the WP_Query or other PHP code to paste back into your theme\/plugin\/whatever.<\/li><\/ul>\n\n\n\n<p>So\u2026lots of ideas. But\u2026<\/p>\n\n\n\n<h2 class=\"wp-block-heading\" id=\"How does this fit with the block editor and full site editing?\">How does this fit with the block editor and full site editing?<\/h2>\n\n\n\n<p>This is a really interesting question I\u2019ve asked myself.<\/p>\n\n\n\n<p>Block editing, full-site-editing and so on are (in my opinion) turning WordPress away from general content management and towards being a publishing platform that cares less for structure data. Data is being pushed into in-post HTML-comments rather than being made available in a structured way in WordPress\u2019s relational database.<\/p>\n\n\n\n<p>And WP-UI is really a relational database explorer. Most of my use cases are exploring things like post meta and options.<\/p>\n\n\n\n<p>So I don\u2019t know if this tool even has a medium\/long term future given the direction of WordPress.<\/p>\n\n\n\n<p>But I march onwards anyway.<\/p>\n\n\n\n<p>Let\u2019s see where we get to. Follow along at <a href=\"https:\/\/twitter.com\/wpui_app\">https:\/\/twitter.com\/wpui_app<\/a><\/p>\n\n\n\n<p>A website is coming soon!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>A very scattergun, brain dump of thoughts about the WP-UI app that I&#8217;m developoing in Electron.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 9787,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        639
+    ],
+    "tags": [
+        28,
+        462
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Building WP-UI - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Building WP-UI - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A very scattergun, brain dump of thoughts about the WP-UI app that I&#039;m developoing in Electron.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2021-01-01T15:31:43+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-01-01T15:32:56+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/01\/WP-UI-screen.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"1365\" \/>\n\t<meta property=\"og:image:height\" content=\"865\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"10 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/\",\"url\":\"https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/\",\"name\":\"Building WP-UI - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2021-01-01T15:31:43+00:00\",\"dateModified\":\"2021-01-01T15:32:56+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Building WP-UI\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Building WP-UI - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Building WP-UI - Ross Wintle",
+        "og_description": "A very scattergun, brain dump of thoughts about the WP-UI app that I'm developoing in Electron.",
+        "og_url": "https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2021-01-01T15:31:43+00:00",
+        "article_modified_time": "2021-01-01T15:32:56+00:00",
+        "og_image": [
+            {
+                "width": 1365,
+                "height": 865,
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/01\/WP-UI-screen.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "10 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/",
+                    "url": "https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/",
+                    "name": "Building WP-UI - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2021-01-01T15:31:43+00:00",
+                    "dateModified": "2021-01-01T15:32:56+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2021\/01\/building-wp-ui\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Building WP-UI"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9786"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=9786"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 3,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9786\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 9793,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9786\/revisions\/9793"
+            }
+        ],
+        "wp:featuredmedia": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/9787"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=9786"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=9786"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=9786"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,228 @@
+{
+    "id": 11553,
+    "date": "2023-01-08T16:09:13",
+    "date_gmt": "2023-01-08T16:09:13",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=11553"
+    },
+    "modified": "2023-01-09T22:41:50",
+    "modified_gmt": "2023-01-09T22:41:50",
+    "slug": "a-5-minute-window-php-arrays-to-objects",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/",
+    "title": {
+        "rendered": "A 5 Minute Window: PHP Arrays to Objects"
+    },
+    "content": {
+        "rendered": "\n<p>An experiment.<\/p>\n\n\n\n<p>Here&#8217;s 5 minutes on how you can, and some reasons why you would want to, convert PHP structured arrays to objects.<\/p>\n\n\n\n<p>The code is below.<\/p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"A 5 Minute Window: PHP Arrays to Objects\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/pHH9RURpUjE?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\n&lt;?php\ndeclare(strict_types=1);\n\n\/\/ Hi\n\n\/\/ Here's some code that I see often in WordPress projects...\n\n$pages = &#x5B;\n  &#x5B;\n    'id'    =&gt; 1,\n    'title' =&gt; 'Home'\n  ],\n  &#x5B;\n    'id'    =&gt; 2,\n    'title' =&gt; 'About'\n  ],\n  &#x5B;\n    'id'    =&gt; 3,\n    'title' =&gt; 'Contact'\n  ]\n];\n\n\/\/ An array of arrays that are &quot;things&quot;.\n\n\/\/ These are much better expressed as objects.\n\n\/\/ And this is a really good first introduction to objects if you don't use them much.\n\n\/\/ Let's make a &quot;class&quot; - this is like a template for the &quot;things&quot;.\n\nclass Post {\n    \/\/ Each post has a publicly accessible ID and title\n    public int $id = 0;\n    public string $title = '';\n\n    \/\/ We will set these for each thing\n}\n\n\/\/ Now we have the template, let's make the things.\n\n$posts = &#x5B;];\n\n$posts&#x5B;] = new Post();\n$posts&#x5B;0]-&gt;id = '123'; \/\/ Aha! See, with objects and types, we get help with errors! Nice.\n$posts&#x5B;0]-&gt;title = 'Hello World';\n\n\/\/ Did you see how the editor helped us? Because it knows what the properties of the things are!\n\n$posts&#x5B;1] = new Post();\n$posts&#x5B;1]-&gt;id = '456';\n$posts&#x5B;1]-&gt;title = 'Hello again';\n\n\/\/ We can also use types to be even more specific and helpful!\n\n<\/pre><\/div>",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>An experiment.<\/p>\n<p>Here&#8217;s 5 minutes on how you can, and some reasons why you would want to, convert PHP structured arrays to objects.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        5175
+    ],
+    "tags": [
+        291,
+        462
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>A 5 Minute Window: PHP Arrays to Objects - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A 5 Minute Window: PHP Arrays to Objects - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"An experiment. Here&#039;s 5 minutes on how you can, and some reasons why you would want to, convert PHP structured arrays to objects.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-01-08T16:09:13+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-01-09T22:41:50+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/\",\"name\":\"A 5 Minute Window: PHP Arrays to Objects - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-01-08T16:09:13+00:00\",\"dateModified\":\"2023-01-09T22:41:50+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"A 5 Minute Window: PHP Arrays to Objects\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "A 5 Minute Window: PHP Arrays to Objects - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "A 5 Minute Window: PHP Arrays to Objects - Ross Wintle",
+        "og_description": "An experiment. Here's 5 minutes on how you can, and some reasons why you would want to, convert PHP structured arrays to objects.",
+        "og_url": "https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2023-01-08T16:09:13+00:00",
+        "article_modified_time": "2023-01-09T22:41:50+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/",
+                    "url": "https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/",
+                    "name": "A 5 Minute Window: PHP Arrays to Objects - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2023-01-08T16:09:13+00:00",
+                    "dateModified": "2023-01-09T22:41:50+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/01\/a-5-minute-window-php-arrays-to-objects\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "A 5 Minute Window: PHP Arrays to Objects"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11553"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11553"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 6,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11553\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 11574,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11553\/revisions\/11574"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11553"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11553"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11553"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

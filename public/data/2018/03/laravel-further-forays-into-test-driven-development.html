@@ -1,0 +1,80 @@
+<body><header><h1 data-pagefind-meta="title">Laravel: Further forays into Test Driven Development (TDD)</h1></header><main><p><em>I&#8217;m using Test Driven Development (TDD) for the first (and second) time on a couple of side projects. I <a href="https://rosswintle.uk/2018/01/testing-out-tdd-initial-thoughts/">wrote up some of my really early thoughts</a> on the process before, but here are some further reflections on the process and issues I&#8217;ve come across.</em></p>
+<h2>Assurance is good!</h2>
+<p>It&#8217;s great having my test suite able to tell me that I&#8217;ve not broken any core functionality. The flexibility that this gives me to change the structure of my code (&#8220;re-factoring&#8221; they call it) without changing what it does is great, and the confidence I have when adding new functionality is wonderful.</p>
+<h2>A mindset change is (possibly) coming</h2>
+<p>I mentioned in <a href="https://rosswintle.uk/2018/01/testing-out-tdd-initial-thoughts/">the previous TDD article</a> that I was thinking ahead a little as I coded and was wondering where to store those thoughts about what this thing will need to do in the future. And this is still a problem.</p>
+<p>But I can see a slight change of mindset happening. I can see how I might be starting to think more in terms of features and functions as I write, and less in terms of data.</p>
+<p>To explain, let&#8217;s take and example. I&#8217;m (stupidly) <a href="https://blog.kownter.com/about-kownter/">attempting to build my own analytics</a>. In its very basic form this has &#8220;sites&#8221; and &#8220;views&#8221; and each view belongs to a site. But in future I can see that I would want multiple users and the ability to assign sites to users.</p>
+<p>In the past I&#8217;d have got all hung up on making this ALL work together &#8211; define all my data structures, create my routes, and then build out all my models and controllers to make it all hang together. But with TDD I&#8217;ve taken <a href="https://course.testdrivenlaravel.com/">Adam</a>&#8216;s approach from his course, and got right down to the core of what this application does &#8211; sites and views &#8211; and written my tests for those things and built them up in code.</p>
+<p>So, right now, I have a working system with none of the complexity of users and site ownership.</p>
+<p>I still have the issue of not knowing where to store my thoughts about future functionality. So for example, I might have a <code class="code-inline">sites_can_be_displayed</code> test, but in future I will need:</p>
+<ul>
+<li><code class="code-inline">a_user_can_see_their_own_sites</code></li>
+<li><code class="code-inline">a_user_can_not_see_other_peoples_sites</code></li>
+<li>and <code class="code-inline">a_guest_can_not_see_any_sites</code></li>
+</ul>
+<p>So what then happens to my <code class="code-inline">sites_can_be_displayed</code> test? Will that still work? Do I still need it? Do I need to review all my existing tests when I make a change? Or will this test break somehow when I add the new functionality in, prompting me to update or remove the it? Tricky.</p>
+<p>I can also see that there might be overhead in building a feature at a time. If I anticipate features and build multiple features at the same time, I can get the benefit of knowing how it ALL hangs together from the start. Doing things a feature at a time might introduce inefficiencies that need to be re-factored away. Of course, having the tests helps with re-factoring, but it&#8217;s still overhead.</p>
+<h2>Redirects as responses</h2>
+<p>I realised quite early on that testing for HTTP responses in HTTP tests was good. You could test for exceptions as Jeffrey Way does on <a href="https://laracasts.com/series/lets-build-a-forum-with-laravel/">his Laracasts TDD course</a>, but I&#8217;m not quite there yet. But checking for an appropriate response has been helpful.</p>
+<p>BUT&#8230;you do need to understand what responses you should be getting. When building out user registration responses, for example, I forgot that Laravel redirects to somewhere immediately after registration. So my test call to:</p>
+<pre class="brush: php; gutter: false; title: ; notranslate" title="">
+$response = $this-&gt;post('/register', &#x5B;
+'name' =&gt; 'Testy McTesterson',
+'email' =&gt; 'test@example.com',
+'password' =&gt; 'blahblah',
+'password_confirmation' =&gt; 'blahblah',
+] );
+</pre>
+<p>didn&#8217;t get a 200 response &#8211; my:</p>
+<p><code>$response-&gt;assertStatus(200);</code></p>
+<p>failed, it got a redirect instead! So I needed to&#8230;</p>
+<p><code>$response-&gt;assertRedirect('some_path');</code></p>
+<p>Note that I also got caught out by the default password length check and forgot that this also redirects me back to the register page rather than giving me an HTTP error status.</p>
+<p>(Aside: yes, I will use factories at some point)</p>
+<p>And all this registration form testing leads to&#8230;</p>
+<h2>How much should I test?</h2>
+<p>One question I had as I went along is: How much should I test at this point?</p>
+<p>Should I be testing the default password length check? The registration process at all? Can I just assume that this works?</p>
+<p>I think I decided that I should test critical and/or customised parts &#8211; so I test user registration as that could contain custom fields or parameters that could change, but not login as that&#8217;s pretty much out of the box and doesn&#8217;t really modify any data in the system.</p>
+<h2>from() on form requests</h2>
+<p>The failed registration also raised another issue. The redirect it created uses the <code class="code-inline">back()</code> method (I assume) to send you back to the page you filled the form in on. This, in turn, makes use of the referer header. Which I wasn&#8217;t sending.</p>
+<p>So even when I&#8217;d written my <code class="code-inline">assertRedirect()</code>, it was failing, because my <code class="code-inline">$this-&gt;post()</code> request wasn&#8217;t sending a referer. So this relatively simple form-submitting test tripped me up in quite a few ways.</p>
+<p>The fix for this was to use the <code class="code-inline">from()</code> method to set the referrer &#8211; so the request in this test is actually:</p>
+<pre class="brush: php; gutter: false; title: ; notranslate" title="">
+$response = $this-&gt;from('/register')-&gt;post('/register', &#x5B;
+  'name' =&gt; 'Testy McTesterson',
+  'email' =&gt; 'test@example.com',
+  'password' =&gt; 'blah',
+  'password_confirmation' =&gt; 'blahblah',
+] );
+</pre>
+<h2>CSRFs and middleware</h2>
+<p>As I was writing the form submission test I thought: &#8220;But there&#8217;s a CSRF check. How do I pass that in my request?&#8221;</p>
+<p>And, well, it turns out CSRF checks are disabled in the test suite which makes things a whole load easier.</p>
+<p>But should I be bothered by this? Shouldn&#8217;t I be testing that <code class="code-inline">submitting_a_form_without_a_valid_csrf_token_fails</code>? How do I know if I&#8217;m supposed to test this or not? Where do I go to find this out?</p>
+<h2>Laravel release notes</h2>
+<p>In attempting to find out if I should test CSRF checks I found (probably via some forum threads, I don&#8217;t remember) the <code class="code-inline">withoutMiddleware</code> trait that you could use. This, it turns out, <a href="https://laravel.com/docs/5.2/testing#disabling-middleware">is optional up to Laravel 5.2</a>, but it&#8217;s not &#8211; according to the docs &#8211; <a href="https://laravel.com/docs/5.6/testing">in the latest version of Laravel</a> (5.6 at writing).</p>
+<p>My instinct, when I found a thing that was documented in 5.2, but not 5.6 was to look for <a href="https://laravel.com/docs/5.6/releases">release notes</a> for Laravel saying what has changed. But the <a href="https://laravel.com/docs/5.6/releases">latest release notes page</a> doesn&#8217;t show any historical release notes.</p>
+<p>This turns out to be stupidity on my part and you just need to use the version selector to view past release notes (e.g. <a href="https://laravel.com/docs/5.3/releases">these</a>).</p>
+<p>And in any case, the release notes turned out not to mention the <code class="code-inline">withoutMiddleware</code> change.</p>
+<p>I guess the release notes can&#8217;t detail every tiny little thing that&#8217;s different, and not finding the release notes was kinda my own fault, but it was just another tiny little thing that piled on top of all the other things I was confused about and got in the way of my learning. But I was expecting the documentation to answer my question and it didn&#8217;t seem to exist and when I did find it it didn&#8217;t answer my question. Grrrr.</p>
+<h2>On getting to MVP slower and the value of TDD</h2>
+<p>On the face of it, getting to MVP is harder and slower. You write a test for a feature, and then build the feature. But in doing that you realise you need to spawn other tests for the same feature. E.g. <code class="code-inline">user_can_create_thing</code> might lead to <code class="code-inline">a_new_thing_has_a_default_state_of_x</code> or <code class="code-inline">a_guest_can_not_create_a_thing</code> or <code class="code-inline">a_thing_must_have_a_unique_name</code></p>
+<p>Writing all these tests for the simple feature that you just built helps you refine the feature, sure. But it slows you down.</p>
+<p>Or does it? Is this just because I’m learning? Will it speed me up later? Is this not really a good process for small side projects?</p>
+<p>I think what I&#8217;ve come to realise is that there is an initial outlay/investment in getting your test suite off the ground. Those initial tests for simple stuff like creating a user are things that you will do on lots of projects. You&#8217;ll write factories for data early on and use them again and again in your future tests.</p>
+<p>So for a relatively small side-project this overhead represents a significant part of the work and probably doesn&#8217;t get you much payback as you won&#8217;t run the tests as much.</p>
+<p>But for a large project, the testing overhead is smaller and the value of the tests is much greater. So it will feel more worthwhile.</p>
+<h2>Where I&#8217;m at</h2>
+<p>I&#8217;m enjoying using TDD, but, as I just mentioned, for the small things I&#8217;m building with it, it feels like a lot of effort.</p>
+<p>BUT&#8230;this is serving me well for the future. I HAVE to build these small projects using it because without them I won&#8217;t have confidence that I can use TDD on the larger projects that may come along.</p>
+<p>I&#8217;m not a 100% convert to either the <a href="https://course.testdrivenlaravel.com/">Wathan Way</a> or the <a href="https://laracasts.com/series/lets-build-a-forum-with-laravel/">Jeffrey Way</a> (the Way Way?) of TDD and I think they&#8217;d both say I should be pragmatic and thoughtful in my approach anyway rather than religiously following either of their approaches.</p>
+<p>I&#8217;m being pulled up short a bit on unit testing too &#8211; this is something I need to delve into more. Currently most of my tests are feature/HTTP tests. And unit tests feel a bit like:</p>
+<pre class="brush: php; gutter: false; title: ; notranslate" title="">
+$test = x;
+$this-&gt;assertEquals(x, $test);
+</pre>
+<p>I mean, not quite like that &#8211; it&#8217;s an extreme example. But you get the idea. And I&#8217;m sure I feel this way because I&#8217;m testing the wrong things. So still plenty to learn.</p>
+<p>Leave your TTD tips and tricks and wisdom for me and others below. Thanks!</p>
+</main></body>

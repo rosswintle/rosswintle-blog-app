@@ -1,0 +1,49 @@
+<body><header><h1 data-pagefind-meta="title">Where I&#8217;m at with WordPress: Gutenberg &#8211; as a business owner and developer</h1></header><main><p><em>For more on this topic, see &#8220;<a href="https://rosswintle.uk/2018/01/wordpress-gutenberg-user/">Where I&#8217;m at with WordPress: Gutenberg &#8211; as a user</a>&#8220;</em></p>
+<p>The awesome development team at Delicious Brains (yes, that&#8217;s really their company name) posted <a href="https://deliciousbrains.com/wordpress-gutenberg/">this excellent write up of the Gutenberg project</a> today, and it prompted me to write more.</p>
+<p>This is actually text taken from a discussion I had with a team that I work with. That discussion was a chance to put my long-mulled-over thoughts into text, and I&#8217;m formalising and publicising that here.</p>
+<p>If you don&#8217;t know what Gutenberg is then go and read <a href="https://rosswintle.uk/2018/01/wordpress-gutenberg-user/">my previous post about it</a>.</p>
+<h3>Context: My business</h3>
+<p>The context of this is that I&#8217;m a freelance software developer whose bread and butter is MOSTLY writing code for WordPress: custom themes and plugins for clients.  I&#8217;ve been doing this for 6 years now, and some clients have come and gone, but I&#8217;ve still got a lot of highly-customised WordPress projects that I maintain and develop, and sites that I host for people.</p>
+<p>And WordPress&#8217;s current plan with Gutenberg is to have it on, by default, for everyone that updates to version 5.0 of WordPress when it&#8217;s released sometime in the first half of this year.</p>
+<h3>My response</h3>
+<p>I can see that this will totally confuse most of the people that I look after sites for.  Bear in mind that quite a lot of my clients are small charities or very small businesses &#8211; some of them very rarely log in to their sites. And when they do log in and see something so very different it <span style="text-decoration: underline;">will</span> confuse them and I&#8217;ll have to spend time helping them.</p>
+<p>I&#8217;m also concerned about custom fields/meta boxes not working (though I&#8217;m trusting that this will all work without change), and the suitability of the Gutenberg interface for editing certain types of content.</p>
+<p>So my default position is that for existing sites I will probably install the Classic Editor Plugin until either:</p>
+<ul>
+<li>sites have been reviewed and are ready to have Gutenberg enabled; or</li>
+<li>clients have requested the new editor and we&#8217;ve explained the caveats around it; or</li>
+<li>I otherwise become confident that nothing will break and my clients have been adequately briefed and trained.</li>
+</ul>
+<p>The response from one person I work with to this was &#8220;Do you mean to say that we won’t support this new WP feature?  That feels like a big step &#8211; essentially the 1st time we’ve done such a thing.&#8221;</p>
+<p>And to respond to that I put forward some of the issues in more depth.</p>
+<h3>Gutenberg Issues</h3>
+<h4>1 &#8211; This is a drastically new interface.</h4>
+<p>Allowing all sites to suddenly have it will probably result in a raft of support requests and confusion. My opinion (and I&#8217;ve made this clear to core developers) is that NEW sites should have it enabled by default and existing sites should have it as opt-in. BUT it looks like they&#8217;re just going to push it out to everyone as of v5.0.</p>
+<h4>2 &#8211; The Gutenberg interface simply isn&#8217;t suitable for quite a lot of applications.</h4>
+<p>You might not want Gutenberg for editing some custom post types like events or countries. And to have it enabled for <em>some</em> post types and not others will be doubly confusing for users.</p>
+<h4>2a &#8211; Selective disabling will require code changes</h4>
+<p>In any case disabling Gutenberg on a per-post-type basis will PROBABLY require code changes on every site that I/we have developed that has custom post types. (It&#8217;s not quite clear how this will work yet though).</p>
+<h4>2b) Making Gutenberg work the way it&#8217;s been suggested you should is a LOT of work!</h4>
+<p>The suggested way to adapt custom-field-heavy post types to Gutenberg that has been <a href="https://riad.blog/2017/12/11/with-gutenberg-what-happens-to-my-custom-fields/">stated by an Automattic engineer</a> is:</p>
+<ol>
+<li>Create Gutenberg blocks instead of meta boxes for custom fields/post meta data.</li>
+<li>Link the blocks to the post meta data so that data is properly structured inside WordPress.</li>
+<li>Provide a Gutenberg &#8220;template&#8221; layout that contains all the elements/data in the right places on the screen.</li>
+<li>FIX this layout so that the user can&#8217;t modify the layout/structure/fields &#8211; only the content.</li>
+</ol>
+<p>I have described this as like upgrading a bicycle (a vehicle that&#8217;s cheap, that&#8217;s clean, that you can ride without training and licensing) to a motorbike, and then attaching pedals so that you can get all the benefits of the bike back.</p>
+<p>This is a bit of a crazy workaround. And it&#8217;s a large amount of effort to get back functionality that you used to have for free.</p>
+<p><em>(Note that yes, a motorbike has its own advantages over a bicycle &#8211; it&#8217;s faster and louder and many would consider it an upgrade! But you have to want a motorbike, and you have to get trained to use it and you have to license it and insure it and buy a helmet and so on&#8230; You don&#8217;t just give everyone a motorbike because you think it&#8217;s better &#8211; some people love <a href="https://rosswintle.uk/2015/11/new-friend-marin-muirwoods-29er-review/">their bicycles</a>!)</em></p>
+<p>I trust that custom fields will continue to work. But this alternative, Gutenberg-ready approach is a lot more effort and requires learning/training for a lot of developers.</p>
+<p>I also can&#8217;t help thinking that what developers really wanted was a fields API.  And I also find the WordPress data model pretty restrictive and would like something like post relationships in core rather than having to fudge it with <code>post_meta</code> or a custom table.  Gutenberg &#8220;blocks&#8221; are great, but they aren&#8217;t structured data. They&#8217;re just a blob of text in the database. And connecting blocks to an already-lacking data structure as a workaround really doesn&#8217;t seem helpful.</p>
+<p><em>Note/plug: if you liked that paragraph then you might want to <a href="https://wptolaravel.com/">learn about MVC frameworks like Laravel</a> instead.</em></p>
+<h4>3 &#8211; We don&#8217;t know what will break and how to fix it</h4>
+<p>It&#8217;s not yet clear if and how all our meta boxes and ACF fields and stuff will work in a new Gutenberg world. They should all &#8220;just work&#8221; (the ACF guys in particular <a href="https://www.advancedcustomfields.com/blog/acf-year-review-2017/">seem to be on it</a>) but again, it&#8217;s not clear at this point if any work will be required. Right now we don&#8217;t know what, if anything, will break and how much effort it will be to fix it.</p>
+<h4>4 &#8211; What will clients do with it?</h4>
+<p>Do we really want to let all clients have an interface where they can create columns, layouts, tables, and whatever other &#8220;blocks&#8221; are present in the system? This is nearly the equivalent of installing a page builder for everyone? Is this a good idea?</p>
+<p>Opinion amongst the people I work with is divided.  And I do understand that some clients have been wanting this. But part of our job is implementing a design and layout that works, and I&#8217;m concerned that Gutenberg allows clients to step outside of our expertly-crafted page structures.  Yes, you can lock the layouts. But that&#8217;s more effort again. So I don&#8217;t know what to think here.</p>
+<h3>Summary</h3>
+<p>Having Gutenberg will be great for new websites and new projects going forward, but I&#8217;ve yet to be convinced that enabling it for all sites when they update to WordPress 5.0 is a good idea. So my plan is not to do that &#8211; to disable it until sites and people are ready for it.</p>
+<p>What are your plans?  If you&#8217;re a client of mine, feel free to drop me a line to discuss Gutenberg, or even to try it out.</p>
+<p>&nbsp;</p>
+</main></body>

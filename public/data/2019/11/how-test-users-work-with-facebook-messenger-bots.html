@@ -1,0 +1,108 @@
+<body><header><h1 data-pagefind-meta="title">How to make test users work with Facebook Messenger Bots</h1></header><main>
+<p><em>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!</em></p>
+<p>It’s no secret that I have built my own personal Messenger “bot” for school information called SchoolBot.</p>
+
+
+
+<p>But at some point I’d love for it to be more public, to get people to test it, to get some feedback from more normal people than I to see if it’s really, actually useful, or just a toy for me to play with.</p>
+
+
+
+<p>So I created a test instance for “Springfield Elementary” with the aim of allowing others to try it out.</p>
+
+
+
+<p>I don’t want to make this thing public to everyone &#8211; but I do want people to be able to find it and give controlled access to it to test it out. But HOW does this work?</p>
+<p>The way that Facebook Messenger bots use apps and pages and which users are allowed to use which things when you’re in test/development mode is REALLY confusing. But I think I’ve figured it out.</p>
+<p>
+
+</p>
+
+
+
+<h2 class="wp-block-heading">The component parts</h2>
+
+
+
+<p>I‘m building SchoolBot with BotMan &#8211; a Laravel-based chatbot framework. This forms the ultimate back-end for the bot.</p>
+
+
+
+<p>At the “front end” of this system is a page that you message through Facebook Messenger.</p>
+
+
+
+<p>And a Facebook App connects the page to the BotMan back-end, passing messages between the two.</p>
+
+
+
+<h2 class="wp-block-heading">Private, published, dev, live and all the roles!</h2>
+
+
+
+<p>The two Facebook components &#8211; the app and the page &#8211; both have a status. The page can be Published or Unpublished. The app can be in development mode, or live mode.</p>
+
+
+
+<h3 class="wp-block-heading">Development Apps vs Live Apps</h3>
+
+
+
+<p>Development apps are only usable by those users that have been added with an app role.</p>
+
+
+
+<p>To allow anyone to use your app you need to make the app live. To get your app live can be quite tricky as you may need to submit it for review, and this requires all sorts of things like privacy policies and maybe organisational verification. (This is a GOOD thing! It prevents random apps stealing all your data!!)</p>
+
+
+
+<p>So if you want to just do some testing before you apply for review, or if you’re waiting to go through the review process you’ll be stuck in development mode.</p>
+
+
+
+<h3 class="wp-block-heading">Published vs Unpublished pages</h3>
+<p>Unpublished pages won&#8217;t be found in search and can only be seen by and interacted with by those users that have been added with a page role.</p>
+
+
+
+<h3 class="wp-block-heading">Page roles</h3>
+
+
+
+<p>A published page can be searched for and discovered by anyone. But an unpublished page can only be seen and used by people who have a Page Role.</p>
+
+
+
+<p>Page Roles are a bit annoying because there isn’t a role that lets someone just see and use an unpublished page. The lowest level is “Analyst” which “Can see which admin created a post or comment and view Insights.”</p>
+
+
+
+<h3 class="wp-block-heading">App Roles</h3>
+
+
+
+<p>App Roles are better because you can actually give people a “Tester” role. BUT&#8230;App Roles are annoying for test users because they have to use the developer.facebook.com developer portal to accept their role and the whole thing is a bit scary if they’ve not seen it before.</p>
+
+
+
+<h2 class="wp-block-heading">Putting it together</h2>
+
+
+
+<p>So I have my Page which talks to my BotMan through my App. I’ve connected them all together (this is a whole other post worth of stuff) and now I’m wanting to bring in some people to test it the Messenger bot. What do we have to do?:</p>
+
+
+
+<ul>
+<li>The Page can be published or unpublished. Just bear in mind that it’s harder for people to find if it’s unpublished &#8211; you’ll probably have to send them a link.</li>
+<li>IF the Page is unpublished then the test users will need to be added with a Page Role, the lowest of which is “Analyst”. And then you’ll have to send them the link to the page too because it won&#8217;t be found in search.</li>
+</ul>
+<p>They should then be able to Message the page once you set up a “Send Message” button on the page. But their message won’t get to the Bot because they aren’t allowed to use the app part that relays the message. So&#8230;</p>
+<ul>
+<li>You need to go to the developer portal and add them as a &#8220;Tester&#8221;. This will send them an invite but they&#8217;ll need to log in to the developer portal themselves to accept it.</li>
+</ul>
+<h2>Done!</h2>
+<p>With that all done, the person should be able to send a message to the page, have it relayed to the bot by the app, and the have the responses relayed back too.</p>
+<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot in this way.</p>
+<p>YAY!</p>
+</main></body>

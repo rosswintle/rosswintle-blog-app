@@ -1,0 +1,225 @@
+{
+    "id": 4235,
+    "date": "2018-09-29T22:22:56",
+    "date_gmt": "2018-09-29T21:22:56",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=4235"
+    },
+    "modified": "2021-06-10T13:18:25",
+    "modified_gmt": "2021-06-10T12:18:25",
+    "slug": "beat-the-street-virtual-tinkering",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/",
+    "title": {
+        "rendered": "Beat the Street &#8211; tinkering with a virtual version of the game"
+    },
+    "content": {
+        "rendered": "\n<p>In Swindon at the moment there is this brilliant &#8220;game&#8221; called \u201c<a href=\"https:\/\/beatthestreet.me\/swindon\">Beat the Street<\/a>\u201d intended to get people out and about and walking and cycling. They have put more than 170 boxes around the town, strapped to lampposts, and they have given out thousands of fobs and cards.<\/p>\n\n\n\n<p>The way the &#8220;game&#8221; works is that you tap a box with your fob\/card, and then for each subsequent box you tap (within an hour of the previous box) you get 10 points added. Players can be part of a team, so the school, fitness clubs, and businesses of the town are all competing for prizes &#8211; in and some cases the competition is hot!!!<\/p>\n\n\n\n<p>It&#8217;s been amazing to see loads of people out and about playing &#8211; and exercising! I will surely write more blogs about both the social and technical aspects of Beat the Street in the near future.<\/p>\n\n\n\n<p>But I&#8217;ve been thinking: what will we do when this ends in late October? I might miss having to check in at the boxes. Is there some way we can &#8220;reset&#8221; the points and continue the game?<\/p>\n\n\n\n<p>Let&#8217;s be clear &#8211; the physicality is a huge part of what has made this a success. For kids, being able to have a key-ring like fob in their posession, and being able to tap it on a physical box, and have that box light up and flash in recognition really makes the game. And, the engagement on social media from the Beat the Street team has been brilliant (and I applaud everything they have done here).<\/p>\n\n\n\n<p>BUT&#8230;equally, anyone with a tech-head (like me) knows that the vast majority of people tapping will have these smart, connected, location-aware devices with them as they travel around.<\/p>\n\n\n\n<p>So the natural thinking progression is: could we create a virtual version of the game?<\/p>\n\n\n\n<p>And for me, the question is: how hard are the basics here? Especially with the mobile device part. And how much fun can we have finding out.<\/p>\n\n\n\n<p>So today I just tinkered.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">The basic premise<\/h3>\n\n\n\n<p>No, I&#8217;ve not fully thought this through. But on the front end at least, the idea is that you could have a mobile-friendly website with a big button on it. You have a stored list of virtual &#8220;box&#8221; locations. And when you approach a location and stand within a few metres of it, the button turns green and activates, and you can &#8220;check in&#8221;.<\/p>\n\n\n\n<p>Notes before we begin:<\/p>\n\n\n\n<ol><li>Yes, this app has been built a zillion times before. But never by ME! So let me have some fun, will you?<\/li><li>This is all vanilla JavaScript with no libraries. It&#8217;s messy and hacked together in half an hour. Of course it can be better! I&#8217;m just tinkering!<\/li><\/ol>\n\n\n\n<h3 class=\"wp-block-heading\">Getting location<\/h3>\n\n\n\n<p>Getting location in the browser is pretty easy. You need HTTPS to do it, but with that on you just follow the pretty simple <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Geolocation_API\">Geolocation API<\/a> and do:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>navigator.geolocation.getCurrentPosition(geoSuccess, geoError);<\/code><\/pre>\n\n\n\n<p>where <code>geoSuccess<\/code>&nbsp;and <code>geoError<\/code>&nbsp;are functions that take a location parameter. Or you can use:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>navigator.geolocation.watchPosition(geoSuccess, geoError);<\/code><\/pre>\n\n\n\n<p>to watch the position and fire the callback when the position changes.<\/p>\n\n\n\n<p>Simple.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">A button<\/h3>\n\n\n\n<p>Then you need a button. This is easy to make. I won&#8217;t bore you with the fine details of HTML and CSS (because if you&#8217;re reading this it&#8217;s likely you know them anyway), but I just used:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>&lt;button&gt;This is a button&lt;\/button&gt;<\/code><\/pre>\n\n\n\n<p>And then<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>&lt;style&gt;\n  button {\n    font-size: 32px;\n    background-color: #ffbdbd \/* Pale red *\/\n    padding: 1rem 2rem;\n    border: 0 none;\n    outline: none;\n    border-radius: 8px;\n  }\n  button.active {\n    background-color: #ccffda; \/* Pale green *\/\n  }\n&lt;\/style&gt;<\/code><\/pre>\n\n\n\n<h3 class=\"wp-block-heading\">Showing the location<\/h3>\n\n\n\n<p>To help with finding coordinates of &#8220;boxes&#8221; and generally for figuring this stuff out, I decided I wanted the current location to show. So I added a container for the location result:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>&lt;div id=\"result\"&gt;\n&lt;\/div&gt;<\/code><\/pre>\n\n\n\n<p>and then just created the <code>geoSuccess<\/code>&nbsp;function, which gets called when the location is found, and have it put the location in this container:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>var result = document.getElementById('result');\nfunction geoSuccess(position) {\n  result.innerHTML='You are at ' +\n                    position.coords.latitude.toFixed(9) +\n                    ', ' + position.coords.longitude.toFixed(9);\n}<\/code><\/pre>\n\n\n\n<h3 class=\"wp-block-heading\">Turning the button green\/how big IS the earth?<\/h3>\n\n\n\n<p>OK. Now the &#8220;fun&#8221; bit. We need to work out if we are close to a &#8220;box&#8221;. But how close should we be?<\/p>\n\n\n\n<p>We could try to work out if were within a circle around the &#8220;box&#8221; point. But that involves more maths than I want to do right now. Let&#8217;s go with an estimate of just &#8220;within X metres east\/west and X metres north\/south&#8221;. This, I THINK, means you have to be within a square box around the &#8220;box&#8221;.<\/p>\n\n\n\n<p>Co-ordinates are given in&#8230;what&#8230;degrees I guess? So how big is a degree?<\/p>\n\n\n\n<p>Wikipedia says that the earth&#8217;s circumference is&nbsp;40,075.017km around the equator (40,075,017m) and&nbsp;40007.86km around the poles (40,007,860m).<\/p>\n\n\n\n<p>If we divide by 360, we get&nbsp;111319.49167m per degree of longitude (east\/west) and&nbsp;111132.94444m per degree of latitude (north\/south).<\/p>\n\n\n\n<p>Let&#8217;s make things easy and say we&#8217;re happy with an 11m box around our &#8220;box&#8221; &#8211; that&#8217;s how close you have to be to be able to &#8220;check in&#8221;.&nbsp; So 11m is about 0.0001 degrees in both directions. I&#8217;m sure someone will point out something about elevation and the curvature of the earth, but it&#8217;s good enough for now.<\/p>\n\n\n\n<p>Rather than start with a list of boxes, lets just start with one location that activates the button. So all I need is some latitude and longitude I want to get close enough to in order to activate the button.&nbsp; Once I have this I can update my <code>geoSuccess<\/code> function:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>var boxLong = &lt;some co-ordinate&gt;;\nvar boxLat = &lt;some co-ordinate&gt;;\nvar result = document.getElementById('result');\nvar button = document.querySelector('button');\n\nfunction geoSuccess(position) {\n  result.innerHTML='You are at ' +\n                    position.coords.latitude.toFixed(9) +\n                    ', ' + position.coords.longitude.toFixed(9);\n  if (Math.abs(boxLong - position.coords.longitude) &lt; 0.0001 &amp;&amp;\n      Math.abs(boxLat - position.coords.latitude) &lt; 0.0001) {\n    button.classList.add('active');\n  } else {\n    button.classList.remove('active');\n  }\n}<\/code><\/pre>\n\n\n\n<p>Now, of course, this is just one coordinate. In reality you&#8217;re going to want to loop or map over a load of coordinates and find if you&#8217;re close to any of them. But this is the basics of a working system.<\/p>\n\n\n\n<p>I\u2019ve taken these basics and added some better styling and added a little to them to make a simple \u201capp\u201d. You can walk along and place a box in your current location using a button. The &#8220;check in&#8221; button is then green until you&#8217;re 11m (0.0001 degrees!) away when it turns red. It turns green again when you back inside the 11m range.<\/p>\n\n\n\n<p>Here it is in action (with annotations):<br><\/p>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/beats-me.gif\" alt=\"\" class=\"wp-image-4238\" width=\"270\" height=\"480\"\/><\/figure><\/div>\n\n\n\n<p>OK. So this is just a bit of fun. But it&#8217;s the basis of something quite interesting: you could do a virtual beat-the-street style game using people&#8217;s smartphones to check in to virtual boxes.<\/p>\n\n\n\n<p>You can have a play at:\u00a0<a href=\"https:\/\/zapthemap.com\/\">https:\/\/zapthemap.com\/<\/a> (It&#8217;s evolved a lot since this post!)<\/p>\n\n\n\n<p>YES, yes, yes. This is (relatively) trivial to hack by simulating your location in a web browser. You wouldn&#8217;t want to run any kind of genuinely competitive real game using it. But it could form the basis of some friendly competition or some kind of personal game with yourself. I dunno.<\/p>\n\n\n\n<p>But it was fun, and surprisingly easy, to get this far.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>In Swindon at the moment there is this brilliant &#8220;game&#8221; called \u201cBeat the Street\u201d intended to get people out and about and walking and cycling. They have put more than 170 boxes around the town, strapped to lampposts, and they have given out thousands of fobs and cards. The way the &#8220;game&#8221; works is that [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        717,
+        586
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Beat the Street - tinkering with a virtual version of the game - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Beat the Street - tinkering with a virtual version of the game - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"In Swindon at the moment there is this brilliant &#8220;game&#8221; called \u201cBeat the Street\u201d intended to get people out and about and walking and cycling. They have put more than 170 boxes around the town, strapped to lampposts, and they have given out thousands of fobs and cards. The way the &#8220;game&#8221; works is that [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-09-29T21:22:56+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-06-10T12:18:25+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/beats-me.gif\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"6 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/\",\"name\":\"Beat the Street - tinkering with a virtual version of the game - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-09-29T21:22:56+00:00\",\"dateModified\":\"2021-06-10T12:18:25+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Beat the Street &#8211; tinkering with a virtual version of the game\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Beat the Street - tinkering with a virtual version of the game - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Beat the Street - tinkering with a virtual version of the game - Ross Wintle",
+        "og_description": "In Swindon at the moment there is this brilliant &#8220;game&#8221; called \u201cBeat the Street\u201d intended to get people out and about and walking and cycling. They have put more than 170 boxes around the town, strapped to lampposts, and they have given out thousands of fobs and cards. The way the &#8220;game&#8221; works is that [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2018-09-29T21:22:56+00:00",
+        "article_modified_time": "2021-06-10T12:18:25+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/beats-me.gif"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "6 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/",
+                    "url": "https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/",
+                    "name": "Beat the Street - tinkering with a virtual version of the game - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2018-09-29T21:22:56+00:00",
+                    "dateModified": "2021-06-10T12:18:25+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/09\/beat-the-street-virtual-tinkering\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Beat the Street &#8211; tinkering with a virtual version of the game"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4235"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4235"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 7,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4235\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 10275,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4235\/revisions\/10275"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4235"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4235"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4235"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

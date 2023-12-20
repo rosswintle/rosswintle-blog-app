@@ -1,0 +1,112 @@
+<body><header><h1 data-pagefind-meta="title">Tech Notes: Laravel Livewire &#8211; testing object/model properties of components</h1></header><main>
+<p>This is a super quick note to my future self &#8211; and you? &#8211; about testing object/model properties of Laravel Livewire components.</p>
+
+
+
+<p>I&#8217;m working on a really simple project and using it as an excuse to practice TDD with Laravel.</p>
+
+
+
+<p>I have user-selectable template and my Templates component lets the user select a new template.</p>
+
+
+
+<p>My test is pretty simple.</p>
+
+
+
+<p>Set up a user and two templates, then assign the first template ID to the user. Note that templates have an owner (<code>$template-&gt;owner_id</code>), but the user also has a chosen template (<code>$user-&gt;template_id</code>):</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+// Arrange
+$user = User::factory()-&gt;create();
+$template1 = Template::factory()-&gt;create(&#x5B;
+    'owner_id' =&gt; $user-&gt;id,
+]);
+$template2 = Template::factory()-&gt;create(&#x5B;
+    'owner_id' =&gt; $user-&gt;id,
+]);
+$user-&gt;update(&#x5B;'template_id' =&gt; $template1-&gt;id]);
+</pre></div>
+
+
+<p>Then, acting as the user, test the <code>Templates</code> component, call the <code>setUserTemplate</code> method then assert that the <code>currentTemplate</code> property has changed.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+// Act
+Livewire::actingAs($user)
+    -&gt;test(\App\Http\Livewire\Templates::class)
+    -&gt;call('setUserTemplate', $template2-&gt;id)
+    -&gt;assertSet('currentTemplate', $template2);
+</pre></div>
+
+
+<p>Before we run the test, I note that the currentTemplate, in the Livewire component, is an Eloquent Model object.</p>
+
+
+
+<p>If we run the test we get:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+Failed asserting that two objects are equal.
+--- Expected
++++ Actual
+@@ @@
+ App\Models\Template Object (
+     'connection' =&gt; 'sqlite'
+-    'table' =&gt; null
++    'table' =&gt; 'templates'
+     'primaryKey' =&gt; 'id'
+     'keyType' =&gt; 'int'
+     'incrementing' =&gt; true
+@@ @@
+     'withCount' =&gt; Array ()
+     'perPage' =&gt; 15
+     'exists' =&gt; true
+-    'wasRecentlyCreated' =&gt; true
++    'wasRecentlyCreated' =&gt; false
+     'attributes' =&gt; Array (...)
+     'original' =&gt; Array (...)
+     'changes' =&gt; Array ()
+</pre></div>
+
+
+<p>Showing that the <code>table</code> and <code>wasRecentlyCreated</code> properties of the Template object. The object properties are the same, but it&#8217;s a slightly different object behind the scenes.</p>
+
+
+
+<p>The problem here is that <code>$template2</code> is the original template we created using the factory in the test setup. But the <code>currentTemplate</code> in the component will have been fetched from the database.</p>
+
+
+
+<p>The fix for this it to re-fetch <code>$template2</code> from the database before we compare it. We can do this with <code>$template2-&gt;fresh()</code></p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; title: ; notranslate" title="">
+// Act
+Livewire::actingAs($user)
+    -&gt;test(\App\Http\Livewire\Templates::class)
+    -&gt;call('setUserTemplate', $template2-&gt;id)
+    -&gt;assertSet('currentTemplate', $template2-&gt;fresh());
+</pre></div>
+
+
+<p>This gives us a nice green test:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+PHPUnit 9.5.2 by Sebastian Bergmann and contributors.
+
+.                                                                   1 / 1 (100%)
+
+Time: 00:00.212, Memory: 32.50 MB
+
+OK (1 test, 3 assertions)
+</pre></div>
+
+
+<p>Hooray!</p>
+</main></body>

@@ -1,0 +1,229 @@
+{
+    "id": 1225,
+    "date": "2011-10-28T08:45:25",
+    "date_gmt": "2011-10-28T07:45:25",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/2011\/10\/code-is-beautiful\/"
+    },
+    "modified": "2011-10-28T09:33:13",
+    "modified_gmt": "2011-10-28T08:33:13",
+    "slug": "code-is-beautiful",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/",
+    "title": {
+        "rendered": "Code is Beautiful"
+    },
+    "content": {
+        "rendered": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111028-084012.jpg\"><img decoding=\"async\" class=\"alignnone size-full\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111028-084012.jpg\" alt=\"20111028-084012.jpg\" \/><\/a><\/p>\n<p>I&#8217;m seeing a lot of this these days. I&#8217;ve seen plenty of attempts at photographing code and I do find something beautiful in it. Not always symmetry, but patterns emerge and individual characters blend together into broader &#8216;brush strokes&#8217; that appear.<\/p>\n<p>But it&#8217;s not just static either: this is the engine room of that increasingly interactive place, the Internet!<\/p>\n<p>The photo? I&#8217;ve seen these done with ultra-shallow depth of field, but I quite like it being deeper. It&#8217;s not a better effect, just different. The odd patterns created by capturing a screen on a digital camera bring texture too.<\/p>\n<p>Here&#8217;s a gallery with another pic:<\/p>\n<div id='gallery-2' class='gallery galleryid-1225 gallery-columns-2 gallery-size-thumbnail'><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111028-084012.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111028-084012-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Photo of Code\" \/><\/a>\n\t\t\t<\/div><\/figure><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0901.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0901-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Photo of Code\" \/><\/a>\n\t\t\t<\/div><\/figure>\n\t\t<\/div>\n\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I&#8217;m seeing a lot of this these days. I&#8217;ve seen plenty of attempts at photographing code and I do find something beautiful in it. Not always symmetry, but patterns emerge and individual characters blend together into broader &#8216;brush strokes&#8217; that appear. But it&#8217;s not just static either: this is the engine room of that increasingly [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "aside",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        348,
+        23
+    ],
+    "tags": [
+        387
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Code is Beautiful - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Code is Beautiful - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;m seeing a lot of this these days. I&#8217;ve seen plenty of attempts at photographing code and I do find something beautiful in it. Not always symmetry, but patterns emerge and individual characters blend together into broader &#8216;brush strokes&#8217; that appear. But it&#8217;s not just static either: this is the engine room of that increasingly [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-10-28T07:45:25+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2011-10-28T08:33:13+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111028-084012-150x150.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/\",\"name\":\"Code is Beautiful - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2011-10-28T07:45:25+00:00\",\"dateModified\":\"2011-10-28T08:33:13+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Code is Beautiful\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Code is Beautiful - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Code is Beautiful - Ross Wintle",
+        "og_description": "I&#8217;m seeing a lot of this these days. I&#8217;ve seen plenty of attempts at photographing code and I do find something beautiful in it. Not always symmetry, but patterns emerge and individual characters blend together into broader &#8216;brush strokes&#8217; that appear. But it&#8217;s not just static either: this is the engine room of that increasingly [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2011-10-28T07:45:25+00:00",
+        "article_modified_time": "2011-10-28T08:33:13+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111028-084012-150x150.jpg"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/",
+                    "url": "https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/",
+                    "name": "Code is Beautiful - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2011-10-28T07:45:25+00:00",
+                    "dateModified": "2011-10-28T08:33:13+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2011\/10\/code-is-beautiful\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Code is Beautiful"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1225"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1225"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1225\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 1232,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1225\/revisions\/1232"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1225"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1225"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1225"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

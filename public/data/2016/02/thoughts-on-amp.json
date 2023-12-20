@@ -1,0 +1,236 @@
+{
+    "id": 2231,
+    "date": "2016-02-26T10:11:11",
+    "date_gmt": "2016-02-26T10:11:11",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?p=2231"
+    },
+    "modified": "2016-02-26T10:11:11",
+    "modified_gmt": "2016-02-26T10:11:11",
+    "slug": "thoughts-on-amp",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/",
+    "title": {
+        "rendered": "Thoughts on AMP"
+    },
+    "content": {
+        "rendered": "<p>These are some un-structured thoughts on <a href=\"https:\/\/www.ampproject.org\/\">Google&#8217;s Accelerated Mobile Pages (AMP) project<\/a> and <a href=\"https:\/\/instantarticles.fb.com\/\">Facebook&#8217;s Instant Articles<\/a> that were too long for sharing on social media alone.<\/p>\n<p>I&#8217;m not going to cover what <a href=\"https:\/\/www.ampproject.org\/\">AMP<\/a> is or what Instant Articles are. There&#8217;s plenty of other information online if you want that. But the existence of a couple of <a href=\"https:\/\/wordpress.org\/plugins\/amp\/\">WordPress<\/a> <a href=\"https:\/\/wordpress.org\/plugins\/pagefrog\/\">plugins<\/a> for AMP got me thinking about what this would mean for smaller publishers, bloggers, and organisations producing content.<\/p>\n<p>In general, I dislike Facebook&#8217;s approach of sucking in the whole internet and keeping it within its own walled garden. Facebook wants to BE the internet and to not let people go outside of Facebook. Observe the lack of external sharing options in its mobile apps: the iOS app will let me copy a link, but there&#8217;s not access to a standard iOS sharing panel that might let me save to other apps that I have installed like Pocket or Evernote.<\/p>\n<p>So while I can see the advantages of Instant Articles for users and organisations, I have an idealogical objection to it.<\/p>\n<p>AMP is slightly different. Yes, Google will cache AMP pages. But Google also generally acts as an open space where you can leave Google&#8217;s space to do other things. But I prefer the openness of it.<\/p>\n<p>Yes, in theory Facebook (or anyone else) could be an AMP consumer platform and crawl AMP pages and suck them into its walled garden anyway. Hmm. \u00a0I&#8217;m not sure of the ethical, legal or idealogical aspects of that: re-publishing my content for me? This is gonna raise some interesting issues about who owns content and has the right to publish it and re-publish it.<\/p>\n<p>The other issue for me is one of user experience and user journey. AMP pages are&#8230;as far as I can tell&#8230;dead ends. It&#8217;s great that I can load a single page REALLY quickly. But what if I, as a publisher, want to build community or get feedback by having people comment on that page? Or if I want them to take an action based on the content of the page? Or if I want to try and keep visitors on my site by providing access to similar, related or important content?<\/p>\n<p>I&#8217;ve not done a deep dive into either technology, but it looks like some of these aspects are missing, and things like analytics and advertising are more complicated.<\/p>\n<p>I&#8217;m sure I&#8217;m missing something. I totally support the drive for a simpler, faster web, \u00a0will these projects help? I&#8217;m not sure. But if they do there will certainly be side-effects.<\/p>\n<p>Small publishers: take note, be informed, and use wisely.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Some un-structured thoughts on Google&#8217;s (AMP) project and Facebook&#8217;s Instant Articles and how they might affect small publishers.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        24
+    ],
+    "tags": [
+        592,
+        189,
+        254,
+        220,
+        593,
+        594,
+        317,
+        181
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Thoughts on AMP - Ross Wintle<\/title>\n<meta name=\"description\" content=\"Some un-structured thoughts on\u00a0Google&#039;s (AMP) project\u00a0and\u00a0Facebook&#039;s Instant Articles and how they might affect small publishers.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Thoughts on AMP - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some un-structured thoughts on\u00a0Google&#039;s (AMP) project\u00a0and\u00a0Facebook&#039;s Instant Articles and how they might affect small publishers.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2016-02-26T10:11:11+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/\",\"url\":\"https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/\",\"name\":\"Thoughts on AMP - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2016-02-26T10:11:11+00:00\",\"dateModified\":\"2016-02-26T10:11:11+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"description\":\"Some un-structured thoughts on\u00a0Google's (AMP) project\u00a0and\u00a0Facebook's Instant Articles and how they might affect small publishers.\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Thoughts on AMP\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Thoughts on AMP - Ross Wintle",
+        "description": "Some un-structured thoughts on\u00a0Google's (AMP) project\u00a0and\u00a0Facebook's Instant Articles and how they might affect small publishers.",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Thoughts on AMP - Ross Wintle",
+        "og_description": "Some un-structured thoughts on\u00a0Google's (AMP) project\u00a0and\u00a0Facebook's Instant Articles and how they might affect small publishers.",
+        "og_url": "https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2016-02-26T10:11:11+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/",
+                    "url": "https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/",
+                    "name": "Thoughts on AMP - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2016-02-26T10:11:11+00:00",
+                    "dateModified": "2016-02-26T10:11:11+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "description": "Some un-structured thoughts on\u00a0Google's (AMP) project\u00a0and\u00a0Facebook's Instant Articles and how they might affect small publishers.",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2016\/02\/thoughts-on-amp\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Thoughts on AMP"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2231"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2231"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2231\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 2232,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2231\/revisions\/2232"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2231"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2231"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2231"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

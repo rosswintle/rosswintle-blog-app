@@ -1,0 +1,75 @@
+<body><header><h1 data-pagefind-meta="title">Dynamic Properties &#8211; A 5 Minute Window</h1></header><main>
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" title="Dynamic Properties - A 5 Minute Window:" width="640" height="480" src="https://www.youtube.com/embed/FbKyLi8wK58?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div></figure>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; quick-code: false; notranslate" title="">
+&lt;?php
+
+// Hi!
+
+// OK, these aren't EXACTLY 5 minutes, but I'll try hard to be LESS THAN
+// 5 minutes.
+
+// Also... let's get this window out of the way
+
+// That's better.
+
+// Today, another quirk in PHPStorm with our code snippet.
+
+// We have strict types on still, but we're going to look at what properties we can set and get from the object.
+
+
+// Here's the post class - the template for our objects.
+
+class Post {
+    // Each post has a publicly accessible ID and title
+    public int $id = 0;
+    public string $title = '';
+}
+
+// Here's us making a couple of instances...
+$posts = &#x5B;];
+
+$posts&#x5B;0] = new Post();
+$posts&#x5B;0]-&gt;id = 123; // This is the wrong type. Hold one.
+$posts&#x5B;0]-&gt;title = 'Hello World';
+
+$posts&#x5B;1] = new Post();
+$posts&#x5B;1]-&gt;id = 456; // They should be integers! How nice of our editor to tell us. We might have caused a bug!
+$posts&#x5B;1]-&gt;title = 'Hello again';
+
+// What if we try to do this though?
+
+$posts&#x5B;0]-&gt;nonExistentProperty = 'thing';
+
+// Hmm.. there's an underline.
+
+// Cool, so it's warning us about that! That's good. (I didn't think it would)
+
+// That property doesn't exist, so we shouldn't be setting it!
+
+// What about if we try to access something that doesn't exist. Perhaps, despite editor help
+// we forgot the name of a property?
+
+$posts&#x5B;0]-&gt;post_title;
+
+// Hmm... that's highlighted!
+
+// So, again, we get warned.
+
+// This is GREAT!
+
+// And especially good for when you're working with external APIs.
+
+// Get the data. Put it in an object. Then you don't have to remember what all the fields
+// were called. Your IDE helps you!
+
+// So... hopefully you see how objects can be more helpful than arrays.
+
+// Go try it out!
+
+// Onto other things now.
+
+</pre></div></main></body>

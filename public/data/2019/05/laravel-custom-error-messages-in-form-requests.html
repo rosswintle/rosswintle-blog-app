@@ -1,0 +1,154 @@
+<body><header><h1 data-pagefind-meta="title">Laravel: Custom error messages in form requests</h1></header><main>
+<p>Another thing where I feel like: &#8220;I must have done this a hundred times before, but it feels new&#8221;.</p>
+
+
+
+<h3 class="wp-block-heading">CRUDdy conventions</h3>
+
+
+
+<p>Laravel apps generally use forms a lot. They don&#8217;t have to, but a lot of the time you need to make some kind of CRUD (Create, Read, Update and Delete) interface for objects, and you so end up needing simple forms.</p>
+
+
+
+<p>And Laravel uses &#8220;<a href="https://en.wikipedia.org/wiki/Convention_over_configuration">convention over configuration</a>&#8221; to determine a lot of things. For example, rather than getting the developer to explicitly say &#8220;The <code>User</code> model uses the <code>users</code> table&#8221;, the framework assumes a default by convention:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>By convention, the &#8220;snake case&#8221;, plural name of the class will be used as the table name unless another name is explicitly specified</p><cite><a href="https://laravel.com/docs/5.8/eloquent#eloquent-model-conventions">https://laravel.com/docs/5.8/eloquent#eloquent-model-conventions</a></cite></blockquote>
+
+
+
+<p>This is great because once you&#8217;ve learned the conventions, you can get on with coding without having to be explicit about a load of things.</p>
+
+
+
+<h3 class="wp-block-heading">Form validation is easy</h3>
+
+
+
+<p>And Laravel also lets you take a lot of shortcuts with creating forms. Such as the built-in validation. This lets you set a bunch of rules about the data submitted in a request, and the framework:</p>
+
+
+
+<ul><li>Applies the rules</li><li>Sanitises the inputs</li><li>Redirects on failure and&#8230;</li><li>&#8230;stores errors in the session.</li></ul>
+
+
+
+<p>This is great. Under certain circumstances. But you can&#8217;t just set the rules and go. You still need to pay attention to what&#8217;s going on.</p>
+
+
+
+<h3 class="wp-block-heading">The wrong error</h3>
+
+
+
+<p>One place that this beautifully-automatic system falls down is with error messages. It does its best, but really it needs a little more work.</p>
+
+
+
+<p>Say you have a simple profile-updating form for a company object. You could have an <code>input</code> named <code>name</code>, but your label for this input is <code>Company Name</code>:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+&lt;h3&gt;Your company details&lt;/h3&gt;
+
+&lt;div class=&quot;input-group&quot;&gt;
+  &lt;label for=&quot;name&quot;&gt;Company name&lt;/label&gt;
+  &lt;input type=&quot;text&quot; name=&quot;name&quot; id=&quot;name&quot;&gt;
+&lt;/div&gt;
+</pre></div>
+
+
+<p>You can validate this for, say, required-ness in your controller like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+$validatedRequest = $request-&gt;validate(&#x5B;
+  'name' =&gt; 'required'
+]);
+
+// Do stuff with the request
+</pre></div>
+
+
+<p>The framework does its best to be clever here if validation fails, and it sill stores an error in the session that you can print in your template. BUT&#8230;the error will say that &#8220;The <strong>name</strong> field is required&#8221; (or similar &#8211; emphasis mine) and it will use the input&#8217;s name rather than the label. This is confusing for the user because the label for the input was &#8220;Company name&#8221; so the error should be &#8220;The <strong>Company name</strong> field is required&#8221;.</p>
+
+
+
+<h3 class="wp-block-heading">Custom error messages</h3>
+
+
+
+<p>You can create custom error messages for validations, but you have to use a more verbose form of validation. This is <a href="https://laravel.com/docs/5.8/validation#custom-error-messages">documented here</a>, and I won&#8217;t go into too much detail, but you basically create an array of new messages like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+$messages = &#x5B;
+  'name.required' =&gt; 'You must provide a company name',
+];
+</pre></div>
+
+
+<p>There are various ways to pass this to the validator &#8211; check the docs.</p>
+
+
+
+<p>And this all works nicely. So far so good. But&#8230;</p>
+
+
+
+<h3 class="wp-block-heading">A complication</h3>
+
+
+
+<p>But there&#8217;s a slight complication for my application: I&#8217;m using <a href="https://laravel.com/docs/5.8/validation#form-request-validation">form requests!</a> These allow you to group authorisation, validation, and so on into a single class for handling the input, and to have lots of that taken care of for you. Their usage in a controller looks like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+public function store(CompanyUpdate $request)
+{
+  $validated = $request-&gt;validated();
+}
+</pre></div>
+
+
+<p>Once you&#8217;ve created the <code>CompanyUpdate</code> request class here, authorisation is automatic, and validation is taken care of in that single line.</p>
+
+
+
+<p>But where, then, do I put my custom messages?!</p>
+
+
+
+<h3 class="wp-block-heading">The solution</h3>
+
+
+
+<p>I confess that custom error messages for form requests <a href="https://laravel.com/docs/5.8/validation#customizing-the-error-messages">ARE documented</a>, and I just missed them, which is why I&#8217;ve ended up writing this up for my own sanity.</p>
+
+
+
+<p>To customise the error messages in your form request you can override the <code>messages</code> method in your form request class:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+public function messages()
+{
+  return &#x5B;
+    'name.required' =&gt; 'You must provide a company name',
+    ];
+}
+</pre></div>
+
+
+<p>Simple. But a kinda-tucked away, done-by-convention feature of form requests that&#8217;s really useful to know.</p>
+
+
+
+<p>Hoepfully, like my future self, you&#8217;re now happy that:</p>
+
+
+
+<ul><li>you need to customise your form validation messages; and</li><li>you can now do this however you are doing your validations&#8230;</li><li>&#8230;even if they are within a form request!</li></ul>
+</main></body>

@@ -1,0 +1,234 @@
+{
+    "id": 9463,
+    "date": "2020-08-26T11:10:08",
+    "date_gmt": "2020-08-26T10:10:08",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=9463"
+    },
+    "modified": "2020-08-26T11:10:11",
+    "modified_gmt": "2020-08-26T10:10:11",
+    "slug": "announcing-beyond-wp",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/",
+    "title": {
+        "rendered": "Announcing Beyond WP"
+    },
+    "content": {
+        "rendered": "\n<p>WordPress developers: Today I\u2019m opening sign ups to a newsletter I\u2019ll be starting soon called <a href=\"https:\/\/beyond-wp.com\/\">Beyond WP<\/a>.<\/p>\n\n\n\n<p>It will be a resource that brings developer tools and ideas from outside the WordPress ecosystem to WordPress developers.<\/p>\n\n\n\n<p><a href=\"https:\/\/beyond-wp.com\">https:\/\/beyond-wp.com<\/a><\/p>\n\n\n\n<p>I\u2019ve worked with WordPress for around ten years. I love it as a CMS. But I often feel like I push it to its limits. As a back-end developer who deals with complex data and builds applications, I\u2019ve needed alternatives.<\/p>\n\n\n\n<p>And I found the <a href=\"https:\/\/laravel.com\/\">Laravel<\/a> framework!<\/p>\n\n\n\n<p>Learning Laravel and being immersed in its ecosystem &#8211; the tooling, the learning resources, the people in the community &#8211; has been hugely beneficial for my work and career. Including ongoing WordPress work.<\/p>\n\n\n\n<p>And I want to bring those benefits to others who&#8217;ve not found these things yet.<\/p>\n\n\n\n<div class=\"wp-block-group has-white-background-color has-background\"><div class=\"wp-block-group__inner-container is-layout-flow wp-block-group-is-layout-flow\">\n<div class=\"wp-block-image is-style-default\"><figure class=\"aligncenter size-large is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/08\/Round-logo-in-text-blue@2x-1024x147.png\" alt=\"\" class=\"wp-image-9465\" width=\"501\" height=\"72\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/08\/Round-logo-in-text-blue@2x-1024x147.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/08\/Round-logo-in-text-blue@2x-300x43.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/08\/Round-logo-in-text-blue@2x-768x110.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/08\/Round-logo-in-text-blue@2x-1536x220.png 1536w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/08\/Round-logo-in-text-blue@2x-2048x293.png 2048w\" sizes=\"(max-width: 501px) 100vw, 501px\" \/><\/figure><\/div>\n\n\n\n<p><\/p>\n<\/div><\/div>\n\n\n\n<p>Sure, I\u2019m not the only person that spans WordPress and Laravel worlds. But I made a <a href=\"https:\/\/wptolaravel.com\">WordPress-to-Laravel<\/a> course, and some videos about useful PHP tools. And I\u2019ve come to see one of my roles as being a bridge between these communities.<\/p>\n\n\n\n<p>Beyond WP gives some structure to this. To start with, it will be an occasional email (I can\u2019t promise a schedule) with useful stuff from outside the WP bubble that I think will interest and inspire WordPress developers.<\/p>\n\n\n\n<p>If people like it I may expand the format.<\/p>\n\n\n\n<p>I hope you will read more and sign up at <a href=\"https:\/\/beyond-wp.com\/\">https:\/\/beyond-wp.com\/<\/a>, and please share this with others. You can follow on Twitter <a href=\"https:\/\/twitter.com\/beyond_wp\">@beyond_wp<\/a> too.<\/p>\n\n\n\n<p>Join me in taking a step Beyond WP! It\u2019s exciting and inspiring and fun.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>WordPress developers: Today I\u2019m opening sign ups to a newsletter I\u2019ll be starting soon called Beyond WP. It will be a resource that brings developer tools and ideas from outside the WordPress ecosystem to WordPress developers.<\/p>\n",
+        "protected": false
+    },
+    "author": 3,
+    "featured_media": 9467,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        639
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Announcing Beyond WP - Ross Wintle<\/title>\n<meta name=\"description\" content=\"WordPress developers: Today I\u2019m opening sign ups to a newsletter I\u2019ll be starting soon called Beyond WP.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Announcing Beyond WP - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"WordPress developers: Today I\u2019m opening sign ups to a newsletter I\u2019ll be starting soon called Beyond WP.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2020-08-26T10:10:08+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-08-26T10:10:11+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/08\/Round-logo-blue@2x.png\" \/>\n\t<meta property=\"og:image:width\" content=\"886\" \/>\n\t<meta property=\"og:image:height\" content=\"870\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"Ross Wintle (Oikos)\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle (Oikos)\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/\",\"url\":\"https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/\",\"name\":\"Announcing Beyond WP - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2020-08-26T10:10:08+00:00\",\"dateModified\":\"2020-08-26T10:10:11+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0\"},\"description\":\"WordPress developers: Today I\u2019m opening sign ups to a newsletter I\u2019ll be starting soon called Beyond WP.\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Announcing Beyond WP\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0\",\"name\":\"Ross Wintle (Oikos)\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle (Oikos)\"},\"url\":\"https:\/\/rosswintle.uk\/author\/ross-oikos\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Announcing Beyond WP - Ross Wintle",
+        "description": "WordPress developers: Today I\u2019m opening sign ups to a newsletter I\u2019ll be starting soon called Beyond WP.",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Announcing Beyond WP - Ross Wintle",
+        "og_description": "WordPress developers: Today I\u2019m opening sign ups to a newsletter I\u2019ll be starting soon called Beyond WP.",
+        "og_url": "https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2020-08-26T10:10:08+00:00",
+        "article_modified_time": "2020-08-26T10:10:11+00:00",
+        "og_image": [
+            {
+                "width": 886,
+                "height": 870,
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/08\/Round-logo-blue@2x.png",
+                "type": "image\/png"
+            }
+        ],
+        "author": "Ross Wintle (Oikos)",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle (Oikos)",
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/",
+                    "url": "https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/",
+                    "name": "Announcing Beyond WP - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2020-08-26T10:10:08+00:00",
+                    "dateModified": "2020-08-26T10:10:11+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0"
+                    },
+                    "description": "WordPress developers: Today I\u2019m opening sign ups to a newsletter I\u2019ll be starting soon called Beyond WP.",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2020\/08\/announcing-beyond-wp\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Announcing Beyond WP"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0",
+                    "name": "Ross Wintle (Oikos)",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle (Oikos)"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/ross-oikos\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9463"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/3"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=9463"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 5,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9463\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 9471,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9463\/revisions\/9471"
+            }
+        ],
+        "wp:featuredmedia": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/9467"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=9463"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=9463"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=9463"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "id": 3058,
+    "date": "2018-01-01T22:03:29",
+    "date_gmt": "2018-01-01T22:03:29",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=3058"
+    },
+    "modified": "2018-01-01T22:11:01",
+    "modified_gmt": "2018-01-01T22:11:01",
+    "slug": "wordpress-gutenberg-user",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/",
+    "title": {
+        "rendered": "Where I&#8217;m at with WordPress: Gutenberg &#8211; as a user"
+    },
+    "content": {
+        "rendered": "<p>I&#8217;ve been meaning to write up a bit of where I&#8217;m at with WordPress &#8211; which, if you don&#8217;t know, is the web-based website making tool that I do most of my work and blogging with.<\/p>\n<p>I&#8217;ve been using and developing with WordPress for about 10 years now. I know it quite deeply, and I have opinions. And some big changes are coming up.<\/p>\n<p>Today, I want to talk about &#8220;Gutenberg&#8221;, which is the whizzy new &#8220;block-based&#8221; editor that is coming up in WordPress in the new year.\u00a0 I won&#8217;t describe it in detail because <a href=\"https:\/\/wordpress.org\/gutenberg\/\">that&#8217;s been done elsewhere<\/a>, but if you&#8217;ve used SquareSpace or Medium, it&#8217;s quite a bit more like that. If you want to actually try it out then someone cleverly made a way for you to <a href=\"https:\/\/frontenberg.tomjn.com\/\">do just that<\/a>.<\/p>\n<p><figure id=\"attachment_3066\" aria-describedby=\"caption-attachment-3066\" style=\"width: 676px\" class=\"wp-caption aligncenter\"><img loading=\"lazy\" decoding=\"async\" class=\"wp-image-3066 size-large\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-01-at-22.03.59-1024x618.png\" alt=\"Screengrab of WordPress's upcoming Gutenberg editor\" width=\"676\" height=\"408\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-01-at-22.03.59-1024x618.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-01-at-22.03.59-300x181.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-01-at-22.03.59-768x463.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-01-at-22.03.59-945x570.png 945w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-01-at-22.03.59-600x362.png 600w\" sizes=\"(max-width: 676px) 100vw, 676px\" \/><figcaption id=\"caption-attachment-3066\" class=\"wp-caption-text\">WordPress&#8217;s upcoming Gutenberg editor<\/figcaption><\/figure><\/p>\n<p>Some of you will be expecting me to dive into a deep discussion about my thoughts as a developer\/coder and meta-boxes and stuff like that. But that&#8217;s for another post.<\/p>\n<p>Today, I was a USER of Gutenberg. I was trying to write <a href=\"https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/\">a year-in-review post<\/a> that involved a lot of copying and pasting from Facebook, and I was doing it on an iPad. Now, I know that that&#8217;s not necessarily a common use case, but I know that this wouldn&#8217;t have been too hard in the normal WordPress editor.<\/p>\n<p>But wow was it hard in Gutenberg.<\/p>\n<p>Then, after giving up on the iPad, I switched to my laptop to finish it off. What I found there was that, for a post that is mostly just text, images and a couple of embedded videos, Gutenberg actually <em>gets in the way<\/em> of the writing experience.<\/p>\n<p>I didn&#8217;t expect this.<\/p>\n<p>I&#8217;ve been trying hard to be a proponent of Gutenberg. It seems like it&#8217;s a good evolution of the WordPress software for the use case of blogging and straight-up content creation. I want to think it&#8217;s a good idea.<\/p>\n<p>I also know that the team who are making it have been working REALLY hard on it, engaging fantastically well with those who are testing and critiquing it, and that it&#8217;s still a work in progress and could still end up being the amazing writing tool that I want it to be.<\/p>\n<p>I&#8217;m also aware that I&#8217;m an a-typical user. I like to use my keyboard to write, without touching the mouse, and love the markdown-like shortcuts for headings and code and so on that were recently added to the WordPress editor. AND I know that there are some keyboard shortcuts, but I&#8217;ve not learned them yet (Where is the reference? Maybe not there yet.)<\/p>\n<p>But there was just something about all the extra user-interface popping up everywhere. The way that hovering over any paragraph made all these controls appear (a block for each paragraph creates too many pop-up controls). The way that the new-block interface and the block options are present so much of the time.<\/p>\n<p>I just wanted to write &#8211; and, I&#8217;m sad and sorry to say, Gutenberg got in the way, confused me, and I just wanted to turn it off.<\/p>\n<p>If a power user &#8211; someone who uses WordPress a lot and has high hopes for Gutenberg and wants to like it &#8211; finds it intrusive and complicated, then what will that mean for the every-day blogger?<\/p>\n<p>Gutenberg still has work to do to win me over. I hope the team building it can make it right.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I just wanted to write &#8211; and, I&#8217;m sad and sorry to say &#8211; Gutenberg got in the way and I just wanted to turn it off.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 3066,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        639
+    ],
+    "tags": [
+        678,
+        677,
+        462,
+        605
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Where I&#039;m at with WordPress: Gutenberg - as a user - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Where I&#039;m at with WordPress: Gutenberg - as a user - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I just wanted to write - and, I&#039;m sad and sorry to say - Gutenberg got in the way and I just wanted to turn it off.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-01T22:03:29+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-01T22:11:01+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-01-at-22.03.59.png\" \/>\n\t<meta property=\"og:image:width\" content=\"2212\" \/>\n\t<meta property=\"og:image:height\" content=\"1334\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/\",\"name\":\"Where I'm at with WordPress: Gutenberg - as a user - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-01-01T22:03:29+00:00\",\"dateModified\":\"2018-01-01T22:11:01+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Where I&#8217;m at with WordPress: Gutenberg &#8211; as a user\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Where I'm at with WordPress: Gutenberg - as a user - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Where I'm at with WordPress: Gutenberg - as a user - Ross Wintle",
+        "og_description": "I just wanted to write - and, I'm sad and sorry to say - Gutenberg got in the way and I just wanted to turn it off.",
+        "og_url": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2018-01-01T22:03:29+00:00",
+        "article_modified_time": "2018-01-01T22:11:01+00:00",
+        "og_image": [
+            {
+                "width": 2212,
+                "height": 1334,
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-01-at-22.03.59.png",
+                "type": "image\/png"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/",
+                    "url": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/",
+                    "name": "Where I'm at with WordPress: Gutenberg - as a user - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2018-01-01T22:03:29+00:00",
+                    "dateModified": "2018-01-01T22:11:01+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-user\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Where I&#8217;m at with WordPress: Gutenberg &#8211; as a user"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3058"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=3058"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 4,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3058\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 3069,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3058\/revisions\/3069"
+            }
+        ],
+        "wp:featuredmedia": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/3066"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=3058"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=3058"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=3058"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

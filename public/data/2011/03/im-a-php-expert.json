@@ -1,0 +1,238 @@
+{
+    "id": 1011,
+    "date": "2011-03-08T09:19:20",
+    "date_gmt": "2011-03-08T09:19:20",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?p=1011"
+    },
+    "modified": "2011-03-08T10:13:29",
+    "modified_gmt": "2011-03-08T10:13:29",
+    "slug": "im-a-php-expert",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/",
+    "title": {
+        "rendered": "I&#8217;m a PHP Expert!"
+    },
+    "content": {
+        "rendered": "<p>OK, OK, yes, this post is partly blatent self-promotion, but it&#8217;s also a moment of honesty and a hopefully-interesting reflection on an interesting little test that I did today.<\/p>\n<h2><!--more-->What I do know<\/h2>\n<p>Here&#8217;s the facts:<\/p>\n<ul>\n<li>I do class myself as an expert in software engineering &#8211; the process of solving a given real-world problem using computer software.<\/li>\n<li>I do class myself as a very good developer and can quickly turn my hand to new languages and tools for developing software.<\/li>\n<li>I do class myself as a very good web developer. \u00a0I know back-end technologies like databases, SQL, and server administration; I know application development technologies like PHP and MVC frameworks; and I know front-end technologies: HTML, CSS, JavaScript and jQuery. \u00a0Plus, importantly, I understand the purposes of each and the interaction between them.<\/li>\n<li>However, I would only class myself as upper-intermediate in my PHP skills. \u00a0Yes, I&#8217;ve been using PHP for 4 years are part of my job, but it&#8217;s not been a full-time occupation and I&#8217;m still learning some of the more detailed aspects of the language.<\/li>\n<\/ul>\n<p>So, to prove my worth as a PHP developer, a recruitment consultant sent me a PHP technical test yesterday, and I was a little surprised by the result. \u00a0I got 95% and was in the top 4th percentile of people who took the test. \u00a0It suggested that, far from being intermediate, I was a PHP expert!!<\/p>\n<h2>A confession<\/h2>\n<p>A slight confession is needed at this point. \u00a0The test had a time limit and I approached this test as I would approach a working situation with a tight deadline. \u00a0If I could quickly look something up and understand it enough to answer the question (like, which parameters get passed to a given function), I did, but if it was going to take a while to understand I would either work it out or skip the question. \u00a0So yes, I did quickly look a couple of things up, but I also skipped those questions that I genuinely didn&#8217;t have a clue about. \u00a0And I completed the test in average time.<\/p>\n<p>Even so, I found the test tricky and felt far from confident at the end. \u00a0Why then, did I manage to do so well?<\/p>\n<h2>Languages are just tools<\/h2>\n<p>It&#8217;s a become a bit of a cliche for me that &#8220;languages are just tools&#8221;, but there is a lot of truth in that. \u00a0My A&#8217; level computing teacher used to say that languages were like screwdrivers or chisels are to a woodworker: a good woodworker can pick up a new tool and use it effectively, the important thing is to know how to do woodwork &#8211; how to fit bits of wood together to build things.<\/p>\n<p>I did well at this test because I have a deep understanding of the building blocks of writing code; things like what functions do, recursion, variable scoping, operator precedence and associativity, objects and classes, bitwise operators, loop invariants, interactions between different elements of the system (the database, back-end and front-end), and so on.<\/p>\n<p>I understand the fundamentals of abstraction, encapsulation and decomposition upon which every program should be based.<\/p>\n<p>These are advanced programming concepts that someone who&#8217;s just learned a bit of PHP out of a book won&#8217;t understand, but which I can apply to pretty much any programming language.<\/p>\n<p>And to demonstrate the point, I&#8217;ve used languages as diverse as:<\/p>\n<ul>\n<li>Scheme and Miranda (functional);<\/li>\n<li>C, Pascal and Ada (procedural);<\/li>\n<li>assembler (low-level);<\/li>\n<li>SmallTalk (object-oriented);<\/li>\n<li>JavaScript (most of the above, plus event-driven)<\/li>\n<li>Perl and PHP (text processing);<\/li>\n<li>Prolog (logic);<\/li>\n<li>and SQL (declarative, query-based).<\/li>\n<\/ul>\n<p><span style=\"font-size: 20px; font-weight: bold;\">An example<\/span><\/p>\n<p>The operator precedence question is a good example. Not giving too much away, the question was along the lines of:<\/p>\n<blockquote><p>What output will you get from the following statements:<\/p>\n<p>x=4;<br \/>\necho x&lt;=6 ? &#8216;less than or equal to&#8217; : &#8216;greater than&#8217; . &#8216; six&#8217;;<\/p><\/blockquote>\n<p>NOTE: Apologies to those that don&#8217;t code at this point &#8211; this won&#8217;t make a whole load of sense.<\/p>\n<p>It&#8217;s a clever question because it lures you into thinking that the code is correct and will print &#8216;less than or equal to six&#8217;, but it actually prints just &#8216;less than or equal to&#8217;, because the precedence of the conditional operator is lower than that of string concatenation. \u00a0In case you&#8217;re wondering, no, I didn&#8217;t look this up as I know that the ternary operator has quite low precedence.<\/p>\n<p>It&#8217;s also worth nothing that this is, in my opinion, ambiguous code and any statement like this should always be written more clearly:<\/p>\n<blockquote><p>echo (x &lt;= 6 ? &#8216;less than or equal to&#8217; : &#8216;greater than&#8217; ) . &#8216; six&#8217;;<sup class='footnote'><a href='#fn-1011-1' id='fnref-1011-1' onclick='return fdfootnote_show(1011)'>1<\/a><\/sup><\/p><\/blockquote>\n<p>Adding parentheses adds no computational overhead <sup class='footnote'><a href='#fn-1011-2' id='fnref-1011-2' onclick='return fdfootnote_show(1011)'>2<\/a><\/sup> and makes the code easier to understand.<\/p>\n<h2>Learning languages<\/h2>\n<p>Do I also have evidence that learning new tools and languages is easier if you have a good grounding in computer science? \u00a0Well, yes.<\/p>\n<p>I was recently on a training course where we were learning a tool that had a built-in scripting language. \u00a0Some of the other guys on the course didn&#8217;t have my computer science background and theory. <sup class='footnote'><a href='#fn-1011-3' id='fnref-1011-3' onclick='return fdfootnote_show(1011)'>3<\/a><\/sup><\/p>\n<p>When we got to doing exercises, they raced ahead for the first few, applying the specific bits of knowledge about the language they&#8217;d picked up from the course slides, while I was slow, asking questions like &#8220;what does that function return?&#8221;, or &#8220;why does that query do what it does?&#8221;.<\/p>\n<p>However, come the later exercises, where you had to do more than just refer back to the the slides, I&#8217;d gained a deeper understanding of the language and raced ahead.<\/p>\n<h2>Conclusion<\/h2>\n<p>I&#8217;ve always believed that a thorough grounding in the principles of programming makes you a better coder than someone who just picked up a book and started writing code. \u00a0Occasionally I see practical evidence of this being the case.<\/p>\n<p>Yesterday&#8217;s test proved to me that, while I may not know the exact syntax and purpose of every last PHP function or configuration setting, I can still be a PHP expert, and that I have skills and knowledge that are more valuable than I thought.<\/p>\n<p>Perhaps tomorrow I&#8217;ll be a C# expert!<\/p>\n<div class='footnotes' id='footnotes-1011'>\n<div class='footnotedivider'><\/div>\n<ol>\n<li id='fn-1011-1'> You can argue about putting the comparison operator in parentheses too, but it&#8217;s pretty safe to assume that a simple numerical comparison will have greater precedence over the conditional operator. <span class='footnotereverse'><a href='#fnref-1011-1'>&#8617;<\/a><\/span><\/li>\n<li id='fn-1011-2'> OK, perhaps a TINY overhead when PHP tokenises the script. <span class='footnotereverse'><a href='#fnref-1011-2'>&#8617;<\/a><\/span><\/li>\n<li id='fn-1011-3'> If they&#8217;re reading, I hope they don&#8217;t mind me sharing this story! <span class='footnotereverse'><a href='#fnref-1011-3'>&#8617;<\/a><\/span><\/li>\n<\/ol>\n<\/div>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>OK, OK, yes, this post is partly blatent self-promotion, but it&#8217;s also a moment of honesty and a hopefully-interesting reflection on an interesting little test that I did today.<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "aside",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        24,
+        187
+    ],
+    "tags": [
+        286,
+        292,
+        64,
+        291,
+        153,
+        293
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>I&#039;m a PHP Expert! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"I&#039;m a PHP Expert! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"OK, OK, yes, this post is partly blatent self-promotion, but it&#8217;s also a moment of honesty and a hopefully-interesting reflection on an interesting little test that I did today.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-03-08T09:19:20+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2011-03-08T10:13:29+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/\",\"name\":\"I'm a PHP Expert! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2011-03-08T09:19:20+00:00\",\"dateModified\":\"2011-03-08T10:13:29+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"I&#8217;m a PHP Expert!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "I'm a PHP Expert! - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "I'm a PHP Expert! - Ross Wintle",
+        "og_description": "OK, OK, yes, this post is partly blatent self-promotion, but it&#8217;s also a moment of honesty and a hopefully-interesting reflection on an interesting little test that I did today.",
+        "og_url": "https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2011-03-08T09:19:20+00:00",
+        "article_modified_time": "2011-03-08T10:13:29+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "5 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/",
+                    "url": "https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/",
+                    "name": "I'm a PHP Expert! - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2011-03-08T09:19:20+00:00",
+                    "dateModified": "2011-03-08T10:13:29+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2011\/03\/im-a-php-expert\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "I&#8217;m a PHP Expert!"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1011"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1011"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 7,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1011\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 1014,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1011\/revisions\/1014"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1011"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1011"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1011"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

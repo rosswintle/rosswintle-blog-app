@@ -1,0 +1,226 @@
+{
+    "id": 9521,
+    "date": "2020-09-08T22:05:57",
+    "date_gmt": "2020-09-08T21:05:57",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=9521"
+    },
+    "modified": "2020-10-06T22:06:10",
+    "modified_gmt": "2020-10-06T21:06:10",
+    "slug": "laravel-8-jetstream-and-learning-laravel",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/",
+    "title": {
+        "rendered": "Laravel 8, Jetstream and learning Laravel"
+    },
+    "content": {
+        "rendered": "\n<p>UPDATE &#8211; 6\/10\/2020<\/p>\n\n\n\n<p>This article was written before the Jetstream Drama over the weekend and it&#8217;s worth clarifying a few things, and saying what I&#8217;ve learned from the drama.<\/p>\n\n\n\n<ol><li>I really hope I didn&#8217;t contribute any hate. That&#8217;s really NOT my intention. I&#8217;ve tried to say that I think Laravel and Jetstream are amazing things and Taylor has my utmost respect and thanks. My comments are meant to be entirely constructive. And I&#8217;ve presented small, concrete things that I think could improve first-time experience with Jetstream for some audiences.<\/li><li>I come at this from the point of view of someone who&#8217;s far from a Laravel expert &#8211; I&#8217;m really still learning. But that&#8217;s part of my point: for someone in my position, Jetstream feels a bit inaccessible.<\/li><li>Taylor Otwell (the creator of Laravel) <a href=\"https:\/\/www.youtube.com\/watch?v=krn39HjxPTs\">has clarified<\/a> that he made Jetstream as the kind of thing that HE would use. So in some ways, any critique of it from a less-experienced Laravel developer&#8217;s perspective (which is what this article presents) isn&#8217;t valid. Is it fair to say that it seems this is not a tool intended for beginners with the framework?<\/li><li>However, I feel that with a few small changes and some additions to the documentation, it could be made more accessible for beginners and this would be a good thing for everyone.<\/li><li>Yes, I should have read more of the docs before diving in. But Jetstream seems too inviting, I dived in headfirst and so got stuck. That&#8217;s a lesson for me. <\/li><li>It&#8217;s because I think Laravel and Jetstream are awesome that I&#8217;d love them to be more accessible to more developers. Jetstream is actually a really good example of a set of components and classes at work, and it could serve as some easily explorable code demonstrating good practices. Auth scaffolding is like the &#8220;Hello world&#8221; of Laravel and I&#8217;d love for it to be as easy for the first time Laravel dev to explore as it is for the experienced one.<\/li><\/ol>\n\n\n\n<hr class=\"wp-block-separator\"\/>\n\n\n\n<p>Laravel 8 is out today, along with the amazing new &#8220;Jetstream&#8221; authentication scaffolding that has been built.<\/p>\n\n\n\n<p>So I&#8217;ve just worked through doing a quick install and had a poke around and it is incredible what you get out of the box now. But also, I have two issues with it. This isn&#8217;t really a rant, I do love it. Just observations and possible things that could be thought about for the future.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">1. The barrier to entry is too high now<\/h3>\n\n\n\n<p>If you install Laravel + Jetstream (the Livewire version), you are now faced with this as your welcome template:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\n&lt;x-app-layout&gt;\n    &lt;x-slot name=&quot;header&quot;&gt;\n        &lt;h2 class=&quot;font-semibold text-xl text-gray-800 leading-tight&quot;&gt;\n            Dashboard\n        &lt;\/h2&gt;\n    &lt;\/x-slot&gt;\n\n    &lt;div class=&quot;py-12&quot;&gt;\n        &lt;div class=&quot;max-w-7xl mx-auto sm:px-6 lg:px-8&quot;&gt;\n            &lt;div class=&quot;bg-white overflow-hidden shadow-xl sm:rounded-lg&quot;&gt;\n                &lt;x-jet-welcome \/&gt;\n            &lt;\/div&gt;\n        &lt;\/div&gt;\n    &lt;\/div&gt;\n&lt;\/x-app-layout&gt;\n\n<\/pre><\/div>\n\n\n<p>My first question was &#8220;How can I customise the welcome component? That <code>&lt;x-jet-welcome \/&gt;<\/code> bit?<\/p>\n\n\n\n<p>And so I spent half an hour tracking down the <code>JetstreamServiceProvider.php<\/code> which registers all the components using this method:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nprotected function registerComponent(string $component)\n    {\n        Blade::component('jetstream::components.'.$component, 'jet-'.$component);\n    }\n<\/pre><\/div>\n\n\n<p>And what&#8217;s super-annoying about this is that:<\/p>\n\n\n\n<p>a) Because the <code>registerComponent()<\/code> method dynamically prefixes the component name with <code>'jet-<\/code>&#8216;, you can&#8217;t search the code for the full component name and find where it&#8217;s registered<\/p>\n\n\n\n<p>b) Even if you could, it wouldn&#8217;t help very much finding the component template, but it would at least leave you able to search for the component name and find something!<\/p>\n\n\n\n<p>So anyone without a pretty good grasp of Blade components and how to dive around in the vendor directory to find stuff, is going to be a bit stuck!<\/p>\n\n\n\n<p>Unless they notice that you can publish the components (if you know what that means), which you need to do to modify them. Sure, you can find out about publishing the components by reading <a href=\"https:\/\/jetstream.laravel.com\/1.x\/installation.html#livewire-components\">the Jetstream docs<\/a>. But I was keen to dive in and thought it would be easy to see how to edit what is effectively the &#8220;Hello world&#8221; page.<\/p>\n\n\n\n<p>I feel like if I came from basic PHP, or some other eco system into Laravel now, I&#8217;d get stuck pretty quickly. There&#8217;s a LOT of implied knowledge needed to get started: Tailwind; Blade Components; Livewire\/Inertia.<\/p>\n\n\n\n<p>That barrier to entry just got a whole heap higher!<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">2. There&#8217;s too much out of the box<\/h3>\n\n\n\n<p><em>[Note: Taylor took note of people&#8217;s feedback on this and has disabled the API and profile photos by default as of <a href=\"https:\/\/github.com\/laravel\/jetstream\/releases\/tag\/v1.3.2\">version 1.3.2<\/a>!]<\/em><\/p>\n\n\n\n<p>I was on <a href=\"https:\/\/www.youtube.com\/watch?v=E8pZvl6L5N4\">a live-streamed chat<\/a> with some WordPress friends today about the benefits of looking into Laravel if you&#8217;re a WordPress developer.<\/p>\n\n\n\n<p>And one thing I said was that so often with WordPress core and many plugins, I find myself with too much stuff and wanting to turn some of it off.<\/p>\n\n\n\n<p>I really think that the out-of-the box Laravel Jetstream setup has too much turned on:<\/p>\n\n\n\n<ul><li>API tokens<\/li><li>Profile photos<\/li><li>2FA<\/li><li>Account deleting<\/li><\/ul>\n\n\n\n<p>I LOVE that I could turn these on with a single-line-of-code change, but, perhaps with the exception of 2FA, should these really all be on by default? I&#8217;m really not sure they should, and my first step on many projects will be to turn some of these features off.<\/p>\n\n\n\n<p>This is easy enough to do: the <code>config\/jetstream.php<\/code> file has a features array that allows you to turn off profile pictures and the API bits:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; title: ; notranslate\" title=\"\">\n    'features' =&gt; &#x5B;\n        Features::profilePhotos(),\n        Features::api(),\n        \/\/ Features::teams(),\n    ],\n<\/pre><\/div>\n\n\n<p> But I still think they should be off by default!<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">In summary<\/h3>\n\n\n\n<p>As a slightly-experienced Laravel developer, this is all really exciting stuff, if a little enigmatic in places &#8211; how DOES this stuff work!?<\/p>\n\n\n\n<p>But as someone who wants to introduce people to Laravel as a way to build cool stuff, I really feel like there are some issues here.<\/p>\n\n\n\n<p>But who am I to say? Kudos to Taylor and the team for an awesome release.<\/p>\n\n\n\n<p>I&#8217;m off to build something!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>For experienced Laravel developers, version 8 and Jetstream are really exciting. But as someone who wants to introduce people to Laravel as a way to build cool stuff, I really feel like there are some issues here.<\/p>\n",
+        "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        642,
+        736
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Laravel 8, Jetstream and learning Laravel - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Laravel 8, Jetstream and learning Laravel - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"For experienced Laravel developers, version 8 and Jetstream are really exciting. But as someone who wants to introduce people to Laravel as a way to build cool stuff, I really feel like there are some issues here.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2020-09-08T21:05:57+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-10-06T21:06:10+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle (Oikos)\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle (Oikos)\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/\",\"url\":\"https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/\",\"name\":\"Laravel 8, Jetstream and learning Laravel - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2020-09-08T21:05:57+00:00\",\"dateModified\":\"2020-10-06T21:06:10+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Laravel 8, Jetstream and learning Laravel\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0\",\"name\":\"Ross Wintle (Oikos)\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle (Oikos)\"},\"url\":\"https:\/\/rosswintle.uk\/author\/ross-oikos\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Laravel 8, Jetstream and learning Laravel - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Laravel 8, Jetstream and learning Laravel - Ross Wintle",
+        "og_description": "For experienced Laravel developers, version 8 and Jetstream are really exciting. But as someone who wants to introduce people to Laravel as a way to build cool stuff, I really feel like there are some issues here.",
+        "og_url": "https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2020-09-08T21:05:57+00:00",
+        "article_modified_time": "2020-10-06T21:06:10+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle (Oikos)",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle (Oikos)",
+            "Estimated reading time": "5 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/",
+                    "url": "https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/",
+                    "name": "Laravel 8, Jetstream and learning Laravel - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2020-09-08T21:05:57+00:00",
+                    "dateModified": "2020-10-06T21:06:10+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2020\/09\/laravel-8-jetstream-and-learning-laravel\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Laravel 8, Jetstream and learning Laravel"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0",
+                    "name": "Ross Wintle (Oikos)",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle (Oikos)"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/ross-oikos\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9521"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/3"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=9521"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9521\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 9578,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9521\/revisions\/9578"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=9521"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=9521"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=9521"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

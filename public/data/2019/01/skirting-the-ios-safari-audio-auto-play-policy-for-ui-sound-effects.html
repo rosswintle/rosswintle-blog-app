@@ -1,0 +1,199 @@
+<body><header><h1 data-pagefind-meta="title">Skirting the iOS/Safari audio auto-play policy for UI sound effects</h1></header><main>
+<p>The physical <a href="https://beatthestreet.me/">Beat the Street</a> game had loads of funny sound effects when you tapped a box. So I wanted my virtual clone of it &#8211; <a href="https://zapthemap.com/">Zap the Map</a> &#8211; to have them too.</p>
+
+
+
+<p>This article explains a difficulty I had with this because of the Safari browser&#8217;s auto-play policies and a workaround, whilst also detailing a slight mystery.</p>
+
+
+
+<p><strong>Playing sound in a browser</strong></p>
+
+
+
+<p>Theoretically playing a sound in a browser is pretty simple. You create an <code>audio</code> element with the <code>src</code> attribute set to the URL of your sound, and then when you want to play it, you get the element in your JavaScript and you call the <code>play()</code> method:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; gutter: false; title: ; wrap-lines: false; notranslate" title="">
+&lt;audio src=&quot;https://example.com/assets/sounds/bang.mp3&quot;&gt;&lt;/audio&gt;
+
+&lt;script&gt;
+  const sound = document.querySelector('audio');
+  sound.play();
+&lt;/script&gt;
+</pre></div>
+
+
+<p>Note that audio elements are not displayed by default so the <code>&lt;audio></code> is hidden from view.</p>
+
+
+
+<p>The problem with playing a sound using JavaScript is that browsers have auto-play policies that demand that a user interaction happen before you can play the sound. So a button click should work fine:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; gutter: false; title: ; wrap-lines: false; notranslate" title="">
+&lt;audio src=&quot;https://example.com/assets/sounds/bang.mp3&quot;&gt;&lt;/audio&gt; 
+
+&lt;button&gt;Play Sound&lt;/button&gt;
+
+&lt;script&gt;
+  const sound = document.querySelector('audio');
+  const button = document.querySelector('button');
+  button.addEventListener('click', e =&gt; sound.play());
+&lt;/script&gt;
+</pre></div>
+
+
+<p>Note here that <code>sound.play()</code> actually returns a <code>Promise</code> which is resolved when playback starts.</p>
+
+
+
+<h3 class="wp-block-heading">Playing sounds in Vue.js instance methods</h3>
+
+
+
+<p>My example that I had problems with was a bit more complex than this. I&#8217;m running inside a Vue.js for a start and the click handler was a method on the application instance:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; gutter: false; title: ; wrap-lines: false; notranslate" title="">
+&lt;button @click=&quot;tap&quot;&gt;Zap!&lt;/button&gt;
+
+&lt;script&gt;
+  var app = new Vue({
+    el: '#app',
+    methods: {
+      tap: function () {
+        response = axios.post('/api/v1/tap', {
+          // Some data,
+        }).then( e =&gt; {  
+          // Use arrow function to avoid binding this
+          if (response.data.points &gt; 0) {
+            this.playSound();
+          }
+        });
+      },
+      playSound: function() {
+        let sound = document.querySelector('audio');
+        sound.play();
+      }
+    }
+  });
+&lt;/script&gt;
+</pre></div>
+
+
+<p>Now, this worked fine in Chrome on my desktop, and in Firefox too. And after later testing it seemed to work fine on Chrome in Android as well.</p>
+
+
+
+<p>But in Safari, this sound was not playing.</p>
+
+
+
+<p>I&#8217;ve produced a fairly minimal test case that reproduces this here: <a href="https://acoustic-snow.glitch.me/">https://acoustic-snow.glitch.me/</a></p>
+
+
+
+<p>In constructing this case I found that if Vue.js wasn&#8217;t involved everything worked fine everywhere. So there&#8217;s something in Vue that causes some kind of interruption to the call stack when you execute the promise that Safari doesn&#8217;t understand.</p>
+
+
+
+<h2 class="wp-block-heading">The Fix!</h2>
+
+
+
+<p>The good news is that I have a hacky fix.</p>
+
+
+
+<p>As I explored the developer docs and StackOverflow trying to resolve this issue, I read somewhere, in passing, that once you&#8217;ve played the sound once on a user interaction, you can then play it again without further interaction.</p>
+
+
+
+<p>So, I came up with the idea of setting the volume to zero and playing the sound in the click handler <em>before</em> the async operation, to &#8220;initialise&#8221; it, and then, once my async operation is complete, put the volume back up to 1 and play it again.</p>
+
+
+
+<p>This worked! Hooray!</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; gutter: false; title: ; wrap-lines: false; notranslate" title="">
+&lt;button @click=&quot;tap&quot;&gt;Zap!&lt;/button&gt;
+
+&lt;script&gt;
+  var app = new Vue({
+    el: '#app',
+    methods: {
+      tap: function () {
+        this.loadSound();
+        response = axios.post('/api/v1/tap', {
+          // Some data,
+        }).then( response =&gt; {
+          // Use arrow function to avoid binding this
+          if (response.data.points &gt; 0) {
+            this.playSound();
+          }
+        });
+      },
+      loadSound: function() {
+        let sound = document.querySelector('audio');
+        sound.volume = 0;
+        sound.play();
+      },
+      playSound: function() {
+        let sound = document.querySelector('audio');
+        sound.volume = 1;
+        sound.play();
+      }
+    }
+  });
+&lt;/script&gt;
+</pre></div>
+
+
+<p><br></p>
+
+
+
+<h3 class="wp-block-heading">A &#8220;fun&#8221; little mobile Safari bug?</h3>
+
+
+
+<p>To add to my fun, this application is a walking-around game. So I took it out testing it on my iPhone, and when I did I found that the sound played when it shouldn&#8217;t have!</p>
+
+
+
+<p>After a bit more digging I found what I can only assume is a proper Mobile Safari bug!</p>
+
+
+
+<p><em>Aside: did you know if you have an iPhone and a Mac you can plug one into the other and use the developer tools in the desktop browser to inspect what is going on on the mobile device? Well if you didn&#8217;t, </em><a href="https://developer.apple.com/library/archive/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html#//apple_ref/doc/uid/TP40007874-CH2-SW8"><em>you do now</em></a><em>!)</em></p>
+
+
+
+<p>So, this whole <code>sound.volume = 0</code> thing &#8211; this didn&#8217;t work in my test case scenario with Vue.js involved. It seemed that <code>sound.volume</code> was read-only. And you can see this in the <a href="https://acoustic-snow.glitch.me/">sample test case</a> when you click the bottom button on mobile Safari.</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img loading="lazy" decoding="async" src="https://rosswintle.uk/wp-content/uploads/2019/01/Screenshot-2019-01-06-at-22.36.32.png" alt="Console screengrab showing sound.volume assignment not working" class="wp-image-4480" width="252" height="157" srcset="https://rosswintle.uk/wp-content/uploads/2019/01/Screenshot-2019-01-06-at-22.36.32.png 410w, https://rosswintle.uk/wp-content/uploads/2019/01/Screenshot-2019-01-06-at-22.36.32-300x187.png 300w" sizes="(max-width: 252px) 100vw, 252px" /><figcaption>Setting sound.volume has no effect on mobile Safari</figcaption></figure></div>
+
+
+
+<p>Outside of my test case, and in desktop Safari, it&#8217;s fine, of course!</p>
+
+
+
+<div class="wp-block-image"><figure class="aligncenter is-resized"><img loading="lazy" decoding="async" src="https://rosswintle.uk/wp-content/uploads/2019/01/Screenshot-2019-01-06-at-22.40.16.png" alt="Console screengrab showing sound.volume assignment working" class="wp-image-4481" width="368" height="207" srcset="https://rosswintle.uk/wp-content/uploads/2019/01/Screenshot-2019-01-06-at-22.40.16.png 594w, https://rosswintle.uk/wp-content/uploads/2019/01/Screenshot-2019-01-06-at-22.40.16-300x169.png 300w" sizes="(max-width: 368px) 100vw, 368px" /><figcaption>But it&#8217;s fine on desktop Safari!</figcaption></figure></div>
+
+
+
+<p>Fortunately, once I&#8217;d tracked this down, I discovered that <code>sound.muted</code> worked fine. So now, I just set both. I won&#8217;t post code for that but you can see it in the <a href="https://acoustic-snow.glitch.me/">sample test case</a>.</p>
+
+
+
+<h3 class="wp-block-heading">Summing up!</h3>
+
+
+
+<ul><li>In some odd cases that seem to involve Vue.js (in my case at least) and asynchronous operations, Safari&#8217;s auto-playing media policies seem to prevent playing sounds, when playing them should be OK and when other browsers are fine with playing them.</li><li>There is a workaround that involves playing the sound in muted form before the async operation happens.</li><li>There is a weird bug in Mobile Safari, I think, that prevents HTTPMediaElement.volume being updated, that almost certainly no one will ever come across.</li><li>Playing sounds in web browsers SEEMS easy, but it turns out not to be!</li></ul>
+</main></body>

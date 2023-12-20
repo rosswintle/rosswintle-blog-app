@@ -1,0 +1,187 @@
+<body><header><h1 data-pagefind-meta="title">Raise your hands! It&#8217;s voice controlled WordPress!</h1></header><main>
+<p>I love doing fun coding projects.</p>
+
+
+
+<p>I was listening to the Syntax podcast yesterday, they did a show about &#8220;<a href="https://syntax.fm/show/456/10-nifty-browser-apis">Nifty Browser APIs</a>&#8220;. That is, things you can get code to do in a browser, like locate where you are and play sounds and&#8230; do speech recognition&#8230;?</p>
+
+
+
+<p>&#8220;That sounds fun&#8221;, went my train of thought, &#8220;I&#8217;d love to tinker with that and see how it can be used.&#8221;</p>
+
+
+
+<p>&#8220;Oh&#8230; wait&#8230; I could hook up speech input to <a href="https://turbo-admin.com/">Turbo Admin</a> &#8211; my command palette plugin and browser extension for WordPress. Then you could control WordPress (to some extent) with your voice!&#8221;</p>
+
+
+
+<p>Cue visions of the Minority Report computer:</p>
+
+
+
+<figure class="wp-block-embed is-type-photo is-provider-giphy wp-block-embed-giphy"><div class="wp-block-embed__wrapper">
+<a href="https://giphy.com/gifs/tom-cruise-steven-spielberg-minority-report-BLVqLi1p4Pt7i"><img loading="lazy" decoding="async" src="https://media2.giphy.com/media/BLVqLi1p4Pt7i/giphy.gif" alt="Tom Cruise GIF - Find &amp; Share on GIPHY" width="500" height="249" /></a>
+</div><figcaption>Tom Cruise works with the new block editor in WordPress 9.3</figcaption></figure>
+
+
+
+<p>Or &#8220;Alexa for WordPress&#8221;</p>
+
+
+
+<figure class="wp-block-embed is-type-photo is-provider-giphy wp-block-embed-giphy"><div class="wp-block-embed__wrapper">
+<a href="https://giphy.com/gifs/sandwich-skill-alexa-l0Iy7Y2y0RuckTwLm"><img loading="lazy" decoding="async" src="https://media4.giphy.com/media/l0Iy7Y2y0RuckTwLm/giphy.gif" alt="Peanut Butter Sandwich GIF by Doctor Popular - Find &amp; Share on GIPHY" width="480" height="270" /></a>
+</div><figcaption>Voice control FTW!</figcaption></figure>
+
+
+
+<p>So I set to work and, about 90 minutes of hacking later, I had a working prototype&#8230;</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" src="https://player.vimeo.com/video/709816581?h=4cdfa05c5b&amp;dnt=1&amp;app_id=122963" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<p>This is pretty amazing. I mean, I know it doesn&#8217;t really SEEM all that amazing. It&#8217;s a bit clunky in this first attempt.</p>
+
+
+
+<p>But if we compare what we have here to where we started &#8211; the standard WordPress admin dashboard &#8211; a lot of cool stuff has happened, and it&#8217;s the combining of all these things together that has made this voice navigation possible:</p>
+
+
+
+<ul><li>Turning the WordPress menus into a command palette</li><li>Adding &#8220;fuzzy&#8221; search to the palette to allow direct access to commands and content</li><li>Adding on top of that, the speech recognition to &#8220;type&#8221; with your voice.</li></ul>
+
+
+
+<p>If you think about it, each of these things in itself is no mean feat. Although the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API">web speech API</a> does a LOT of the heavy lifting for me.</p>
+
+
+
+<p>And it was really fun combining these existing technologies to bring something new to life.</p>
+
+
+
+<p>With a bit more work I got here, which is a bit more &#8220;hands-free&#8221;&#8230;</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo"><div class="wp-block-embed__wrapper">
+<iframe loading="lazy" src="https://player.vimeo.com/video/709816673?h=bec90b8d3d&amp;dnt=1&amp;app_id=122963" width="640" height="389" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</div></figure>
+
+
+
+<h2 class="wp-block-heading">Limitations</h2>
+
+
+
+<p>This technology is not without limitations. Primarily, it only works in some browsers. There is no Firefox support; Chrome works (this is what my tests were in); Safari works in theory but I&#8217;ve not tested it.</p>
+
+
+
+<p>It should also be noted that Chrome does its speech recognition in the cloud, so there are privacy concerns over that:</p>
+
+
+
+<blockquote class="wp-block-quote"><p>Note: On some browsers, like Chrome, using Speech Recognition on a web page involves a server-based recognition engine. Your audio is sent to a web service for recognition processing, so it won&#8217;t work offline.</p><cite><a href="https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition">Speech recognition API docs (mozilla.org)</a></cite></blockquote>
+
+
+
+<p>It accepts all of the limitations of Turbo Admin. It just lets you do navigation. It&#8217;s not intelligent in any way.</p>
+
+
+
+<p>And the prototype is English only. Though I believe you could pass your browser&#8217;s language setting to the speech recognition easily enough.</p>
+
+
+
+<h2 class="wp-block-heading">Implementation and challenges</h2>
+
+
+
+<p>In theory there isn&#8217;t really anything very special going on here. The basic steps are:</p>
+
+
+
+<ul><li>Initialize the speech recognition API.</li><li>When the command palette is shown, start recognition.</li><li>The speech recognition API sends events when text has been generated from speech. It basically says &#8220;I recognized some text. Here it is!&#8221;</li><li>Listen for the events, and when they are triggered, grab the text, shove it into the input field, and trigger a palette update.</li><li>When the command palette is closed, stop recognition.</li></ul>
+
+
+
+<p>The format of the data given to you by the events takes a bit of figuring out, but that&#8217;s not too hard.</p>
+
+
+
+<p>The real difficulty for me was that I was writing this into the browser extension. This works by injecting a &#8220;<a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Content_scripts">content script</a>&#8221; that runs the whole show.</p>
+
+
+
+<p>This content script is &#8220;sandboxed&#8221;, which means it has access to the content of the page, and can change that. But it doesn&#8217;t have access to other JavaScript on the page. And, sadly, this means it doesn&#8217;t have access to the speech recognition API, as tihs is a property of the <code>window</code> object.</p>
+
+
+
+<p>The workaround for this is to inject a <code>&lt;script&gt;</code> tag into the page with the code that needs to use the voice recognition. BUT&#8230; this is now in a different sandbox to the command palette code. So some communication is needed between the palette and the speech recognition.</p>
+
+
+
+<p>This needed some custom JavaScript events to be triggered and listened for.</p>
+
+
+
+<p>Nothing too taxing, but the architecture is a bit weird.</p>
+
+
+
+<p>If I added this to <a href="https://wordpress.org/plugins/turbo-admin/">the plugin version</a> of Turbo Admin this wouldn&#8217;t be a problem. BUT&#8230; fun fact&#8230; the plugin version of Turbo Admin uses (almost) identical JavaScript &#8211; the only real difference is how it&#8217;s added to the page and initialized. So it should be trivial to port this to the plugin.</p>
+
+
+
+<h2 class="wp-block-heading">So&#8230; err&#8230; what now?</h2>
+
+
+
+<p>Honestly, I made this as a toy. A developer plaything. Just because I could. I didn&#8217;t think it had any real practical value.</p>
+
+
+
+<p>When I shared it on Twitter, the initial reactions backed up my self-amusement and internal amazement at what modern tech can do.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">? love it! Question, do you have to hold your hands up when saying the query to make it work? ??? Honestly, brilliant. I love that you’re having fun building this.</p>&mdash; Steve Perry (@stevemarkperry) <a href="https://twitter.com/stevemarkperry/status/1525377701586079744?ref_src=twsrc%5Etfw">May 14, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">LOL, nope. Just brilliant! Combining existing tech to make it into something even more useful will always have my endless admiration ?</p>&mdash; Anne Bovelett (@Bovelett) <a href="https://twitter.com/Bovelett/status/1525408506882449408?ref_src=twsrc%5Etfw">May 14, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>But then people started talking about accessibility:</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">Could have genuine accessibility applications, perhaps*?<br>*Usual caveat &#8211; I don’t know what I’m talking about</p>&mdash; Dave Walker (@davewalker) <a href="https://twitter.com/davewalker/status/1525399733791080448?ref_src=twsrc%5Etfw">May 14, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">Immediately thinking about accessibility implications. I know someone that might be very interested and relies on a screen reader. Could be really useful also for folks that use mouth controlled mouse. Less clicking.</p>&mdash; Courtney Robertson ? (@courtneyr_dev) <a href="https://twitter.com/courtneyr_dev/status/1525430844717940738?ref_src=twsrc%5Etfw">May 14, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>I had honestly never thought about this. But perhaps this combination of tech does have some real uses?</p>
+
+
+
+<p>What do you think? Should I work on it some more? Build it into the plugin? Let me know.</p>
+</main></body>

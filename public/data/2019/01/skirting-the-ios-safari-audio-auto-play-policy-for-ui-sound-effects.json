@@ -1,0 +1,230 @@
+{
+    "id": 4466,
+    "date": "2019-01-07T22:41:19",
+    "date_gmt": "2019-01-07T22:41:19",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=4466"
+    },
+    "modified": "2019-01-07T22:41:22",
+    "modified_gmt": "2019-01-07T22:41:22",
+    "slug": "skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/",
+    "title": {
+        "rendered": "Skirting the iOS\/Safari audio auto-play policy for UI sound effects"
+    },
+    "content": {
+        "rendered": "\n<p>The physical <a href=\"https:\/\/beatthestreet.me\/\">Beat the Street<\/a> game had loads of funny sound effects when you tapped a box. So I wanted my virtual clone of it &#8211; <a href=\"https:\/\/zapthemap.com\/\">Zap the Map<\/a> &#8211; to have them too.<\/p>\n\n\n\n<p>This article explains a difficulty I had with this because of the Safari browser&#8217;s auto-play policies and a workaround, whilst also detailing a slight mystery.<\/p>\n\n\n\n<p><strong>Playing sound in a browser<\/strong><\/p>\n\n\n\n<p>Theoretically playing a sound in a browser is pretty simple. You create an <code>audio<\/code> element with the <code>src<\/code> attribute set to the URL of your sound, and then when you want to play it, you get the element in your JavaScript and you call the <code>play()<\/code> method:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; gutter: false; title: ; wrap-lines: false; notranslate\" title=\"\">\n&lt;audio src=&quot;https:\/\/example.com\/assets\/sounds\/bang.mp3&quot;&gt;&lt;\/audio&gt;\n\n&lt;script&gt;\n  const sound = document.querySelector('audio');\n  sound.play();\n&lt;\/script&gt;\n<\/pre><\/div>\n\n\n<p>Note that audio elements are not displayed by default so the <code>&lt;audio><\/code> is hidden from view.<\/p>\n\n\n\n<p>The problem with playing a sound using JavaScript is that browsers have auto-play policies that demand that a user interaction happen before you can play the sound. So a button click should work fine:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; gutter: false; title: ; wrap-lines: false; notranslate\" title=\"\">\n&lt;audio src=&quot;https:\/\/example.com\/assets\/sounds\/bang.mp3&quot;&gt;&lt;\/audio&gt; \n\n&lt;button&gt;Play Sound&lt;\/button&gt;\n\n&lt;script&gt;\n  const sound = document.querySelector('audio');\n  const button = document.querySelector('button');\n  button.addEventListener('click', e =&gt; sound.play());\n&lt;\/script&gt;\n<\/pre><\/div>\n\n\n<p>Note here that <code>sound.play()<\/code> actually returns a <code>Promise<\/code> which is resolved when playback starts.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Playing sounds in Vue.js instance methods<\/h3>\n\n\n\n<p>My example that I had problems with was a bit more complex than this. I&#8217;m running inside a Vue.js for a start and the click handler was a method on the application instance:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; gutter: false; title: ; wrap-lines: false; notranslate\" title=\"\">\n&lt;button @click=&quot;tap&quot;&gt;Zap!&lt;\/button&gt;\n\n&lt;script&gt;\n  var app = new Vue({\n    el: '#app',\n    methods: {\n      tap: function () {\n        response = axios.post('\/api\/v1\/tap', {\n          \/\/ Some data,\n        }).then( e =&gt; {  \n          \/\/ Use arrow function to avoid binding this\n          if (response.data.points &gt; 0) {\n            this.playSound();\n          }\n        });\n      },\n      playSound: function() {\n        let sound = document.querySelector('audio');\n        sound.play();\n      }\n    }\n  });\n&lt;\/script&gt;\n<\/pre><\/div>\n\n\n<p>Now, this worked fine in Chrome on my desktop, and in Firefox too. And after later testing it seemed to work fine on Chrome in Android as well.<\/p>\n\n\n\n<p>But in Safari, this sound was not playing.<\/p>\n\n\n\n<p>I&#8217;ve produced a fairly minimal test case that reproduces this here: <a href=\"https:\/\/acoustic-snow.glitch.me\/\">https:\/\/acoustic-snow.glitch.me\/<\/a><\/p>\n\n\n\n<p>In constructing this case I found that if Vue.js wasn&#8217;t involved everything worked fine everywhere. So there&#8217;s something in Vue that causes some kind of interruption to the call stack when you execute the promise that Safari doesn&#8217;t understand.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The Fix!<\/h2>\n\n\n\n<p>The good news is that I have a hacky fix.<\/p>\n\n\n\n<p>As I explored the developer docs and StackOverflow trying to resolve this issue, I read somewhere, in passing, that once you&#8217;ve played the sound once on a user interaction, you can then play it again without further interaction.<\/p>\n\n\n\n<p>So, I came up with the idea of setting the volume to zero and playing the sound in the click handler <em>before<\/em> the async operation, to &#8220;initialise&#8221; it, and then, once my async operation is complete, put the volume back up to 1 and play it again.<\/p>\n\n\n\n<p>This worked! Hooray!<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; gutter: false; title: ; wrap-lines: false; notranslate\" title=\"\">\n&lt;button @click=&quot;tap&quot;&gt;Zap!&lt;\/button&gt;\n\n&lt;script&gt;\n  var app = new Vue({\n    el: '#app',\n    methods: {\n      tap: function () {\n        this.loadSound();\n        response = axios.post('\/api\/v1\/tap', {\n          \/\/ Some data,\n        }).then( response =&gt; {\n          \/\/ Use arrow function to avoid binding this\n          if (response.data.points &gt; 0) {\n            this.playSound();\n          }\n        });\n      },\n      loadSound: function() {\n        let sound = document.querySelector('audio');\n        sound.volume = 0;\n        sound.play();\n      },\n      playSound: function() {\n        let sound = document.querySelector('audio');\n        sound.volume = 1;\n        sound.play();\n      }\n    }\n  });\n&lt;\/script&gt;\n<\/pre><\/div>\n\n\n<p><br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">A &#8220;fun&#8221; little mobile Safari bug?<\/h3>\n\n\n\n<p>To add to my fun, this application is a walking-around game. So I took it out testing it on my iPhone, and when I did I found that the sound played when it shouldn&#8217;t have!<\/p>\n\n\n\n<p>After a bit more digging I found what I can only assume is a proper Mobile Safari bug!<\/p>\n\n\n\n<p><em>Aside: did you know if you have an iPhone and a Mac you can plug one into the other and use the developer tools in the desktop browser to inspect what is going on on the mobile device? Well if you didn&#8217;t, <\/em><a href=\"https:\/\/developer.apple.com\/library\/archive\/documentation\/AppleApplications\/Conceptual\/Safari_Developer_Guide\/GettingStarted\/GettingStarted.html#\/\/apple_ref\/doc\/uid\/TP40007874-CH2-SW8\"><em>you do now<\/em><\/a><em>!)<\/em><\/p>\n\n\n\n<p>So, this whole <code>sound.volume = 0<\/code> thing &#8211; this didn&#8217;t work in my test case scenario with Vue.js involved. It seemed that <code>sound.volume<\/code> was read-only. And you can see this in the <a href=\"https:\/\/acoustic-snow.glitch.me\/\">sample test case<\/a> when you click the bottom button on mobile Safari.<\/p>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/Screenshot-2019-01-06-at-22.36.32.png\" alt=\"Console screengrab showing sound.volume assignment not working\" class=\"wp-image-4480\" width=\"252\" height=\"157\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/Screenshot-2019-01-06-at-22.36.32.png 410w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/Screenshot-2019-01-06-at-22.36.32-300x187.png 300w\" sizes=\"(max-width: 252px) 100vw, 252px\" \/><figcaption>Setting sound.volume has no effect on mobile Safari<\/figcaption><\/figure><\/div>\n\n\n\n<p>Outside of my test case, and in desktop Safari, it&#8217;s fine, of course!<\/p>\n\n\n\n<div class=\"wp-block-image\"><figure class=\"aligncenter is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/Screenshot-2019-01-06-at-22.40.16.png\" alt=\"Console screengrab showing sound.volume assignment working\" class=\"wp-image-4481\" width=\"368\" height=\"207\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/Screenshot-2019-01-06-at-22.40.16.png 594w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/Screenshot-2019-01-06-at-22.40.16-300x169.png 300w\" sizes=\"(max-width: 368px) 100vw, 368px\" \/><figcaption>But it&#8217;s fine on desktop Safari!<\/figcaption><\/figure><\/div>\n\n\n\n<p>Fortunately, once I&#8217;d tracked this down, I discovered that <code>sound.muted<\/code> worked fine. So now, I just set both. I won&#8217;t post code for that but you can see it in the <a href=\"https:\/\/acoustic-snow.glitch.me\/\">sample test case<\/a>.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Summing up!<\/h3>\n\n\n\n<ul><li>In some odd cases that seem to involve Vue.js (in my case at least) and asynchronous operations, Safari&#8217;s auto-playing media policies seem to prevent playing sounds, when playing them should be OK and when other browsers are fine with playing them.<\/li><li>There is a workaround that involves playing the sound in muted form before the async operation happens.<\/li><li>There is a weird bug in Mobile Safari, I think, that prevents HTTPMediaElement.volume being updated, that almost certainly no one will ever come across.<\/li><li>Playing sounds in web browsers SEEMS easy, but it turns out not to be!<\/li><\/ul>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>In some cases involving asynchronous operations, Safari&#8217;s auto-playing media policies seem to prevent playing sounds, when playing them should be OK and when other browsers are fine with playing them. Here&#8217;s a dive into it with example code and a workaround!<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        728,
+        286,
+        107,
+        726,
+        519,
+        729,
+        727
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Skirting the iOS\/Safari audio auto-play policy for UI sound effects - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Skirting the iOS\/Safari audio auto-play policy for UI sound effects - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"In some cases involving asynchronous operations, Safari&#039;s auto-playing media policies seem to prevent playing sounds, when playing them should be OK and when other browsers are fine with playing them. Here&#039;s a dive into it with example code and a workaround!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-01-07T22:41:19+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-01-07T22:41:22+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/Screenshot-2019-01-06-at-22.36.32.png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/\",\"name\":\"Skirting the iOS\/Safari audio auto-play policy for UI sound effects - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-01-07T22:41:19+00:00\",\"dateModified\":\"2019-01-07T22:41:22+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Skirting the iOS\/Safari audio auto-play policy for UI sound effects\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Skirting the iOS\/Safari audio auto-play policy for UI sound effects - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Skirting the iOS\/Safari audio auto-play policy for UI sound effects - Ross Wintle",
+        "og_description": "In some cases involving asynchronous operations, Safari's auto-playing media policies seem to prevent playing sounds, when playing them should be OK and when other browsers are fine with playing them. Here's a dive into it with example code and a workaround!",
+        "og_url": "https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2019-01-07T22:41:19+00:00",
+        "article_modified_time": "2019-01-07T22:41:22+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/01\/Screenshot-2019-01-06-at-22.36.32.png"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "5 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/",
+                    "url": "https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/",
+                    "name": "Skirting the iOS\/Safari audio auto-play policy for UI sound effects - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2019-01-07T22:41:19+00:00",
+                    "dateModified": "2019-01-07T22:41:22+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/01\/skirting-the-ios-safari-audio-auto-play-policy-for-ui-sound-effects\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Skirting the iOS\/Safari audio auto-play policy for UI sound effects"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4466"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4466"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 10,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4466\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 4484,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4466\/revisions\/4484"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4466"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4466"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4466"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

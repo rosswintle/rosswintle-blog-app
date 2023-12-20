@@ -1,0 +1,147 @@
+<body><header><h1 data-pagefind-meta="title">Where are my MySQL database files on MacOS?</h1></header><main>
+<p><em>My 7-year-old MacBook got bricked. So I needed to recover some MySQL files from a Time Machine backup and load them onto a new computer.</em></p>
+
+
+
+<p><em>And so I&#8217;ve been digging around finding out where all my homebrew and MySQL files are. While running mulitple instances of everything!</em></p>
+
+
+
+<p><em>Here&#8217;s a fairly unstructured brain-dump of all that I&#8217;ve learned (or re-learned) along the way.</em></p>
+
+
+
+<p>Includes using:</p>
+
+
+
+<ul><li><a href="https://brew.sh/">homebrew</a> versions of MySQL and MariaDB</li><li><a href="https://dbngin.com/">DBNgin</a> (a MacOS App for managing installed databases)</li><li><a href="https://www.araelium.com/querious">Querious</a> and <a href="https://sequel-ace.com/">Sequel Ace</a> database management tools</li></ul>
+
+
+
+<p>Requires: better than average command-line knowledge</p>
+
+
+
+<h2 class="wp-block-heading">Where is homebrew installed?</h2>
+
+
+
+<p>Turns out <a href="https://docs.brew.sh/Installation#untar-anywhere">you can have multiple copies of homebrew installed</a>.</p>
+
+
+
+<p>The current default install goes to <code>/usr/local/Homebrew</code></p>
+
+
+
+<p>It seems that they may be moving the default install to <code>/opt/homebrew</code> on MacOS ARM/Apple Silicon processors. <a href="https://docs.brew.sh/Installation#untar-anywhere">More&#8230;</a></p>
+
+
+
+<p>If you run <code>/some/homebrew/path/bin/brew</code> then all operations will happen within that homebrew instance and not affect others.</p>
+
+
+
+<h2 class="wp-block-heading">Where are homebrew-installed MySQL/MariaDB binaries/executables?</h2>
+
+
+
+<p>Homebrew keeps package binaries in <code>/some/homebrew/path/Cellar</code></p>
+
+
+
+<p>So if you want to use a specific version of the mysql client you can do, for example: <code>/some/homebrew/path/Cellar/mariadb@10.4/10.4.17/bin/mysql</code></p>
+
+
+
+<p>Note that there is a notion of a &#8220;current&#8221; version that is symlinked into <code>/some/homebrew/path/bin/</code></p>
+
+
+
+<p>You can change the symlinked current version using <code>brew link</code> (make sure you use the right brew instance!)</p>
+
+
+
+<h2 class="wp-block-heading">Where are homebrew-installed MySQL/MariaDB data files?</h2>
+
+
+
+<p>The standard location for the database data files is <code>/some/homebrew/path/var/mysql</code></p>
+
+
+
+<p>Every version of MySQL/MariaDB installed in a particular brew instance appears to share the same location. Which is odd. This MUST be configurable from somewhere, but I didn&#8217;t get to finding out where it was. <code>/some/homebrew/path/etc</code> would be the obvious place. And there is a file there, but it doesn&#8217;t have much config in.</p>
+
+
+
+<p>You&#8217;ll have to dig in to this to find out yourself. I would assume MySQL has some default location it&#8217;s reading from.</p>
+
+
+
+<h2 class="wp-block-heading">Starting and stopping MySQL/MariaDB using homebrew</h2>
+
+
+
+<p>Worth a quick note that you can start and stop homebrew-installed MySQL/MariaDB as a service using:</p>
+
+
+
+<p><code>/some/homebrew/path/bin/brew services start &lt;servicename></code></p>
+
+
+
+<p>e.g.</p>
+
+
+
+<p><code>/some/homebrew/path/bin/brew services start mariadb@10.4</code></p>
+
+
+
+<h2 class="wp-block-heading">What even IS DBngin?</h2>
+
+
+
+<p>DBngin is a free MacOS app that lets you install/start/stop different databases. I figured all this out while I was moving to a new Mac and so thought I&#8217;d give it a go.</p>
+
+
+
+<p>It&#8217;s limited in that it doesn&#8217;t include MariaDB yet. One of my big issues was &#8211; I think &#8211; incompatibilities between MariaDB and MySQL when reading data files.</p>
+
+
+
+<p>Anyway&#8230;</p>
+
+
+
+<h2 class="wp-block-heading">Where are DBngin MySQL binaries?</h2>
+
+
+
+<p>DBngin puts binaries in <code>/Users/Shared/DBngin/mysql/&lt;version></code></p>
+
+
+
+<h2 class="wp-block-heading">Where does DBngin put data files?</h2>
+
+
+
+<p>DBngin puts data files in <code>/Users/&lt;you>/Library/Application Support/com.tinyapp.DBngin/engines/mysql/&lt;some ID></code></p>
+
+
+
+<p>I discovered while doing this migration that if there are not files called <code>auto.cnf</code> and <code>com.tinyapp.DBngin.mysqld-&lt;some ID>.plist</code> in this directory then the whole directory will be wiped clean when you use DBngin to start up the database.</p>
+
+
+
+<p>So if you empty this directory and copy a bunch of existing data files into it then you&#8217;ll immediately have them all deleted.</p>
+
+
+
+<h2 class="wp-block-heading">That&#8230;</h2>
+
+
+
+<p>is all I got!</p>
+</main></body>

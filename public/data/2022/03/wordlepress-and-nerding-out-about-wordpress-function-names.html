@@ -1,0 +1,281 @@
+<body><header><h1 data-pagefind-meta="title">WordlePress and nerding out about WordPress function names</h1></header><main>
+<p>Given all the &#8220;Wordle&#8221; hype these days, I think I was one of the first (of many) people to wonder about what &#8220;WordlePress&#8221; might look like:</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">Here’s an idea for someone: An open source system for self publishing your word puzzle results… ? <a href="https://t.co/ygijlbHnE0">pic.twitter.com/ygijlbHnE0</a></p>&mdash; Ross Wintle (@magicroundabout) <a href="https://twitter.com/magicroundabout/status/1478999708228108293?ref_src=twsrc%5Etfw">January 6, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>Not long after, Taco Verdo did buy the domain, with the aim of preserving it for the good of the WordPress community.</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">I have <a href="https://t.co/oNmgelSNll">https://t.co/oNmgelSNll</a>, but no time to turn it into a game.</p>&mdash; Taco Verdo (@TacoVerdo) <a href="https://twitter.com/TacoVerdo/status/1490612545484378112?ref_src=twsrc%5Etfw">February 7, 2022</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>Then, one bored weekend, I came up with the idea of making <a href="https://wordlepress.netlify.app/">a Wordle-style game</a> where you had to guess a WordPress core function name.</p>
+
+
+
+<p>The prototype took a couple of hours to make. And it&#8217;s fine as a game in principle. But it&#8217;s REALLY hard.</p>
+
+
+
+<p>You can play at <a href="https://wordlepress.netlify.app/">https://wordlepress.netlify.app/</a> &#8211; I but I warn you, you need to be a proper back-end WordPress geek to be anything like any good!</p>
+
+
+
+<h2 class="wp-block-heading">Behind the scenes</h2>
+
+
+
+<p>I wanted to write some notes about the behind the scenes, how I made this work stuff. And, because I&#8217;m a geek, I got all curious about WordPress function names: how long they are; how common the different name parts are.</p>
+
+
+
+<p>Let&#8217;s dig in!</p>
+
+
+
+<h3 class="wp-block-heading">Finding all the function names</h3>
+
+
+
+<p>The game is based on 4-part function names. &#8220;Parts&#8221; are separated by underscores. So <code>get_attachment_image_url</code> is a good example.</p>
+
+
+
+<p>I needed to find all the global function names, count their &#8220;parts&#8221;, and filter them. So I needed to do some pre-processing of the WordPress code.</p>
+
+
+
+<p>I got all the function names from the <code><a href="https://github.com/php-stubs/wordpress-stubs">wordpress-stubs</a></code> package. This is a package used for static analysis that contains all the class, and function signatures throughout WordPress core, but without the actual function/class code. All the function/method bodies are empty. And they are all concatenated into <a href="https://raw.githubusercontent.com/php-stubs/wordpress-stubs/master/wordpress-stubs.php">one file</a>.</p>
+
+
+
+<p>I used a combination of <code>grep</code> and <code>cut</code> commands to get all the function names from this file. Because the regex filtered out any functions with <code>public</code>/<code>protected</code>/<code>private</code> visibility specified, this should have ignored most class methods, and only given my globally available functions.</p>
+
+
+
+<p>Here&#8217;s the command I used:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+egrep '^\s+function\s+(&#x5B;^ \(]+)' wordpress-stubs.php | cut -d&quot; &quot; -f6 | cut -d &quot;(&quot; -f 1 &gt; wpfuncs.txt
+</pre></div>
+
+
+<p>I then opened <a href="https://rosswintle.uk/2020/01/tinkerwell-for-wordpress-developers/">Tinkerwell</a> to mess about with the data I had using my PHP skills. This just seemed like the quickest way to get to some interesting answers about the function names.</p>
+
+
+
+<p>The thing I really wanted to know was how many function names had 3, 4 or 5 parts, as this would influence the game.</p>
+
+
+
+<p>This isn&#8217;t clean, well-engineered code, but it does the job. I&#8217;m gonna use it once and throw it away so I&#8217;m not thinking too hard.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+// Read in all the function names.
+$funcs = file_get_contents('wpfuncs.txt');
+
+// Keep counts of number of function name parts
+$lengths = &#x5B;];
+
+foreach (explode(&quot;\n&quot;, $funcs) as $func) {
+  if (! empty(trim($func))) {
+    // Split the function name at _'s
+    $parts = explode ('_', $func);
+    // Discard empty parts
+    $parts = array_filter( $parts, function ($a) { return ! empty($a); } );
+    $parts = count($parts);
+
+    // Update the count in the array
+    if (isset($lengths&#x5B;$parts])) {
+      $lengths&#x5B;$parts]++;
+    } else {
+      $lengths&#x5B;$parts] = 1;
+    }
+  }
+}
+
+// Sort the array by number of function parts
+ksort($lengths);
+
+var_dump($lengths);
+</pre></div>
+
+
+<p>At the time of writing, this gives us:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+&#x5B;
+     0 =&gt; 1, 
+     1 =&gt; 42,
+     2 =&gt; 576,
+     3 =&gt; 1196,
+     4 =&gt; 1004,
+     5 =&gt; 420,
+     6 =&gt; 182,
+     7 =&gt; 62,
+     8 =&gt; 18,
+     9 =&gt; 4,
+     10 =&gt; 2,
+     11 =&gt; 1,
+   ]
+</pre></div>
+
+
+<p>From the point of view of making the game, we see that 3-part functions give us the greatest number of functions with 1196 function names. This isn&#8217;t necessarily good though as:</p>
+
+
+
+<ul><li>Guessing more parts means we more quickly rule words in or out of the function name</li><li>So guessing fewer parts each time AND having more functions to guess makes the game harder.</li></ul>
+
+
+
+<p>The 420 5-part functions seemed too small though. So I decided to go with the 1004 4-part functions for the game.</p>
+
+
+
+<p>It turns out this is STILL a very hard game!</p>
+
+
+
+<h2 class="wp-block-heading">Stats, functions and &#8220;fun&#8221;</h2>
+
+
+
+<p>This section has no real value at all. But I was curious about some of the numbers and functions here.</p>
+
+
+
+<ul><li>How many global functions are there?</li><li>What are the shortest and longest function names?</li><li>What are the most common &#8220;parts&#8221;/&#8221;words&#8221; in function names (apart from <code>wp_</code>)?</li></ul>
+
+
+
+<p>Let&#8217;s dig in.</p>
+
+
+
+<p><strong>Total global functions</strong></p>
+
+
+
+<p>According to this analysis there are 3508 global functions in WordPress.</p>
+
+
+
+<p>That&#8217;s quite a lot!</p>
+
+
+
+<p><strong>Longest and shortest function names</strong></p>
+
+
+
+<p>In terms of function name parts/words, we can easily see:</p>
+
+
+
+<ul><li>There&#8217;s a function with ZERO WORDS? Bear in mind that underscores themselves don&#8217;t count. Maybe you can guess it? If not, head to <a href="https://developer.wordpress.org/reference/functions/__/">the docs</a>.</li><li>There are thirty-four 1-word functions. Perhaps you&#8217;ve used <code>dbdelta</code>, <code>trailingslashit</code>, <code>mysql2date</code>, <code>absint</code>, <code>bloginfo</code>, <code>selected</code> or <code>checked</code>? But what about <code><a href="https://developer.wordpress.org/reference/functions/saveDomDocument/">saveDomDocument</a></code>, <code><a href="https://developer.wordpress.org/reference/functions/zeroise/">zeroise</a></code> (curious in its non-US English spelling), or <code><a href="https://developer.wordpress.org/reference/functions/antispambot/">antispambot</a></code>?</li><li>There are 2 10-part function. Hands up if you&#8217;ve used <code><a href="https://developer.wordpress.org/reference/functions/wp_add_trashed_suffix_to_post_name_for_trashed_posts/">wp_add_trashed_suffix_to_post_name_for_trashed_posts</a></code> or the undocumented <code>_delete_site_logo_on_remove_custom_logo_on_setup_theme</code>?</li><li>And there is just one 11-part function. Bonus points if you&#8217;ve ever called <code>block_core_calendar_update_has_published_post_on_transition_post_status</code> for some reason (it&#8217;s also undocumented).</li></ul>
+
+
+
+<p><strong>Most common words/parts</strong></p>
+
+
+
+<p>I&#8217;ll need to add some new code to analyse this. Here we go:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+$funcs = file_get_contents('wpfuncs.txt');
+
+$wordUses = &#x5B;];
+
+foreach (explode(&quot;\n&quot;, $funcs) as $func) {
+  if (! empty(trim($func))) {
+    $parts = explode('_', $func);
+    $parts = array_filter( $parts, function ($a) { return ! empty($a); } );
+  	foreach($parts as $part) {
+      $wordUses&#x5B;$part] = isset($wordUses&#x5B;$part]) ? $wordUses&#x5B;$part] + 1 : 1;
+    }
+  }
+}
+
+asort($wordUses);
+var_dump($wordUses);
+</pre></div>
+
+
+<p>Sorting this way around (ascending order of use) isn&#8217;t particularly revealing. We just get all the words/parts that are only used in one function. Of which there are a LOT!</p>
+
+
+
+<p>In fact, there are 1434 distinct words used in WordPress core global functions. And 563 (nearly 40%) of those words are only used in one function name! No wonder WordlePress is so hard! Perhaps we can analyse just the 4-part functions in a moment.</p>
+
+
+
+<p>A quick <code>array_reverse()</code> gives us the most-used words/parts. And it&#8217;s no surprise that <code>wp</code> leads the way, appearing in 1245 functions. More than a third of all functions have <code>wp</code> in!</p>
+
+
+
+<p>If you&#8217;re playing WordlePress you&#8217;ll want the top-ten for starter words. So these are:</p>
+
+
+
+<ul><li><code>wp</code> (1245 instances)</li><li><code>get</code> (firmly second with a massive 762 instances!)</li><li><code>post</code> (third with 308 instances)</li><li><code>block</code> (fast upcoming in 4th place with 217 instances)</li><li><code>link</code> (166 instances)</li><li><code>is</code> (156 instances)</li><li><code>core</code> (144 instances)</li><li><code>update</code> (138 instances)</li><li><code>the</code> (133 instances)</li><li><code>add</code> (124 instances)</li></ul>
+
+
+
+<p><strong>WordlePress words/parts</strong></p>
+
+
+
+<p>So is <code>wp_get_post_block</code> the best opener for WordlePress?</p>
+
+
+
+<p>Remember we&#8217;re only using 4-part functions. Is the analysis any different?</p>
+
+
+
+<p>Well, it&#8217;s a little different.</p>
+
+
+
+<p>The best WordlePress opening guess is <code>wp_get_post_link</code></p>
+
+
+
+<p><code>wp</code> remains strongest by far. It&#8217;s in 482 of the 1004 4-part function names. Close to 50%!</p>
+
+
+
+<p><code>core</code> and <code>block</code> get demoted a bit. <code>update</code> drops down the rankings. And <code>ajax</code>, <code>image</code> and <code>register</code> climb into the top ten:</p>
+
+
+
+<ul><li><code>wp</code> (482 instances)</li><li><code>get</code> (300 instances)</li><li><code>post</code> (115 instances)</li><li><code>link</code> (62 instances)</li><li><code>ajax</code> (54 instances)</li><li><code>block</code> (52 instances)</li><li><code>is</code> (45 instances)</li><li><code>the</code> (43 instances)</li><li><code>image</code> (41 instances)</li><li><code>register</code> (36 instances)</li></ul>
+
+
+
+<p>But there&#8217;s still 763 words to choose from! Which is one of the reasons WordlePress is so hard.</p>
+
+
+
+<p>Hopefully this new knowledge will help you play. Or maybe I&#8217;ll use it to refine the game to make it easier in future.</p>
+
+
+
+<p>In any case, this was kinda fun weekend tinkering. I hope you learned something!</p>
+</main></body>

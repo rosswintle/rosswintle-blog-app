@@ -1,0 +1,233 @@
+{
+    "id": 2557,
+    "date": "2019-01-14T17:11:14",
+    "date_gmt": "2019-01-14T17:11:14",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=2557"
+    },
+    "modified": "2019-01-14T17:11:15",
+    "modified_gmt": "2019-01-14T17:11:15",
+    "slug": "not-all-software-development-processes-are-equal",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/",
+    "title": {
+        "rendered": "Not all software development processes are equal"
+    },
+    "content": {
+        "rendered": "<h3>Coding is easy \/ software engineering is hard &#8211; we need more engineers!<\/h3>\n<p><em>Foreward: This post has been in my drafts for ages. I&#8217;m hesitant to publish because&#8230;well&#8230;how could little old me have a valid critique of such a software engineering giant? Yet I keep reading it and I&#8217;m really happy with what I&#8217;ve written and the light it brings to the topic. I&#8217;m finally clicking &#8220;Publish&#8221;. I hope you like it too!<\/em><\/p>\n<p>I was shown\u00a0<a href=\"http:\/\/blog.cleancoder.com\/uncle-bob\/2012\/04\/18\/After-The-Disaster.html\">Uncle Bob&#8217;s 2012 blog post &#8220;After the Disaster&#8221;<\/a>\u00a0a while back &#8211; an interesting piece from a very experienced software developer about how &#8220;If [people] find that [software developers]\u00a0are disciplined, and self regulating, then perhaps they\u2019ll leave us mostly alone. But if they find that we are undisciplined hacks then you know that they\u2019ll impose all manner of horrible regulation upon us.&#8221;.<\/p>\n<p>He makes a really good point about how software is encroaching more and more into our daily lives, and that software development <span style=\"text-decoration: underline;\">can be<\/span> undisciplined and therefore potentially dangerous. And he&#8217;s right. \u00a0&#8220;Coding&#8221; has become popular and very easy to learn. But software development &#8211; the broader craft of solving complex problems in maintainable, testable, well-structured, easily-understandable ways &#8211; is harder and needs more discipline than you get by just learning to code.<\/p>\n<p>Software development is a lot more than just coding. Just yesterday, <a href=\"https:\/\/www.quora.com\/Why-is-programming-so-easy#!n=18\">this Quora Q&amp;A thread<\/a> appeared in my inbox titled &#8220;<a href=\"https:\/\/www.quora.com\/Why-is-programming-so-easy#!n=18\">Why is programming so easy?<\/a>&#8220;. One of my favourite answers is &#8220;Coding is easy. In fact it is the easiest part of a programming job imo.&#8221; And in my opinion the world&#8217;s ratio of &#8220;software engineers&#8221; to &#8220;coders&#8221; is too low. This needs to change.<\/p>\n<p>So I get and agree with Uncle Bob&#8217;s point. But I feel I need to give some critique of his explanation of it, and the examples that he uses.<\/p>\n<h3>Not all software is equal<\/h3>\n<p>Bob says: &#8220;Is there software in your cell phone&#8230;your watch&#8230;the light switch on the wall&#8230;the light bulbs&#8230;the intercom&#8230;the doorbell&#8230;the thermostat&#8230;your furnace&#8230;your air conditioner&#8230;your refrigerator, dishwasher, washing-machine, drier?&#8221;. And yes, he&#8217;s right. Software is all around us.<\/p>\n<p>But he then seamlessly switches into this: &#8220;How about your car; and all the other cars on the road? How about the traffic signals? Did you ride an elevator today? Get in a plane or a train? How about an escalator? Do you have a pacemaker? An insulin pump?&#8221;<\/p>\n<p>So let&#8217;s start by making it clear that not all software is equal. The first list of things is very different to the second list of things. The probability that something very bad will happen if software in the first list of things goes wrong is pretty low.<\/p>\n<p>Yes, you can concoct scenarios like &#8220;my fridge got too hot and I got food poisoning&#8221; but there are other mitigating factors that prevent that hazard (like the fridge getting too hot) turning into harm (food poisoning). \u00a0We&#8217;ll come back to this.<\/p>\n<p>The probability that something very bad will happen if software in the second list of things goes wrong is pretty high. \u00a0Most of those things move large, heavy chunks of metal around at great velocities, and are then subsequently responsible for stopping them moving too. The others are medical equipment that keeps people alive.<\/p>\n<p>Let&#8217;s be clear &#8211; these are different things. A lightbulb and an airplane have very different requirements for the integrity of their software.<\/p>\n<p>Not all software is equal.<\/p>\n<h3>Therefore, not all software processes are equal<\/h3>\n<p>Bob then says this: &#8220;How many times per day do you put your life in the hands of an \u2018if\u2019 statement written by some twenty-two year old at three in the morning, while strung out on vodka and redbull?&#8221;<\/p>\n<p>And the answer is probably pretty close to &#8220;zero&#8221;.<\/p>\n<p>I worked in safety critical software for 4 years. I was actually writing and testing safety-critical code when I was twenty-two. And I can tell you that it is definitely NOT the case that a young, junior software developer would be able to commit code to the stable codebase of software for a car, traffic signal, elevator, train, plane, escalator or piece of medical equipment at 2am on a whim.<\/p>\n<p>The software processes for these kind of things involve:<\/p>\n<ul>\n<li>rigid, formal software specifications<\/li>\n<li>coding using appropriate tools and languages that minimise coding errors and help test that code does what it should and meets the spec<\/li>\n<li>correct levels of testing<\/li>\n<li>code review by peers, senior engineers, and often external third parties<\/li>\n<li>compliance with relevant safety standards<\/li>\n<li>production of safety cases that analyse the potential hazards, risk probabilities, and levels of harm to minimise danger<\/li>\n<\/ul>\n<p>AND&#8230;in addition to all that there will be hardware fail-safes and other physical mechanisms that prevent a problem with software becoming something harmful.<\/p>\n<p>In this context, I&#8217;ve worked on:<\/p>\n<ul>\n<li>static analysis of compiled code at assembler level<\/li>\n<li>review of compiled assembler code against the high-level source code<\/li>\n<li>testing so thorough that I discovered a (already documented but unknown to my team) bug in a microprocessor &#8211; yes, our spec and testing were so good that when the test failed, we turned to the microprocessor manual to see what was up!<\/li>\n<\/ul>\n<p>In <a href=\"https:\/\/blog.cleancoder.com\/uncle-bob\/2014\/02\/21\/WhereIsTheForeman.html\">another, related post<\/a>, Bob writes: &#8220;Where&#8217;s the guy who makes sure all the errors are checked, and that references can&#8217;t be null, and that variables are thread-safe?&#8221;<\/p>\n<p>Actually, in these industries, languages with provable properties are used. You can eliminate null references and entire classes of basic coding errors and performance issues. And in the safety-critical world these tools are often mandated.<\/p>\n<p>These processes are expensive. They are used in this context because people&#8217;s lives are clearly at risk. \u00a0Rigid, complicated, expensive processes are not needed for all forms of software. The budget for these projects MUST pay for the appropriate level of engineering, testing and approval.<\/p>\n<p>I currently build websites. In most cases, if my code is wrong, an image is displayed in the wrong place on someone&#8217;s screen. \u00a0Linting, code review, static analysis are helpful. But they can be safely omitted if the budget is not large enough.<\/p>\n<p>Different software needs different software\u00a0processes.<\/p>\n<h3>The Disaster<\/h3>\n<p>Bob then says: &#8220;Some time in the not too distant future, there\u2019s going to be an event. Thousands of people will die. And it will be the fault of some errant piece of code written by some poor schmuck under hellish pressure facing impossible deadlines. Perhaps it will be an airline crash, or a cruise ship sinking. Perhaps it\u2019ll be an explosion at a factory, or a train accident involving toxins. Perhaps it\u2019ll be a simple clerical error at a medical research lab that causes a vial of smallpox or ebola to be improperly disposed of.&#8221;<\/p>\n<p>Basically, there may well be a disaster as a result of code. But please, an airline crash or a cruise ship sinking or a train accident will not be caused in this way.<\/p>\n<p>&#8220;Poor schmuck&#8217;s&#8221; are not employed to write code like this. &#8220;Hellish pressure&#8221; is not allowed in this context. &#8220;Impossible deadlines&#8221; exist, but there are protections&#8230; You can not&#8230;you are not allowed to&#8230;ship dangerous code in a safety-critical context like this.<\/p>\n<p>Even if bad software does get in, the number of things that would need to happen between a software failure on a train and spillage of toxins in transit is huge and the probability of each of them is very low. And there are non-digital things\u00a0&#8211; handling measures, hardware precautions, and so on &#8211; that try to prevent software hazards becoming physical harm.<\/p>\n<p>&#8220;Will they find that developers work at all hours of the day and night, are under hellish pressure and impossible deadlines? Will they find that there are no professional standard, practices, or disciplines. Will they discover that we are all really just a bunch of undisciplined hacks?&#8221;<\/p>\n<p>Well. Umm. No, Bob. In the industries that you keep suggesting will cause the disaster, you will not find these things.<\/p>\n<h3>We&#8217;re already After the Disaster<\/h3>\n<p>And Bob&#8217;s conclusion: &#8220;The population will scream for protection, and the lawmakers will respond with self-righteous indignation. In their toolkit they\u2019ll have regulations, restrictions, licensing requirements, and certification tests&#8230;if they find that we are undisciplined hacks then you know that they\u2019ll impose all manner of horrible regulation upon us&#8230;.They might tell us what languages to use. They might tell us what process to use&#8230;we\u2019ll work in a government regulated profession.&#8221;<\/p>\n<p>So, let me introduce you to the Civil Aviation Authority, the Office of Rail Regulation, the Federal Aviation Authority, the National Highway Traffic Safety Administration, the Office for Nuclear Regulation.<\/p>\n<p>Is it really thought that development of software in safety-critical applications has no government-backed processes and procedures, legal and regulatory frameworks, restrictions, certification tests?<\/p>\n<p>Is it really thought that these things don&#8217;t exist? And even if they don&#8217;t, wouldn&#8217;t it be a good thing if a regulatory body told us to use a language that could be statically analysed to prove that it had no out-of-array-bounds accesses, undeclared variable uses, type errors, etc, etc. Would this not be a good thing?<\/p>\n<p>These industries are already regulated. And rightly so. \u00a0You can&#8217;t be a lazy indisciplined coder in these places. It&#8217;s not allowed. The &#8220;disaster&#8221; won&#8217;t lead to regulation because the regulation already exists.<\/p>\n<p>So what IS Bob advocating?<\/p>\n<p>&#8220;If they find that we are disciplined, and self regulating, then perhaps they\u2019ll leave us mostly alone.&#8221;<\/p>\n<p>It&#8217;s a call to arms. We need to self-impose discipline and regulation on ourselves, &#8220;Otherwise we\u2019ll work in a government regulated profession. And then life will be hell.&#8221;<\/p>\n<p>In contrast to what, I wonder? To working drunk at 2am on code for a lightbulb? \u00a0Well, on one thing we agree! Both ends of this spectrum are bad. We need something in the middle.<\/p>\n<p>We need to stop working when tired, drunk and powered by energy drinks. We need to do testing and code review. We need to use the tools, languages, and processes that make our software better. All of this we should do.<\/p>\n<p>But we should also be pragmatic. Not every application is a fly-by-wire aircraft control system. \u00a0And a good engineer is pragmatic, making trade-offs, assessing risks, defining requirements, building and testing code responsibly.<\/p>\n<p>A lot of applications aren&#8217;t going to cause &#8220;the disaster&#8221;, and not all code needs to be built to prevent it.<\/p>\n<p>So while I strongly disagree with Bob&#8217;s examples and his explanation of and implications of some hypothetical\u00a0disaster, he is right. Our industry is a mess. We need to take ourselves more seriously.<\/p>\n<p>Don&#8217;t just ship it, coders. Learn your craft well. Work responsibly. \u00a0Charge properly. Say &#8220;no&#8221;. Ask difficult questions. Don&#8217;t make assumptions.<\/p>\n<p>People might not be dying at the hands of your if statements, but that doesn&#8217;t mean you shouldn&#8217;t care.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Coding is easy \/ software engineering is hard &#8211; we need more engineers! Foreward: This post has been in my drafts for ages. I&#8217;m hesitant to publish because&#8230;well&#8230;how could little old me have a valid critique of such a software engineering giant? Yet I keep reading it and I&#8217;m really happy with what I&#8217;ve written [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        24,
+        187
+    ],
+    "tags": [
+        286,
+        640,
+        641,
+        145,
+        153
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Not all software development processes are equal - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Not all software development processes are equal - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Coding is easy \/ software engineering is hard &#8211; we need more engineers! Foreward: This post has been in my drafts for ages. I&#8217;m hesitant to publish because&#8230;well&#8230;how could little old me have a valid critique of such a software engineering giant? Yet I keep reading it and I&#8217;m really happy with what I&#8217;ve written [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-01-14T17:11:14+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-01-14T17:11:15+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"9 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/\",\"name\":\"Not all software development processes are equal - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-01-14T17:11:14+00:00\",\"dateModified\":\"2019-01-14T17:11:15+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Not all software development processes are equal\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Not all software development processes are equal - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Not all software development processes are equal - Ross Wintle",
+        "og_description": "Coding is easy \/ software engineering is hard &#8211; we need more engineers! Foreward: This post has been in my drafts for ages. I&#8217;m hesitant to publish because&#8230;well&#8230;how could little old me have a valid critique of such a software engineering giant? Yet I keep reading it and I&#8217;m really happy with what I&#8217;ve written [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2019-01-14T17:11:14+00:00",
+        "article_modified_time": "2019-01-14T17:11:15+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "9 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/",
+                    "url": "https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/",
+                    "name": "Not all software development processes are equal - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2019-01-14T17:11:14+00:00",
+                    "dateModified": "2019-01-14T17:11:15+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2019\/01\/not-all-software-development-processes-are-equal\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Not all software development processes are equal"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2557"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2557"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 5,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2557\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 4494,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2557\/revisions\/4494"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2557"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2557"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2557"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+<body><header><h1 data-pagefind-meta="title">WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields</h1></header><main>
+<p>There wasn&#8217;t really a shorter title for this post.</p>
+
+
+
+<h2 class="wp-block-heading">Too long? Didn&#8217;t read?</h2>
+
+
+
+<p>Here&#8217;s the quick bit of learning: WordPress runs the <code>wp_enqueue_scripts</code> action hook during the execution of <code>wp_head</code> and it encourages you to register scripts on this hook. SO if you do something that you want to enqueue scripts correctly, you must do it AFTER <code>wp_head</code> runs &#8211; which usually means after <code>wp_header()</code> is called in the theme.</p>
+
+
+
+<h2 class="wp-block-heading">My use case and problem</h2>
+
+
+
+<p>I was working for a client doing some maintenance on a theme that someone else had built. The theme used Advanced Custom Fields, and in some cases shortcodes were used inside ACF WYSIWYG fields.</p>
+
+
+
+<p>One of the shortcodes used needed some styles and/or scripts to be enqueued to make the shortcode work. But this should be fine right? Executing the shortcode would enqueue the assets. No problem there.</p>
+
+
+
+<p>Well, then my theme had some code that was using the ACF field&#8217;s content. It set up some values near the top of the file, grabbing values from the ACF fields using the <code>get_field()</code> function, before outputting the template&#8217;s HTML content. Something like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+&lt;?php
+$title = get_field('title');
+$content = get_field('content');
+?&gt;
+
+&lt;?php
+  wp_header();
+?&gt;
+
+&lt;main&gt;
+  // Output the content here
+&lt;/main&gt;
+</pre></div>
+
+
+<p>But, while the shortcode was definitely running, as I was seeing it&#8217;s output, the scripts that made the shortcode work were not being enqueued.</p>
+
+
+
+<h2 class="wp-block-heading">What&#8217;s going on?</h2>
+
+
+
+<p>The plugin that gave me the shortcode actually worked correctly:</p>
+
+
+
+<ul><li>Scripts were registered correctly using <code>wp_register_script()</code> on the <code>wp_enqueue_scripts</code> action hook</li><li>The callback function that generated the shortcode output was running the <code>wp_enqueue_script()</code> function</li><li>The scripts were registered to be output in the footer, so enqueuing them during the shortcode output function should be fine</li></ul>
+
+
+
+<p>BUT&#8230;because the <code>wp_enqueue_scripts</code> action hook fires during <code>wp_header()</code> this code was failing.</p>
+
+
+
+<p>It failed because the shortcode callback was run when I did the <code>get_field()</code> call on the WYSIWYG field. The <code>get_field()</code> call is before <code>wp_header()</code> and therefore before the scripts are registered. So at the point the shortcode call back runs, the script is not registered so it can not be enqueued.</p>
+
+
+
+<p>Phew. Are you still with me?</p>
+
+
+
+<h2 class="wp-block-heading">The fix</h2>
+
+
+
+<p>The fix is simple &#8211; get the content, and therefore run the shortcodes, after <code>wp_header()</code> has been called so that the scripts are registered before they are enqueued:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; gutter: false; title: ; notranslate" title="">
+&lt;?php
+  wp_header();
+?&gt;
+
+&lt;?php
+$title = get_field('title');
+$content = get_field('content');
+?&gt;
+
+&lt;main&gt;
+  // Output the content here
+&lt;/main&gt;
+</pre></div>
+
+
+<p></p>
+</main></body>

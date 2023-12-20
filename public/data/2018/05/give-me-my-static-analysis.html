@@ -1,0 +1,83 @@
+<body><header><h1 data-pagefind-meta="title">GIVE ME MY STATIC ANALYSIS!</h1></header><main>
+<p><em>In which I lament my own utter incompetence, but also switch back from VS Code to PHPStorm in a flash and cry over programming languages</em></p>
+
+
+
+<p>I&#8217;ve been spoiled. Yes. I admit it. Early in my coding career I got to use SPARK Ada and the SPARK Examiner and it left its mark.</p>
+
+
+
+<p>Ada, for those that don&#8217;t know, is a curious programming language. Pascal-like, clunky, verbose, typed. But I was brought up on Pascal so I got on with it quite nicely.</p>
+
+
+
+<p>SPARK Ada is a subset of Ada that removes, well, all the dangerous stuff. It&#8217;s a subset that lets you prove properties about your code, such as whether or not you it will go beyond the bounds of an array, or whether you have loop invariants. And all before you even run it through a compiler.</p>
+
+
+
+<p>This checking is called &#8220;static analysis&#8221;.  Remember that &#8211; you&#8217;ll need it later!</p>
+
+
+
+<p>The rules of SPARK make coding in it even more verbose than with standard Ada. It&#8217;s strongly typed so all type conversions are explicit. Arrays have fixed types and bounds. All variables and data structures are of a known size.</p>
+
+
+
+<p>BUT&#8230;it gloriously eliminated huge swathes of potential run-time error conditions without even needing to write tests.</p>
+
+
+
+<h3 class="wp-block-heading">Web development</h3>
+
+
+
+<p>Ada, as far as I know, isn&#8217;t used on the web (someone will prove me wrong, I&#8217;m sure). I mostly write PHP and JavaScript which, if you do things wrong, have a habit of making it up as you go along.</p>
+
+
+
+<p>I&#8217;ve used various text editors and IDE&#8217;s in my web development career.  Notepad++, Aptana Studio, Sublime Text, and more recently PHPStorm and VS Code.  VS Code recently replaced PHPStorm as the main tool I use for coding small projects.</p>
+
+
+
+<p>I have a number of PHP extensions installed in VS Code, including Intelliphense, and I somehow thought that the editor and extensions would be clever enough to at least let me know if a variable I was using was undeclared or something.</p>
+
+
+
+<p>But&#8230;well&#8230;here&#8217;s some code I wrote today in VS Code:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="548" height="170" src="https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-16.57.32.png" alt="Code snipper in VS code with a subtle error" class="wp-image-3531" srcset="https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-16.57.32.png 548w, https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-16.57.32-300x93.png 300w" sizes="(max-width: 548px) 100vw, 548px" /></figure>
+
+
+
+<p>Spot the deliberate error. It&#8217;s subtle. It&#8217;s on the second line.</p>
+
+
+
+<p>This code actually worked with a human-initiated &#8220;integration test&#8221; on the front end. This is because of a WordPress quirk whereby, further down the stack, <code>get_post( null )</code> actually returns the current post, and it just so happened that the only place I called this method was in some code inside a loop where there was a current post, and the current post&#8217;s ID was always the same as the <code>$related_to_id</code>.</p>
+
+
+
+<p>Anyway &#8211; I blame my text editor for this. How is an error of this sort not reported by my text editor, or by PHP, or anywhere?!  This is exactly the sort of thing that a computer is really good at detecting, but a human is not (unless you are <a href="https://twitter.com/hellofromTonya/status/994600056266412032">Tonya</a> &#8211; THANK YOU!)</p>
+
+
+
+<p>And so I discovered that I kinda take static analysis for granted, and miss it when it&#8217;s not there.</p>
+
+
+
+<p>After some research, it seems that setting up useful static analysis in VS Code is non-trivial (again, correct me if I&#8217;m wrong). But PHPStorm has some of this baked right into it&#8217;s core.</p>
+
+
+
+<p>It&#8217;s not SPARK Ada-level static analysis. But this is my computer doing what it&#8217;s best at: automating stuff that humans are bad at.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="488" height="175" src="https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-17.09.20.png" alt="Code snippet in PHPStorm with the same error, but with the error underlined!" class="wp-image-3532" srcset="https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-17.09.20.png 488w, https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-10-at-17.09.20-300x108.png 300w" sizes="(max-width: 488px) 100vw, 488px" /></figure>
+
+
+
+<p>And so I&#8217;ve gone running back to it.</p>
+</main></body>

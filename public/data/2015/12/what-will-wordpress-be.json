@@ -1,0 +1,233 @@
+{
+    "id": 2206,
+    "date": "2015-12-03T23:41:21",
+    "date_gmt": "2015-12-03T23:41:21",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?p=2206"
+    },
+    "modified": "2018-01-11T21:16:39",
+    "modified_gmt": "2018-01-11T21:16:39",
+    "slug": "what-will-wordpress-be",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/",
+    "title": {
+        "rendered": "What will WordPress be?"
+    },
+    "content": {
+        "rendered": "<h2>Change is upon us!<\/h2>\n<p>If you work with WordPress, that is.<\/p>\n<p>I won&#8217;t go into details on the <a href=\"http:\/\/wptavern.com\/the-first-half-of-the-rest-api-is-officially-added-to-wordpress-core\">WordPress REST API that&#8217;s going to be a part of the software soon<\/a>, or of &#8220;<a href=\"http:\/\/wptavern.com\/automattic-unveils-open-source-wordpress-desktop-application-for-the-mac\">Calypso<\/a>&#8221; which is a new tool for\u00a0edit content and managing WordPress sites (both wordpress.com and self-hosted wordpress.org) that uses an API (or two) to communicate with WordPress.<\/p>\n<p>But these things are coming&#8230;or are already here&#8230;and they will change what WordPress is.<\/p>\n<p>I&#8217;ve been thinking about this for a while. The idea of having a WordPress REST API seems really good on the surface. It will let developers do some amazing things. But here&#8217;s the problem: <em>it will let developers do amazing things!<\/em><\/p>\n<p>If developers can build cool things they will. They will build amazing new themes based on JS frameworks. And they will build new dashboards and editing interfaces.<\/p>\n<p>Is this good? Well, who knows? We can only guess and speculate at this point.<\/p>\n<p>I predict short term pain and confusion as lots of new things bolt on to the WordPress API. There will be fragmentation and experimentation as new user interfaces for WordPress appear. Users will be confused about what WordPress is. And after a while this will probably settle down and the good things will mature. But I think there may\u00a0still be confusion. And people may have lost faith in the mean time.<\/p>\n<h2>Ssssh&#8230;don&#8217;t tell anyone but&#8230;<\/h2>\n<p>Now&#8230;here&#8217;s the thing. And I kinda need to whisper this because it may be quite controversial:<\/p>\n<p><em><span style=\"color: #999999;\">WordPress doesn&#8217;t have a great data model for general purpose app development!<\/span><\/em><\/p>\n<p>Some people try to build really complex web applications using WordPress &#8211; yes, I have too! &#8211; and it&#8217;s hard and inefficient because of the limitations of the data model.<\/p>\n<p>So if you&#8217;re going to build a new JavaScript-based user interface that communicates with a back-end using a REST API then, well, it doesn&#8217;t matter what the back-end is. You can write your own. And it could well be better suited to a web-application&#8217;s needs than WordPress is.<\/p>\n<p>Many people are asking &#8220;What can we build on top of WordPress now that it has an API?&#8221; but an alternative question might be &#8220;If Calypso is a good user experience, what can we build to go behind Calypso?&#8221;<\/p>\n<p>There&#8217;s another way of looking at this too. I&#8217;m going to call it:<\/p>\n<h2>Throwing the baby out with the bathwater<\/h2>\n<p>Here are some of the things I really like about WordPress:<\/p>\n<ul>\n<li>It&#8217;s actually a really well thought out blogging tool and simple CMS that has evolved over time<\/li>\n<li>It has (relatively) great built-in media management<\/li>\n<li>LOTS of people already know how to use it and are familiar with the UI<\/li>\n<li>It has loads of plugins that you can use to extend its functionality, many of which extend the UI<\/li>\n<li>It&#8217;s really easy to install and update &#8211; automatic security updates are great!<\/li>\n<li>It&#8217;s templating system isn&#8217;t great, but its easy to get to grips with which makes simple development work easy, and it&#8217;s a low barrier-of-entry for new developers.<\/li>\n<\/ul>\n<p>Here are some of the things that I don&#8217;t like about WordPress:<\/p>\n<ul>\n<li>It has a limited data model with no relationships between object types (taxonomies are not general purpose objects!) and no real ORM<\/li>\n<li>It&#8217;s well coded and easy to understand, but it doesn&#8217;t use modern &#8211; well quite well-established now! &#8211; patterns for development<\/li>\n<li>The PHP code is well documented. But the JavaScript code and libraries is\/are really hard to learn how to use.<\/li>\n<\/ul>\n<p>It seems to me that building a new user interface using the REST API will embrace those things that I dislike while throwing away a lot of the things that I like. If you&#8217;re not going to use the Dashboard, then why accept the limitations of the data model?<\/p>\n<p>If I&#8217;m going to build a complex web app, I&#8217;m not going to use WordPress as a back-end because its data model is not good enough. It&#8217;s a data model designed for blogs and low-to-moderately complex websites.<\/p>\n<p>If I&#8217;m going to build a blog or low-to-moderately complex website then WordPress is ideal precisely because of the user interface. It&#8217;s a user interface designed for blogs and low-to-moderately complex websites.<\/p>\n<p>It seems to me that it&#8217;s the combination of these two things that makes WordPress what it is: the de-facto website content management system that powers more than 25% of the web. And that separating them could actually be a disaster.<\/p>\n<p>Even one of the WordPress REST API&#8217;s developers seems to agree:<\/p>\n<p>https:\/\/twitter.com\/danielbachhuber\/status\/672207252019945472<\/p>\n<p>So the future for WordPress seems uncertain to me. In some ways I hope that all the UI experimentation comes to nothing and the API is just used to enhance the existing WordPress dashboard (AJAX-based post filtering and pagination PLEASE!!!). It seems to me that the Dashboard is one of WordPress&#8217;s best assets. Throw it out and it&#8217;s not WordPress anymore. Throw it out, and you may as well use something else altogether.<\/p>\n<p>This, for me, is the identity crisis that WordPress will have in the months and years to come.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Change is upon us! If you work with WordPress, that is. I won&#8217;t go into details on the WordPress REST API that&#8217;s going to be a part of the software soon, or of &#8220;Calypso&#8221; which is a new tool for\u00a0edit content and managing WordPress sites (both wordpress.com and self-hosted wordpress.org) that uses an API (or [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        24
+    ],
+    "tags": [
+        589,
+        591,
+        64,
+        590,
+        181,
+        462
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>What will WordPress be? - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"What will WordPress be? - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Change is upon us! If you work with WordPress, that is. I won&#8217;t go into details on the WordPress REST API that&#8217;s going to be a part of the software soon, or of &#8220;Calypso&#8221; which is a new tool for\u00a0edit content and managing WordPress sites (both wordpress.com and self-hosted wordpress.org) that uses an API (or [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2015-12-03T23:41:21+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-11T21:16:39+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/\",\"url\":\"https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/\",\"name\":\"What will WordPress be? - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2015-12-03T23:41:21+00:00\",\"dateModified\":\"2018-01-11T21:16:39+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"What will WordPress be?\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "What will WordPress be? - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "What will WordPress be? - Ross Wintle",
+        "og_description": "Change is upon us! If you work with WordPress, that is. I won&#8217;t go into details on the WordPress REST API that&#8217;s going to be a part of the software soon, or of &#8220;Calypso&#8221; which is a new tool for\u00a0edit content and managing WordPress sites (both wordpress.com and self-hosted wordpress.org) that uses an API (or [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2015-12-03T23:41:21+00:00",
+        "article_modified_time": "2018-01-11T21:16:39+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/",
+                    "url": "https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/",
+                    "name": "What will WordPress be? - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2015-12-03T23:41:21+00:00",
+                    "dateModified": "2018-01-11T21:16:39+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2015\/12\/what-will-wordpress-be\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "What will WordPress be?"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2206"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2206"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 3,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2206\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 2210,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2206\/revisions\/2210"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2206"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2206"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2206"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

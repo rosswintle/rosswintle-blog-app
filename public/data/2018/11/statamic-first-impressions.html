@@ -1,0 +1,65 @@
+<body><header><h1 data-pagefind-meta="title">Statamic: First impressions</h1></header><main>
+<p>While the confusion over the launch of WordPress&#8217;s new &#8220;Gutenberg&#8221; editor continues, I&#8217;ve been considering some other options.</p>
+
+
+
+<p>As someone who also works in the Laravel world, <a href="https://statamic.com/">Statamic</a> is making a pretty big blip on my radar. It&#8217;s a content management system that &#8216;runs on a “flat file” engine based on Markdown and YAML files&#8217;.</p>
+
+
+
+<p>I took it for a spin the other night and kinda live-Tweeted as I went. Here&#8217;s how that went (click the Twitter icon in the top right, or the date/time link to see the whole thing:</p>
+
+
+
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">I took a quick dive into <a href="https://twitter.com/statamic?ref_src=twsrc%5Etfw">@statamic</a> today. Here&#39;s a bit of a live-tweet of what I&#39;m finding.<br><br>Context: I&#39;m an experienced software dev mostly building websites by day in WordPress and tinkering with Laravel by night (pass me your fun Laravel jobs!!)</p>&mdash; Ross Wintle (@magicroundabout) <a href="https://twitter.com/magicroundabout/status/1064638961325432832?ref_src=twsrc%5Etfw">November 19, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>I was really impressed with Statamic. It costs, but it&#8217;s got a lot going for it. But I was left with a niggling feeling about something, and as I&#8217;ve let my brain post-process it over the last couple of days, I&#8217;ve worked out what it is.</p>
+
+
+
+<p>Statamic is still a CMS with a database. Yes, the database is in flat files, but it still &#8211; to some extent &#8211; builds pages on the fly from the data it has rather than being a full-on &#8220;static&#8221; CMS that builds a set of HTML files.</p>
+
+
+
+<p>Yes, you can static-cache it, and it provides you with the tools for doing that, but it still needs a little extra effort to get the&nbsp;super-speed of a full static CMS. And it still has a control panel with a login, so it doesn&#8217;t have the super-security of a full static CMS.</p>
+
+
+
+<p>And I&#8217;m left with this niggling doubt about performance. Statamic prides itself on &#8220;eliminating the rigid, relational database&#8221; which &#8220;unlocks the ability to create and support any data structures you can imagine&#8221;. Which I kinda get, but also I&#8217;m not sure I can imagine a data structure that would fit into YAML that wouldn&#8217;t work in SQL. And SQL&#8217;s rigidity means you can query it easily using a declarative query language, and you can get great performance from it.</p>
+
+
+
+<p>Not knowing how the caching works in Statamic, it&#8217;s hard to say how it would perform with a large dataset, but my instinct is that, unless it builds indexes of some sort, it really won&#8217;t be as efficient as MySQL. And I&#8217;d feel like I was dependent on the software itself providing me with import/export ability.</p>
+
+
+
+<p>I know that full-on static site generators are MUCH harder to use and really developer-only territory.  And I see that Statamic is much more user-friendly than them, while being much more flexible and developer-friendly than something like WordPress. I&#8217;m struggling with this idea of a hybrid static/dynamic CMS.</p>
+
+
+
+<p>Let me be clear, I can see a LOT of benefits to using Statamic:</p>
+
+
+
+<ul><li>easier configuration with easier access to advanced options</li><li>built-in form builder</li><li>more flexible data structures</li><li>good user roles and groups system</li><li>simple drag-and-drop page ordering</li><li>built-in caching</li><li>built-in CLI tool</li><li>nice image editing features</li><li>built-in upgrade&#8230;and downgrade!&#8230;functionality</li></ul>
+
+
+
+<p>And, biggest of all, the fact that it&#8217;s flat-file means you can store everything: content, configuration, users, the lot(!) in version control and, potentially, roll back and merge and do all the things that version control allows you to do.</p>
+
+
+
+<p>But I&#8217;m yet to be convinced that the benefits of a flat file database outweigh the drawbacks.</p>
+
+
+
+<p>So. It&#8217;s great. I&#8217;ll almost certainly play with it more and add it as a tool to my kit.</p>
+
+
+
+<p>And&#8230;HUGE thank you to the <a href="https://twitter.com/statamic">@statamic</a> team, who followed along the live tweeting and well-actually&#8217;d me on a few things. They seem like a great bunch and I&#8217;m certain support from them would be superb.</p>
+</main></body>

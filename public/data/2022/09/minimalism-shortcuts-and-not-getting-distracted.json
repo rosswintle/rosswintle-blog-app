@@ -1,0 +1,222 @@
+{
+    "id": 11057,
+    "date": "2022-09-24T19:14:30",
+    "date_gmt": "2022-09-24T18:14:30",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=11057"
+    },
+    "modified": "2022-09-24T19:14:32",
+    "modified_gmt": "2022-09-24T18:14:32",
+    "slug": "minimalism-shortcuts-and-not-getting-distracted",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/",
+    "title": {
+        "rendered": "Minimalism, shortcuts, and not getting distracted"
+    },
+    "content": {
+        "rendered": "\n<p>Today I&#8217;m tidying up an old draft post on the topic of minimalism for posting.<\/p>\n\n\n\n<p>I don&#8217;t really think of myself as minimalist. I&#8217;m not a clean desk person. Our home is big on &#8220;floordrobes&#8221;. We are slightly-chaotic, creative, mad-professor types. (Well, I should only speak for myself but&#8230;)<\/p>\n\n\n\n<p>Yet I have a feeling if I embraced it, minimalism would really be my thing.<\/p>\n\n\n\n<p>So I loved <a href=\"https:\/\/thingsworthlearning.show\/episodes\/minimalism-with-diana-scharf\">this Podcast<\/a> from <a href=\"https:\/\/twitter.com\/stauffermatt\">Matt Stauffer<\/a> and <a href=\"https:\/\/twitter.com\/DianaWebdev\">Diana Scharf<\/a>, it really piqued my interest and got me wondering what more I can do to embrace minimalism.<\/p>\n\n\n\n<p>I&#8217;m particularly challeneged by the idea that everything you own has an ongoing cost: looking after it; having a space for it; fixing it if it breaks; finding it if its lost; moving it if you move home. Posessions have a small ongoing cognitive load.<\/p>\n\n\n\n<p>One of my first thoughts was about books. I don&#8217;t really need books. I have an eReader now and much as I dislike not actually OWNING my books, it saves on all the space and is SO much easier to travel with.<\/p>\n\n\n\n<p>I&#8217;m really keen to start ditching physical books!<\/p>\n\n\n\n<p>But then I had other thoughts about focus and distraction.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">My Phone&#8217;s Homescreen<\/h2>\n\n\n\n<p>One thing I&#8217;ve really noticed is how distracting my phone is. So in an attempt to clean this up I wondered if I could somehow just delete all my app icons (or put them in the hidden away app library thing) and use Siri or Spotlight (search) to go straight to the thing I want.<\/p>\n\n\n\n<p>I wasn&#8217;t ready to completely embrace this, and wanted a back-out plan &#8211; I&#8217;m not ready to delete my crafted layouts and groups of apps that are in muscle memory. So I thought I&#8217;d keep my app screens for now, and just add one as the &#8220;home&#8221; screen with no apps on. I added a couple of nice widgets, but the vast majority of the apps are gone.<\/p>\n\n\n<div class=\"wp-block-image\">\n<figure class=\"aligncenter size-large is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324-473x1024.jpg\" alt=\"\" class=\"wp-image-11345\" width=\"305\" height=\"660\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324-473x1024.jpg 473w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324-139x300.jpg 139w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324-768x1663.jpg 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324-709x1536.jpg 709w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324-946x2048.jpg 946w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324.jpg 1125w\" sizes=\"(max-width: 305px) 100vw, 305px\" \/><\/figure><\/div>\n\n\n<p>When I&#8217;m disciplined about sticking to this one screen it&#8217;s AWESOME. I should probably delete all my app pages and just do this all the time. But I can&#8217;t bring myself to do it yet.<\/p>\n\n\n\n<p>This is a really neat trick though. Swipe down, search for what you want. Go straight there.<\/p>\n\n\n\n<p>So much better than scrolling and getting distracted before I&#8217;ve even started the task I set out to achieve!<\/p>\n\n\n\n<p>Recommended.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Sticking with keys &#8211; a journey<\/h2>\n\n\n\n<p>I&#8217;ve long been working on the same idea for my (MacBook) laptop. I switch apps a LOT. I don&#8217;t want to use the dock. In fact, <a href=\"https:\/\/apple.stackexchange.com\/questions\/59556\/is-there-a-way-to-completely-disable-dock\">the dock can just disappear entirely<\/a> for all I care.<\/p>\n\n\n\n<p>Alt-Tab-ing my way through apps is a simple way to stay on the keyboard for switching apps. And pairing that with using <a href=\"https:\/\/www.alfredapp.com\/\">Alfred<\/a> (or Apple&#8217;s Spotlight) is great. But I&#8217;ve often wondered if I could do better.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Hyper Keys<\/h3>\n\n\n\n<p>One thing I&#8217;d heard about &#8211; mostly from <a href=\"https:\/\/syntax.fm\/show\/315\/hasty-treat-hyper-productivity-with-keyboard-shortcuts-window-management\">the Syntax.fm podcast<\/a> &#8211; is making your caps-lock key a hyper key.<\/p>\n\n\n\n<p>Yes, I was sceptical about re-mapping my caps-lock key for another purpose. But I really don&#8217;t miss it one bit.<\/p>\n\n\n\n<p>So what is a &#8220;hyper key&#8221;? Well the idea is that you map caps-lock to ALL the other meta-keys being pressed at once. On a Mac this is Ctrl-Alt-Shift-Option. You need special tools like <a href=\"https:\/\/karabiner-elements.pqrs.org\/\">Karabiner Elements<\/a> to do this, but once you have you can then use another tool like <a href=\"https:\/\/folivora.ai\/\">Better Touch Tool<\/a> to map Ctrl-Alt-Shift-Option-&lt;some-key> to do things.<\/p>\n\n\n\n<p>Suddenly have a whole keyboard of new shortcuts open up to you with Hyper-Something!<\/p>\n\n\n\n<p>And I set about mapping Hyper-&lt;key> to applications so that I could go straight to them.<\/p>\n\n\n\n<ul>\n<li>Hyper-F opens Firefox<\/li>\n\n\n\n<li>Hyper-P opens PHPStorm<\/li>\n\n\n\n<li>Hyper-W opens Wavebox<\/li>\n\n\n\n<li>Hyper-I opens iTerm<\/li>\n\n\n\n<li>and so on.<\/li>\n<\/ul>\n\n\n\n<p>Direct access to apps. Sweet.<\/p>\n\n\n\n<p>And I loved this approach.<\/p>\n\n\n\n<p>But even Hyper Keys are a bit limited. I know I&#8217;ll sound selfish, but I wanted MORE!!!!<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Stream Deck<\/h3>\n\n\n\n<p>So I tried out Elgato&#8217;s Stream Deck.<\/p>\n\n\n\n<p>First as an app on my phone. This has a small subscription cost, but is a good way to try out the principle of a custom keypad without investing in the reasonably expensive hardware.<\/p>\n\n\n\n<p>It worked REALLY nicely. So, as a treat to myself when I got my new job last year, I bought a proper Stream Deak (the 15-key version) in a sale. And it works really great. Go straight to any app without typing, remembering keyboard shortcuts, or multiple alt-tabs. It keeps me focussed on what I want to do.<\/p>\n\n\n\n<p>There is a certain amount of remembering to use the Stream Deck at first. Alt-tab is STRONG in my muscle-memory! But it&#8217;s physical presence actually helps, drawing me back to it.<\/p>\n\n\n\n<p>And with different pages of buttons I have a setup for when I&#8217;m on a call, for when I&#8217;m in my code editor, and shortcuts for opening websites and GitHub repos. It&#8217;s a great tool. Elgato&#8217;s software is pretty terrible (come on folks, do better!!), but this is also a recommended for going straight to apps without passing Go.<\/p>\n\n\n\n<p>The problem with Stream Deck is&#8230; you need your Stream Deck. I don&#8217;t have it when I&#8217;m not in my office. And I&#8217;m not paying for the app if I also have the hardware. Annoying!<\/p>\n\n\n\n<p>So I still like the Hyper-Key approach too. Even though it is a bit clumsy to set up.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">R-Cmd<\/h3>\n\n\n\n<p>To finish off this journey then, one day I saw <a href=\"https:\/\/apps.apple.com\/us\/app\/rcmd-app-switcher\/id1596283165?mt=12\">R-Cmd<\/a>&#8230; a really simple MacApp that says &#8220;Hey, stuff caps-lock, it&#8217;s the Right-Cmd key that you don&#8217;t need&#8221; (really, you don&#8217;t) &#8220;so here&#8217;s a really simple app that lets you set Right-Cmd-&lt;key> as a key to open an app.&#8221;<\/p>\n\n\n\n<p>This is my Hyper-key setup, but SO much easier and with one app controlling it. Sure, it&#8217;s not as configurable, but I LOVE this way of doing things.<\/p>\n\n\n\n<p>Am I completely, over-the-top obsessed with avoiding my mouse and pressing too many keys? YES! Unashamedly. For something I literally do hundreds of times a day, the ergonomics and minimalism in this are great.<\/p>\n\n\n\n<p>Finally, finally, finally&#8230; if you want to take this to the next level then you need to read &#8220;<a href=\"https:\/\/tighten.com\/blog\/how-to-train-your-keyboard\/\">How to Train Your Keyboard<\/a>&#8221; (which also has <a href=\"https:\/\/twentypercent.fm\/episodes\/andrew-morgan-train-your-keyboard\">an accompanying podcast episode<\/a>)<\/p>\n\n\n\n<p>Now go, be productive and ditch YOUR mouse.<\/p>\n\n\n\n<p><\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Today I&#8217;m tidying up an old draft post on the topic of minimalism for posting. I don&#8217;t really think of myself as minimalist. I&#8217;m not a clean desk person. Our home is big on &#8220;floordrobes&#8221;. We are slightly-chaotic, creative, mad-professor types. (Well, I should only speak for myself but&#8230;) Yet I have a feeling if [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Minimalism, shortcuts, and not getting distracted - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Minimalism, shortcuts, and not getting distracted - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Today I&#8217;m tidying up an old draft post on the topic of minimalism for posting. I don&#8217;t really think of myself as minimalist. I&#8217;m not a clean desk person. Our home is big on &#8220;floordrobes&#8221;. We are slightly-chaotic, creative, mad-professor types. (Well, I should only speak for myself but&#8230;) Yet I have a feeling if [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2022-09-24T18:14:30+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-09-24T18:14:32+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324-473x1024.jpg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/\",\"url\":\"https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/\",\"name\":\"Minimalism, shortcuts, and not getting distracted - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2022-09-24T18:14:30+00:00\",\"dateModified\":\"2022-09-24T18:14:32+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Minimalism, shortcuts, and not getting distracted\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Minimalism, shortcuts, and not getting distracted - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Minimalism, shortcuts, and not getting distracted - Ross Wintle",
+        "og_description": "Today I&#8217;m tidying up an old draft post on the topic of minimalism for posting. I don&#8217;t really think of myself as minimalist. I&#8217;m not a clean desk person. Our home is big on &#8220;floordrobes&#8221;. We are slightly-chaotic, creative, mad-professor types. (Well, I should only speak for myself but&#8230;) Yet I have a feeling if [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2022-09-24T18:14:30+00:00",
+        "article_modified_time": "2022-09-24T18:14:32+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2022\/09\/IMG_0324-473x1024.jpg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/",
+                    "url": "https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/",
+                    "name": "Minimalism, shortcuts, and not getting distracted - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2022-09-24T18:14:30+00:00",
+                    "dateModified": "2022-09-24T18:14:32+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2022\/09\/minimalism-shortcuts-and-not-getting-distracted\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Minimalism, shortcuts, and not getting distracted"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11057"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11057"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11057\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 11346,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11057\/revisions\/11346"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11057"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11057"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11057"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

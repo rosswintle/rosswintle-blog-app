@@ -1,0 +1,139 @@
+<body><header><h1 data-pagefind-meta="title">A Laravel (and Statamic) asset cacher for including non-hierarchical JS/CSS dependencies</h1></header><main>
+<p><em><strong>A WHAT NOW?!!!</strong></em></p>
+
+
+
+<p><em>Note: If this has been done before, just tell me and point me in the right direction please? Thanks!</em></p>
+
+
+
+<h2 class="wp-block-heading">TL;DR</h2>
+
+
+
+<p>I made a <a href="https://github.com/rosswintle/laravel-asset-cache/">Laravel package</a> and <a href="https://github.com/rosswintle/statamic-asset-cache/">Statamic v3 addon</a> that automatically download JS and CSS package files from CDN&#8217;s and cache and serve them locally.</p>
+
+
+
+<p>Go straight to the README&#8217;s if you&#8217;re interested, or read on if you don&#8217;t quite understand what this is or why you might want it.</p>
+
+
+
+<h2 class="wp-block-heading">Background</h2>
+
+
+
+<p>I&#8217;m LOVING some of the trends in my tech world right now:</p>
+
+
+
+<ul><li>No JS</li><li>Less JS</li><li>Simpler JS</li><li>Vanilla JS</li></ul>
+
+
+
+<p>Not that I hate on JavaScript. It&#8217;s powerful, popular, easy (maybe deceptively so!) and has changed the internet for the better. But do we overuse it? Are we too dependent on it?</p>
+
+
+
+<p>Anyway, it&#8217;s all good stuff. And (fanboy moment) a lot of the chatter on this in my world is powered by the brilliant Caleb Porzio and his <a href="https://laravel-livewire.com/">Laravel Livewire</a> and <a href="https://github.com/alpinejs/alpine">AlpineJS</a> projects and all the amazing content he&#8217;s putting out around these topics.</p>
+
+
+
+<h2 class="wp-block-heading">Ditching the Build</h2>
+
+
+
+<p>I, personally, am on a &#8220;Ditch the Build&#8221; trend. Trying to figure out how, if at all, we, as web developers, can wean ourselves off of starting every project with <code>npm install</code>; of acquiring the technical tooling debt that we inevitably acquire in using build tools; and of simplifying the back-end of the front-end development experience.</p>
+
+
+
+<p>I want to say up-front that &#8220;Ditch the Build&#8221; is NOT for ALL projects: npm, webpack, parcel and so on are powerful tools that HELP us in many cases. But do we really need them for building simple websites and WordPress themes?</p>
+
+
+
+<p>Have things like CSS custom properties, ES6+ JavaScript, promises, async/await, the fetch API, HTTP2 and a multitude of others all made NOT having a complex build process possible for smaller projects?</p>
+
+
+
+<h2 class="wp-block-heading">Losing your dependencies</h2>
+
+
+
+<p>One issue that has not been resolved in my mind about how to Ditch the Build is including JavaScript dependencies.</p>
+
+
+
+<p>We all want our included code to be up to date and package managers help with this. But if I just want to include a JS library file from somewhere, I need to keep it up to date manually.</p>
+
+
+
+<p>Options are:</p>
+
+
+
+<ul><li>Use npm/yarn/whatever and include the dependency manually; seems like overkill for including a JS file.</li><li>Use an npm wrapper like <a href="https://laravel.com/docs/6.x/mix">Laravel Mix</a>; more overkill because you&#8217;re including webpack and other stuff; but, it gives you an asset tag to include the dependency which may be a bonus.</li><li>Use <a href="https://bower.io/">Bower</a>, which, though still maintained, is technically deprecated and not recommended.</li><li>Use a CDN and include the script tag manually; fine, but there are several good reasons not to do that (see below).</li><li>Just download the script and include it manually.</li></ul>
+
+
+
+<p>Clearly if you&#8217;re trying to ditch the build then only the last two options here are usable.</p>
+
+
+
+<p>And the problem with CDN&#8217;s is that, while there may be slight performance gains, you become dependent on a third party for your site to work. CSS Wizard Harry Roberts gives <a href="https://csswizardry.com/2019/05/self-host-your-static-assets/">a multitude of reasons not to use a CDN</a>. And you still have to manually update the script tag if you want to update it. (Yes, not even the major CDN&#8217;s support &#8220;latest version&#8221; &#8211; remember this, we&#8217;ll come back to it!)</p>
+
+
+
+<h2 class="wp-block-heading">Idea: An automatic asset cacher</h2>
+
+
+
+<p>So I had this idea: could we automate the process of downloading an asset (JS or CSS) from GitHub or from a CDN and then caching it and serving it locally?</p>
+
+
+
+<p>Could I just have some kind of helper function or Blade (or Antlers, for Statamic) tag that would output a link to this automatically locally-cached copy?</p>
+
+
+
+<p>And could it maybe have a package-manager-link version constraint so it could automatically use minor updates? (Yes, in retrospect, this might be a bad idea).</p>
+
+
+
+<p>Could we just do, for example?:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+&lt;script src=&quot;{{ assetCache(&lt;package&gt;, &lt;version&gt;, &lt;file&gt;) }}&quot;&gt;&lt;/script&gt;
+</pre></div>
+
+
+<h2 class="wp-block-heading">It&#8217;s alive!</h2>
+
+
+
+<p>Yes, yes, this isn&#8217;t big or clever. But here you go:</p>
+
+
+
+<ul><li><a href="https://github.com/rosswintle/laravel-asset-cache/">Laravel Asset Cacher</a> package</li><li><a href="https://github.com/rosswintle/statamic-asset-cache/">Statamic Asset Cacher</a> addon (for v3, which is currently in beta, but it&#8217;s what I&#8217;m building with)</li></ul>
+
+
+
+<p>It has some limitations, and may not actually save you that much time. But I think it&#8217;s kinda neat.</p>
+
+
+
+<h2 class="wp-block-heading">Why is this a big deal?</h2>
+
+
+
+<p>You&#8217;ll see this in readme&#8217;s, but this is a big deal for me because:</p>
+
+
+
+<ul><li>This is my first (and second) Laravel package</li><li>This is my first Statamic addon</li><li>I&#8217;ve had to learn quite a lot to accomplish this &#8211; nothing hard, but just lots of little things. (Huge thanks to <a href="https://twitter.com/marcelpociot">Marcel Pociot</a>&#8216;s excellent <a href="https://phppackagedevelopment.com/">PHP Package Development</a> course for guiding me through!)</li></ul>
+
+
+
+<p>I&#8217;m not sure if these are useful to anyone; if this idea actually has any merit. But they were a good exercise in creating and publishing packages and addons. Constructive feedback is welcome!</p>
+</main></body>

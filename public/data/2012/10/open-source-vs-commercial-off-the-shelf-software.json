@@ -1,0 +1,236 @@
+{
+    "id": 1334,
+    "date": "2012-10-11T22:54:52",
+    "date_gmt": "2012-10-11T21:54:52",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?p=1334"
+    },
+    "modified": "2012-12-17T23:20:03",
+    "modified_gmt": "2012-12-17T23:20:03",
+    "slug": "open-source-vs-commercial-off-the-shelf-software",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/",
+    "title": {
+        "rendered": "Open Source vs Commercial Off-the-Shelf Software"
+    },
+    "content": {
+        "rendered": "<p>A while ago I quit the commercial IT world to work as a freelance web developer. There were many aspect to this decision, but one of the big ones was frustration with the software that I had to use.<\/p>\n<p>I&#8217;ve been meaning to blog about this for ages, then tonight, <a title=\"Elliott Richmond on Twitter\" href=\"https:\/\/twitter.com\/elliottrichmond\">Elliott Richmond<\/a> tweeted a link to <a title=\"Open Source vs Proprietary Software - SquareOne MD\" href=\"http:\/\/www.squareonemd.co.uk\/open-source-vs-proprietary-software\/\">a post he&#8217;d written about Open Source vs Proprietary software<\/a>, and I took it as an excuse to get my thoughts down. Those thoughts are collected here in a slightly edited copy of my comment on Elliott&#8217;s post.<\/p>\n<p>Elliott&#8217;s post is more about the topic in the context of website publishing and content management systems. my views are probably more about commercial software in general.<\/p>\n<p>I&#8217;m not sure if this belongs on my personal or work blogs. Lets start with it on the personal and see how it goes:<\/p>\n<p>I left a well paid job in the It department of a telecoms company to take the less-well-paid and less-secure (possibly) freelance developer route.<\/p>\n<p>One of the main things that frustrated me about the big-corporate world was their insistence on using COTS (Commercial Off-The-Shelf) software from big vendors. I was mostly using a product set from a very large, multi-national software supplier. Very much closed-source. And it was a nightmare.<\/p>\n<ol>\n<li>It was expensive: initial licensing costs, ongoing support and maintenance costs, were both huge 6-figure sums.<\/li>\n<li>It was badly supported. Sometimes even getting the support team to acknowledge an issue was difficult. When they did, actually getting to deal with someone like a developer who understood what the product was doing was nigh-on impossible.<\/li>\n<li>It was badly written. Even basic defensive coding techniques were not employed. Things would break with no error, no log file message. I remember one particular Windows-based tool that crashed if you ran it as a different user to the one you installed it as. Shocking. No error message. No log. No test for the error and gracefully exit.<\/li>\n<li>Development\/release cycles were long. Aside from the fact that bug reports and enhancement requests were rarely actioned\/implemented, when they were, they were part of a three-month or six-month release cycle. No quick fixes!<\/li>\n<li>Development was mostly by acquisition. The product life cycle seemed to be: produce product roadmap, see useful features in competitors product, acquire competitor, declare competitors tool\/technology as &#8216;the next big thing&#8217;, scrap old product, goto 10 (if you know what I mean). Features promised on the roadmap (which we inevitably promised on to our clients) never appeared as the future was constantly being re-written.<\/li>\n<li>Products tried to be all things to all men &#8211; ended up doing nothing well.<\/li>\n<\/ol>\n<p>As a third-line support engineer trying to provide high-quality, high-value services to large corporate customers with huge wallets, it was incredibly frustrating having my hands tied by these constraints imposed upon me, despite paying exorbitant amounts for the pleasure. Telling a client &#8216;yes, I know it&#8217;s broken, it might be fixed sometime, it might never be fixed&#8217; was simply not acceptable.<\/p>\n<p>With OpenSource I see a bug, I investigate a bug, I fix a bug (note: I already have the fix at this point!), I submit a patch, usually released within weeks. Heck, even support is better. I use a premium forms plugin. I had a problem with something I was doing. It was investigated and fixed &#8211; with an updated, patched version of the plugin, within 48 hours. This in a product I paid a three-figure sum for.<\/p>\n<p>I think the key difference isn&#8217;t openness, documentation, flexibility, or cost. It&#8217;s that people who write OpenSource software give a damn. They care. The make things out of love for their trade.<\/p>\n<p>This is not true of all Open Source software: some people write stuff, release stuff, and then never update it. And I&#8217;m sure my experience of COTS isn&#8217;t universal.<\/p>\n<p>In contrats, COTS suppliers are in a race to the bottom: lower support and development costs, and increased profit. Support and development are just processes that employees follow as they resolve as many tickets as possible within SLA and cross tasks off a todo list. They&#8217;re just pawns in a game designed not to produce good software, but to put cash in shareholder&#8217;s pockets.<\/p>\n<p>Rant over. For me open-source wins.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I think the key difference between open-source and proprietary (closed-source) software isn&#8217;t openness, documentation, flexibility, or cost. It&#8217;s that people who write OpenSource software give a damn. They care.<\/p>\n",
+        "protected": false
+    },
+    "author": 1,
+    "featured_media": 0,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23,
+        24
+    ],
+    "tags": [
+        64,
+        404,
+        153,
+        405,
+        582
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Open Source vs Commercial Off-the-Shelf Software - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Open Source vs Commercial Off-the-Shelf Software - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I think the key difference between open-source and proprietary (closed-source) software isn&#039;t openness, documentation, flexibility, or cost. It&#039;s that people who write OpenSource software give a damn. They care.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2012-10-11T21:54:52+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2012-12-17T23:20:03+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/\",\"url\":\"https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/\",\"name\":\"Open Source vs Commercial Off-the-Shelf Software - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2012-10-11T21:54:52+00:00\",\"dateModified\":\"2012-12-17T23:20:03+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Open Source vs Commercial Off-the-Shelf Software\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Open Source vs Commercial Off-the-Shelf Software - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Open Source vs Commercial Off-the-Shelf Software - Ross Wintle",
+        "og_description": "I think the key difference between open-source and proprietary (closed-source) software isn't openness, documentation, flexibility, or cost. It's that people who write OpenSource software give a damn. They care.",
+        "og_url": "https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2012-10-11T21:54:52+00:00",
+        "article_modified_time": "2012-12-17T23:20:03+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "magicroundabout",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "magicroundabout",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/",
+                    "url": "https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/",
+                    "name": "Open Source vs Commercial Off-the-Shelf Software - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2012-10-11T21:54:52+00:00",
+                    "dateModified": "2012-12-17T23:20:03+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2012\/10\/open-source-vs-commercial-off-the-shelf-software\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Open Source vs Commercial Off-the-Shelf Software"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                    "name": "magicroundabout",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                        "caption": "magicroundabout"
+                    },
+                    "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                    "sameAs": [
+                        "https:\/\/twitter.com\/magicroundabout"
+                    ],
+                    "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1334"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1334"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 6,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1334\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 1339,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1334\/revisions\/1339"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1334"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1334"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1334"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

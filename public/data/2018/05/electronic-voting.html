@@ -1,0 +1,133 @@
+<body><header><h1 data-pagefind-meta="title">Electronic voting</h1></header><main>
+<p>It&#8217;s voting day in the local elections tomorrow. And this comes with apologies to my mum, who retweeted this poll and made it appear in my Facebook and subsequently got a passionate rant from her son. She&#8217;s awesome and I totally ❤️ her! But it&#8217;s a good excuse to get people thinking about this&#8230;</p>
+
+
+
+<figure class="wp-block-embed is-type-rich is-provider-twitter">
+    <blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">Today&#39;s poll: It&#39;s local elections in parts of the UK tomorrow. Turnout&#39;s are rarely high. Is it time for optional secure digital home voting for all (or on application like postal votes)? Or is the effort needed to go to vote booth useful filtering?<br><br>What&#39;s CLOSEST to ur view?</p>&mdash; Martin Lewis (@MartinSLewis) <a href="https://twitter.com/MartinSLewis/status/991599938365739013?ref_src=twsrc%5Etfw">May 2, 2018</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</figure>
+
+
+
+<p>I&#8217;m a software developer. I develop software. I have written software that helps aircraft fly! So I kinda know how computers work and how to make computers safe.</p>
+
+
+
+<p>Now, I&#8217;m not saying the current paper based voting system isn&#8217;t flawed. There surely are ways that it could be exploited.</p>
+
+
+
+<p>BUT the thing about the current system is that it&#8217;s INCREDIBLY simple. You enter a room. You put a mark on a piece of paper. That goes in a sealed box. The boxes are all accounted for. The boxes are opened under scrutiny and the marked bits of paper are counted in public, under scrutiny from anyone that wants to see it happening.</p>
+
+
+
+<p>If you wanted to you could wait outside (or presumably inside) the polling station and then follow your vote, in the box, to the count, and watch all the votes from your box being counted.</p>
+
+
+
+<p>And if it&#8217;s tampered with there is usually a trail &#8211; a way to see how it was tampered with.</p>
+
+
+
+<p>This system is SO simple and transparent that I could explain it to my six year old and he would probably understand.</p>
+
+
+
+<p>And we know what this system&#8217;s flaws are and they have been mitigated over many years.</p>
+
+
+
+<h3 class="wp-block-heading">Software</h3>
+
+
+
+<p>e-Voting introduces software. So let&#8217;s talk about software.</p>
+
+
+
+<p>Software is INCREDIBLY complex. It&#8217;s very difficult to prove the properties of. It&#8217;s very difficult to show that it does what it should without error. It&#8217;s likely to have multiple flaws, any of which could be an exploitable security issue. You don&#8217;t know what it does. You don&#8217;t know how it works. You have no idea how trustworthy it is.</p>
+
+
+
+<p>Simple, 1-decimal-place arithmetic is pretty easy, right? A computer should be able to do that accurately in micro seconds, right? Well, here is a picture of my web browser adding 0.1 and 0.2:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="344" height="132" src="https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-02-at-22.19.12.png" alt="" class="wp-image-3472" srcset="https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-02-at-22.19.12.png 344w, https://rosswintle.uk/wp-content/uploads/2018/05/Screen-Shot-2018-05-02-at-22.19.12-300x115.png 300w" sizes="(max-width: 344px) 100vw, 344px" />
+    <figcaption>Computers, huh?</figcaption>
+</figure>
+
+
+
+<p>Now, I could explain how this is caused by a lack of precision in the JavaScript implementation of binary floating point arithmetic, but it&#8217;s unlikely that would make any sense.</p>
+
+
+
+<p>But it makes the point that when you think you&#8217;re simply adding 0.1 and 0.2, some incredibly complex things that you don&#8217;t understand are happening under the bonnet of your computer to make that happen.</p>
+
+
+
+<p>Let&#8217;s make a deal, then: if you can tell me what happens when you click the &#8220;Vote&#8221; button, then you can keep the idea of an electronic vote!</p>
+
+
+
+<h3 class="wp-block-heading">The Internet</h3>
+
+
+
+<p>And you want to send votes over the internet. So let&#8217;s talk about the internet.</p>
+
+
+
+<p>The internet is made up of millions of devices. You don&#8217;t know what they are. You don&#8217;t know WHERE they are. You don&#8217;t know what they do. You don&#8217;t know what software they are running. You don&#8217;t know what flaws they have. You can&#8217;t take them apart and inspect what&#8217;s going on inside.</p>
+
+
+
+<p>A casino was <a href="https://thehackernews.com/2018/04/iot-hacking-thermometer.html">recently hacked into because it had an internet-connected thermometer in an aquarium in the lobby</a>. Hackers used this as an entry point to the casino&#8217;s private network and downloaded a database of gamblers.</p>
+
+
+
+<p>Do you really want a cobbled-together system of frankly-who-knows-what sending your vote to the authorities.</p>
+
+
+
+<h3 class="wp-block-heading">But we have internet banking? Surely if that&#8217;s safe and reliable and trustworthy&#8230;</h3>
+
+
+
+<p><a href="https://www.moneysavingexpert.com/news/banking/2018/05/40000-complain-over-tsb-meltdown---and-bosses-still-cant-say-when-itll-be-fixed">Ahem&#8230;﻿</a></p>
+
+
+
+<p>(Irony notice: that article linked above is on the website owned by the man who ran the Twitter poll)</p>
+
+
+
+<h3 class="wp-block-heading">Democracy</h3>
+
+
+
+<p>And to top it all, the government, and particularly local government, know precious little about how anything computer related works. Until a few years ago the local transport people sent informational emails with hundreds of people visibly cc&#8217;d in them. I wouldn&#8217;t trust them to even set a secure password on their own systems!</p>
+
+
+
+<p>Not long ago our NHS systems were infected with a program that locked them, encrypted them and threatened to delete all the data on them unless a ransom was paid.</p>
+
+
+
+<p>The Cambridge Analytica thing has proven that democracy is too important to allow it to be interfered with by software and algorithms that we don&#8217;t understand and that can be exploited in ways that we did not expect.</p>
+
+
+
+<p>So&#8230;maybe I convinced you, can we keep marks on bits of trees, please!?</p>
+
+
+
+<p>And if I didn&#8217;t, here&#8217;s 8 minutes of a fellow University of York Alumnus who is equally passionate about the topic.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube">
+    <iframe loading="lazy" width="640" height="360" src="https://www.youtube.com/embed/w3_0x6oaDmI?feature=oembed" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</figure>
+</main></body>

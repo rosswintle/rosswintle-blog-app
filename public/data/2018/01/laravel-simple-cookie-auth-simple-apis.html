@@ -1,0 +1,71 @@
+<body><header><h1 data-pagefind-meta="title">Laravel: Simple cookie auth for your simple APIs</h1></header><main><p><em>Laravel uses token auth by default, here&#8217;s how to switch it out for simple cookie-based auth for quick and easy API tinkering for logged-in users.</em></p>
+<p>Note: I&#8217;m not a general PHP security expert. There may be good reasons not to do this aside from the fact that it&#8217;s not stateless (please comment if so!) and definitely use it over HTTPS if you can!!</p>
+<p>I&#8217;ve been through this several times and I forget about it each time.  So it&#8217;s worth writing down because it doesn&#8217;t seem to be well documented or explained even on Laracasts or Stack Overflow.</p>
+<h3>The issue</h3>
+<p>Let&#8217;s say you&#8217;re in the early stages of creating a simple app and you want to allow some actions to be taken using AJAX so you want to write some simple API routes that will return JSON.</p>
+<p>Laravel has an <a href="https://laravel.com/docs/5.5/routing#basic-routing">api.php routes file</a> which automatically applies some useful middlewares to requests, such as request throttling, and returns responses in JSON with appropriate HTTP headers.  But it also uses per-user token auth by default using a token guard. A part of the framework that doesn&#8217;t even seem to be documented.  The best I could find was a few <a href="https://www.cloudways.com/blog/api-token-authentication-laravel-5-2/">tutorials</a>, and the alternative seems to be to implement oAuth2 using <a href="https://laravel.com/docs/5.5/passport">Passport</a>, which seems like overkill for smaller, simpler apps.</p>
+<p>So perhaps this method really is frowned upon because it&#8217;s not stateless and violates REST principles. In any case, I&#8217;m pragmatic and I want to get started with my requests. So I want to switch this out for session based auth.</p>
+<h3>The config in question</h3>
+<p><em>Note: this is Laravel 5.5 &#8211; things may have changed.</em></p>
+<p>So you put your route into <code>routes/api.php</code> and you may note that that has the <code>auth:api</code> middleware applied.  Though I&#8217;m not quite sure (and am really struggling to find out) how this happens and exactly what gets applied.</p>
+<p>It also has a bunch of other middleware applied that we can control, as we&#8217;ll see later.</p>
+<p>Let&#8217;s deal with the latter first.  The &#8220;other middleware&#8221; used are specified in <code>app/Http/Kernel.php</code></p>
+<p>You&#8217;ll see in there the <code>$middlewareGroups</code> property which looks like this:</p>
+<pre class="brush: php; title: ; notranslate" title="">
+protected $middlewareGroups = &#x5B;
+    'web' =&gt; &#x5B;
+        \App\Http\Middleware\EncryptCookies::class,
+        \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+        \Illuminate\Session\Middleware\StartSession::class,
+        // \Illuminate\Session\Middleware\AuthenticateSession::class,
+        \Illuminate\View\Middleware\ShareErrorsFromSession::class,
+        \App\Http\Middleware\VerifyCsrfToken::class,
+        \Illuminate\Routing\Middleware\SubstituteBindings::class,
+    ],
+
+    'api' =&gt; &#x5B;
+        'throttle:60,1',
+        'bindings',
+    ],
+]
+</pre>
+<p>And you&#8217;ll hopefully note that there&#8217;s a <code>web</code> and an <code>api</code> group in here. The <code>api</code> group includes the throttling and something called bindings that remains mysterious to me.</p>
+<p>Now, I THINK that the <code>auth:api</code> middleware that you see mentioned in <code>routes/api.php</code> refers to the guards listed in <code>config/auth.php</code>. These look like:</p>
+<pre class="brush: php; title: ; notranslate" title="">
+'guards' =&gt; &#x5B;
+    'web'=&gt;&#x5B;
+        'driver'=&gt;'session',
+        'provider'=&gt;'users',
+    ],
+'api'=&gt;&#x5B;
+     'driver'=&gt;'token',
+     'provider'=&gt;'users',
+    ],
+],
+</pre>
+<p>Note that the driver for the <code>api</code> guard here is token.  Now I think this refers to a per-user-token style of authentication (a bit like the method described <a href="https://laracasts.com/discuss/channels/laravel/53-api-routes-auth-middleware-confusion">here</a>), but this token-driver-auth is not, as far as I can tell, document ANYWHERE, even though it seems to be the default for routes in <code>routes/api.php</code>.</p>
+<p>So that what we seem to be dealing with. BUT&#8230;something either is not right with my understanding of the <code>auth:api</code> middleware or it doesn&#8217;t work, or something else is going on that I don&#8217;t know about (and that no one seems to be able to tell me about).</p>
+<h3>The solution</h3>
+<p>Given what I found about the config, you&#8217;d think that the solution is to set the <code>api</code> driver in <code>config/auth.php</code> to be <code>session</code>, but this doesn&#8217;t work.</p>
+<p>One reason this doesn&#8217;t work is that the other lot of middleware defined in <code>Kernel.php</code> doesn&#8217;t include the middleware needed to start sessions and use cookies.  To do that you need to add the right middleware in <code>Kernel.php</code></p>
+<pre class="brush: php; title: ; notranslate" title="">
+'api' =&gt; &#x5B;
+    \App\Http\Middleware\EncryptCookies::class,
+    \Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse::class,
+    \Illuminate\Session\Middleware\StartSession::class, 
+    'throttle:60,1',
+    'bindings',
+],
+</pre>
+<p>But this STILL doesn&#8217;t work.</p>
+<p>And in the absence of any further information about how the <code>auth:api</code> middleware works, I can only get this working by changing <code>auth:api</code> to just <code>auth</code> in <code>routes/api.php</code>.</p>
+<p>So&#8230;steps to get this working</p>
+<ol>
+<li>Add the cookies and session middlewares to the <code>api</code> group in <code>Kernel.php</code></li>
+<li>Change <code>api:auth</code> to just <code>api</code> in <code>routes/api.php</code></li>
+<li>Add your routes and controllers and away you go!</li>
+<li>Oh, and make sure you&#8217;re using HTTPS. You don&#8217;t want your cookies being intercepted!</li>
+</ol>
+<h3>Finally&#8230;</h3>
+<p>If you know how the <code>auth:api</code> middleware works, or if you can explain why any of what I&#8217;ve suggested is a bad idea, please leave comments.</p>
+</main></body>

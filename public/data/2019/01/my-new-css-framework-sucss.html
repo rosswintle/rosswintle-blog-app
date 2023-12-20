@@ -1,0 +1,227 @@
+<body><header><h1 data-pagefind-meta="title">My new CSS framework: SUCSS!</h1></header><main>
+<p>Everyone is writing about CSS, and I work with CSS, so I guess I should write about CSS too. Please bear in mind I’ve spent far less time thinking about this than others. But these are my thoughts.</p>
+
+
+
+<p>Today, I half-jokingly present you my new convention: SUCSS. But before I tell you what it’s all about let&#8217;s get some context.</p>
+
+
+
+<h2 class="wp-block-heading">CSS and Me</h2>
+
+
+
+<p>I’m relatively old friends with CSS. I guess I started working in web development for real in 2010. I remember the stupid IE6 margin bugs, and learning the box model. It was hard work, but it was all we had. And once you knew the quirks it was actually powerful to work with. And I&#8217;d argue that it has remained powerful and only gotten MORE powerful over the years. Regardless of where you put it and how you name things, CSS is THE underlying technology for all styling of HTML on the web. </p>
+
+
+
+<h2 class="wp-block-heading">Presentational vs Semantic Classes</h2>
+
+
+
+<p>Back in the day “semantic classes” were all the rage. This was What You Should Do. And the hard line on this appeared to be a push back against people wanting to make “presentational” classes like “big-padding” or “float-left” or “blue-text”.</p>
+
+
+
+<p>This kind of stuff, they said, shouldn’t clutter up your markup. The markup describes the structure of the document not its presentation!</p>
+
+
+
+<p>Classes should be things like “main-header”, “widget-area”, “footer-credits”. Names that describe what something is, not what it looks like. After all the sidebar could be on the left or the right or at the bottom. You shouldn’t constrain your presentation by what you write in your markup.</p>
+
+
+
+<p>But I always found writing CSS for semantic classes was a bind. Well, not so much writing it, but editing it. Especially other people’s CSS. I remember spending time searching huge CSS files (and later entire directories of SASS files) to try and work out where a class was so that I could tweak the padding on it, only to realise then that this would affect ALL instances of this class and might have unintended knock-on effects.</p>
+
+
+
+<p>I wished that I had some kind of permission to add an inline style attribute, or a “big-padding-top” class to safely tweak just that one instance of this thing in this one place.</p>
+
+
+
+<h2 class="wp-block-heading">BEM, OOCSS, SMACSS and so on</h2>
+
+
+
+<p>Various conventions then emerged from some very clever people to try and name your classes and structure your CSS in better ways. These were great. They kept semantics, but allowed you to add contexts and modifiers, inherit properties between classes in an ordered way, and flatten the cascade toprevent styles bleeding from one place to another.</p>
+
+
+
+<p>Clever stuff!!</p>
+
+
+
+<p>And I liked this. But the problem was that anyone involved in the project had to be along for the ride. In an agency this is possible but I’m a freelancer who sometimes works solo and sometimes with other freelancers or agencies, and so I never really fully adopted one of these techniques because each project was different. Yes, they informed the techniques and conventions I used but I found it hard to take them on 100%.</p>
+
+
+
+<h2 class="wp-block-heading">Aside: Less and SASS and tooling.</h2>
+
+
+
+<p>Let’s quickly touch on these. I’m not an early adopter of new things. I’m a cautious semi-early adopter. I picked SASS and was glad I did. I don’t use it in a big way: variables, nesting (not needed so much if you’re full-on BEM), and file includes to break things up all help though. I’m pretty much SASS by default now.</p>
+
+
+
+<p>But the tooling&#8230;THE TOOLING! Yes, it was good. But it came in many forms. And so many people had so many different setups. Again, if you work in one big team and do the same thing everywhere this isn’t so bad. But working in multiple places and often inheriting projects from others made this hard work: what’s the darned build command on THIS project then?!?!? The README.txt became king.</p>
+
+
+
+<p>npm, grunt, gulp, webpack, PostCSS, and so on have not helped in this regard. Yes, tool chains have got way more powerful than they were, but they are also way more complicated!!</p>
+
+
+
+<h2 class="wp-block-heading">And so we come full circle</h2>
+
+
+
+<p>So it came to pass that one day I inherited a project that used “Tachyons”. </p>
+
+
+
+<p>And so I’m looking at markup with things like <code>class="f4 mt3 bt bw1 b—gray br2"</code> and I’m thinking: WHAT?!?!</p>
+
+
+
+<p>This, it turns out, was my first exposure to “functional” or “    utility” CSS. This is basically writing styles in the markup, but disguised as CSS classes. Which is, you know, the thing everyone rallied hard against 6 or 7 years ago.</p>
+
+
+
+<p>BUT&#8230;whereas everyone can understand <code>style="font-size: 1.5rem; margin-top: 1.25rem;"</code> etc, Tachyons has its own language that only Tachyons people understand. All, presumably, in the name of saving bytes (a measure which, at this scale, is probably irrelevant).</p>
+
+
+
+<p>And also&#8230;reading and understanding markup with Tachyons classes in it is horrendous. Just what is this thing? Yes, it’s a large, blue, margin-topped, bottom-bordered THING with white text. But, like, WHAT IS IT?</p>
+
+
+
+<p>HTML5 elements can help identify things, of course, as can IDs or components, if that’s your thing. But&#8230;just&#8230;.gah!!!</p>
+
+
+
+<p>Yes, I get that you can define your colours and type scales and so on, but I, personally, didn&#8217;t like Tachyons (can you tell?) and it left me along with the project I inherited that used it.</p>
+
+
+
+<p><em>Aside: I&#8217;m being somewhat extreme for dramatic effect here. If you use Tachyons and love it then that&#8217;s awesome. If you made Tachyons &#8211; great job, thank you! I, personally didn&#8217;t get on with it at all though and these were my genuine reactions on seeing it.</em></p>
+
+
+
+<p>Then Tailwind came on my radar. Tailwind is like Tachyons but seems to be to be substantially more friendly. Mostly its nicer because the class names aren’t all abbreviated beyond readability.</p>
+
+
+
+<p>Some people in my industry are raving about it. And I’ve not tried it yet. And one reason is that I’m put off by the very first example in the docs:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="686" src="https://rosswintle.uk/wp-content/uploads/2019/01/FullSizeRender-1024x686.jpg" alt="screenshot of TailWind docs showing complicated markup." class="wp-image-4497" srcset="https://rosswintle.uk/wp-content/uploads/2019/01/FullSizeRender-1024x686.jpg 1024w, https://rosswintle.uk/wp-content/uploads/2019/01/FullSizeRender-300x201.jpg 300w, https://rosswintle.uk/wp-content/uploads/2019/01/FullSizeRender-768x514.jpg 768w, https://rosswintle.uk/wp-content/uploads/2019/01/FullSizeRender-945x633.jpg 945w, https://rosswintle.uk/wp-content/uploads/2019/01/FullSizeRender-600x402.jpg 600w, https://rosswintle.uk/wp-content/uploads/2019/01/FullSizeRender.jpg 1519w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>I do NOT want my code to look like that. I don’t mean with a picture of <a href="https://adamwathan.me/">Adam Wathan</a> above it, of course (He&#8217;s great and has made <a href="https://refactoringui.com/book">some</a> <a href="https://course.testdrivenlaravel.com/">awesome</a> <a href="http://www.fullstackradio.com/">stuff</a>, by the way!). But this is the exact opposite end of the scale of all the things that were wrong with semantic classes.</p>
+
+
+
+<p>With semantic classes I could see what all the things were, but not how they were styled. With both Tachyons and Tailwind I can see all the styles, but not what the things are!</p>
+
+
+
+<p>Beyond the first example you find that collecting styles into components with helpful names is encouraged in Tailwind. And this seems like we’re almost in my CSS heaven: I can write <code>&lt;a href="button-link"&gt;</code> and have my semantic class or component that says what the thing is but then also easily tweak it for the context it’s in. Yippee!!!</p>
+
+
+
+<p>OK, so there’s still some unhelpful abbreviation there, but it’s not that bad once you’ve been introduced to the basics.</p>
+
+
+
+<p>Tailwind is “utility first”. You START by writing with just utilities and extract re-usable components where needed.  And in my head I get that creating things with it should be quick, but I’ve seen videos of people working with it and it’s often painful:</p>
+
+
+
+<ul><li>I want to increase this font size a little
+</li><li>So I’ll inspect it in dev tools and tweak the size until it’s what I want.
+</li><li>Then I take the size I want and look it up in my config file to find the class I need to make it that size
+</li><li>Then I’ll add the class to my HTML
+</li></ul>
+
+
+
+<p>This isn’t right! CSS and dev tools work beautifully together, and now we have a naming abstraction and a config layer and..ugh&#8230;it just seems like we’ve made things harder.</p>
+
+
+
+<p>My other beef with Tailwind is tooling. It introduces PostCSS and JavaScript configuration and&#8230;well&#8230;I just don’t want to have to get to grips with these things to write CSS.</p>
+
+
+
+<h2 class="wp-block-heading">CSS with added awesome!</h2>
+
+
+
+<p>CSS itself has come a long way. We have variables baked in, and Flexbox in pretty much every browser I work with and Grid support growing quickly.  With a good naming convention you don&#8217;t need nesting so much.</p>
+
+
+
+<p>All we&#8217;re really lacking is includes. But arguably HTTP2 takes care of the problem of having lots of small regular CSS files, and caching and service workers probably help here too. There&#8217;s probably good arguments for lots of small CSS files loaded as and when you need them.</p>
+
+
+
+<p>So I think we will soon reach a point where the tooling isn’t necessary. I see a day where I just write CSS.</p>
+
+
+
+<p>But I still need to organise it on large projects.</p>
+
+
+
+<h2 class="wp-block-heading">CSS Heaven</h2>
+
+
+
+<p>Then, in a discussion about exactly these things: CSS, Tailwind and BEM, my Twitter friend Ben posts this (and I note that the whole conversation was interesting and read-worthy):</p>
+
+
+
+<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter"><div class="wp-block-embed__wrapper">
+<blockquote class="twitter-tweet" data-width="550" data-dnt="true"><p lang="en" dir="ltr">That’s it. I’m calling it BEU &#8211; block, element, utility!</p>&mdash; Ben Furfie (@frontendben) <a href="https://twitter.com/frontendben/status/1085280423805100032?ref_src=twsrc%5Etfw">January 15, 2019</a></blockquote><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div></figure>
+
+
+
+<p>And my mind blows.</p>
+
+
+
+<p>This is it!</p>
+
+
+
+<p>No one has explicitly defined it before, but this is it! This is what I want! Semantically-named, re-usable components with utility modifiers!!</p>
+
+
+
+<p>And with modern day CSS variables we can probably do this, can’t we? </p>
+
+
+
+<ul><li>Relatively flat CSS&#8230;
+</li><li>&#8230;with built in variables&#8230;
+</li><li>&#8230;that needs no toolchain to build.
+</li><li>We have re-usable components that let us state what our markup IS, not just what it looks like&#8230;
+</li><li>&#8230;but we have utility modifiers in the form of classes we can add sparingly to make adjustments to components to make them fit their context&#8230;
+</li><li>&#8230;but without cluttering up our markup with ALL the styles.
+</li></ul>
+
+
+
+<p>Ben calls this “BEU: Block, element, utility”, which is nice.</p>
+
+
+
+<p>But I call it “SUCSS: Sematics + Utility CSS”, not to spite Ben. Just because it’s funnier.</p>
+
+
+
+<p>As I said at the start, I&#8217;m no expert. So help me , CSS gurus. Please tell me why this is wrong. Which bit of component + utility + vanilla CSS is bad here? What wouldn&#8217;t work with this approach?</p>
+</main></body>

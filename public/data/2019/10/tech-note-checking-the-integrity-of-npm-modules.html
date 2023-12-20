@@ -1,0 +1,83 @@
+<body><header><h1 data-pagefind-meta="title">Tech Note: Checking the integrity of npm modules</h1></header><main>
+<p>A quick tech note I want to jot down because it took me a LOT of Googling to find the answer.</p>
+
+
+
+<h2 class="wp-block-heading">Auto-patches in Github are clever!</h2>
+
+
+
+<p>I got an email from a GitHub bot while working today. It told me that there was an automatically-generated pull request waiting for me on a project I&#8217;ve not touched in a while that fixed a critical security vulnerability in a dependency &#8211; in this case the very popular &#8220;lodash&#8221; library.</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="691" src="https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot_2019-10-21_at_20_21_52-1024x691.jpg" alt="Screengrab of email from Github" class="wp-image-8716" srcset="https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot_2019-10-21_at_20_21_52-1024x691.jpg 1024w, https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot_2019-10-21_at_20_21_52-300x203.jpg 300w, https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot_2019-10-21_at_20_21_52-768x518.jpg 768w, https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot_2019-10-21_at_20_21_52.jpg 1754w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>This is pretty neat! Thanks dependabot! (You can read more about automatic security updating in GitHub <a href="https://help.github.com/en/github/managing-security-vulnerabilities/configuring-automated-security-fixes">here</a>)</p>
+
+
+
+<p>But I trust nothing, especially computers. So I went looking at the pull request to see what it had done. Here&#8217;s the update to my <code>package.lock</code> file:</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="540" src="https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.25.45-1024x540.png" alt="Screen grab of diff to package.lock file" class="wp-image-8717" srcset="https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.25.45-1024x540.png 1024w, https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.25.45-300x158.png 300w, https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.25.45-768x405.png 768w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Just a simple minor version number bump and updated hash.</p>
+
+
+
+<p>For those that don&#8217;t know, the hash is a special code that&#8217;s generated from all the files in the package. This code is always the same for the same set of files, and so I can test if the files I have are the same as the files that npm says I should have by generating the hash from my files and comparing it against the specified hash value.</p>
+
+
+
+<p>If, for some reason, the hash of my files is different then I have different files and something might have been hacked and I should be very wary.</p>
+
+
+
+<p>Anyway, the <a href="https://rosswintle.uk/2015/07/highly-sensitive/">highly sensitive</a> perfectionist in me wanted to know that dependabot had given me the right hash.</p>
+
+
+
+<h2 class="wp-block-heading">Finding the npm package&#8217;s hash</h2>
+
+
+
+<p><a href="https://docs.npmjs.com/verifying-the-pgp-signature-for-a-package-from-the-npm-public-registry">This article</a> explains the process. But basically you go to:</p>
+
+
+
+<p><code>https://registry.npmjs.org/[npm package name]</code></p>
+
+
+
+<p>This gives you back some JSON.  In Chrome I have an extension that pretty-prints JSON, but this is in Firefox which I think has JSON formatting built in.</p>
+
+
+
+<p>You need to follow the JSON path through:</p>
+
+
+
+<ul><li><code>version</code></li><li>the version you want the hash for</li><li><code>dist</code></li></ul>
+
+
+
+<p>Then you will see the <code>integrity</code> value. This is the hash!</p>
+
+
+
+<figure class="wp-block-image"><img loading="lazy" decoding="async" width="1024" height="764" src="https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.37.13-1024x764.png" alt="Screen grab of npm registry JSON data with the relevant hash value highlighted" class="wp-image-8718" srcset="https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.37.13-1024x764.png 1024w, https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.37.13-300x224.png 300w, https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.37.13-768x573.png 768w, https://rosswintle.uk/wp-content/uploads/2019/10/Screenshot-2019-10-21-at-20.37.13.png 1786w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>I can compare this value to the one in the pull request and be assured that, actually, I can trust the bot this time.</p>
+
+
+
+<p>But will I next time?!</p>
+</main></body>
