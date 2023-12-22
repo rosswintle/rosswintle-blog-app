@@ -1,0 +1,2367 @@
+[
+    {
+        "dataAsArray": {
+            "id": 27,
+            "date": "2007-05-13T21:11:00",
+            "date_gmt": "2007-05-13T21:11:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/13\/back-to-the-grindstone\/"
+            },
+            "modified": "2007-05-13T21:11:00",
+            "modified_gmt": "2007-05-13T21:11:00",
+            "slug": "back-to-the-grindstone",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/",
+            "title": {
+                "rendered": "Back to the grindstone"
+            },
+            "content": {
+                "rendered": "<p>A few things&#8230;<\/p>\n<ul>\n<li>Sally&#8217;s back after a weekend away &#8211; yay!<\/li>\n<li>I&#8217;m back at work tomorrow &#8211; have to see how things go.<\/li>\n<li>Rode 14.8 KM (9.2 miles) in the gym yesterday &#8211; does that count?<\/li>\n<\/ul>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>A few things&#8230; Sally&#8217;s back after a weekend away &#8211; yay! I&#8217;m back at work tomorrow &#8211; have to see how things go. Rode 14.8 KM (9.2 miles) in the gym yesterday &#8211; does that count?<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                1
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Back to the grindstone - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Back to the grindstone - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A few things&#8230; Sally&#8217;s back after a weekend away &#8211; yay! I&#8217;m back at work tomorrow &#8211; have to see how things go. Rode 14.8 KM (9.2 miles) in the gym yesterday &#8211; does that count?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-13T21:11:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/\",\"name\":\"Back to the grindstone - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-13T21:11:00+00:00\",\"dateModified\":\"2007-05-13T21:11:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Back to the grindstone\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Back to the grindstone - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Back to the grindstone - Ross Wintle",
+                "og_description": "A few things&#8230; Sally&#8217;s back after a weekend away &#8211; yay! I&#8217;m back at work tomorrow &#8211; have to see how things go. Rode 14.8 KM (9.2 miles) in the gym yesterday &#8211; does that count?",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-13T21:11:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/",
+                            "name": "Back to the grindstone - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-13T21:11:00+00:00",
+                            "dateModified": "2007-05-13T21:11:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Back to the grindstone"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/27"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=27"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/27\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=27"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=27"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=27"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 27,
+        "dateGmt": "2007-05-13T21:11:00",
+        "modifiedDateGmt": "2007-05-13T21:11:00",
+        "slug": "back-to-the-grindstone",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/back-to-the-grindstone\/",
+        "title": "Back to the grindstone",
+        "content": "<p>A few things&#8230;<\/p>\n<ul>\n<li>Sally&#8217;s back after a weekend away &#8211; yay!<\/li>\n<li>I&#8217;m back at work tomorrow &#8211; have to see how things go.<\/li>\n<li>Rode 14.8 KM (9.2 miles) in the gym yesterday &#8211; does that count?<\/li>\n<\/ul>\n",
+        "excerpt": "<p>A few things&#8230; Sally&#8217;s back after a weekend away &#8211; yay! I&#8217;m back at work tomorrow &#8211; have to see how things go. Rode 14.8 KM (9.2 miles) in the gym yesterday &#8211; does that count?<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 26,
+            "date": "2007-05-13T20:47:00",
+            "date_gmt": "2007-05-13T20:47:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/13\/christian-aid-weekhow-do-the-poor-see-us\/"
+            },
+            "modified": "2007-05-13T20:47:00",
+            "modified_gmt": "2007-05-13T20:47:00",
+            "slug": "christian-aid-weekhow-do-the-poor-see-us",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/",
+            "title": {
+                "rendered": "Christian Aid Week&#8230;how do the poor see us.."
+            },
+            "content": {
+                "rendered": "<p>Had a very good Christian Aid Week service at church this morning.  Lots of good use of CA&#8217;s resources and an interesting sermon based on <a href=\"http:\/\/www.biblegateway.com\/passage\/?search=Luke%207:36-50;&amp;version=31;\">Luke 7:36-50<\/a> &#8211; the story of a woman, probably a prostitute, worshipping Jesus by pouring expensive perfume over his feet.<\/p>\n<p>The key thing I took away was the need for forgiveness.  It&#8217;s a word that&#8217;s passed around lightly in Christian circles but the concept of forgiveness is hugely important.<\/p>\n<p>In the context of the story from Luke&#8217;s gospel, Jesus accepted the woman and forgave her wrongdoing (though I suspect it wasn&#8217;t entirely her fault she was in the situation she was in).<\/p>\n<p>In the context of Christian Aid, it was noted that we all exploit the third\/developing world and maybe we need them to forgive us of that.<\/p>\n<p>It may not always be out of choice; it&#8217;s hard to find clothes\/coffee\/chocolate\/electrical goods\/etc that have not involved some form of exploitation of cheap or forced labour, child labour, sweatshops and unfair pricing, and when you can find them buying them can be prohibitively expensive.<\/p>\n<p>Yet, in any case, I suspect that if you invited a child labourer from the developing world into your house you&#8217;d feel quite guilty and they&#8217;d be aghast at the wealth and luxury of even the poorest Briton.<\/p>\n<p>How does that make us feel about what we buy and where it&#8217;s come from?  It makes me want to be even more scrupulous about my consuming of stuff.  I&#8217;m the first to admit that Fairtrade isn&#8217;t a silver bullet that will cure all the world&#8217;s trade ills, but it&#8217;s a start and it&#8217;s my vote to say that people should be treated and paid fairly and justly and that I&#8217;m willing to stump up a bit extra of my relatively-vast amount of cash to achieve that.<\/p>\n<p>But, as I said, we have limited choice.<\/p>\n<p>The problem is that, with trade, we&#8217;re such tiny parts of a huge machine.   We CAN &#8211; we MUST &#8211; do our bit but so much of our choice comes from the big corporations that sell us stuff, and that, fuelled by our consumer culture.  Without a major shift in how our western society as a whole plays the trade game, we won&#8217;t be turning around and asking for forgiveness any time soon.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Had a very good Christian Aid Week service at church this morning. Lots of good use of CA&#8217;s resources and an interesting sermon based on Luke 7:36-50 &#8211; the story of a woman, probably a prostitute, worshipping Jesus by pouring expensive perfume over his feet. The key thing I took away was the need for [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                11,
+                24
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Christian Aid Week...how do the poor see us.. - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Christian Aid Week...how do the poor see us.. - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Had a very good Christian Aid Week service at church this morning. Lots of good use of CA&#8217;s resources and an interesting sermon based on Luke 7:36-50 &#8211; the story of a woman, probably a prostitute, worshipping Jesus by pouring expensive perfume over his feet. The key thing I took away was the need for [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-13T20:47:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/\",\"name\":\"Christian Aid Week...how do the poor see us.. - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-13T20:47:00+00:00\",\"dateModified\":\"2007-05-13T20:47:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Christian Aid Week&#8230;how do the poor see us..\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Christian Aid Week...how do the poor see us.. - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Christian Aid Week...how do the poor see us.. - Ross Wintle",
+                "og_description": "Had a very good Christian Aid Week service at church this morning. Lots of good use of CA&#8217;s resources and an interesting sermon based on Luke 7:36-50 &#8211; the story of a woman, probably a prostitute, worshipping Jesus by pouring expensive perfume over his feet. The key thing I took away was the need for [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-13T20:47:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/",
+                            "name": "Christian Aid Week...how do the poor see us.. - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-13T20:47:00+00:00",
+                            "dateModified": "2007-05-13T20:47:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Christian Aid Week&#8230;how do the poor see us.."
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/26"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=26"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/26\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=26"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=26"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=26"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 26,
+        "dateGmt": "2007-05-13T20:47:00",
+        "modifiedDateGmt": "2007-05-13T20:47:00",
+        "slug": "christian-aid-weekhow-do-the-poor-see-us",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/christian-aid-weekhow-do-the-poor-see-us\/",
+        "title": "Christian Aid Week&#8230;how do the poor see us..",
+        "content": "<p>Had a very good Christian Aid Week service at church this morning.  Lots of good use of CA&#8217;s resources and an interesting sermon based on <a href=\"http:\/\/www.biblegateway.com\/passage\/?search=Luke%207:36-50;&amp;version=31;\">Luke 7:36-50<\/a> &#8211; the story of a woman, probably a prostitute, worshipping Jesus by pouring expensive perfume over his feet.<\/p>\n<p>The key thing I took away was the need for forgiveness.  It&#8217;s a word that&#8217;s passed around lightly in Christian circles but the concept of forgiveness is hugely important.<\/p>\n<p>In the context of the story from Luke&#8217;s gospel, Jesus accepted the woman and forgave her wrongdoing (though I suspect it wasn&#8217;t entirely her fault she was in the situation she was in).<\/p>\n<p>In the context of Christian Aid, it was noted that we all exploit the third\/developing world and maybe we need them to forgive us of that.<\/p>\n<p>It may not always be out of choice; it&#8217;s hard to find clothes\/coffee\/chocolate\/electrical goods\/etc that have not involved some form of exploitation of cheap or forced labour, child labour, sweatshops and unfair pricing, and when you can find them buying them can be prohibitively expensive.<\/p>\n<p>Yet, in any case, I suspect that if you invited a child labourer from the developing world into your house you&#8217;d feel quite guilty and they&#8217;d be aghast at the wealth and luxury of even the poorest Briton.<\/p>\n<p>How does that make us feel about what we buy and where it&#8217;s come from?  It makes me want to be even more scrupulous about my consuming of stuff.  I&#8217;m the first to admit that Fairtrade isn&#8217;t a silver bullet that will cure all the world&#8217;s trade ills, but it&#8217;s a start and it&#8217;s my vote to say that people should be treated and paid fairly and justly and that I&#8217;m willing to stump up a bit extra of my relatively-vast amount of cash to achieve that.<\/p>\n<p>But, as I said, we have limited choice.<\/p>\n<p>The problem is that, with trade, we&#8217;re such tiny parts of a huge machine.   We CAN &#8211; we MUST &#8211; do our bit but so much of our choice comes from the big corporations that sell us stuff, and that, fuelled by our consumer culture.  Without a major shift in how our western society as a whole plays the trade game, we won&#8217;t be turning around and asking for forgiveness any time soon.<\/p>\n",
+        "excerpt": "<p>Had a very good Christian Aid Week service at church this morning. Lots of good use of CA&#8217;s resources and an interesting sermon based on Luke 7:36-50 &#8211; the story of a woman, probably a prostitute, worshipping Jesus by pouring expensive perfume over his feet. The key thing I took away was the need for [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 25,
+            "date": "2007-05-13T20:34:00",
+            "date_gmt": "2007-05-13T20:34:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/13\/online-video-editing\/"
+            },
+            "modified": "2007-05-13T20:34:00",
+            "modified_gmt": "2007-05-13T20:34:00",
+            "slug": "online-video-editing",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/",
+            "title": {
+                "rendered": "Online video editing"
+            },
+            "content": {
+                "rendered": "<p>Techie note really.  I&#8217;ve had a couple of video editing projects on hold, waiting for a tool that will convert the 3gp files I get from my mobile phone into a format that I can edit.  I don&#8217;t want to have to pay anything to do this, so the projects have been set aside waiting for free tools to become available.<\/p>\n<p>Anyway &#8211; I happened across <a href=\"http:\/\/www.eyespot.com\/\">Eyespot<\/a> an online video mixing tool.  It:<\/p>\n<ul>\n<li>accepts the 3gp format for uploads;<\/li>\n<li>has a simple user interface (though tags seem to go missing occasionally);<\/li>\n<li>has a limitation of 100 elements in a storyboard;<\/li>\n<li>has some other limited functionality (it&#8217;s still in Beta though so should improve).<\/li>\n<\/ul>\n<p>Oh, and the terms and conditions, which, as far as I can make out, state that you keep the copyright but your material and be redistributed and mixed by anyone, seemingly without limitation.<\/p>\n<p>I produced a simple mix online and then downloaded everything in .avi format to do it properly.  So, if nothing else, you can upload and just convert.  You also seem to be able to do file conversion at <a href=\"http:\/\/www.zamzar.com\/\">Zamzar<\/a> but I&#8217;ve not tried this.<\/p>\n<p>I&#8217;m an amateur in the video editing world so if anyone knows better ways to mash together .3gp&#8217;s, .mov&#8217;s and .avi&#8217;s (from my various devices) for free then please post a comment!<\/p>\n<p>I find video editing fun &#8211; one of the few creative things that I might possibly be any good at &#8211; and theraputic.  If I get brave and get some decent footage that won&#8217;t embarrass friends of mine, you might see some results here at some point!  Watch this space.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Techie note really. I&#8217;ve had a couple of video editing projects on hold, waiting for a tool that will convert the 3gp files I get from my mobile phone into a format that I can edit. I don&#8217;t want to have to pay anything to do this, so the projects have been set aside waiting [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Online video editing - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Online video editing - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Techie note really. I&#8217;ve had a couple of video editing projects on hold, waiting for a tool that will convert the 3gp files I get from my mobile phone into a format that I can edit. I don&#8217;t want to have to pay anything to do this, so the projects have been set aside waiting [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-13T20:34:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/\",\"name\":\"Online video editing - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-13T20:34:00+00:00\",\"dateModified\":\"2007-05-13T20:34:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Online video editing\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Online video editing - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Online video editing - Ross Wintle",
+                "og_description": "Techie note really. I&#8217;ve had a couple of video editing projects on hold, waiting for a tool that will convert the 3gp files I get from my mobile phone into a format that I can edit. I don&#8217;t want to have to pay anything to do this, so the projects have been set aside waiting [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-13T20:34:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/",
+                            "name": "Online video editing - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-13T20:34:00+00:00",
+                            "dateModified": "2007-05-13T20:34:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Online video editing"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/25"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=25"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/25\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=25"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=25"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=25"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 25,
+        "dateGmt": "2007-05-13T20:34:00",
+        "modifiedDateGmt": "2007-05-13T20:34:00",
+        "slug": "online-video-editing",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/online-video-editing\/",
+        "title": "Online video editing",
+        "content": "<p>Techie note really.  I&#8217;ve had a couple of video editing projects on hold, waiting for a tool that will convert the 3gp files I get from my mobile phone into a format that I can edit.  I don&#8217;t want to have to pay anything to do this, so the projects have been set aside waiting for free tools to become available.<\/p>\n<p>Anyway &#8211; I happened across <a href=\"http:\/\/www.eyespot.com\/\">Eyespot<\/a> an online video mixing tool.  It:<\/p>\n<ul>\n<li>accepts the 3gp format for uploads;<\/li>\n<li>has a simple user interface (though tags seem to go missing occasionally);<\/li>\n<li>has a limitation of 100 elements in a storyboard;<\/li>\n<li>has some other limited functionality (it&#8217;s still in Beta though so should improve).<\/li>\n<\/ul>\n<p>Oh, and the terms and conditions, which, as far as I can make out, state that you keep the copyright but your material and be redistributed and mixed by anyone, seemingly without limitation.<\/p>\n<p>I produced a simple mix online and then downloaded everything in .avi format to do it properly.  So, if nothing else, you can upload and just convert.  You also seem to be able to do file conversion at <a href=\"http:\/\/www.zamzar.com\/\">Zamzar<\/a> but I&#8217;ve not tried this.<\/p>\n<p>I&#8217;m an amateur in the video editing world so if anyone knows better ways to mash together .3gp&#8217;s, .mov&#8217;s and .avi&#8217;s (from my various devices) for free then please post a comment!<\/p>\n<p>I find video editing fun &#8211; one of the few creative things that I might possibly be any good at &#8211; and theraputic.  If I get brave and get some decent footage that won&#8217;t embarrass friends of mine, you might see some results here at some point!  Watch this space.<\/p>\n",
+        "excerpt": "<p>Techie note really. I&#8217;ve had a couple of video editing projects on hold, waiting for a tool that will convert the 3gp files I get from my mobile phone into a format that I can edit. I don&#8217;t want to have to pay anything to do this, so the projects have been set aside waiting [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 24,
+            "date": "2007-05-10T14:21:00",
+            "date_gmt": "2007-05-10T14:21:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/10\/blair-leaves-google-says-downing-street-has-options\/"
+            },
+            "modified": "2007-05-10T14:21:00",
+            "modified_gmt": "2007-05-10T14:21:00",
+            "slug": "blair-leaves-google-says-downing-street-has-options",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/",
+            "title": {
+                "rendered": "Blair leaves &#8211; Google says Downing Street has options"
+            },
+            "content": {
+                "rendered": "<p><a href=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/RkMq-WFrBYI\/AAAAAAAAAV8\/zC596Ecis1E\/s1600-h\/googles-downingstreet-options.GIF\"><img decoding=\"async\" style=\"float:right;cursor:pointer;margin:0 0 10px 10px;\" src=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/RkMq-WFrBYI\/AAAAAAAAAV8\/zC596Ecis1E\/s320\/googles-downingstreet-options.GIF\" alt=\"\" border=\"0\" \/><\/a><br \/>Is it strange coincidence? Or are Google having a laugh?<\/p>\n<p>They launch Google Maps for Mobile in the UK on the day that Tony Blair announces that he will resign.  The mocked up &#8220;screen shot&#8221; on Google&#8217;s homepage shows &#8220;Downing Street &#8211; Press 1 for options&#8221;.<\/p>\n<p>Ho ho&#8230;<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Is it strange coincidence? Or are Google having a laugh? They launch Google Maps for Mobile in the UK on the day that Tony Blair announces that he will resign. The mocked up &#8220;screen shot&#8221; on Google&#8217;s homepage shows &#8220;Downing Street &#8211; Press 1 for options&#8221;. Ho ho&#8230;<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                21
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Blair leaves - Google says Downing Street has options - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Blair leaves - Google says Downing Street has options - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Is it strange coincidence? Or are Google having a laugh? They launch Google Maps for Mobile in the UK on the day that Tony Blair announces that he will resign. The mocked up &#8220;screen shot&#8221; on Google&#8217;s homepage shows &#8220;Downing Street &#8211; Press 1 for options&#8221;. Ho ho&#8230;\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-10T14:21:00+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/RkMq-WFrBYI\/AAAAAAAAAV8\/zC596Ecis1E\/s320\/googles-downingstreet-options.GIF\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/\",\"name\":\"Blair leaves - Google says Downing Street has options - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-10T14:21:00+00:00\",\"dateModified\":\"2007-05-10T14:21:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blair leaves &#8211; Google says Downing Street has options\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Blair leaves - Google says Downing Street has options - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Blair leaves - Google says Downing Street has options - Ross Wintle",
+                "og_description": "Is it strange coincidence? Or are Google having a laugh? They launch Google Maps for Mobile in the UK on the day that Tony Blair announces that he will resign. The mocked up &#8220;screen shot&#8221; on Google&#8217;s homepage shows &#8220;Downing Street &#8211; Press 1 for options&#8221;. Ho ho&#8230;",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-10T14:21:00+00:00",
+                "og_image": [
+                    {
+                        "url": "http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/RkMq-WFrBYI\/AAAAAAAAAV8\/zC596Ecis1E\/s320\/googles-downingstreet-options.GIF"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/",
+                            "name": "Blair leaves - Google says Downing Street has options - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-10T14:21:00+00:00",
+                            "dateModified": "2007-05-10T14:21:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blair leaves &#8211; Google says Downing Street has options"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/24"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=24"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/24\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=24"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=24"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=24"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 24,
+        "dateGmt": "2007-05-10T14:21:00",
+        "modifiedDateGmt": "2007-05-10T14:21:00",
+        "slug": "blair-leaves-google-says-downing-street-has-options",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/blair-leaves-google-says-downing-street-has-options\/",
+        "title": "Blair leaves &#8211; Google says Downing Street has options",
+        "content": "<p><a href=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/RkMq-WFrBYI\/AAAAAAAAAV8\/zC596Ecis1E\/s1600-h\/googles-downingstreet-options.GIF\"><img decoding=\"async\" style=\"float:right;cursor:pointer;margin:0 0 10px 10px;\" src=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/RkMq-WFrBYI\/AAAAAAAAAV8\/zC596Ecis1E\/s320\/googles-downingstreet-options.GIF\" alt=\"\" border=\"0\" \/><\/a><br \/>Is it strange coincidence? Or are Google having a laugh?<\/p>\n<p>They launch Google Maps for Mobile in the UK on the day that Tony Blair announces that he will resign.  The mocked up &#8220;screen shot&#8221; on Google&#8217;s homepage shows &#8220;Downing Street &#8211; Press 1 for options&#8221;.<\/p>\n<p>Ho ho&#8230;<\/p>\n",
+        "excerpt": "<p>Is it strange coincidence? Or are Google having a laugh? They launch Google Maps for Mobile in the UK on the day that Tony Blair announces that he will resign. The mocked up &#8220;screen shot&#8221; on Google&#8217;s homepage shows &#8220;Downing Street &#8211; Press 1 for options&#8221;. Ho ho&#8230;<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 23,
+            "date": "2007-05-08T14:52:00",
+            "date_gmt": "2007-05-08T14:52:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/08\/psychology\/"
+            },
+            "modified": "2007-05-08T14:52:00",
+            "modified_gmt": "2007-05-08T14:52:00",
+            "slug": "psychology",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/psychology\/",
+            "title": {
+                "rendered": "Psychology"
+            },
+            "content": {
+                "rendered": "<p>Bother my brain&#8230;<\/p>\n<p>After several very good days of feeling pretty normal I had a very frustrating day on Monday (it involved 2 printers, one powerpoint document, and lots of paper and ink).<\/p>\n<p>I suspect that this was just a normal frustrating day but I started to get all knotted up inside again and lost my appetite.  Was this another attack of the nasty blues?  Or was it just a bad day that my brain blew out of all proportion?<\/p>\n<p>I find that psychology is now kicking in.  I&#8217;m now especially sensitive to how and feel.  When I get low I start to analyse why that is, and I probably start to worry too &#8211; which, of course, only makes things worse.<\/p>\n<p>Only time will tell.  In the meantime I&#8217;ve been to the doctor who will take a blood test but otherwise thinks I&#8217;m probably OK, and should be returning to work tomorrow!  Well, if the boss will let me.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Bother my brain&#8230; After several very good days of feeling pretty normal I had a very frustrating day on Monday (it involved 2 printers, one powerpoint document, and lots of paper and ink). I suspect that this was just a normal frustrating day but I started to get all knotted up inside again and lost [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                12
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Psychology - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/psychology\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Psychology - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Bother my brain&#8230; After several very good days of feeling pretty normal I had a very frustrating day on Monday (it involved 2 printers, one powerpoint document, and lots of paper and ink). I suspect that this was just a normal frustrating day but I started to get all knotted up inside again and lost [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/psychology\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-08T14:52:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/psychology\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/psychology\/\",\"name\":\"Psychology - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-08T14:52:00+00:00\",\"dateModified\":\"2007-05-08T14:52:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/psychology\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/psychology\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/psychology\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Psychology\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Psychology - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/psychology\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Psychology - Ross Wintle",
+                "og_description": "Bother my brain&#8230; After several very good days of feeling pretty normal I had a very frustrating day on Monday (it involved 2 printers, one powerpoint document, and lots of paper and ink). I suspect that this was just a normal frustrating day but I started to get all knotted up inside again and lost [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/psychology\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-08T14:52:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/psychology\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/psychology\/",
+                            "name": "Psychology - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-08T14:52:00+00:00",
+                            "dateModified": "2007-05-08T14:52:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/psychology\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/psychology\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/psychology\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Psychology"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/23"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=23"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/23\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=23"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=23"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=23"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 23,
+        "dateGmt": "2007-05-08T14:52:00",
+        "modifiedDateGmt": "2007-05-08T14:52:00",
+        "slug": "psychology",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/psychology\/",
+        "title": "Psychology",
+        "content": "<p>Bother my brain&#8230;<\/p>\n<p>After several very good days of feeling pretty normal I had a very frustrating day on Monday (it involved 2 printers, one powerpoint document, and lots of paper and ink).<\/p>\n<p>I suspect that this was just a normal frustrating day but I started to get all knotted up inside again and lost my appetite.  Was this another attack of the nasty blues?  Or was it just a bad day that my brain blew out of all proportion?<\/p>\n<p>I find that psychology is now kicking in.  I&#8217;m now especially sensitive to how and feel.  When I get low I start to analyse why that is, and I probably start to worry too &#8211; which, of course, only makes things worse.<\/p>\n<p>Only time will tell.  In the meantime I&#8217;ve been to the doctor who will take a blood test but otherwise thinks I&#8217;m probably OK, and should be returning to work tomorrow!  Well, if the boss will let me.<\/p>\n",
+        "excerpt": "<p>Bother my brain&#8230; After several very good days of feeling pretty normal I had a very frustrating day on Monday (it involved 2 printers, one powerpoint document, and lots of paper and ink). I suspect that this was just a normal frustrating day but I started to get all knotted up inside again and lost [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 22,
+            "date": "2007-05-08T14:43:00",
+            "date_gmt": "2007-05-08T14:43:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/08\/learning-to-fly\/"
+            },
+            "modified": "2007-05-08T14:43:00",
+            "modified_gmt": "2007-05-08T14:43:00",
+            "slug": "learning-to-fly",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/",
+            "title": {
+                "rendered": "Learning to fly"
+            },
+            "content": {
+                "rendered": "<p>So the little ones (the blackbirds &#8211; must give them names or something) are learning to fly still.<\/p>\n<p>Got a couple of snaps of them today but only with my phone so they&#8217;re not so good quality.  Here&#8217;s daddy on feeding duty&#8230;<\/p>\n<p><a href=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RkCOYmFrBXI\/AAAAAAAAAV0\/Cgld1DjDpzg\/s1600-h\/DSC00005.JPG\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RkCOYmFrBXI\/AAAAAAAAAV0\/Cgld1DjDpzg\/s400\/DSC00005.JPG\" alt=\"\" border=\"0\" \/><\/a><\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>So the little ones (the blackbirds &#8211; must give them names or something) are learning to fly still. Got a couple of snaps of them today but only with my phone so they&#8217;re not so good quality. Here&#8217;s daddy on feeding duty&#8230;<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10,
+                18,
+                22
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Learning to fly - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Learning to fly - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"So the little ones (the blackbirds &#8211; must give them names or something) are learning to fly still. Got a couple of snaps of them today but only with my phone so they&#8217;re not so good quality. Here&#8217;s daddy on feeding duty&#8230;\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-08T14:43:00+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RkCOYmFrBXI\/AAAAAAAAAV0\/Cgld1DjDpzg\/s400\/DSC00005.JPG\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/\",\"name\":\"Learning to fly - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-08T14:43:00+00:00\",\"dateModified\":\"2007-05-08T14:43:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Learning to fly\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Learning to fly - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Learning to fly - Ross Wintle",
+                "og_description": "So the little ones (the blackbirds &#8211; must give them names or something) are learning to fly still. Got a couple of snaps of them today but only with my phone so they&#8217;re not so good quality. Here&#8217;s daddy on feeding duty&#8230;",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-08T14:43:00+00:00",
+                "og_image": [
+                    {
+                        "url": "http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RkCOYmFrBXI\/AAAAAAAAAV0\/Cgld1DjDpzg\/s400\/DSC00005.JPG"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/",
+                            "name": "Learning to fly - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-08T14:43:00+00:00",
+                            "dateModified": "2007-05-08T14:43:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Learning to fly"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/22"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=22"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/22\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=22"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=22"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=22"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 22,
+        "dateGmt": "2007-05-08T14:43:00",
+        "modifiedDateGmt": "2007-05-08T14:43:00",
+        "slug": "learning-to-fly",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/learning-to-fly\/",
+        "title": "Learning to fly",
+        "content": "<p>So the little ones (the blackbirds &#8211; must give them names or something) are learning to fly still.<\/p>\n<p>Got a couple of snaps of them today but only with my phone so they&#8217;re not so good quality.  Here&#8217;s daddy on feeding duty&#8230;<\/p>\n<p><a href=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RkCOYmFrBXI\/AAAAAAAAAV0\/Cgld1DjDpzg\/s1600-h\/DSC00005.JPG\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RkCOYmFrBXI\/AAAAAAAAAV0\/Cgld1DjDpzg\/s400\/DSC00005.JPG\" alt=\"\" border=\"0\" \/><\/a><\/p>\n",
+        "excerpt": "<p>So the little ones (the blackbirds &#8211; must give them names or something) are learning to fly still. Got a couple of snaps of them today but only with my phone so they&#8217;re not so good quality. Here&#8217;s daddy on feeding duty&#8230;<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 21,
+            "date": "2007-05-08T12:13:00",
+            "date_gmt": "2007-05-08T12:13:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/08\/you-are-what-you-eat\/"
+            },
+            "modified": "2007-05-08T12:13:00",
+            "modified_gmt": "2007-05-08T12:13:00",
+            "slug": "you-are-what-you-eat",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/",
+            "title": {
+                "rendered": "You are what you eat!"
+            },
+            "content": {
+                "rendered": "<p>Catching up with the BBC guy training for his 120 mile cycle ride.  There&#8217;s some really useful comments on sports nutrition posted to the article&#8230;<a href=\"http:\/\/www.bbc.co.uk\/dna\/606\/F7183578?thread=4104305\">see here<\/a>.  I particularly like the fact that there&#8217;s a website called <a href=\"http:\/\/www.flapjackrecipe.com\/\">flapjackrecipe.com<\/a>! \ud83d\ude42<\/p>\n<p>Here&#8217;s some of my experience with eating proper for sport.<\/p>\n<p><span style=\"font-weight:bold;\">Discovering Nutrition!<\/span><\/p>\n<p>My first encounter with basic sports nutrition was when I used to play lunchtime 5-a-side when I&#8217;d hit the &#8220;brick wall&#8221; after about half an hour.  Then I noticed that if I ate lunch early, BEFORE I played, I was OK.  So I took to doing that.  I also discovered flapjack then&#8230;if I didn&#8217;t have time to eat lunch before a I went out to play a big slab of oats always did the trick.<\/p>\n<p><span style=\"font-weight:bold;\">Upping the workload<\/span><\/p>\n<p>Then I moved to Swindon and started cycling to work.  Only 4 miles each way but boy, I was hungry as a horse all day!  I started munching cereal bars, which I guess are glorified flapjacks with lots of additives.  They really fill a whole though and don&#8217;t seem to be that unhealthy or&#8230;like some &#8220;energy foods&#8221;&#8230;all that disgusting.  I also have a big bowl of oaty cereal before I go out.  Porridge, frankly, sucks!<\/p>\n<p><span style=\"font-weight:bold;\">Long rides and recovery<\/span><\/p>\n<p>I also notice that after a long ride I really need something to recover.  My body craves various things at that point but basically I just cram as much sugar and water in as I can.  Apple Lucozade is particularly yummy and not too sweet.  Apparently you need to get a mix of carbs, fat and protein.  But hey, I&#8217;m still learning.<\/p>\n<p>Key facts seem to be:<\/p>\n<ul>\n<li>eat little and often<\/li>\n<li>keep carbs up<\/li>\n<li>take good food (oats, bananas, etc) when you&#8217;re out exercising<\/li>\n<li>have regular intake of water<\/li>\n<li>make sure you eat well to recover too<\/li>\n<\/ul>\n<p>In this case, you really are what you eat and if you start feeling really hungry because you&#8217;re exercising more do take some advice on it.  Just cramming more won&#8217;t necessarily help.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Catching up with the BBC guy training for his 120 mile cycle ride. There&#8217;s some really useful comments on sports nutrition posted to the article&#8230;see here. I particularly like the fact that there&#8217;s a website called flapjackrecipe.com! \ud83d\ude42 Here&#8217;s some of my experience with eating proper for sport. Discovering Nutrition! My first encounter with basic [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>You are what you eat! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"You are what you eat! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Catching up with the BBC guy training for his 120 mile cycle ride. There&#8217;s some really useful comments on sports nutrition posted to the article&#8230;see here. I particularly like the fact that there&#8217;s a website called flapjackrecipe.com! \ud83d\ude42 Here&#8217;s some of my experience with eating proper for sport. Discovering Nutrition! My first encounter with basic [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-08T12:13:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/\",\"name\":\"You are what you eat! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-08T12:13:00+00:00\",\"dateModified\":\"2007-05-08T12:13:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"You are what you eat!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "You are what you eat! - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "You are what you eat! - Ross Wintle",
+                "og_description": "Catching up with the BBC guy training for his 120 mile cycle ride. There&#8217;s some really useful comments on sports nutrition posted to the article&#8230;see here. I particularly like the fact that there&#8217;s a website called flapjackrecipe.com! \ud83d\ude42 Here&#8217;s some of my experience with eating proper for sport. Discovering Nutrition! My first encounter with basic [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-08T12:13:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/",
+                            "name": "You are what you eat! - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-08T12:13:00+00:00",
+                            "dateModified": "2007-05-08T12:13:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "You are what you eat!"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/21"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=21"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/21\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=21"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=21"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=21"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 21,
+        "dateGmt": "2007-05-08T12:13:00",
+        "modifiedDateGmt": "2007-05-08T12:13:00",
+        "slug": "you-are-what-you-eat",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/you-are-what-you-eat\/",
+        "title": "You are what you eat!",
+        "content": "<p>Catching up with the BBC guy training for his 120 mile cycle ride.  There&#8217;s some really useful comments on sports nutrition posted to the article&#8230;<a href=\"http:\/\/www.bbc.co.uk\/dna\/606\/F7183578?thread=4104305\">see here<\/a>.  I particularly like the fact that there&#8217;s a website called <a href=\"http:\/\/www.flapjackrecipe.com\/\">flapjackrecipe.com<\/a>! \ud83d\ude42<\/p>\n<p>Here&#8217;s some of my experience with eating proper for sport.<\/p>\n<p><span style=\"font-weight:bold;\">Discovering Nutrition!<\/span><\/p>\n<p>My first encounter with basic sports nutrition was when I used to play lunchtime 5-a-side when I&#8217;d hit the &#8220;brick wall&#8221; after about half an hour.  Then I noticed that if I ate lunch early, BEFORE I played, I was OK.  So I took to doing that.  I also discovered flapjack then&#8230;if I didn&#8217;t have time to eat lunch before a I went out to play a big slab of oats always did the trick.<\/p>\n<p><span style=\"font-weight:bold;\">Upping the workload<\/span><\/p>\n<p>Then I moved to Swindon and started cycling to work.  Only 4 miles each way but boy, I was hungry as a horse all day!  I started munching cereal bars, which I guess are glorified flapjacks with lots of additives.  They really fill a whole though and don&#8217;t seem to be that unhealthy or&#8230;like some &#8220;energy foods&#8221;&#8230;all that disgusting.  I also have a big bowl of oaty cereal before I go out.  Porridge, frankly, sucks!<\/p>\n<p><span style=\"font-weight:bold;\">Long rides and recovery<\/span><\/p>\n<p>I also notice that after a long ride I really need something to recover.  My body craves various things at that point but basically I just cram as much sugar and water in as I can.  Apple Lucozade is particularly yummy and not too sweet.  Apparently you need to get a mix of carbs, fat and protein.  But hey, I&#8217;m still learning.<\/p>\n<p>Key facts seem to be:<\/p>\n<ul>\n<li>eat little and often<\/li>\n<li>keep carbs up<\/li>\n<li>take good food (oats, bananas, etc) when you&#8217;re out exercising<\/li>\n<li>have regular intake of water<\/li>\n<li>make sure you eat well to recover too<\/li>\n<\/ul>\n<p>In this case, you really are what you eat and if you start feeling really hungry because you&#8217;re exercising more do take some advice on it.  Just cramming more won&#8217;t necessarily help.<\/p>\n",
+        "excerpt": "<p>Catching up with the BBC guy training for his 120 mile cycle ride. There&#8217;s some really useful comments on sports nutrition posted to the article&#8230;see here. I particularly like the fact that there&#8217;s a website called flapjackrecipe.com! \ud83d\ude42 Here&#8217;s some of my experience with eating proper for sport. Discovering Nutrition! My first encounter with basic [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 20,
+            "date": "2007-05-04T20:09:00",
+            "date_gmt": "2007-05-04T20:09:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/04\/the-birds-are-out\/"
+            },
+            "modified": "2007-05-04T20:09:00",
+            "modified_gmt": "2007-05-04T20:09:00",
+            "slug": "the-birds-are-out",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/",
+            "title": {
+                "rendered": "The birds are out!!"
+            },
+            "content": {
+                "rendered": "<p>Fun today!  The little baby blackbirds decided to leave the nest.  And so with much tweeting, flapping, and crashing they&#8217;re down on the ground in the garden.<\/p>\n<p>One of them, I think, flew into the window.  I went to look and he was peering up at me!  I then tried to take a photo, scared him off, and he went and flew away&#8230;.straight into the dustbin!  Poor fella.<\/p>\n<p>It&#8217;s been a real priviledge having the birds so visible in our garden.  I hope we didn&#8217;t scare them too much.<\/p>\n<p>Will there be another brood in the summer?!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Fun today! The little baby blackbirds decided to leave the nest. And so with much tweeting, flapping, and crashing they&#8217;re down on the ground in the garden. One of them, I think, flew into the window. I went to look and he was peering up at me! I then tried to take a photo, scared [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                18,
+                22
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The birds are out!! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The birds are out!! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Fun today! The little baby blackbirds decided to leave the nest. And so with much tweeting, flapping, and crashing they&#8217;re down on the ground in the garden. One of them, I think, flew into the window. I went to look and he was peering up at me! I then tried to take a photo, scared [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-04T20:09:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/\",\"name\":\"The birds are out!! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-04T20:09:00+00:00\",\"dateModified\":\"2007-05-04T20:09:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The birds are out!!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "The birds are out!! - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "The birds are out!! - Ross Wintle",
+                "og_description": "Fun today! The little baby blackbirds decided to leave the nest. And so with much tweeting, flapping, and crashing they&#8217;re down on the ground in the garden. One of them, I think, flew into the window. I went to look and he was peering up at me! I then tried to take a photo, scared [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-04T20:09:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/",
+                            "name": "The birds are out!! - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-04T20:09:00+00:00",
+                            "dateModified": "2007-05-04T20:09:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "The birds are out!!"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/20"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=20"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/20\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=20"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=20"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=20"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 20,
+        "dateGmt": "2007-05-04T20:09:00",
+        "modifiedDateGmt": "2007-05-04T20:09:00",
+        "slug": "the-birds-are-out",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/the-birds-are-out\/",
+        "title": "The birds are out!!",
+        "content": "<p>Fun today!  The little baby blackbirds decided to leave the nest.  And so with much tweeting, flapping, and crashing they&#8217;re down on the ground in the garden.<\/p>\n<p>One of them, I think, flew into the window.  I went to look and he was peering up at me!  I then tried to take a photo, scared him off, and he went and flew away&#8230;.straight into the dustbin!  Poor fella.<\/p>\n<p>It&#8217;s been a real priviledge having the birds so visible in our garden.  I hope we didn&#8217;t scare them too much.<\/p>\n<p>Will there be another brood in the summer?!<\/p>\n",
+        "excerpt": "<p>Fun today! The little baby blackbirds decided to leave the nest. And so with much tweeting, flapping, and crashing they&#8217;re down on the ground in the garden. One of them, I think, flew into the window. I went to look and he was peering up at me! I then tried to take a photo, scared [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 19,
+            "date": "2007-05-04T19:51:00",
+            "date_gmt": "2007-05-04T19:51:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/04\/a-good-20-miles-and-some-amateur-physiology\/"
+            },
+            "modified": "2007-05-04T19:51:00",
+            "modified_gmt": "2007-05-04T19:51:00",
+            "slug": "a-good-20-miles-and-some-amateur-physiology",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/",
+            "title": {
+                "rendered": "A good 20 miles &#8211; and some amateur physiology"
+            },
+            "content": {
+                "rendered": "<p>Went out for a ride by myself this afternoon. Managed 21.24 miles in 1:24:31, averaging 15.0 mph overall.  A good ride but my knees hurt a bit &#8211; probably beacause I&#8217;ve not been doing my stretches while I&#8217;ve not been cycling to work &#8211; must keep that up even when I&#8217;m not doing a daily ride.<\/p>\n<p>The stretches are mostly for my &#8220;Glutes&#8221; (mostly my gluteus medius) but also for a thing called the IT band (nothing to do with computers) that runs from the bum down the side of the leg.   Forgive my amateur physiology. The glutes pull the band to stop your legs collapsing underneath you.  If the glutes or the band are tight it seems to rub against the knee causing a dull pain.<\/p>\n<p>It also makes me flat footed (called over-pronation).  Just another of my ongoing health things that I keep at bay by doing certain things.<\/p>\n<p>I believe that there are all sorts of other mechanics going on, such as:<\/p>\n<ul>\n<li>Is the saddle high enough = are my legs bending too much?<\/li>\n<li>Have I got the right balance of cadence (rate of pedalling) and pressure?<\/li>\n<li>Are my feet in the right place on the pedals?  If the feet are twisted that can put additional strain on the knees.<\/li>\n<li>Am I pushing with the right part of the foot?  I think you need to try to spread load across the foot.  As I&#8217;m flat footed I tend to push with the ball of my foot so I need to make a conscious effort to put some pressure on the outside of my foot.  This also balances the quadriceps in the legs &#8211; you use the inner quads to push with the ball of your foot and the outer quads to push with the outside.<\/li>\n<li>Am I pushing with both legs?  The pain is usually in my right leg.  Of course, I&#8217;m right footed so I lead and do more pedalling with my right leg.  I need to balance that too.<\/li>\n<li>Are my knees in the right place? I&#8217;ve read that, ideally, the knee should sit directly above the foot and press straight downwards, rather than having your knees sticking out or squeezing in towards the bike.<\/li>\n<\/ul>\n<p>As I say, all stuff I&#8217;ve read but it all makes sense and seems to work &#8211; if I do the stretches and try to balance everything and pedal right I can ride strong for ages.<\/p>\n<p>And you thought cycling was simple!?<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Went out for a ride by myself this afternoon. Managed 21.24 miles in 1:24:31, averaging 15.0 mph overall. A good ride but my knees hurt a bit &#8211; probably beacause I&#8217;ve not been doing my stretches while I&#8217;ve not been cycling to work &#8211; must keep that up even when I&#8217;m not doing a daily [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6,
+                12
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>A good 20 miles - and some amateur physiology - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A good 20 miles - and some amateur physiology - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Went out for a ride by myself this afternoon. Managed 21.24 miles in 1:24:31, averaging 15.0 mph overall. A good ride but my knees hurt a bit &#8211; probably beacause I&#8217;ve not been doing my stretches while I&#8217;ve not been cycling to work &#8211; must keep that up even when I&#8217;m not doing a daily [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-04T19:51:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/\",\"name\":\"A good 20 miles - and some amateur physiology - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-04T19:51:00+00:00\",\"dateModified\":\"2007-05-04T19:51:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"A good 20 miles &#8211; and some amateur physiology\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "A good 20 miles - and some amateur physiology - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "A good 20 miles - and some amateur physiology - Ross Wintle",
+                "og_description": "Went out for a ride by myself this afternoon. Managed 21.24 miles in 1:24:31, averaging 15.0 mph overall. A good ride but my knees hurt a bit &#8211; probably beacause I&#8217;ve not been doing my stretches while I&#8217;ve not been cycling to work &#8211; must keep that up even when I&#8217;m not doing a daily [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-04T19:51:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/",
+                            "name": "A good 20 miles - and some amateur physiology - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-04T19:51:00+00:00",
+                            "dateModified": "2007-05-04T19:51:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "A good 20 miles &#8211; and some amateur physiology"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/19"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=19"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/19\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=19"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=19"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=19"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 19,
+        "dateGmt": "2007-05-04T19:51:00",
+        "modifiedDateGmt": "2007-05-04T19:51:00",
+        "slug": "a-good-20-miles-and-some-amateur-physiology",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/a-good-20-miles-and-some-amateur-physiology\/",
+        "title": "A good 20 miles &#8211; and some amateur physiology",
+        "content": "<p>Went out for a ride by myself this afternoon. Managed 21.24 miles in 1:24:31, averaging 15.0 mph overall.  A good ride but my knees hurt a bit &#8211; probably beacause I&#8217;ve not been doing my stretches while I&#8217;ve not been cycling to work &#8211; must keep that up even when I&#8217;m not doing a daily ride.<\/p>\n<p>The stretches are mostly for my &#8220;Glutes&#8221; (mostly my gluteus medius) but also for a thing called the IT band (nothing to do with computers) that runs from the bum down the side of the leg.   Forgive my amateur physiology. The glutes pull the band to stop your legs collapsing underneath you.  If the glutes or the band are tight it seems to rub against the knee causing a dull pain.<\/p>\n<p>It also makes me flat footed (called over-pronation).  Just another of my ongoing health things that I keep at bay by doing certain things.<\/p>\n<p>I believe that there are all sorts of other mechanics going on, such as:<\/p>\n<ul>\n<li>Is the saddle high enough = are my legs bending too much?<\/li>\n<li>Have I got the right balance of cadence (rate of pedalling) and pressure?<\/li>\n<li>Are my feet in the right place on the pedals?  If the feet are twisted that can put additional strain on the knees.<\/li>\n<li>Am I pushing with the right part of the foot?  I think you need to try to spread load across the foot.  As I&#8217;m flat footed I tend to push with the ball of my foot so I need to make a conscious effort to put some pressure on the outside of my foot.  This also balances the quadriceps in the legs &#8211; you use the inner quads to push with the ball of your foot and the outer quads to push with the outside.<\/li>\n<li>Am I pushing with both legs?  The pain is usually in my right leg.  Of course, I&#8217;m right footed so I lead and do more pedalling with my right leg.  I need to balance that too.<\/li>\n<li>Are my knees in the right place? I&#8217;ve read that, ideally, the knee should sit directly above the foot and press straight downwards, rather than having your knees sticking out or squeezing in towards the bike.<\/li>\n<\/ul>\n<p>As I say, all stuff I&#8217;ve read but it all makes sense and seems to work &#8211; if I do the stretches and try to balance everything and pedal right I can ride strong for ages.<\/p>\n<p>And you thought cycling was simple!?<\/p>\n",
+        "excerpt": "<p>Went out for a ride by myself this afternoon. Managed 21.24 miles in 1:24:31, averaging 15.0 mph overall. A good ride but my knees hurt a bit &#8211; probably beacause I&#8217;ve not been doing my stretches while I&#8217;ve not been cycling to work &#8211; must keep that up even when I&#8217;m not doing a daily [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
+            "id": 18,
+            "date": "2007-05-04T13:54:00",
+            "date_gmt": "2007-05-04T13:54:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/04\/to-stress-or-not-to-stress\/"
+            },
+            "modified": "2007-05-04T13:54:00",
+            "modified_gmt": "2007-05-04T13:54:00",
+            "slug": "to-stress-or-not-to-stress",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/",
+            "title": {
+                "rendered": "To stress or not to stress&#8230;"
+            },
+            "content": {
+                "rendered": "<p>So, I got signed off of work on Tuesday and have had a few days forgetting about everything at home.  It&#8217;s now Friday and last weekend seems a long time ago.<\/p>\n<p>The doctors can&#8217;t get me an apppointment until the 14th (it was about 2 weeks away when I booked it), so I popped into the NHS drop-in clinic today and the nurse there didn&#8217;t have much to say.<\/p>\n<p>So it&#8217;s very much wait and see at the moment.  I&#8217;m VERY grateful to my boss for the time off and the rest.  But I feel like a bit of a fraud now.  It was all very real on Saturday but now I wonder if there was some overreaction.  Certainly at the time it was very scary being so out of control of my emotions, and I was just physically and mentally and emotionally exhausted in a way I&#8217;ve not been before.  I guess we can only wait and see.<\/p>\n<p>I&#8217;ve learned some things in the meantime, which I&#8217;ll try to write up at some point but for now, I&#8217;m doing OK.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>So, I got signed off of work on Tuesday and have had a few days forgetting about everything at home. It&#8217;s now Friday and last weekend seems a long time ago. The doctors can&#8217;t get me an apppointment until the 14th (it was about 2 weeks away when I booked it), so I popped into [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                12
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>To stress or not to stress... - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"To stress or not to stress... - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"So, I got signed off of work on Tuesday and have had a few days forgetting about everything at home. It&#8217;s now Friday and last weekend seems a long time ago. The doctors can&#8217;t get me an apppointment until the 14th (it was about 2 weeks away when I booked it), so I popped into [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-04T13:54:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/\",\"name\":\"To stress or not to stress... - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-04T13:54:00+00:00\",\"dateModified\":\"2007-05-04T13:54:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"To stress or not to stress&#8230;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "To stress or not to stress... - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "To stress or not to stress... - Ross Wintle",
+                "og_description": "So, I got signed off of work on Tuesday and have had a few days forgetting about everything at home. It&#8217;s now Friday and last weekend seems a long time ago. The doctors can&#8217;t get me an apppointment until the 14th (it was about 2 weeks away when I booked it), so I popped into [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-05-04T13:54:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/",
+                            "name": "To stress or not to stress... - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-05-04T13:54:00+00:00",
+                            "dateModified": "2007-05-04T13:54:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "To stress or not to stress&#8230;"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/18"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=18"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/18\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=18"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=18"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=18"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 18,
+        "dateGmt": "2007-05-04T13:54:00",
+        "modifiedDateGmt": "2007-05-04T13:54:00",
+        "slug": "to-stress-or-not-to-stress",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/05\/to-stress-or-not-to-stress\/",
+        "title": "To stress or not to stress&#8230;",
+        "content": "<p>So, I got signed off of work on Tuesday and have had a few days forgetting about everything at home.  It&#8217;s now Friday and last weekend seems a long time ago.<\/p>\n<p>The doctors can&#8217;t get me an apppointment until the 14th (it was about 2 weeks away when I booked it), so I popped into the NHS drop-in clinic today and the nurse there didn&#8217;t have much to say.<\/p>\n<p>So it&#8217;s very much wait and see at the moment.  I&#8217;m VERY grateful to my boss for the time off and the rest.  But I feel like a bit of a fraud now.  It was all very real on Saturday but now I wonder if there was some overreaction.  Certainly at the time it was very scary being so out of control of my emotions, and I was just physically and mentally and emotionally exhausted in a way I&#8217;ve not been before.  I guess we can only wait and see.<\/p>\n<p>I&#8217;ve learned some things in the meantime, which I&#8217;ll try to write up at some point but for now, I&#8217;m doing OK.<\/p>\n",
+        "excerpt": "<p>So, I got signed off of work on Tuesday and have had a few days forgetting about everything at home. It&#8217;s now Friday and last weekend seems a long time ago. The doctors can&#8217;t get me an apppointment until the 14th (it was about 2 weeks away when I booked it), so I popped into [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    }
+]

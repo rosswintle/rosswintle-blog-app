@@ -10,7 +10,7 @@ document.addEventListener('alpine:init', () => {
              * The original site domain.
              * @type {string}
              */
-            originalSiteUrl: 'https://rosswintle.test',
+            originalSiteUrl: 'https://rosswintle.uk',
 
             /**
              * The current site domain
@@ -37,18 +37,24 @@ document.addEventListener('alpine:init', () => {
             currentHtml: null,
 
             /**
+             * The current posts index/list.
+             */
+            currentPosts: null,
+
+            /**
              * The current page.
              * @type {string}
              */
             currentPage: '/',
 
             /**
-             * Initializes the Common Prayer app.
+             * Initializes the app.
              * @returns {Promise<void>}
              */
             async init() {
                 // await this.loadPage('/data/index.html', false);
                 // await this.loadPage('/data/home/', true);
+                await this.loadPage('/', false);
                 this.setWatchHandlersOnLinks();
             },
 
@@ -72,6 +78,18 @@ document.addEventListener('alpine:init', () => {
                     this.currentPage = '/';
                     this.currentData = null;
                     this.currentHtml = null;
+                    this.currentPosts = null;
+                    // Fetch the posts list
+                    try {
+                        const response = await fetch(`/data/posts/1.json`);
+                        const data = await response.json();
+                        console.log(data);
+                        this.currentPosts = data;
+                    } catch (error) {
+                        console.error(error);
+                    }
+
+                    return;
                 }
 
                 console.log(`Loading page ${this.currentSiteUrl}${path}`);
@@ -85,6 +103,7 @@ document.addEventListener('alpine:init', () => {
                         this.currentPage = path;
                         this.currentData = null;
                         this.currentHtml = data;
+                        this.currentPosts = null;
                     } catch (error) {
                         console.error(error);
                     }
@@ -113,6 +132,7 @@ document.addEventListener('alpine:init', () => {
                         this.currentPage = path;
                         this.currentHtml = data;
                         this.currentData = null;
+                        this.currentPosts = null;
                     } catch (error) {
                         console.error(error);
                     }
@@ -123,6 +143,7 @@ document.addEventListener('alpine:init', () => {
                         this.currentPage = path;
                         this.currentHtml = null;
                         this.currentData = data;
+                        this.currentPosts = null;
                     } catch (error) {
                         console.error(error);
                     }
@@ -189,6 +210,21 @@ document.addEventListener('alpine:init', () => {
                     // Scroll to the top of the page
                     document.documentElement.scrollTop = 0;
                 })
+            },
+
+            /**
+             *
+             * @param {Date} dateObject
+             * @returns string
+             */
+            formatDate(dateObject) {
+                const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+
+                const day = dateObject.getDate();  // get the day
+                const monthIndex = dateObject.getMonth();  // get the month index
+                const year = dateObject.getFullYear();  // get the full year
+
+                return (day < 10 ? '0' : '') + day + ' ' + months[monthIndex] + ' ' + year;
             }
         };
     });
