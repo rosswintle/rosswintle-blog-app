@@ -1,6 +1,243 @@
 [
     {
         "dataAsArray": {
+            "id": 182,
+            "date": "2008-08-26T18:26:00",
+            "date_gmt": "2008-08-26T18:26:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/08\/26\/a-visit-to-yomac\/"
+            },
+            "modified": "2008-08-26T18:26:00",
+            "modified_gmt": "2008-08-26T18:26:00",
+            "slug": "a-visit-to-yomac",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/",
+            "title": {
+                "rendered": "A Visit to YOMAC"
+            },
+            "content": {
+                "rendered": "<p>Sally has been away this week at a residential camp for young people from all over the country involved in climate change projects.  I don&#8217;t explain it very well so check out http:\/\/www.youmeandtheclimate.org\/ for a better explanation.<\/p>\n<p>I popped down for the weekend to help out, see what was going on, and, yes, to spend some time with my lovely wife.<\/p>\n<p>It was a difficult couple of days.  I had to:<\/p>\n<ul>\n<li>get to know everyone, despite only being there for just over 24 hours;<\/li>\n<li>help out with some of the work;<\/li>\n<li>try desperately NOT to chip in too much (the project is led by the youth with adults just facilitating);<\/li>\n<li>find my way around the campsite and bothey;<\/li>\n<li>stay out of people&#8217;s way where necessary;<\/li>\n<li>learn the in-jokes and find my way around some of the more difficult aspects of communication and relationships that go on in any 10-day residential with hugely diverse people;<\/li>\n<li>find some quality time with Sally;<\/li>\n<li>and, of course, I wanted to feel like I&#8217;d left my mark, been myself and made a difference.<\/li>\n<\/ul>\n<p>It was a bit of a mental, physical and emotional juggling and it left me pretty tired.<\/p>\n<p>But, what I saw while there was a hugely diverse group of young people aged 14-19 with a huge passion for educating people about climate change, working their socks of and contributing all sorts of wonderful gifts and talents to the cause.<\/p>\n<p>There were actors, artists, scientists, IT &#8220;geeks&#8221;, vegans and meat-eaters, nature lovers and city-slickers, people who love camping and people who hate it.  They were from all over the country and haven&#8217;t spent much time together but they got on like a really good team.  They were bright and understood not only climate change issues but a whole variety of other political issues.<\/p>\n<p>I was really very impressed with the young people.  The news may portray the bad things about our youth: knife crime, grafitti, yobs and hoodies; but the opposite end of that scale is people like the ones I met on Saturday: talented, hard working, committed, fun, intelligent teenagers who want to make a positive impact on the world in which they live.<\/p>\n<p>Go YOMAC!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Sally has been away this week at a residential camp for young people from all over the country involved in climate change projects. I don&#8217;t explain it very well so check out http:\/\/www.youmeandtheclimate.org\/ for a better explanation. I popped down for the weekend to help out, see what was going on, and, yes, to spend [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>A Visit to YOMAC - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A Visit to YOMAC - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Sally has been away this week at a residential camp for young people from all over the country involved in climate change projects. I don&#8217;t explain it very well so check out http:\/\/www.youmeandtheclimate.org\/ for a better explanation. I popped down for the weekend to help out, see what was going on, and, yes, to spend [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-08-26T18:26:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/\",\"name\":\"A Visit to YOMAC - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-08-26T18:26:00+00:00\",\"dateModified\":\"2008-08-26T18:26:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"A Visit to YOMAC\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "A Visit to YOMAC - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "A Visit to YOMAC - Ross Wintle",
+                "og_description": "Sally has been away this week at a residential camp for young people from all over the country involved in climate change projects. I don&#8217;t explain it very well so check out http:\/\/www.youmeandtheclimate.org\/ for a better explanation. I popped down for the weekend to help out, see what was going on, and, yes, to spend [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2008-08-26T18:26:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/",
+                            "url": "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/",
+                            "name": "A Visit to YOMAC - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2008-08-26T18:26:00+00:00",
+                            "dateModified": "2008-08-26T18:26:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "A Visit to YOMAC"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/182"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=182"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/182\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=182"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=182"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=182"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 182,
+        "dateGmt": "2008-08-26T18:26:00",
+        "modifiedDateGmt": "2008-08-26T18:26:00",
+        "slug": "a-visit-to-yomac",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2008\/08\/a-visit-to-yomac\/",
+        "title": "A Visit to YOMAC",
+        "content": "<p>Sally has been away this week at a residential camp for young people from all over the country involved in climate change projects.  I don&#8217;t explain it very well so check out http:\/\/www.youmeandtheclimate.org\/ for a better explanation.<\/p>\n<p>I popped down for the weekend to help out, see what was going on, and, yes, to spend some time with my lovely wife.<\/p>\n<p>It was a difficult couple of days.  I had to:<\/p>\n<ul>\n<li>get to know everyone, despite only being there for just over 24 hours;<\/li>\n<li>help out with some of the work;<\/li>\n<li>try desperately NOT to chip in too much (the project is led by the youth with adults just facilitating);<\/li>\n<li>find my way around the campsite and bothey;<\/li>\n<li>stay out of people&#8217;s way where necessary;<\/li>\n<li>learn the in-jokes and find my way around some of the more difficult aspects of communication and relationships that go on in any 10-day residential with hugely diverse people;<\/li>\n<li>find some quality time with Sally;<\/li>\n<li>and, of course, I wanted to feel like I&#8217;d left my mark, been myself and made a difference.<\/li>\n<\/ul>\n<p>It was a bit of a mental, physical and emotional juggling and it left me pretty tired.<\/p>\n<p>But, what I saw while there was a hugely diverse group of young people aged 14-19 with a huge passion for educating people about climate change, working their socks of and contributing all sorts of wonderful gifts and talents to the cause.<\/p>\n<p>There were actors, artists, scientists, IT &#8220;geeks&#8221;, vegans and meat-eaters, nature lovers and city-slickers, people who love camping and people who hate it.  They were from all over the country and haven&#8217;t spent much time together but they got on like a really good team.  They were bright and understood not only climate change issues but a whole variety of other political issues.<\/p>\n<p>I was really very impressed with the young people.  The news may portray the bad things about our youth: knife crime, grafitti, yobs and hoodies; but the opposite end of that scale is people like the ones I met on Saturday: talented, hard working, committed, fun, intelligent teenagers who want to make a positive impact on the world in which they live.<\/p>\n<p>Go YOMAC!<\/p>\n",
+        "excerpt": "<p>Sally has been away this week at a residential camp for young people from all over the country involved in climate change projects. I don&#8217;t explain it very well so check out http:\/\/www.youmeandtheclimate.org\/ for a better explanation. I popped down for the weekend to help out, see what was going on, and, yes, to spend [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 181,
             "date": "2008-08-26T17:59:00",
             "date_gmt": "2008-08-26T17:59:00",
@@ -2129,244 +2366,6 @@
         "title": "Behind with the Times",
         "content": "<p>This is a bit of an unstructured brain-dump of where certain techie things are in my head right now.<\/p>\n<p>I wrote about<a href=\"http:\/\/wintle.blogspot.com\/2008\/02\/taking-up-twittering-as-facebook-flops.html\"> my use of Twitter <\/a>a while back.  One of the boons of this has been watching the inspiring little comments of an old Bathonian friend of mine.<\/p>\n<p>My friend (I won&#8217;t name him unless he reads this and decides he would like me to) is&#8230;well&#8230;I don&#8217;t really know what he does now.  I think he used to work for the Institute of Physics or something, as a web designer, and he seems to have continued in a similar line of work.  And now, in the absence of anyone else, he&#8217;s my personal guru for all things web design, Web 2.0, blogs, social networking and so on.  I guess he inspires my inner-geek.<\/p>\n<p>And I do have a part of me that thrives on this stuff.  I love the interesting ways that people make innovative use of technology to achieve useful, and sometimes beautiful things.  Here are some other little web-based things that I&#8217;ve come across since following this person:<\/p>\n<p>&#8211; <a href=\"http:\/\/last.fm\">last.fm<\/a> &#8211; great way to discover new music<br \/>&#8211; <a href=\"http:\/\/www.mycyclinglog.com\">mycyclinglog.com<\/a> &#8211; my current bike logger<br \/>&#8211; <a href=\"http:\/\/identi.ca\">identi.ca<\/a> &#8211; open alternative to Twitter<br \/>&#8211; <a href=\"http:\/\/ping.fm\">ping.fm<\/a> &#8211; update multiple statuses\/micro-blogs from one place<br \/>&#8211; <a href=\"http:\/\/www.opera.com\">Opera<\/a> &#8211; a rediscovery of the old alternative web-browser<\/p>\n<p>But not just those practical things.  My curiosity about the way people are using the web to communicate and interact has been roused.  I&#8217;m intrigued how people are creating web sites that are simple, functional and well-designed.  Things not only of purpose but of beauty.<\/p>\n<p>I&#8217;m feeling behind and afraid though.  I barely know Java and have heard only rumours of Ajax, let alone other &#8220;next big things&#8221;.  I&#8217;ve been toying with client-side scripting, servlets, application frameworks, but not digging deep.  I have an excellent grounding in Computer Science and an inquisitive mind, but there&#8217;s so much to learn and I don&#8217;t have time enough to invest to satisfy my curiosity, let alone learn anything of much use.  And where would I start?<\/p>\n<p>I&#8217;m afraid because of security, the nature of my online identity. I&#8217;m generally very open, as readers of this blog would know, but there&#8217;s stuff that I don&#8217;t want out there on the internet (mostly about other people and work, but sometimes about me).  Can I throw myself into the online world of sharing so much with so many in safety?  Do I want <a href=\"http:\/\/www.brightkite.com\">BrightKite.com<\/a> telling everyone where I am all the time?<\/p>\n<p>And there&#8217;s the issue of time.  My feed list in <a href=\"http:\/\/reader.google.com\">Google Reader<\/a> continues to grow and reading, as well as writing, is a chore.  Could I read the Twitter entries of more than about 20 people and have a real life too?<\/p>\n<p>I&#8217;m also uncertain about who to take on the journey with me.  In many ways I&#8217;m a long way ahead of my peers and I&#8217;d love to be able to introduce others to my personal world of customised web sites, RSS and Atom feeds, alternative browsers and web presence because I think these things are useful tools.  But would they get it?  How confusing is it to a non techie?  There are so many places to be with new networks and tools appearing all the time. If I can barely keep up, how will they?<\/p>\n<p>I think the web is an exciting, fun, and hugely creative place to be at the moment.  Yet it&#8217;s a big place.  A scary place.  A confusing place.  An ever-changing and unknown place.<\/p>\n<p>My online interaction with the friend I mentioned above is a fine example of how the web can bring together people with a common cause or interest.  It can be a very negative place, but it can be inspiring and friendly too.  With my friend&#8217;s help I hope to continue to be a part of this strange world, and to introduce others to it, and maybe, one day, to be responsible for a small part of it.<\/p>\n",
         "excerpt": "<p>This is a bit of an unstructured brain-dump of where certain techie things are in my head right now. I wrote about my use of Twitter a while back. One of the boons of this has been watching the inspiring little comments of an old Bathonian friend of mine. My friend (I won&#8217;t name him [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 172,
-            "date": "2008-07-28T21:57:00",
-            "date_gmt": "2008-07-28T21:57:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/07\/28\/how-cuil\/"
-            },
-            "modified": "2008-07-28T21:57:00",
-            "modified_gmt": "2008-07-28T21:57:00",
-            "slug": "how-cuil",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/",
-            "title": {
-                "rendered": "How Cuil???"
-            },
-            "content": {
-                "rendered": "<p>A friend of mine is engaged in a little, private &#8220;Beta&#8221; website that I&#8217;m contributing to.  It&#8217;s kinda Christian-themed news and random stuff.  I&#8217;ve spent some time tonight on a post which I hope he doesn&#8217;t mind me cross-posting here.<\/p>\n<p>&#8212;&#8211;<\/p>\n<p>You may, like me, have noticed the latest big thing on the Internet\u2026a new search engine set up by some ex-Google employees at www.cuil.com (pronounced Cuil).<\/p>\n<p>We have conducted an extensive review of Cuil\u2019s search functionality (OK, we did a few searches, almost at random) and hereby bring you the definitive, Christian-themed review of this new tool.<\/p>\n<p>We\u2019ve run a number of test searches, analysed the results and graded them out of 5.  We\u2019ve also stated the \u201csuggested searches\u201d that Cuil came up with as we typed, and what we actually thought we might get.<\/p>\n<p>We didn\u2019t have time (and we\u2019re not THAT sad) to do a complete comparison of Google, Yahoo, MSN and others, so we\u2019ve simply compared the results to those given with Google &#8211; it seems appropriate given the circumstances.<\/p>\n<p><strong>Test 1 &#8211; \u201cWhat would Jesus Do?\u201d<\/strong><\/p>\n<p>Well\u2026what would he?  (For those that don&#8217;t know this was a cheesy Christian slogan used to remind people to ask the question themselves when making decisions &#8211; it was probably a good idea until someone got into printing it on merchandise galore &#8211; keyrings, wrist bands, etc).<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>What would jesus buy<\/li>\n<li>What would jesus drive<\/li>\n<li>What would jesus eat<\/li>\n<li>what would jesus do<\/li>\n<\/ul>\n<p>Expected result: WWJD merchandise, or possibly a site actually stating some things that Jesus did.<\/p>\n<p>Top Cuil result: What would Jesus Buy (www.wwjbmovie.com)<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>Lots of references to the film above<\/li>\n<li>Christian weight loss: What would Jesus Eat?<\/li>\n<li>What would Jesus shave with?<\/li>\n<li>The Church of Stop Shopping (presumably related to the movie?)<\/li>\n<li>www.wwjd.com (we didn\u2019t follow the link and have no idea what it is)<\/li>\n<li>Listed Categories (to narrow your search): \u201cWorld Championship Wrestling Alumni\u201d and \u201cAmerican Professional Wrestlers\u201d<\/li>\n<\/ul>\n<p>Google says:<\/p>\n<ul>\n<li>What Would Jesus Do on Wikipedia<\/li>\n<li>WWJD merchandise at www.whatwouldjesusdo.com<\/li>\n<\/ul>\n<p>Result: Wrestling??? Seriously, we\u2019re NOT making this up!!!  Google wins by a clear mile.  Cuil gets 1 out of 5 for entertainment value only.<\/p>\n<p><strong>Test 2: \u201cThe Bible\u201d<\/strong><\/p>\n<p>Can Cuil find me a Good Book?<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>The Bible (yay!  First hit!)<\/li>\n<li>History of the Bible<\/li>\n<li>How to Read the Bible<\/li>\n<li>The Bible Code<\/li>\n<\/ul>\n<p>Expected result: Links to online bibles, or possibly reference articles explaining what the Bible is.<\/p>\n<p>Top Cuil result:Track and Field News: The Bible of the Sport since 1948<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>Navigating the Bible II<\/li>\n<li>bible.crosswalk.com (an actual Bible!)<\/li>\n<li>The Bible Society<\/li>\n<li>A few other random bible-related things, none of which seem very important<\/li>\n<\/ul>\n<p>Google says: www.biblegateway.com &#8211; everyone\u2019s favourite online bible!<\/p>\n<p>Result: Cuil gets closer but is again blown away by Google.  2 out of 5 for effort!<\/p>\n<p><strong>Test 3: Lalbagh Indian Cuisine<\/strong><\/p>\n<p>\u2026because even the faithful like a good curry now and then!<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>Lalbagh Fort<\/li>\n<li>Lalbagh Road<\/li>\n<\/ul>\n<p>Expected result: Web page of my favourite local Indian takeaway, local directory entries and some reviews.<\/p>\n<p>Top Cuil result: Correct listing on donowdo.com (What\u2019s that then?)<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>Local newspaper reviews<\/li>\n<li>Other fairly random listings<\/li>\n<li>Category: Kings of Mysore<\/li>\n<li>Wikipedia article on Culture of Bangalore<\/li>\n<\/ul>\n<p>Google says: The Lalbagh Website, Yell and Thompson directory entries, and reviews of the intended, and other restaurants called \u201cLalbagh\u201d<\/p>\n<p>Result: Again, I got the information I needed, but a link to the restaurant\u2019s own web site didn\u2019t make the front page.  2 out of 5 again.<\/p>\n<p><strong>Test 4: \u201cCuil\u201d<\/strong><\/p>\n<p>Can it find itself? And will Google list their new competitor?<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>None &#8211; though by this point I wasn\u2019t getting any suggested searches at all &#8211; perhaps the system was overloaded?<\/li>\n<\/ul>\n<p>Expected result: Cuil home page, lots of news articles from today about the launch.<\/p>\n<p>Top Cuil result: Properties for sale in Cuil Mhuine, Ireland on Properazzi.com<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>References to what appears to be a music album or a band called \u201cChase around the Windmill\u201d<\/li>\n<li>Books, and area guides relating to several places whose name includes the word \u201cCuil\u201d<\/li>\n<li>Categories: Towns and Villages in Sligo, French Cuisine, Local Breads, Lochaber, and Glens of Scotland.<\/li>\n<li>I also noticed that Cuil returned 121,578 results, compared to Google\u2019s \u201cabout 718,000? &#8211; I\u2019m open to the possibility that less is more in this case.<\/li>\n<\/ul>\n<p>Google says: News results for Cuil from Information Week and 819 related articles. Cuil Homepage.<\/p>\n<p>Result: What?  They\u2019re not their own top search result?  Zero!!!!<\/p>\n<p style=\"font-weight:bold;\">Test 5: \u201cHelp\u201d<\/p>\n<p>Maybe Cuil is a new breed of search engine and I\u2019m expecting the wrong sort of results.  Perhaps there\u2019s a help page?<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>Still no suggested results at all.<\/li>\n<\/ul>\n<p>Expected result: Cuil help page.  Err\u2026not sure what else.<\/p>\n<p>Top Cuil result: This is really REALLY true.  I got a page back that said: \u201cNo results because of high load\u201d.<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>Nothing<\/li>\n<li>Zip<\/li>\n<li>Zilch<\/li>\n<li>Not a sausage<\/li>\n<\/ul>\n<p>Google says:<\/p>\n<ul>\n<li>www.help.com &#8211; seems reasonable<\/li>\n<li>BBC Help (www.bbc.co.uk\/help)<\/li>\n<li>Ingenta Connect Help (???)<\/li>\n<li>Google Help (which is, of course, the equivalent of what we wanted)<\/li>\n<\/ul>\n<p>Result: Another zero I\u2019m afraid.  An overloaded service is no service at all!<\/p>\n<p><strong>In conclusion<\/strong><\/p>\n<p>We\u2019ve done our best to show you how this new search engine performs.  We\u2019ll leave you to make up your own mind from our results.  I\u2019m sure you\u2019ll agree they\u2019re a great help!<\/p>\n<p>We give Cuil a grand total of 4 out of a possible 25 points!<\/p>\n<p>We don\u2019t think Google need worry too much.<\/p>\n<p style=\"font-weight:bold;\">Tuesday Update:<\/p>\n<p>The service is back up.  Searching for &#8220;help&#8221; didn&#8217;t.<\/p>\n<p>Oddly, though searching for &#8220;Cuil&#8221; on Cuil.com gave random results, searching for &#8220;Google&#8221; on Cuil.com gave lots of links to Google&#8217;s sites.  Weird!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>A friend of mine is engaged in a little, private &#8220;Beta&#8221; website that I&#8217;m contributing to. It&#8217;s kinda Christian-themed news and random stuff. I&#8217;ve spent some time tonight on a post which I hope he doesn&#8217;t mind me cross-posting here. &#8212;&#8211; You may, like me, have noticed the latest big thing on the Internet\u2026a new [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10,
-                23
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>How Cuil??? - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"How Cuil??? - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A friend of mine is engaged in a little, private &#8220;Beta&#8221; website that I&#8217;m contributing to. It&#8217;s kinda Christian-themed news and random stuff. I&#8217;ve spent some time tonight on a post which I hope he doesn&#8217;t mind me cross-posting here. &#8212;&#8211; You may, like me, have noticed the latest big thing on the Internet\u2026a new [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-07-28T21:57:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/\",\"name\":\"How Cuil??? - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-07-28T21:57:00+00:00\",\"dateModified\":\"2008-07-28T21:57:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"How Cuil???\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "How Cuil??? - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "How Cuil??? - Ross Wintle",
-                "og_description": "A friend of mine is engaged in a little, private &#8220;Beta&#8221; website that I&#8217;m contributing to. It&#8217;s kinda Christian-themed news and random stuff. I&#8217;ve spent some time tonight on a post which I hope he doesn&#8217;t mind me cross-posting here. &#8212;&#8211; You may, like me, have noticed the latest big thing on the Internet\u2026a new [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2008-07-28T21:57:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "5 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/",
-                            "url": "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/",
-                            "name": "How Cuil??? - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2008-07-28T21:57:00+00:00",
-                            "dateModified": "2008-07-28T21:57:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "How Cuil???"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/172"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=172"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/172\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=172"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=172"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=172"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 172,
-        "dateGmt": "2008-07-28T21:57:00",
-        "modifiedDateGmt": "2008-07-28T21:57:00",
-        "slug": "how-cuil",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2008\/07\/how-cuil\/",
-        "title": "How Cuil???",
-        "content": "<p>A friend of mine is engaged in a little, private &#8220;Beta&#8221; website that I&#8217;m contributing to.  It&#8217;s kinda Christian-themed news and random stuff.  I&#8217;ve spent some time tonight on a post which I hope he doesn&#8217;t mind me cross-posting here.<\/p>\n<p>&#8212;&#8211;<\/p>\n<p>You may, like me, have noticed the latest big thing on the Internet\u2026a new search engine set up by some ex-Google employees at www.cuil.com (pronounced Cuil).<\/p>\n<p>We have conducted an extensive review of Cuil\u2019s search functionality (OK, we did a few searches, almost at random) and hereby bring you the definitive, Christian-themed review of this new tool.<\/p>\n<p>We\u2019ve run a number of test searches, analysed the results and graded them out of 5.  We\u2019ve also stated the \u201csuggested searches\u201d that Cuil came up with as we typed, and what we actually thought we might get.<\/p>\n<p>We didn\u2019t have time (and we\u2019re not THAT sad) to do a complete comparison of Google, Yahoo, MSN and others, so we\u2019ve simply compared the results to those given with Google &#8211; it seems appropriate given the circumstances.<\/p>\n<p><strong>Test 1 &#8211; \u201cWhat would Jesus Do?\u201d<\/strong><\/p>\n<p>Well\u2026what would he?  (For those that don&#8217;t know this was a cheesy Christian slogan used to remind people to ask the question themselves when making decisions &#8211; it was probably a good idea until someone got into printing it on merchandise galore &#8211; keyrings, wrist bands, etc).<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>What would jesus buy<\/li>\n<li>What would jesus drive<\/li>\n<li>What would jesus eat<\/li>\n<li>what would jesus do<\/li>\n<\/ul>\n<p>Expected result: WWJD merchandise, or possibly a site actually stating some things that Jesus did.<\/p>\n<p>Top Cuil result: What would Jesus Buy (www.wwjbmovie.com)<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>Lots of references to the film above<\/li>\n<li>Christian weight loss: What would Jesus Eat?<\/li>\n<li>What would Jesus shave with?<\/li>\n<li>The Church of Stop Shopping (presumably related to the movie?)<\/li>\n<li>www.wwjd.com (we didn\u2019t follow the link and have no idea what it is)<\/li>\n<li>Listed Categories (to narrow your search): \u201cWorld Championship Wrestling Alumni\u201d and \u201cAmerican Professional Wrestlers\u201d<\/li>\n<\/ul>\n<p>Google says:<\/p>\n<ul>\n<li>What Would Jesus Do on Wikipedia<\/li>\n<li>WWJD merchandise at www.whatwouldjesusdo.com<\/li>\n<\/ul>\n<p>Result: Wrestling??? Seriously, we\u2019re NOT making this up!!!  Google wins by a clear mile.  Cuil gets 1 out of 5 for entertainment value only.<\/p>\n<p><strong>Test 2: \u201cThe Bible\u201d<\/strong><\/p>\n<p>Can Cuil find me a Good Book?<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>The Bible (yay!  First hit!)<\/li>\n<li>History of the Bible<\/li>\n<li>How to Read the Bible<\/li>\n<li>The Bible Code<\/li>\n<\/ul>\n<p>Expected result: Links to online bibles, or possibly reference articles explaining what the Bible is.<\/p>\n<p>Top Cuil result:Track and Field News: The Bible of the Sport since 1948<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>Navigating the Bible II<\/li>\n<li>bible.crosswalk.com (an actual Bible!)<\/li>\n<li>The Bible Society<\/li>\n<li>A few other random bible-related things, none of which seem very important<\/li>\n<\/ul>\n<p>Google says: www.biblegateway.com &#8211; everyone\u2019s favourite online bible!<\/p>\n<p>Result: Cuil gets closer but is again blown away by Google.  2 out of 5 for effort!<\/p>\n<p><strong>Test 3: Lalbagh Indian Cuisine<\/strong><\/p>\n<p>\u2026because even the faithful like a good curry now and then!<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>Lalbagh Fort<\/li>\n<li>Lalbagh Road<\/li>\n<\/ul>\n<p>Expected result: Web page of my favourite local Indian takeaway, local directory entries and some reviews.<\/p>\n<p>Top Cuil result: Correct listing on donowdo.com (What\u2019s that then?)<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>Local newspaper reviews<\/li>\n<li>Other fairly random listings<\/li>\n<li>Category: Kings of Mysore<\/li>\n<li>Wikipedia article on Culture of Bangalore<\/li>\n<\/ul>\n<p>Google says: The Lalbagh Website, Yell and Thompson directory entries, and reviews of the intended, and other restaurants called \u201cLalbagh\u201d<\/p>\n<p>Result: Again, I got the information I needed, but a link to the restaurant\u2019s own web site didn\u2019t make the front page.  2 out of 5 again.<\/p>\n<p><strong>Test 4: \u201cCuil\u201d<\/strong><\/p>\n<p>Can it find itself? And will Google list their new competitor?<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>None &#8211; though by this point I wasn\u2019t getting any suggested searches at all &#8211; perhaps the system was overloaded?<\/li>\n<\/ul>\n<p>Expected result: Cuil home page, lots of news articles from today about the launch.<\/p>\n<p>Top Cuil result: Properties for sale in Cuil Mhuine, Ireland on Properazzi.com<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>References to what appears to be a music album or a band called \u201cChase around the Windmill\u201d<\/li>\n<li>Books, and area guides relating to several places whose name includes the word \u201cCuil\u201d<\/li>\n<li>Categories: Towns and Villages in Sligo, French Cuisine, Local Breads, Lochaber, and Glens of Scotland.<\/li>\n<li>I also noticed that Cuil returned 121,578 results, compared to Google\u2019s \u201cabout 718,000? &#8211; I\u2019m open to the possibility that less is more in this case.<\/li>\n<\/ul>\n<p>Google says: News results for Cuil from Information Week and 819 related articles. Cuil Homepage.<\/p>\n<p>Result: What?  They\u2019re not their own top search result?  Zero!!!!<\/p>\n<p style=\"font-weight:bold;\">Test 5: \u201cHelp\u201d<\/p>\n<p>Maybe Cuil is a new breed of search engine and I\u2019m expecting the wrong sort of results.  Perhaps there\u2019s a help page?<\/p>\n<p>Suggested searches:<\/p>\n<ul>\n<li>Still no suggested results at all.<\/li>\n<\/ul>\n<p>Expected result: Cuil help page.  Err\u2026not sure what else.<\/p>\n<p>Top Cuil result: This is really REALLY true.  I got a page back that said: \u201cNo results because of high load\u201d.<\/p>\n<p>What else we got:<\/p>\n<ul>\n<li>Nothing<\/li>\n<li>Zip<\/li>\n<li>Zilch<\/li>\n<li>Not a sausage<\/li>\n<\/ul>\n<p>Google says:<\/p>\n<ul>\n<li>www.help.com &#8211; seems reasonable<\/li>\n<li>BBC Help (www.bbc.co.uk\/help)<\/li>\n<li>Ingenta Connect Help (???)<\/li>\n<li>Google Help (which is, of course, the equivalent of what we wanted)<\/li>\n<\/ul>\n<p>Result: Another zero I\u2019m afraid.  An overloaded service is no service at all!<\/p>\n<p><strong>In conclusion<\/strong><\/p>\n<p>We\u2019ve done our best to show you how this new search engine performs.  We\u2019ll leave you to make up your own mind from our results.  I\u2019m sure you\u2019ll agree they\u2019re a great help!<\/p>\n<p>We give Cuil a grand total of 4 out of a possible 25 points!<\/p>\n<p>We don\u2019t think Google need worry too much.<\/p>\n<p style=\"font-weight:bold;\">Tuesday Update:<\/p>\n<p>The service is back up.  Searching for &#8220;help&#8221; didn&#8217;t.<\/p>\n<p>Oddly, though searching for &#8220;Cuil&#8221; on Cuil.com gave random results, searching for &#8220;Google&#8221; on Cuil.com gave lots of links to Google&#8217;s sites.  Weird!<\/p>\n",
-        "excerpt": "<p>A friend of mine is engaged in a little, private &#8220;Beta&#8221; website that I&#8217;m contributing to. It&#8217;s kinda Christian-themed news and random stuff. I&#8217;ve spent some time tonight on a post which I hope he doesn&#8217;t mind me cross-posting here. &#8212;&#8211; You may, like me, have noticed the latest big thing on the Internet\u2026a new [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

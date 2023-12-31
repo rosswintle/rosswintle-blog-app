@@ -1,6 +1,253 @@
 [
     {
         "dataAsArray": {
+            "id": 4206,
+            "date": "2018-09-16T14:12:41",
+            "date_gmt": "2018-09-16T13:12:41",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=4206"
+            },
+            "modified": "2018-09-16T14:16:48",
+            "modified_gmt": "2018-09-16T13:16:48",
+            "slug": "be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/",
+            "title": {
+                "rendered": "Be careful what you write! Basic SEO is easy, important, and really boring."
+            },
+            "content": {
+                "rendered": "\n<p><em>Aside before I begin: Some of what I\u2019ve been writing lately has been inspired by work I\u2019ve done for clients or help I\u2019ve given to people I know. I\u2019m writing up the lessons learned to try to help others (and my future self) avoid the same pitfalls. So this is observation and information, not criticism. If you think anything I write up might be about you and you don\u2019t like what I wrote, please let me know and I\u2019ll fix things. Thanks!<\/em><\/p>\n\n\n\n<p>When you\u2019re making a new website for your organisation or company (or for yourself!), it\u2019s kinda trendy to use abstract language that doesn\u2019t actually reflect what you do.<\/p>\n\n\n\n<p>This can be a problem. Especially if you rely on search engines like Google to send people to your website from search results. And DOUBLY especially if your business name itself doesn\u2019t mention what or where you are.<\/p>\n\n\n\n<p>It\u2019s a problem because search engines are trying to identify who you are and what you\u2019re about, and if you\u2019re too abstract in your language and content then you won\u2019t appear in the right searches.<br\/><\/p>\n\n\n\n<p>I\u2019m actually guilty of having a vague company name myself. My company is \u201cOikos Digital Ltd\u201d which, while <a href=\"https:\/\/oikos.digital\/about\/\">a clever name<\/a>, doesn\u2019t describe in English any of what I do. So I\u2019m very careful to have my website set up with a big title saying \u201cweb development and technology consultancy for charities, communities and small businesses\u201d and I try to talk about those things a lot on my website.<\/p>\n\n\n\n<p>As another, made-up example, let\u2019s say you ran a bakery in Bath. You\u2019ve decided to call it \u201cRisen\u201d. Your marketing agency has suggested you use the tagline \u201cFresh \/ Tasty \/ Treats\u201d. Your website is at risen.co.uk (don\u2019t go there &#8211; I made it up &#8211; I can\u2019t be held responsible for what you actually see), and it has lots of shallow-depth-of-field photos of beautiful cakes topped with sparkly buttercream, and rustic loaves dusted in stoneground flour, and it talks a lot about craft sponges and cup-cakes, artisan icing techniques, and hand-crafted sourdough.<\/p>\n\n\n\n<p>Google may well put you in search results for these things you mention. But you\u2019ve neglected to mention that you\u2019re a bakery&#8230;in Bath. So if someone does a search for \u201cBakeries in Bath\u201d you may not be found.<br\/><\/p>\n\n\n\n<p>So, while it may seem incredibly boring to do so, it\u2019s actually quite helpful to talk about what you do, and, if you have a physical shop or office or venue, to talk about where you are too. It helps people find you, and when people arrive on your website, they know exactly what they are looking at.<\/p>\n\n\n\n<p>This process of making your website\u2019s content help you appear in search results is called \u201cSearch Engine Optimisaiton\u201d, or \u201cSEO\u201d for short. It&#8217;s a big, scary subject, and lots of people will try to sell you lots of expensive services and tools to help you do it well.<\/p>\n\n\n\n<p>But the basics are simple: Make it clear who you are, what you do, where you are. Talk about those things. Put those things in headings and titles to show they are important. If you know how, include them in meta tags for descriptions and titles too.<\/p>\n\n\n\n<p>Yes, my imaginary bakery (this is making me hungry!) may want to be found in searches for \u201cfresh treats\u201d or \u201cartisan sourdough\u201d. Maybe that\u2019s a strategy you\u2019ve chosen. But if you\u2019re an average local business wanting to attract local people then you probably want something less obscure.<br\/><\/p>\n\n\n\n<p>A trendy website is no good if no one is going to find it. Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!<\/p>\n\n\n\n<p><br\/><\/p>\n\n\n\n<p><br\/><\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23,
+                187
+            ],
+            "tags": [
+                305,
+                36,
+                711,
+                712,
+                582
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Be careful what you write! Basic SEO is easy, important, and really boring. - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Be careful what you write! Basic SEO is easy, important, and really boring. - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-09-16T13:12:41+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-09-16T13:16:48+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/\",\"name\":\"Be careful what you write! Basic SEO is easy, important, and really boring. - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-09-16T13:12:41+00:00\",\"dateModified\":\"2018-09-16T13:16:48+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Be careful what you write! Basic SEO is easy, important, and really boring.\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Be careful what you write! Basic SEO is easy, important, and really boring. - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Be careful what you write! Basic SEO is easy, important, and really boring. - Ross Wintle",
+                "og_description": "Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!",
+                "og_url": "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2018-09-16T13:12:41+00:00",
+                "article_modified_time": "2018-09-16T13:16:48+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "3 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/",
+                            "url": "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/",
+                            "name": "Be careful what you write! Basic SEO is easy, important, and really boring. - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2018-09-16T13:12:41+00:00",
+                            "dateModified": "2018-09-16T13:16:48+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Be careful what you write! Basic SEO is easy, important, and really boring."
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4206"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4206"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 8,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4206\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 4214,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4206\/revisions\/4214"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4206"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4206"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4206"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 4206,
+        "dateGmt": "2018-09-16T13:12:41",
+        "modifiedDateGmt": "2018-09-16T13:16:48",
+        "slug": "be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/",
+        "title": "Be careful what you write! Basic SEO is easy, important, and really boring.",
+        "content": "\n<p><em>Aside before I begin: Some of what I\u2019ve been writing lately has been inspired by work I\u2019ve done for clients or help I\u2019ve given to people I know. I\u2019m writing up the lessons learned to try to help others (and my future self) avoid the same pitfalls. So this is observation and information, not criticism. If you think anything I write up might be about you and you don\u2019t like what I wrote, please let me know and I\u2019ll fix things. Thanks!<\/em><\/p>\n\n\n\n<p>When you\u2019re making a new website for your organisation or company (or for yourself!), it\u2019s kinda trendy to use abstract language that doesn\u2019t actually reflect what you do.<\/p>\n\n\n\n<p>This can be a problem. Especially if you rely on search engines like Google to send people to your website from search results. And DOUBLY especially if your business name itself doesn\u2019t mention what or where you are.<\/p>\n\n\n\n<p>It\u2019s a problem because search engines are trying to identify who you are and what you\u2019re about, and if you\u2019re too abstract in your language and content then you won\u2019t appear in the right searches.<br\/><\/p>\n\n\n\n<p>I\u2019m actually guilty of having a vague company name myself. My company is \u201cOikos Digital Ltd\u201d which, while <a href=\"https:\/\/oikos.digital\/about\/\">a clever name<\/a>, doesn\u2019t describe in English any of what I do. So I\u2019m very careful to have my website set up with a big title saying \u201cweb development and technology consultancy for charities, communities and small businesses\u201d and I try to talk about those things a lot on my website.<\/p>\n\n\n\n<p>As another, made-up example, let\u2019s say you ran a bakery in Bath. You\u2019ve decided to call it \u201cRisen\u201d. Your marketing agency has suggested you use the tagline \u201cFresh \/ Tasty \/ Treats\u201d. Your website is at risen.co.uk (don\u2019t go there &#8211; I made it up &#8211; I can\u2019t be held responsible for what you actually see), and it has lots of shallow-depth-of-field photos of beautiful cakes topped with sparkly buttercream, and rustic loaves dusted in stoneground flour, and it talks a lot about craft sponges and cup-cakes, artisan icing techniques, and hand-crafted sourdough.<\/p>\n\n\n\n<p>Google may well put you in search results for these things you mention. But you\u2019ve neglected to mention that you\u2019re a bakery&#8230;in Bath. So if someone does a search for \u201cBakeries in Bath\u201d you may not be found.<br\/><\/p>\n\n\n\n<p>So, while it may seem incredibly boring to do so, it\u2019s actually quite helpful to talk about what you do, and, if you have a physical shop or office or venue, to talk about where you are too. It helps people find you, and when people arrive on your website, they know exactly what they are looking at.<\/p>\n\n\n\n<p>This process of making your website\u2019s content help you appear in search results is called \u201cSearch Engine Optimisaiton\u201d, or \u201cSEO\u201d for short. It&#8217;s a big, scary subject, and lots of people will try to sell you lots of expensive services and tools to help you do it well.<\/p>\n\n\n\n<p>But the basics are simple: Make it clear who you are, what you do, where you are. Talk about those things. Put those things in headings and titles to show they are important. If you know how, include them in meta tags for descriptions and titles too.<\/p>\n\n\n\n<p>Yes, my imaginary bakery (this is making me hungry!) may want to be found in searches for \u201cfresh treats\u201d or \u201cartisan sourdough\u201d. Maybe that\u2019s a strategy you\u2019ve chosen. But if you\u2019re an average local business wanting to attract local people then you probably want something less obscure.<br\/><\/p>\n\n\n\n<p>A trendy website is no good if no one is going to find it. Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!<\/p>\n\n\n\n<p><br\/><\/p>\n\n\n\n<p><br\/><\/p>\n",
+        "excerpt": "<p>Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 4185,
             "date": "2018-09-12T13:00:54",
             "date_gmt": "2018-09-12T12:00:54",
@@ -2180,252 +2427,6 @@
         "title": "The Grass Under My Feet",
         "content": "\n<p>It was lovely, on holiday last week, to be outdoors in a safe environment without much to do at times.<\/p>\n\n\n\n<p>Despite having a very \u201cindoorsy\u201d job, I love being outside.\u00a0I find it hard to work outside for some reason, even though flexible freelance life means I could.<\/p>\n\n\n\n<p>But being trapped in an office means I don\u2019t get to be outside often. And at home, when I\u2019m outside, I\u2019m usually gardening, cycling, walking or doing something else with purpose.<\/p>\n\n\n\n<p>And this all means that I rarely get to be barefoot.<\/p>\n\n\n\n<p>It will probably sound like a really odd thing, but I REALLY liked walking around barefoot on the grass and (this will surprise some but&#8230;) the beach on holiday.<\/p>\n\n\n\n<p>I like things that connect me to the earth. Cycling and gardening means I have to pay attention to weather. Gardening and growing food also puts you very much in touch with the seasons.<\/p>\n\n\n\n<p>I like cooking (even though Sally does most of it) and baking. \u00a0I like the processes of brewing tea and filter coffee. I like the slowness of making sourdough bread which is a thing which, when starter and dough, feels very much \u201calive\u201d.<\/p>\n\n\n\n<p>Computers and the internet are great, brilliant, amazing things. But there\u2019s something special about just feeling the grass beneath your feet.<\/p>\n",
         "excerpt": "<p>Computers and the internet are great, brilliant, amazing things. But there\u2019s something special about just feeling the grass beneath your feet.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 4108,
-            "date": "2018-08-28T19:35:27",
-            "date_gmt": "2018-08-28T18:35:27",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=4108"
-            },
-            "modified": "2018-09-01T21:34:08",
-            "modified_gmt": "2018-09-01T20:34:08",
-            "slug": "what-are-you-up-to",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/",
-            "title": {
-                "rendered": "What are you up to?"
-            },
-            "content": {
-                "rendered": "<h2>So what\u2019s on right now?<\/h2>\n<p>I don\u2019t know if this is interesting, but maybe it gives some insight into the breadth of my work in a given week.<\/p>\n<p>Right now I have a number of things on and in the pipeline:<\/p>\n<ul>\n<li>I\u2019ve just launched a <a href=\"https:\/\/shipoffools.com\/\">custom WordPress site<\/a> for an online magazine that has some quite complicated features built out in custom code and <a href=\"https:\/\/www.gravityforms.com\/\">Gravity Forms<\/a>. This also involved a highly complex import of existing content scraped from <a href=\"http:\/\/archive.shipoffools.com\/mystery\/index.html\">hundreds of HTML files<\/a>. I also themed <a href=\"https:\/\/vanillaforums.com\/en\/software\/\">Vanilla Forums<\/a> for <a href=\"https:\/\/forums.shipoffools.com\/\">this project\u2019s community side<\/a>, and advised on GDPR, SEO and a bunch of other things.<\/li>\n<li>I\u2019m working on phase&#8230;err&#8230;7 perhaps (?) of a custom Laravel-based food ordering system that uses some hefty amount of <a href=\"https:\/\/vuejs.org\/\">Vue.js<\/a> and a big bunch of custom logic.<\/li>\n<li>I\u2019m about to launch a site for a Devon-based charity that\u2019s a simple <a href=\"https:\/\/www.elegantthemes.com\/gallery\/divi\/\">Divi-based<\/a> WordPress brochure site. But I\u2019m excited because, effectively, I was the visual designer on this and it ACTUALLY LOOKS REALLY NICE!! (Or so I think)<\/li>\n<li>I have two other small Divi-based sites on the go for local organisations\/people. One involves some clever data manipulation and image migration\/import work.<\/li>\n<li>I have a WordPress plugin extension to write to enable custom postcode lookup functionality on a <a href=\"https:\/\/ninjaforms.com\/\">Ninja Form<\/a>.<\/li>\n<li>I\u2019m providing ad-hoc support to a number of clients &#8211; mostly WordPress stuff, but sometimes diving into UX, hosting, security, site migrations, domains and DNS, email deliverability, and general IT support.<\/li>\n<li>I\u2019m trying to get an important client email out about the new \u201c<a href=\"https:\/\/wordpress.org\/gutenberg\/\">Gutenberg<\/a>\u201d editor in WordPress (amongst other things) which needs me to edit a screencast video first.<\/li>\n<li>In my spare time I\u2019m building SchoolBot and <a href=\"https:\/\/blog.kownter.com\/about-kownter\/\">Kownter<\/a> as side projects (amongst other things that have fallen by the wayside), and trying to keep my \u201c<a href=\"https:\/\/press-ups.com\/\">Press Ups<\/a>\u201d video tutorials going too. Oh and there\u2019s (hugely unexciting secret WordPress project) happening too.<\/li>\n<li>Fielding whatever support, hosting, minor changes and prospective client queries come in on a day-to-day basis.<\/li>\n<\/ul>\n<p>So there we go&#8230;keeps me busy with family and household stuff around too!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I don\u2019t know if this is interesting, but maybe it gives some insight into the breadth of my work in a given week.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                187
-            ],
-            "tags": [
-                705,
-                586,
-                704,
-                462,
-                582
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>What are you up to? - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"What are you up to? - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I don\u2019t know if this is interesting, but maybe it gives some insight into the breadth of my work in a given week.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-08-28T18:35:27+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-09-01T20:34:08+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/\",\"name\":\"What are you up to? - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-08-28T18:35:27+00:00\",\"dateModified\":\"2018-09-01T20:34:08+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"What are you up to?\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "What are you up to? - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "What are you up to? - Ross Wintle",
-                "og_description": "I don\u2019t know if this is interesting, but maybe it gives some insight into the breadth of my work in a given week.",
-                "og_url": "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2018-08-28T18:35:27+00:00",
-                "article_modified_time": "2018-09-01T20:34:08+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/",
-                            "url": "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/",
-                            "name": "What are you up to? - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2018-08-28T18:35:27+00:00",
-                            "dateModified": "2018-09-01T20:34:08+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "What are you up to?"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4108"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4108"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4108\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 4146,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4108\/revisions\/4146"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4108"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4108"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4108"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 4108,
-        "dateGmt": "2018-08-28T18:35:27",
-        "modifiedDateGmt": "2018-09-01T20:34:08",
-        "slug": "what-are-you-up-to",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2018\/08\/what-are-you-up-to\/",
-        "title": "What are you up to?",
-        "content": "<h2>So what\u2019s on right now?<\/h2>\n<p>I don\u2019t know if this is interesting, but maybe it gives some insight into the breadth of my work in a given week.<\/p>\n<p>Right now I have a number of things on and in the pipeline:<\/p>\n<ul>\n<li>I\u2019ve just launched a <a href=\"https:\/\/shipoffools.com\/\">custom WordPress site<\/a> for an online magazine that has some quite complicated features built out in custom code and <a href=\"https:\/\/www.gravityforms.com\/\">Gravity Forms<\/a>. This also involved a highly complex import of existing content scraped from <a href=\"http:\/\/archive.shipoffools.com\/mystery\/index.html\">hundreds of HTML files<\/a>. I also themed <a href=\"https:\/\/vanillaforums.com\/en\/software\/\">Vanilla Forums<\/a> for <a href=\"https:\/\/forums.shipoffools.com\/\">this project\u2019s community side<\/a>, and advised on GDPR, SEO and a bunch of other things.<\/li>\n<li>I\u2019m working on phase&#8230;err&#8230;7 perhaps (?) of a custom Laravel-based food ordering system that uses some hefty amount of <a href=\"https:\/\/vuejs.org\/\">Vue.js<\/a> and a big bunch of custom logic.<\/li>\n<li>I\u2019m about to launch a site for a Devon-based charity that\u2019s a simple <a href=\"https:\/\/www.elegantthemes.com\/gallery\/divi\/\">Divi-based<\/a> WordPress brochure site. But I\u2019m excited because, effectively, I was the visual designer on this and it ACTUALLY LOOKS REALLY NICE!! (Or so I think)<\/li>\n<li>I have two other small Divi-based sites on the go for local organisations\/people. One involves some clever data manipulation and image migration\/import work.<\/li>\n<li>I have a WordPress plugin extension to write to enable custom postcode lookup functionality on a <a href=\"https:\/\/ninjaforms.com\/\">Ninja Form<\/a>.<\/li>\n<li>I\u2019m providing ad-hoc support to a number of clients &#8211; mostly WordPress stuff, but sometimes diving into UX, hosting, security, site migrations, domains and DNS, email deliverability, and general IT support.<\/li>\n<li>I\u2019m trying to get an important client email out about the new \u201c<a href=\"https:\/\/wordpress.org\/gutenberg\/\">Gutenberg<\/a>\u201d editor in WordPress (amongst other things) which needs me to edit a screencast video first.<\/li>\n<li>In my spare time I\u2019m building SchoolBot and <a href=\"https:\/\/blog.kownter.com\/about-kownter\/\">Kownter<\/a> as side projects (amongst other things that have fallen by the wayside), and trying to keep my \u201c<a href=\"https:\/\/press-ups.com\/\">Press Ups<\/a>\u201d video tutorials going too. Oh and there\u2019s (hugely unexciting secret WordPress project) happening too.<\/li>\n<li>Fielding whatever support, hosting, minor changes and prospective client queries come in on a day-to-day basis.<\/li>\n<\/ul>\n<p>So there we go&#8230;keeps me busy with family and household stuff around too!<\/p>\n",
-        "excerpt": "<p>I don\u2019t know if this is interesting, but maybe it gives some insight into the breadth of my work in a given week.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

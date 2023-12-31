@@ -1,6 +1,248 @@
 [
     {
         "dataAsArray": {
+            "id": 365,
+            "date": "2009-05-07T21:36:12",
+            "date_gmt": "2009-05-07T21:36:12",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=365"
+            },
+            "modified": "2009-05-07T21:36:12",
+            "modified_gmt": "2009-05-07T21:36:12",
+            "slug": "rush-hour",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/",
+            "title": {
+                "rendered": "Rush hour"
+            },
+            "content": {
+                "rendered": "<p>I confess, I&#8217;ve been using the car a bit lately.\u00a0 There are a few circumstances under which this happens and they&#8217;re less to do with weather than you might think.<\/p>\n<p>In fact, the main time I use the car is when I need to transport my laptop backwards and forward between work and home.\u00a0 But there are other cases too where using the car is, I&#8217;m afraid to say, more convenient and quicker.<\/p>\n<p>At least one of those reasons is not a reason at all.\u00a0 I suspect two of them are.<\/p>\n<p>Anyway, enough of my self-induced guilt trip.\u00a0 Today I had the car, and I was forced to drive through West Swindon in rush hour and I realise that I&#8217;ve stepped over a line. A line where my cycle commute is so ingrained that it feels more natural than driving to and from work.\u00a0 Being in a traffic jam feels truly alien, incrediby frustrating and just generally horrid.<\/p>\n<p>The difference is subtle.\u00a0 I&#8217;ve always known in my head that cycling is better, but today there was something more emotional and heartfelt, something more emotional about driving.<\/p>\n<p>It&#8217;s taken a surprisingly long time to achieve this &#8211; probably mostly because I&#8217;ve avoided rush hour on most occasions I&#8217;ve commuted by car.<\/p>\n<p>Today, I felt liberated from the car.<\/p>\n<p>Now, how to convince others to join me?<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I&#8217;ve always known in my head that cycling is better, but today there was something more emotional<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6
+            ],
+            "tags": [
+                41,
+                50,
+                572,
+                80
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Rush hour - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Rush hour - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;ve always known in my head that cycling is better, but today there was something more emotional\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2009-05-07T21:36:12+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/\",\"url\":\"https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/\",\"name\":\"Rush hour - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-05-07T21:36:12+00:00\",\"dateModified\":\"2009-05-07T21:36:12+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Rush hour\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Rush hour - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Rush hour - Ross Wintle",
+                "og_description": "I've always known in my head that cycling is better, but today there was something more emotional",
+                "og_url": "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2009-05-07T21:36:12+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/",
+                            "url": "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/",
+                            "name": "Rush hour - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2009-05-07T21:36:12+00:00",
+                            "dateModified": "2009-05-07T21:36:12+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Rush hour"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/365"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=365"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/365\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=365"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=365"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=365"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 365,
+        "dateGmt": "2009-05-07T21:36:12",
+        "modifiedDateGmt": "2009-05-07T21:36:12",
+        "slug": "rush-hour",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2009\/05\/rush-hour\/",
+        "title": "Rush hour",
+        "content": "<p>I confess, I&#8217;ve been using the car a bit lately.\u00a0 There are a few circumstances under which this happens and they&#8217;re less to do with weather than you might think.<\/p>\n<p>In fact, the main time I use the car is when I need to transport my laptop backwards and forward between work and home.\u00a0 But there are other cases too where using the car is, I&#8217;m afraid to say, more convenient and quicker.<\/p>\n<p>At least one of those reasons is not a reason at all.\u00a0 I suspect two of them are.<\/p>\n<p>Anyway, enough of my self-induced guilt trip.\u00a0 Today I had the car, and I was forced to drive through West Swindon in rush hour and I realise that I&#8217;ve stepped over a line. A line where my cycle commute is so ingrained that it feels more natural than driving to and from work.\u00a0 Being in a traffic jam feels truly alien, incrediby frustrating and just generally horrid.<\/p>\n<p>The difference is subtle.\u00a0 I&#8217;ve always known in my head that cycling is better, but today there was something more emotional and heartfelt, something more emotional about driving.<\/p>\n<p>It&#8217;s taken a surprisingly long time to achieve this &#8211; probably mostly because I&#8217;ve avoided rush hour on most occasions I&#8217;ve commuted by car.<\/p>\n<p>Today, I felt liberated from the car.<\/p>\n<p>Now, how to convince others to join me?<\/p>\n",
+        "excerpt": "<p>I&#8217;ve always known in my head that cycling is better, but today there was something more emotional<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 363,
             "date": "2009-05-07T21:21:39",
             "date_gmt": "2009-05-07T21:21:39",
@@ -2163,247 +2405,6 @@
         "title": "Not that far really&#8230;",
         "content": "<p>After February&#8217;s rather poor cycle mileage (mostly due to the snow that I&#8217;ve not written about yet), and with some determination to make a habit of extended commutes and regular &#8220;training&#8221; rides, I&#8217;ve decided to set myself <a title=\"My Goal over at MyCyclingLog.com\" href=\"http:\/\/www.mycyclinglog.com\/goal_detail.php?gid=1923\" target=\"_blank\">a goal<\/a>.<\/p>\n<p>I&#8217;m going to try to cycle 300 miles during the month of March!!<\/p>\n<p>On the one hand, this doesn&#8217;t seem like too much.  It&#8217;s a shade less than ten miles a day &#8211; and my standard commute is over 7 of those!  A few lunchtime rides here and there, some long rides home, and making sure I go out for 40 mins on Saturday and Sunday (or 80 mins on one weekend day).<\/p>\n<p>On the other hand, I&#8217;ve never done more than 250 miles in a month &#8211; and that was in Bike Week in June!<\/p>\n<p>I&#8217;ve made a good start with 35 miles in just 3 days (I didn&#8217;t cycle on the 1st). \u00a0But I suspect it will be hard to keep up.<\/p>\n<h3>A touch of Spring<\/h3>\n<p>Following on from the last post about spring, the weather has been a bit up and down, but today was beautiful for cycling and I grabbed a snap of part of my favourite 8.5 mile route. \u00a0Well worth going out of my way for, even if it was a few extra miles:<\/p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter\" title=\"Morning Cycling in March\" src=\"http:\/\/farm4.static.flickr.com\/3360\/3329265752_e90ab58aaf.jpg\" alt=\"\" width=\"500\" height=\"375\" \/><\/p>\n",
         "excerpt": "<p>After February&#8217;s rather poor cycle mileage (mostly due to the snow that I&#8217;ve not written about yet), and with some determination to make a habit of extended commutes and regular &#8220;training&#8221; rides, I&#8217;ve decided to set myself a goal.<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 317,
-            "date": "2009-03-02T22:46:29",
-            "date_gmt": "2009-03-02T22:46:29",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=317"
-            },
-            "modified": "2009-03-02T22:46:29",
-            "modified_gmt": "2009-03-02T22:46:29",
-            "slug": "spring-and-starlings",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/",
-            "title": {
-                "rendered": "Spring and Starlings"
-            },
-            "content": {
-                "rendered": "<p>It&#8217;s been a while since I got time to write and there&#8217;s lots on my mind.\u00a0 Hopefully some of it will appear in the coming days now there&#8217;s a bit of a break from work and other things.<\/p>\n<p>We&#8217;ve had a lot of snow (which I&#8217;ve mostly avoided writing about, but I have a few things stacked about that too!), but we&#8217;ve also just had a couple of really nice, sunny weekends.<\/p>\n<p>It&#8217;s still light at 5pm.\u00a0 There&#8217;s garlic poking its head out of the earth in our herb patch.\u00a0 I&#8217;m on the verge of wearing shorts for bike rides.\u00a0 It must be spring!<\/p>\n<p>AND, the migrating birds are back.<\/p>\n<p>In their THOUSANDS!<\/p>\n<p>We saw some massed swarming starlings on a BBC programme called &#8220;Swarm&#8221; recently.\u00a0 But I did&#8217;t think I&#8217;d see it in real life a few weeks later.<\/p>\n<p>The online video doesn&#8217;t do this amazing spectacle justice, the proper video barely does.\u00a0 Sally and I were transfixed by this for some time and the lack of sound on the video is testimony to our sense of awe.<\/p>\n<p>We sang in church last night &#8220;O Lord my God, when I in awesome wonder, consider all the works your hands have made&#8221;.\u00a0 Here&#8217;s some of that wonderful work in action:<\/p>\n<p><a href=\"http:\/\/picasaweb.google.com\/lh\/photo\/J7lGyVMfPICIk70CDV4y_g?authkey=Gv1sRgCJOo0oTbxtHaWw&amp;feat=embedwebsite\"><img decoding=\"async\" src=\"http:\/\/lh3.ggpht.com\/__353xnCqQbI\/SaxbmZd13BI\/AAAAAAAAF7Y\/kuL-sNfJ868\/s400\/MVI_1583.jpg\" alt=\"\" \/><\/a><\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>It&#8217;s still light at 5pm.  There&#8217;s garlic poking its head out of the earth in our herb patch.  I&#8217;m on the verge of wearing shorts for bike rides.  It must be&#8230;<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                9,
-                18
-            ],
-            "tags": [
-                32,
-                84,
-                155,
-                161,
-                175
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Spring and Starlings - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Spring and Starlings - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"It&#039;s still light at 5pm. There&#039;s garlic poking its head out of the earth in our herb patch. I&#039;m on the verge of wearing shorts for bike rides. It must be...\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2009-03-02T22:46:29+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/lh3.ggpht.com\/__353xnCqQbI\/SaxbmZd13BI\/AAAAAAAAF7Y\/kuL-sNfJ868\/s400\/MVI_1583.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/\",\"url\":\"https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/\",\"name\":\"Spring and Starlings - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-03-02T22:46:29+00:00\",\"dateModified\":\"2009-03-02T22:46:29+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Spring and Starlings\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Spring and Starlings - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Spring and Starlings - Ross Wintle",
-                "og_description": "It's still light at 5pm. There's garlic poking its head out of the earth in our herb patch. I'm on the verge of wearing shorts for bike rides. It must be...",
-                "og_url": "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2009-03-02T22:46:29+00:00",
-                "og_image": [
-                    {
-                        "url": "http:\/\/lh3.ggpht.com\/__353xnCqQbI\/SaxbmZd13BI\/AAAAAAAAF7Y\/kuL-sNfJ868\/s400\/MVI_1583.jpg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/",
-                            "url": "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/",
-                            "name": "Spring and Starlings - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2009-03-02T22:46:29+00:00",
-                            "dateModified": "2009-03-02T22:46:29+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Spring and Starlings"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/317"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=317"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/317\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=317"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=317"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=317"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 317,
-        "dateGmt": "2009-03-02T22:46:29",
-        "modifiedDateGmt": "2009-03-02T22:46:29",
-        "slug": "spring-and-starlings",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2009\/03\/spring-and-starlings\/",
-        "title": "Spring and Starlings",
-        "content": "<p>It&#8217;s been a while since I got time to write and there&#8217;s lots on my mind.\u00a0 Hopefully some of it will appear in the coming days now there&#8217;s a bit of a break from work and other things.<\/p>\n<p>We&#8217;ve had a lot of snow (which I&#8217;ve mostly avoided writing about, but I have a few things stacked about that too!), but we&#8217;ve also just had a couple of really nice, sunny weekends.<\/p>\n<p>It&#8217;s still light at 5pm.\u00a0 There&#8217;s garlic poking its head out of the earth in our herb patch.\u00a0 I&#8217;m on the verge of wearing shorts for bike rides.\u00a0 It must be spring!<\/p>\n<p>AND, the migrating birds are back.<\/p>\n<p>In their THOUSANDS!<\/p>\n<p>We saw some massed swarming starlings on a BBC programme called &#8220;Swarm&#8221; recently.\u00a0 But I did&#8217;t think I&#8217;d see it in real life a few weeks later.<\/p>\n<p>The online video doesn&#8217;t do this amazing spectacle justice, the proper video barely does.\u00a0 Sally and I were transfixed by this for some time and the lack of sound on the video is testimony to our sense of awe.<\/p>\n<p>We sang in church last night &#8220;O Lord my God, when I in awesome wonder, consider all the works your hands have made&#8221;.\u00a0 Here&#8217;s some of that wonderful work in action:<\/p>\n<p><a href=\"http:\/\/picasaweb.google.com\/lh\/photo\/J7lGyVMfPICIk70CDV4y_g?authkey=Gv1sRgCJOo0oTbxtHaWw&amp;feat=embedwebsite\"><img decoding=\"async\" src=\"http:\/\/lh3.ggpht.com\/__353xnCqQbI\/SaxbmZd13BI\/AAAAAAAAF7Y\/kuL-sNfJ868\/s400\/MVI_1583.jpg\" alt=\"\" \/><\/a><\/p>\n",
-        "excerpt": "<p>It&#8217;s still light at 5pm.  There&#8217;s garlic poking its head out of the earth in our herb patch.  I&#8217;m on the verge of wearing shorts for bike rides.  It must be&#8230;<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

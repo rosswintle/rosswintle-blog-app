@@ -1,6 +1,244 @@
 [
     {
         "dataAsArray": {
+            "id": 161,
+            "date": "2008-06-13T22:19:00",
+            "date_gmt": "2008-06-13T22:19:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/06\/13\/cycle-logs\/"
+            },
+            "modified": "2008-06-13T22:19:00",
+            "modified_gmt": "2008-06-13T22:19:00",
+            "slug": "cycle-logs",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/",
+            "title": {
+                "rendered": "Cycle Logs"
+            },
+            "content": {
+                "rendered": "<p>I&#8217;m strangely obsessed with tracking my cycle times!<\/p>\n<p>I think the whole blogging thing, and tracking my life in general, started last year when I wasn&#8217;t well and wanted to record some of what was going on so that I could spot trends and try to work out what was causing me to be ill, or what was causing me to be well.<\/p>\n<p>My sister has also been a bit of a role model for tracking fitness, I know she&#8217;s used various tools, electronic and paper, over the years to track her running alongside injuries, nutrition and other facts that are related.<\/p>\n<p>A while back I wrote about <a href=\"http:\/\/wintle.blogspot.com\/2008\/02\/online-cycling-tools.html\">where I store my routes.<\/a>  But I&#8217;ve recently been reviewing where I store my cycle logs too.  All prompted by <a href=\"http:\/\/www.twitter.com\/t1mmyb\">t1mmyb<\/a>&#8216;s little note on Twitter the other day.<\/p>\n<p>I started out using Google Docs for tracking my times in a simple online spreadsheet.  This was OK but when it started getting big and unmanagable I started looking for something better, and decided to stick with www.bikejournal.com.  It&#8217;s a bit clunky but did a good job.<\/p>\n<p>But Tim pointed me at www.mycyclinglog.com.  A fab site which is slick, fast, looks nice and does some interesting things.  It also allows you to have a &#8220;badge&#8221; that you can stick on your blog (look right and down), it integrates with Facebook, and has RSS feeds.  I love it and I was an almost instant convert.<\/p>\n<p>In fact, in an odd kind of way, it&#8217;s reinvigorated my waning passion for cycling.  Tracking your times makes you want to improve your times!  Perhaps having them on public display will make me want to do that all the more!!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I&#8217;m strangely obsessed with tracking my cycle times! I think the whole blogging thing, and tracking my life in general, started last year when I wasn&#8217;t well and wanted to record some of what was going on so that I could spot trends and try to work out what was causing me to be ill, [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6,
+                23
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Cycle Logs - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Cycle Logs - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;m strangely obsessed with tracking my cycle times! I think the whole blogging thing, and tracking my life in general, started last year when I wasn&#8217;t well and wanted to record some of what was going on so that I could spot trends and try to work out what was causing me to be ill, [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-06-13T22:19:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/\",\"name\":\"Cycle Logs - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-06-13T22:19:00+00:00\",\"dateModified\":\"2008-06-13T22:19:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cycle Logs\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Cycle Logs - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Cycle Logs - Ross Wintle",
+                "og_description": "I&#8217;m strangely obsessed with tracking my cycle times! I think the whole blogging thing, and tracking my life in general, started last year when I wasn&#8217;t well and wanted to record some of what was going on so that I could spot trends and try to work out what was causing me to be ill, [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2008-06-13T22:19:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/",
+                            "url": "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/",
+                            "name": "Cycle Logs - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2008-06-13T22:19:00+00:00",
+                            "dateModified": "2008-06-13T22:19:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Cycle Logs"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/161"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=161"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/161\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=161"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=161"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=161"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 161,
+        "dateGmt": "2008-06-13T22:19:00",
+        "modifiedDateGmt": "2008-06-13T22:19:00",
+        "slug": "cycle-logs",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2008\/06\/cycle-logs\/",
+        "title": "Cycle Logs",
+        "content": "<p>I&#8217;m strangely obsessed with tracking my cycle times!<\/p>\n<p>I think the whole blogging thing, and tracking my life in general, started last year when I wasn&#8217;t well and wanted to record some of what was going on so that I could spot trends and try to work out what was causing me to be ill, or what was causing me to be well.<\/p>\n<p>My sister has also been a bit of a role model for tracking fitness, I know she&#8217;s used various tools, electronic and paper, over the years to track her running alongside injuries, nutrition and other facts that are related.<\/p>\n<p>A while back I wrote about <a href=\"http:\/\/wintle.blogspot.com\/2008\/02\/online-cycling-tools.html\">where I store my routes.<\/a>  But I&#8217;ve recently been reviewing where I store my cycle logs too.  All prompted by <a href=\"http:\/\/www.twitter.com\/t1mmyb\">t1mmyb<\/a>&#8216;s little note on Twitter the other day.<\/p>\n<p>I started out using Google Docs for tracking my times in a simple online spreadsheet.  This was OK but when it started getting big and unmanagable I started looking for something better, and decided to stick with www.bikejournal.com.  It&#8217;s a bit clunky but did a good job.<\/p>\n<p>But Tim pointed me at www.mycyclinglog.com.  A fab site which is slick, fast, looks nice and does some interesting things.  It also allows you to have a &#8220;badge&#8221; that you can stick on your blog (look right and down), it integrates with Facebook, and has RSS feeds.  I love it and I was an almost instant convert.<\/p>\n<p>In fact, in an odd kind of way, it&#8217;s reinvigorated my waning passion for cycling.  Tracking your times makes you want to improve your times!  Perhaps having them on public display will make me want to do that all the more!!<\/p>\n",
+        "excerpt": "<p>I&#8217;m strangely obsessed with tracking my cycle times! I think the whole blogging thing, and tracking my life in general, started last year when I wasn&#8217;t well and wanted to record some of what was going on so that I could spot trends and try to work out what was causing me to be ill, [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 160,
             "date": "2008-06-01T11:45:00",
             "date_gmt": "2008-06-01T11:45:00",
@@ -2127,243 +2365,6 @@
         "title": "Fixing the Felt and Rediscovering the Raleigh",
         "content": "<p>One of my favourite films is Pixar&#8217;s Toy Story&#8230;the first all-CGI feature-length movie, and a very cool buddy story.  I&#8217;m assuming knowledge of the story here so please forgive me if you&#8217;ve not seen it (and GO see it!).<\/p>\n<p>I&#8217;m having a bit of a Toy Story moment.  My old Raleigh bike (who I&#8217;ve taken to calling &#8220;Walter&#8221;) hasn&#8217;t been used much lately.  When Fuzzy (my road bike) came along he was so superior in so many ways that Walter got a bit forgotten about.  Walter is, if you like, my &#8220;Woody&#8221;, and Fuzzy is my &#8220;Buzz Lightyear&#8221;.<\/p>\n<p>But this week, Fuzzy got a flat.  Not on the road, he got cut up by some glass on the garden path.  Still, it was a busy week and I didn&#8217;t have the time to get it fixed proper.  So I took to riding the Raleigh to work for a couple of days.<\/p>\n<p>And, you know what, he&#8217;s not so bad after all.  He&#8217;s a work horse.  Solid.  Dependable.  A bit rough around the edges, but he&#8217;s there when I need him.  OK, so he&#8217;s a bit uncool, but he&#8217;s done more than 1500 miles in 18 months.  When Fuzzy has problems, I&#8217;ll need Walter.<\/p>\n<p>And so to fixing the flat.  This should be bicycle maintenance 101.  It&#8217;s the first thing you learn to do right?  It&#8217;s EASY.  A kid could do it.<\/p>\n<p>So can I just say&#8230;a kid could NOT do it with a road bike!  Those things are so darn fiddly, the beading&#8217;s so tight.  It&#8217;s really hard!<\/p>\n<p>Anyway, I fixed the flat mid-week but found a half-inch gash in the front tyre where the glass had got through so I bought two new tyres (700-25 Continental Gatorskins if you must know) and fitted them both today.  That&#8217;s three tyre changes in a week &#8211; I&#8217;m getting pretty good at them now despite the difficulty level!  Yet to give them a good ride but will be interesting to see how the bike handles with different rubber.<\/p>\n<p>Fuzzy also got a good and much needed clean, degrease and lube today.  The Raleigh is the workhorse, but the Felt is my slick, lean, fast machine and he still gets much more attention.<\/p>\n<p>To infinity and beyond anyone?<\/p>\n",
         "excerpt": "<p>One of my favourite films is Pixar&#8217;s Toy Story&#8230;the first all-CGI feature-length movie, and a very cool buddy story. I&#8217;m assuming knowledge of the story here so please forgive me if you&#8217;ve not seen it (and GO see it!). I&#8217;m having a bit of a Toy Story moment. My old Raleigh bike (who I&#8217;ve taken [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 151,
-            "date": "2008-05-01T19:52:00",
-            "date_gmt": "2008-05-01T19:52:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/05\/01\/local-elections\/"
-            },
-            "modified": "2008-05-01T19:52:00",
-            "modified_gmt": "2008-05-01T19:52:00",
-            "slug": "local-elections",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/",
-            "title": {
-                "rendered": "Local Elections"
-            },
-            "content": {
-                "rendered": "<p>I&#8217;m a bit of a political animal.  Not very much but a bit.  I think politics is important and I think we should all be involved in the political process so I try to do my bit by taking an interest, writing to my MP about issues that concern me and&#8230;very importantly&#8230;voting!<\/p>\n<p>Today is local election day in our little neck of the woods.  I did go and vote &#8211; I won&#8217;t say for whom, but I WILL say that I was VERY close to spoiling my paper.  Why?<\/p>\n<p>The run up to our election has seen a little paper battle going on.  First, a very good leaflet from the Tory guy.  A positive leaflet outlining what he do and with very little mocking of his Labour opponent.<\/p>\n<p>In reply came a Labour leaflet that contained nothing positive at all, just 10 reasons not to vote for the Tory guy.  Frankly this made the Labour guy look like an arse.  In reply to that came another positive Tory leaflet which made a point of the fact that it was positive and not belittling of the Labour guy.<\/p>\n<p>Ironically, both the Tory and the Labour candidates seem to want the same things, not many of which I think are particularly important.  We had no publicity from any of the other three candidates.<\/p>\n<p>So who to vote for.  On the face of it, the Tory guy wins my vote for presenting a positive agenda, but I don&#8217;t like Tory values.  The Labour guy lost my vote with his first leaflet.  The Lib Dem guys lives miles away from the area.  UKIP&#8230;need I say more.  Oh and there was a random independent candidate who could have been anyone.<\/p>\n<p>My choice remains secret.  My dissatisfaction with the political process does not.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;m a bit of a political animal. Not very much but a bit. I think politics is important and I think we should all be involved in the political process so I try to do my bit by taking an interest, writing to my MP about issues that concern me and&#8230;very importantly&#8230;voting! Today is local [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                19
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Local Elections - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/05\/local-elections\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Local Elections - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;m a bit of a political animal. Not very much but a bit. I think politics is important and I think we should all be involved in the political process so I try to do my bit by taking an interest, writing to my MP about issues that concern me and&#8230;very importantly&#8230;voting! Today is local [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/05\/local-elections\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-05-01T19:52:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/05\/local-elections\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/05\/local-elections\/\",\"name\":\"Local Elections - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-05-01T19:52:00+00:00\",\"dateModified\":\"2008-05-01T19:52:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/05\/local-elections\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/05\/local-elections\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/05\/local-elections\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Local Elections\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Local Elections - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Local Elections - Ross Wintle",
-                "og_description": "I&#8217;m a bit of a political animal. Not very much but a bit. I think politics is important and I think we should all be involved in the political process so I try to do my bit by taking an interest, writing to my MP about issues that concern me and&#8230;very importantly&#8230;voting! Today is local [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2008-05-01T19:52:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/",
-                            "url": "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/",
-                            "name": "Local Elections - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2008-05-01T19:52:00+00:00",
-                            "dateModified": "2008-05-01T19:52:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Local Elections"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/151"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=151"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/151\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=151"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=151"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=151"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 151,
-        "dateGmt": "2008-05-01T19:52:00",
-        "modifiedDateGmt": "2008-05-01T19:52:00",
-        "slug": "local-elections",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2008\/05\/local-elections\/",
-        "title": "Local Elections",
-        "content": "<p>I&#8217;m a bit of a political animal.  Not very much but a bit.  I think politics is important and I think we should all be involved in the political process so I try to do my bit by taking an interest, writing to my MP about issues that concern me and&#8230;very importantly&#8230;voting!<\/p>\n<p>Today is local election day in our little neck of the woods.  I did go and vote &#8211; I won&#8217;t say for whom, but I WILL say that I was VERY close to spoiling my paper.  Why?<\/p>\n<p>The run up to our election has seen a little paper battle going on.  First, a very good leaflet from the Tory guy.  A positive leaflet outlining what he do and with very little mocking of his Labour opponent.<\/p>\n<p>In reply came a Labour leaflet that contained nothing positive at all, just 10 reasons not to vote for the Tory guy.  Frankly this made the Labour guy look like an arse.  In reply to that came another positive Tory leaflet which made a point of the fact that it was positive and not belittling of the Labour guy.<\/p>\n<p>Ironically, both the Tory and the Labour candidates seem to want the same things, not many of which I think are particularly important.  We had no publicity from any of the other three candidates.<\/p>\n<p>So who to vote for.  On the face of it, the Tory guy wins my vote for presenting a positive agenda, but I don&#8217;t like Tory values.  The Labour guy lost my vote with his first leaflet.  The Lib Dem guys lives miles away from the area.  UKIP&#8230;need I say more.  Oh and there was a random independent candidate who could have been anyone.<\/p>\n<p>My choice remains secret.  My dissatisfaction with the political process does not.<\/p>\n",
-        "excerpt": "<p>I&#8217;m a bit of a political animal. Not very much but a bit. I think politics is important and I think we should all be involved in the political process so I try to do my bit by taking an interest, writing to my MP about issues that concern me and&#8230;very importantly&#8230;voting! Today is local [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

@@ -1,6 +1,258 @@
 [
     {
         "dataAsArray": {
+            "id": 10108,
+            "date": "2021-04-12T20:50:52",
+            "date_gmt": "2021-04-12T19:50:52",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=10108"
+            },
+            "modified": "2021-04-12T20:56:58",
+            "modified_gmt": "2021-04-12T19:56:58",
+            "slug": "tweet-finder-twitter-advanced-search",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/",
+            "title": {
+                "rendered": "Mini Project: Tweet Finder &#8211; Twitter Advanced Search"
+            },
+            "content": {
+                "rendered": "\n<p><em>How and why I made <a href=\"https:\/\/tweet-finder.veryuseful.app\/\">a simple interface for Twitter&#8217;s advanced search<\/a>.<\/em><\/p>\n\n\n\n<p>This has been on my mind for ages.<\/p>\n\n\n\n<p>I often search for Tweets that I remember seeing. And Twitter has this advanced search that lets you search Tweets from and to specific users, on or between specific dates, mentioning specific users or hashtags, and some other things.<\/p>\n\n\n\n<p>This advanced search is hard to get to: you need to do a simple search, and then click the settings dots, and then select &#8220;Advanced search&#8221; and THEN you get a pop up with the options.<\/p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Twitter Advanced Search - getting to it!\" src=\"https:\/\/player.vimeo.com\/video\/536005074?dnt=1&amp;app_id=122963\" width=\"640\" height=\"373\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>So it&#8217;s hard to get to. But it&#8217;s also hard to use.<\/p>\n\n\n\n<ul><li>I have to think twice about whether or not usernames need @&#8217;s before them;<\/li><li>once you&#8217;ve done a search, it defaults to &#8220;Top&#8221; Tweets, which i rarely want;<\/li><li>the options pop-up resets itself so refining your search is tricky.<\/li><\/ul>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Advanced Twitter Search - weird options experience\" src=\"https:\/\/player.vimeo.com\/video\/536009269?dnt=1&amp;app_id=122963\" width=\"640\" height=\"373\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>So I&#8217;ve had this idea for a while that someone could probably pretty easily figure out how the parameters are sent to Twitter&#8217;s search page and create a simpler interface.<\/p>\n\n\n\n<p>And, though I&#8217;m sure someone must have done it before, that&#8217;s exactly what I did.<\/p>\n\n\n\n<p>I&#8217;ve started with the options I use most. Condensed the search query into a single field with explainer, and added &#8220;from account&#8221; and &#8220;to account&#8221;. This covers quite a lot of bases:<\/p>\n\n\n\n<ul><li>Find that Tweet I sent about&#8230;<\/li><li>Find that Tweet I sent to @specific_person about&#8230;<\/li><li>Find that Tweet someone sent to me about&#8230;<\/li><li>Find that Tweet the @specifc_person sent to me about&#8230;<\/li><li>Find that recent conversation I had with @specific_person<\/li><\/ul>\n\n\n\n<p>I figured out the parameters, created a form, gave it some styling and shoved it online using <a href=\"https:\/\/netlify.com\/\">Netlify<\/a> &#8211; it&#8217;s only a single HTML file and some Tailwind styles so static hosting is fine.<\/p>\n\n\n\n<p>Try it at <a href=\"https:\/\/tweet-finder.veryuseful.app\/\">https:\/\/tweet-finder.veryuseful.app\/<\/a><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Creator notes<\/h2>\n\n\n\n<p>Creating the form was pretty simple.<\/p>\n\n\n\n<p>I had to use a bit of vanilla JavaScript to improve the experience: adding @&#8217;s to usernames where they aren&#8217;t provided so that you don&#8217;t have to think about it and compiling the form data into a query string.<\/p>\n\n\n\n<p>When it came to styling, it was total overkill, but I wanted to see how easy it was to add TailwindCSS to such a simple project.<\/p>\n\n\n\n<p>Initially I got confused by <a href=\"https:\/\/tailwindcss.com\/docs\/installation\">the documentation<\/a> which very much assumes you&#8217;re already using a framework or build tool, or otherwise have PostCSS in a toolchain somehow.<\/p>\n\n\n\n<p>I was about to give up but eventually found the &#8220;<a href=\"https:\/\/tailwindcss.com\/docs\/installation#using-tailwind-without-post-css\">Using Tailwind without PostCSS<\/a>&#8221; section. This is really not that hard to find but for some reason I ignored it the first time I read through. Maybe I thought this was about the &#8220;include vast amounts of CSS using <a href=\"https:\/\/tailwindcss.com\/docs\/installation#using-tailwind-via-cdn\">the CDN version<\/a>&#8221; approach? Not sure.<\/p>\n\n\n\n<p>Anyway, with a simple <code>npx<\/code> command (once you&#8217;ve got node and everything sorted out) you can get going.<\/p>\n\n\n\n<p>I wanted to use <a href=\"https:\/\/github.com\/tailwindlabs\/tailwindcss-forms\">the forms plugin<\/a> so I had to <a href=\"https:\/\/tailwindcss.com\/docs\/installation#customizing-your-configuration\">init myself a Tailwind config file<\/a>, create a <a href=\"https:\/\/github.com\/rosswintle\/tweet-finder\/blob\/main\/src\/tailwind.css\">boilerplate custom CSS file<\/a>, create a <code>package.json<\/code> (did the <code>npx<\/code> command do this for me?) and add <code>@tailwindcss\/forms<\/code> to it as a dependency.<\/p>\n\n\n\n<p>Suddenly I was doing a lot, and I now had custom build commands to remember, so I added these to my <code>package.json<\/code> too:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; title: ; notranslate\" title=\"\">\n&quot;scripts&quot;: {\n    &quot;build&quot;: &quot;npx tailwindcss-cli@latest build .\/src\/tailwind.css -o .\/dist\/tailwind.css&quot;,\n    &quot;prod&quot;: &quot;NODE_ENV=production npx tailwindcss-cli@latest build .\/src\/tailwind.css -o .\/dist\/tailwind.css&quot;\n  },\n<\/pre><\/div>\n\n\n<p>So I can now <code>npm run build<\/code> or <code>npm run prod<\/code> to get what I need.<\/p>\n\n\n\n<p>I don&#8217;t have a hot-reloading dev environment or anything, but don&#8217;t really need that for this single-page HTML thing.<\/p>\n\n\n\n<p>And yes, let me say it again, Tailwind IS overkill, and it&#8217;s technical debt, and I&#8217;m generally against build processes for simple websites, but, hey, we learned some stuff, right! That was the aim.<\/p>\n\n\n\n<p>You can see <a href=\"https:\/\/github.com\/rosswintle\/tweet-finder\/\">the code on GitHub<\/a>.<\/p>\n\n\n\n<p>And dont forget to use the search at <a href=\"https:\/\/tweet-finder.veryuseful.app\/\">tweet-finder.veryuseful.app<\/a> !<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>How and why I made a simple interface for Twitter&#8217;s advanced search.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 10114,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23
+            ],
+            "tags": [
+                286,
+                5062,
+                5063,
+                5061,
+                172
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Mini Project: Tweet Finder - Twitter Advanced Search - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Mini Project: Tweet Finder - Twitter Advanced Search - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"How and why I made a simple interface for Twitter&#039;s advanced search.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2021-04-12T19:50:52+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-04-12T19:56:58+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-12-at-20.54.07@2x.png\" \/>\n\t<meta property=\"og:image:width\" content=\"1422\" \/>\n\t<meta property=\"og:image:height\" content=\"1396\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/\",\"url\":\"https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/\",\"name\":\"Mini Project: Tweet Finder - Twitter Advanced Search - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2021-04-12T19:50:52+00:00\",\"dateModified\":\"2021-04-12T19:56:58+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Mini Project: Tweet Finder &#8211; Twitter Advanced Search\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Mini Project: Tweet Finder - Twitter Advanced Search - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Mini Project: Tweet Finder - Twitter Advanced Search - Ross Wintle",
+                "og_description": "How and why I made a simple interface for Twitter's advanced search.",
+                "og_url": "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2021-04-12T19:50:52+00:00",
+                "article_modified_time": "2021-04-12T19:56:58+00:00",
+                "og_image": [
+                    {
+                        "width": 1422,
+                        "height": 1396,
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-12-at-20.54.07@2x.png",
+                        "type": "image\/png"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "3 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/",
+                            "url": "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/",
+                            "name": "Mini Project: Tweet Finder - Twitter Advanced Search - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2021-04-12T19:50:52+00:00",
+                            "dateModified": "2021-04-12T19:56:58+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Mini Project: Tweet Finder &#8211; Twitter Advanced Search"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10108"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=10108"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 5,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10108\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 10113,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10108\/revisions\/10113"
+                    }
+                ],
+                "wp:featuredmedia": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/10114"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=10108"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=10108"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=10108"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 10108,
+        "dateGmt": "2021-04-12T19:50:52",
+        "modifiedDateGmt": "2021-04-12T19:56:58",
+        "slug": "tweet-finder-twitter-advanced-search",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2021\/04\/tweet-finder-twitter-advanced-search\/",
+        "title": "Mini Project: Tweet Finder &#8211; Twitter Advanced Search",
+        "content": "\n<p><em>How and why I made <a href=\"https:\/\/tweet-finder.veryuseful.app\/\">a simple interface for Twitter&#8217;s advanced search<\/a>.<\/em><\/p>\n\n\n\n<p>This has been on my mind for ages.<\/p>\n\n\n\n<p>I often search for Tweets that I remember seeing. And Twitter has this advanced search that lets you search Tweets from and to specific users, on or between specific dates, mentioning specific users or hashtags, and some other things.<\/p>\n\n\n\n<p>This advanced search is hard to get to: you need to do a simple search, and then click the settings dots, and then select &#8220;Advanced search&#8221; and THEN you get a pop up with the options.<\/p>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Twitter Advanced Search - getting to it!\" src=\"https:\/\/player.vimeo.com\/video\/536005074?dnt=1&amp;app_id=122963\" width=\"640\" height=\"373\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>So it&#8217;s hard to get to. But it&#8217;s also hard to use.<\/p>\n\n\n\n<ul><li>I have to think twice about whether or not usernames need @&#8217;s before them;<\/li><li>once you&#8217;ve done a search, it defaults to &#8220;Top&#8221; Tweets, which i rarely want;<\/li><li>the options pop-up resets itself so refining your search is tricky.<\/li><\/ul>\n\n\n\n<figure class=\"wp-block-embed is-type-video is-provider-vimeo wp-block-embed-vimeo\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Advanced Twitter Search - weird options experience\" src=\"https:\/\/player.vimeo.com\/video\/536009269?dnt=1&amp;app_id=122963\" width=\"640\" height=\"373\" frameborder=\"0\" allow=\"autoplay; fullscreen; picture-in-picture\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>So I&#8217;ve had this idea for a while that someone could probably pretty easily figure out how the parameters are sent to Twitter&#8217;s search page and create a simpler interface.<\/p>\n\n\n\n<p>And, though I&#8217;m sure someone must have done it before, that&#8217;s exactly what I did.<\/p>\n\n\n\n<p>I&#8217;ve started with the options I use most. Condensed the search query into a single field with explainer, and added &#8220;from account&#8221; and &#8220;to account&#8221;. This covers quite a lot of bases:<\/p>\n\n\n\n<ul><li>Find that Tweet I sent about&#8230;<\/li><li>Find that Tweet I sent to @specific_person about&#8230;<\/li><li>Find that Tweet someone sent to me about&#8230;<\/li><li>Find that Tweet the @specifc_person sent to me about&#8230;<\/li><li>Find that recent conversation I had with @specific_person<\/li><\/ul>\n\n\n\n<p>I figured out the parameters, created a form, gave it some styling and shoved it online using <a href=\"https:\/\/netlify.com\/\">Netlify<\/a> &#8211; it&#8217;s only a single HTML file and some Tailwind styles so static hosting is fine.<\/p>\n\n\n\n<p>Try it at <a href=\"https:\/\/tweet-finder.veryuseful.app\/\">https:\/\/tweet-finder.veryuseful.app\/<\/a><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Creator notes<\/h2>\n\n\n\n<p>Creating the form was pretty simple.<\/p>\n\n\n\n<p>I had to use a bit of vanilla JavaScript to improve the experience: adding @&#8217;s to usernames where they aren&#8217;t provided so that you don&#8217;t have to think about it and compiling the form data into a query string.<\/p>\n\n\n\n<p>When it came to styling, it was total overkill, but I wanted to see how easy it was to add TailwindCSS to such a simple project.<\/p>\n\n\n\n<p>Initially I got confused by <a href=\"https:\/\/tailwindcss.com\/docs\/installation\">the documentation<\/a> which very much assumes you&#8217;re already using a framework or build tool, or otherwise have PostCSS in a toolchain somehow.<\/p>\n\n\n\n<p>I was about to give up but eventually found the &#8220;<a href=\"https:\/\/tailwindcss.com\/docs\/installation#using-tailwind-without-post-css\">Using Tailwind without PostCSS<\/a>&#8221; section. This is really not that hard to find but for some reason I ignored it the first time I read through. Maybe I thought this was about the &#8220;include vast amounts of CSS using <a href=\"https:\/\/tailwindcss.com\/docs\/installation#using-tailwind-via-cdn\">the CDN version<\/a>&#8221; approach? Not sure.<\/p>\n\n\n\n<p>Anyway, with a simple <code>npx<\/code> command (once you&#8217;ve got node and everything sorted out) you can get going.<\/p>\n\n\n\n<p>I wanted to use <a href=\"https:\/\/github.com\/tailwindlabs\/tailwindcss-forms\">the forms plugin<\/a> so I had to <a href=\"https:\/\/tailwindcss.com\/docs\/installation#customizing-your-configuration\">init myself a Tailwind config file<\/a>, create a <a href=\"https:\/\/github.com\/rosswintle\/tweet-finder\/blob\/main\/src\/tailwind.css\">boilerplate custom CSS file<\/a>, create a <code>package.json<\/code> (did the <code>npx<\/code> command do this for me?) and add <code>@tailwindcss\/forms<\/code> to it as a dependency.<\/p>\n\n\n\n<p>Suddenly I was doing a lot, and I now had custom build commands to remember, so I added these to my <code>package.json<\/code> too:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; title: ; notranslate\" title=\"\">\n&quot;scripts&quot;: {\n    &quot;build&quot;: &quot;npx tailwindcss-cli@latest build .\/src\/tailwind.css -o .\/dist\/tailwind.css&quot;,\n    &quot;prod&quot;: &quot;NODE_ENV=production npx tailwindcss-cli@latest build .\/src\/tailwind.css -o .\/dist\/tailwind.css&quot;\n  },\n<\/pre><\/div>\n\n\n<p>So I can now <code>npm run build<\/code> or <code>npm run prod<\/code> to get what I need.<\/p>\n\n\n\n<p>I don&#8217;t have a hot-reloading dev environment or anything, but don&#8217;t really need that for this single-page HTML thing.<\/p>\n\n\n\n<p>And yes, let me say it again, Tailwind IS overkill, and it&#8217;s technical debt, and I&#8217;m generally against build processes for simple websites, but, hey, we learned some stuff, right! That was the aim.<\/p>\n\n\n\n<p>You can see <a href=\"https:\/\/github.com\/rosswintle\/tweet-finder\/\">the code on GitHub<\/a>.<\/p>\n\n\n\n<p>And dont forget to use the search at <a href=\"https:\/\/tweet-finder.veryuseful.app\/\">tweet-finder.veryuseful.app<\/a> !<\/p>\n",
+        "excerpt": "<p>How and why I made a simple interface for Twitter&#8217;s advanced search.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 10114
+    },
+    {
+        "dataAsArray": {
             "id": 10103,
             "date": "2021-04-12T19:22:50",
             "date_gmt": "2021-04-12T18:22:50",
@@ -2192,252 +2444,6 @@
         "excerpt": "<p>Follow up &#8211; day 3! So, overall I&#8217;m pretty happy with the 8GB M1 Air. Outstanding issues I have are: ScreenFlow and some Rogue Amoeba audio apps don&#8217;t work &#8211; I guess these are doing some clever low-level stuff. I&#8217;m having issues importing my MySQL databases from backup. This is not really an M1 specific [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 9546,
-            "date": "2020-09-23T12:05:45",
-            "date_gmt": "2020-09-23T11:05:45",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=9546"
-            },
-            "modified": "2020-09-23T12:05:48",
-            "modified_gmt": "2020-09-23T11:05:48",
-            "slug": "custom-woocommerce-checkout-fields",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/",
-            "title": {
-                "rendered": "Custom WooCommerce Checkout Fields"
-            },
-            "content": {
-                "rendered": "\n<p>I have a confession: despite being a WordPress developer since 2010, I&#8217;ve rarely used WooCommerce! Where I have I&#8217;ve only done the very basics. And now I&#8217;m knee deep in a custom WooCommerce project with a lot to figure out.<\/p>\n\n\n\n<p>Creating custom fields on the checkout was a particular area of confusion. Here&#8217;s what I needed:<\/p>\n\n\n\n<ul><li>A bunch of custom fields&#8230;<\/li><li>with conditional logic (i.e. some fields are only sometimes visible depending on values of other fields)&#8230;<\/li><li>that save in the order (and get displayed in the back-end order screen, and, potentially, in emails)&#8230;<\/li><li>and that can be passed to MailChimp &#8211; again, conditionally, based on the values of some fields.<\/li><\/ul>\n\n\n\n<p>The logic is something like:<\/p>\n\n\n\n<ul><li>Ask if a user is over 18.<\/li><li>If they are collect their year of birth and send it to MailChimp as part of the ordering process.<\/li><li>If they aren&#8217;t collect their date of birth, and only let them order if they are over 13, and send the date of birth to MailChimp as part of the ordering process.<\/li><\/ul>\n\n\n\n<p>Initially I was thinking that I could do this with some custom fields plugin maybe? But I consulted with some expert friends and they encouraged me to code this myself. Which, for this application with two interacting integrations (custom fields and MailChimp) and the conditional logic and stuff was probably a good idea. Bullying off-the-shelf plugins into doing this was never going to work.<\/p>\n\n\n\n<p>It turns out that WooCommerce has <a href=\"https:\/\/docs.woocommerce.com\/document\/tutorial-customising-checkout-fields-using-actions-and-filters\/\">a pretty good guide<\/a> to doing most of this. And they have REALLY EXTENSIVE <a href=\"https:\/\/docs.woocommerce.com\/document\/introduction-to-hooks-actions-and-filters\/\">action and filter hooks<\/a> &#8211; so much so that it&#8217;s hard to know what you should be hooking into.<\/p>\n\n\n\n<p>There was one thing that tripped me up along the way though. I was trying to write some JavaScript to work on some markup that was added with the <code>woocommerce_checkout_before_terms_and_conditions<\/code> hook, just above the button to make the purchase.<\/p>\n\n\n\n<p>Any event handlers added to input in this area were inactive. It was like WooCommerce was removing them or intercepting them somehow, and despite <a href=\"https:\/\/github.com\/woocommerce\/woocommerce\/blob\/4dd42309315b8938beb47b3e877d0ae8dc56db83\/assets\/js\/frontend\/checkout.js#L247\">source-diving<\/a> a little I&#8217;ve still not quite figured out what it was doing.<\/p>\n\n\n\n<p>I think that every time the cart updates via AJAX on the checkout page, the HTML elements are re-created. And there is an update when the page first loads. So any event handlers I added during page initialisation were immediately overridden or remvoed.<\/p>\n\n\n\n<p>The solution was to add my event handlers when the <code>updated_checkout<\/code> event fired in JavaScript. This ensured that after the checkout update, my handlers were added to the elements.<\/p>\n\n\n\n<p>Phew!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Some things I learned on my first in-depth WooCommerce build. Including how to do JavaScript logic on elements in the cart\/price totals on the checkout page.<\/p>\n",
-                "protected": false
-            },
-            "author": 3,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                23,
-                639
-            ],
-            "tags": [
-                286,
-                4997,
-                4996,
-                462
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Custom WooCommerce Checkout Fields - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Custom WooCommerce Checkout Fields - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some things I learned on my first in-depth WooCommerce build. Including how to do JavaScript logic on elements in the cart\/price totals on the checkout page.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2020-09-23T11:05:45+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-09-23T11:05:48+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle (Oikos)\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle (Oikos)\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/\",\"url\":\"https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/\",\"name\":\"Custom WooCommerce Checkout Fields - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2020-09-23T11:05:45+00:00\",\"dateModified\":\"2020-09-23T11:05:48+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Custom WooCommerce Checkout Fields\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0\",\"name\":\"Ross Wintle (Oikos)\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle (Oikos)\"},\"url\":\"https:\/\/rosswintle.uk\/author\/ross-oikos\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Custom WooCommerce Checkout Fields - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Custom WooCommerce Checkout Fields - Ross Wintle",
-                "og_description": "Some things I learned on my first in-depth WooCommerce build. Including how to do JavaScript logic on elements in the cart\/price totals on the checkout page.",
-                "og_url": "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2020-09-23T11:05:45+00:00",
-                "article_modified_time": "2020-09-23T11:05:48+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle (Oikos)",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle (Oikos)",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/",
-                            "url": "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/",
-                            "name": "Custom WooCommerce Checkout Fields - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2020-09-23T11:05:45+00:00",
-                            "dateModified": "2020-09-23T11:05:48+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Custom WooCommerce Checkout Fields"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0",
-                            "name": "Ross Wintle (Oikos)",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle (Oikos)"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/ross-oikos\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9546"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/3"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=9546"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 1,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9546\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 9550,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9546\/revisions\/9550"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=9546"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=9546"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=9546"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 9546,
-        "dateGmt": "2020-09-23T11:05:45",
-        "modifiedDateGmt": "2020-09-23T11:05:48",
-        "slug": "custom-woocommerce-checkout-fields",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2020\/09\/custom-woocommerce-checkout-fields\/",
-        "title": "Custom WooCommerce Checkout Fields",
-        "content": "\n<p>I have a confession: despite being a WordPress developer since 2010, I&#8217;ve rarely used WooCommerce! Where I have I&#8217;ve only done the very basics. And now I&#8217;m knee deep in a custom WooCommerce project with a lot to figure out.<\/p>\n\n\n\n<p>Creating custom fields on the checkout was a particular area of confusion. Here&#8217;s what I needed:<\/p>\n\n\n\n<ul><li>A bunch of custom fields&#8230;<\/li><li>with conditional logic (i.e. some fields are only sometimes visible depending on values of other fields)&#8230;<\/li><li>that save in the order (and get displayed in the back-end order screen, and, potentially, in emails)&#8230;<\/li><li>and that can be passed to MailChimp &#8211; again, conditionally, based on the values of some fields.<\/li><\/ul>\n\n\n\n<p>The logic is something like:<\/p>\n\n\n\n<ul><li>Ask if a user is over 18.<\/li><li>If they are collect their year of birth and send it to MailChimp as part of the ordering process.<\/li><li>If they aren&#8217;t collect their date of birth, and only let them order if they are over 13, and send the date of birth to MailChimp as part of the ordering process.<\/li><\/ul>\n\n\n\n<p>Initially I was thinking that I could do this with some custom fields plugin maybe? But I consulted with some expert friends and they encouraged me to code this myself. Which, for this application with two interacting integrations (custom fields and MailChimp) and the conditional logic and stuff was probably a good idea. Bullying off-the-shelf plugins into doing this was never going to work.<\/p>\n\n\n\n<p>It turns out that WooCommerce has <a href=\"https:\/\/docs.woocommerce.com\/document\/tutorial-customising-checkout-fields-using-actions-and-filters\/\">a pretty good guide<\/a> to doing most of this. And they have REALLY EXTENSIVE <a href=\"https:\/\/docs.woocommerce.com\/document\/introduction-to-hooks-actions-and-filters\/\">action and filter hooks<\/a> &#8211; so much so that it&#8217;s hard to know what you should be hooking into.<\/p>\n\n\n\n<p>There was one thing that tripped me up along the way though. I was trying to write some JavaScript to work on some markup that was added with the <code>woocommerce_checkout_before_terms_and_conditions<\/code> hook, just above the button to make the purchase.<\/p>\n\n\n\n<p>Any event handlers added to input in this area were inactive. It was like WooCommerce was removing them or intercepting them somehow, and despite <a href=\"https:\/\/github.com\/woocommerce\/woocommerce\/blob\/4dd42309315b8938beb47b3e877d0ae8dc56db83\/assets\/js\/frontend\/checkout.js#L247\">source-diving<\/a> a little I&#8217;ve still not quite figured out what it was doing.<\/p>\n\n\n\n<p>I think that every time the cart updates via AJAX on the checkout page, the HTML elements are re-created. And there is an update when the page first loads. So any event handlers I added during page initialisation were immediately overridden or remvoed.<\/p>\n\n\n\n<p>The solution was to add my event handlers when the <code>updated_checkout<\/code> event fired in JavaScript. This ensured that after the checkout update, my handlers were added to the elements.<\/p>\n\n\n\n<p>Phew!<\/p>\n",
-        "excerpt": "<p>Some things I learned on my first in-depth WooCommerce build. Including how to do JavaScript logic on elements in the cart\/price totals on the checkout page.<\/p>\n",
-        "parentId": 0,
-        "authorId": 3,
         "featuredMediaId": 0
     }
 ]

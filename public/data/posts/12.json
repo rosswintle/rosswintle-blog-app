@@ -1,6 +1,253 @@
 [
     {
         "dataAsArray": {
+            "id": 8311,
+            "date": "2019-05-09T12:50:20",
+            "date_gmt": "2019-05-09T11:50:20",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=8311"
+            },
+            "modified": "2019-05-09T12:50:26",
+            "modified_gmt": "2019-05-09T11:50:26",
+            "slug": "laravel-being-explicit-in-authorization-policies",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/",
+            "title": {
+                "rendered": "Laravel: Being explicit in authorization policies"
+            },
+            "content": {
+                "rendered": "\n<p>I&#8217;m working on a Laravel application right now and I got myself in a bit of a tangle about authorization policies because of an undocumented way of using them.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Overview of policies<\/h2>\n\n\n\n<p>In Laravel, Policies are a way of specifying who can take particular actions. In this application we are using resource controllers (with typical resource methods like <code>index<\/code>, <code>create<\/code>, <code>store<\/code>, etc) and manually authorizing in the controllers using the controller helper method described in <a href=\"https:\/\/laravel.com\/docs\/5.8\/authorization#via-controller-helpers\">the documentation<\/a>.<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n$this-&gt;authorize('create', Post::class);\n<\/pre><\/div>\n\n\n<p>or, for methods that require authorization for a particular object\/model:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\npublic function update(Request $request, Post $post)\n{\n    $this-&gt;authorize('update', $post);\n}\n<\/pre><\/div>\n\n\n<h2 class=\"wp-block-heading\">The problem<\/h2>\n\n\n\n<p>The problem I had here is that in the latter example, it&#8217;s kinda unclear which policy is being used. In the first example above it&#8217;s explicit &#8211; we&#8217;re using using the <code>PostPolicy<\/code> because we passed in <code>Post::class<\/code> to specify which model we are using.<\/p>\n\n\n\n<p>In the second example the Policy is not specified &#8211; I&#8217;m guessing that the class of the type-hinted <code>Post<\/code> is used to determine which policy is called. But it&#8217;s not clear especially when&#8230;<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The use case &#8211; and why the problem is a problem<\/h2>\n\n\n\n<p>In my case I&#8217;m authorizing users to edit users, so my controllers looked like:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\npublic function update(Request $request, User $user)\n{\n    $this-&gt;authorize('update', $user);\n}\n<\/pre><\/div>\n\n\n<p>But then I wanted <a href=\"https:\/\/tighten.co\/blog\/extending-models-in-eloquent\">some child classes<\/a> of the <code>User<\/code> model, which look like:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\nclass SuperAdmin extends User\n{\n    protected $table = 'users';\n}\n<\/pre><\/div>\n\n\n<p>Now, if a SuperAdmin is passed to the UserController, which Policy is used? And &#8211; I know I probably shouldn&#8217;t but &#8211; if I wanted to use a specific policy here, what do I do? My only option is to change the type hint, isn&#8217;t it? And I may not want to do that?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The solution!<\/h2>\n\n\n\n<p>Well, no. It&#8217;s not the only option. It turns out you can pass an array to the <code>authorize<\/code> helper which seems to let you specify both the object you are trying to authorize for, and a specific class\/policy:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n$this-&gt;authorize('update', &#x5B;SuperAdmin::class, $user]);\n<\/pre><\/div>\n\n\n<p>So yay! Now, there&#8217;s probably a whole bunch of reasons you wouldn&#8217;t\/shouldn&#8217;t do this, but that&#8217;s not the point. I want to remember that you can choose a policy by specifying a class name. And&#8230;job done!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>How to specify a specific policy\/class when authorizing using the controller helper function in Laravel.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                642
+            ],
+            "tags": [
+                4775,
+                286,
+                64,
+                643,
+                4776,
+                146
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Laravel: Being explicit in authorization policies - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Laravel: Being explicit in authorization policies - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"How to specify a specific policy\/class when authorizing using the controller helper function in Laravel.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-05-09T11:50:20+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-05-09T11:50:26+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/\",\"name\":\"Laravel: Being explicit in authorization policies - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-05-09T11:50:20+00:00\",\"dateModified\":\"2019-05-09T11:50:26+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Laravel: Being explicit in authorization policies\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Laravel: Being explicit in authorization policies - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Laravel: Being explicit in authorization policies - Ross Wintle",
+                "og_description": "How to specify a specific policy\/class when authorizing using the controller helper function in Laravel.",
+                "og_url": "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2019-05-09T11:50:20+00:00",
+                "article_modified_time": "2019-05-09T11:50:26+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/",
+                            "url": "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/",
+                            "name": "Laravel: Being explicit in authorization policies - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2019-05-09T11:50:20+00:00",
+                            "dateModified": "2019-05-09T11:50:26+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Laravel: Being explicit in authorization policies"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8311"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8311"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8311\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 8312,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8311\/revisions\/8312"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8311"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8311"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8311"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 8311,
+        "dateGmt": "2019-05-09T11:50:20",
+        "modifiedDateGmt": "2019-05-09T11:50:26",
+        "slug": "laravel-being-explicit-in-authorization-policies",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2019\/05\/laravel-being-explicit-in-authorization-policies\/",
+        "title": "Laravel: Being explicit in authorization policies",
+        "content": "\n<p>I&#8217;m working on a Laravel application right now and I got myself in a bit of a tangle about authorization policies because of an undocumented way of using them.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Overview of policies<\/h2>\n\n\n\n<p>In Laravel, Policies are a way of specifying who can take particular actions. In this application we are using resource controllers (with typical resource methods like <code>index<\/code>, <code>create<\/code>, <code>store<\/code>, etc) and manually authorizing in the controllers using the controller helper method described in <a href=\"https:\/\/laravel.com\/docs\/5.8\/authorization#via-controller-helpers\">the documentation<\/a>.<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n$this-&gt;authorize('create', Post::class);\n<\/pre><\/div>\n\n\n<p>or, for methods that require authorization for a particular object\/model:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\npublic function update(Request $request, Post $post)\n{\n    $this-&gt;authorize('update', $post);\n}\n<\/pre><\/div>\n\n\n<h2 class=\"wp-block-heading\">The problem<\/h2>\n\n\n\n<p>The problem I had here is that in the latter example, it&#8217;s kinda unclear which policy is being used. In the first example above it&#8217;s explicit &#8211; we&#8217;re using using the <code>PostPolicy<\/code> because we passed in <code>Post::class<\/code> to specify which model we are using.<\/p>\n\n\n\n<p>In the second example the Policy is not specified &#8211; I&#8217;m guessing that the class of the type-hinted <code>Post<\/code> is used to determine which policy is called. But it&#8217;s not clear especially when&#8230;<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The use case &#8211; and why the problem is a problem<\/h2>\n\n\n\n<p>In my case I&#8217;m authorizing users to edit users, so my controllers looked like:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\npublic function update(Request $request, User $user)\n{\n    $this-&gt;authorize('update', $user);\n}\n<\/pre><\/div>\n\n\n<p>But then I wanted <a href=\"https:\/\/tighten.co\/blog\/extending-models-in-eloquent\">some child classes<\/a> of the <code>User<\/code> model, which look like:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\nclass SuperAdmin extends User\n{\n    protected $table = 'users';\n}\n<\/pre><\/div>\n\n\n<p>Now, if a SuperAdmin is passed to the UserController, which Policy is used? And &#8211; I know I probably shouldn&#8217;t but &#8211; if I wanted to use a specific policy here, what do I do? My only option is to change the type hint, isn&#8217;t it? And I may not want to do that?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The solution!<\/h2>\n\n\n\n<p>Well, no. It&#8217;s not the only option. It turns out you can pass an array to the <code>authorize<\/code> helper which seems to let you specify both the object you are trying to authorize for, and a specific class\/policy:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n$this-&gt;authorize('update', &#x5B;SuperAdmin::class, $user]);\n<\/pre><\/div>\n\n\n<p>So yay! Now, there&#8217;s probably a whole bunch of reasons you wouldn&#8217;t\/shouldn&#8217;t do this, but that&#8217;s not the point. I want to remember that you can choose a policy by specifying a class name. And&#8230;job done!<\/p>\n",
+        "excerpt": "<p>How to specify a specific policy\/class when authorizing using the controller helper function in Laravel.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 4744,
             "date": "2019-04-04T13:13:06",
             "date_gmt": "2019-04-04T12:13:06",
@@ -2193,251 +2440,6 @@
         "title": "The Week: 4th February 2019",
         "content": "\n<p>Blimey, what a week! We&#8217;re about to start a whole new routine with my youngest starting pre-school and doing more hours there than she was in nursery, my wife taking on an extra half day and me&#8230;am I working more or just moving hours around? I can&#8217;t tell. Anyway, it&#8217;s crazy, and it starts today.<\/p>\n\n\n\n<p>Last week&#8217;s snow messed things up a little with a school closure on Friday too. <\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Projects: what I&#8217;ve been up to<\/h2>\n\n\n\n<ul><li>Still reviewing spec&#8217;s and working up a proposal for a new Laravel project. Keen to get going on this one if I can.<\/li><li>Finally got a long-outstanding, but really small project for a friend-of-a-friend live. It&#8217;s a couple of pages in a WordPress page-builder but has just been hanging around for so long. Smaller projects with no deadline often get put back and back. I&#8217;m going to try and stop taking them on.<\/li><li>More helping my friends at <a href=\"https:\/\/handsup.co.uk\">Hands Up<\/a> with last minute project snags on a custom WordPress build. There&#8217;s been some tricky issues with redirects that have been pretty hard to debug.<\/li><li>Another small, slow-burning project has had some good progress and I met the client this week to talk them through. They&#8217;re really happy with things and we have just a few final tasks to get through before we may be able to &#8220;go live&#8221;! It was wonderful seeing them use what I made and enjoying the benefits the re-work of their old website has brought.<\/li><li>Helping a client fix some SPF records to fix outgoing mail. SPF comes up SO often. I&#8217;m sure many have documented it, but I need to write my own guide.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Posts: things I made<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\">Improving internal communications \u2013 it\u2019s a people problem\u2026<\/a>: This was a comment in a Facebook group that was blog-post worthy once tidied up a bit. My tips and tools, experience and wisdom for internal comms. Applies to many forms of online community building too.<\/li><li><a href=\"https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/\">Opinion: WordPress Gutenberg and the responsibility of owning a website<\/a>: I heard something on a podcast that got me thinking about who the WordPress Gutenberg project is really for. Some thoughts an opinions on that topic.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Pins: things I read and remembered<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/www.enpass.io\/\">Enpass<\/a> &#8211; a great value password manager I&#8217;ve not come across before<\/li><li><a rel=\"noreferrer noopener\" target=\"_blank\" href=\"https:\/\/insomnia.rest\/\">Insomnia REST Client<\/a> &#8211; an HTTP\/REST API client, a bit like <a href=\"https:\/\/www.getpostman.com\/\">Postman<\/a>, but different<\/li><li><a rel=\"noreferrer noopener\" target=\"_blank\" href=\"https:\/\/flarum.org\/\">Flarum<\/a> &#8211; New (PHP) forum software that was recommended to me at some point recently<\/li><li><a href=\"https:\/\/serverpilot.io\/docs\/how-to-change-the-version-of-the-php-command\">ServerPilot: How to change the version of the PHP command<\/a> &#8211; I found out one of my ServerPilot-managed boxes was running an old version of PHP on the command line, so this is how to change it!<\/li><li><a href=\"https:\/\/tommcfarlin.com\/podcast\/\">Tom McFarlin&#8217;s Practical WordPress Development Podcast<\/a> &#8211; Excellent new podcast from Tom, who is a knowledgeable and respected developer in the WordPress community<\/li><li><a rel=\"noreferrer noopener\" target=\"_blank\" href=\"https:\/\/www.smashingmagazine.com\/2019\/01\/api-based-platforms-product-managers\/\">Understanding API-Based Platforms: A Guide For Product Managers \u2014 Smashing Magazine<\/a> &#8211; I&#8217;ve not read through it all, but this looks like a great primer on API&#8217;s.<\/li><li><a href=\"https:\/\/github.com\/composer\/satis\">Satis &#8211; static Composer repository generator<\/a> &#8211; There was some chat in a WordPress Slack workspace this week about using Composer for your own plugins and themes, I&#8217;d not heard of Satis, but seems you can use it to make your own Composer repositories of stuff. See also&#8230;<\/li><li><a rel=\"noreferrer noopener\" target=\"_blank\" href=\"https:\/\/github.com\/cedaro\/satispress\">Satispress<\/a> &#8211; which exposes installed WordPress plugins and themes as Composer packages. With thanks to <a href=\"https:\/\/twitter.com\/polevaultweb\">Iain<\/a> who kindly explained this all to me!<\/li><li><\/li><\/ul>\n\n\n\n<p>Have a great week!<\/p>\n\n\n\n<p><br><\/p>\n",
         "excerpt": "<p>My week in projects, posts and pins!<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 4536,
-            "date": "2019-02-02T13:48:48",
-            "date_gmt": "2019-02-02T13:48:48",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=4536"
-            },
-            "modified": "2019-02-06T15:30:42",
-            "modified_gmt": "2019-02-06T15:30:42",
-            "slug": "opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/",
-            "title": {
-                "rendered": "Opinion: WordPress Gutenberg and the responsibility of owning a website"
-            },
-            "content": {
-                "rendered": "\n<p>I heard a thing today which made me realise something about what has happened with WordPress&#8217;s new &#8220;Gutenberg&#8221; editor.<\/p>\n\n\n\n<p>I have been really frustrated that people like me that build websites for others seemed to be a bit left out with both WHAT Gutenberg is and HOW is was delivered.<\/p>\n\n\n\n<p>I&#8217;ve always known that the new block editor in WordPress is designed to help WordPress compete with website builders like Wix and SquareSpace and Weebly.<\/p>\n\n\n\n<p>What I had ignored or forgotten was that website builders like those are intended to help people build websites on their own, without small agency owners like me being involved.<\/p>\n\n\n\n<p>And so WordPress, in moving to this model, is actually moving to a space where people like me aren&#8217;t needed. Or at least, to a space where IT APPEARS that people like me aren&#8217;t needed.<\/p>\n\n\n\n<p>For example, take the fact that Gutenberg allows someone writing a post or page to change the font size or text colour. People like me are cross about this because we spend time designing sites, and paying attention to details like font sizes and colours that should be consistent across the site. So we&#8217;re frustrated that people will now be able to come along and use text sizes and colours inconsistently and mess up our nice designs.<\/p>\n\n\n\n<p>But regular people who want to build a website are probably thinking: &#8220;Woo hoo! I can edit text colour and size, and even change the background colour of a block. I don&#8217;t need to ask my web developer person to do this any more, I can build the site myself!&#8221;<\/p>\n\n\n\n<p>Now, I&#8217;m not complaining that Gutenberg is taking my work away. That&#8217;s not the point I want to make.<\/p>\n\n\n\n<p>I&#8217;m also not complaining that Gutenberg is bad. At least, not the IDEA of Gutenberg. I think the idea of a block editor is exactly the right thing. I just think Gutenberg is the WRONG block editor.<\/p>\n\n\n\n<p>The point I want to make is that making a <em><strong>good<\/strong><\/em> website requires skill, knowledge and experience. The Wix&#8217;s and Weebly&#8217;s give the impression that someone with very little knowledge can, for a few dollars a month, have a beautiful, functional website.<\/p>\n\n\n\n<p>And to some extent that&#8217;s true. But then I look at the stuff that people make with these tools and it&#8217;s often very poor. And I look at the code that the builder creates, and the speed of the site, and other &#8220;under the bonnet&#8221; technical things, and it turns out that these platforms are really bad at the technology stuff.<\/p>\n\n\n\n<p>Gutenberg is intended to give this same veneer: you don&#8217;t need someone to help you; you can make a website yourself!<\/p>\n\n\n\n<p>This may enable WordPress to compete better with the site builders. To maintain and grow it&#8217;s already-enormous market share. But at what cost?<\/p>\n\n\n\n<p>At the cost of annoying many people like me who previously recommended WordPress to people but who are now seriously considering alternatives, or have already jumped ship?<\/p>\n\n\n\n<p>At the cost of tricking people into thinking they can build a site by themselves when actually what they need is some help to do it properly?<\/p>\n\n\n\n<p>At the cost of raising the bar of what\u2019s needed to develop for WordPress by including React and lots of complicated build processes?<\/p>\n\n\n\n<p>Has the project lost its way chasing user numbers rather than focusing on its mission?<\/p>\n\n\n\n<p>A different Gutenberg might have said &#8220;OK, let&#8217;s let Wix and Weebly do their thing, and we&#8217;ll do our thing. They might take some people away from WordPress at first because those tools appear easier. But WE will guide people along a better path.&#8221;<\/p>\n\n\n\n<p>And these thoughts lead me to having a better understanding of why the WordPress governance project has sprung up (best explained here on the <a href=\"https:\/\/wptavern.com\/wpweekly-episode-344-introduction-to-the-wordpress-governance-project\">recent WordPress Weekly podcast<\/a>). Who was making the decisions to chase after these things? Where are the bigger decisions about the direction of the project not documented? Why are some of these processes so opaque?<\/p>\n\n\n\n<p>This is just opinion, of course. But I do think it was an important realisation to have: WordPress isn\u2019t focussed on agencies and developers right now &#8211; it wants users who can fend for themselves.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I had a realisation: WordPress isn\u2019t focussed on agencies and developers right now &#8211; it wants users who can fend for themselves.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                24,
-                639
-            ],
-            "tags": [
-                677,
-                462,
-                582
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Opinion: WordPress Gutenberg and the responsibility of owning a website - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Opinion: WordPress Gutenberg and the responsibility of owning a website - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I had a realisation: WordPress isn\u2019t focussed on agencies and developers right now - it wants users who can fend for themselves.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-02-02T13:48:48+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-02-06T15:30:42+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/\",\"name\":\"Opinion: WordPress Gutenberg and the responsibility of owning a website - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-02-02T13:48:48+00:00\",\"dateModified\":\"2019-02-06T15:30:42+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Opinion: WordPress Gutenberg and the responsibility of owning a website\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Opinion: WordPress Gutenberg and the responsibility of owning a website - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Opinion: WordPress Gutenberg and the responsibility of owning a website - Ross Wintle",
-                "og_description": "I had a realisation: WordPress isn\u2019t focussed on agencies and developers right now - it wants users who can fend for themselves.",
-                "og_url": "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2019-02-02T13:48:48+00:00",
-                "article_modified_time": "2019-02-06T15:30:42+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/",
-                            "url": "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/",
-                            "name": "Opinion: WordPress Gutenberg and the responsibility of owning a website - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2019-02-02T13:48:48+00:00",
-                            "dateModified": "2019-02-06T15:30:42+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Opinion: WordPress Gutenberg and the responsibility of owning a website"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4536"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4536"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 2,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4536\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 4541,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4536\/revisions\/4541"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4536"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4536"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4536"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 4536,
-        "dateGmt": "2019-02-02T13:48:48",
-        "modifiedDateGmt": "2019-02-06T15:30:42",
-        "slug": "opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2019\/02\/opinion-wordpress-gutenberg-and-the-responsibility-of-owning-a-website\/",
-        "title": "Opinion: WordPress Gutenberg and the responsibility of owning a website",
-        "content": "\n<p>I heard a thing today which made me realise something about what has happened with WordPress&#8217;s new &#8220;Gutenberg&#8221; editor.<\/p>\n\n\n\n<p>I have been really frustrated that people like me that build websites for others seemed to be a bit left out with both WHAT Gutenberg is and HOW is was delivered.<\/p>\n\n\n\n<p>I&#8217;ve always known that the new block editor in WordPress is designed to help WordPress compete with website builders like Wix and SquareSpace and Weebly.<\/p>\n\n\n\n<p>What I had ignored or forgotten was that website builders like those are intended to help people build websites on their own, without small agency owners like me being involved.<\/p>\n\n\n\n<p>And so WordPress, in moving to this model, is actually moving to a space where people like me aren&#8217;t needed. Or at least, to a space where IT APPEARS that people like me aren&#8217;t needed.<\/p>\n\n\n\n<p>For example, take the fact that Gutenberg allows someone writing a post or page to change the font size or text colour. People like me are cross about this because we spend time designing sites, and paying attention to details like font sizes and colours that should be consistent across the site. So we&#8217;re frustrated that people will now be able to come along and use text sizes and colours inconsistently and mess up our nice designs.<\/p>\n\n\n\n<p>But regular people who want to build a website are probably thinking: &#8220;Woo hoo! I can edit text colour and size, and even change the background colour of a block. I don&#8217;t need to ask my web developer person to do this any more, I can build the site myself!&#8221;<\/p>\n\n\n\n<p>Now, I&#8217;m not complaining that Gutenberg is taking my work away. That&#8217;s not the point I want to make.<\/p>\n\n\n\n<p>I&#8217;m also not complaining that Gutenberg is bad. At least, not the IDEA of Gutenberg. I think the idea of a block editor is exactly the right thing. I just think Gutenberg is the WRONG block editor.<\/p>\n\n\n\n<p>The point I want to make is that making a <em><strong>good<\/strong><\/em> website requires skill, knowledge and experience. The Wix&#8217;s and Weebly&#8217;s give the impression that someone with very little knowledge can, for a few dollars a month, have a beautiful, functional website.<\/p>\n\n\n\n<p>And to some extent that&#8217;s true. But then I look at the stuff that people make with these tools and it&#8217;s often very poor. And I look at the code that the builder creates, and the speed of the site, and other &#8220;under the bonnet&#8221; technical things, and it turns out that these platforms are really bad at the technology stuff.<\/p>\n\n\n\n<p>Gutenberg is intended to give this same veneer: you don&#8217;t need someone to help you; you can make a website yourself!<\/p>\n\n\n\n<p>This may enable WordPress to compete better with the site builders. To maintain and grow it&#8217;s already-enormous market share. But at what cost?<\/p>\n\n\n\n<p>At the cost of annoying many people like me who previously recommended WordPress to people but who are now seriously considering alternatives, or have already jumped ship?<\/p>\n\n\n\n<p>At the cost of tricking people into thinking they can build a site by themselves when actually what they need is some help to do it properly?<\/p>\n\n\n\n<p>At the cost of raising the bar of what\u2019s needed to develop for WordPress by including React and lots of complicated build processes?<\/p>\n\n\n\n<p>Has the project lost its way chasing user numbers rather than focusing on its mission?<\/p>\n\n\n\n<p>A different Gutenberg might have said &#8220;OK, let&#8217;s let Wix and Weebly do their thing, and we&#8217;ll do our thing. They might take some people away from WordPress at first because those tools appear easier. But WE will guide people along a better path.&#8221;<\/p>\n\n\n\n<p>And these thoughts lead me to having a better understanding of why the WordPress governance project has sprung up (best explained here on the <a href=\"https:\/\/wptavern.com\/wpweekly-episode-344-introduction-to-the-wordpress-governance-project\">recent WordPress Weekly podcast<\/a>). Who was making the decisions to chase after these things? Where are the bigger decisions about the direction of the project not documented? Why are some of these processes so opaque?<\/p>\n\n\n\n<p>This is just opinion, of course. But I do think it was an important realisation to have: WordPress isn\u2019t focussed on agencies and developers right now &#8211; it wants users who can fend for themselves.<\/p>\n",
-        "excerpt": "<p>I had a realisation: WordPress isn\u2019t focussed on agencies and developers right now &#8211; it wants users who can fend for themselves.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

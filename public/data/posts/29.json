@@ -1,6 +1,256 @@
 [
     {
         "dataAsArray": {
+            "id": 1729,
+            "date": "2013-12-22T22:03:49",
+            "date_gmt": "2013-12-22T22:03:49",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1729"
+            },
+            "modified": "2013-12-22T22:03:49",
+            "modified_gmt": "2013-12-22T22:03:49",
+            "slug": "changes",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2013\/12\/changes\/",
+            "title": {
+                "rendered": "Changes"
+            },
+            "content": {
+                "rendered": "<div class='pressgram-image-block'>\n                        <a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/wpid-52b7614c7d6bd6.63335901.jpg'><br \/>\n                            <img class='pressgram-image-file alignnone alignnone' src='https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/wpid-52b7614c7d6bd6.63335901.jpg?w=900'><br \/>\n                        <\/a>\n                    <\/div>\n<p>\n                        For those of you that recognise this: things are changing a bit around here. It seems to be for the better, but it&#8217;s hard to tell at this point.\n                    <\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>For those of you that recognise this: things are changing a bit around here. It seems to be for the better, but it&#8217;s hard to tell at this point.<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 1728,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "image",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                456
+            ],
+            "tags": [
+                583
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Changes - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2013\/12\/changes\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Changes - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"For those of you that recognise this: things are changing a bit around here. It seems to be for the better, but it&#8217;s hard to tell at this point.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2013\/12\/changes\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2013-12-22T22:03:49+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/wpid-52b7614c7d6bd6.63335901.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"900\" \/>\n\t<meta property=\"og:image:height\" content=\"900\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/changes\/\",\"url\":\"https:\/\/rosswintle.uk\/2013\/12\/changes\/\",\"name\":\"Changes - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2013-12-22T22:03:49+00:00\",\"dateModified\":\"2013-12-22T22:03:49+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/changes\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2013\/12\/changes\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/changes\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Changes\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Changes - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2013\/12\/changes\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Changes - Ross Wintle",
+                "og_description": "For those of you that recognise this: things are changing a bit around here. It seems to be for the better, but it&#8217;s hard to tell at this point.",
+                "og_url": "https:\/\/rosswintle.uk\/2013\/12\/changes\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2013-12-22T22:03:49+00:00",
+                "og_image": [
+                    {
+                        "width": 900,
+                        "height": 900,
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/wpid-52b7614c7d6bd6.63335901.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2013\/12\/changes\/",
+                            "url": "https:\/\/rosswintle.uk\/2013\/12\/changes\/",
+                            "name": "Changes - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2013-12-22T22:03:49+00:00",
+                            "dateModified": "2013-12-22T22:03:49+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2013\/12\/changes\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2013\/12\/changes\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2013\/12\/changes\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Changes"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1729"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1729"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1729\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 1730,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1729\/revisions\/1730"
+                    }
+                ],
+                "wp:featuredmedia": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/1728"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1729"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1729"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1729"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 1729,
+        "dateGmt": "2013-12-22T22:03:49",
+        "modifiedDateGmt": "2013-12-22T22:03:49",
+        "slug": "changes",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2013\/12\/changes\/",
+        "title": "Changes",
+        "content": "<div class='pressgram-image-block'>\n                        <a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/wpid-52b7614c7d6bd6.63335901.jpg'><br \/>\n                            <img class='pressgram-image-file alignnone alignnone' src='https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/wpid-52b7614c7d6bd6.63335901.jpg?w=900'><br \/>\n                        <\/a>\n                    <\/div>\n<p>\n                        For those of you that recognise this: things are changing a bit around here. It seems to be for the better, but it&#8217;s hard to tell at this point.\n                    <\/p>\n",
+        "excerpt": "<p>For those of you that recognise this: things are changing a bit around here. It seems to be for the better, but it&#8217;s hard to tell at this point.<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 1728
+    },
+    {
+        "dataAsArray": {
             "id": 1715,
             "date": "2013-12-11T13:45:02",
             "date_gmt": "2013-12-11T13:45:02",
@@ -2240,257 +2490,6 @@
         "title": "Going Digital: Books",
         "content": "<p><em>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to <a href=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\">read the introduction<\/a>.<\/em><\/p>\n<h2>Books and Me<\/h2>\n<p>In theory, I love books. I&#39;d love to be the kind of person that finishes a decent book once a week. In reality I&#39;m great at starting reading books, and awful at finishing them. And I just don&#39;t get novels.<\/p>\n<p>That means I&#39;m probably not the best person to be talking about book readers.<\/p>\n<p>But lately I have been reading books on web design and development.<\/p>\n<p>eBooks have always made a lot of sense to me. I think the Kindle is a genius piece of technology.  Why carry heavy books around with you when you can take one, small, electronic device? But, due to the fact that I&#39;m a rubbish reader, I&#39;ve never owned one, and so I&#39;ve never really been an eBook reader.<\/p>\n<p>When I bought an iPad, that all changed. I suddenly had a device that was great for reading long-form content on. It was time to Go Digital!<\/p>\n<h2>Reader Apps<\/h2>\n<p>To go digital with books and an iPad, you need a reader. And, like with music, when I first started looking, there wasn&#39;t an app that did what I wanted.  My needs were:<\/p>\n<ul>\n<li>runs on iOS &#8211; both iPhone and iPad optimised<\/li>\n<li>synchronises both my library and reading position across devices<\/li>\n<li>allows me to upload my own books (I&#39;ve got some pretty big book files with lots of images)<\/li>\n<\/ul>\n<p>Here&#39;s the main options I looked at:<\/p>\n<ul>\n<li>iBooks<\/li>\n<li>Kindle<\/li>\n<li>Readmill<\/li>\n<li>and&hellip;recently added&hellip;Google Play Books<\/li>\n<\/ul>\n<h3>iBooks<\/h3>\n<p>It&#39;s awful. I hate it. It feels slow and clumsy. It syncs reading position but not books. At least, not always. It confused me. And your options for uploading your own books are severely limited (I think it&#39;s just the iTunes book store or uploading from an iOS device). Don&#39;t bother.<\/p>\n<h3>Kindle<\/h3>\n<p>Kindle is a nice reader, if a little simple. You have the ability to upload up to 5GB of <a href=\"http:\/\/www.amazon.co.uk\/gp\/help\/customer\/display.html?nodeId=200767360\">personal documents<\/a> by email, or using an uploader app, and it&#39;s syncs your reading position.<\/p>\n<p>Kindle also has the advantage that it can read Kindle books bought from Amazon&#39;s really rather large library. Something that, to my knowledge, you can&#39;t do with other reader apps.<\/p>\n<h3>Readmill<\/h3>\n<p>I&#39;d not heard of Readmill until I came across a button on a website I was downloading an eBook from. And I love it.<\/p>\n<p>Readmill is an eBook Reader that incorporates the concept of &#39;Social Reading&#39;. This means that other people can see what you&#39;re reading and the &#39;highlights&#39; you&#39;ve made from each book. It tracks how long you&#39;ve been reading and can track your location and tell you where you&#39;ve been reading, so you can observe your own reading habits.<\/p>\n<p>The app is simple, but effective and beautiful. The typography is perfect. Visually it&#39;s my favourite reader app.<\/p>\n<p>You can upload books to Readmill from a web browser and it syncs them, and your reading position and highlights, to your devices.<\/p>\n<p>The downside: it&#39;s iOS only and it accepts a very limited set of book formats.<\/p>\n<h3>Google Play<\/h3>\n<p>As with other things, Google were late to the party here. Their iOS app is acceptable, but not amazing. It does all the syncing you&#39;d expect, and you can upload up to 1000 of your own books\/files to Google Play from the website, as long as they&#39;re smaller than 50MB each.<\/p>\n<h3>Apps verdict<\/h3>\n<p>As an iOS user I&#39;ve adopted a combination of Readmill (for books I can download in the right format) and Kindle (for things bought from Amazon).<\/p>\n<p>I&#39;m not sure what I&#39;d do if I had an Android device. Maybe I&#39;d go Kindle all the way? Or maybe Google Play works better on Android?<\/p>\n<p>Of course, if I had a Kindle, I&#39;d use the Kindle app on other devices for sure.<\/p>\n<h2>So did you &#39;Go Digital&#39;?<\/h2>\n<p>I still have a lot of paper books. And I&#39;ve not bought any books for a long time. And, actually, those that I have have, for various odd reasons, been from Amazon in Kindle format.<\/p>\n<p>And in terms of my web design and development reading, I&#39;m semi-digital. I have bought some digital-only books, but in other cases I&#39;ve wanted the hard copy too. Why?  I think it&#39;s just because the experience of flicking through pages of a book can&#39;t actually be replicated fully on a digital device.<\/p>\n<p>I&#39;d say eBooks were on test.  Maybe I will eventually fully convert and buy new books as eBooks only. But I&#39;m not there yet.<\/p>\n<p>What I do love is Readmill&#39;s social reading idea. It adds something to eBooks that you don&#39;t get with paper. And as someone who struggles to read I think it would be really great to share my reading within a community. I might encourage me to read more!<\/p>\n<p>Do you read eBooks? What devices and apps do you use? What are your frustrations and what works? Do you just buy eBooks or do you still buy paper copies too?  I&#39;d be interested to hear your experiences.<\/p>\n",
         "excerpt": "<p>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to read the introduction. Books and Me In theory, I love books. I&#39;d love to be the kind of person that finishes a decent book once a week. In reality I&#39;m great at starting reading books, and [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 1641,
-            "date": "2013-06-30T10:10:00",
-            "date_gmt": "2013-06-30T09:10:00",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1641"
-            },
-            "modified": "2013-06-29T22:55:23",
-            "modified_gmt": "2013-06-29T21:55:23",
-            "slug": "going-digital-music",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/",
-            "title": {
-                "rendered": "Going Digital: Music"
-            },
-            "content": {
-                "rendered": "<p><em>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to <a href=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\">read the introduction<\/a>.<\/em><\/p>\n<h2>My History of Digital Music<\/h2>\n<p>Here&#39;s a little potted history of digital music in my life.<\/p>\n<p>Let me let you in to a little secret: I thought Mini-Discs were <strong>great<\/strong>! But the rest of the world wasn&#39;t so keen and they died out with the advent of MP3s.  Having been bitten by that, I was shy of MP3 players and so have generally been slow on the uptake of digital music.<\/p>\n<p>Digital music software didn&#39;t help. The best software in terms of organising files was iTunes, but it was (and still is) big and slow and clunky. That hindered the process.<\/p>\n<p>Plus, our car has always had a CD player, so we&#39;ve always had CDs, and there is, I suppose, a general nostalgia for physical media and a fear of files disappearing that has contributed to us clinging to music on disc.<\/p>\n<p>Eventually I found myself with an iPhone, which was great for music. But as numbers of apps and photos grew it became impossible to store anything like a decent selection of music.<\/p>\n<p>Conveniently, this was around the time that cloud music services started to become available.  It was time to Go Digital! Or was it?<\/p>\n<p>To go fully digital I&#8217;d need a cloud music service to store my music with and to be able to access it from my computer and mobile devices, and I&#8217;d need to be buying music downloads instead of CDs.<\/p>\n<h2>Cloud Music Services<\/h2>\n<p>Cloud music services either give you access to a vast range of music stored at the music service, usually for a subscription, or they let you upload and store all of the music that you own in &#39;the cloud&#39;.  Some services avoid the need to upload ALL of your music by matching it to music that&#39;s already stored at the music service.<\/p>\n<p>I researched a few cloud music services. I don&#39;t listen to music enough to make a subscription to something like Spotify worthwhile, so it was an upload\/matching service that I needed.<\/p>\n<p>At the time I signed up there were only two services available in the UK: iTunes Match and Amazon Cloud Player.  Google Play Music has since become available in the UK.<\/p>\n<h3>Costs and tracks<\/h3>\n<p>These services limit you to a certain number of tracks.  For Amazon this is 250 for the free service and 250,000 for the paid service.  iTunes only has a paid service and it gives you 25,000 songs. Google&#39;s service is free and allows 20,000 songs.<\/p>\n<p>iTunes Match and Amazon&#39;s upgraded storage for cloud player are both \u00a321.99 per year.<\/p>\n<p>So Google&#39;s service is the best value for money. But does it do what I need?<\/p>\n<h3>Functions and Features<\/h3>\n<p>The services are all pretty similar in what they do, they:<\/p>\n<ul>\n<li>store music in &#39;the cloud&#39;<\/li>\n<li>let you stream it (play it without downloading, which requires a connection) * let you download it to your device<\/li>\n<li>act as a backup of your digital music files<\/li>\n<\/ul>\n<p>It should be noted that I&#39;m really not too bothered about sound quality. If you are then there are other factors that might affect your choice.<\/p>\n<h3>Complications<\/h3>\n<p>Actually, from what I can tell, the only exception to the list above is iTunes Match which doesn&#39;t let you stream your music: you have to download it and play. But you can play a track while its downloading.<\/p>\n<p>iTunes Match also only works with Apple devices and though iTunes, whereas the other services can be played on multiple platforms through web apps, or phone\/tablet apps.<\/p>\n<p>Google suffers from not having their own app for Apple devices. Third party apps exist but seem to vary in quality. Plus the web app really doesn&#39;t play well with iOS: I found that playing music in the background while doing other things was unreliable.<\/p>\n<h3>Choosing a service<\/h3>\n<p>So while Google seemed best value, it really didn&#39;t work well for a person with Apple devices.  At the time I evaluated them I <em>think<\/em> Amazon&#39;s service didn&#39;t do track matching, so you had to upload your entire collection, which would have taken a LOOOOONG time. So I ended up opting for iTunes Match for a year.<\/p>\n<p>In reality, I don&#39;t think any of these services is ideal. Google&#39;s service is amazing given that its free. And I think that, if I was paying again I&#39;d opt for Amazon&#39;s service rather than Apple&#39;s &#8211; especially now that Amazon&#39;s service has caught up a bit.<\/p>\n<p>So for the time being I have iTunes Match, but I&#8217;m hoping that there will be a decent iOS app for Google Music by the time my renewal comes up.<\/p>\n<h2>So did you &#39;Go Digital&#39;?<\/h2>\n<p>You know what, I didn&#39;t yet! My music is in the cloud, and it&#39;s really good. But I&#39;m still buying CDs. I&#39;m yet to start buying downloaded music in any great volume.<\/p>\n<p>But I&#39;m not really sure why any more. Is there a good reason to buy a CD? Other than, perhaps, to put in the car? CDs take up space, are actually less safe and reliable and, if you don&#39;t care about quality, there doesn&#39;t seem much reason not to be digital only. So I expect I&#39;ll be buying downloads more in the near future.<\/p>\n<p>Do you still buy CDs or Vinyl? What are your reasons? What stops you going digital?<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to read the introduction. My History of Digital Music Here&#39;s a little potted history of digital music in my life. Let me let you in to a little secret: I thought Mini-Discs were great! But the rest [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                447
-            ],
-            "tags": [
-                450,
-                27,
-                449,
-                448,
-                220,
-                577
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Going Digital: Music - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Going Digital: Music - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This is part of a mini-series of posts about &#039;Going Digital&#039;. If you missed it you might want to read the introduction. My History of Digital Music Here&#039;s a little potted history of digital music in my life. Let me let you in to a little secret: I thought Mini-Discs were great! But the rest [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2013-06-30T09:10:00+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2013-06-29T21:55:23+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/\",\"url\":\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/\",\"name\":\"Going Digital: Music - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2013-06-30T09:10:00+00:00\",\"dateModified\":\"2013-06-29T21:55:23+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Going Digital: Music\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Going Digital: Music - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Going Digital: Music - Ross Wintle",
-                "og_description": "This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to read the introduction. My History of Digital Music Here&#39;s a little potted history of digital music in my life. Let me let you in to a little secret: I thought Mini-Discs were great! But the rest [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2013-06-30T09:10:00+00:00",
-                "article_modified_time": "2013-06-29T21:55:23+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "5 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/",
-                            "url": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/",
-                            "name": "Going Digital: Music - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2013-06-30T09:10:00+00:00",
-                            "dateModified": "2013-06-29T21:55:23+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Going Digital: Music"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1641"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1641"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1641\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 1644,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1641\/revisions\/1644"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1641"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1641"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1641"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 1641,
-        "dateGmt": "2013-06-30T09:10:00",
-        "modifiedDateGmt": "2013-06-29T21:55:23",
-        "slug": "going-digital-music",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-music\/",
-        "title": "Going Digital: Music",
-        "content": "<p><em>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to <a href=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\">read the introduction<\/a>.<\/em><\/p>\n<h2>My History of Digital Music<\/h2>\n<p>Here&#39;s a little potted history of digital music in my life.<\/p>\n<p>Let me let you in to a little secret: I thought Mini-Discs were <strong>great<\/strong>! But the rest of the world wasn&#39;t so keen and they died out with the advent of MP3s.  Having been bitten by that, I was shy of MP3 players and so have generally been slow on the uptake of digital music.<\/p>\n<p>Digital music software didn&#39;t help. The best software in terms of organising files was iTunes, but it was (and still is) big and slow and clunky. That hindered the process.<\/p>\n<p>Plus, our car has always had a CD player, so we&#39;ve always had CDs, and there is, I suppose, a general nostalgia for physical media and a fear of files disappearing that has contributed to us clinging to music on disc.<\/p>\n<p>Eventually I found myself with an iPhone, which was great for music. But as numbers of apps and photos grew it became impossible to store anything like a decent selection of music.<\/p>\n<p>Conveniently, this was around the time that cloud music services started to become available.  It was time to Go Digital! Or was it?<\/p>\n<p>To go fully digital I&#8217;d need a cloud music service to store my music with and to be able to access it from my computer and mobile devices, and I&#8217;d need to be buying music downloads instead of CDs.<\/p>\n<h2>Cloud Music Services<\/h2>\n<p>Cloud music services either give you access to a vast range of music stored at the music service, usually for a subscription, or they let you upload and store all of the music that you own in &#39;the cloud&#39;.  Some services avoid the need to upload ALL of your music by matching it to music that&#39;s already stored at the music service.<\/p>\n<p>I researched a few cloud music services. I don&#39;t listen to music enough to make a subscription to something like Spotify worthwhile, so it was an upload\/matching service that I needed.<\/p>\n<p>At the time I signed up there were only two services available in the UK: iTunes Match and Amazon Cloud Player.  Google Play Music has since become available in the UK.<\/p>\n<h3>Costs and tracks<\/h3>\n<p>These services limit you to a certain number of tracks.  For Amazon this is 250 for the free service and 250,000 for the paid service.  iTunes only has a paid service and it gives you 25,000 songs. Google&#39;s service is free and allows 20,000 songs.<\/p>\n<p>iTunes Match and Amazon&#39;s upgraded storage for cloud player are both \u00a321.99 per year.<\/p>\n<p>So Google&#39;s service is the best value for money. But does it do what I need?<\/p>\n<h3>Functions and Features<\/h3>\n<p>The services are all pretty similar in what they do, they:<\/p>\n<ul>\n<li>store music in &#39;the cloud&#39;<\/li>\n<li>let you stream it (play it without downloading, which requires a connection) * let you download it to your device<\/li>\n<li>act as a backup of your digital music files<\/li>\n<\/ul>\n<p>It should be noted that I&#39;m really not too bothered about sound quality. If you are then there are other factors that might affect your choice.<\/p>\n<h3>Complications<\/h3>\n<p>Actually, from what I can tell, the only exception to the list above is iTunes Match which doesn&#39;t let you stream your music: you have to download it and play. But you can play a track while its downloading.<\/p>\n<p>iTunes Match also only works with Apple devices and though iTunes, whereas the other services can be played on multiple platforms through web apps, or phone\/tablet apps.<\/p>\n<p>Google suffers from not having their own app for Apple devices. Third party apps exist but seem to vary in quality. Plus the web app really doesn&#39;t play well with iOS: I found that playing music in the background while doing other things was unreliable.<\/p>\n<h3>Choosing a service<\/h3>\n<p>So while Google seemed best value, it really didn&#39;t work well for a person with Apple devices.  At the time I evaluated them I <em>think<\/em> Amazon&#39;s service didn&#39;t do track matching, so you had to upload your entire collection, which would have taken a LOOOOONG time. So I ended up opting for iTunes Match for a year.<\/p>\n<p>In reality, I don&#39;t think any of these services is ideal. Google&#39;s service is amazing given that its free. And I think that, if I was paying again I&#39;d opt for Amazon&#39;s service rather than Apple&#39;s &#8211; especially now that Amazon&#39;s service has caught up a bit.<\/p>\n<p>So for the time being I have iTunes Match, but I&#8217;m hoping that there will be a decent iOS app for Google Music by the time my renewal comes up.<\/p>\n<h2>So did you &#39;Go Digital&#39;?<\/h2>\n<p>You know what, I didn&#39;t yet! My music is in the cloud, and it&#39;s really good. But I&#39;m still buying CDs. I&#39;m yet to start buying downloaded music in any great volume.<\/p>\n<p>But I&#39;m not really sure why any more. Is there a good reason to buy a CD? Other than, perhaps, to put in the car? CDs take up space, are actually less safe and reliable and, if you don&#39;t care about quality, there doesn&#39;t seem much reason not to be digital only. So I expect I&#39;ll be buying downloads more in the near future.<\/p>\n<p>Do you still buy CDs or Vinyl? What are your reasons? What stops you going digital?<\/p>\n",
-        "excerpt": "<p>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to read the introduction. My History of Digital Music Here&#39;s a little potted history of digital music in my life. Let me let you in to a little secret: I thought Mini-Discs were great! But the rest [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

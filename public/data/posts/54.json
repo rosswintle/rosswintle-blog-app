@@ -1,6 +1,243 @@
 [
     {
         "dataAsArray": {
+            "id": 212,
+            "date": "2008-11-06T18:10:00",
+            "date_gmt": "2008-11-06T18:10:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/11\/06\/proverbs-for-our-times\/"
+            },
+            "modified": "2008-11-06T18:10:00",
+            "modified_gmt": "2008-11-06T18:10:00",
+            "slug": "proverbs-for-our-times",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/",
+            "title": {
+                "rendered": "Proverbs for our Times"
+            },
+            "content": {
+                "rendered": "<p>Here are some wise sayings that seem quite relevant given the current credit crunch:<\/p>\n<ul>\n<li>&#8220;Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle.&#8221;<\/li>\n<li>&#8220;The rich rule over the poor, and the borrower is servant to the lender.&#8221;<\/li>\n<li>&#8220;Don&#8217;t guarantee to pay someone else&#8217;s debt.<span class=\"sup\"><\/span>If you don&#8217;t have the money,you might lose your bed.&#8221;<\/li>\n<\/ul>\n<p>And here is some ancient wisdom that would seem to apply to our current binge-drinking culture:<\/p>\n<blockquote><p>&#8220;Who has woe? Who has sorrow? Who has strife? Who has complaints? Who has needless bruises? Who has bloodshot eyes? <\/p>\n<p><span class=\"sup\"><\/span>Those who linger over wine, who go to sample bowls of mixed wine. <\/p>\n<p><span class=\"sup\"><\/span>Do not gaze at wine when it is red, when it sparkles in the cup, when it goes down smoothly!<span class=\"sup\"> <\/span> In the end it bites like a snake and poisons like a viper.<span class=\"sup\"><\/span> Your eyes will see strange sights and your mind imagine confusing things.<span class=\"sup\"><\/span> You will be like one sleeping on the high seas, lying on top of the rigging.<\/p>\n<p><span class=\"sup\"><\/span>&#8216;They hit me,&#8217; you will say, &#8216;but I&#8217;m not hurt! They beat me, but I don&#8217;t feel it! When will I wake up so I can find another drink?&#8221;<\/p>\n<\/blockquote>\n<p>This advice, all highly relevant in our world today, is straight from the Bible, from the book of Proverbs.<\/p>\n<p>It&#8217;s amazing, both that wisdom from thousands of years ago is still relevant today, and that human nature has moved on so little in that time.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Here are some wise sayings that seem quite relevant given the current credit crunch: &#8220;Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle.&#8221; &#8220;The rich rule over the poor, and the borrower is servant to the lender.&#8221; &#8220;Don&#8217;t guarantee [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                24
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Proverbs for our Times - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Proverbs for our Times - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Here are some wise sayings that seem quite relevant given the current credit crunch: &#8220;Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle.&#8221; &#8220;The rich rule over the poor, and the borrower is servant to the lender.&#8221; &#8220;Don&#8217;t guarantee [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-11-06T18:10:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/\",\"name\":\"Proverbs for our Times - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-11-06T18:10:00+00:00\",\"dateModified\":\"2008-11-06T18:10:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Proverbs for our Times\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Proverbs for our Times - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Proverbs for our Times - Ross Wintle",
+                "og_description": "Here are some wise sayings that seem quite relevant given the current credit crunch: &#8220;Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle.&#8221; &#8220;The rich rule over the poor, and the borrower is servant to the lender.&#8221; &#8220;Don&#8217;t guarantee [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2008-11-06T18:10:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/",
+                            "url": "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/",
+                            "name": "Proverbs for our Times - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2008-11-06T18:10:00+00:00",
+                            "dateModified": "2008-11-06T18:10:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Proverbs for our Times"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/212"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=212"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/212\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=212"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=212"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=212"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 212,
+        "dateGmt": "2008-11-06T18:10:00",
+        "modifiedDateGmt": "2008-11-06T18:10:00",
+        "slug": "proverbs-for-our-times",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2008\/11\/proverbs-for-our-times\/",
+        "title": "Proverbs for our Times",
+        "content": "<p>Here are some wise sayings that seem quite relevant given the current credit crunch:<\/p>\n<ul>\n<li>&#8220;Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle.&#8221;<\/li>\n<li>&#8220;The rich rule over the poor, and the borrower is servant to the lender.&#8221;<\/li>\n<li>&#8220;Don&#8217;t guarantee to pay someone else&#8217;s debt.<span class=\"sup\"><\/span>If you don&#8217;t have the money,you might lose your bed.&#8221;<\/li>\n<\/ul>\n<p>And here is some ancient wisdom that would seem to apply to our current binge-drinking culture:<\/p>\n<blockquote><p>&#8220;Who has woe? Who has sorrow? Who has strife? Who has complaints? Who has needless bruises? Who has bloodshot eyes? <\/p>\n<p><span class=\"sup\"><\/span>Those who linger over wine, who go to sample bowls of mixed wine. <\/p>\n<p><span class=\"sup\"><\/span>Do not gaze at wine when it is red, when it sparkles in the cup, when it goes down smoothly!<span class=\"sup\"> <\/span> In the end it bites like a snake and poisons like a viper.<span class=\"sup\"><\/span> Your eyes will see strange sights and your mind imagine confusing things.<span class=\"sup\"><\/span> You will be like one sleeping on the high seas, lying on top of the rigging.<\/p>\n<p><span class=\"sup\"><\/span>&#8216;They hit me,&#8217; you will say, &#8216;but I&#8217;m not hurt! They beat me, but I don&#8217;t feel it! When will I wake up so I can find another drink?&#8221;<\/p>\n<\/blockquote>\n<p>This advice, all highly relevant in our world today, is straight from the Bible, from the book of Proverbs.<\/p>\n<p>It&#8217;s amazing, both that wisdom from thousands of years ago is still relevant today, and that human nature has moved on so little in that time.<\/p>\n",
+        "excerpt": "<p>Here are some wise sayings that seem quite relevant given the current credit crunch: &#8220;Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle.&#8221; &#8220;The rich rule over the poor, and the borrower is servant to the lender.&#8221; &#8220;Don&#8217;t guarantee [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 211,
             "date": "2008-11-02T19:49:00",
             "date_gmt": "2008-11-02T19:49:00",
@@ -2133,243 +2370,6 @@
         "title": "2 Films: The Notebook &amp; An Inconvenient Truth",
         "content": "<p>Two films watched this week &#8211; most unlike us.<\/p>\n<p><span style=\"font-weight:bold;\">The Notebook<\/p>\n<p><\/span>Recorded while we were on holiday, this charming love story didn&#8217;t really impress me.  It was a simple couple-meet, couple-torn-apart, couple-get-back together story<span style=\"font-weight:bold;\">, <\/span>wrapped up as an old man reading the story to his wife who&#8217;s suffering from dementia and amnesia.  Touching and cute, but for me, ultimately lacking in a special something.<\/p>\n<p><span style=\"font-weight:bold;\">An Inconvenient Truth<\/p>\n<p><\/span>We got this out of the library to watch now that Sally is involved in climate change projects.<\/p>\n<p>It&#8217;s a good documentary, mostly based around a lecture given by Al Gore.  It&#8217;s a well-made documentary film with good graphics explaining the science and facts, and Gore is a great speaker.  An hour long lecture on climate change could easily be dull, but I was far from bored and found the whole thing informative and challenging.<\/p>\n<p>In fact, I found it quite scary. It&#8217;ll certainly get me rethinking my own impact on the climate.<br \/><span style=\"font-weight:bold;\"><\/span><\/p>\n",
         "excerpt": "<p>Two films watched this week &#8211; most unlike us. The Notebook Recorded while we were on holiday, this charming love story didn&#8217;t really impress me. It was a simple couple-meet, couple-torn-apart, couple-get-back together story, wrapped up as an old man reading the story to his wife who&#8217;s suffering from dementia and amnesia. Touching and cute, [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 202,
-            "date": "2008-10-12T20:07:00",
-            "date_gmt": "2008-10-12T20:07:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/10\/12\/clapped-out\/"
-            },
-            "modified": "2008-10-12T20:07:00",
-            "modified_gmt": "2008-10-12T20:07:00",
-            "slug": "clapped-out",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/",
-            "title": {
-                "rendered": "Clapped Out"
-            },
-            "content": {
-                "rendered": "<p>I&#8217;m a cyclist &#8211; you can probably tell that &#8211; and I love all sports of different kinds.  But there&#8217;s one that I&#8217;ve never got on with&#8230;running!  It knackers my kness and every time I try to take it up I have to give up quite quickly because I&#8217;m in pain.<\/p>\n<p>So instead, I tend to run by proxy.  I know so many people who are really into running, and I engage with other runners by talking about&#8230;err&#8230;other runners.  I&#8217;m a middle man in the running circles of Swindon.<\/p>\n<p>So, with today being the Swindon Half Marathon, my duty was not as a runner, but as a supporter.<\/p>\n<p>It was a beautiful day for it &#8211; if anything too hot &#8211; and Sally and I pedalled out on our bikes to a fine spot on the course where we would see people running out (at about 3 miles) and back in (at about 9 miles) from the same place.<\/p>\n<p>But I&#8217;m not really sure what to do as a running-race supporter, or how to cheer people on.  We clapped a lot.  In fact, we clapped almost non-stop for about 3 hours!  And we called people&#8217;s names and shouted things like &#8220;Well done&#8221; and &#8220;Keep Going&#8221;, but it all feels a bit lame.<\/p>\n<p>The hard core runners seem to view this as a distraction, and they keep focussed on the road ahead, barely acknowledging your presence.  The ones at the back seem to appreciate it more, and occasionally engage in some banter.  When I told one friend &#8220;Keep going!  You&#8217;re doing well!&#8221; he shouted back &#8220;No I&#8217;m not!&#8221;.<\/p>\n<p>So, I hope we helped some people along.<\/p>\n<p>It was quite inspiring too.  This was a small race of only around 1500 people, but it seemed to be a LOT from where we were standing.  My sister and her boyfriend are pretty quick but there were a surprisingly large number of people running at a similar pace.  It all made me think that surely running 13 miles is something that I could do.<\/p>\n<p>One friend of mine called back &#8220;Your turn next year Wintle!&#8221; as he ran past.  Perhaps he&#8217;s right.  Perhaps I should try again, take it easy, build up slowly and have a go at running with the aim of running next year&#8217;s Swindon Half.<\/p>\n<p>Hmmm&#8230;<\/p>\n<p>To finish, I pay my respect to those I know who ran.  I&#8217;m hugley impressed by their commitment and effort.  Sarah, Guy, Dave, Carol, James, Mike, Stevo, Ray&#8230;well done!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;m a cyclist &#8211; you can probably tell that &#8211; and I love all sports of different kinds. But there&#8217;s one that I&#8217;ve never got on with&#8230;running! It knackers my kness and every time I try to take it up I have to give up quite quickly because I&#8217;m in pain. So instead, I tend [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Clapped Out - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Clapped Out - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;m a cyclist &#8211; you can probably tell that &#8211; and I love all sports of different kinds. But there&#8217;s one that I&#8217;ve never got on with&#8230;running! It knackers my kness and every time I try to take it up I have to give up quite quickly because I&#8217;m in pain. So instead, I tend [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-10-12T20:07:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/\",\"name\":\"Clapped Out - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-10-12T20:07:00+00:00\",\"dateModified\":\"2008-10-12T20:07:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Clapped Out\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Clapped Out - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Clapped Out - Ross Wintle",
-                "og_description": "I&#8217;m a cyclist &#8211; you can probably tell that &#8211; and I love all sports of different kinds. But there&#8217;s one that I&#8217;ve never got on with&#8230;running! It knackers my kness and every time I try to take it up I have to give up quite quickly because I&#8217;m in pain. So instead, I tend [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2008-10-12T20:07:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/",
-                            "url": "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/",
-                            "name": "Clapped Out - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2008-10-12T20:07:00+00:00",
-                            "dateModified": "2008-10-12T20:07:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Clapped Out"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/202"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=202"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/202\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=202"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=202"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=202"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 202,
-        "dateGmt": "2008-10-12T20:07:00",
-        "modifiedDateGmt": "2008-10-12T20:07:00",
-        "slug": "clapped-out",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2008\/10\/clapped-out\/",
-        "title": "Clapped Out",
-        "content": "<p>I&#8217;m a cyclist &#8211; you can probably tell that &#8211; and I love all sports of different kinds.  But there&#8217;s one that I&#8217;ve never got on with&#8230;running!  It knackers my kness and every time I try to take it up I have to give up quite quickly because I&#8217;m in pain.<\/p>\n<p>So instead, I tend to run by proxy.  I know so many people who are really into running, and I engage with other runners by talking about&#8230;err&#8230;other runners.  I&#8217;m a middle man in the running circles of Swindon.<\/p>\n<p>So, with today being the Swindon Half Marathon, my duty was not as a runner, but as a supporter.<\/p>\n<p>It was a beautiful day for it &#8211; if anything too hot &#8211; and Sally and I pedalled out on our bikes to a fine spot on the course where we would see people running out (at about 3 miles) and back in (at about 9 miles) from the same place.<\/p>\n<p>But I&#8217;m not really sure what to do as a running-race supporter, or how to cheer people on.  We clapped a lot.  In fact, we clapped almost non-stop for about 3 hours!  And we called people&#8217;s names and shouted things like &#8220;Well done&#8221; and &#8220;Keep Going&#8221;, but it all feels a bit lame.<\/p>\n<p>The hard core runners seem to view this as a distraction, and they keep focussed on the road ahead, barely acknowledging your presence.  The ones at the back seem to appreciate it more, and occasionally engage in some banter.  When I told one friend &#8220;Keep going!  You&#8217;re doing well!&#8221; he shouted back &#8220;No I&#8217;m not!&#8221;.<\/p>\n<p>So, I hope we helped some people along.<\/p>\n<p>It was quite inspiring too.  This was a small race of only around 1500 people, but it seemed to be a LOT from where we were standing.  My sister and her boyfriend are pretty quick but there were a surprisingly large number of people running at a similar pace.  It all made me think that surely running 13 miles is something that I could do.<\/p>\n<p>One friend of mine called back &#8220;Your turn next year Wintle!&#8221; as he ran past.  Perhaps he&#8217;s right.  Perhaps I should try again, take it easy, build up slowly and have a go at running with the aim of running next year&#8217;s Swindon Half.<\/p>\n<p>Hmmm&#8230;<\/p>\n<p>To finish, I pay my respect to those I know who ran.  I&#8217;m hugley impressed by their commitment and effort.  Sarah, Guy, Dave, Carol, James, Mike, Stevo, Ray&#8230;well done!<\/p>\n",
-        "excerpt": "<p>I&#8217;m a cyclist &#8211; you can probably tell that &#8211; and I love all sports of different kinds. But there&#8217;s one that I&#8217;ve never got on with&#8230;running! It knackers my kness and every time I try to take it up I have to give up quite quickly because I&#8217;m in pain. So instead, I tend [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

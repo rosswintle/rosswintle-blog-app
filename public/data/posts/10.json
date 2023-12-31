@@ -1,6 +1,259 @@
 [
     {
         "dataAsArray": {
+            "id": 8793,
+            "date": "2019-11-15T12:26:14",
+            "date_gmt": "2019-11-15T12:26:14",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=8793"
+            },
+            "modified": "2020-10-19T16:40:18",
+            "modified_gmt": "2020-10-19T15:40:18",
+            "slug": "my-new-cookie-pop-up-setup",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/",
+            "title": {
+                "rendered": "My new cookie pop-up setup"
+            },
+            "content": {
+                "rendered": "\n<p><em>I&#8217;m sure you all know that the rules about how websites use cookies have changed a bit over the last few years. This post explains my current setup for cookie consents and analytics on WordPress sites.<\/em><\/p>\n\n\n\n<p><em>Update: This post is still worth reading to work through the issue, but there is now <a href=\"https:\/\/wordpress.org\/plugins\/gdpr-cookie-compliance\/\">a free plugin that seems to do everything<\/a> all in one without any additional hand-coding required. <\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Firstly: Do you need analytics?<\/h2>\n\n\n\n<p>Before I start explaining HOW I set up cookie consent for analytics, it&#8217;s worth asking yourself: &#8220;Do I need analytics?&#8221;<\/p>\n\n\n\n<p>Many of my clients run small websites and feel like they should have analytics, but can&#8217;t often articulate why, and using a big analytics provider like Google Analytics or WordPress&#8217;s Jetpack Stats could mean that your users are being unnecessarily tracked and that personally identifiable data could be being shipped outside the EU.<\/p>\n\n\n\n<p>Analytics may or may not be private\/anonymous enough to avoid GDPR (this seems debatable still) but the starting point should be that you don&#8217;t have them installed, and only add them when you have a clear plan for using them and an up to date privacy policy that you understand and actually implement. Remember that a policy should reflect what you do rather than being a document of what you aspire to.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Do you need Google Analytics?<\/h2>\n\n\n\n<p>Many people default to wanting Google Analytics as it&#8217;s the tool that they&#8217;ve heard of and used before. But as well as thinking about Google&#8217;s tracking and privacy, it&#8217;s worth considering that Google Analytics is a HUGE piece of software that does enormous amounts of things that you probably don&#8217;t need or even understand, and it&#8217;s very complicated as a result.<\/p>\n\n\n\n<p>In the last few years a number of other, simpler, privacy-focussed analytics tools have sprung up, such as <a href=\"https:\/\/usefathom.com\/\">Fathom<\/a>, <a href=\"https:\/\/simpleanalytics.com\/\">Simple Analytics<\/a> and <a href=\"https:\/\/www.ticksel.com\/\">Ticksel<\/a>. Some of these don&#8217;t use cookies at all, or have cookie-free options. They cost, but if both your analytics and your users are important to you then maybe it&#8217;s worth a small amount each month to get a good service?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">OK, you want Google Analytics. What next?<\/h2>\n\n\n\n<p>So you&#8217;ve decided you&#8217;re happy with Google Analytics (I&#8217;ll call it GA from here on), and &#8211; here&#8217;s a little checklist before you get started:<\/p>\n\n\n\n<ul><li>You have good reason to want to collect this data about people visiting your website and will regularly make use of the information in constructive ways.<\/li><li>You don&#8217;t mind the complexity and possible user tracking issues.<\/li><li>You&#8217;re happy with the <a href=\"https:\/\/marketingplatform.google.com\/about\/analytics\/terms\/gb\/\">terms of service<\/a> and <a href=\"https:\/\/privacy.google.com\/businesses\/processorterms\/\">data processing terms<\/a>.<\/li><li>You have a privacy policy that explains what data you collect, why you collect it and what you do with it, including passing it to Google.<\/li><\/ul>\n\n\n\n<p>Then you need to be aware that GA uses cookies and that these are &#8220;non-essential&#8221; cookies and that <a href=\"https:\/\/ico.org.uk\/for-organisations\/guide-to-pecr\/guidance-on-the-use-of-cookies-and-similar-technologies\/\">the rules<\/a> now state that you must get consent from users before you use the cookies. Consent can not be assumed!<\/p>\n\n\n\n<p>(This is my interpretation. I am not a lawyer. This is not legal advice. I can not be held responsible for anything that happens as a result of you taking action based on this article. Seek your own legal advice should you need it.)<\/p>\n\n\n\n<p>OK. Now we&#8217;re good. So how do I set up cookie consent and analytics on my WordPress website?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Choosing a plugin<\/h2>\n\n\n\n<p>If you&#8217;re a developer with time on your hands you could probably build your own thing, but I went and tried some of the popular cookie consent plugins to see if any did what I wanted. My needs were:<\/p>\n\n\n\n<ul><li>Can be configured to load scripts only once consent is given<\/li><li>Reloads page after consent is given, preserving the referrer<\/li><li>Is clear about the difference between necessary and non-necessary cookies<\/li><li>Can be styled and have texts, buttons and links changed<\/li><\/ul>\n\n\n\n<p>I confess that I stopped looking when I found one that fulfilled my criteria. That plugin is <a href=\"https:\/\/wordpress.org\/plugins\/cookie-law-info\/\">GDPR Cookie Consent<\/a> by Webtoffee.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Configuring the plugin<\/h2>\n\n\n\n<p>Here are the steps that I take to configure the plugin &#8211; you should determine your own set of options but here&#8217;s mine:<\/p>\n\n\n\n<ul><li>Go to GDPR Cookie Consent in the WordPress Dashboard.<\/li><li>Work through the General -&gt; Cookie Bar options, changing any that you want.<\/li><li>Turn the Show Again Tab off in General -&gt; Show Again Tab &#8211; I&#8217;ve decided that I don&#8217;t need this and it&#8217;s intrusive.<\/li><li>In General -&gt; Other I set &#8220;Reload after accept button click&#8221; to &#8220;Yes&#8221; to allow the page to reload after cookies are accepted. I&#8217;ve checked that the referrer header is preserved. <\/li><li>In &#8220;Customise Cookie Bar&#8221; I tailor the message &#8211; specifically I make this refer to the privacy policy and include a <code>[cookie_link]<\/code> shortcode. I also REMOVE the <code>[cookie_settings]<\/code> link because I don&#8217;t depend on these for enabling the non-necessary cookies. More on this later.<\/li><li>I tailor the colours in Customise Cookie Bar, and each of the sub-panels of &#8220;Customise buttons&#8221;<\/li><li>On Customise Buttons -&gt; Read More Link I also set the URL or Page to be the Privacy Policy page<\/li><\/ul>\n\n\n\n<p>That&#8217;s it for settings. <\/p>\n\n\n\n<p>I skip the Cookie List and Policy Generator in the GDRP Cookie Consent plugins, assuming that the privacy policy has already been written, but you may want to pay these features some attention.<\/p>\n\n\n\n<p>Then you need to actually add the Google Analytics code.<\/p>\n\n\n\n<p>Originally I thought I&#8217;d do this in the &#8220;Non-necessary cookie&#8221; setting bit in the plugin BUT I thought that the &#8220;Accept&#8221; button would turn on all Non-necessary cookies, but it doesn&#8217;t! To turn on non-necessary cookies a website visitor needs to use the cookie settings option, and change a toggle. <\/p>\n\n\n\n<p>So this bit didn&#8217;t work:<\/p>\n\n\n\n<p><s>Because we want this to only load when cookies are accepted, I add this in the Non-necessary cookie settings of the plugin.<\/s><\/p>\n\n\n\n<ul><li><s>Set &#8220;Enable Non-necessary cookie&#8221; to &#8220;Yes&#8221; if it&#8217;s not already.<\/s><\/li><li><s>Set &#8220;Default state&#8221; to &#8220;Disabled&#8221;<\/s><\/li><li><s>I leave the default description. But you should review it and confirm it&#8217;s OK.<\/s><\/li><li><s>You can then choose to add your script tag to the header or footer.<\/s><\/li><\/ul>\n\n\n\n<p><s>You&#8217;ll need to visit Google Analytics to get your script code. And Google ask for it to be the first thing in the header, but that&#8217;s probably unrealistic here. Add it, <code>&lt;script&gt;<\/code> tags and all to the &#8220;HEAD&#8221; section.<\/s><\/p>\n\n\n\n<p>My next thought was to add a code snippet to my theme&#8217;s <code>functions.php<\/code> that detected the &#8220;Accepted&#8221; cookie and loaded the analytics in the header. The code looked like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; auto-links: false; gutter: false; title: ; wrap-lines: false; notranslate\" title=\"\">\n\/**\n * Include Google Analytics in the head only if the viewed_cookie_policy cookies is set\n * This cookie is set by the GDPR Cookie Consent plugin once cookies are accepted\n *\/\nadd_action('wp_head', 'mytheme_google_analytics');\nfunction mytheme_google_analytics() {\n\tif (isset($_COOKIE&#x5B;'viewed_cookie_policy'])) {\n\t\t?&gt;\n\t\t&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\n\t\t&lt;script async src=&quot;https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-XXXXXXXXX-1&quot;&gt;&lt;\/script&gt;\n\t\t&lt;script&gt;\n\t\t  window.dataLayer = window.dataLayer || &#x5B;];\n\t\t  function gtag(){dataLayer.push(arguments);}\n\t\t  gtag('js', new Date());\n\n\t\t  gtag('config', 'UA-XXXXXXXXXX-1');\n\t\t&lt;\/script&gt;\n\t\t&lt;?php\n\t}\n}\n<\/pre><\/div>\n\n\n<p>The problem with THIS code is that if you&#8217;re doing page caching it won&#8217;t work. You could try fragment caching but that&#8217;s pretty hard to set up on most hosting setups.<\/p>\n\n\n\n<p>So my next and final step was to print the GA code from the theme, but just move the logic into the JavaScript. This needed a bit of wrangling to create the Tag Manager script tag but it wasn&#8217;t too hard. This is my final PHP code &#8211; be sure to replace both instances of UA-XXXXXXXXX-1 with your own GA property ID.<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; auto-links: false; gutter: false; title: ; wrap-lines: false; notranslate\" title=\"\">\nadd_action('wp_head', 'mytheme_google_analytics');\nfunction mytheme_google_analytics() {\n\t?&gt;\n\t&lt;script&gt;\n\t\tif (document.cookie.indexOf(&quot;viewed_cookie_policy=&quot;) &gt;= 0) {\n\t\t\tvar analyticsScriptTag = document.createElement('script');\n\t\t\tanalyticsScriptTag.async=true;\n\t\t\tanalyticsScriptTag.src=&quot;https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-XXXXXXXXX-1&quot;;\n\t\t\tdocument.head.prepend(analyticsScriptTag);\n\n\t\t\twindow.dataLayer = window.dataLayer || &#x5B;];\n\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t  \t\tgtag('js', new Date());\n\t  \t\tgtag('config', 'UA-XXXXXXXXX-1');\n\t  \t}\n\t&lt;\/script&gt;\n\t&lt;?php\n}\n<\/pre><\/div>\n\n\n<p>And yes, you could, and probably should, put this in a plugin to preserve the functionality across theme changes. I&#8217;ll work on a good way to do that sometime.<\/p>\n\n\n\n<p>It&#8217;s probably a good idea to clear any caches and CDNs you may have too just to make sure your changes get out there.<\/p>\n\n\n\n<p>AND, if you want to test this, make sure you use a private browsing window and turn off any tracking blockers you might have. I&#8217;m using Firefox and it&#8217;s blocking is pretty strong these days. Clicking &#8220;Accept&#8221; may reload the page and enable cookies, but it&#8217;s also possible you&#8217;re not sending page hits to GA.<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"885\" height=\"44\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-13.08.39.png\" alt=\"Dev tools console showing Google Analytics being blocked.\" class=\"wp-image-8798\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-13.08.39.png 885w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-13.08.39-300x15.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-13.08.39-768x38.png 768w\" sizes=\"(max-width: 885px) 100vw, 885px\" \/><figcaption>Consult the dev tools console if it&#8217;s not working! You may be blocking trackers.<\/figcaption><\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">One does not simply install Google Analytics<\/h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"651\" height=\"383\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-12.20.03.png\" alt=\"Lord of the Rings meme saying: One does not simply install Google Analytics\" class=\"wp-image-8794\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-12.20.03.png 651w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-12.20.03-300x176.png 300w\" sizes=\"(max-width: 651px) 100vw, 651px\" \/><\/figure>\n\n\n\n<p>Who said making websites was easy? I know, there&#8217;s a lot to consider here, but I finish just by saying that all these new rules are a GOOD THING. Yes, the internet is still working out the best ways of adhering to them.<\/p>\n\n\n\n<p>But protecting your website visitors from tracking, collecting only the information you will need and use about them, keeping their personal data private, and being transparent about what data you collect and how you use it are all positive steps.<\/p>\n\n\n\n<p>These things are sometimes annoying &#8211; and I hope I&#8217;ve chosen a solution here that isn&#8217;t too annoying &#8211; but they not only protect your website visitors as they browse the web, they protect YOU from it too.<\/p>\n\n\n\n<p>I hope this was helpful.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I&#8217;m sure you all know that the rules about how websites use cookies have changed a bit over the last few years. This post explains my current setup for cookie consents and analytics on WordPress sites. And tries to dissuade you from using them in the first place!<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 8794,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23,
+                639
+            ],
+            "tags": [
+                218,
+                564,
+                219,
+                498,
+                462
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>My new cookie pop-up setup - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"My new cookie pop-up setup - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m sure you all know that the rules about how websites use cookies have changed a bit over the last few years. This post explains my current setup for cookie consents and analytics on WordPress sites. And tries to dissuade you from using them in the first place!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-11-15T12:26:14+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-10-19T15:40:18+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-12.20.03.png\" \/>\n\t<meta property=\"og:image:width\" content=\"651\" \/>\n\t<meta property=\"og:image:height\" content=\"383\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"8 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/\",\"name\":\"My new cookie pop-up setup - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-11-15T12:26:14+00:00\",\"dateModified\":\"2020-10-19T15:40:18+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"My new cookie pop-up setup\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "My new cookie pop-up setup - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "My new cookie pop-up setup - Ross Wintle",
+                "og_description": "I'm sure you all know that the rules about how websites use cookies have changed a bit over the last few years. This post explains my current setup for cookie consents and analytics on WordPress sites. And tries to dissuade you from using them in the first place!",
+                "og_url": "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2019-11-15T12:26:14+00:00",
+                "article_modified_time": "2020-10-19T15:40:18+00:00",
+                "og_image": [
+                    {
+                        "width": 651,
+                        "height": 383,
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-12.20.03.png",
+                        "type": "image\/png"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "8 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/",
+                            "url": "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/",
+                            "name": "My new cookie pop-up setup - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2019-11-15T12:26:14+00:00",
+                            "dateModified": "2020-10-19T15:40:18+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "My new cookie pop-up setup"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8793"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8793"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 13,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8793\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 9595,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8793\/revisions\/9595"
+                    }
+                ],
+                "wp:featuredmedia": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/8794"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8793"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8793"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8793"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 8793,
+        "dateGmt": "2019-11-15T12:26:14",
+        "modifiedDateGmt": "2020-10-19T15:40:18",
+        "slug": "my-new-cookie-pop-up-setup",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2019\/11\/my-new-cookie-pop-up-setup\/",
+        "title": "My new cookie pop-up setup",
+        "content": "\n<p><em>I&#8217;m sure you all know that the rules about how websites use cookies have changed a bit over the last few years. This post explains my current setup for cookie consents and analytics on WordPress sites.<\/em><\/p>\n\n\n\n<p><em>Update: This post is still worth reading to work through the issue, but there is now <a href=\"https:\/\/wordpress.org\/plugins\/gdpr-cookie-compliance\/\">a free plugin that seems to do everything<\/a> all in one without any additional hand-coding required. <\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Firstly: Do you need analytics?<\/h2>\n\n\n\n<p>Before I start explaining HOW I set up cookie consent for analytics, it&#8217;s worth asking yourself: &#8220;Do I need analytics?&#8221;<\/p>\n\n\n\n<p>Many of my clients run small websites and feel like they should have analytics, but can&#8217;t often articulate why, and using a big analytics provider like Google Analytics or WordPress&#8217;s Jetpack Stats could mean that your users are being unnecessarily tracked and that personally identifiable data could be being shipped outside the EU.<\/p>\n\n\n\n<p>Analytics may or may not be private\/anonymous enough to avoid GDPR (this seems debatable still) but the starting point should be that you don&#8217;t have them installed, and only add them when you have a clear plan for using them and an up to date privacy policy that you understand and actually implement. Remember that a policy should reflect what you do rather than being a document of what you aspire to.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Do you need Google Analytics?<\/h2>\n\n\n\n<p>Many people default to wanting Google Analytics as it&#8217;s the tool that they&#8217;ve heard of and used before. But as well as thinking about Google&#8217;s tracking and privacy, it&#8217;s worth considering that Google Analytics is a HUGE piece of software that does enormous amounts of things that you probably don&#8217;t need or even understand, and it&#8217;s very complicated as a result.<\/p>\n\n\n\n<p>In the last few years a number of other, simpler, privacy-focussed analytics tools have sprung up, such as <a href=\"https:\/\/usefathom.com\/\">Fathom<\/a>, <a href=\"https:\/\/simpleanalytics.com\/\">Simple Analytics<\/a> and <a href=\"https:\/\/www.ticksel.com\/\">Ticksel<\/a>. Some of these don&#8217;t use cookies at all, or have cookie-free options. They cost, but if both your analytics and your users are important to you then maybe it&#8217;s worth a small amount each month to get a good service?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">OK, you want Google Analytics. What next?<\/h2>\n\n\n\n<p>So you&#8217;ve decided you&#8217;re happy with Google Analytics (I&#8217;ll call it GA from here on), and &#8211; here&#8217;s a little checklist before you get started:<\/p>\n\n\n\n<ul><li>You have good reason to want to collect this data about people visiting your website and will regularly make use of the information in constructive ways.<\/li><li>You don&#8217;t mind the complexity and possible user tracking issues.<\/li><li>You&#8217;re happy with the <a href=\"https:\/\/marketingplatform.google.com\/about\/analytics\/terms\/gb\/\">terms of service<\/a> and <a href=\"https:\/\/privacy.google.com\/businesses\/processorterms\/\">data processing terms<\/a>.<\/li><li>You have a privacy policy that explains what data you collect, why you collect it and what you do with it, including passing it to Google.<\/li><\/ul>\n\n\n\n<p>Then you need to be aware that GA uses cookies and that these are &#8220;non-essential&#8221; cookies and that <a href=\"https:\/\/ico.org.uk\/for-organisations\/guide-to-pecr\/guidance-on-the-use-of-cookies-and-similar-technologies\/\">the rules<\/a> now state that you must get consent from users before you use the cookies. Consent can not be assumed!<\/p>\n\n\n\n<p>(This is my interpretation. I am not a lawyer. This is not legal advice. I can not be held responsible for anything that happens as a result of you taking action based on this article. Seek your own legal advice should you need it.)<\/p>\n\n\n\n<p>OK. Now we&#8217;re good. So how do I set up cookie consent and analytics on my WordPress website?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Choosing a plugin<\/h2>\n\n\n\n<p>If you&#8217;re a developer with time on your hands you could probably build your own thing, but I went and tried some of the popular cookie consent plugins to see if any did what I wanted. My needs were:<\/p>\n\n\n\n<ul><li>Can be configured to load scripts only once consent is given<\/li><li>Reloads page after consent is given, preserving the referrer<\/li><li>Is clear about the difference between necessary and non-necessary cookies<\/li><li>Can be styled and have texts, buttons and links changed<\/li><\/ul>\n\n\n\n<p>I confess that I stopped looking when I found one that fulfilled my criteria. That plugin is <a href=\"https:\/\/wordpress.org\/plugins\/cookie-law-info\/\">GDPR Cookie Consent<\/a> by Webtoffee.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Configuring the plugin<\/h2>\n\n\n\n<p>Here are the steps that I take to configure the plugin &#8211; you should determine your own set of options but here&#8217;s mine:<\/p>\n\n\n\n<ul><li>Go to GDPR Cookie Consent in the WordPress Dashboard.<\/li><li>Work through the General -&gt; Cookie Bar options, changing any that you want.<\/li><li>Turn the Show Again Tab off in General -&gt; Show Again Tab &#8211; I&#8217;ve decided that I don&#8217;t need this and it&#8217;s intrusive.<\/li><li>In General -&gt; Other I set &#8220;Reload after accept button click&#8221; to &#8220;Yes&#8221; to allow the page to reload after cookies are accepted. I&#8217;ve checked that the referrer header is preserved. <\/li><li>In &#8220;Customise Cookie Bar&#8221; I tailor the message &#8211; specifically I make this refer to the privacy policy and include a <code>[cookie_link]<\/code> shortcode. I also REMOVE the <code>[cookie_settings]<\/code> link because I don&#8217;t depend on these for enabling the non-necessary cookies. More on this later.<\/li><li>I tailor the colours in Customise Cookie Bar, and each of the sub-panels of &#8220;Customise buttons&#8221;<\/li><li>On Customise Buttons -&gt; Read More Link I also set the URL or Page to be the Privacy Policy page<\/li><\/ul>\n\n\n\n<p>That&#8217;s it for settings. <\/p>\n\n\n\n<p>I skip the Cookie List and Policy Generator in the GDRP Cookie Consent plugins, assuming that the privacy policy has already been written, but you may want to pay these features some attention.<\/p>\n\n\n\n<p>Then you need to actually add the Google Analytics code.<\/p>\n\n\n\n<p>Originally I thought I&#8217;d do this in the &#8220;Non-necessary cookie&#8221; setting bit in the plugin BUT I thought that the &#8220;Accept&#8221; button would turn on all Non-necessary cookies, but it doesn&#8217;t! To turn on non-necessary cookies a website visitor needs to use the cookie settings option, and change a toggle. <\/p>\n\n\n\n<p>So this bit didn&#8217;t work:<\/p>\n\n\n\n<p><s>Because we want this to only load when cookies are accepted, I add this in the Non-necessary cookie settings of the plugin.<\/s><\/p>\n\n\n\n<ul><li><s>Set &#8220;Enable Non-necessary cookie&#8221; to &#8220;Yes&#8221; if it&#8217;s not already.<\/s><\/li><li><s>Set &#8220;Default state&#8221; to &#8220;Disabled&#8221;<\/s><\/li><li><s>I leave the default description. But you should review it and confirm it&#8217;s OK.<\/s><\/li><li><s>You can then choose to add your script tag to the header or footer.<\/s><\/li><\/ul>\n\n\n\n<p><s>You&#8217;ll need to visit Google Analytics to get your script code. And Google ask for it to be the first thing in the header, but that&#8217;s probably unrealistic here. Add it, <code>&lt;script&gt;<\/code> tags and all to the &#8220;HEAD&#8221; section.<\/s><\/p>\n\n\n\n<p>My next thought was to add a code snippet to my theme&#8217;s <code>functions.php<\/code> that detected the &#8220;Accepted&#8221; cookie and loaded the analytics in the header. The code looked like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; auto-links: false; gutter: false; title: ; wrap-lines: false; notranslate\" title=\"\">\n\/**\n * Include Google Analytics in the head only if the viewed_cookie_policy cookies is set\n * This cookie is set by the GDPR Cookie Consent plugin once cookies are accepted\n *\/\nadd_action('wp_head', 'mytheme_google_analytics');\nfunction mytheme_google_analytics() {\n\tif (isset($_COOKIE&#x5B;'viewed_cookie_policy'])) {\n\t\t?&gt;\n\t\t&lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\n\t\t&lt;script async src=&quot;https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-XXXXXXXXX-1&quot;&gt;&lt;\/script&gt;\n\t\t&lt;script&gt;\n\t\t  window.dataLayer = window.dataLayer || &#x5B;];\n\t\t  function gtag(){dataLayer.push(arguments);}\n\t\t  gtag('js', new Date());\n\n\t\t  gtag('config', 'UA-XXXXXXXXXX-1');\n\t\t&lt;\/script&gt;\n\t\t&lt;?php\n\t}\n}\n<\/pre><\/div>\n\n\n<p>The problem with THIS code is that if you&#8217;re doing page caching it won&#8217;t work. You could try fragment caching but that&#8217;s pretty hard to set up on most hosting setups.<\/p>\n\n\n\n<p>So my next and final step was to print the GA code from the theme, but just move the logic into the JavaScript. This needed a bit of wrangling to create the Tag Manager script tag but it wasn&#8217;t too hard. This is my final PHP code &#8211; be sure to replace both instances of UA-XXXXXXXXX-1 with your own GA property ID.<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; auto-links: false; gutter: false; title: ; wrap-lines: false; notranslate\" title=\"\">\nadd_action('wp_head', 'mytheme_google_analytics');\nfunction mytheme_google_analytics() {\n\t?&gt;\n\t&lt;script&gt;\n\t\tif (document.cookie.indexOf(&quot;viewed_cookie_policy=&quot;) &gt;= 0) {\n\t\t\tvar analyticsScriptTag = document.createElement('script');\n\t\t\tanalyticsScriptTag.async=true;\n\t\t\tanalyticsScriptTag.src=&quot;https:\/\/www.googletagmanager.com\/gtag\/js?id=UA-XXXXXXXXX-1&quot;;\n\t\t\tdocument.head.prepend(analyticsScriptTag);\n\n\t\t\twindow.dataLayer = window.dataLayer || &#x5B;];\n\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t  \t\tgtag('js', new Date());\n\t  \t\tgtag('config', 'UA-XXXXXXXXX-1');\n\t  \t}\n\t&lt;\/script&gt;\n\t&lt;?php\n}\n<\/pre><\/div>\n\n\n<p>And yes, you could, and probably should, put this in a plugin to preserve the functionality across theme changes. I&#8217;ll work on a good way to do that sometime.<\/p>\n\n\n\n<p>It&#8217;s probably a good idea to clear any caches and CDNs you may have too just to make sure your changes get out there.<\/p>\n\n\n\n<p>AND, if you want to test this, make sure you use a private browsing window and turn off any tracking blockers you might have. I&#8217;m using Firefox and it&#8217;s blocking is pretty strong these days. Clicking &#8220;Accept&#8221; may reload the page and enable cookies, but it&#8217;s also possible you&#8217;re not sending page hits to GA.<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"885\" height=\"44\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-13.08.39.png\" alt=\"Dev tools console showing Google Analytics being blocked.\" class=\"wp-image-8798\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-13.08.39.png 885w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-13.08.39-300x15.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-13.08.39-768x38.png 768w\" sizes=\"(max-width: 885px) 100vw, 885px\" \/><figcaption>Consult the dev tools console if it&#8217;s not working! You may be blocking trackers.<\/figcaption><\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">One does not simply install Google Analytics<\/h2>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"651\" height=\"383\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-12.20.03.png\" alt=\"Lord of the Rings meme saying: One does not simply install Google Analytics\" class=\"wp-image-8794\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-12.20.03.png 651w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2019\/11\/Screenshot-2019-11-15-at-12.20.03-300x176.png 300w\" sizes=\"(max-width: 651px) 100vw, 651px\" \/><\/figure>\n\n\n\n<p>Who said making websites was easy? I know, there&#8217;s a lot to consider here, but I finish just by saying that all these new rules are a GOOD THING. Yes, the internet is still working out the best ways of adhering to them.<\/p>\n\n\n\n<p>But protecting your website visitors from tracking, collecting only the information you will need and use about them, keeping their personal data private, and being transparent about what data you collect and how you use it are all positive steps.<\/p>\n\n\n\n<p>These things are sometimes annoying &#8211; and I hope I&#8217;ve chosen a solution here that isn&#8217;t too annoying &#8211; but they not only protect your website visitors as they browse the web, they protect YOU from it too.<\/p>\n\n\n\n<p>I hope this was helpful.<\/p>\n",
+        "excerpt": "<p>I&#8217;m sure you all know that the rules about how websites use cookies have changed a bit over the last few years. This post explains my current setup for cookie consents and analytics on WordPress sites. And tries to dissuade you from using them in the first place!<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 8794
+    },
+    {
+        "dataAsArray": {
             "id": 8781,
             "date": "2019-11-14T20:05:04",
             "date_gmt": "2019-11-14T20:05:04",
@@ -2186,246 +2439,6 @@
         "title": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields",
         "content": "\n<p>There wasn&#8217;t really a shorter title for this post.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Too long? Didn&#8217;t read?<\/h2>\n\n\n\n<p>Here&#8217;s the quick bit of learning: WordPress runs the <code>wp_enqueue_scripts<\/code> action hook during the execution of <code>wp_head<\/code> and it encourages you to register scripts on this hook. SO if you do something that you want to enqueue scripts correctly, you must do it AFTER <code>wp_head<\/code> runs &#8211; which usually means after <code>wp_header()<\/code> is called in the theme.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">My use case and problem<\/h2>\n\n\n\n<p>I was working for a client doing some maintenance on a theme that someone else had built. The theme used Advanced Custom Fields, and in some cases shortcodes were used inside ACF WYSIWYG fields.<\/p>\n\n\n\n<p>One of the shortcodes used needed some styles and\/or scripts to be enqueued to make the shortcode work. But this should be fine right? Executing the shortcode would enqueue the assets. No problem there.<\/p>\n\n\n\n<p>Well, then my theme had some code that was using the ACF field&#8217;s content. It set up some values near the top of the file, grabbing values from the ACF fields using the <code>get_field()<\/code> function, before outputting the template&#8217;s HTML content. Something like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;?php\n$title = get_field('title');\n$content = get_field('content');\n?&gt;\n\n&lt;?php\n  wp_header();\n?&gt;\n\n&lt;main&gt;\n  \/\/ Output the content here\n&lt;\/main&gt;\n<\/pre><\/div>\n\n\n<p>But, while the shortcode was definitely running, as I was seeing it&#8217;s output, the scripts that made the shortcode work were not being enqueued.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">What&#8217;s going on?<\/h2>\n\n\n\n<p>The plugin that gave me the shortcode actually worked correctly:<\/p>\n\n\n\n<ul><li>Scripts were registered correctly using <code>wp_register_script()<\/code> on the <code>wp_enqueue_scripts<\/code> action hook<\/li><li>The callback function that generated the shortcode output was running the <code>wp_enqueue_script()<\/code> function<\/li><li>The scripts were registered to be output in the footer, so enqueuing them during the shortcode output function should be fine<\/li><\/ul>\n\n\n\n<p>BUT&#8230;because the <code>wp_enqueue_scripts<\/code> action hook fires during <code>wp_header()<\/code> this code was failing.<\/p>\n\n\n\n<p>It failed because the shortcode callback was run when I did the <code>get_field()<\/code> call on the WYSIWYG field. The <code>get_field()<\/code> call is before <code>wp_header()<\/code> and therefore before the scripts are registered. So at the point the shortcode call back runs, the script is not registered so it can not be enqueued.<\/p>\n\n\n\n<p>Phew. Are you still with me?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The fix<\/h2>\n\n\n\n<p>The fix is simple &#8211; get the content, and therefore run the shortcodes, after <code>wp_header()<\/code> has been called so that the scripts are registered before they are enqueued:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;?php\n  wp_header();\n?&gt;\n\n&lt;?php\n$title = get_field('title');\n$content = get_field('content');\n?&gt;\n\n&lt;main&gt;\n  \/\/ Output the content here\n&lt;\/main&gt;\n<\/pre><\/div>\n\n\n<p><\/p>\n",
         "excerpt": "<p>A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 8614,
-            "date": "2019-09-09T11:08:07",
-            "date_gmt": "2019-09-09T10:08:07",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=8614"
-            },
-            "modified": "2020-06-15T13:46:17",
-            "modified_gmt": "2020-06-15T12:46:17",
-            "slug": "the-week-9th-september-2019",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/",
-            "title": {
-                "rendered": "The Week: 9th September 2019"
-            },
-            "content": {
-                "rendered": "\n<p>We survived going back to school! Hooray. And we&#8217;re well settled into the new weekly routine of key-stage 2. I, unfortunately, have come down with a nasty cold. So I&#8217;m not running at 100% capacity. But it&#8217;s been a good week nonetheless.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Projects: what I&#8217;ve been up to<\/h2>\n\n\n\n<p>I&#8217;ve been continuing to work on a charity microsite re-build that I&#8217;m doing in WordPress with vanilla JS and CSS, and building more ACF Gutenberg blocks. I&#8217;m loving this approach for small projects. It&#8217;s got it&#8217;s problems, but so has any method\/framework. And the simplicity of it is great and, in my opinion, the pros outweigh the cons for small projects like this.<\/p>\n\n\n\n<p>Also:<\/p>\n\n\n\n<ul><li>I did a big chunk of maintenance for a site that I look after for a small charity client.<\/li><li>Sorted out some <strong>Google Tag Manager and analytics event issues<\/strong> for a client, and learned a few things along the way<\/li><li>Spent an hour or so <strong>helping a client fix up some old micro sites<\/strong> that had been broken by a compulsory PHP upgrade that their hosting company made months ago. This was one of those things were not-every-WordPress-person would have had the skills to diagnose and fix it as I was <strong>digging around in logs and debugging other people&#8217;s stuff<\/strong>. I like to think I added good value here.<\/li><li><a href=\"https:\/\/twitter.com\/keithdevon\/\">Keith Devon<\/a> and I worked on editing down our informal &#8220;fireside chat&#8221; that should become an edition of his EXCELLENT <a href=\"https:\/\/pricingwp.highrise.digital\/\">Pricing WordPress<\/a> podcast this week. Watch that space (not this one).<\/li><li>Over the weekend, from my bed-of-poorliness, I started upgrading some of my side projects&#8217; Laravel versions. The excellent <a href=\"https:\/\/laravelshift.com\/\">Laravel Shift<\/a> service can automate this for you, but my apps are really simple and I wanted to experience the manual approach. A write up will come soon.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Posts: things I made<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/\">Camping thoughts<\/a> &#8211; I wrote some random thoughts on camping holidays I had while we were away over the summer. Featuring unlimited screen time for kids, Big Brother for the outdoors and bringing boiled water to campsites.<\/li><li><a href=\"https:\/\/rosswintle.uk\/2019\/09\/tech-communities-are-good\/\">Tech communities are good<\/a> &#8211; Frustrated with some of the negativity that seems prevalent in tech communities, I write this to point out that bad stuff is actually a small percentage of what goes on in tech communities, it&#8217;s just that we hear about it more. There&#8217;s loads of good stuff going on every day in tech communities. Let&#8217;s shout about that some more! (This made it into both the <a href=\"https:\/\/us13.campaign-archive.com\/?u=bf5d11ade9be022f552b86e69&amp;id=6c1faa9e9e\">MasterWP<\/a> and <a href=\"https:\/\/poststatus.com\/newsletter\/\">Post Status<\/a> newsletters! Woop!)<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">This week I learned<\/h2>\n\n\n\n<ul><li><strong><a href=\"https:\/\/make.wordpress.org\/core\/2019\/09\/02\/changes-to-prevent-search-engines-indexing-sites\/\">WordPress is changing how it blocks robots<\/a><\/strong>. AND <a href=\"https:\/\/yoast.com\/prevent-site-being-indexed\/\">robots\/crawlers and robots.txt<\/a> don&#8217;t work how I thought they did.<\/li><li>About PHP generators: <a href=\"https:\/\/www.php.net\/manual\/en\/language.generators.overview.php\">PHP: Generators overview &#8211; Manual<\/a> (via the free <a href=\"https:\/\/laracasts.com\/series\/whats-new-in-laravel-6\/episodes\/1\">Laracasts overview of Laravel 6<\/a>)<\/li><li>About the <a href=\"https:\/\/github.com\/junegunn\/fzf\">fzf fuzzy-find command line tool<\/a> (via <a href=\"https:\/\/twitter.com\/tnash\">@tnash<\/a>)<\/li><li>About the <a href=\"https:\/\/www.php.net\/manual\/en\/function.levenshtein.php\">levenshtein()<\/a> PHP function that finds words that are almost the same as the word you have, sort of. (I think this was also via the <a href=\"https:\/\/laracasts.com\/series\/whats-new-in-laravel-6\/episodes\/2\">Laracasts overview of Laravel 6<\/a>)<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Toolbox<\/h2>\n\n\n\n<p>This is worthy of its own blog post, but I cycle a bit and like to listen to podcasts as I do. A couple of years back I tried some cheap Bluetooth wireless ear buds. They weren&#8217;t much good. So I tried a second time paying a bit more and found <a href=\"https:\/\/www.amazon.co.uk\/Skullcandy-Bluetooth-Wireless-Ear-Earbuds-Black\/dp\/B06XX123SH?psc=1&amp;SubscriptionId=AKIAILSHYYTFIVPWUY6Q&amp;tag=duckduckgo-ffab-uk-21&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XX123SH\">some I liked<\/a>.<\/p>\n\n\n\n<p>I stupidly lost these last week and so went looking for some new earbuds and wondered what was new in the last couple of years.<\/p>\n\n\n\n<p>After a bit of help from Twitter (thanks everyone!) I decided to try some cheap-ish &#8220;true wireless&#8221; headphones. And I&#8217;m actually mightily impressed. There are <a href=\"https:\/\/www.youtube.com\/watch?v=a30Hnuzgr6s\">many, many models you can buy<\/a> for under \u00a350, but someone recommended some MPOW wireless ones, and so I opted to try the <a href=\"https:\/\/www.amazon.co.uk\/dp\/B07SZ8V339?aaxitk=nGwZgKVZXZbdOX8JyKeDyw&amp;pd_rd_i=B07SZ8V339&amp;pf_rd_p=0192e6ab-5959-4731-9929-242726c28327&amp;hsa_cr_id=2992214720002&amp;sb-ci-n=asinImage&amp;sb-ci-v=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F416BQLNpTbL.jpg&amp;sb-ci-a=B07SZ8V339\">MPOW true-wireless ones<\/a> and&#8230;they&#8217;re a bit big and stupid-looking, but they stay in my ears (surprisingly!) do the job and for \u00a330 I&#8217;m more than happy with them. I&#8217;m REALLY impressed with this technology.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Time Machine<\/h2>\n\n\n\n<p>I go on about this a lot, but discovering I was a &#8220;<a href=\"https:\/\/rosswintle.uk\/2015\/07\/highly-sensitive\/\">Highly Sensitive<\/a>&#8221; person was quite a revelation to me and our family. I suspect that many people I know have this character trait too (about 20% of people do!) and understanding it may be helpful. So ages ago I did a write up.<\/p>\n\n\n\n<p>If you ever felt like you experience the world more intensely than others, if you have a high attention to detail and find big events with lots of people tiring, maybe this is you?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Pins: things I read and remembered<\/h2>\n\n\n\n<p>Here&#8217;s what I bookmarked this week (not much it would seem!)<\/p>\n\n\n\n<p><em>(Brought to you with <\/em><a href=\"https:\/\/pinboard.in\"><em>pinboard.in<\/em><\/a><em> and my <\/em><a href=\"https:\/\/wordpress.org\/plugins\/sync-pinboard\/\"><em>Sync Pinboard<\/em><\/a><em> plugin)<\/em><\/p>\n\n\n\n<div class=\"wp-block-sync-pinboard-pins\"><ul><li><a href=\"https:\/\/wordpress.org\/plugins\/shariff\/\">Shariff Wrapper \u2013 WordPress plugin | WordPress.org<\/a><span> &#8211; <\/span><span>Interesting privacy-aware sharing buttons plugin via @rmccue<\/span><\/li><li><a href=\"https:\/\/www.smashingmagazine.com\/2019\/08\/bottom-navigation-pattern-mobile-web-pages\/\">Bottom Navigation Pattern On Mobile Web Pages: A Better Alternative?<\/a><span> &#8211; <\/span><span>I really like the idea of fixed-bottom navigation on websites. This is a good write up on Smashing Magazine<\/span><\/li><li><a href=\"https:\/\/www.janmeppe.com\/blog\/regex-for-noobs\/\">Regex For Noobs (like me!) &#8211; An Illustrated Guide &#8211; Janmeppe.com<\/a><span> &#8211; <\/span><span>Fun illustrated guide to regular expressions, via MasterWP newsletter<\/span><\/li><li><a href=\"https:\/\/github.com\/timqian\/chart.xkcd\">timqian\/chart.xkcd: xkcd styled chart lib<\/a><span> &#8211; <\/span><span>A coding library to make xkcd-style &#8220;hand-drawn&#8221;\/cartoony charts. ? &#8211; via @changelog\r\n<\/span><\/li><li><a href=\"https:\/\/wtfutil.com\/\">WTF :: WTF &#8211; the terminal dashboard<\/a><span> &#8211; <\/span><span>This looks mad. Amazing, but probably not for me. A personal information dashboard for your terminal. via @changelog<\/span><\/li><li><a href=\"https:\/\/iridakos.com\/how-to\/2019\/06\/26\/composing-better-emails.html\">Composing better emails<\/a><span> &#8211; <\/span><span>This is a super post of email tips. Coding-specific, but principles apply generally.\r\n\r\nvia @changelog<\/span><\/li><li><a href=\"https:\/\/yoast.com\/prevent-site-being-indexed\/\">Preventing your site from being indexed, the right way \u2022 Yoast<\/a><span> &#8211; <\/span><span>Blocking websites from indexing, differences between being listed and indexed, with relevant robots.txt and meta tags<\/span><\/li><\/ul><\/div>\n\n\n\n<p>Have a great week!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>My week in projects, posts and pins, PLUS: This Week I Learned, Time Machine, and Toolbox<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                709
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Week: 9th September 2019 - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Week: 9th September 2019 - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"My week in projects, posts and pins, PLUS: This Week I Learned, Time Machine, and Toolbox\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-09-09T10:08:07+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-06-15T12:46:17+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/\",\"name\":\"The Week: 9th September 2019 - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-09-09T10:08:07+00:00\",\"dateModified\":\"2020-06-15T12:46:17+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Week: 9th September 2019\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "The Week: 9th September 2019 - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "The Week: 9th September 2019 - Ross Wintle",
-                "og_description": "My week in projects, posts and pins, PLUS: This Week I Learned, Time Machine, and Toolbox",
-                "og_url": "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2019-09-09T10:08:07+00:00",
-                "article_modified_time": "2020-06-15T12:46:17+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "5 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/",
-                            "url": "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/",
-                            "name": "The Week: 9th September 2019 - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2019-09-09T10:08:07+00:00",
-                            "dateModified": "2020-06-15T12:46:17+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "The Week: 9th September 2019"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8614"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8614"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 1,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8614\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 8616,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8614\/revisions\/8616"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8614"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8614"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8614"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 8614,
-        "dateGmt": "2019-09-09T10:08:07",
-        "modifiedDateGmt": "2020-06-15T12:46:17",
-        "slug": "the-week-9th-september-2019",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2019\/09\/the-week-9th-september-2019\/",
-        "title": "The Week: 9th September 2019",
-        "content": "\n<p>We survived going back to school! Hooray. And we&#8217;re well settled into the new weekly routine of key-stage 2. I, unfortunately, have come down with a nasty cold. So I&#8217;m not running at 100% capacity. But it&#8217;s been a good week nonetheless.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Projects: what I&#8217;ve been up to<\/h2>\n\n\n\n<p>I&#8217;ve been continuing to work on a charity microsite re-build that I&#8217;m doing in WordPress with vanilla JS and CSS, and building more ACF Gutenberg blocks. I&#8217;m loving this approach for small projects. It&#8217;s got it&#8217;s problems, but so has any method\/framework. And the simplicity of it is great and, in my opinion, the pros outweigh the cons for small projects like this.<\/p>\n\n\n\n<p>Also:<\/p>\n\n\n\n<ul><li>I did a big chunk of maintenance for a site that I look after for a small charity client.<\/li><li>Sorted out some <strong>Google Tag Manager and analytics event issues<\/strong> for a client, and learned a few things along the way<\/li><li>Spent an hour or so <strong>helping a client fix up some old micro sites<\/strong> that had been broken by a compulsory PHP upgrade that their hosting company made months ago. This was one of those things were not-every-WordPress-person would have had the skills to diagnose and fix it as I was <strong>digging around in logs and debugging other people&#8217;s stuff<\/strong>. I like to think I added good value here.<\/li><li><a href=\"https:\/\/twitter.com\/keithdevon\/\">Keith Devon<\/a> and I worked on editing down our informal &#8220;fireside chat&#8221; that should become an edition of his EXCELLENT <a href=\"https:\/\/pricingwp.highrise.digital\/\">Pricing WordPress<\/a> podcast this week. Watch that space (not this one).<\/li><li>Over the weekend, from my bed-of-poorliness, I started upgrading some of my side projects&#8217; Laravel versions. The excellent <a href=\"https:\/\/laravelshift.com\/\">Laravel Shift<\/a> service can automate this for you, but my apps are really simple and I wanted to experience the manual approach. A write up will come soon.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Posts: things I made<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/\">Camping thoughts<\/a> &#8211; I wrote some random thoughts on camping holidays I had while we were away over the summer. Featuring unlimited screen time for kids, Big Brother for the outdoors and bringing boiled water to campsites.<\/li><li><a href=\"https:\/\/rosswintle.uk\/2019\/09\/tech-communities-are-good\/\">Tech communities are good<\/a> &#8211; Frustrated with some of the negativity that seems prevalent in tech communities, I write this to point out that bad stuff is actually a small percentage of what goes on in tech communities, it&#8217;s just that we hear about it more. There&#8217;s loads of good stuff going on every day in tech communities. Let&#8217;s shout about that some more! (This made it into both the <a href=\"https:\/\/us13.campaign-archive.com\/?u=bf5d11ade9be022f552b86e69&amp;id=6c1faa9e9e\">MasterWP<\/a> and <a href=\"https:\/\/poststatus.com\/newsletter\/\">Post Status<\/a> newsletters! Woop!)<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">This week I learned<\/h2>\n\n\n\n<ul><li><strong><a href=\"https:\/\/make.wordpress.org\/core\/2019\/09\/02\/changes-to-prevent-search-engines-indexing-sites\/\">WordPress is changing how it blocks robots<\/a><\/strong>. AND <a href=\"https:\/\/yoast.com\/prevent-site-being-indexed\/\">robots\/crawlers and robots.txt<\/a> don&#8217;t work how I thought they did.<\/li><li>About PHP generators: <a href=\"https:\/\/www.php.net\/manual\/en\/language.generators.overview.php\">PHP: Generators overview &#8211; Manual<\/a> (via the free <a href=\"https:\/\/laracasts.com\/series\/whats-new-in-laravel-6\/episodes\/1\">Laracasts overview of Laravel 6<\/a>)<\/li><li>About the <a href=\"https:\/\/github.com\/junegunn\/fzf\">fzf fuzzy-find command line tool<\/a> (via <a href=\"https:\/\/twitter.com\/tnash\">@tnash<\/a>)<\/li><li>About the <a href=\"https:\/\/www.php.net\/manual\/en\/function.levenshtein.php\">levenshtein()<\/a> PHP function that finds words that are almost the same as the word you have, sort of. (I think this was also via the <a href=\"https:\/\/laracasts.com\/series\/whats-new-in-laravel-6\/episodes\/2\">Laracasts overview of Laravel 6<\/a>)<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Toolbox<\/h2>\n\n\n\n<p>This is worthy of its own blog post, but I cycle a bit and like to listen to podcasts as I do. A couple of years back I tried some cheap Bluetooth wireless ear buds. They weren&#8217;t much good. So I tried a second time paying a bit more and found <a href=\"https:\/\/www.amazon.co.uk\/Skullcandy-Bluetooth-Wireless-Ear-Earbuds-Black\/dp\/B06XX123SH?psc=1&amp;SubscriptionId=AKIAILSHYYTFIVPWUY6Q&amp;tag=duckduckgo-ffab-uk-21&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B06XX123SH\">some I liked<\/a>.<\/p>\n\n\n\n<p>I stupidly lost these last week and so went looking for some new earbuds and wondered what was new in the last couple of years.<\/p>\n\n\n\n<p>After a bit of help from Twitter (thanks everyone!) I decided to try some cheap-ish &#8220;true wireless&#8221; headphones. And I&#8217;m actually mightily impressed. There are <a href=\"https:\/\/www.youtube.com\/watch?v=a30Hnuzgr6s\">many, many models you can buy<\/a> for under \u00a350, but someone recommended some MPOW wireless ones, and so I opted to try the <a href=\"https:\/\/www.amazon.co.uk\/dp\/B07SZ8V339?aaxitk=nGwZgKVZXZbdOX8JyKeDyw&amp;pd_rd_i=B07SZ8V339&amp;pf_rd_p=0192e6ab-5959-4731-9929-242726c28327&amp;hsa_cr_id=2992214720002&amp;sb-ci-n=asinImage&amp;sb-ci-v=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F416BQLNpTbL.jpg&amp;sb-ci-a=B07SZ8V339\">MPOW true-wireless ones<\/a> and&#8230;they&#8217;re a bit big and stupid-looking, but they stay in my ears (surprisingly!) do the job and for \u00a330 I&#8217;m more than happy with them. I&#8217;m REALLY impressed with this technology.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Time Machine<\/h2>\n\n\n\n<p>I go on about this a lot, but discovering I was a &#8220;<a href=\"https:\/\/rosswintle.uk\/2015\/07\/highly-sensitive\/\">Highly Sensitive<\/a>&#8221; person was quite a revelation to me and our family. I suspect that many people I know have this character trait too (about 20% of people do!) and understanding it may be helpful. So ages ago I did a write up.<\/p>\n\n\n\n<p>If you ever felt like you experience the world more intensely than others, if you have a high attention to detail and find big events with lots of people tiring, maybe this is you?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Pins: things I read and remembered<\/h2>\n\n\n\n<p>Here&#8217;s what I bookmarked this week (not much it would seem!)<\/p>\n\n\n\n<p><em>(Brought to you with <\/em><a href=\"https:\/\/pinboard.in\"><em>pinboard.in<\/em><\/a><em> and my <\/em><a href=\"https:\/\/wordpress.org\/plugins\/sync-pinboard\/\"><em>Sync Pinboard<\/em><\/a><em> plugin)<\/em><\/p>\n\n\n\n<div class=\"wp-block-sync-pinboard-pins\"><ul><li><a href=\"https:\/\/wordpress.org\/plugins\/shariff\/\">Shariff Wrapper \u2013 WordPress plugin | WordPress.org<\/a><span> &#8211; <\/span><span>Interesting privacy-aware sharing buttons plugin via @rmccue<\/span><\/li><li><a href=\"https:\/\/www.smashingmagazine.com\/2019\/08\/bottom-navigation-pattern-mobile-web-pages\/\">Bottom Navigation Pattern On Mobile Web Pages: A Better Alternative?<\/a><span> &#8211; <\/span><span>I really like the idea of fixed-bottom navigation on websites. This is a good write up on Smashing Magazine<\/span><\/li><li><a href=\"https:\/\/www.janmeppe.com\/blog\/regex-for-noobs\/\">Regex For Noobs (like me!) &#8211; An Illustrated Guide &#8211; Janmeppe.com<\/a><span> &#8211; <\/span><span>Fun illustrated guide to regular expressions, via MasterWP newsletter<\/span><\/li><li><a href=\"https:\/\/github.com\/timqian\/chart.xkcd\">timqian\/chart.xkcd: xkcd styled chart lib<\/a><span> &#8211; <\/span><span>A coding library to make xkcd-style &#8220;hand-drawn&#8221;\/cartoony charts. ? &#8211; via @changelog\r\n<\/span><\/li><li><a href=\"https:\/\/wtfutil.com\/\">WTF :: WTF &#8211; the terminal dashboard<\/a><span> &#8211; <\/span><span>This looks mad. Amazing, but probably not for me. A personal information dashboard for your terminal. via @changelog<\/span><\/li><li><a href=\"https:\/\/iridakos.com\/how-to\/2019\/06\/26\/composing-better-emails.html\">Composing better emails<\/a><span> &#8211; <\/span><span>This is a super post of email tips. Coding-specific, but principles apply generally.\r\n\r\nvia @changelog<\/span><\/li><li><a href=\"https:\/\/yoast.com\/prevent-site-being-indexed\/\">Preventing your site from being indexed, the right way \u2022 Yoast<\/a><span> &#8211; <\/span><span>Blocking websites from indexing, differences between being listed and indexed, with relevant robots.txt and meta tags<\/span><\/li><\/ul><\/div>\n\n\n\n<p>Have a great week!<\/p>\n",
-        "excerpt": "<p>My week in projects, posts and pins, PLUS: This Week I Learned, Time Machine, and Toolbox<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

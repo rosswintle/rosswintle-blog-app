@@ -1,0 +1,233 @@
+{
+    "id": 254803,
+    "date": "2023-12-31T23:06:02",
+    "date_gmt": "2023-12-31T23:06:02",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=254803"
+    },
+    "modified": "2023-12-31T23:06:04",
+    "modified_gmt": "2023-12-31T23:06:04",
+    "slug": "i-made-another-static-site-generator",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/",
+    "title": {
+        "rendered": "I made a(nother) static site generator"
+    },
+    "content": {
+        "rendered": "\n<p><em>This time it&#8217;s a static-file-driven, mobile-app-like blog. And the tooling I made should be usable on any simple WordPress blog! But&#8230; WHY???<\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Some background<\/h2>\n\n\n\n<p>I made a simple, app-like, completely static-file version of this site! It&#8217;s super-fast and pretty lightweight and it didn&#8217;t take very long. It&#8217;s here:<\/p>\n\n\n\n<p>https:\/\/m.rosswintle.uk\/<\/p>\n\n\n\n<p>Here&#8217;s some of what I was trying to achieve and why&#8230;<\/p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Keeping it simple<\/strong><\/h3>\n\n\n\n<p>I find myself rebelling a lot against the complexity of modern web solutions. I&#8217;m a use-the-platform guy who firmly believes that the simple solutions are better, easier to make and maintain, faster, cheaper, etc.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\"><strong>Proving things to myself<\/strong><\/h3>\n\n\n\n<p>I&#8217;m working with a lot of complexity at work: mostly building a headless site with React and Next.js and highly-scalable headless solutions involving many layers of caching and integration. This is right (maybe?) for the context of the work.<\/p>\n\n\n\n<p>But I&#8217;ve found myself wondering if a much simpler solution could achieve the same benefits &#8211; to <em>some<\/em> extent, at least.<\/p>\n\n\n\n<p>I wanted to prove that there was a &#8220;headless&#8221; solution to websites that didn&#8217;t require node.js or a ton of heavy JavaScript framework code and a zillion dependencies.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Yes, I&#8217;m (probably) reinventing the wheel<\/h3>\n\n\n\n<p>If I build a tool that scrapes all the content from the WordPress API and dumps it to some static format for serving as a static site, am I just making a poor-man&#8217;s Gatsby? Or Astro. Or&#8230; Next.js &#8211; the thing I&#8217;m proving that I don&#8217;t need? Or <a href=\"https:\/\/wordpress.org\/plugins\/simply-static\/\">Simply Static<\/a>? Is it not just what the JAMStack was doing all along for so many years?<\/p>\n\n\n\n<p>Well, maybe. And one of the main reasons for using such a tool is that they handle all the complex edge cases that I&#8217;ve almost certainly not thought of yet and don&#8217;t have the constraints that I had. Probably the best reason I&#8217;ve been presented with for using Next.js for a web<em> site<\/em> (rather than a web <em>application<\/em>) is that if you start adding more and more code to handle features and use-cases, you end up with your own Next-like framework anyway, and it&#8217;s better to use a framework maintained by a framework expert! So I see the reasons you would do that.<\/p>\n\n\n\n<p>But also, I wanted to show what is possible with a very simple approach. It seems to me that you should be able to get a long way building a static site with a simple scraper script and a basic template.<\/p>\n\n\n\n<p>And with a bit of JavaScript, maybe using a small reactive framework, we can make it app-like too!<\/p>\n\n\n\n<p>Statically hosting all of this on a CDN means free hosting in the best case, and enormous scalability, and global edge serving in the other best case.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">What I won&#8217;t do<\/h3>\n\n\n\n<p>This approach had some hard constraints\/limitations:<\/p>\n\n\n\n<ul>\n<li>It will be slow to generate a large site<\/li>\n\n\n\n<li>It will need developer experience and tooling to use<\/li>\n\n\n\n<li>It won&#8217;t be able to do anything that requires server-side processing without some third party service (e.g. forms, signups, etc &#8211; though I DID find a way to do search!)<\/li>\n\n\n\n<li>Template editing won&#8217;t be WYSIWYG &#8211; the resulting output will be pretty bland and made in HTML and CSS.<\/li>\n<\/ul>\n\n\n\n<p>These are all limitations I&#8217;m happy to accept for my simple personal blog.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">What I made<\/h2>\n\n\n\n<p>Here&#8217;s what I made&#8230; it&#8217;s not finished, but it&#8217;s 80% of the way there:<\/p>\n\n\n\n<p><a href=\"https:\/\/m.rosswintle.uk\/\">https:\/\/m.rosswintle.uk\/<\/a><\/p>\n\n\n\n<p>Ultimately the back-end is my regular WordPress blog.<\/p>\n\n\n\n<p>The static version is built using a PHP-based CLI tool, using <a href=\"https:\/\/laravel-zero.com\/\">Laravel Zero<\/a> to scrape the content, restructure it and save it. It&#8217;s pretty efficient &#8211; the slowness is in the API queries. It builds my 750-page\/post site in about 80 seconds.<br><br>There&#8217;s then a simple HTML template and some <a href=\"https:\/\/alpinejs.dev\/\">AlpineJS<\/a> scripting.<\/p>\n\n\n\n<p>I was really glad to stumble upon <a href=\"https:\/\/pagefind.app\/\">PageFind<\/a> &#8211; a tool that builds a static content index and that allows search. This makes everything a bit more dynamic.<\/p>\n\n\n\n<p>Things I want to add in the future:<\/p>\n\n\n\n<ul>\n<li>History\/back\/forward navigation\/URL updates<\/li>\n\n\n\n<li>Page listing<\/li>\n\n\n\n<li>Ability to re-use the scrape\/build scripts across sites. They&#8217;re not quite site-agnostic yet, and I want to write some docs.<\/li>\n<\/ul>\n\n\n\n<p>That&#8217;s a shorter list than I thought it would be before I started writing it! So that&#8217;s good.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Conclusions and thoughts<\/h2>\n\n\n\n<p>For many years I was pretty unimpressed by the JAMStack approach. I think because it always seemed to be querying some dynamic back-end anyway, so it felt like you had the complexity of a dynamic CMS AND the complexity of a dynamic front-end app, but without very much benefit.<\/p>\n\n\n\n<p>Perhaps I misunderstood. But it seemed like you had:<\/p>\n\n\n\n<ul>\n<li>Static site generators: all static files, built at run time<\/li>\n\n\n\n<li>&#8220;JAMStack&#8221; sites: static templating, but pulling in dynamic content over an API<\/li>\n<\/ul>\n\n\n\n<p>As I&#8217;ve been moving from a &#8220;Spin up a WordPress site for every little project&#8221; approach to a &#8220;<a href=\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/\">Make some static HTML files and host them for free<\/a>&#8221; approach, I&#8217;ve been thinking about how this model can be used more. It&#8217;s cheap. It&#8217;s secure. It&#8217;s fast. I love developing with it.<\/p>\n\n\n\n<p>This is not what Next does. Next needs a back-end server and a zillion (ish) dependencies. And it&#8217;s better suited to applications that need lots of dynamic content, not a simple blog site. I remain that if you&#8217;re building a marketing site, the cost\/benefit of Next is low if not negative.<\/p>\n\n\n\n<p>It&#8217;s probably what <a href=\"https:\/\/astro.build\/\">Astro<\/a> does, but Astro also has &#8230; checks notes &#8230;  450 ish dependencies!! (Astro looks really interesting, very nicely done, and has <a href=\"https:\/\/docs.astro.build\/en\/guides\/cms\/wordpress\/#building-a-blog-with-wordpress-and-astro\">a guide on working with a WordPress blog\/site<\/a>!). There are probably other frameworks and site generators that can help too. I&#8217;m no expert in this area.<\/p>\n\n\n\n<p>My site has 93 JavaScript package dependencies, which is still too many, but most of them are via TailwindCSS which is entirely optional, which I trust, and which rarely breaks.<\/p>\n\n\n\n<p>My project also has a bunch of Composer\/PHP dependencies. But most of those are to create the CLI tool that does the scraping. These are not problematic. This stuff just works. It&#8217;s stable. And when it&#8217;s broken you get helpful errors. It&#8217;s not a world of pain like I find npm to be.<\/p>\n\n\n\n<p>So I proved the concept. I achieved my goals. I like this. It&#8217;s not perfect. But I will take it a bit further and see where I get to.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>This time it&#8217;s a static-file-driven, mobile-app-like blog. And the tooling I made should be usable on any simple WordPress blog! But&#8230; WHY???<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        286,
+        64,
+        16211,
+        107,
+        16212,
+        181,
+        462
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>I made a(nother) static site generator - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"I made a(nother) static site generator - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This time it&#039;s a static-file-driven, mobile-app-like blog. And the tooling I made should be usable on any simple WordPress blog! But... WHY???\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-12-31T23:06:02+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-12-31T23:06:04+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/\",\"name\":\"I made a(nother) static site generator - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-12-31T23:06:02+00:00\",\"dateModified\":\"2023-12-31T23:06:04+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"I made a(nother) static site generator\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "I made a(nother) static site generator - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "I made a(nother) static site generator - Ross Wintle",
+        "og_description": "This time it's a static-file-driven, mobile-app-like blog. And the tooling I made should be usable on any simple WordPress blog! But... WHY???",
+        "og_url": "https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2023-12-31T23:06:02+00:00",
+        "article_modified_time": "2023-12-31T23:06:04+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "5 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/",
+                    "url": "https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/",
+                    "name": "I made a(nother) static site generator - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2023-12-31T23:06:02+00:00",
+                    "dateModified": "2023-12-31T23:06:04+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2023\/12\/i-made-another-static-site-generator\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "I made a(nother) static site generator"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254803"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=254803"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 5,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254803\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 254822,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254803\/revisions\/254822"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=254803"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=254803"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=254803"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

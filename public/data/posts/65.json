@@ -1,6 +1,243 @@
 [
     {
         "dataAsArray": {
+            "id": 99,
+            "date": "2008-01-06T15:24:00",
+            "date_gmt": "2008-01-06T15:24:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/01\/06\/good-ride-today\/"
+            },
+            "modified": "2008-01-06T15:24:00",
+            "modified_gmt": "2008-01-06T15:24:00",
+            "slug": "good-ride-today",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/",
+            "title": {
+                "rendered": "Good ride today"
+            },
+            "content": {
+                "rendered": "<p>Haven&#8217;t done a training ride for a while but went out in glorious sunshine today and did Cricklade and back (16.5 miles) in a fraction over an hour.  Not bad going.  Must get out and train more often &#8211; I loved it! \ud83d\ude42<\/p>\n<p>Oh yeah, it was a bit of a test of some new clothing too.  I got some &#8220;Seal Skinz&#8221; waterproof and windproof gloves.  Brilliant!  Not as breathable as I&#8217;d been lead to believe but my hands weren&#8217;t soggy.  The key thing was windproofing.  My hands were VERY warm &#8211; even more so than when I wear ski gloves.  It really is the wind that gets you cold.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Haven&#8217;t done a training ride for a while but went out in glorious sunshine today and did Cricklade and back (16.5 miles) in a fraction over an hour. Not bad going. Must get out and train more often &#8211; I loved it! \ud83d\ude42 Oh yeah, it was a bit of a test of some new [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Good ride today - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Good ride today - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Haven&#8217;t done a training ride for a while but went out in glorious sunshine today and did Cricklade and back (16.5 miles) in a fraction over an hour. Not bad going. Must get out and train more often &#8211; I loved it! \ud83d\ude42 Oh yeah, it was a bit of a test of some new [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-01-06T15:24:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/\",\"name\":\"Good ride today - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-01-06T15:24:00+00:00\",\"dateModified\":\"2008-01-06T15:24:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Good ride today\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Good ride today - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Good ride today - Ross Wintle",
+                "og_description": "Haven&#8217;t done a training ride for a while but went out in glorious sunshine today and did Cricklade and back (16.5 miles) in a fraction over an hour. Not bad going. Must get out and train more often &#8211; I loved it! \ud83d\ude42 Oh yeah, it was a bit of a test of some new [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2008-01-06T15:24:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/",
+                            "url": "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/",
+                            "name": "Good ride today - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2008-01-06T15:24:00+00:00",
+                            "dateModified": "2008-01-06T15:24:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Good ride today"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/99"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=99"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/99\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=99"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=99"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=99"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 99,
+        "dateGmt": "2008-01-06T15:24:00",
+        "modifiedDateGmt": "2008-01-06T15:24:00",
+        "slug": "good-ride-today",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2008\/01\/good-ride-today\/",
+        "title": "Good ride today",
+        "content": "<p>Haven&#8217;t done a training ride for a while but went out in glorious sunshine today and did Cricklade and back (16.5 miles) in a fraction over an hour.  Not bad going.  Must get out and train more often &#8211; I loved it! \ud83d\ude42<\/p>\n<p>Oh yeah, it was a bit of a test of some new clothing too.  I got some &#8220;Seal Skinz&#8221; waterproof and windproof gloves.  Brilliant!  Not as breathable as I&#8217;d been lead to believe but my hands weren&#8217;t soggy.  The key thing was windproofing.  My hands were VERY warm &#8211; even more so than when I wear ski gloves.  It really is the wind that gets you cold.<\/p>\n",
+        "excerpt": "<p>Haven&#8217;t done a training ride for a while but went out in glorious sunshine today and did Cricklade and back (16.5 miles) in a fraction over an hour. Not bad going. Must get out and train more often &#8211; I loved it! \ud83d\ude42 Oh yeah, it was a bit of a test of some new [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 98,
             "date": "2008-01-02T22:07:00",
             "date_gmt": "2008-01-02T22:07:00",
@@ -2130,240 +2367,6 @@
         "title": "File Sharing",
         "content": "<p>I&#8217;ve mentioned Iko, the excellent band that a friend of ours is in, before.  The lead singer of the band recently posted an message on his MySpace Blog about filesharing.  I spent some time writing a response and wanted to copy my thoughts here.  The full thread can be found <a href=\"http:\/\/blog.myspace.com\/index.cfm?fuseaction=blog.view&amp;friendID=38074918&amp;blogID=338942328\">on MySpace here<\/a>.<\/p>\n<p>Ultimately, Kieran was starting a discussion about file sharing, whether or not it&#8217;s beneficial to the music industry, or should it be banned in some way.  He hadn&#8217;t asked a specific question, just wanted to see what people&#8217;s thoughts were.<\/p>\n<p>&#8212;<\/p>\n<p>Hi Kieran and other folks,<\/p>\n<p>I consider myself pretty old-school, I like cover artwork and inlays, I like to have a physical item in my music collection. Not everyone is like me.<\/p>\n<p>I don&#8217;t do piracy. At least, I always pay for music that&#8217;s in my collection because it has value. Not everyone is like me.<\/p>\n<p>Hmm&#8230;.piracy. It&#8217;s not new. It&#8217;s not just that we&#8217;re all selfish now&#8230;we&#8217;ve always been selfish! Hands up all those that copied CD or tapes (remember them) before computers and the Internet were fast enough to make MP3&#8217;s and file sharing a reality? All that&#8217;s changed is that it&#8217;s quicker and easier to copy and swap music and, with digital, you don&#8217;t lose quality with each copy.<\/p>\n<p>But the technology has improved in leaps and bounds &#8211; faster than the industry can cope with, it seems.<\/p>\n<p>The Internet truly is a double-edged sword.On the one hand:<br \/>&#8211; it has made it easy for new bands to promote themselves.<br \/>&#8211; it removes barriers and makes people equal; Iko probably have as much power as Radiohead on the Internet.<br \/>&#8211; it has the potential to create an environment where only truly good music thrives because you can try stuff for free and if it&#8217;s no good you&#8217;ll leave it and move on to something else quickly (as Dean does).<br \/>&#8211; it has potential to remove the middle men (distributors and record shops) and have more of the cost of music going direct to the artist&#8230;or to even reduce the cost of music in the same way (most people I know that copy stuff do so because they think\/know they&#8217;re being ripped off by the distributors and shops).<\/p>\n<p>So there&#8217;s a lot of good things about using the internet for music.<\/p>\n<p>On the other hand it has turned music into &#8220;just information&#8221; that can very easily be passed between people at no cost. In some cases this may be to the benefit of the artist; especially to a decent new act just starting out who wants to get their sound &#8220;out there&#8221;. However, I suspect that in many cases it can be crippling as the monetary value is removed from the art.<\/p>\n<p>I work with technology a LOT. It is a tool. It is a means to an end. You don&#8217;t own a hammer for the sake of owning a hammer, you own it so you can hit things with it. And like any tool, it can be used, and it can be ab-used. I can use my hammer to hit people, for instance, which isn&#8217;t very nice (I don&#8217;t, by the way)<\/p>\n<p>File sharing is a tool. I&#8217;m sure it has many legal, useful purposes and that&#8217;s why it exists. Sadly it seems to be abused more and more. And, oddly, I find that people who are normally kind, sensible, good-moraled, law-abiding citizens, have no problem with using computers for piracy, and seem to think that it&#8217;s stupid that they have to pay for stuff that they can freely copy around.<\/p>\n<p>So what can we do?<\/p>\n<p>Just banning\/outlawing p2p file sharing is impractical and unlikely to help. People will just find other ways.<\/p>\n<p>We can fight technology with technology. DRM (digital rights management) is another method of protecting the artists rights. Giving the purchaser the ability to use the file on a limited number of devices, or for a limited length of time. Sadly this is more complex than it seems. What if I replace my computer and can no longer use that file? That&#8217;s unfair is it not? People will always crack the technology anyway, rendering it useless. And the technology industry will always want to make as much hard cash as possible, and so you end up with not one technology, but several, with each technology onwer hoping that theirs will become the big one! (e.g. VHS\/Betamax, or the recent HD DVD wars). There are many reasons why this isn&#8217;t a great solution.<\/p>\n<p>Education is not likely to work either. There will always be people who just don&#8217;t care.<\/p>\n<p>OK &#8211; I&#8217;m out of ideas. This whole new internet world needs some real creative thinking to work out how artists can best make use of it. Perhaps that&#8217;s why Kieran started this discussion? The world is not the one we used to know and we&#8217;re still mapping out the Internet and forming the unspoken rules and morals that surround it.<\/p>\n<p>Have I helped the discussion? Probably not, K didn&#8217;t ask a direct question, so I&#8217;ve not sought to answer one &#8211; in fact, I&#8217;ve raised a few of my own.<\/p>\n<p>What&#8217;s encouraging is that there seem to be people who share the values that make the internet good. To all the commenters above &#8211; good on &#8216;ya. Perhaps one way we can all help is to help is to spread the word about how artists deserve and need the cash. Perhaps we can be role models in that, speak up for the artists, challenge those we know who copy and file share.<\/p>\n<p>After all, we&#8217;re right that it&#8217;s wrong.<\/p>\n<p>Aren&#8217;t we?<\/p>\n",
         "excerpt": "<p>I&#8217;ve mentioned Iko, the excellent band that a friend of ours is in, before. The lead singer of the band recently posted an message on his MySpace Blog about filesharing. I spent some time writing a response and wanted to copy my thoughts here. The full thread can be found on MySpace here. Ultimately, Kieran [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 89,
-            "date": "2007-12-19T19:26:00",
-            "date_gmt": "2007-12-19T19:26:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/12\/19\/shelf-hanging-a-lesson-in-trust\/"
-            },
-            "modified": "2007-12-19T19:26:00",
-            "modified_gmt": "2007-12-19T19:26:00",
-            "slug": "shelf-hanging-a-lesson-in-trust",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/",
-            "title": {
-                "rendered": "Shelf hanging &#8211; a lesson in trust!"
-            },
-            "content": {
-                "rendered": "<p>Now here&#8217;s a thing that&#8217;s quite contrary.  I&#8217;m not a very trusting person, while at the same time, I tend to believe what people tell me.<\/p>\n<p>I think it&#8217;s all down to experience.<\/p>\n<p>If someone says, for example, that they&#8217;ve got tickets to go see the Spice Girls at Wembley stadium.  As long as it&#8217;s not said with a fairly strong tone of irony or sarcasm, I&#8217;ll believe that!It&#8217;s pretty believable.<\/p>\n<p>If, however, my wife told me that she&#8217;d had a piece of toast with peanut butter and really enjoyed it, I probably wouldn&#8217;t take her word for it, and would insist on checking the jar.  If something seems unlikely to me, I will check it out.  This sounds reasonable, but I often feel like I&#8217;m unnecessarily doubting people when such things happen.<\/p>\n<p>And so, with my sense of mistrust on red-alert, I was confronted with shelf hanging.  Our house has lots of bare walls, which with a few planks of wood, can easily be utilised as storage space.<\/p>\n<p>A quick trip to B&amp;Q to buy the aforementioned wall furniture, and a drill, and we were off!  Sally claimed I went a bit &#8220;drill crazy&#8221; at first &#8211; she probably had a point.  We have a lot of holes to make!<\/p>\n<p><a href=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/R6OEYS1YrLI\/AAAAAAAABk0\/IbmAg4akiYs\/s1600-h\/keyhole+shelf+fitting.jpg\"><img decoding=\"async\" style=\"float:right;cursor:pointer;margin:0 0 10px 10px;\" src=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/R6OEYS1YrLI\/AAAAAAAABk0\/IbmAg4akiYs\/s320\/keyhole+shelf+fitting.jpg\" alt=\"\" border=\"0\" \/><\/a>But, while confident with making holes, I had doubts about the fittings.  Most of the shelves we hung were held up by little &#8220;keyhole&#8221; fixings.  A small, thin plate of metal, with a keyhole-shaped hole in it, that hung over a single wall screw.<\/p>\n<p>And the instructions tell me that two of these little things will hold 25 kilograms?!  That&#8217;s 25 litres of water?  It&#8217;s more than a third of my body weight? Over 3 times the weight of an official men&#8217;s shotput shot?  And the average weight of an <a href=\"http:\/\/www.70south.com\/information\/antarctic-animals\/antarctic-marine-life\/antarcticfish\">antarctic cod<\/a>? (I&#8217;m open to other suggestions as to what this is the equivalent of)<\/p>\n<p>Yeah, right!<\/p>\n<p>And so, with the shelves up, I nervously started loading them up.  I have no experience of this kind of thing, but I know that recipe books are heavy.  I was very tentative.  I told Sally to keep the heavy ones on the worktop &#8211; no Nigel Slater or Nigella up there!!  I tried to carefully distribute the load between the two supports.  I went round inspecting them every day for about a week.  I cautiously pulled them occasionally to check that they&#8217;d take a little more weight.<\/p>\n<p>It was very much a test of faith!<\/p>\n<p>Lots of DIY seems to be like this.  Trying it out, sometimes failing, learning as you go, but having the confidence to have a go in the first place, and to try again if you fail.  I&#8217;m very much having to overcome some of my doubts and trust what people tell me in order to get things done.<\/p>\n<p>It turns out that shelves are pretty sturdy, and two little metal plates can take a fair bit of weight &#8211; I don&#8217;t know that I&#8217;ve risked 25kg yet and I don&#8217;t have any shot or antarctic cod to test it with, but we&#8217;ve got some heavy &#8211; and fragile &#8211; stuff, hanging on the walls of our kitchen now.<\/p>\n<p>Not only that, but I&#8217;m now a fully competent, drill-crazy, shelf hanger!<\/p>\n<p>A few USEFUL things that I learned along the way:<\/p>\n<ol>\n<li>Those keyhole fittings should definitely be flush with the bracket &#8211; if you buy cheap shelves with badly pre-cut holes, make sure that you enlarge the holes rather than forcing the bracket in.<\/li>\n<li>If you have a large wall space that you want to put a LONG shelf in (we&#8217;ve done this in our utility room), don&#8217;t try to hang one super-long shelf with more than two supports.  Correctly aligning more than two supports such that a shelf rests flush on top of them is very hard.  Use two shorter shelves instead!<\/li>\n<li>Screwing the shelf to the supports is easiest done if you pre-drill the holes.  Put the shelf in place, mark up where the holes should be, hold it all still, drill the holes (with light pressure &#8211; shouldn&#8217;t have to push hard to get through the wood), and then take it off the wall to screw together. (There&#8217;s probably a &#8220;proper&#8221; way to do this, but I found this method much easier than screwing it together while the shelf was on the wall.  In fact, the pressure required to screw the shelf to the support whilst on the wall seemed to exceed the 25kg and bend the keyhole bracket!!)<\/li>\n<\/ol>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Now here&#8217;s a thing that&#8217;s quite contrary. I&#8217;m not a very trusting person, while at the same time, I tend to believe what people tell me. I think it&#8217;s all down to experience. If someone says, for example, that they&#8217;ve got tickets to go see the Spice Girls at Wembley stadium. As long as it&#8217;s [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                16
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Shelf hanging - a lesson in trust! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Shelf hanging - a lesson in trust! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Now here&#8217;s a thing that&#8217;s quite contrary. I&#8217;m not a very trusting person, while at the same time, I tend to believe what people tell me. I think it&#8217;s all down to experience. If someone says, for example, that they&#8217;ve got tickets to go see the Spice Girls at Wembley stadium. As long as it&#8217;s [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-12-19T19:26:00+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/R6OEYS1YrLI\/AAAAAAAABk0\/IbmAg4akiYs\/s320\/keyhole+shelf+fitting.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/\",\"name\":\"Shelf hanging - a lesson in trust! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-12-19T19:26:00+00:00\",\"dateModified\":\"2007-12-19T19:26:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Shelf hanging &#8211; a lesson in trust!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Shelf hanging - a lesson in trust! - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Shelf hanging - a lesson in trust! - Ross Wintle",
-                "og_description": "Now here&#8217;s a thing that&#8217;s quite contrary. I&#8217;m not a very trusting person, while at the same time, I tend to believe what people tell me. I think it&#8217;s all down to experience. If someone says, for example, that they&#8217;ve got tickets to go see the Spice Girls at Wembley stadium. As long as it&#8217;s [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2007-12-19T19:26:00+00:00",
-                "og_image": [
-                    {
-                        "url": "http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/R6OEYS1YrLI\/AAAAAAAABk0\/IbmAg4akiYs\/s320\/keyhole+shelf+fitting.jpg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/",
-                            "url": "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/",
-                            "name": "Shelf hanging - a lesson in trust! - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2007-12-19T19:26:00+00:00",
-                            "dateModified": "2007-12-19T19:26:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Shelf hanging &#8211; a lesson in trust!"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/89"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=89"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/89\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=89"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=89"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=89"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 89,
-        "dateGmt": "2007-12-19T19:26:00",
-        "modifiedDateGmt": "2007-12-19T19:26:00",
-        "slug": "shelf-hanging-a-lesson-in-trust",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2007\/12\/shelf-hanging-a-lesson-in-trust\/",
-        "title": "Shelf hanging &#8211; a lesson in trust!",
-        "content": "<p>Now here&#8217;s a thing that&#8217;s quite contrary.  I&#8217;m not a very trusting person, while at the same time, I tend to believe what people tell me.<\/p>\n<p>I think it&#8217;s all down to experience.<\/p>\n<p>If someone says, for example, that they&#8217;ve got tickets to go see the Spice Girls at Wembley stadium.  As long as it&#8217;s not said with a fairly strong tone of irony or sarcasm, I&#8217;ll believe that!It&#8217;s pretty believable.<\/p>\n<p>If, however, my wife told me that she&#8217;d had a piece of toast with peanut butter and really enjoyed it, I probably wouldn&#8217;t take her word for it, and would insist on checking the jar.  If something seems unlikely to me, I will check it out.  This sounds reasonable, but I often feel like I&#8217;m unnecessarily doubting people when such things happen.<\/p>\n<p>And so, with my sense of mistrust on red-alert, I was confronted with shelf hanging.  Our house has lots of bare walls, which with a few planks of wood, can easily be utilised as storage space.<\/p>\n<p>A quick trip to B&amp;Q to buy the aforementioned wall furniture, and a drill, and we were off!  Sally claimed I went a bit &#8220;drill crazy&#8221; at first &#8211; she probably had a point.  We have a lot of holes to make!<\/p>\n<p><a href=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/R6OEYS1YrLI\/AAAAAAAABk0\/IbmAg4akiYs\/s1600-h\/keyhole+shelf+fitting.jpg\"><img decoding=\"async\" style=\"float:right;cursor:pointer;margin:0 0 10px 10px;\" src=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/R6OEYS1YrLI\/AAAAAAAABk0\/IbmAg4akiYs\/s320\/keyhole+shelf+fitting.jpg\" alt=\"\" border=\"0\" \/><\/a>But, while confident with making holes, I had doubts about the fittings.  Most of the shelves we hung were held up by little &#8220;keyhole&#8221; fixings.  A small, thin plate of metal, with a keyhole-shaped hole in it, that hung over a single wall screw.<\/p>\n<p>And the instructions tell me that two of these little things will hold 25 kilograms?!  That&#8217;s 25 litres of water?  It&#8217;s more than a third of my body weight? Over 3 times the weight of an official men&#8217;s shotput shot?  And the average weight of an <a href=\"http:\/\/www.70south.com\/information\/antarctic-animals\/antarctic-marine-life\/antarcticfish\">antarctic cod<\/a>? (I&#8217;m open to other suggestions as to what this is the equivalent of)<\/p>\n<p>Yeah, right!<\/p>\n<p>And so, with the shelves up, I nervously started loading them up.  I have no experience of this kind of thing, but I know that recipe books are heavy.  I was very tentative.  I told Sally to keep the heavy ones on the worktop &#8211; no Nigel Slater or Nigella up there!!  I tried to carefully distribute the load between the two supports.  I went round inspecting them every day for about a week.  I cautiously pulled them occasionally to check that they&#8217;d take a little more weight.<\/p>\n<p>It was very much a test of faith!<\/p>\n<p>Lots of DIY seems to be like this.  Trying it out, sometimes failing, learning as you go, but having the confidence to have a go in the first place, and to try again if you fail.  I&#8217;m very much having to overcome some of my doubts and trust what people tell me in order to get things done.<\/p>\n<p>It turns out that shelves are pretty sturdy, and two little metal plates can take a fair bit of weight &#8211; I don&#8217;t know that I&#8217;ve risked 25kg yet and I don&#8217;t have any shot or antarctic cod to test it with, but we&#8217;ve got some heavy &#8211; and fragile &#8211; stuff, hanging on the walls of our kitchen now.<\/p>\n<p>Not only that, but I&#8217;m now a fully competent, drill-crazy, shelf hanger!<\/p>\n<p>A few USEFUL things that I learned along the way:<\/p>\n<ol>\n<li>Those keyhole fittings should definitely be flush with the bracket &#8211; if you buy cheap shelves with badly pre-cut holes, make sure that you enlarge the holes rather than forcing the bracket in.<\/li>\n<li>If you have a large wall space that you want to put a LONG shelf in (we&#8217;ve done this in our utility room), don&#8217;t try to hang one super-long shelf with more than two supports.  Correctly aligning more than two supports such that a shelf rests flush on top of them is very hard.  Use two shorter shelves instead!<\/li>\n<li>Screwing the shelf to the supports is easiest done if you pre-drill the holes.  Put the shelf in place, mark up where the holes should be, hold it all still, drill the holes (with light pressure &#8211; shouldn&#8217;t have to push hard to get through the wood), and then take it off the wall to screw together. (There&#8217;s probably a &#8220;proper&#8221; way to do this, but I found this method much easier than screwing it together while the shelf was on the wall.  In fact, the pressure required to screw the shelf to the support whilst on the wall seemed to exceed the 25kg and bend the keyhole bracket!!)<\/li>\n<\/ol>\n",
-        "excerpt": "<p>Now here&#8217;s a thing that&#8217;s quite contrary. I&#8217;m not a very trusting person, while at the same time, I tend to believe what people tell me. I think it&#8217;s all down to experience. If someone says, for example, that they&#8217;ve got tickets to go see the Spice Girls at Wembley stadium. As long as it&#8217;s [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

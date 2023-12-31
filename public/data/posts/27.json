@@ -1,6 +1,268 @@
 [
     {
         "dataAsArray": {
+            "id": 1873,
+            "date": "2014-10-23T10:40:29",
+            "date_gmt": "2014-10-23T09:40:29",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1873"
+            },
+            "modified": "2014-10-23T10:42:26",
+            "modified_gmt": "2014-10-23T09:42:26",
+            "slug": "hackers-phone",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/",
+            "title": {
+                "rendered": "The Hackers are After your Phone!"
+            },
+            "content": {
+                "rendered": "<figure id=\"attachment_1875\" aria-describedby=\"caption-attachment-1875\" style=\"width: 300px\" class=\"wp-caption alignright\"><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-medium wp-image-1875\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d-300x225.jpg\" alt=\"\" width=\"300\" height=\"225\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d-300x225.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d.jpg 500w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><\/a><figcaption id=\"caption-attachment-1875\" class=\"wp-caption-text\">By: <a href=\"https:\/\/www.flickr.com\/photos\/matthieu-aubry\/239278903\/\" target=\"_blank\">Matthieu Aubry.<\/a> &#8211; <a href=\"http:\/\/creativecommons.org\/licenses\/by-nc-sa\/2.0\/\">CC BY-NC-SA 2.0<\/a><\/figcaption><\/figure>\n<h4>What might Twitter&#8217;s new &#8220;Digits&#8221; login system mean for security, hackers, operators, and all of US?!<\/h4>\n<p><a href=\"http:\/\/www.theverge.com\/2014\/10\/22\/7034113\/inside-twitters-ambitious-plan-to-kill-the-password-on-mobile-devices\">Twitter\u2019s \u201cDigits\u201d mobile phone login system<\/a> was announced to the world yesterday. Attempting to capture the interest of app developers, and to cater for people the world over &#8211; including those in developing countries that have phones but not necessarily email addresses, is interesting. Is it good idea?<\/p>\n<p>My initial reaction was &#8220;well hold on, my phone now is the key to all my online stuff&#8221;. And, truth is, with 2-factor authentication (ask me in the comments if you don&#8217;t know what that is) our phones, and our phone numbers, are increasingly becoming the key to important systems that we use.<\/p>\n<p>I was pondering the implications of this. I&#8217;m sure it&#8217;s way more complicated than I&#8217;ll make out here, but a few things seem obvious to me:<\/p>\n<ul>\n<li>Mobile phones will increasingly become targets for theft as they start to not only be of physical value, but contain increasingly valuable data.<\/li>\n<li>Mobile phone <span style=\"text-decoration: underline;\">numbers<\/span> and operator accounts\u00a0will increasingly become targets for theft, social engineering, spoofing, etc. How secure is the PAC code process for transferring numbers? How secure are mobile operator&#8217;s online portals? \u00a0Will operators need to tighten up security on number ownership somehow?<\/li>\n<li>Hackers (and hacks!) will\u00a0start needing to get hold of phones and phone numbers to initiate attacks.<\/li>\n<\/ul>\n<p>Overall, a simple, one-time, phone-locked login system seems like a good idea, and as I&#8217;ve read in several places, a huge improvement over the existing username-and-password systems that so many places use and which are so easy to exploit.<\/p>\n<p>But I do wonder what the future holds if Digits takes off.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>What might Twitter&#8217;s new &#8220;Digits&#8221; login system mean for security, hackers, operators, and all of US!<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 1875,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23,
+                24
+            ],
+            "tags": [
+                520,
+                103,
+                521,
+                519,
+                522,
+                146,
+                172,
+                181
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Hackers are After your Phone! - Ross Wintle<\/title>\n<meta name=\"description\" content=\"What might Twitter&#039;s new &quot;Digits&quot; login system mean for security, hackers, operators, and all of US?!\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Hackers are After your Phone! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"What might Twitter&#039;s new &quot;Digits&quot; login system mean for security, hackers, operators, and all of US?!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2014-10-23T09:40:29+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2014-10-23T09:42:26+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"500\" \/>\n\t<meta property=\"og:image:height\" content=\"375\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/\",\"url\":\"https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/\",\"name\":\"The Hackers are After your Phone! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2014-10-23T09:40:29+00:00\",\"dateModified\":\"2014-10-23T09:42:26+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"description\":\"What might Twitter's new \\\"Digits\\\" login system mean for security, hackers, operators, and all of US?!\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Hackers are After your Phone!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "The Hackers are After your Phone! - Ross Wintle",
+                "description": "What might Twitter's new \"Digits\" login system mean for security, hackers, operators, and all of US?!",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "The Hackers are After your Phone! - Ross Wintle",
+                "og_description": "What might Twitter's new \"Digits\" login system mean for security, hackers, operators, and all of US?!",
+                "og_url": "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2014-10-23T09:40:29+00:00",
+                "article_modified_time": "2014-10-23T09:42:26+00:00",
+                "og_image": [
+                    {
+                        "width": 500,
+                        "height": 375,
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/",
+                            "url": "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/",
+                            "name": "The Hackers are After your Phone! - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2014-10-23T09:40:29+00:00",
+                            "dateModified": "2014-10-23T09:42:26+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "description": "What might Twitter's new \"Digits\" login system mean for security, hackers, operators, and all of US?!",
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "The Hackers are After your Phone!"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1873"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1873"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 4,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1873\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 1878,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1873\/revisions\/1878"
+                    }
+                ],
+                "wp:featuredmedia": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/1875"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1873"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1873"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1873"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 1873,
+        "dateGmt": "2014-10-23T09:40:29",
+        "modifiedDateGmt": "2014-10-23T09:42:26",
+        "slug": "hackers-phone",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2014\/10\/hackers-phone\/",
+        "title": "The Hackers are After your Phone!",
+        "content": "<figure id=\"attachment_1875\" aria-describedby=\"caption-attachment-1875\" style=\"width: 300px\" class=\"wp-caption alignright\"><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-medium wp-image-1875\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d-300x225.jpg\" alt=\"\" width=\"300\" height=\"225\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d-300x225.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2014\/10\/239278903_40c557541d.jpg 500w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><\/a><figcaption id=\"caption-attachment-1875\" class=\"wp-caption-text\">By: <a href=\"https:\/\/www.flickr.com\/photos\/matthieu-aubry\/239278903\/\" target=\"_blank\">Matthieu Aubry.<\/a> &#8211; <a href=\"http:\/\/creativecommons.org\/licenses\/by-nc-sa\/2.0\/\">CC BY-NC-SA 2.0<\/a><\/figcaption><\/figure>\n<h4>What might Twitter&#8217;s new &#8220;Digits&#8221; login system mean for security, hackers, operators, and all of US?!<\/h4>\n<p><a href=\"http:\/\/www.theverge.com\/2014\/10\/22\/7034113\/inside-twitters-ambitious-plan-to-kill-the-password-on-mobile-devices\">Twitter\u2019s \u201cDigits\u201d mobile phone login system<\/a> was announced to the world yesterday. Attempting to capture the interest of app developers, and to cater for people the world over &#8211; including those in developing countries that have phones but not necessarily email addresses, is interesting. Is it good idea?<\/p>\n<p>My initial reaction was &#8220;well hold on, my phone now is the key to all my online stuff&#8221;. And, truth is, with 2-factor authentication (ask me in the comments if you don&#8217;t know what that is) our phones, and our phone numbers, are increasingly becoming the key to important systems that we use.<\/p>\n<p>I was pondering the implications of this. I&#8217;m sure it&#8217;s way more complicated than I&#8217;ll make out here, but a few things seem obvious to me:<\/p>\n<ul>\n<li>Mobile phones will increasingly become targets for theft as they start to not only be of physical value, but contain increasingly valuable data.<\/li>\n<li>Mobile phone <span style=\"text-decoration: underline;\">numbers<\/span> and operator accounts\u00a0will increasingly become targets for theft, social engineering, spoofing, etc. How secure is the PAC code process for transferring numbers? How secure are mobile operator&#8217;s online portals? \u00a0Will operators need to tighten up security on number ownership somehow?<\/li>\n<li>Hackers (and hacks!) will\u00a0start needing to get hold of phones and phone numbers to initiate attacks.<\/li>\n<\/ul>\n<p>Overall, a simple, one-time, phone-locked login system seems like a good idea, and as I&#8217;ve read in several places, a huge improvement over the existing username-and-password systems that so many places use and which are so easy to exploit.<\/p>\n<p>But I do wonder what the future holds if Digits takes off.<\/p>\n",
+        "excerpt": "<p>What might Twitter&#8217;s new &#8220;Digits&#8221; login system mean for security, hackers, operators, and all of US!<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 1875
+    },
+    {
+        "dataAsArray": {
             "id": 1865,
             "date": "2014-10-22T17:31:00",
             "date_gmt": "2014-10-22T16:31:00",
@@ -2294,262 +2556,5 @@
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 1249,
-            "date": "2014-06-28T22:00:34",
-            "date_gmt": "2014-06-28T21:00:34",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1249"
-            },
-            "modified": "2014-06-29T09:47:06",
-            "modified_gmt": "2014-06-29T08:47:06",
-            "slug": "bruce-street-bridges-never",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/",
-            "title": {
-                "rendered": "Bruce Street Bridges: Never again"
-            },
-            "content": {
-                "rendered": "<p><em>[Note: I just found this sat in my drafts. For some reason I bailed out of posting it when I wrote it back in November 2011. I don&#8217;t know why. To my knowledge, I&#8217;ve not cycled this roundabout since &#8211; and it&#8217;s still a bit scary to drive!]<\/em><\/p>\n<p>Those who follow me on Twitter, or who have been reading for a while, may know I go by the alias &#8220;magicroundabout&#8221; sometimes. This is a name I acquired long ago, for good reason at the time, and it&#8217;s stuck.<\/p>\n<p>I chose the name, not after the children&#8217;s cartoon, but after the junction in my home town, and current place of residence: Swindon. If you&#8217;re not familiar with the junction perhaps a video demonstrates best:<\/p>\n<p><iframe loading=\"lazy\" width=\"640\" height=\"360\" src=\"https:\/\/www.youtube.com\/embed\/kiZtGSwv1no?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe><\/p>\n<p><!--more--><\/p>\n<p>Now, the Magic Roundabout has a bad reputation. &#8220;Complicated&#8221;, \u00a0&#8220;scary&#8221;, &#8220;designed by traffic planners in the 70&#8217;s while on acid&#8221; are all things you&#8217;ll commonly hear. \u00a0But it&#8217;s actually really good and I&#8217;ve never felt unsafe in all my hundreds and thousands of crossings on it.<\/p>\n<p>No.<\/p>\n<p>The real danger is almost at the end of my road: Bruce Street Bridges. \u00a0Where I just suffered my second &#8220;assassination\u00a0attempt&#8221; (to coin a phrase from <a href=\"http:\/\/karlmccracken.sweat365.com\/\">Karl<\/a>).<\/p>\n<p>Take a look on <a href=\"http:\/\/maps.google.co.uk\/?ll=51.568504,-1.801468&amp;spn=0.002331,0.006539&amp;hnear=Swindon+SN2+2HG,+United+Kingdom&amp;t=h&amp;z=18&amp;vpsrc=6\">Google Maps<\/a>.<\/p>\n<p>I&#8217;ve now TWICE had drivers charge at me whilst cycling this roundabout. \u00a0I think today&#8217;s was a low-sunlight-induced &#8220;Sorry Mate I Didn&#8217;t See You&#8221;, but my opinion would be that if the sun&#8217;s in your eyes you slow down and look twice. And then look again! Not speed up!<\/p>\n<p>The previous incident had no such excuse.<\/p>\n<p>I&#8217;m fine. But finding this junction increasingly dangerous, even in a car. \u00a0More and more people coast towards the give way lines, stopping is the second thing on their mind. \u00a0I confess, I&#8217;m probably guilty too.<\/p>\n<p>Of course, there&#8217;s never any excuse for bad driving, but I think bad driving is encouraged by the design of the junction:<\/p>\n<p>1) It&#8217;s really busy but I don&#8217;t think it has an even-enough flow of traffic. \u00a0There are places where, at peak times, it&#8217;s impossible to join the flow of traffic because it&#8217;s all coming from one side.<\/p>\n<p>2) I think there&#8217;s too many lanes. Here&#8217;s an image of the approach to the location of my first assassination attempt (<a title=\"Bruce Street Bridges on Google Street View\" href=\"http:\/\/g.co\/maps\/5uz58\">explore for yourself<\/a>). There&#8217;s three lanes here on the approach from the left, and visibility approaching the roundabout from that direction is poor &#8211; people in the second and third lanes won&#8217;t be able to see much of what&#8217;s coming (but still want to coast in order to join the traffic flow).<\/p>\n<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street.png\"><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter size-large wp-image-1252\" title=\"bruce-street\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street-1024x585.png\" alt=\"\" width=\"500\" height=\"285\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street-1024x585.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street-300x171.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street-150x85.png 150w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street.png 1218w\" sizes=\"(max-width: 500px) 100vw, 500px\" \/><\/a><\/p>\n<p>3) Because it&#8217;s a complicated junction there&#8217;s also lots of street furniture. That big sign on the left is important, but probably hinders visibility too.<\/p>\n<p>4) It&#8217;s non-standard. \u00a0Standard two-lane approach to a roundabout is: left lane for turning left or straight on; right lane for turning right or straight on (<a title=\"Highway Code Roundabout Rules\" href=\"http:\/\/www.direct.gov.uk\/en\/TravelAndTransport\/Highwaycode\/DG_070338\">Rule 186!<\/a>). But most of the roundabouts here have non-standard approaches. \u00a0Three lanes, or left-lane only for turning left. It causes lots of confusion and last-minute lane-changes.<\/p>\n<p>5) Cycle\/pedestrian infrastructure exists, but is incomplete. There are toucan and pedestrian paths and crossings, but they seem to only cover 3\/4 of the junction. And it certainly feels like pedestrians and cyclists are impeded and low priority. I guess they&#8217;ve made it as safe as they can given it&#8217;s awkward, under-the-railway location and the busy-ness of the place.<\/p>\n<p>There&#8217;s definitely driving issues too though. These aren&#8217;t huge roundabouts, you should be able to safely cycle them. But actually, I feel unsafe in a CAR on this junction. \u00a0I often find myself in a situation where I&#8217;m on the roundabout and cars are coasting towards me not looking like they&#8217;re going to stop. I slow down. They slow down but still don&#8217;t look like they want to stop. I slow down more. \u00a0 I even got honked for doing this one day, like my own caution was causing an issue to the person whose place it was to give way.<\/p>\n<p>This morning, that stuff, combined with some hideous overtaking didn&#8217;t make my first bike ride in a week particularly pleasant.<\/p>\n<p>I&#8217;ve debriefed with Sally. I&#8217;m not cycling Bruce Street again. My life is too precious. I&#8217;ll stop and use the half-baked pedestrian\/shared infrastructure. \u00a0Cycling feels dangerous. But I know that risks to my health are greater if I DON&#8217;T cycle. Especially now I&#8217;m a work-from-home freelancer.<\/p>\n<p>There are<a title=\"Plans for Great Western Way Improvements\" href=\"http:\/\/www.swindon.gov.uk\/cd\/cd-consultations\/cd-consultations-current\/Documents\/greatwesternwayhighwayimprovements.pdf\"> plans to improve Great Western Way from Bruce Street right through to Transfer Bridges (PDF)<\/a>. I&#8217;ve not made it along to the exhibitions about this. But a quick scan of the plans makes me thing that they&#8217;ll fix some things, and break others. I guess there&#8217;s no silver bullet for a complex and busy junction like this.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;m not cycling Bruce Street again. My life is too precious. I&#8217;ll stop and use the half-baked pedestrian\/shared infrastructure.  Cycling feels dangerous.<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 1252,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                6,
-                22
-            ],
-            "tags": [
-                572,
-                142,
-                581
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Bruce Street Bridges: Never again - Ross Wintle<\/title>\n<meta name=\"description\" content=\"I&#039;m not cycling Bruce Street again. My life is too precious. I&#039;ll stop and use the half-baked pedestrian\/shared infrastructure. Cycling feels dangerous.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Bruce Street Bridges: Never again - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m not cycling Bruce Street again. My life is too precious. I&#039;ll stop and use the half-baked pedestrian\/shared infrastructure. Cycling feels dangerous.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2014-06-28T21:00:34+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2014-06-29T08:47:06+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street.png\" \/>\n\t<meta property=\"og:image:width\" content=\"1218\" \/>\n\t<meta property=\"og:image:height\" content=\"697\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/\",\"url\":\"https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/\",\"name\":\"Bruce Street Bridges: Never again - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2014-06-28T21:00:34+00:00\",\"dateModified\":\"2014-06-29T08:47:06+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"description\":\"I'm not cycling Bruce Street again. My life is too precious. I'll stop and use the half-baked pedestrian\/shared infrastructure. Cycling feels dangerous.\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bruce Street Bridges: Never again\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Bruce Street Bridges: Never again - Ross Wintle",
-                "description": "I'm not cycling Bruce Street again. My life is too precious. I'll stop and use the half-baked pedestrian\/shared infrastructure. Cycling feels dangerous.",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Bruce Street Bridges: Never again - Ross Wintle",
-                "og_description": "I'm not cycling Bruce Street again. My life is too precious. I'll stop and use the half-baked pedestrian\/shared infrastructure. Cycling feels dangerous.",
-                "og_url": "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2014-06-28T21:00:34+00:00",
-                "article_modified_time": "2014-06-29T08:47:06+00:00",
-                "og_image": [
-                    {
-                        "width": "1218",
-                        "height": "697",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street.png",
-                        "type": "image\/png"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/",
-                            "url": "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/",
-                            "name": "Bruce Street Bridges: Never again - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2014-06-28T21:00:34+00:00",
-                            "dateModified": "2014-06-29T08:47:06+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "description": "I'm not cycling Bruce Street again. My life is too precious. I'll stop and use the half-baked pedestrian\/shared infrastructure. Cycling feels dangerous.",
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Bruce Street Bridges: Never again"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1249"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1249"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 8,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1249\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 1819,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1249\/revisions\/1819"
-                    }
-                ],
-                "wp:featuredmedia": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/1252"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1249"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1249"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1249"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 1249,
-        "dateGmt": "2014-06-28T21:00:34",
-        "modifiedDateGmt": "2014-06-29T08:47:06",
-        "slug": "bruce-street-bridges-never",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2014\/06\/bruce-street-bridges-never\/",
-        "title": "Bruce Street Bridges: Never again",
-        "content": "<p><em>[Note: I just found this sat in my drafts. For some reason I bailed out of posting it when I wrote it back in November 2011. I don&#8217;t know why. To my knowledge, I&#8217;ve not cycled this roundabout since &#8211; and it&#8217;s still a bit scary to drive!]<\/em><\/p>\n<p>Those who follow me on Twitter, or who have been reading for a while, may know I go by the alias &#8220;magicroundabout&#8221; sometimes. This is a name I acquired long ago, for good reason at the time, and it&#8217;s stuck.<\/p>\n<p>I chose the name, not after the children&#8217;s cartoon, but after the junction in my home town, and current place of residence: Swindon. If you&#8217;re not familiar with the junction perhaps a video demonstrates best:<\/p>\n<p><iframe loading=\"lazy\" width=\"640\" height=\"360\" src=\"https:\/\/www.youtube.com\/embed\/kiZtGSwv1no?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe><\/p>\n<p><!--more--><\/p>\n<p>Now, the Magic Roundabout has a bad reputation. &#8220;Complicated&#8221;, \u00a0&#8220;scary&#8221;, &#8220;designed by traffic planners in the 70&#8217;s while on acid&#8221; are all things you&#8217;ll commonly hear. \u00a0But it&#8217;s actually really good and I&#8217;ve never felt unsafe in all my hundreds and thousands of crossings on it.<\/p>\n<p>No.<\/p>\n<p>The real danger is almost at the end of my road: Bruce Street Bridges. \u00a0Where I just suffered my second &#8220;assassination\u00a0attempt&#8221; (to coin a phrase from <a href=\"http:\/\/karlmccracken.sweat365.com\/\">Karl<\/a>).<\/p>\n<p>Take a look on <a href=\"http:\/\/maps.google.co.uk\/?ll=51.568504,-1.801468&amp;spn=0.002331,0.006539&amp;hnear=Swindon+SN2+2HG,+United+Kingdom&amp;t=h&amp;z=18&amp;vpsrc=6\">Google Maps<\/a>.<\/p>\n<p>I&#8217;ve now TWICE had drivers charge at me whilst cycling this roundabout. \u00a0I think today&#8217;s was a low-sunlight-induced &#8220;Sorry Mate I Didn&#8217;t See You&#8221;, but my opinion would be that if the sun&#8217;s in your eyes you slow down and look twice. And then look again! Not speed up!<\/p>\n<p>The previous incident had no such excuse.<\/p>\n<p>I&#8217;m fine. But finding this junction increasingly dangerous, even in a car. \u00a0More and more people coast towards the give way lines, stopping is the second thing on their mind. \u00a0I confess, I&#8217;m probably guilty too.<\/p>\n<p>Of course, there&#8217;s never any excuse for bad driving, but I think bad driving is encouraged by the design of the junction:<\/p>\n<p>1) It&#8217;s really busy but I don&#8217;t think it has an even-enough flow of traffic. \u00a0There are places where, at peak times, it&#8217;s impossible to join the flow of traffic because it&#8217;s all coming from one side.<\/p>\n<p>2) I think there&#8217;s too many lanes. Here&#8217;s an image of the approach to the location of my first assassination attempt (<a title=\"Bruce Street Bridges on Google Street View\" href=\"http:\/\/g.co\/maps\/5uz58\">explore for yourself<\/a>). There&#8217;s three lanes here on the approach from the left, and visibility approaching the roundabout from that direction is poor &#8211; people in the second and third lanes won&#8217;t be able to see much of what&#8217;s coming (but still want to coast in order to join the traffic flow).<\/p>\n<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street.png\"><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter size-large wp-image-1252\" title=\"bruce-street\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street-1024x585.png\" alt=\"\" width=\"500\" height=\"285\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street-1024x585.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street-300x171.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street-150x85.png 150w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/11\/bruce-street.png 1218w\" sizes=\"(max-width: 500px) 100vw, 500px\" \/><\/a><\/p>\n<p>3) Because it&#8217;s a complicated junction there&#8217;s also lots of street furniture. That big sign on the left is important, but probably hinders visibility too.<\/p>\n<p>4) It&#8217;s non-standard. \u00a0Standard two-lane approach to a roundabout is: left lane for turning left or straight on; right lane for turning right or straight on (<a title=\"Highway Code Roundabout Rules\" href=\"http:\/\/www.direct.gov.uk\/en\/TravelAndTransport\/Highwaycode\/DG_070338\">Rule 186!<\/a>). But most of the roundabouts here have non-standard approaches. \u00a0Three lanes, or left-lane only for turning left. It causes lots of confusion and last-minute lane-changes.<\/p>\n<p>5) Cycle\/pedestrian infrastructure exists, but is incomplete. There are toucan and pedestrian paths and crossings, but they seem to only cover 3\/4 of the junction. And it certainly feels like pedestrians and cyclists are impeded and low priority. I guess they&#8217;ve made it as safe as they can given it&#8217;s awkward, under-the-railway location and the busy-ness of the place.<\/p>\n<p>There&#8217;s definitely driving issues too though. These aren&#8217;t huge roundabouts, you should be able to safely cycle them. But actually, I feel unsafe in a CAR on this junction. \u00a0I often find myself in a situation where I&#8217;m on the roundabout and cars are coasting towards me not looking like they&#8217;re going to stop. I slow down. They slow down but still don&#8217;t look like they want to stop. I slow down more. \u00a0 I even got honked for doing this one day, like my own caution was causing an issue to the person whose place it was to give way.<\/p>\n<p>This morning, that stuff, combined with some hideous overtaking didn&#8217;t make my first bike ride in a week particularly pleasant.<\/p>\n<p>I&#8217;ve debriefed with Sally. I&#8217;m not cycling Bruce Street again. My life is too precious. I&#8217;ll stop and use the half-baked pedestrian\/shared infrastructure. \u00a0Cycling feels dangerous. But I know that risks to my health are greater if I DON&#8217;T cycle. Especially now I&#8217;m a work-from-home freelancer.<\/p>\n<p>There are<a title=\"Plans for Great Western Way Improvements\" href=\"http:\/\/www.swindon.gov.uk\/cd\/cd-consultations\/cd-consultations-current\/Documents\/greatwesternwayhighwayimprovements.pdf\"> plans to improve Great Western Way from Bruce Street right through to Transfer Bridges (PDF)<\/a>. I&#8217;ve not made it along to the exhibitions about this. But a quick scan of the plans makes me thing that they&#8217;ll fix some things, and break others. I guess there&#8217;s no silver bullet for a complex and busy junction like this.<\/p>\n",
-        "excerpt": "<p>I&#8217;m not cycling Bruce Street again. My life is too precious. I&#8217;ll stop and use the half-baked pedestrian\/shared infrastructure.  Cycling feels dangerous.<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 1252
     }
 ]
