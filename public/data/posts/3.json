@@ -1,6 +1,250 @@
 [
     {
         "dataAsArray": {
+            "id": 11569,
+            "date": "2023-01-11T12:00:29",
+            "date_gmt": "2023-01-11T12:00:29",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=11569"
+            },
+            "modified": "2023-01-11T15:43:23",
+            "modified_gmt": "2023-01-11T15:43:23",
+            "slug": "dynamic-properties-a-5-minute-window",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
+            "title": {
+                "rendered": "Dynamic Properties &#8211; A 5 Minute Window"
+            },
+            "content": {
+                "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Dynamic Properties - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/FbKyLi8wK58?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\n&lt;?php\n\n\/\/ Hi!\n\n\/\/ OK, these aren't EXACTLY 5 minutes, but I'll try hard to be LESS THAN\n\/\/ 5 minutes.\n\n\/\/ Also... let's get this window out of the way\n\n\/\/ That's better.\n\n\/\/ Today, another quirk in PHPStorm with our code snippet.\n\n\/\/ We have strict types on still, but we're going to look at what properties we can set and get from the object.\n\n\n\/\/ Here's the post class - the template for our objects.\n\nclass Post {\n    \/\/ Each post has a publicly accessible ID and title\n    public int $id = 0;\n    public string $title = '';\n}\n\n\/\/ Here's us making a couple of instances...\n$posts = &#x5B;];\n\n$posts&#x5B;0] = new Post();\n$posts&#x5B;0]-&gt;id = 123; \/\/ This is the wrong type. Hold one.\n$posts&#x5B;0]-&gt;title = 'Hello World';\n\n$posts&#x5B;1] = new Post();\n$posts&#x5B;1]-&gt;id = 456; \/\/ They should be integers! How nice of our editor to tell us. We might have caused a bug!\n$posts&#x5B;1]-&gt;title = 'Hello again';\n\n\/\/ What if we try to do this though?\n\n$posts&#x5B;0]-&gt;nonExistentProperty = 'thing';\n\n\/\/ Hmm.. there's an underline.\n\n\/\/ Cool, so it's warning us about that! That's good. (I didn't think it would)\n\n\/\/ That property doesn't exist, so we shouldn't be setting it!\n\n\/\/ What about if we try to access something that doesn't exist. Perhaps, despite editor help\n\/\/ we forgot the name of a property?\n\n$posts&#x5B;0]-&gt;post_title;\n\n\/\/ Hmm... that's highlighted!\n\n\/\/ So, again, we get warned.\n\n\/\/ This is GREAT!\n\n\/\/ And especially good for when you're working with external APIs.\n\n\/\/ Get the data. Put it in an object. Then you don't have to remember what all the fields\n\/\/ were called. Your IDE helps you!\n\n\/\/ So... hopefully you see how objects can be more helpful than arrays.\n\n\/\/ Go try it out!\n\n\/\/ Onto other things now.\n\n<\/pre><\/div>",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Today, another quirk in PHPStorm with our code snippet.<\/p>\n<p>We have strict types on still, but we&#8217;re going to look at what properties we can set and get from the object.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                5175
+            ],
+            "tags": [
+                291,
+                673,
+                462
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Dynamic Properties - A 5 Minute Window - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Dynamic Properties - A 5 Minute Window - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Today, another quirk in PHPStorm with our code snippet. We have strict types on still, but we&#039;re going to look at what properties we can set and get from the object.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-01-11T12:00:29+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-01-11T15:43:23+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\",\"name\":\"Dynamic Properties - A 5 Minute Window - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-01-11T12:00:29+00:00\",\"dateModified\":\"2023-01-11T15:43:23+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Dynamic Properties &#8211; A 5 Minute Window\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Dynamic Properties - A 5 Minute Window - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Dynamic Properties - A 5 Minute Window - Ross Wintle",
+                "og_description": "Today, another quirk in PHPStorm with our code snippet. We have strict types on still, but we're going to look at what properties we can set and get from the object.",
+                "og_url": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2023-01-11T12:00:29+00:00",
+                "article_modified_time": "2023-01-11T15:43:23+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
+                            "url": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
+                            "name": "Dynamic Properties - A 5 Minute Window - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2023-01-11T12:00:29+00:00",
+                            "dateModified": "2023-01-11T15:43:23+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Dynamic Properties &#8211; A 5 Minute Window"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11569"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11569"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 3,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11569\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 11587,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11569\/revisions\/11587"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11569"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11569"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11569"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 11569,
+        "dateGmt": "2023-01-11T12:00:29",
+        "modifiedDateGmt": "2023-01-11T15:43:23",
+        "slug": "dynamic-properties-a-5-minute-window",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
+        "title": "Dynamic Properties &#8211; A 5 Minute Window",
+        "content": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Dynamic Properties - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/FbKyLi8wK58?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\n&lt;?php\n\n\/\/ Hi!\n\n\/\/ OK, these aren't EXACTLY 5 minutes, but I'll try hard to be LESS THAN\n\/\/ 5 minutes.\n\n\/\/ Also... let's get this window out of the way\n\n\/\/ That's better.\n\n\/\/ Today, another quirk in PHPStorm with our code snippet.\n\n\/\/ We have strict types on still, but we're going to look at what properties we can set and get from the object.\n\n\n\/\/ Here's the post class - the template for our objects.\n\nclass Post {\n    \/\/ Each post has a publicly accessible ID and title\n    public int $id = 0;\n    public string $title = '';\n}\n\n\/\/ Here's us making a couple of instances...\n$posts = &#x5B;];\n\n$posts&#x5B;0] = new Post();\n$posts&#x5B;0]-&gt;id = 123; \/\/ This is the wrong type. Hold one.\n$posts&#x5B;0]-&gt;title = 'Hello World';\n\n$posts&#x5B;1] = new Post();\n$posts&#x5B;1]-&gt;id = 456; \/\/ They should be integers! How nice of our editor to tell us. We might have caused a bug!\n$posts&#x5B;1]-&gt;title = 'Hello again';\n\n\/\/ What if we try to do this though?\n\n$posts&#x5B;0]-&gt;nonExistentProperty = 'thing';\n\n\/\/ Hmm.. there's an underline.\n\n\/\/ Cool, so it's warning us about that! That's good. (I didn't think it would)\n\n\/\/ That property doesn't exist, so we shouldn't be setting it!\n\n\/\/ What about if we try to access something that doesn't exist. Perhaps, despite editor help\n\/\/ we forgot the name of a property?\n\n$posts&#x5B;0]-&gt;post_title;\n\n\/\/ Hmm... that's highlighted!\n\n\/\/ So, again, we get warned.\n\n\/\/ This is GREAT!\n\n\/\/ And especially good for when you're working with external APIs.\n\n\/\/ Get the data. Put it in an object. Then you don't have to remember what all the fields\n\/\/ were called. Your IDE helps you!\n\n\/\/ So... hopefully you see how objects can be more helpful than arrays.\n\n\/\/ Go try it out!\n\n\/\/ Onto other things now.\n\n<\/pre><\/div>",
+        "excerpt": "<p>Today, another quirk in PHPStorm with our code snippet.<\/p>\n<p>We have strict types on still, but we&#8217;re going to look at what properties we can set and get from the object.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 11565,
             "date": "2023-01-10T12:00:00",
             "date_gmt": "2023-01-10T12:00:00",
@@ -2178,245 +2422,6 @@
         "title": "Is Turbo Admin for sale?",
         "content": "\n<p>One of the reasons I keep on with <a href=\"https:\/\/turbo-admin.com\/\">Turbo Admin<\/a> is that I&#8217;ve had some <em>major<\/em> validation of the idea in the form of investment offers and even &#8211; no, I can&#8217;t believe it either &#8211; offers to buy it!<\/p>\n\n\n\n<p>I&#8217;ve been really encouraged by these offers. Here&#8217;s my thoughts on the idea of selling it:<\/p>\n\n\n\n<ul>\n<li>Too many independent software projects are being bought up. I&#8217;m determined for it to stay indie &#8211; for now at least!<\/li>\n\n\n\n<li>I enjoy making it and I learn from making it. Perhaps a buyer would pay me to keep working on it? Or I could just find another project. But it&#8217;s my little hobby thing for now.<\/li>\n\n\n\n<li>It&#8217;s definitely a thing that I make, in part at least, for myself to use! I <em>literally<\/em> use it <em>all<\/em> the time. I used it to log in to this site and start writing this post. I don&#8217;t want someone else to own the roadmap. I know what <em>I<\/em> want it to be. I don&#8217;t want it to be a lead generator or a nice add-on business to something much bigger. I want it to be a useful tool for WordPress users.<\/li>\n\n\n\n<li>There&#8217;s a really nice group of dedicated customers (THANK YOU!) who love the product. I like being able to serve them personally.<\/li>\n\n\n\n<li>It&#8217;s not (yet) in a state where I think it&#8217;s worth someone buying from me! It has lots of potential, but I want to realise more of that by myself before I would consider it something that is sellable. So I won&#8217;t rule it out in the future. But the buyer would have to promise to keep it what it is.<\/li>\n<\/ul>\n\n\n\n<p>There may be benefits to it having a bigger owner. Development might be faster. Support too (but support requests are SO rare).<\/p>\n\n\n\n<p>I&#8217;m honestly flattered by the offers. Maybe one day it will make sense to sell it? But for now it&#8217;s staying with me. I hope that&#8217;s OK.<\/p>\n\n\n\n<p>If people want to keep making me offers, I&#8217;m totally happy to receive them. It&#8217;s a very lovely and encouraging thing!<\/p>\n\n\n\n<p>And if customers think I <em>should<\/em> sell it, let me know. I&#8217;d be keen to hear what you think.<\/p>\n",
         "excerpt": "<p>One of the reasons I keep on with Turbo Admin is that I&#8217;ve had some major validation of the idea in the form of investment offers and even &#8211; no, I can&#8217;t believe it either &#8211; offers to buy it! I&#8217;ve been really encouraged by these offers. Here&#8217;s my thoughts on the idea of selling [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 11348,
-            "date": "2022-10-08T19:24:49",
-            "date_gmt": "2022-10-08T18:24:49",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=11348"
-            },
-            "modified": "2022-10-08T19:24:49",
-            "modified_gmt": "2022-10-08T18:24:49",
-            "slug": "three-bits-of-radio",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/",
-            "title": {
-                "rendered": "Three bits of radio"
-            },
-            "content": {
-                "rendered": "\n<p>I&#8217;ve been doing a longer commute in to work and catching up on my podcast queue.<\/p>\n\n\n\n<p>Three BRILLIANT podcasts that I&#8217;d love to send you lots of quotes from, but actually, you should just listen to the whole thing.<\/p>\n\n\n\n<ul>\n<li>Caleb Porzio encourages you to &#8220;<a href=\"https:\/\/notesonwork.transistor.fm\/episodes\/grow-where-youre-planted\">Grow where you are<\/a>&#8221; in a delightful audio journey through some of his local area and some things that he loves.<\/li>\n\n\n\n<li>My total nerd crush and the best voice on radio, Roman Mars, gets <a href=\"https:\/\/pca.st\/episode\/7942121c-12db-4475-980b-08a7dc609ce0\">interviewed by Bill Clinton<\/a> and explains how we&#8217;re all connected and why this is so important.<\/li>\n\n\n\n<li>And &#8211; along the same lines &#8211; Rob Bell begins a wander through the topic of <a href=\"https:\/\/robbell.podbean.com\/e\/hope-part-1\/\">Hope<\/a> in which he shows us that we&#8217;re not just observers of the world, but we are all active participants in it. (You can take or leave Rob Bell &#8211; I still don&#8217;t know what to make of him, but this episode is good)<\/li>\n<\/ul>\n\n\n\n<p><\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Some podcasts I think are good.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "closed",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Three bits of radio - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Three bits of radio - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some podcasts I think are good.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2022-10-08T18:24:49+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/\",\"url\":\"https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/\",\"name\":\"Three bits of radio - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2022-10-08T18:24:49+00:00\",\"dateModified\":\"2022-10-08T18:24:49+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Three bits of radio\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Three bits of radio - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Three bits of radio - Ross Wintle",
-                "og_description": "Some podcasts I think are good.",
-                "og_url": "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2022-10-08T18:24:49+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/",
-                            "url": "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/",
-                            "name": "Three bits of radio - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2022-10-08T18:24:49+00:00",
-                            "dateModified": "2022-10-08T18:24:49+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Three bits of radio"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11348"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11348"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 2,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11348\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 11359,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11348\/revisions\/11359"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11348"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11348"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11348"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 11348,
-        "dateGmt": "2022-10-08T18:24:49",
-        "modifiedDateGmt": "2022-10-08T18:24:49",
-        "slug": "three-bits-of-radio",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2022\/10\/three-bits-of-radio\/",
-        "title": "Three bits of radio",
-        "content": "\n<p>I&#8217;ve been doing a longer commute in to work and catching up on my podcast queue.<\/p>\n\n\n\n<p>Three BRILLIANT podcasts that I&#8217;d love to send you lots of quotes from, but actually, you should just listen to the whole thing.<\/p>\n\n\n\n<ul>\n<li>Caleb Porzio encourages you to &#8220;<a href=\"https:\/\/notesonwork.transistor.fm\/episodes\/grow-where-youre-planted\">Grow where you are<\/a>&#8221; in a delightful audio journey through some of his local area and some things that he loves.<\/li>\n\n\n\n<li>My total nerd crush and the best voice on radio, Roman Mars, gets <a href=\"https:\/\/pca.st\/episode\/7942121c-12db-4475-980b-08a7dc609ce0\">interviewed by Bill Clinton<\/a> and explains how we&#8217;re all connected and why this is so important.<\/li>\n\n\n\n<li>And &#8211; along the same lines &#8211; Rob Bell begins a wander through the topic of <a href=\"https:\/\/robbell.podbean.com\/e\/hope-part-1\/\">Hope<\/a> in which he shows us that we&#8217;re not just observers of the world, but we are all active participants in it. (You can take or leave Rob Bell &#8211; I still don&#8217;t know what to make of him, but this episode is good)<\/li>\n<\/ul>\n\n\n\n<p><\/p>\n",
-        "excerpt": "<p>Some podcasts I think are good.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

@@ -1,6 +1,240 @@
 [
     {
         "dataAsArray": {
+            "id": 108,
+            "date": "2008-01-25T14:12:00",
+            "date_gmt": "2008-01-25T14:12:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/01\/25\/first-few-days-on-the-new-bike\/"
+            },
+            "modified": "2008-01-25T14:12:00",
+            "modified_gmt": "2008-01-25T14:12:00",
+            "slug": "first-few-days-on-the-new-bike",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/",
+            "title": {
+                "rendered": "First few days on the new Bike"
+            },
+            "content": {
+                "rendered": "<p>So&#8230;now it&#8217;s dry I&#8217;ve been able to have a few days commuting on the Felt (which Sally has suggested be called &#8220;Fuzzy&#8221;&#8230;Fuzzy Felt&#8230;geddit?).  What&#8217;s it like?<\/p>\n<p>Well.<\/p>\n<p>IT&#8217;S AWESOME.  It&#8217;s so comfortable that it seems to be helping my bad back get better.  It&#8217;s so light.  It&#8217;s so quick.<\/p>\n<p>Actually, it doesn&#8217;t seem to have a higher top-gear than the Raleigh, but the acceleration is so fast and smooth you arrive at top speed very quickly and can much more easily maintain it.<\/p>\n<p>I have had some more learning to do.  I was a bit tentative after my fall on Saturday, but in the dry it does corner OK.  I&#8217;ve yet to push it hard and fast round a corner though and the bike does very much want to go in a straight line.  I&#8217;m wondering if I turned the handlebars too much on Saturday rather than leaning?<\/p>\n<p>The dropped bars are great for the variety of hand positions, but it&#8217;s sometimes a bit shaky getting between them &#8211; especially the one time I actually went down to the drops.  How are you supposed to do this?  One hand at a time knocks your steering off.<\/p>\n<p>I&#8217;ve also had problems with riding through town.  Braking, changing down and indicating at the same time is much harder on this bike, especially while I&#8217;m nervously preparing to corner too.  The trick with indicating from the brake hoods definitely seems to be to grip tight with the hand on the bars while you do the one-handed thing.<\/p>\n<p>In addition to my little scratches from the weekend I now also have a bit of surface rust (see picture).  I don&#8217;t THINK this is a big deal and I&#8217;m hoping it will disappear just with wear.  But proof that you should definitely dry the chain off properly after a wet ride.<\/p>\n<div style=\"text-align:left;\"><a href=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/R5nuoi1YrHI\/AAAAAAAABkU\/XrAMBzuhLIA\/s1600-h\/IMG_0268.JPG\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/R5nuoi1YrHI\/AAAAAAAABkU\/XrAMBzuhLIA\/s400\/IMG_0268.JPG\" alt=\"\" border=\"0\" \/><\/a><br \/>In general then, I&#8217;m very glad I invested in a road bike.  It WAS worth it after all, and I&#8217;m looking forward for some more dry weather to really take it on a decent run.<\/div>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>So&#8230;now it&#8217;s dry I&#8217;ve been able to have a few days commuting on the Felt (which Sally has suggested be called &#8220;Fuzzy&#8221;&#8230;Fuzzy Felt&#8230;geddit?). What&#8217;s it like? Well. IT&#8217;S AWESOME. It&#8217;s so comfortable that it seems to be helping my bad back get better. It&#8217;s so light. It&#8217;s so quick. Actually, it doesn&#8217;t seem to have [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>First few days on the new Bike - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"First few days on the new Bike - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"So&#8230;now it&#8217;s dry I&#8217;ve been able to have a few days commuting on the Felt (which Sally has suggested be called &#8220;Fuzzy&#8221;&#8230;Fuzzy Felt&#8230;geddit?). What&#8217;s it like? Well. IT&#8217;S AWESOME. It&#8217;s so comfortable that it seems to be helping my bad back get better. It&#8217;s so light. It&#8217;s so quick. Actually, it doesn&#8217;t seem to have [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-01-25T14:12:00+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/R5nuoi1YrHI\/AAAAAAAABkU\/XrAMBzuhLIA\/s400\/IMG_0268.JPG\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/\",\"name\":\"First few days on the new Bike - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-01-25T14:12:00+00:00\",\"dateModified\":\"2008-01-25T14:12:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"First few days on the new Bike\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "First few days on the new Bike - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "First few days on the new Bike - Ross Wintle",
+                "og_description": "So&#8230;now it&#8217;s dry I&#8217;ve been able to have a few days commuting on the Felt (which Sally has suggested be called &#8220;Fuzzy&#8221;&#8230;Fuzzy Felt&#8230;geddit?). What&#8217;s it like? Well. IT&#8217;S AWESOME. It&#8217;s so comfortable that it seems to be helping my bad back get better. It&#8217;s so light. It&#8217;s so quick. Actually, it doesn&#8217;t seem to have [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2008-01-25T14:12:00+00:00",
+                "og_image": [
+                    {
+                        "url": "http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/R5nuoi1YrHI\/AAAAAAAABkU\/XrAMBzuhLIA\/s400\/IMG_0268.JPG"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/",
+                            "url": "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/",
+                            "name": "First few days on the new Bike - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2008-01-25T14:12:00+00:00",
+                            "dateModified": "2008-01-25T14:12:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "First few days on the new Bike"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/108"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=108"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/108\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=108"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=108"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=108"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 108,
+        "dateGmt": "2008-01-25T14:12:00",
+        "modifiedDateGmt": "2008-01-25T14:12:00",
+        "slug": "first-few-days-on-the-new-bike",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2008\/01\/first-few-days-on-the-new-bike\/",
+        "title": "First few days on the new Bike",
+        "content": "<p>So&#8230;now it&#8217;s dry I&#8217;ve been able to have a few days commuting on the Felt (which Sally has suggested be called &#8220;Fuzzy&#8221;&#8230;Fuzzy Felt&#8230;geddit?).  What&#8217;s it like?<\/p>\n<p>Well.<\/p>\n<p>IT&#8217;S AWESOME.  It&#8217;s so comfortable that it seems to be helping my bad back get better.  It&#8217;s so light.  It&#8217;s so quick.<\/p>\n<p>Actually, it doesn&#8217;t seem to have a higher top-gear than the Raleigh, but the acceleration is so fast and smooth you arrive at top speed very quickly and can much more easily maintain it.<\/p>\n<p>I have had some more learning to do.  I was a bit tentative after my fall on Saturday, but in the dry it does corner OK.  I&#8217;ve yet to push it hard and fast round a corner though and the bike does very much want to go in a straight line.  I&#8217;m wondering if I turned the handlebars too much on Saturday rather than leaning?<\/p>\n<p>The dropped bars are great for the variety of hand positions, but it&#8217;s sometimes a bit shaky getting between them &#8211; especially the one time I actually went down to the drops.  How are you supposed to do this?  One hand at a time knocks your steering off.<\/p>\n<p>I&#8217;ve also had problems with riding through town.  Braking, changing down and indicating at the same time is much harder on this bike, especially while I&#8217;m nervously preparing to corner too.  The trick with indicating from the brake hoods definitely seems to be to grip tight with the hand on the bars while you do the one-handed thing.<\/p>\n<p>In addition to my little scratches from the weekend I now also have a bit of surface rust (see picture).  I don&#8217;t THINK this is a big deal and I&#8217;m hoping it will disappear just with wear.  But proof that you should definitely dry the chain off properly after a wet ride.<\/p>\n<div style=\"text-align:left;\"><a href=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/R5nuoi1YrHI\/AAAAAAAABkU\/XrAMBzuhLIA\/s1600-h\/IMG_0268.JPG\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/2.bp.blogspot.com\/__353xnCqQbI\/R5nuoi1YrHI\/AAAAAAAABkU\/XrAMBzuhLIA\/s400\/IMG_0268.JPG\" alt=\"\" border=\"0\" \/><\/a><br \/>In general then, I&#8217;m very glad I invested in a road bike.  It WAS worth it after all, and I&#8217;m looking forward for some more dry weather to really take it on a decent run.<\/div>\n",
+        "excerpt": "<p>So&#8230;now it&#8217;s dry I&#8217;ve been able to have a few days commuting on the Felt (which Sally has suggested be called &#8220;Fuzzy&#8221;&#8230;Fuzzy Felt&#8230;geddit?). What&#8217;s it like? Well. IT&#8217;S AWESOME. It&#8217;s so comfortable that it seems to be helping my bad back get better. It&#8217;s so light. It&#8217;s so quick. Actually, it doesn&#8217;t seem to have [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 107,
             "date": "2008-01-19T21:24:00",
             "date_gmt": "2008-01-19T21:24:00",
@@ -2129,243 +2363,6 @@
         "title": "Good ride today",
         "content": "<p>Haven&#8217;t done a training ride for a while but went out in glorious sunshine today and did Cricklade and back (16.5 miles) in a fraction over an hour.  Not bad going.  Must get out and train more often &#8211; I loved it! \ud83d\ude42<\/p>\n<p>Oh yeah, it was a bit of a test of some new clothing too.  I got some &#8220;Seal Skinz&#8221; waterproof and windproof gloves.  Brilliant!  Not as breathable as I&#8217;d been lead to believe but my hands weren&#8217;t soggy.  The key thing was windproofing.  My hands were VERY warm &#8211; even more so than when I wear ski gloves.  It really is the wind that gets you cold.<\/p>\n",
         "excerpt": "<p>Haven&#8217;t done a training ride for a while but went out in glorious sunshine today and did Cricklade and back (16.5 miles) in a fraction over an hour. Not bad going. Must get out and train more often &#8211; I loved it! \ud83d\ude42 Oh yeah, it was a bit of a test of some new [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 98,
-            "date": "2008-01-02T22:07:00",
-            "date_gmt": "2008-01-02T22:07:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/01\/02\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/"
-            },
-            "modified": "2008-01-02T22:07:00",
-            "modified_gmt": "2008-01-02T22:07:00",
-            "slug": "song-1-the-pogues-a-fairytale-of-new-york-key-of-g",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/",
-            "title": {
-                "rendered": "Song 1 &#8211; The Pogues&#039; A Fairytale of New York (Key of G)"
-            },
-            "content": {
-                "rendered": "<p>I just know I&#8217;ll regret this&#8230;it&#8217;s already taking over my life.  I&#8217;m almost embarassed to write anything because I&#8217;ll be writing my resignation post before I know it.  Still&#8230;let&#8217;s give it a go.<\/p>\n<p>Week 1 of the new year&#8217;s challenge.  Learn a popular song every week for a year.<\/p>\n<p>There were various discussions about which to do first, but I&#8217;ve decided on Sally&#8217;s suggestion of The Pogues&#8217; &#8220;A Fairytale of New York&#8221;.  Pretty simple music, mostly Gs, Ds and As with a few Bm&#8217;s, but with some interesting words.  It helps that the words kind of tell a story as it&#8217;s easier to remember.<\/p>\n<p>The choice of a male\/female duet may probe interesting too.<\/p>\n<p>I&#8217;ve actually spent more time trying to learn the words than the music.  That will have to change.  The problem is that it&#8217;s one of those songs that I&#8217;ve heard a million time and I think I know some of the words from what they sound like.  e.g. I always thought the chorus bit was:<\/p>\n<p>&#8220;The wise and the unwise singing (something) were singing going (something)&#8221;<\/p>\n<p>when it&#8217;s actually<\/p>\n<p>&#8220;The boys of the NYPD choir were singing Galway Bay&#8221;<\/p>\n<p>which makes a LOT more sense.<\/p>\n<p>In other &#8220;52 songs&#8221; news, I&#8217;ve using technology to help me!  I&#8217;ve started downloading some popular tracks from iTunes at 79p each.  I&#8217;m going to create a &#8220;52 songs&#8221; playlist to help me along, and I have a folder for keeping the tabs (guitar chord music) in.<\/p>\n<p>Anyway&#8230;off to learn the music!  Report back &#8211; and a new song! &#8211; at the end of the week.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I just know I&#8217;ll regret this&#8230;it&#8217;s already taking over my life. I&#8217;m almost embarassed to write anything because I&#8217;ll be writing my resignation post before I know it. Still&#8230;let&#8217;s give it a go. Week 1 of the new year&#8217;s challenge. Learn a popular song every week for a year. There were various discussions about which [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                3
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Song 1 - The Pogues&#039; A Fairytale of New York (Key of G) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Song 1 - The Pogues&#039; A Fairytale of New York (Key of G) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I just know I&#8217;ll regret this&#8230;it&#8217;s already taking over my life. I&#8217;m almost embarassed to write anything because I&#8217;ll be writing my resignation post before I know it. Still&#8230;let&#8217;s give it a go. Week 1 of the new year&#8217;s challenge. Learn a popular song every week for a year. There were various discussions about which [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-01-02T22:07:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/\",\"name\":\"Song 1 - The Pogues&#039; A Fairytale of New York (Key of G) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-01-02T22:07:00+00:00\",\"dateModified\":\"2008-01-02T22:07:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Song 1 &#8211; The Pogues&#039; A Fairytale of New York (Key of G)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Song 1 - The Pogues&#039; A Fairytale of New York (Key of G) - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Song 1 - The Pogues&#039; A Fairytale of New York (Key of G) - Ross Wintle",
-                "og_description": "I just know I&#8217;ll regret this&#8230;it&#8217;s already taking over my life. I&#8217;m almost embarassed to write anything because I&#8217;ll be writing my resignation post before I know it. Still&#8230;let&#8217;s give it a go. Week 1 of the new year&#8217;s challenge. Learn a popular song every week for a year. There were various discussions about which [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2008-01-02T22:07:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/",
-                            "url": "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/",
-                            "name": "Song 1 - The Pogues&#039; A Fairytale of New York (Key of G) - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2008-01-02T22:07:00+00:00",
-                            "dateModified": "2008-01-02T22:07:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Song 1 &#8211; The Pogues&#039; A Fairytale of New York (Key of G)"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/98"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=98"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/98\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=98"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=98"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=98"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 98,
-        "dateGmt": "2008-01-02T22:07:00",
-        "modifiedDateGmt": "2008-01-02T22:07:00",
-        "slug": "song-1-the-pogues-a-fairytale-of-new-york-key-of-g",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2008\/01\/song-1-the-pogues-a-fairytale-of-new-york-key-of-g\/",
-        "title": "Song 1 &#8211; The Pogues&#039; A Fairytale of New York (Key of G)",
-        "content": "<p>I just know I&#8217;ll regret this&#8230;it&#8217;s already taking over my life.  I&#8217;m almost embarassed to write anything because I&#8217;ll be writing my resignation post before I know it.  Still&#8230;let&#8217;s give it a go.<\/p>\n<p>Week 1 of the new year&#8217;s challenge.  Learn a popular song every week for a year.<\/p>\n<p>There were various discussions about which to do first, but I&#8217;ve decided on Sally&#8217;s suggestion of The Pogues&#8217; &#8220;A Fairytale of New York&#8221;.  Pretty simple music, mostly Gs, Ds and As with a few Bm&#8217;s, but with some interesting words.  It helps that the words kind of tell a story as it&#8217;s easier to remember.<\/p>\n<p>The choice of a male\/female duet may probe interesting too.<\/p>\n<p>I&#8217;ve actually spent more time trying to learn the words than the music.  That will have to change.  The problem is that it&#8217;s one of those songs that I&#8217;ve heard a million time and I think I know some of the words from what they sound like.  e.g. I always thought the chorus bit was:<\/p>\n<p>&#8220;The wise and the unwise singing (something) were singing going (something)&#8221;<\/p>\n<p>when it&#8217;s actually<\/p>\n<p>&#8220;The boys of the NYPD choir were singing Galway Bay&#8221;<\/p>\n<p>which makes a LOT more sense.<\/p>\n<p>In other &#8220;52 songs&#8221; news, I&#8217;ve using technology to help me!  I&#8217;ve started downloading some popular tracks from iTunes at 79p each.  I&#8217;m going to create a &#8220;52 songs&#8221; playlist to help me along, and I have a folder for keeping the tabs (guitar chord music) in.<\/p>\n<p>Anyway&#8230;off to learn the music!  Report back &#8211; and a new song! &#8211; at the end of the week.<\/p>\n",
-        "excerpt": "<p>I just know I&#8217;ll regret this&#8230;it&#8217;s already taking over my life. I&#8217;m almost embarassed to write anything because I&#8217;ll be writing my resignation post before I know it. Still&#8230;let&#8217;s give it a go. Week 1 of the new year&#8217;s challenge. Learn a popular song every week for a year. There were various discussions about which [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

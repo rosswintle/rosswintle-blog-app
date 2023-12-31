@@ -1,6 +1,249 @@
 [
     {
         "dataAsArray": {
+            "id": 270,
+            "date": "2009-01-17T23:04:22",
+            "date_gmt": "2009-01-17T23:04:22",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=270"
+            },
+            "modified": "2009-01-17T23:04:22",
+            "modified_gmt": "2009-01-17T23:04:22",
+            "slug": "winter-training",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/",
+            "title": {
+                "rendered": "Winter Training"
+            },
+            "content": {
+                "rendered": "<p>So this was the winter when I was supposed to train!\u00a0 I got kitted out with some &#8220;longs&#8221; and a fancy new Windstopper jacket, and I was going to keep the mileage up and be ready in the spring to push on with my cycling from a good base fitness level.<\/p>\n<p>Of course, my four common colds didn&#8217;t help.\u00a0 Health was an issue.\u00a0 But even without that, it&#8217;s not quite as easy as you think.<\/p>\n<p>Winter isn&#8217;t just cold and wet.\u00a0 It&#8217;s dark!\u00a0 And this presents a whole new set of challenges.\u00a0 Especially as my longer rides tend to be on the way home after 6pm.<\/p>\n<p>Most of my longer rides take me out onto quiet country roads, and these tend not to be lit.<\/p>\n<p>&#8220;Well, that&#8217;s OK&#8221;, I hear you say, &#8220;you put lights on&#8221;.<\/p>\n<p>But that&#8217;s doesn&#8217;t quite work either.\u00a0 You see most lights are good for getting you seen, but they&#8217;re no good for see-ing.\u00a0 My one attempt at dark country lanes was WELL scary, even with both a Halogen and an LED light headlight on.<\/p>\n<p>No, without strapping a huge contraption and heavy battery to your bike like some night-time mountain bikers do, it&#8217;s just not safe &#8211; especially at road bike speeds.<\/p>\n<h3>Thursday&#8217;s Ride<\/h3>\n<p>This Thursday was an attempt to fix the winter problem of covering distance in the dark.\u00a0 Sally was busy and the run on Wednesday had got me hooked again on exercise adrenaline.\u00a0 So I headed off my normal route home to attempt a decent, well-lit, urban training ride.<\/p>\n<p>The route is on Bikely and I&#8217;ve called it the <a title=\"Bikely route map of Swindon Ring Road\" href=\"http:\/\/www.bikely.com\/maps\/bike-path\/Swindon-Ring-Road\" target=\"_blank\">Swindon Ring Road<\/a>.\u00a0 I won&#8217;t pretend it&#8217;s entirely safe &#8211; there were some hairy moments with cars.\u00a0 I won&#8217;t pretend it&#8217;s massively quick &#8211; there are lights and junctions and roundabouts.\u00a0 But it&#8217;s MOSTLY long, straightish, flattish tarmac&#8230;with lights!<\/p>\n<p>I was quite pleased to do a 14-miler as my first training run of 2009 after a few weeks off, and I didn&#8217;t feel too bad afterwards.\u00a0 I confess that I bailed out of climbing up Marlborough Road towards a downhill finish.\u00a0 I think the real route should look <a title=\"Bikely route for Swindon Ring Road 2\" href=\"http:\/\/www.bikely.com\/maps\/bike-path\/Swindon-Ring-Road-2\" target=\"_blank\">more like this<\/a>.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Winter isn&#8217;t just cold and wet.  It&#8217;s dark!  And this presents a whole new set of challenges.<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6
+            ],
+            "tags": [
+                572,
+                143,
+                581,
+                168,
+                186
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Winter Training - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2009\/01\/winter-training\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Winter Training - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Winter isn&#039;t just cold and wet. It&#039;s dark! And this presents a whole new set of challenges.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2009\/01\/winter-training\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2009-01-17T23:04:22+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/01\/winter-training\/\",\"url\":\"https:\/\/rosswintle.uk\/2009\/01\/winter-training\/\",\"name\":\"Winter Training - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-01-17T23:04:22+00:00\",\"dateModified\":\"2009-01-17T23:04:22+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/01\/winter-training\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2009\/01\/winter-training\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/01\/winter-training\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Winter Training\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Winter Training - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Winter Training - Ross Wintle",
+                "og_description": "Winter isn't just cold and wet. It's dark! And this presents a whole new set of challenges.",
+                "og_url": "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2009-01-17T23:04:22+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/",
+                            "url": "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/",
+                            "name": "Winter Training - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2009-01-17T23:04:22+00:00",
+                            "dateModified": "2009-01-17T23:04:22+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Winter Training"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/270"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=270"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/270\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=270"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=270"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=270"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 270,
+        "dateGmt": "2009-01-17T23:04:22",
+        "modifiedDateGmt": "2009-01-17T23:04:22",
+        "slug": "winter-training",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2009\/01\/winter-training\/",
+        "title": "Winter Training",
+        "content": "<p>So this was the winter when I was supposed to train!\u00a0 I got kitted out with some &#8220;longs&#8221; and a fancy new Windstopper jacket, and I was going to keep the mileage up and be ready in the spring to push on with my cycling from a good base fitness level.<\/p>\n<p>Of course, my four common colds didn&#8217;t help.\u00a0 Health was an issue.\u00a0 But even without that, it&#8217;s not quite as easy as you think.<\/p>\n<p>Winter isn&#8217;t just cold and wet.\u00a0 It&#8217;s dark!\u00a0 And this presents a whole new set of challenges.\u00a0 Especially as my longer rides tend to be on the way home after 6pm.<\/p>\n<p>Most of my longer rides take me out onto quiet country roads, and these tend not to be lit.<\/p>\n<p>&#8220;Well, that&#8217;s OK&#8221;, I hear you say, &#8220;you put lights on&#8221;.<\/p>\n<p>But that&#8217;s doesn&#8217;t quite work either.\u00a0 You see most lights are good for getting you seen, but they&#8217;re no good for see-ing.\u00a0 My one attempt at dark country lanes was WELL scary, even with both a Halogen and an LED light headlight on.<\/p>\n<p>No, without strapping a huge contraption and heavy battery to your bike like some night-time mountain bikers do, it&#8217;s just not safe &#8211; especially at road bike speeds.<\/p>\n<h3>Thursday&#8217;s Ride<\/h3>\n<p>This Thursday was an attempt to fix the winter problem of covering distance in the dark.\u00a0 Sally was busy and the run on Wednesday had got me hooked again on exercise adrenaline.\u00a0 So I headed off my normal route home to attempt a decent, well-lit, urban training ride.<\/p>\n<p>The route is on Bikely and I&#8217;ve called it the <a title=\"Bikely route map of Swindon Ring Road\" href=\"http:\/\/www.bikely.com\/maps\/bike-path\/Swindon-Ring-Road\" target=\"_blank\">Swindon Ring Road<\/a>.\u00a0 I won&#8217;t pretend it&#8217;s entirely safe &#8211; there were some hairy moments with cars.\u00a0 I won&#8217;t pretend it&#8217;s massively quick &#8211; there are lights and junctions and roundabouts.\u00a0 But it&#8217;s MOSTLY long, straightish, flattish tarmac&#8230;with lights!<\/p>\n<p>I was quite pleased to do a 14-miler as my first training run of 2009 after a few weeks off, and I didn&#8217;t feel too bad afterwards.\u00a0 I confess that I bailed out of climbing up Marlborough Road towards a downhill finish.\u00a0 I think the real route should look <a title=\"Bikely route for Swindon Ring Road 2\" href=\"http:\/\/www.bikely.com\/maps\/bike-path\/Swindon-Ring-Road-2\" target=\"_blank\">more like this<\/a>.<\/p>\n",
+        "excerpt": "<p>Winter isn&#8217;t just cold and wet.  It&#8217;s dark!  And this presents a whole new set of challenges.<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 268,
             "date": "2009-01-16T23:54:15",
             "date_gmt": "2009-01-16T23:54:15",
@@ -2176,248 +2419,6 @@
         "title": "A successful move!",
         "content": "<p>Welcome to the all-new, WordPress-based blog!\u00a0 All the old entries and comments are there and new ones will appear here.<\/p>\n<p>Because I&#8217;m hosted at WordPress (at present) I&#8217;m limited in the designs (Themes) I can use.\u00a0 This is my favourite &#8211; the others I like had teeny-tiny writing!<\/p>\n<p>Feedback encouraged&#8230;especially if you think you can find me a more suitable photo for the header.<\/p>\n<p>Thanks for reading folks!<\/p>\n",
         "excerpt": "<p>Welcome to the all-new, Wordpress-based blog!<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 227,
-            "date": "2008-12-21T01:23:54",
-            "date_gmt": "2008-12-21T01:23:54",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/?p=227"
-            },
-            "modified": "2008-12-21T01:23:54",
-            "modified_gmt": "2008-12-21T01:23:54",
-            "slug": "spin-spin-spin-the-wheel-of-fortune",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
-            "title": {
-                "rendered": "Spin, spin, spin the wheel of fortune"
-            },
-            "content": {
-                "rendered": "<p>[Note &#8211; I&#8217;m writing this while waiting for DNS to update so I can migrate to WordPress&#8230;so you&#8217;ll see it after my actually time of posting and everything will seem to be in a weird order&#8230;sorry!]<\/p>\n<p>It was my work Christmas party on Thursday night and very good it was too.\u00a0 I won&#8217;t post too much for fear of libel &#8211; and it&#8217;s my policy to not mention work or other people without their permission here &#8211; but I wanted to talk about a discovery&#8230; I discovered a fascination with Roulette!<\/p>\n<p>It was a Las Vegas themed night and there were blackjack and roulette tables upstairs.\u00a0 I didn\u2019t gamble at all (not that there was any real money being passed around &#8211; it was all fake), but was enjoying watching others play.<\/p>\n<p>Initially I was only interested in the blackjack.\u00a0 It seemed you had more strategy involved and so more chance to win.\u00a0 Roulette seemed to be a mugs game with everything completely riding on chance.<\/p>\n<p>But I later began watching the roulette in some more detail and I quickly got hooked.\u00a0 There\u2019s 36 numbers and a zero.\u00a0 You can bet on single numbers, pairs of numbers, group of 4, groups of 12, groups of 18, red or black, odd or even, with odds being adjusted accordingly (I assume that zero is ignored for this and so e.g. you get 9 to 1 for playing a group of 4.<\/p>\n<p>The skill seems to be spreading your bets around.\u00a0 One guy was playing a single chip on 30 and 17 every time, and a small pile on red\/black, odd\/even, or a large group.\u00a0 The (more likely) wins on the large group kept his chips up while he waited to reel in one of the big 36 to 1 stakes.\u00a0 He never did and he ended up just losing chips all night.<\/p>\n<p>A pair of girls came along and started playing hesitantly, with just one chip on number 7.\u00a0 It quickly came up and they were loaded, but they lost it all again quickly.<\/p>\n<p>This looks like a game where most people lose a lot very quickly, but the odd lucky one gets a big win and can walk away rich.<\/p>\n<p>But watching people play was fascinating, and the croupier was amazing, keeping an eye on everything and shifting, sorting, stacking chips with such speed and skill.<\/p>\n<p>Of course, it IS a mugs game, but somehow, I was hooked!\u00a0 I hope I keep the discipline of never actually taking part.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Of course, it IS a mugs game, but somehow, I was hooked!<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [
-                45,
-                122,
-                141,
-                582
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Spin, spin, spin the wheel of fortune - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Spin, spin, spin the wheel of fortune - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Of course, it IS a mugs game, but somehow, I was hooked!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-12-21T01:23:54+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\",\"name\":\"Spin, spin, spin the wheel of fortune - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-12-21T01:23:54+00:00\",\"dateModified\":\"2008-12-21T01:23:54+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Spin, spin, spin the wheel of fortune\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Spin, spin, spin the wheel of fortune - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Spin, spin, spin the wheel of fortune - Ross Wintle",
-                "og_description": "Of course, it IS a mugs game, but somehow, I was hooked!",
-                "og_url": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2008-12-21T01:23:54+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
-                            "url": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
-                            "name": "Spin, spin, spin the wheel of fortune - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2008-12-21T01:23:54+00:00",
-                            "dateModified": "2008-12-21T01:23:54+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Spin, spin, spin the wheel of fortune"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/227"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=227"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/227\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=227"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=227"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=227"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 227,
-        "dateGmt": "2008-12-21T01:23:54",
-        "modifiedDateGmt": "2008-12-21T01:23:54",
-        "slug": "spin-spin-spin-the-wheel-of-fortune",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
-        "title": "Spin, spin, spin the wheel of fortune",
-        "content": "<p>[Note &#8211; I&#8217;m writing this while waiting for DNS to update so I can migrate to WordPress&#8230;so you&#8217;ll see it after my actually time of posting and everything will seem to be in a weird order&#8230;sorry!]<\/p>\n<p>It was my work Christmas party on Thursday night and very good it was too.\u00a0 I won&#8217;t post too much for fear of libel &#8211; and it&#8217;s my policy to not mention work or other people without their permission here &#8211; but I wanted to talk about a discovery&#8230; I discovered a fascination with Roulette!<\/p>\n<p>It was a Las Vegas themed night and there were blackjack and roulette tables upstairs.\u00a0 I didn\u2019t gamble at all (not that there was any real money being passed around &#8211; it was all fake), but was enjoying watching others play.<\/p>\n<p>Initially I was only interested in the blackjack.\u00a0 It seemed you had more strategy involved and so more chance to win.\u00a0 Roulette seemed to be a mugs game with everything completely riding on chance.<\/p>\n<p>But I later began watching the roulette in some more detail and I quickly got hooked.\u00a0 There\u2019s 36 numbers and a zero.\u00a0 You can bet on single numbers, pairs of numbers, group of 4, groups of 12, groups of 18, red or black, odd or even, with odds being adjusted accordingly (I assume that zero is ignored for this and so e.g. you get 9 to 1 for playing a group of 4.<\/p>\n<p>The skill seems to be spreading your bets around.\u00a0 One guy was playing a single chip on 30 and 17 every time, and a small pile on red\/black, odd\/even, or a large group.\u00a0 The (more likely) wins on the large group kept his chips up while he waited to reel in one of the big 36 to 1 stakes.\u00a0 He never did and he ended up just losing chips all night.<\/p>\n<p>A pair of girls came along and started playing hesitantly, with just one chip on number 7.\u00a0 It quickly came up and they were loaded, but they lost it all again quickly.<\/p>\n<p>This looks like a game where most people lose a lot very quickly, but the odd lucky one gets a big win and can walk away rich.<\/p>\n<p>But watching people play was fascinating, and the croupier was amazing, keeping an eye on everything and shifting, sorting, stacking chips with such speed and skill.<\/p>\n<p>Of course, it IS a mugs game, but somehow, I was hooked!\u00a0 I hope I keep the discipline of never actually taking part.<\/p>\n",
-        "excerpt": "<p>Of course, it IS a mugs game, but somehow, I was hooked!<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

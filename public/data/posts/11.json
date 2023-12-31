@@ -1,6 +1,252 @@
 [
     {
         "dataAsArray": {
+            "id": 8612,
+            "date": "2019-09-09T09:55:09",
+            "date_gmt": "2019-09-09T08:55:09",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=8612"
+            },
+            "modified": "2020-06-15T13:46:17",
+            "modified_gmt": "2020-06-15T12:46:17",
+            "slug": "camping-thoughts",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/",
+            "title": {
+                "rendered": "Camping thoughts"
+            },
+            "content": {
+                "rendered": "\n<p>We had a camping holiday recently &#8211; our first in four years or so. We were blessed with brilliant weather and a great location and we loved the week we had, but, being a thoughtful person, there were a few thoughts I had about the camping experience that I thought I&#8217;d jot down.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Why don&#8217;t campsites have water boilers?<\/h2>\n\n\n\n<p>Seriously. This should be a thing. Campsites have toilets and showers and washing up points. Electrical heaters of various sorts. Some of which made very hot water.<\/p>\n\n\n\n<p>So I wondered&#8230;why is it that campsites don&#8217;t have those on-demand water boilers? So much gas must be used up boiling water on camping stoves. And we put so much effort into managing our supply of hot water (filling a super-insulated flask with hot water the night before so you don&#8217;t have to wait for your morning cuppa).<\/p>\n\n\n\n<p>I&#8217;d gladly pay a little extra to stay on a campsite that has a boiler I can just walk up to and get boiling water out of.<\/p>\n\n\n\n<p>Someone do this, please?! And make it standard for campsites everywhere!!<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Campsite life<\/h2>\n\n\n\n<p>One thing I love about campsites is the huge mix of people you get. I find that camping attracts people from a much greater variety of walks of life than hotels and holiday parks.<\/p>\n\n\n\n<p>And while everyone gets on pretty nicely, there&#8217;s etiquette and both spoken (or write) and unspoken rules.<\/p>\n\n\n\n<p>I do sometimes think it would be good to do a documentary of life on a campsite. An outdoor version of Big Brother with a diary room where people can come in and air their grievances about that thing the people on the pitch next-door did.<\/p>\n\n\n\n<p>Or where people get interviewed about why they have come. We met all sorts of interesting people. A woman camping on her own for the first time who was between jobs. An aunt who was taking her nephew and niece camping for the first time, hoping she can be trusted by the parents to do it again. Stuff like that.<\/p>\n\n\n\n<p>It seems everyone has a story and it would be interesting to have it documented.<\/p>\n\n\n\n<p>Just not on MY holiday, thank you! ?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Swapping indoor and outdoor time<\/h2>\n\n\n\n<p>As most parents, we have a constant struggle with &#8220;screen time&#8221; with our children. We feel it&#8217;s pretty under control here. We&#8217;ve created some good rules. But seeing how much our kids love being outdoors when camping I wondered&#8230;<\/p>\n\n\n\n<p>What if we swapped the rule? If we said that they could have as much indoor and screen time as they wanted, but that their outdoor time was limited to an hour a day. Would that make the outdoor time something that they craved?<\/p>\n\n\n\n<p>Probably not. But maybe an interesting experiment for some time in the future.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Campsites with boilers? Big Brother but outdoors? And unlimited screen time? Thoughts I had while on holiday this summer.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                24
+            ],
+            "tags": [
+                4841,
+                455,
+                575,
+                111,
+                120
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Camping thoughts - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Camping thoughts - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Campsites with boilers? Big Brother but outdoors? And unlimited screen time? Thoughts I had while on holiday this summer.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-09-09T08:55:09+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-06-15T12:46:17+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/\",\"name\":\"Camping thoughts - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-09-09T08:55:09+00:00\",\"dateModified\":\"2020-06-15T12:46:17+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Camping thoughts\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Camping thoughts - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Camping thoughts - Ross Wintle",
+                "og_description": "Campsites with boilers? Big Brother but outdoors? And unlimited screen time? Thoughts I had while on holiday this summer.",
+                "og_url": "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2019-09-09T08:55:09+00:00",
+                "article_modified_time": "2020-06-15T12:46:17+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/",
+                            "url": "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/",
+                            "name": "Camping thoughts - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2019-09-09T08:55:09+00:00",
+                            "dateModified": "2020-06-15T12:46:17+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Camping thoughts"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8612"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8612"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8612\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 8613,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8612\/revisions\/8613"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8612"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8612"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8612"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 8612,
+        "dateGmt": "2019-09-09T08:55:09",
+        "modifiedDateGmt": "2020-06-15T12:46:17",
+        "slug": "camping-thoughts",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2019\/09\/camping-thoughts\/",
+        "title": "Camping thoughts",
+        "content": "\n<p>We had a camping holiday recently &#8211; our first in four years or so. We were blessed with brilliant weather and a great location and we loved the week we had, but, being a thoughtful person, there were a few thoughts I had about the camping experience that I thought I&#8217;d jot down.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Why don&#8217;t campsites have water boilers?<\/h2>\n\n\n\n<p>Seriously. This should be a thing. Campsites have toilets and showers and washing up points. Electrical heaters of various sorts. Some of which made very hot water.<\/p>\n\n\n\n<p>So I wondered&#8230;why is it that campsites don&#8217;t have those on-demand water boilers? So much gas must be used up boiling water on camping stoves. And we put so much effort into managing our supply of hot water (filling a super-insulated flask with hot water the night before so you don&#8217;t have to wait for your morning cuppa).<\/p>\n\n\n\n<p>I&#8217;d gladly pay a little extra to stay on a campsite that has a boiler I can just walk up to and get boiling water out of.<\/p>\n\n\n\n<p>Someone do this, please?! And make it standard for campsites everywhere!!<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Campsite life<\/h2>\n\n\n\n<p>One thing I love about campsites is the huge mix of people you get. I find that camping attracts people from a much greater variety of walks of life than hotels and holiday parks.<\/p>\n\n\n\n<p>And while everyone gets on pretty nicely, there&#8217;s etiquette and both spoken (or write) and unspoken rules.<\/p>\n\n\n\n<p>I do sometimes think it would be good to do a documentary of life on a campsite. An outdoor version of Big Brother with a diary room where people can come in and air their grievances about that thing the people on the pitch next-door did.<\/p>\n\n\n\n<p>Or where people get interviewed about why they have come. We met all sorts of interesting people. A woman camping on her own for the first time who was between jobs. An aunt who was taking her nephew and niece camping for the first time, hoping she can be trusted by the parents to do it again. Stuff like that.<\/p>\n\n\n\n<p>It seems everyone has a story and it would be interesting to have it documented.<\/p>\n\n\n\n<p>Just not on MY holiday, thank you! ?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Swapping indoor and outdoor time<\/h2>\n\n\n\n<p>As most parents, we have a constant struggle with &#8220;screen time&#8221; with our children. We feel it&#8217;s pretty under control here. We&#8217;ve created some good rules. But seeing how much our kids love being outdoors when camping I wondered&#8230;<\/p>\n\n\n\n<p>What if we swapped the rule? If we said that they could have as much indoor and screen time as they wanted, but that their outdoor time was limited to an hour a day. Would that make the outdoor time something that they craved?<\/p>\n\n\n\n<p>Probably not. But maybe an interesting experiment for some time in the future.<\/p>\n",
+        "excerpt": "<p>Campsites with boilers? Big Brother but outdoors? And unlimited screen time? Thoughts I had while on holiday this summer.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 8591,
             "date": "2019-09-02T12:10:40",
             "date_gmt": "2019-09-02T11:10:40",
@@ -2195,251 +2441,6 @@
         "title": "Laravel: Being explicit in authorization policies",
         "content": "\n<p>I&#8217;m working on a Laravel application right now and I got myself in a bit of a tangle about authorization policies because of an undocumented way of using them.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Overview of policies<\/h2>\n\n\n\n<p>In Laravel, Policies are a way of specifying who can take particular actions. In this application we are using resource controllers (with typical resource methods like <code>index<\/code>, <code>create<\/code>, <code>store<\/code>, etc) and manually authorizing in the controllers using the controller helper method described in <a href=\"https:\/\/laravel.com\/docs\/5.8\/authorization#via-controller-helpers\">the documentation<\/a>.<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n$this-&gt;authorize('create', Post::class);\n<\/pre><\/div>\n\n\n<p>or, for methods that require authorization for a particular object\/model:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\npublic function update(Request $request, Post $post)\n{\n    $this-&gt;authorize('update', $post);\n}\n<\/pre><\/div>\n\n\n<h2 class=\"wp-block-heading\">The problem<\/h2>\n\n\n\n<p>The problem I had here is that in the latter example, it&#8217;s kinda unclear which policy is being used. In the first example above it&#8217;s explicit &#8211; we&#8217;re using using the <code>PostPolicy<\/code> because we passed in <code>Post::class<\/code> to specify which model we are using.<\/p>\n\n\n\n<p>In the second example the Policy is not specified &#8211; I&#8217;m guessing that the class of the type-hinted <code>Post<\/code> is used to determine which policy is called. But it&#8217;s not clear especially when&#8230;<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The use case &#8211; and why the problem is a problem<\/h2>\n\n\n\n<p>In my case I&#8217;m authorizing users to edit users, so my controllers looked like:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\npublic function update(Request $request, User $user)\n{\n    $this-&gt;authorize('update', $user);\n}\n<\/pre><\/div>\n\n\n<p>But then I wanted <a href=\"https:\/\/tighten.co\/blog\/extending-models-in-eloquent\">some child classes<\/a> of the <code>User<\/code> model, which look like:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\nclass SuperAdmin extends User\n{\n    protected $table = 'users';\n}\n<\/pre><\/div>\n\n\n<p>Now, if a SuperAdmin is passed to the UserController, which Policy is used? And &#8211; I know I probably shouldn&#8217;t but &#8211; if I wanted to use a specific policy here, what do I do? My only option is to change the type hint, isn&#8217;t it? And I may not want to do that?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The solution!<\/h2>\n\n\n\n<p>Well, no. It&#8217;s not the only option. It turns out you can pass an array to the <code>authorize<\/code> helper which seems to let you specify both the object you are trying to authorize for, and a specific class\/policy:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n$this-&gt;authorize('update', &#x5B;SuperAdmin::class, $user]);\n<\/pre><\/div>\n\n\n<p>So yay! Now, there&#8217;s probably a whole bunch of reasons you wouldn&#8217;t\/shouldn&#8217;t do this, but that&#8217;s not the point. I want to remember that you can choose a policy by specifying a class name. And&#8230;job done!<\/p>\n",
         "excerpt": "<p>How to specify a specific policy\/class when authorizing using the controller helper function in Laravel.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 4744,
-            "date": "2019-04-04T13:13:06",
-            "date_gmt": "2019-04-04T12:13:06",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=4744"
-            },
-            "modified": "2019-04-04T13:13:09",
-            "modified_gmt": "2019-04-04T12:13:09",
-            "slug": "speaker-tips-from-the-wonderful-wordcamp-london-folks",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
-            "title": {
-                "rendered": "Speaker Tips from the wonderful WordCamp London folks"
-            },
-            "content": {
-                "rendered": "\n<p>I&#8217;m speaking at <a href=\"https:\/\/2019.london.wordcamp.org\/\">WordCamp London<\/a> on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Who has super speaker tips? Assume nothing. I want all the basics.<\/p><\/blockquote>\n\n\n\n<p>I gave a couple of my own for starters:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Quit All Your Apps when presenting (other than your presenting app)<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Mute all notifications! Mac users can enable Do Not Disturb mode if you click the notification centre &#8211; top right &#8211; and scroll up to the toggle, or just Alt-Click the notification centre icon in the menu bar. There&#8217;s probably a Windows equivalent.<\/p><\/blockquote>\n\n\n\n<p>I also have a tip that is WordCamp London venue-specific:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Also, if you&#8217;re speaking in track A, the Great Hall, it sounds stupid but there&#8217;s a HUGE clock on the back wall and one year it was about 4 minutes slow. Take note of if this clock is accurate cos you don&#8217;t want to look at it and think you&#8217;ve got lots of time that you haven&#8217;t!<\/p><\/blockquote>\n\n\n\n<p>But this probably translates into more of a general &#8220;Check out your environment beforehand. Stand on the stage. Find out what you will be looking at.<\/p>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/danmaby\">Dan Maby<\/a> had a few useful nuggets:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>I use Owly to keep my mac awake too https:\/\/itunes.apple.com\/us\/app\/owly-prevent-display-sleep\/id882812218?mt=12<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Drink water<\/p><\/blockquote>\n\n\n\n<p>(which I followed with &#8220;but not too much water!&#8221;)<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Breath<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Pause, giving yourself a second to catch up with yourself is good for everyone<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Pause Dropbox\/Google Drive\/One Drive etc.<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Make sure your Google Slides are available off-line<\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/tnash\">Tim Nash<\/a> is super-experienced. And his experience suggests that the following are good ideas:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t fall of the stage<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t panic, if words are coming out of your mouth its probably ok<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t open the file called passwords.txt<\/p><p><\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Clean and hide your desktop if you like to use that space as a general place to dump files. Inevitably you will minimise your presentation and you never know what files are there.<\/p><p><\/p><\/blockquote>\n\n\n\n<p>Which I followed up with my own tip: Even if it means shoving everything into a &#8220;Things that were on my desktop&#8221; folder temporarily.<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>When you&#8217;re on stage, if you can, get away from the lectern, it both obscures you but also will make you hunch which will make it harder to project. It sometimes feels safe behind there but it really is worth trying to avoid that space entirely<\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/karmatosed\">Tammie Lister<\/a>, who is also a very experienced speaker, countered this and made her own wise suggestions too:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Standing by lectern is OK. For those of us that need notes and have poor eyesight or reading hurdles it&#8217;s OK. Just be comfortable.<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Turn off your wifi, seriously stop doing live demos &#8211; if wifi is off you can&#8217;t get notifications<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t focus on one person, move your eyes over everyone.<\/p><\/blockquote>\n\n\n\n<p>Which prompted a related, WordPress-specific tech tip from me:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>If you&#8217;re demoing WordPress locally, you can use this to speed it up and stop network stuff happening too: https:\/\/github.com\/norcross\/airplane-mode<br><\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/swissspidy\">Pascal Birchler<\/a> suggests you:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Arrive on time for your talk <\/p><\/blockquote>\n\n\n\n<p>Which got some follow ups:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Early even!<br><\/p><p>And sit in the audience if you can for a talk in your track, if you not been in the room before. It will give you a rough idea of what they the audience can see\/hear.<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Yes. Definitely scout the room. Have a chat with the AV\/sound people in a break before your talk if you can. They&#8217;re super helpful.<\/p><cite>Ross Wintle<\/cite><\/blockquote>\n\n\n\n<p>There were some lightning-talk specific tips and tips on Q&amp;A&#8217;s afterwards too:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Perhaps a bit late and very much my take, but front load your talk, you have a very short amount of time, so don&#8217;t spend to long talking about yourself, or your background, so if you have slides like about you put them at the end, so you can say I was &lt;whoever you are> come find me afterwards. Similarly keep resources to the end, as otherwise folks will start trying to find links to sites etc, while your talking and miss like half the talk<br><\/p><p>I think more so for a lightning talk its all about giving folks things to go away and think and research. It&#8217;s also one of the few times, where its OK to be a little fast paced just don&#8217;t trip over yourself.<\/p><p>Also don&#8217;t be afraid to say, I will take questions at the end<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>For lightning talks, leverage the Happiness Bar (the &#8220;tech support zone&#8221;  of a WordCamp) heavily. Only talk about the important things, and at the end of your talk say &#8220;I&#8217;m going to the Happiness Bar right now to answer any more questions&#8221;<\/p><cite>Topher DeRosia<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>&#8220;I don&#8217;t know&#8221;, is the most powerful answer to a question ever, don&#8217;t be afraid to say it, no one will think less of you. If anything the opposite, I am much more likely to respect a speaker, who when asked a question they don&#8217;t know the answer to says I don&#8217;t know, but if you remind me later I might be able to find out.<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<p>And finally, as Tim Nash says<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Have fun!<\/p><\/blockquote>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;m speaking at WordCamp London on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips: Who has super speaker tips? Assume nothing. I want all the basics. I gave a couple of my own for [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [
-                501,
-                742,
-                601,
-                595
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Speaker Tips from the wonderful WordCamp London folks - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Speaker Tips from the wonderful WordCamp London folks - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;m speaking at WordCamp London on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips: Who has super speaker tips? Assume nothing. I want all the basics. I gave a couple of my own for [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-04-04T12:13:06+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-04-04T12:13:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\",\"name\":\"Speaker Tips from the wonderful WordCamp London folks - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-04-04T12:13:06+00:00\",\"dateModified\":\"2019-04-04T12:13:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Speaker Tips from the wonderful WordCamp London folks\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Speaker Tips from the wonderful WordCamp London folks - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Speaker Tips from the wonderful WordCamp London folks - Ross Wintle",
-                "og_description": "I&#8217;m speaking at WordCamp London on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips: Who has super speaker tips? Assume nothing. I want all the basics. I gave a couple of my own for [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2019-04-04T12:13:06+00:00",
-                "article_modified_time": "2019-04-04T12:13:09+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
-                            "url": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
-                            "name": "Speaker Tips from the wonderful WordCamp London folks - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2019-04-04T12:13:06+00:00",
-                            "dateModified": "2019-04-04T12:13:09+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Speaker Tips from the wonderful WordCamp London folks"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4744"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4744"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 1,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4744\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 4745,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4744\/revisions\/4745"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4744"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4744"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4744"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 4744,
-        "dateGmt": "2019-04-04T12:13:06",
-        "modifiedDateGmt": "2019-04-04T12:13:09",
-        "slug": "speaker-tips-from-the-wonderful-wordcamp-london-folks",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
-        "title": "Speaker Tips from the wonderful WordCamp London folks",
-        "content": "\n<p>I&#8217;m speaking at <a href=\"https:\/\/2019.london.wordcamp.org\/\">WordCamp London<\/a> on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Who has super speaker tips? Assume nothing. I want all the basics.<\/p><\/blockquote>\n\n\n\n<p>I gave a couple of my own for starters:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Quit All Your Apps when presenting (other than your presenting app)<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Mute all notifications! Mac users can enable Do Not Disturb mode if you click the notification centre &#8211; top right &#8211; and scroll up to the toggle, or just Alt-Click the notification centre icon in the menu bar. There&#8217;s probably a Windows equivalent.<\/p><\/blockquote>\n\n\n\n<p>I also have a tip that is WordCamp London venue-specific:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Also, if you&#8217;re speaking in track A, the Great Hall, it sounds stupid but there&#8217;s a HUGE clock on the back wall and one year it was about 4 minutes slow. Take note of if this clock is accurate cos you don&#8217;t want to look at it and think you&#8217;ve got lots of time that you haven&#8217;t!<\/p><\/blockquote>\n\n\n\n<p>But this probably translates into more of a general &#8220;Check out your environment beforehand. Stand on the stage. Find out what you will be looking at.<\/p>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/danmaby\">Dan Maby<\/a> had a few useful nuggets:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>I use Owly to keep my mac awake too https:\/\/itunes.apple.com\/us\/app\/owly-prevent-display-sleep\/id882812218?mt=12<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Drink water<\/p><\/blockquote>\n\n\n\n<p>(which I followed with &#8220;but not too much water!&#8221;)<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Breath<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Pause, giving yourself a second to catch up with yourself is good for everyone<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Pause Dropbox\/Google Drive\/One Drive etc.<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Make sure your Google Slides are available off-line<\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/tnash\">Tim Nash<\/a> is super-experienced. And his experience suggests that the following are good ideas:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t fall of the stage<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t panic, if words are coming out of your mouth its probably ok<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t open the file called passwords.txt<\/p><p><\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Clean and hide your desktop if you like to use that space as a general place to dump files. Inevitably you will minimise your presentation and you never know what files are there.<\/p><p><\/p><\/blockquote>\n\n\n\n<p>Which I followed up with my own tip: Even if it means shoving everything into a &#8220;Things that were on my desktop&#8221; folder temporarily.<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>When you&#8217;re on stage, if you can, get away from the lectern, it both obscures you but also will make you hunch which will make it harder to project. It sometimes feels safe behind there but it really is worth trying to avoid that space entirely<\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/karmatosed\">Tammie Lister<\/a>, who is also a very experienced speaker, countered this and made her own wise suggestions too:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Standing by lectern is OK. For those of us that need notes and have poor eyesight or reading hurdles it&#8217;s OK. Just be comfortable.<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Turn off your wifi, seriously stop doing live demos &#8211; if wifi is off you can&#8217;t get notifications<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t focus on one person, move your eyes over everyone.<\/p><\/blockquote>\n\n\n\n<p>Which prompted a related, WordPress-specific tech tip from me:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>If you&#8217;re demoing WordPress locally, you can use this to speed it up and stop network stuff happening too: https:\/\/github.com\/norcross\/airplane-mode<br><\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/swissspidy\">Pascal Birchler<\/a> suggests you:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Arrive on time for your talk <\/p><\/blockquote>\n\n\n\n<p>Which got some follow ups:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Early even!<br><\/p><p>And sit in the audience if you can for a talk in your track, if you not been in the room before. It will give you a rough idea of what they the audience can see\/hear.<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Yes. Definitely scout the room. Have a chat with the AV\/sound people in a break before your talk if you can. They&#8217;re super helpful.<\/p><cite>Ross Wintle<\/cite><\/blockquote>\n\n\n\n<p>There were some lightning-talk specific tips and tips on Q&amp;A&#8217;s afterwards too:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Perhaps a bit late and very much my take, but front load your talk, you have a very short amount of time, so don&#8217;t spend to long talking about yourself, or your background, so if you have slides like about you put them at the end, so you can say I was &lt;whoever you are> come find me afterwards. Similarly keep resources to the end, as otherwise folks will start trying to find links to sites etc, while your talking and miss like half the talk<br><\/p><p>I think more so for a lightning talk its all about giving folks things to go away and think and research. It&#8217;s also one of the few times, where its OK to be a little fast paced just don&#8217;t trip over yourself.<\/p><p>Also don&#8217;t be afraid to say, I will take questions at the end<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>For lightning talks, leverage the Happiness Bar (the &#8220;tech support zone&#8221;  of a WordCamp) heavily. Only talk about the important things, and at the end of your talk say &#8220;I&#8217;m going to the Happiness Bar right now to answer any more questions&#8221;<\/p><cite>Topher DeRosia<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>&#8220;I don&#8217;t know&#8221;, is the most powerful answer to a question ever, don&#8217;t be afraid to say it, no one will think less of you. If anything the opposite, I am much more likely to respect a speaker, who when asked a question they don&#8217;t know the answer to says I don&#8217;t know, but if you remind me later I might be able to find out.<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<p>And finally, as Tim Nash says<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Have fun!<\/p><\/blockquote>\n",
-        "excerpt": "<p>I&#8217;m speaking at WordCamp London on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips: Who has super speaker tips? Assume nothing. I want all the basics. I gave a couple of my own for [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

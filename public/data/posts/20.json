@@ -1,6 +1,249 @@
 [
     {
         "dataAsArray": {
+            "id": 2717,
+            "date": "2017-07-18T09:26:42",
+            "date_gmt": "2017-07-18T08:26:42",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=2717"
+            },
+            "modified": "2017-07-18T09:26:42",
+            "modified_gmt": "2017-07-18T08:26:42",
+            "slug": "accessibility-good-everyone",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/",
+            "title": {
+                "rendered": "Accessibility is good for everyone"
+            },
+            "content": {
+                "rendered": "<p>I love WordCamp London and one theme that&#8217;s come through strongly from that event is the focus on accessibility. \u00a0And one message I&#8217;ve really taken away is that accessibility is good for everyone. We should do it not because it&#8217;s good for people with disabilities, but simply because it&#8217;s good.<\/p>\n<p>I find myself now watching out for examples of this. It&#8217;s fascinating.<\/p>\n<p>The other day I was in a meeting, and one person in the meeting is known to have difficulty hearing. \u00a0So one of the people leading the meeting suggested that it would be helpful for this person if only person spoke at a time.<\/p>\n<p>And I couldn&#8217;t help but think: wouldn&#8217;t it be helpful for <span style=\"text-decoration: underline;\">everyone<\/span> if only one person spoke at a time?<\/p>\n<p>Accessibility: it&#8217;s good for everyone.<\/p>\n<p>(With apologies to the meeting leader &#8211; who shall remain anonymous&#8230;I hope you don&#8217;t mind me sharing a simple, practical example of an important lesson that I&#8217;ve been learning)<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>A simple, practical example of how accessibility is good for everyone.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                24
+            ],
+            "tags": [
+                656,
+                657,
+                498
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Accessibility is good for everyone - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Accessibility is good for everyone - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A simple, practical example of how accessibility is good for everyone.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2017-07-18T08:26:42+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/\",\"url\":\"https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/\",\"name\":\"Accessibility is good for everyone - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2017-07-18T08:26:42+00:00\",\"dateModified\":\"2017-07-18T08:26:42+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Accessibility is good for everyone\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Accessibility is good for everyone - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Accessibility is good for everyone - Ross Wintle",
+                "og_description": "A simple, practical example of how accessibility is good for everyone.",
+                "og_url": "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2017-07-18T08:26:42+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/",
+                            "url": "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/",
+                            "name": "Accessibility is good for everyone - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2017-07-18T08:26:42+00:00",
+                            "dateModified": "2017-07-18T08:26:42+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Accessibility is good for everyone"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2717"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2717"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2717\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 2718,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2717\/revisions\/2718"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2717"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2717"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2717"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 2717,
+        "dateGmt": "2017-07-18T08:26:42",
+        "modifiedDateGmt": "2017-07-18T08:26:42",
+        "slug": "accessibility-good-everyone",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2017\/07\/accessibility-good-everyone\/",
+        "title": "Accessibility is good for everyone",
+        "content": "<p>I love WordCamp London and one theme that&#8217;s come through strongly from that event is the focus on accessibility. \u00a0And one message I&#8217;ve really taken away is that accessibility is good for everyone. We should do it not because it&#8217;s good for people with disabilities, but simply because it&#8217;s good.<\/p>\n<p>I find myself now watching out for examples of this. It&#8217;s fascinating.<\/p>\n<p>The other day I was in a meeting, and one person in the meeting is known to have difficulty hearing. \u00a0So one of the people leading the meeting suggested that it would be helpful for this person if only person spoke at a time.<\/p>\n<p>And I couldn&#8217;t help but think: wouldn&#8217;t it be helpful for <span style=\"text-decoration: underline;\">everyone<\/span> if only one person spoke at a time?<\/p>\n<p>Accessibility: it&#8217;s good for everyone.<\/p>\n<p>(With apologies to the meeting leader &#8211; who shall remain anonymous&#8230;I hope you don&#8217;t mind me sharing a simple, practical example of an important lesson that I&#8217;ve been learning)<\/p>\n",
+        "excerpt": "<p>A simple, practical example of how accessibility is good for everyone.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 2712,
             "date": "2017-07-16T22:17:34",
             "date_gmt": "2017-07-16T21:17:34",
@@ -2210,250 +2453,5 @@
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 2556
-    },
-    {
-        "dataAsArray": {
-            "id": 2499,
-            "date": "2017-01-08T22:44:25",
-            "date_gmt": "2017-01-08T22:44:25",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=2499"
-            },
-            "modified": "2018-01-11T21:16:21",
-            "modified_gmt": "2018-01-11T21:16:21",
-            "slug": "re-learning-to-learn-to-code-javascript-foibles",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/",
-            "title": {
-                "rendered": "Re-learning to learn to code (and discovering JavaScript&#8217;s foibles!)"
-            },
-            "content": {
-                "rendered": "<h2>I don&#8217;t know JS<\/h2>\n<p>So I&#8217;ve kinda got <a href=\"https:\/\/rosswintle.uk\/2017\/01\/2016-transition-2017-accepting-the-inevitable\/\">stuck in to learning JavaScript<\/a>. I&#8217;ve previously said that I think JavaScript is like the assembler of the web: coding in vanilla JS isn&#8217;t really something you should do because it&#8217;s too easy to get things wrong, so you should have a layer of abstraction on top.<\/p>\n<p>But&#8230;oddly&#8230;I&#8217;ve actually really got into vanilla JS.<\/p>\n<p>I was thinking about the origin of this and I think it was that I got stuck reading ES6 code, or was baffled by it in the <a href=\"https:\/\/laracasts.com\/series\/learning-vue-step-by-step\">Laracasts Vue.js tutorials<\/a>. So I started doing <a href=\"https:\/\/es6.io\/\">Wes Bos&#8217;s ES6 tutorials<\/a> (paid but excellent &#8211; <a href=\"https:\/\/laracasts.com\/series\/es6-cliffsnotes\">Laracasts also now has an ES6\/ES2015 series<\/a>) and it kinda went from there.<\/p>\n<p>On suggestion from a friend, I got a couple of\u00a0Kyle Simpson\u2019s excellent <a href=\"https:\/\/wordery.com\/search?term=you+don%27t+know+js&#038;oid=1625_1\">You Don\u2019t Know JS books<\/a> (<- Note: affiliate link!), and have got stuck into the first one: Up and Going. Which is short (about 50 pages of real content), but...well.\n\nMy mind has been blown.\n\n\n<h2>JS: Behind the scenes<\/h2>\n<p>I&#8217;m the kinda person that likes to know what&#8217;s going on behind the scenes. And I&#8217;ve never really understood exactly how JavaScript works. And so learning it form first principles is quite revelatory. It&#8217;s actually very different to other languages that I was brought up on in quite a number of ways. So no wonder it always baffled and freaked me out a little.<\/p>\n<p>Here are some of the quirks\/oddities\/differences that I&#8217;ve discovered along the way.<\/p>\n<h3>Values are typed, variables are not<\/h3>\n<p>Yep. This may seem obvious, but it&#8217;s actually quite a shift of thinking from someone who&#8217;s previously coded in strictly-typed languages. I&#8217;ve never even come across the phrase &#8220;values are typed&#8221; before.<\/p>\n<p>What does this mean?<\/p>\n<p>Well, in other languages you have typed variables. So when you declare a variable you give it a type:<\/p>\n<p><code>int age = 0;<\/code><\/p>\n<p>for example. This can be handy because the program can detect when a value that is not an integer is assigned to the variable, which can catch errors. But it&#8217;s also constraining because you can&#8217;t assign, say, a <code>null<\/code>\u00a0or <code>false<\/code>\u00a0value to say that there isn&#8217;t a number yet.<\/p>\n<p>Does it affect how I code? Probably not. But it&#8217;s good to know and understand.<\/p>\n<h3>Equality shenanigans<\/h3>\n<p>On top of type coercion (more below) when doing equality, and issues with comparing references (also see below) there&#8217;s also this list of unusual values and their equal-nesses. \u00a0Some of these are really quite bizarre:<\/p>\n<ul>\n<li><code>0 === -0\u00a0\/\/ \u00a0true - what the heck is -0 anyway?<\/code><\/li>\n<li><code>NaN === NaN \/\/ false, because NaN is defined to be unequal to any other value<\/code><\/li>\n<li>and so on<\/li>\n<\/ul>\n<p>What does this mean? Well, it&#8217;s just stuff you need to know.<\/p>\n<p>Does it affect how I code? Not in a big way. It may help with debugging when values aren&#8217;t what you expect them to be.\u00a0It&#8217;s knowledge that&#8217;s also helpful for the odd challenges at &#8220;<a href=\"https:\/\/alf.nu\/ReturnTrue\">return true<\/a>&#8220;.<\/p>\n<h3>Objects\/Arrays\/etc are assigned and passed as references<\/h3>\n<p>Forgive me if I don&#8217;t get my terminology exactly right, but &#8220;non-primitive&#8221; values like objects and arrays are passed around as references.<\/p>\n<p>What does this mean?<\/p>\n<p>Well, if the same object is assigned to two variables &#8211; which is possible because assignment is of the reference and not a copied value &#8211; then updating one will update the other:<\/p>\n<pre>let a = {\r\n  x: 1,\r\n  y: 2\r\n};\r\nlet b = a;\r\nb.x = 4;\r\nconsole.log(a);\r\n<\/pre>\n<p>Logs:<\/p>\n<pre>[object Object] {\r\n  x: 4,\r\n  y: 2\r\n}<\/pre>\n<p>Does it affect how I code? Yes. Stuff like this is REALLY good to know.<\/p>\n<h3>Objects\/Arrays\/etc equality is not by value<\/h3>\n<p>The fact that non-primitives are assigned and passed by reference also means that comparisons are also made on references, not values.<\/p>\n<p>What does this mean? So you have:<br \/>\n<code>[1,2,3] == [1,2,3] \/\/ false - they are two different arrays<\/code><br \/>\nAnd also, if you want to copy an array you have to do it via some other means than simple assignment (the ES6 rest\/spread operator helps here).<\/p>\n<p>I also learned that when coerced to a string, arrays are joined with a comma!:<br \/>\n<code>[1,2,3] == \"1,2,3\" \/\/ true!<\/code><br \/>\nDoes this affect how I code?<\/p>\n<p>Yes. Be careful with non-primitives!<\/p>\n<h3>Object wrappers &#8211; e.g. `String` vs `string`<\/h3>\n<p>I confess I still don&#8217;t understand this &#8211; need to do more reading. But:<\/p>\n<pre>typeof(\"a\"); \/\/\u00a0gives \"string\"<\/pre>\n<p>but string values are actually &#8220;wrapped&#8221; by the type <code>String<\/code>. And this &#8220;wrapping&#8221; is also true for all primitive types. \u00a0So you can see this:<\/p>\n<pre>a = new String;\r\n\r\ntypeof(a); \/\/ gives \"object\"\r\n<\/pre>\n<p>I&#8217;m not quite sure what it means yet and I don&#8217;t think it will affect my programming. But who knows what else I&#8217;ll find out?<\/p>\n<h3>Inequality not the same as (symmetric) non-equality &#8211; WHAT?!?!<\/h3>\n<p>This line appears in one of the books and also, at first, confused me:<\/p>\n<blockquote><p>The ! forms [of equality operators] are of course the symmetric &#8220;not equal&#8221; versions of their counterparts; <em>non-equality<\/em> should not be confused with <em>inequality<\/em>.<\/p><\/blockquote>\n<p>It&#8217;s later on made&#8230;hmm&#8230;clearer (?) that <em>inequality<\/em> is the greater-than, less-than and so-on conditional operators.<\/p>\n<p>What does this mean? Oh. Well. Nothing. It was an interesting interlude though.<\/p>\n<p>Onwards. What else?<\/p>\n<h3>Oh. Equality?<\/h3>\n<p>So with the knowledge that values, not variables, are typed, some other things need to be put into place.<\/p>\n<p>One of which is the equality operators. They aren&#8217;t &#8220;typed equality&#8221; and &#8220;untyped equality&#8221;. They\u00a0are actually compare-without-coercion and compare-with-coercion.<\/p>\n<p>What does this mean? Well, it means that understanding the coercion can help you understand how to write correct conditions.<\/p>\n<p>Does this\u00a0affect my code? \u00a0I think so, in subtle ways. It should make things a bit more predictable.<\/p>\n<h3>Hoisting applies to functions too&#8230;sort of?<\/h3>\n<p>I only learned about variable hoisting recently while learning about <code>let<\/code>\u00a0and <code>const<\/code>\u00a0in ES6.<\/p>\n<p>With non-ES6 <code>var<\/code>\u00a0declarations, if you make them in the middle of a scope they are &#8220;hoisted&#8221; to the top of the scope. So when the code is running, the variable exists in an undefined state in the scope until the point of the <code>var<\/code>\u00a0declaration. \u00a0Best explained in an example. Here we use a variable without ever declaring it (you&#8217;ll need to put this in a file and run it, not just type it into the console):<\/p>\n<pre>console.log(x);\r\n\r\n&gt;\u00a0ReferenceError: x is not defined<\/pre>\n<p>Then if we use the variable before later declaring it:<\/p>\n<pre>console.log(x);\r\n\r\nvar x = 4;\r\n\r\n&gt; undefined<\/pre>\n<p>Spot the difference!<\/p>\n<p>What does this mean?<\/p>\n<p>Well not much in reality, though it was good to understand.<\/p>\n<p>What is interesting is that function declaration is also effectively variable declaration, and so functions can be used before they are declared&#8230;<\/p>\n<p>But&#8230;oh&#8230;hang on. \u00a0They&#8217;re hoisted AND DEFINED!:<\/p>\n<pre>foo();\r\n\r\nfunction foo() {\r\n console.log('foo');\r\n}\r\n\r\n&gt; \"foo\"<\/pre>\n<p>That&#8217;s not <code>undefined<\/code>. OK. I&#8217;m curious now. So what happens if I&#8230;:<\/p>\n<pre>bar();\r\n\r\nvar bar = function() {\r\n console.log('bar');\r\n}\r\n\r\n\r\n&gt; TypeError: bar is not a function<\/pre>\n<p>Oh. Well, that&#8217;s not entirely simple then.<\/p>\n<p>Will this affect my code? Probably not, but it&#8217;s good to know how both variables and functions are hoisted, even if the behaviour is slightly different in a way that I don&#8217;t currently understand.<\/p>\n<h3>Initial variable assignment without var makes a global<\/h3>\n<p>I&#8217;d forgotten this! I used to not use <code>var<\/code>\u00a0at all when declaring variables and was forever accidentally making globals.<\/p>\n<p>What does this mean? \u00a0That I&#8217;ve already been on a journey of learning JavaScript long enough that I&#8217;ve forgotten about this.<\/p>\n<p>Will it affect my code? Well, no. But it&#8217;s a good reminder of how far I&#8217;ve come, even before the last few months.<\/p>\n<h2>What do I think of JS now?<\/h2>\n<p>Well so far so geeky. \u00a0Let&#8217;s wrap up.<\/p>\n<p>This almost feels more like research than practical learning. Though I&#8217;m hopeful that learning these things will have very positive practical benefits. I&#8217;m coming to know JavaScript as a fascinating and mis-understood teenager of a language.<\/p>\n<p>I still don&#8217;t like it. I <a href=\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\">still wouldn&#8217;t want anyone to learn it as a first language<\/a>. In fact, in some ways, understanding it more reinforces this view.<\/p>\n<p>JavaScript is a language of enigma and subtlety. Things are not always what they seem. And choosing to know it deeply is not, actually, something for the beginner coder (or the faint-hearted).<\/p>\n<p>I hope you&#8217;ve enjoyed a little tour of some of the subtleties. I hope that you have learned something new. And I hope that you are encouraged to learn more!<\/p>\n<p>&nbsp;<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I don&#8217;t know JS So I&#8217;ve kinda got stuck in to learning JavaScript. I&#8217;ve previously said that I think JavaScript is like the assembler of the web: coding in vanilla JS isn&#8217;t really something you should do because it&#8217;s too easy to get things wrong, so you should have a layer of abstraction on top. [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                23
-            ],
-            "tags": [
-                387,
-                286,
-                107,
-                569
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Re-learning to learn to code (and discovering JavaScript&#039;s foibles!) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Re-learning to learn to code (and discovering JavaScript&#039;s foibles!) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I don&#8217;t know JS So I&#8217;ve kinda got stuck in to learning JavaScript. I&#8217;ve previously said that I think JavaScript is like the assembler of the web: coding in vanilla JS isn&#8217;t really something you should do because it&#8217;s too easy to get things wrong, so you should have a layer of abstraction on top. [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2017-01-08T22:44:25+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-11T21:16:21+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/\",\"url\":\"https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/\",\"name\":\"Re-learning to learn to code (and discovering JavaScript's foibles!) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2017-01-08T22:44:25+00:00\",\"dateModified\":\"2018-01-11T21:16:21+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Re-learning to learn to code (and discovering JavaScript&#8217;s foibles!)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Re-learning to learn to code (and discovering JavaScript's foibles!) - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Re-learning to learn to code (and discovering JavaScript's foibles!) - Ross Wintle",
-                "og_description": "I don&#8217;t know JS So I&#8217;ve kinda got stuck in to learning JavaScript. I&#8217;ve previously said that I think JavaScript is like the assembler of the web: coding in vanilla JS isn&#8217;t really something you should do because it&#8217;s too easy to get things wrong, so you should have a layer of abstraction on top. [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2017-01-08T22:44:25+00:00",
-                "article_modified_time": "2018-01-11T21:16:21+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/",
-                            "url": "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/",
-                            "name": "Re-learning to learn to code (and discovering JavaScript's foibles!) - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2017-01-08T22:44:25+00:00",
-                            "dateModified": "2018-01-11T21:16:21+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Re-learning to learn to code (and discovering JavaScript&#8217;s foibles!)"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2499"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2499"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 12,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2499\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 2515,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2499\/revisions\/2515"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2499"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2499"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2499"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 2499,
-        "dateGmt": "2017-01-08T22:44:25",
-        "modifiedDateGmt": "2018-01-11T21:16:21",
-        "slug": "re-learning-to-learn-to-code-javascript-foibles",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2017\/01\/re-learning-to-learn-to-code-javascript-foibles\/",
-        "title": "Re-learning to learn to code (and discovering JavaScript&#8217;s foibles!)",
-        "content": "<h2>I don&#8217;t know JS<\/h2>\n<p>So I&#8217;ve kinda got <a href=\"https:\/\/rosswintle.uk\/2017\/01\/2016-transition-2017-accepting-the-inevitable\/\">stuck in to learning JavaScript<\/a>. I&#8217;ve previously said that I think JavaScript is like the assembler of the web: coding in vanilla JS isn&#8217;t really something you should do because it&#8217;s too easy to get things wrong, so you should have a layer of abstraction on top.<\/p>\n<p>But&#8230;oddly&#8230;I&#8217;ve actually really got into vanilla JS.<\/p>\n<p>I was thinking about the origin of this and I think it was that I got stuck reading ES6 code, or was baffled by it in the <a href=\"https:\/\/laracasts.com\/series\/learning-vue-step-by-step\">Laracasts Vue.js tutorials<\/a>. So I started doing <a href=\"https:\/\/es6.io\/\">Wes Bos&#8217;s ES6 tutorials<\/a> (paid but excellent &#8211; <a href=\"https:\/\/laracasts.com\/series\/es6-cliffsnotes\">Laracasts also now has an ES6\/ES2015 series<\/a>) and it kinda went from there.<\/p>\n<p>On suggestion from a friend, I got a couple of\u00a0Kyle Simpson\u2019s excellent <a href=\"https:\/\/wordery.com\/search?term=you+don%27t+know+js&#038;oid=1625_1\">You Don\u2019t Know JS books<\/a> (<- Note: affiliate link!), and have got stuck into the first one: Up and Going. Which is short (about 50 pages of real content), but...well.\n\nMy mind has been blown.\n\n\n<h2>JS: Behind the scenes<\/h2>\n<p>I&#8217;m the kinda person that likes to know what&#8217;s going on behind the scenes. And I&#8217;ve never really understood exactly how JavaScript works. And so learning it form first principles is quite revelatory. It&#8217;s actually very different to other languages that I was brought up on in quite a number of ways. So no wonder it always baffled and freaked me out a little.<\/p>\n<p>Here are some of the quirks\/oddities\/differences that I&#8217;ve discovered along the way.<\/p>\n<h3>Values are typed, variables are not<\/h3>\n<p>Yep. This may seem obvious, but it&#8217;s actually quite a shift of thinking from someone who&#8217;s previously coded in strictly-typed languages. I&#8217;ve never even come across the phrase &#8220;values are typed&#8221; before.<\/p>\n<p>What does this mean?<\/p>\n<p>Well, in other languages you have typed variables. So when you declare a variable you give it a type:<\/p>\n<p><code>int age = 0;<\/code><\/p>\n<p>for example. This can be handy because the program can detect when a value that is not an integer is assigned to the variable, which can catch errors. But it&#8217;s also constraining because you can&#8217;t assign, say, a <code>null<\/code>\u00a0or <code>false<\/code>\u00a0value to say that there isn&#8217;t a number yet.<\/p>\n<p>Does it affect how I code? Probably not. But it&#8217;s good to know and understand.<\/p>\n<h3>Equality shenanigans<\/h3>\n<p>On top of type coercion (more below) when doing equality, and issues with comparing references (also see below) there&#8217;s also this list of unusual values and their equal-nesses. \u00a0Some of these are really quite bizarre:<\/p>\n<ul>\n<li><code>0 === -0\u00a0\/\/ \u00a0true - what the heck is -0 anyway?<\/code><\/li>\n<li><code>NaN === NaN \/\/ false, because NaN is defined to be unequal to any other value<\/code><\/li>\n<li>and so on<\/li>\n<\/ul>\n<p>What does this mean? Well, it&#8217;s just stuff you need to know.<\/p>\n<p>Does it affect how I code? Not in a big way. It may help with debugging when values aren&#8217;t what you expect them to be.\u00a0It&#8217;s knowledge that&#8217;s also helpful for the odd challenges at &#8220;<a href=\"https:\/\/alf.nu\/ReturnTrue\">return true<\/a>&#8220;.<\/p>\n<h3>Objects\/Arrays\/etc are assigned and passed as references<\/h3>\n<p>Forgive me if I don&#8217;t get my terminology exactly right, but &#8220;non-primitive&#8221; values like objects and arrays are passed around as references.<\/p>\n<p>What does this mean?<\/p>\n<p>Well, if the same object is assigned to two variables &#8211; which is possible because assignment is of the reference and not a copied value &#8211; then updating one will update the other:<\/p>\n<pre>let a = {\r\n  x: 1,\r\n  y: 2\r\n};\r\nlet b = a;\r\nb.x = 4;\r\nconsole.log(a);\r\n<\/pre>\n<p>Logs:<\/p>\n<pre>[object Object] {\r\n  x: 4,\r\n  y: 2\r\n}<\/pre>\n<p>Does it affect how I code? Yes. Stuff like this is REALLY good to know.<\/p>\n<h3>Objects\/Arrays\/etc equality is not by value<\/h3>\n<p>The fact that non-primitives are assigned and passed by reference also means that comparisons are also made on references, not values.<\/p>\n<p>What does this mean? So you have:<br \/>\n<code>[1,2,3] == [1,2,3] \/\/ false - they are two different arrays<\/code><br \/>\nAnd also, if you want to copy an array you have to do it via some other means than simple assignment (the ES6 rest\/spread operator helps here).<\/p>\n<p>I also learned that when coerced to a string, arrays are joined with a comma!:<br \/>\n<code>[1,2,3] == \"1,2,3\" \/\/ true!<\/code><br \/>\nDoes this affect how I code?<\/p>\n<p>Yes. Be careful with non-primitives!<\/p>\n<h3>Object wrappers &#8211; e.g. `String` vs `string`<\/h3>\n<p>I confess I still don&#8217;t understand this &#8211; need to do more reading. But:<\/p>\n<pre>typeof(\"a\"); \/\/\u00a0gives \"string\"<\/pre>\n<p>but string values are actually &#8220;wrapped&#8221; by the type <code>String<\/code>. And this &#8220;wrapping&#8221; is also true for all primitive types. \u00a0So you can see this:<\/p>\n<pre>a = new String;\r\n\r\ntypeof(a); \/\/ gives \"object\"\r\n<\/pre>\n<p>I&#8217;m not quite sure what it means yet and I don&#8217;t think it will affect my programming. But who knows what else I&#8217;ll find out?<\/p>\n<h3>Inequality not the same as (symmetric) non-equality &#8211; WHAT?!?!<\/h3>\n<p>This line appears in one of the books and also, at first, confused me:<\/p>\n<blockquote><p>The ! forms [of equality operators] are of course the symmetric &#8220;not equal&#8221; versions of their counterparts; <em>non-equality<\/em> should not be confused with <em>inequality<\/em>.<\/p><\/blockquote>\n<p>It&#8217;s later on made&#8230;hmm&#8230;clearer (?) that <em>inequality<\/em> is the greater-than, less-than and so-on conditional operators.<\/p>\n<p>What does this mean? Oh. Well. Nothing. It was an interesting interlude though.<\/p>\n<p>Onwards. What else?<\/p>\n<h3>Oh. Equality?<\/h3>\n<p>So with the knowledge that values, not variables, are typed, some other things need to be put into place.<\/p>\n<p>One of which is the equality operators. They aren&#8217;t &#8220;typed equality&#8221; and &#8220;untyped equality&#8221;. They\u00a0are actually compare-without-coercion and compare-with-coercion.<\/p>\n<p>What does this mean? Well, it means that understanding the coercion can help you understand how to write correct conditions.<\/p>\n<p>Does this\u00a0affect my code? \u00a0I think so, in subtle ways. It should make things a bit more predictable.<\/p>\n<h3>Hoisting applies to functions too&#8230;sort of?<\/h3>\n<p>I only learned about variable hoisting recently while learning about <code>let<\/code>\u00a0and <code>const<\/code>\u00a0in ES6.<\/p>\n<p>With non-ES6 <code>var<\/code>\u00a0declarations, if you make them in the middle of a scope they are &#8220;hoisted&#8221; to the top of the scope. So when the code is running, the variable exists in an undefined state in the scope until the point of the <code>var<\/code>\u00a0declaration. \u00a0Best explained in an example. Here we use a variable without ever declaring it (you&#8217;ll need to put this in a file and run it, not just type it into the console):<\/p>\n<pre>console.log(x);\r\n\r\n&gt;\u00a0ReferenceError: x is not defined<\/pre>\n<p>Then if we use the variable before later declaring it:<\/p>\n<pre>console.log(x);\r\n\r\nvar x = 4;\r\n\r\n&gt; undefined<\/pre>\n<p>Spot the difference!<\/p>\n<p>What does this mean?<\/p>\n<p>Well not much in reality, though it was good to understand.<\/p>\n<p>What is interesting is that function declaration is also effectively variable declaration, and so functions can be used before they are declared&#8230;<\/p>\n<p>But&#8230;oh&#8230;hang on. \u00a0They&#8217;re hoisted AND DEFINED!:<\/p>\n<pre>foo();\r\n\r\nfunction foo() {\r\n console.log('foo');\r\n}\r\n\r\n&gt; \"foo\"<\/pre>\n<p>That&#8217;s not <code>undefined<\/code>. OK. I&#8217;m curious now. So what happens if I&#8230;:<\/p>\n<pre>bar();\r\n\r\nvar bar = function() {\r\n console.log('bar');\r\n}\r\n\r\n\r\n&gt; TypeError: bar is not a function<\/pre>\n<p>Oh. Well, that&#8217;s not entirely simple then.<\/p>\n<p>Will this affect my code? Probably not, but it&#8217;s good to know how both variables and functions are hoisted, even if the behaviour is slightly different in a way that I don&#8217;t currently understand.<\/p>\n<h3>Initial variable assignment without var makes a global<\/h3>\n<p>I&#8217;d forgotten this! I used to not use <code>var<\/code>\u00a0at all when declaring variables and was forever accidentally making globals.<\/p>\n<p>What does this mean? \u00a0That I&#8217;ve already been on a journey of learning JavaScript long enough that I&#8217;ve forgotten about this.<\/p>\n<p>Will it affect my code? Well, no. But it&#8217;s a good reminder of how far I&#8217;ve come, even before the last few months.<\/p>\n<h2>What do I think of JS now?<\/h2>\n<p>Well so far so geeky. \u00a0Let&#8217;s wrap up.<\/p>\n<p>This almost feels more like research than practical learning. Though I&#8217;m hopeful that learning these things will have very positive practical benefits. I&#8217;m coming to know JavaScript as a fascinating and mis-understood teenager of a language.<\/p>\n<p>I still don&#8217;t like it. I <a href=\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\">still wouldn&#8217;t want anyone to learn it as a first language<\/a>. In fact, in some ways, understanding it more reinforces this view.<\/p>\n<p>JavaScript is a language of enigma and subtlety. Things are not always what they seem. And choosing to know it deeply is not, actually, something for the beginner coder (or the faint-hearted).<\/p>\n<p>I hope you&#8217;ve enjoyed a little tour of some of the subtleties. I hope that you have learned something new. And I hope that you are encouraged to learn more!<\/p>\n<p>&nbsp;<\/p>\n",
-        "excerpt": "<p>I don&#8217;t know JS So I&#8217;ve kinda got stuck in to learning JavaScript. I&#8217;ve previously said that I think JavaScript is like the assembler of the web: coding in vanilla JS isn&#8217;t really something you should do because it&#8217;s too easy to get things wrong, so you should have a layer of abstraction on top. [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
     }
 ]

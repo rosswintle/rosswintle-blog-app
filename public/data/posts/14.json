@@ -1,6 +1,253 @@
 [
     {
         "dataAsArray": {
+            "id": 4407,
+            "date": "2018-12-13T12:55:36",
+            "date_gmt": "2018-12-13T12:55:36",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=4407"
+            },
+            "modified": "2019-02-06T15:30:57",
+            "modified_gmt": "2019-02-06T15:30:57",
+            "slug": "refactoring-ui",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
+            "title": {
+                "rendered": "Refactoring UI"
+            },
+            "content": {
+                "rendered": "\n<p>As a developer who finds design really hard, I was very much looking forward to the release of Steve Schoger and Adam Wathan&#8217;s &#8220;<a href=\"https:\/\/refactoringui.com\/book\/\">Refactoring UI<\/a>&#8221; book and kit of resources. Here&#8217;s some thoughts on it.<\/p>\n\n\n\n<p>Note: I&#8217;m writing my thoughts in the order I had them. The positive stuff comes later!<br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Price<br><\/h3>\n\n\n\n<p>I heard the quote recently that &#8220;If people complain about the price, you&#8217;re doing it right&#8221;, and I confess, I complained about the price, so maybe they did price it right. I&#8217;d prepared myself for it to be 3 or 4 times the cost of an expensive book. But they priced it at $249 for the digital version of the book (not a physical book!) with all the resources! Yes, there&#8217;s a launch discount of 50%, but even so, this half-priced version was expensive.<\/p>\n\n\n\n<p>Yes, I get the arguments that a lot of experience and knowledge is in here, and a lot of work has been put in to make it a thing. And I get the argument that this will save me time, and it only has to save me a few hours to pay for itself. But actually, I think owning this book won&#8217;t save me time; it will make me do better design work and spend longer on it! Which is fine. As long as someone wants that and is paying me for it!<\/p>\n\n\n\n<p>I also can&#8217;t help thinking that if this was half the price then they&#8217;d sell twice as many copies, make just as much money and share their knowledge more widely. And isn&#8217;t this the point of making such a resource: to share your knowledge with people?<\/p>\n\n\n\n<p>A could of years back I&#8217;d been disappointed by Adam&#8217;s &#8220;<a href=\"https:\/\/adamwathan.me\/refactoring-to-collections\/\">Refactoring to Collections<\/a>&#8221; book which I thought wasn&#8217;t worth the money, and the provided videos in particular weren&#8217;t useful at all. So I was skeptical that this book&#8217;s extra resources would be helpful too &#8211; maybe I should just buy the basic package with the book?<br><\/p>\n\n\n\n<p>But persuaded by the <a href=\"http:\/\/www.fullstackradio.com\/103\">Full Stack Radio podcast<\/a> that detailed exactly what was in it, I eventually bit and bought the full Refactoring UI kit.<br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Format<\/h3>\n\n\n\n<p>Aside from it being a digital-only book, it was PDF format. And I get that they&#8217;ve spent time laying it out and typesetting it, but PDF&#8217;s are still not my favourite eBook format.<\/p>\n\n\n\n<p>They&#8217;re also selling it on Gumroad and the Gumroad reader seems to display PDFs at low quality. I&#8217;ve seen complaints on Twitter about the PDF quality and if you download it and open it locally it&#8217;s fine.<\/p>\n\n\n\n<p>More annoying though is that the component library, colour schemes and font selections are all also in PDF form. Which is annoying because the ability to copy\/paste stuff out of here, see the code, and tinker with it in the browser would have been great.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Material\/Content<\/h3>\n\n\n\n<p>OK, so here&#8217;s the good stuff. Because I&#8217;m not a designer, I can&#8217;t see visual stuff in my head or produce &#8220;nice looking stuff&#8221; out of thin air, I&#8217;m pretty dependent on rules and copying other people&#8217;s ideas to make things I make for the web look nice.<\/p>\n\n\n\n<p>And the book here really delivers. Strategic, rule-based design tips that really suit someone like me. It&#8217;s presented in a really easily digestible format, and has LOADS of very-well-put-together real-life examples.<\/p>\n\n\n\n<p>You can see the amount of work that has gone into this in creating the fictional-but-real-looking designs that illustrate the points being made. They&#8217;re done a really great job.<\/p>\n\n\n\n<p>It&#8217;s great stuff, well presented, and reading it WILL change my work for the better.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">I want exercises!<\/h3>\n\n\n\n<p>Finally, as well as wanting the component library and things in code, I think it would really benefit from some exercises.<\/p>\n\n\n\n<p>The videos are great at explaining the concepts and showing how to transform a bad design into a good one. But I really want to have a go at this myself.<\/p>\n\n\n\n<p>Some exercises a bit like Wes Bos&#8217;s <a href=\"https:\/\/javascript30.com\/\">JavaScript 30<\/a> course would be an amazing addition. Give me the video, the starting design\/code and the ending design\/code, and let me see if I can make some of the changes myself.<\/p>\n\n\n\n<p>Reading and watching is all well and good, but I&#8217;m only going to build up the skills and get them into my &#8220;muscle memory&#8221; if I actually DO then.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Summary<\/h3>\n\n\n\n<p>I love this kit. It&#8217;s expensive, but it&#8217;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.<br><\/p>\n\n\n\n<p>My hope is that Adam and Steve have made so much cash now that they don&#8217;t have to work for a year, and that now the book is out, they can spend some time producing some additional resources for those who have purchased it.<\/p>\n\n\n\n<p><br><\/p>\n\n\n\n<p><br><\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I love this kit. It&#8217;s expensive, but it&#8217;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                4,
+                187
+            ],
+            "tags": [
+                425,
+                540,
+                136,
+                438,
+                606
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Refactoring UI - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Refactoring UI - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I love this kit. It&#039;s expensive, but it&#039;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-12-13T12:55:36+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-02-06T15:30:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\",\"name\":\"Refactoring UI - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-12-13T12:55:36+00:00\",\"dateModified\":\"2019-02-06T15:30:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Refactoring UI\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Refactoring UI - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Refactoring UI - Ross Wintle",
+                "og_description": "I love this kit. It's expensive, but it's an amazing tool for me. But it does also feel lacking\/incomplete in its current form.",
+                "og_url": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2018-12-13T12:55:36+00:00",
+                "article_modified_time": "2019-02-06T15:30:57+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "4 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
+                            "url": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
+                            "name": "Refactoring UI - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2018-12-13T12:55:36+00:00",
+                            "dateModified": "2019-02-06T15:30:57+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Refactoring UI"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4407"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4407"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 2,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4407\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 4410,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4407\/revisions\/4410"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4407"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4407"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4407"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 4407,
+        "dateGmt": "2018-12-13T12:55:36",
+        "modifiedDateGmt": "2019-02-06T15:30:57",
+        "slug": "refactoring-ui",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
+        "title": "Refactoring UI",
+        "content": "\n<p>As a developer who finds design really hard, I was very much looking forward to the release of Steve Schoger and Adam Wathan&#8217;s &#8220;<a href=\"https:\/\/refactoringui.com\/book\/\">Refactoring UI<\/a>&#8221; book and kit of resources. Here&#8217;s some thoughts on it.<\/p>\n\n\n\n<p>Note: I&#8217;m writing my thoughts in the order I had them. The positive stuff comes later!<br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Price<br><\/h3>\n\n\n\n<p>I heard the quote recently that &#8220;If people complain about the price, you&#8217;re doing it right&#8221;, and I confess, I complained about the price, so maybe they did price it right. I&#8217;d prepared myself for it to be 3 or 4 times the cost of an expensive book. But they priced it at $249 for the digital version of the book (not a physical book!) with all the resources! Yes, there&#8217;s a launch discount of 50%, but even so, this half-priced version was expensive.<\/p>\n\n\n\n<p>Yes, I get the arguments that a lot of experience and knowledge is in here, and a lot of work has been put in to make it a thing. And I get the argument that this will save me time, and it only has to save me a few hours to pay for itself. But actually, I think owning this book won&#8217;t save me time; it will make me do better design work and spend longer on it! Which is fine. As long as someone wants that and is paying me for it!<\/p>\n\n\n\n<p>I also can&#8217;t help thinking that if this was half the price then they&#8217;d sell twice as many copies, make just as much money and share their knowledge more widely. And isn&#8217;t this the point of making such a resource: to share your knowledge with people?<\/p>\n\n\n\n<p>A could of years back I&#8217;d been disappointed by Adam&#8217;s &#8220;<a href=\"https:\/\/adamwathan.me\/refactoring-to-collections\/\">Refactoring to Collections<\/a>&#8221; book which I thought wasn&#8217;t worth the money, and the provided videos in particular weren&#8217;t useful at all. So I was skeptical that this book&#8217;s extra resources would be helpful too &#8211; maybe I should just buy the basic package with the book?<br><\/p>\n\n\n\n<p>But persuaded by the <a href=\"http:\/\/www.fullstackradio.com\/103\">Full Stack Radio podcast<\/a> that detailed exactly what was in it, I eventually bit and bought the full Refactoring UI kit.<br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Format<\/h3>\n\n\n\n<p>Aside from it being a digital-only book, it was PDF format. And I get that they&#8217;ve spent time laying it out and typesetting it, but PDF&#8217;s are still not my favourite eBook format.<\/p>\n\n\n\n<p>They&#8217;re also selling it on Gumroad and the Gumroad reader seems to display PDFs at low quality. I&#8217;ve seen complaints on Twitter about the PDF quality and if you download it and open it locally it&#8217;s fine.<\/p>\n\n\n\n<p>More annoying though is that the component library, colour schemes and font selections are all also in PDF form. Which is annoying because the ability to copy\/paste stuff out of here, see the code, and tinker with it in the browser would have been great.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Material\/Content<\/h3>\n\n\n\n<p>OK, so here&#8217;s the good stuff. Because I&#8217;m not a designer, I can&#8217;t see visual stuff in my head or produce &#8220;nice looking stuff&#8221; out of thin air, I&#8217;m pretty dependent on rules and copying other people&#8217;s ideas to make things I make for the web look nice.<\/p>\n\n\n\n<p>And the book here really delivers. Strategic, rule-based design tips that really suit someone like me. It&#8217;s presented in a really easily digestible format, and has LOADS of very-well-put-together real-life examples.<\/p>\n\n\n\n<p>You can see the amount of work that has gone into this in creating the fictional-but-real-looking designs that illustrate the points being made. They&#8217;re done a really great job.<\/p>\n\n\n\n<p>It&#8217;s great stuff, well presented, and reading it WILL change my work for the better.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">I want exercises!<\/h3>\n\n\n\n<p>Finally, as well as wanting the component library and things in code, I think it would really benefit from some exercises.<\/p>\n\n\n\n<p>The videos are great at explaining the concepts and showing how to transform a bad design into a good one. But I really want to have a go at this myself.<\/p>\n\n\n\n<p>Some exercises a bit like Wes Bos&#8217;s <a href=\"https:\/\/javascript30.com\/\">JavaScript 30<\/a> course would be an amazing addition. Give me the video, the starting design\/code and the ending design\/code, and let me see if I can make some of the changes myself.<\/p>\n\n\n\n<p>Reading and watching is all well and good, but I&#8217;m only going to build up the skills and get them into my &#8220;muscle memory&#8221; if I actually DO then.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Summary<\/h3>\n\n\n\n<p>I love this kit. It&#8217;s expensive, but it&#8217;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.<br><\/p>\n\n\n\n<p>My hope is that Adam and Steve have made so much cash now that they don&#8217;t have to work for a year, and that now the book is out, they can spend some time producing some additional resources for those who have purchased it.<\/p>\n\n\n\n<p><br><\/p>\n\n\n\n<p><br><\/p>\n",
+        "excerpt": "<p>I love this kit. It&#8217;s expensive, but it&#8217;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 4365,
             "date": "2018-12-06T12:51:37",
             "date_gmt": "2018-12-06T12:51:37",
@@ -2174,251 +2421,6 @@
         "title": "Be careful what you write! Basic SEO is easy, important, and really boring.",
         "content": "\n<p><em>Aside before I begin: Some of what I\u2019ve been writing lately has been inspired by work I\u2019ve done for clients or help I\u2019ve given to people I know. I\u2019m writing up the lessons learned to try to help others (and my future self) avoid the same pitfalls. So this is observation and information, not criticism. If you think anything I write up might be about you and you don\u2019t like what I wrote, please let me know and I\u2019ll fix things. Thanks!<\/em><\/p>\n\n\n\n<p>When you\u2019re making a new website for your organisation or company (or for yourself!), it\u2019s kinda trendy to use abstract language that doesn\u2019t actually reflect what you do.<\/p>\n\n\n\n<p>This can be a problem. Especially if you rely on search engines like Google to send people to your website from search results. And DOUBLY especially if your business name itself doesn\u2019t mention what or where you are.<\/p>\n\n\n\n<p>It\u2019s a problem because search engines are trying to identify who you are and what you\u2019re about, and if you\u2019re too abstract in your language and content then you won\u2019t appear in the right searches.<br\/><\/p>\n\n\n\n<p>I\u2019m actually guilty of having a vague company name myself. My company is \u201cOikos Digital Ltd\u201d which, while <a href=\"https:\/\/oikos.digital\/about\/\">a clever name<\/a>, doesn\u2019t describe in English any of what I do. So I\u2019m very careful to have my website set up with a big title saying \u201cweb development and technology consultancy for charities, communities and small businesses\u201d and I try to talk about those things a lot on my website.<\/p>\n\n\n\n<p>As another, made-up example, let\u2019s say you ran a bakery in Bath. You\u2019ve decided to call it \u201cRisen\u201d. Your marketing agency has suggested you use the tagline \u201cFresh \/ Tasty \/ Treats\u201d. Your website is at risen.co.uk (don\u2019t go there &#8211; I made it up &#8211; I can\u2019t be held responsible for what you actually see), and it has lots of shallow-depth-of-field photos of beautiful cakes topped with sparkly buttercream, and rustic loaves dusted in stoneground flour, and it talks a lot about craft sponges and cup-cakes, artisan icing techniques, and hand-crafted sourdough.<\/p>\n\n\n\n<p>Google may well put you in search results for these things you mention. But you\u2019ve neglected to mention that you\u2019re a bakery&#8230;in Bath. So if someone does a search for \u201cBakeries in Bath\u201d you may not be found.<br\/><\/p>\n\n\n\n<p>So, while it may seem incredibly boring to do so, it\u2019s actually quite helpful to talk about what you do, and, if you have a physical shop or office or venue, to talk about where you are too. It helps people find you, and when people arrive on your website, they know exactly what they are looking at.<\/p>\n\n\n\n<p>This process of making your website\u2019s content help you appear in search results is called \u201cSearch Engine Optimisaiton\u201d, or \u201cSEO\u201d for short. It&#8217;s a big, scary subject, and lots of people will try to sell you lots of expensive services and tools to help you do it well.<\/p>\n\n\n\n<p>But the basics are simple: Make it clear who you are, what you do, where you are. Talk about those things. Put those things in headings and titles to show they are important. If you know how, include them in meta tags for descriptions and titles too.<\/p>\n\n\n\n<p>Yes, my imaginary bakery (this is making me hungry!) may want to be found in searches for \u201cfresh treats\u201d or \u201cartisan sourdough\u201d. Maybe that\u2019s a strategy you\u2019ve chosen. But if you\u2019re an average local business wanting to attract local people then you probably want something less obscure.<br\/><\/p>\n\n\n\n<p>A trendy website is no good if no one is going to find it. Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!<\/p>\n\n\n\n<p><br\/><\/p>\n\n\n\n<p><br\/><\/p>\n",
         "excerpt": "<p>Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 4185,
-            "date": "2018-09-12T13:00:54",
-            "date_gmt": "2018-09-12T12:00:54",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=4185"
-            },
-            "modified": "2019-02-06T15:31:20",
-            "modified_gmt": "2019-02-06T15:31:20",
-            "slug": "css-and-err-job-titles",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/",
-            "title": {
-                "rendered": "CSS and&#8230; err &#8230;job titles?"
-            },
-            "content": {
-                "rendered": "\n<p>In the web development world there&#8217;s been a load of discussion about learning\/knowing CSS, the cascade, CSS-in-JSS vs CSS-in-err-CSS recently.<\/p>\n\n\n\n<p>I&#8217;ve largely not taken part mostly because I see these things as tools: you use the one that works for you and your project, and no one is right or wrong &#8211; you&#8217;re allowed your opinion (but do express is kindly, please).<\/p>\n\n\n\n<p>This isn&#8217;t to say that learning the cascade isn&#8217;t something you should do (if you work on the web, it&#8217;s probably <span style=\"text-decoration: underline;\">helpful<\/span> to <a href=\"https:\/\/hankchizljaw.io\/wrote\/css-specifity-and-the-cascade\/\">understand the cascade<\/a>), and it isn&#8217;t saying that you should avoid work by just lazily doing whatever you&#8217;ve done in the past because it worked then and it should work now.<\/p>\n\n\n\n<p>I&#8217;d say that learning CSS is easy and learning CSS-in-JS is easy; what&#8217;s hard is learning how to decide what is the best tool to use on your project. This is the difference between knowledge (which is easily gained) &#8211; and wisdom (which is gained over years of work and much trial and error).<\/p>\n\n\n\n<p>But anyway&#8230;the whole thing ended up with <a href=\"https:\/\/toots.hankchizljaw.io\/@hankchizljaw\">someone<\/a>\u00a0suggesting to me that &#8220;the title &#8216;front-end developer&#8217; is pretty much synonymous with React now.&#8221;<\/p>\n\n\n\n<p>This got me thinking. Because a &#8220;front-end&#8221; developer used to be someone who made layouts and designs in code. They did HTML and CSS with some JavaScript sprinkles.<\/p>\n\n\n\n<p>But now, because front-end can include any of the popular JS frameworks, the description of that role has significantly changed and now includes doing routing, data storage and manipulation, interfacing with (and creating) APIs and so on.<\/p>\n\n\n\n<p>When discussing this with someone else it was suggested that &#8220;all developer jobs are full stack now&#8221; and that&#8217;s because all the stuff that used to happen in the &#8220;back-end&#8221; can, and frequently does, now happen in the browser.<\/p>\n\n\n\n<p>And so our <a href=\"https:\/\/rosswintle.uk\/2014\/11\/job-titles\/\">job titles<\/a>\u00a0are all messed up. I think we need some new ones that better distinguish between the disciplines of web and application development. Along the lines of &#8220;visual developer&#8221; and &#8220;data developer&#8221;. Hopefully you get my meaning.<\/p>\n\n\n\n<p>I think it&#8217;s easier to switch languages (i.e. I&#8217;d probably be fine writing data-processing algorithms in JavaScript if I wanted to, but I&#8217;m not really into animation or advanced typography and font-handling techniques) than to switch disciplines (i.e. to go from being a data geek to being an animation geek).<\/p>\n\n\n\n<p>So we need terms that better describe our disciplines. I&#8217;m happy to take your suggestions in the comments.<\/p>\n\n\n\n<p>In any case&#8230;I love my self-proclaimed job title of &#8220;Creator &#8211; Engineer &#8211; Advisor&#8221;. It perfectly sums up what I do without tying me to any particular discipline or technology! So why not make your own, like I did?<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I think it&#8217;s easier to switch languages than to switch disciplines. We need job titles that better describe our disciplines.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                23,
-                24,
-                187
-            ],
-            "tags": [
-                503,
-                582
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>CSS and... err ...job titles? - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"CSS and... err ...job titles? - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I think it&#039;s easier to switch languages than to switch disciplines. We need job titles that better describe our disciplines.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-09-12T12:00:54+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-02-06T15:31:20+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/\",\"name\":\"CSS and... err ...job titles? - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-09-12T12:00:54+00:00\",\"dateModified\":\"2019-02-06T15:31:20+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"CSS and&#8230; err &#8230;job titles?\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "CSS and... err ...job titles? - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "CSS and... err ...job titles? - Ross Wintle",
-                "og_description": "I think it's easier to switch languages than to switch disciplines. We need job titles that better describe our disciplines.",
-                "og_url": "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2018-09-12T12:00:54+00:00",
-                "article_modified_time": "2019-02-06T15:31:20+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/",
-                            "url": "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/",
-                            "name": "CSS and... err ...job titles? - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2018-09-12T12:00:54+00:00",
-                            "dateModified": "2019-02-06T15:31:20+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "CSS and&#8230; err &#8230;job titles?"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4185"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4185"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 4,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4185\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 4193,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4185\/revisions\/4193"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4185"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4185"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4185"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 4185,
-        "dateGmt": "2018-09-12T12:00:54",
-        "modifiedDateGmt": "2019-02-06T15:31:20",
-        "slug": "css-and-err-job-titles",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/",
-        "title": "CSS and&#8230; err &#8230;job titles?",
-        "content": "\n<p>In the web development world there&#8217;s been a load of discussion about learning\/knowing CSS, the cascade, CSS-in-JSS vs CSS-in-err-CSS recently.<\/p>\n\n\n\n<p>I&#8217;ve largely not taken part mostly because I see these things as tools: you use the one that works for you and your project, and no one is right or wrong &#8211; you&#8217;re allowed your opinion (but do express is kindly, please).<\/p>\n\n\n\n<p>This isn&#8217;t to say that learning the cascade isn&#8217;t something you should do (if you work on the web, it&#8217;s probably <span style=\"text-decoration: underline;\">helpful<\/span> to <a href=\"https:\/\/hankchizljaw.io\/wrote\/css-specifity-and-the-cascade\/\">understand the cascade<\/a>), and it isn&#8217;t saying that you should avoid work by just lazily doing whatever you&#8217;ve done in the past because it worked then and it should work now.<\/p>\n\n\n\n<p>I&#8217;d say that learning CSS is easy and learning CSS-in-JS is easy; what&#8217;s hard is learning how to decide what is the best tool to use on your project. This is the difference between knowledge (which is easily gained) &#8211; and wisdom (which is gained over years of work and much trial and error).<\/p>\n\n\n\n<p>But anyway&#8230;the whole thing ended up with <a href=\"https:\/\/toots.hankchizljaw.io\/@hankchizljaw\">someone<\/a>\u00a0suggesting to me that &#8220;the title &#8216;front-end developer&#8217; is pretty much synonymous with React now.&#8221;<\/p>\n\n\n\n<p>This got me thinking. Because a &#8220;front-end&#8221; developer used to be someone who made layouts and designs in code. They did HTML and CSS with some JavaScript sprinkles.<\/p>\n\n\n\n<p>But now, because front-end can include any of the popular JS frameworks, the description of that role has significantly changed and now includes doing routing, data storage and manipulation, interfacing with (and creating) APIs and so on.<\/p>\n\n\n\n<p>When discussing this with someone else it was suggested that &#8220;all developer jobs are full stack now&#8221; and that&#8217;s because all the stuff that used to happen in the &#8220;back-end&#8221; can, and frequently does, now happen in the browser.<\/p>\n\n\n\n<p>And so our <a href=\"https:\/\/rosswintle.uk\/2014\/11\/job-titles\/\">job titles<\/a>\u00a0are all messed up. I think we need some new ones that better distinguish between the disciplines of web and application development. Along the lines of &#8220;visual developer&#8221; and &#8220;data developer&#8221;. Hopefully you get my meaning.<\/p>\n\n\n\n<p>I think it&#8217;s easier to switch languages (i.e. I&#8217;d probably be fine writing data-processing algorithms in JavaScript if I wanted to, but I&#8217;m not really into animation or advanced typography and font-handling techniques) than to switch disciplines (i.e. to go from being a data geek to being an animation geek).<\/p>\n\n\n\n<p>So we need terms that better describe our disciplines. I&#8217;m happy to take your suggestions in the comments.<\/p>\n\n\n\n<p>In any case&#8230;I love my self-proclaimed job title of &#8220;Creator &#8211; Engineer &#8211; Advisor&#8221;. It perfectly sums up what I do without tying me to any particular discipline or technology! So why not make your own, like I did?<\/p>\n",
-        "excerpt": "<p>I think it&#8217;s easier to switch languages than to switch disciplines. We need job titles that better describe our disciplines.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

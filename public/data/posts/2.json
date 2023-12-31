@@ -1,6 +1,246 @@
 [
     {
         "dataAsArray": {
+            "id": 254449,
+            "date": "2023-06-17T09:11:05",
+            "date_gmt": "2023-06-17T08:11:05",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=254449"
+            },
+            "modified": "2023-06-17T09:11:09",
+            "modified_gmt": "2023-06-17T08:11:09",
+            "slug": "my-simple-ev-terminology-cheatsheet",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/",
+            "title": {
+                "rendered": "My simple EV terminology cheatsheet"
+            },
+            "content": {
+                "rendered": "\n<p><em>All the things you need to know about electric cars, written down as succinctly as I can (which isn&#8217;t very). Note that this is UK\/EU specific and excludes and proprietary stuff (e.g. Tesla-specific tech)<\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Units of power and battery sizes<\/h2>\n\n\n\n<p>You will see the following units of power\/energy\/battery capacity:<\/p>\n\n\n\n<ul>\n<li><strong>kW (kiloWatt)<\/strong> &#8211; This is a measure of the <em>flow<\/em> of power. It is used to describe charging speeds (how fast energy gets into the battery) and motor\/engine power.<\/li>\n\n\n\n<li><strong>kWh (kiloWattHour)<\/strong> &#8211; This is a measure of energy capacity and is used to describe how big your battery is. 1kWh is the energy used by a 1kW motor for 1 hour.<\/li>\n<\/ul>\n\n\n\n<p>Examples:<\/p>\n\n\n\n<ul>\n<li>If you have a car with a 100kW engine\/motor and a 50kWh battery you can (in theory) run it at full power for half an hour. Or at half power for a full hour. In practice there are other factors. Check the specs!<\/li>\n\n\n\n<li>A 100kW car will have more power to it than an 80kW car. This usually means it accelerates and drives faster. But it may be less efficient and use up your battery faster.<\/li>\n\n\n\n<li>A higher power charger will fill your battery faster. e.g. a 50kW charger will fill your battery faster than a 7kW charger.<\/li>\n\n\n\n<li>A 7kW charger will fully charge a 35kW battery in _about_ 5 hours (likely to be more &#8211; check the specs)<\/li>\n<\/ul>\n\n\n\n<h3 class=\"wp-block-heading\">How big should my battery be?<\/h3>\n\n\n\n<p>The &#8220;range&#8221; of your car is determined by the battery capacity, car efficiency, driving efficiency, and other factors like the temperature. In general I would say:<\/p>\n\n\n\n<ul>\n<li><strong>Less than 30kWh<\/strong> batteries are only good for short urban driving.<\/li>\n\n\n\n<li><strong>30kwH &#8211; 50kWh<\/strong> batteries are better for longer range, but this is very much dependent on efficiency of the engine and driving style.<\/li>\n\n\n\n<li><strong>More than 50kWh<\/strong> batteries are needed if you are going to make longer journeys without stopping to charge up.<\/li>\n<\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Charge speeds and modes<\/h2>\n\n\n\n<h3 class=\"wp-block-heading\">AC vs DC charging<\/h3>\n\n\n\n<ul>\n<li><strong>AC<\/strong> (alternating current &#8211; a type of electricity flow) charging is slower and includes home-based charging both from 3-pin cables and home-installed charge points.<\/li>\n\n\n\n<li><strong>DC<\/strong> charging (used in &#8220;rapid&#8221; or &#8220;super-fast&#8221; chargers) is much faster and only available at public charge points.<\/li>\n<\/ul>\n\n\n\n<p>The difference is useful to know when you&#8217;re understanding charge ports.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Charge speeds<\/h3>\n\n\n\n<p>Common charge speeds you will see are:<\/p>\n\n\n\n<ul>\n<li><strong>3kW<\/strong> &#8211; Slow home charging and slow public chargers. Sometimes called &#8220;trickle charging&#8221;. AC charging using a 3-pin or type-2 cable.<\/li>\n\n\n\n<li><strong>7kW<\/strong> &#8211; Faster home charging from an installed charing point. Also slow public chargers. AC charging using a type-2 cable.<\/li>\n\n\n\n<li><strong>22kW<\/strong> &#8211; Medium-speed, AC public charging using a type-2 cable.<\/li>\n\n\n\n<li><strong>50kW<\/strong> &#8211; &#8220;fast&#8221;\/&#8221;rapid&#8221; charging. Usually DC using a CCS or CHAdeMO cable (depending on your car). I believe some AC chargers can get up to this kind of speed too.<\/li>\n\n\n\n<li><strong>More than 50kW<\/strong> (75kW, 100Kw etc, up to 350 or 400kW) &#8211; you&#8217;ll only see these at public charge points. DC charging using CCS or CHAdeMO cables.<\/li>\n<\/ul>\n\n\n\n<p>The speeds you can charge at are dependent on your car. I&#8217;d recommend looking for a car that has at least 50kW rapid charing using CCS.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Charge ports<\/h2>\n\n\n\n<p>Charge ports\/cables are fairly standard, but there are different types.<\/p>\n\n\n\n<ul>\n<li><strong>2\/3-pin<\/strong> &#8211; These cables are used for AC home charging (make sure your home wiring can cope!). They usually have a 2\/3-pin connector on one end and a type 2 connector to plug into the car.<\/li>\n\n\n\n<li><strong>Type 2<\/strong> (sometimes called &#8220;Mennekes&#8221;)- This is a round connector with 7 pins. Used for AC charging up to around 22kW.<\/li>\n\n\n\n<li><strong>CCS<\/strong> adds extra DC connectors to a Type 2 port to allow &#8220;rapid&#8221; charging at speeds above 22kW.<\/li>\n\n\n\n<li><strong>CHAdeMO<\/strong> &#8211; This is a Japanese standard for &#8220;rapid&#8221; charging. I only saw it on Nissan Leaf&#8217;s and it&#8217;s not available at all charging points.<\/li>\n<\/ul>\n\n\n\n<p>You will most commonly see Type 2 ports on British\/EU cars as they are mandatory. It&#8217;s recommended to have a CCS port.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Range measurements\/guesstimates<\/h2>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>All the things you need to know about electric cars, written down as succinctly as I can (which isn&#8217;t very). Note that this is UK\/EU specific and excludes and proprietary stuff (e.g. Tesla-specific tech) Units of power and battery sizes You will see the following units of power\/energy\/battery capacity: Examples: How big should my battery [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 3,
+            "featured_media": 0,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>My simple EV terminology cheatsheet - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"My simple EV terminology cheatsheet - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"All the things you need to know about electric cars, written down as succinctly as I can (which isn&#8217;t very). Note that this is UK\/EU specific and excludes and proprietary stuff (e.g. Tesla-specific tech) Units of power and battery sizes You will see the following units of power\/energy\/battery capacity: Examples: How big should my battery [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-06-17T08:11:05+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-06-17T08:11:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle (Oikos)\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle (Oikos)\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/\",\"name\":\"My simple EV terminology cheatsheet - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-06-17T08:11:05+00:00\",\"dateModified\":\"2023-06-17T08:11:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"My simple EV terminology cheatsheet\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0\",\"name\":\"Ross Wintle (Oikos)\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle (Oikos)\"},\"url\":\"https:\/\/rosswintle.uk\/author\/ross-oikos\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "My simple EV terminology cheatsheet - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "My simple EV terminology cheatsheet - Ross Wintle",
+                "og_description": "All the things you need to know about electric cars, written down as succinctly as I can (which isn&#8217;t very). Note that this is UK\/EU specific and excludes and proprietary stuff (e.g. Tesla-specific tech) Units of power and battery sizes You will see the following units of power\/energy\/battery capacity: Examples: How big should my battery [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2023-06-17T08:11:05+00:00",
+                "article_modified_time": "2023-06-17T08:11:09+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle (Oikos)",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle (Oikos)",
+                    "Estimated reading time": "3 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/",
+                            "url": "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/",
+                            "name": "My simple EV terminology cheatsheet - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2023-06-17T08:11:05+00:00",
+                            "dateModified": "2023-06-17T08:11:09+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "My simple EV terminology cheatsheet"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/58e162494aa9dd05103c8339a76962c0",
+                            "name": "Ross Wintle (Oikos)",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/0abfdfb98860388a35bae6defa568b8a?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle (Oikos)"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/ross-oikos\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254449"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/3"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=254449"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 3,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254449\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 254452,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254449\/revisions\/254452"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=254449"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=254449"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=254449"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 254449,
+        "dateGmt": "2023-06-17T08:11:05",
+        "modifiedDateGmt": "2023-06-17T08:11:09",
+        "slug": "my-simple-ev-terminology-cheatsheet",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2023\/06\/my-simple-ev-terminology-cheatsheet\/",
+        "title": "My simple EV terminology cheatsheet",
+        "content": "\n<p><em>All the things you need to know about electric cars, written down as succinctly as I can (which isn&#8217;t very). Note that this is UK\/EU specific and excludes and proprietary stuff (e.g. Tesla-specific tech)<\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Units of power and battery sizes<\/h2>\n\n\n\n<p>You will see the following units of power\/energy\/battery capacity:<\/p>\n\n\n\n<ul>\n<li><strong>kW (kiloWatt)<\/strong> &#8211; This is a measure of the <em>flow<\/em> of power. It is used to describe charging speeds (how fast energy gets into the battery) and motor\/engine power.<\/li>\n\n\n\n<li><strong>kWh (kiloWattHour)<\/strong> &#8211; This is a measure of energy capacity and is used to describe how big your battery is. 1kWh is the energy used by a 1kW motor for 1 hour.<\/li>\n<\/ul>\n\n\n\n<p>Examples:<\/p>\n\n\n\n<ul>\n<li>If you have a car with a 100kW engine\/motor and a 50kWh battery you can (in theory) run it at full power for half an hour. Or at half power for a full hour. In practice there are other factors. Check the specs!<\/li>\n\n\n\n<li>A 100kW car will have more power to it than an 80kW car. This usually means it accelerates and drives faster. But it may be less efficient and use up your battery faster.<\/li>\n\n\n\n<li>A higher power charger will fill your battery faster. e.g. a 50kW charger will fill your battery faster than a 7kW charger.<\/li>\n\n\n\n<li>A 7kW charger will fully charge a 35kW battery in _about_ 5 hours (likely to be more &#8211; check the specs)<\/li>\n<\/ul>\n\n\n\n<h3 class=\"wp-block-heading\">How big should my battery be?<\/h3>\n\n\n\n<p>The &#8220;range&#8221; of your car is determined by the battery capacity, car efficiency, driving efficiency, and other factors like the temperature. In general I would say:<\/p>\n\n\n\n<ul>\n<li><strong>Less than 30kWh<\/strong> batteries are only good for short urban driving.<\/li>\n\n\n\n<li><strong>30kwH &#8211; 50kWh<\/strong> batteries are better for longer range, but this is very much dependent on efficiency of the engine and driving style.<\/li>\n\n\n\n<li><strong>More than 50kWh<\/strong> batteries are needed if you are going to make longer journeys without stopping to charge up.<\/li>\n<\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Charge speeds and modes<\/h2>\n\n\n\n<h3 class=\"wp-block-heading\">AC vs DC charging<\/h3>\n\n\n\n<ul>\n<li><strong>AC<\/strong> (alternating current &#8211; a type of electricity flow) charging is slower and includes home-based charging both from 3-pin cables and home-installed charge points.<\/li>\n\n\n\n<li><strong>DC<\/strong> charging (used in &#8220;rapid&#8221; or &#8220;super-fast&#8221; chargers) is much faster and only available at public charge points.<\/li>\n<\/ul>\n\n\n\n<p>The difference is useful to know when you&#8217;re understanding charge ports.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Charge speeds<\/h3>\n\n\n\n<p>Common charge speeds you will see are:<\/p>\n\n\n\n<ul>\n<li><strong>3kW<\/strong> &#8211; Slow home charging and slow public chargers. Sometimes called &#8220;trickle charging&#8221;. AC charging using a 3-pin or type-2 cable.<\/li>\n\n\n\n<li><strong>7kW<\/strong> &#8211; Faster home charging from an installed charing point. Also slow public chargers. AC charging using a type-2 cable.<\/li>\n\n\n\n<li><strong>22kW<\/strong> &#8211; Medium-speed, AC public charging using a type-2 cable.<\/li>\n\n\n\n<li><strong>50kW<\/strong> &#8211; &#8220;fast&#8221;\/&#8221;rapid&#8221; charging. Usually DC using a CCS or CHAdeMO cable (depending on your car). I believe some AC chargers can get up to this kind of speed too.<\/li>\n\n\n\n<li><strong>More than 50kW<\/strong> (75kW, 100Kw etc, up to 350 or 400kW) &#8211; you&#8217;ll only see these at public charge points. DC charging using CCS or CHAdeMO cables.<\/li>\n<\/ul>\n\n\n\n<p>The speeds you can charge at are dependent on your car. I&#8217;d recommend looking for a car that has at least 50kW rapid charing using CCS.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Charge ports<\/h2>\n\n\n\n<p>Charge ports\/cables are fairly standard, but there are different types.<\/p>\n\n\n\n<ul>\n<li><strong>2\/3-pin<\/strong> &#8211; These cables are used for AC home charging (make sure your home wiring can cope!). They usually have a 2\/3-pin connector on one end and a type 2 connector to plug into the car.<\/li>\n\n\n\n<li><strong>Type 2<\/strong> (sometimes called &#8220;Mennekes&#8221;)- This is a round connector with 7 pins. Used for AC charging up to around 22kW.<\/li>\n\n\n\n<li><strong>CCS<\/strong> adds extra DC connectors to a Type 2 port to allow &#8220;rapid&#8221; charging at speeds above 22kW.<\/li>\n\n\n\n<li><strong>CHAdeMO<\/strong> &#8211; This is a Japanese standard for &#8220;rapid&#8221; charging. I only saw it on Nissan Leaf&#8217;s and it&#8217;s not available at all charging points.<\/li>\n<\/ul>\n\n\n\n<p>You will most commonly see Type 2 ports on British\/EU cars as they are mandatory. It&#8217;s recommended to have a CCS port.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Range measurements\/guesstimates<\/h2>\n",
+        "excerpt": "<p>All the things you need to know about electric cars, written down as succinctly as I can (which isn&#8217;t very). Note that this is UK\/EU specific and excludes and proprietary stuff (e.g. Tesla-specific tech) Units of power and battery sizes You will see the following units of power\/energy\/battery capacity: Examples: How big should my battery [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 3,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 254367,
             "date": "2023-05-22T21:58:31",
             "date_gmt": "2023-05-22T20:58:31",
@@ -2177,250 +2417,6 @@
         "title": "Website &#8211; A 5 Minute Window",
         "content": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Let&#039;s Make a Website - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/_Y-2GPOsHYw?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>Let&#8217;s try something different.<\/p>\n\n\n\n<p>How much of a simple website can I build in five minutes?<\/p>\n\n\n\n<p>I have a starter kit that has a simple, PHP static site generator, TailwindCSS, and a really<br>simple build script.<\/p>\n\n\n\n<p><a href=\"https:\/\/github.com\/rosswintle\/small-site-template\">https:\/\/github.com\/rosswintle\/small-site-template<\/a><\/p>\n\n\n\n<p>Let&#8217;s see what we get.<\/p>\n\n\n\n<p>This is a simple project so I don&#8217;t need PHPStorm. Let&#8217;s use VSCode instead\u2026<\/p>\n\n\n\n<p>Let&#8217;s build it with build.sh<\/p>\n\n\n\n<p>Now let&#8217;s view it. I use valet and this is in the veryuseful directory so it&#8217;s just at veryuseful.test<\/p>\n\n\n\n<p>Nice. We&#8217;re ready to go.<\/p>\n",
         "excerpt": "<p>Let&#8217;s try something different.<\/p>\n<p>How much of a simple website can I build in five minutes?<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 11569,
-            "date": "2023-01-11T12:00:29",
-            "date_gmt": "2023-01-11T12:00:29",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=11569"
-            },
-            "modified": "2023-01-11T15:43:23",
-            "modified_gmt": "2023-01-11T15:43:23",
-            "slug": "dynamic-properties-a-5-minute-window",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
-            "title": {
-                "rendered": "Dynamic Properties &#8211; A 5 Minute Window"
-            },
-            "content": {
-                "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Dynamic Properties - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/FbKyLi8wK58?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\n&lt;?php\n\n\/\/ Hi!\n\n\/\/ OK, these aren't EXACTLY 5 minutes, but I'll try hard to be LESS THAN\n\/\/ 5 minutes.\n\n\/\/ Also... let's get this window out of the way\n\n\/\/ That's better.\n\n\/\/ Today, another quirk in PHPStorm with our code snippet.\n\n\/\/ We have strict types on still, but we're going to look at what properties we can set and get from the object.\n\n\n\/\/ Here's the post class - the template for our objects.\n\nclass Post {\n    \/\/ Each post has a publicly accessible ID and title\n    public int $id = 0;\n    public string $title = '';\n}\n\n\/\/ Here's us making a couple of instances...\n$posts = &#x5B;];\n\n$posts&#x5B;0] = new Post();\n$posts&#x5B;0]-&gt;id = 123; \/\/ This is the wrong type. Hold one.\n$posts&#x5B;0]-&gt;title = 'Hello World';\n\n$posts&#x5B;1] = new Post();\n$posts&#x5B;1]-&gt;id = 456; \/\/ They should be integers! How nice of our editor to tell us. We might have caused a bug!\n$posts&#x5B;1]-&gt;title = 'Hello again';\n\n\/\/ What if we try to do this though?\n\n$posts&#x5B;0]-&gt;nonExistentProperty = 'thing';\n\n\/\/ Hmm.. there's an underline.\n\n\/\/ Cool, so it's warning us about that! That's good. (I didn't think it would)\n\n\/\/ That property doesn't exist, so we shouldn't be setting it!\n\n\/\/ What about if we try to access something that doesn't exist. Perhaps, despite editor help\n\/\/ we forgot the name of a property?\n\n$posts&#x5B;0]-&gt;post_title;\n\n\/\/ Hmm... that's highlighted!\n\n\/\/ So, again, we get warned.\n\n\/\/ This is GREAT!\n\n\/\/ And especially good for when you're working with external APIs.\n\n\/\/ Get the data. Put it in an object. Then you don't have to remember what all the fields\n\/\/ were called. Your IDE helps you!\n\n\/\/ So... hopefully you see how objects can be more helpful than arrays.\n\n\/\/ Go try it out!\n\n\/\/ Onto other things now.\n\n<\/pre><\/div>",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Today, another quirk in PHPStorm with our code snippet.<\/p>\n<p>We have strict types on still, but we&#8217;re going to look at what properties we can set and get from the object.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "closed",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                5175
-            ],
-            "tags": [
-                291,
-                673,
-                462
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Dynamic Properties - A 5 Minute Window - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Dynamic Properties - A 5 Minute Window - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Today, another quirk in PHPStorm with our code snippet. We have strict types on still, but we&#039;re going to look at what properties we can set and get from the object.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-01-11T12:00:29+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-01-11T15:43:23+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\",\"name\":\"Dynamic Properties - A 5 Minute Window - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-01-11T12:00:29+00:00\",\"dateModified\":\"2023-01-11T15:43:23+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Dynamic Properties &#8211; A 5 Minute Window\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Dynamic Properties - A 5 Minute Window - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Dynamic Properties - A 5 Minute Window - Ross Wintle",
-                "og_description": "Today, another quirk in PHPStorm with our code snippet. We have strict types on still, but we're going to look at what properties we can set and get from the object.",
-                "og_url": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2023-01-11T12:00:29+00:00",
-                "article_modified_time": "2023-01-11T15:43:23+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
-                            "url": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
-                            "name": "Dynamic Properties - A 5 Minute Window - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2023-01-11T12:00:29+00:00",
-                            "dateModified": "2023-01-11T15:43:23+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Dynamic Properties &#8211; A 5 Minute Window"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11569"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11569"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11569\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 11587,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11569\/revisions\/11587"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11569"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11569"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11569"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 11569,
-        "dateGmt": "2023-01-11T12:00:29",
-        "modifiedDateGmt": "2023-01-11T15:43:23",
-        "slug": "dynamic-properties-a-5-minute-window",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2023\/01\/dynamic-properties-a-5-minute-window\/",
-        "title": "Dynamic Properties &#8211; A 5 Minute Window",
-        "content": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Dynamic Properties - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/FbKyLi8wK58?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\n&lt;?php\n\n\/\/ Hi!\n\n\/\/ OK, these aren't EXACTLY 5 minutes, but I'll try hard to be LESS THAN\n\/\/ 5 minutes.\n\n\/\/ Also... let's get this window out of the way\n\n\/\/ That's better.\n\n\/\/ Today, another quirk in PHPStorm with our code snippet.\n\n\/\/ We have strict types on still, but we're going to look at what properties we can set and get from the object.\n\n\n\/\/ Here's the post class - the template for our objects.\n\nclass Post {\n    \/\/ Each post has a publicly accessible ID and title\n    public int $id = 0;\n    public string $title = '';\n}\n\n\/\/ Here's us making a couple of instances...\n$posts = &#x5B;];\n\n$posts&#x5B;0] = new Post();\n$posts&#x5B;0]-&gt;id = 123; \/\/ This is the wrong type. Hold one.\n$posts&#x5B;0]-&gt;title = 'Hello World';\n\n$posts&#x5B;1] = new Post();\n$posts&#x5B;1]-&gt;id = 456; \/\/ They should be integers! How nice of our editor to tell us. We might have caused a bug!\n$posts&#x5B;1]-&gt;title = 'Hello again';\n\n\/\/ What if we try to do this though?\n\n$posts&#x5B;0]-&gt;nonExistentProperty = 'thing';\n\n\/\/ Hmm.. there's an underline.\n\n\/\/ Cool, so it's warning us about that! That's good. (I didn't think it would)\n\n\/\/ That property doesn't exist, so we shouldn't be setting it!\n\n\/\/ What about if we try to access something that doesn't exist. Perhaps, despite editor help\n\/\/ we forgot the name of a property?\n\n$posts&#x5B;0]-&gt;post_title;\n\n\/\/ Hmm... that's highlighted!\n\n\/\/ So, again, we get warned.\n\n\/\/ This is GREAT!\n\n\/\/ And especially good for when you're working with external APIs.\n\n\/\/ Get the data. Put it in an object. Then you don't have to remember what all the fields\n\/\/ were called. Your IDE helps you!\n\n\/\/ So... hopefully you see how objects can be more helpful than arrays.\n\n\/\/ Go try it out!\n\n\/\/ Onto other things now.\n\n<\/pre><\/div>",
-        "excerpt": "<p>Today, another quirk in PHPStorm with our code snippet.<\/p>\n<p>We have strict types on still, but we&#8217;re going to look at what properties we can set and get from the object.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

@@ -1,6 +1,243 @@
 [
     {
         "dataAsArray": {
+            "id": 88,
+            "date": "2007-12-08T14:14:00",
+            "date_gmt": "2007-12-08T14:14:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/12\/08\/bike-radar\/"
+            },
+            "modified": "2007-12-08T14:14:00",
+            "modified_gmt": "2007-12-08T14:14:00",
+            "slug": "bike-radar",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/",
+            "title": {
+                "rendered": "Bike Radar"
+            },
+            "content": {
+                "rendered": "<p>Bit of a plug&#8230;the BikeRadar web site is really taking off and if full of useful info.  I was just looking through it and I keep coming across more and more useful stuff. Like:<\/p>\n<ul>\n<li><a href=\"http:\/\/www.bikeradar.com\/gear\/article\/buyers-guide-to-road-chainsets-118\">A guide to chainsets<\/a><\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/qa-chronic-fatigue-12779\">A Q&amp;A about chronic fatigue<\/a> (which I MIGHT have been suffering from earlier in the year)<\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/gear\/article\/qa-forks-and-the-bottom-bracket-2446\">Stuff about forks and bottom brackets<\/a><\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/gear\/article\/7-of-the-best-winter-road-and-commuting-gloves-13252\">A review of different sorts of winter gloves<\/a> (lots of good reasons to have cycling-specific gloves &#8211; on my Christmas wish-list now!!!)<\/li>\n<li>Articles on riding technique including <a href=\"http:\/\/www.bikeradar.com\/gear\/article\/technique-road-positioning-197\">road positioning<\/a>&#8230;<a href=\"http:\/\/www.bikeradar.com\/gear\/article\/technique-road-positioning-197\"><br \/><\/a><\/li>\n<li>and <a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/technique-how-to-handle-complex-junctions-12785\">handling complex junctions and roundabouts<\/a> (very much needed in Swindon!)<\/li>\n<li>A blog article on <a href=\"http:\/\/www.bikeradar.com\/blogs\/article\/the-joy-of-commuting-13369\">the joy of commuting by bike<\/a> (with hints and tips)<\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/you-should-cocoa-12749\">Why chocolate is great<\/a><\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/nutrition-cereals-for-cyclists-1059\">Why some cereals aren&#8217;t so great<\/a><\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/nutrition-ginger-boost--13310\">Why ginger is REALLY great<\/a><\/li>\n<\/ul>\n<p>The forums are full of useful help and advice too.<\/p>\n<p>Sometimes the Internet is just SO useful &#8211; even if it does waste many hours of my time.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Bit of a plug&#8230;the BikeRadar web site is really taking off and if full of useful info. I was just looking through it and I keep coming across more and more useful stuff. Like: A guide to chainsets A Q&amp;A about chronic fatigue (which I MIGHT have been suffering from earlier in the year) Stuff [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Bike Radar - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Bike Radar - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Bit of a plug&#8230;the BikeRadar web site is really taking off and if full of useful info. I was just looking through it and I keep coming across more and more useful stuff. Like: A guide to chainsets A Q&amp;A about chronic fatigue (which I MIGHT have been suffering from earlier in the year) Stuff [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-12-08T14:14:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/\",\"name\":\"Bike Radar - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-12-08T14:14:00+00:00\",\"dateModified\":\"2007-12-08T14:14:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bike Radar\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Bike Radar - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Bike Radar - Ross Wintle",
+                "og_description": "Bit of a plug&#8230;the BikeRadar web site is really taking off and if full of useful info. I was just looking through it and I keep coming across more and more useful stuff. Like: A guide to chainsets A Q&amp;A about chronic fatigue (which I MIGHT have been suffering from earlier in the year) Stuff [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-12-08T14:14:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/",
+                            "name": "Bike Radar - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-12-08T14:14:00+00:00",
+                            "dateModified": "2007-12-08T14:14:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Bike Radar"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/88"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=88"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/88\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=88"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=88"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=88"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 88,
+        "dateGmt": "2007-12-08T14:14:00",
+        "modifiedDateGmt": "2007-12-08T14:14:00",
+        "slug": "bike-radar",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/12\/bike-radar\/",
+        "title": "Bike Radar",
+        "content": "<p>Bit of a plug&#8230;the BikeRadar web site is really taking off and if full of useful info.  I was just looking through it and I keep coming across more and more useful stuff. Like:<\/p>\n<ul>\n<li><a href=\"http:\/\/www.bikeradar.com\/gear\/article\/buyers-guide-to-road-chainsets-118\">A guide to chainsets<\/a><\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/qa-chronic-fatigue-12779\">A Q&amp;A about chronic fatigue<\/a> (which I MIGHT have been suffering from earlier in the year)<\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/gear\/article\/qa-forks-and-the-bottom-bracket-2446\">Stuff about forks and bottom brackets<\/a><\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/gear\/article\/7-of-the-best-winter-road-and-commuting-gloves-13252\">A review of different sorts of winter gloves<\/a> (lots of good reasons to have cycling-specific gloves &#8211; on my Christmas wish-list now!!!)<\/li>\n<li>Articles on riding technique including <a href=\"http:\/\/www.bikeradar.com\/gear\/article\/technique-road-positioning-197\">road positioning<\/a>&#8230;<a href=\"http:\/\/www.bikeradar.com\/gear\/article\/technique-road-positioning-197\"><br \/><\/a><\/li>\n<li>and <a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/technique-how-to-handle-complex-junctions-12785\">handling complex junctions and roundabouts<\/a> (very much needed in Swindon!)<\/li>\n<li>A blog article on <a href=\"http:\/\/www.bikeradar.com\/blogs\/article\/the-joy-of-commuting-13369\">the joy of commuting by bike<\/a> (with hints and tips)<\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/you-should-cocoa-12749\">Why chocolate is great<\/a><\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/nutrition-cereals-for-cyclists-1059\">Why some cereals aren&#8217;t so great<\/a><\/li>\n<li><a href=\"http:\/\/www.bikeradar.com\/fitness\/article\/nutrition-ginger-boost--13310\">Why ginger is REALLY great<\/a><\/li>\n<\/ul>\n<p>The forums are full of useful help and advice too.<\/p>\n<p>Sometimes the Internet is just SO useful &#8211; even if it does waste many hours of my time.<\/p>\n",
+        "excerpt": "<p>Bit of a plug&#8230;the BikeRadar web site is really taking off and if full of useful info. I was just looking through it and I keep coming across more and more useful stuff. Like: A guide to chainsets A Q&amp;A about chronic fatigue (which I MIGHT have been suffering from earlier in the year) Stuff [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 87,
             "date": "2007-12-06T22:08:00",
             "date_gmt": "2007-12-06T22:08:00",
@@ -2131,243 +2368,6 @@
         "title": "No logo?",
         "content": "<p>[Note &#8211; the original idea for this was to include pictures of the logos mentioned but I decided this was probably not legal and so removed them and just did my own &#8220;representations&#8221;, in the hope that that&#8217;s allowed.  Look them up on an image search if you want the real thing!]<\/p>\n<p>&#8220;Maaaarketing&#8230;&#8221; said an alien on Radio 4&#8217;s &#8220;The Now Show&#8221; some time last year&#8230;he was amused by the fact that humans bottled water and sold it at extortionate cost to one another.<\/p>\n<p>&#8220;Yes, this is amusing.  Marketing &#8211; hahahaha&#8221;.<\/p>\n<p>Which pretty much sums up my understanding of the topic.<\/p>\n<p>The issue of &#8220;corporate re-blanding&#8221; has been bothering me for a while.  A certain company quite close to my heart has recently scrapped its well-known logo and put in its place the name of the company, written in a bold, sans serif font, in a variety of colours&#8230;which is exactly what a similar company had done a couple of years beforehand.<\/p>\n<p>But why?  Why scrap an image that&#8217;s recognised around the world and replace it with the same thing that everyone else is doing?<\/p>\n<p>Some examples.<\/p>\n<p><span style=\"font-weight:bold;\">Welcome Break<\/span> &#8211; you&#8217;ve all stopped on the motorway services and experienced the wonders of their toilets.  They used to have a nice old fashioned picture of a swan coming in to land above their name.<\/p>\n<p>I never quite got the swan thing.  Presumably swans like a gigantic fried breakfast halfway through their migration or something (do swans migrate?), but it was recognisable and kinda homely&#8230;welcoming.   So what&#8217;s with the new &#8220;logo&#8221;, which basically looks like this&#8230;<\/p>\n<table style=\"width:154px;height:25px;\">\n<tbody>\n<tr><\/p>\n<td bgcolor=\"black\"><span style=\"font-weight:bold;color:rgb(0,102,0);vertical-align:middle;font-family:arial;\">WELCOME<\/span><span style=\"font-weight:bold;color:rgb(255,255,255);vertical-align:middle;font-family:arial;\">BREAK<\/span><\/td>\n<p><\/tr>\n<p><\/tbody>\n<\/table>\n<p>This one particularly irritates me because <span style=\"font-weight:bold;font-family:arial;\"><span style=\"color:rgb(0,102,0);\">NOW<\/span><span style=\"color:rgb(204,102,204);\">THEY<\/span><span style=\"color:rgb(0,102,0);\">WRITE<\/span><span style=\"color:rgb(204,102,204);\">EVERYTHING<\/span><span style=\"color:rgb(0,102,0);\">IN<\/span><span style=\"color:rgb(204,102,204);\">BOLD <\/span><span style=\"color:rgb(0,102,0);\">UPPERCASE<\/span><span style=\"color:rgb(204,102,204);\">SANS-SERIF<\/span><span style=\"color:rgb(0,102,0);\">AND<\/span><span style=\"color:rgb(204,102,204);\">ITS<\/span><span style=\"color:rgb(0,102,0);\">REALLY<\/span><span style=\"color:rgb(204,102,204);\">HARD<\/span><span style=\"color:rgb(0,102,0);\">TO<\/span><span style=\"color:rgb(204,102,204);\">READ<\/span><span style=\"color:rgb(0,102,0);\">AND<\/span><span style=\"color:rgb(204,102,204);\">IT<\/span><span style=\"color:rgb(0,102,0);\">SOUNDS<\/span><span style=\"color:rgb(204,102,204);\">LIKE<\/span><span style=\"color:rgb(0,102,0);\">THEY&#8217;RE <\/span><span style=\"color:rgb(204,102,204);\">SHOUTING<\/span><span style=\"color:rgb(0,102,0);\">AT<\/span><span style=\"color:rgb(204,102,204);\">YOU<\/span><\/span>.  Not actually very welcoming at all.<br \/><span style=\"text-decoration:underline;font-weight:bold;\"><br \/><\/span><span style=\"font-weight:bold;\">Marks and Spencer<\/span>:  Wow &#8211; I realise that I&#8217;ve not seen the name in full for a while now. Yes, they&#8217;re doing it on the high street too!  The old, angular logo was just a name and a magic little ampersand, presented on two lines in a nice shade of green.  But it was a well-recognised name.<span style=\"text-decoration:underline;\"><\/p>\n<p><\/span>However, M&amp;S have actually changed a lot.  They used to be seen as a stuffy old supermarket that only sold its own brand food to old people, but for many that view has changed.  Their new logo is modern and reflects that change but I&#8217;m still left wondering if they could have come up with something more unique than their initials in a curvy black and greeny-yellow&#8230;this is not just any logo, it&#8217;s a smooth, sophisticated, trips-off-your tongue logo&#8230;my cheap imitation is simply something like:<\/p>\n<div style=\"text-align:center;\"><span style=\"font-size:180%;\"><span style=\"font-family:verdana;\">M<span style=\"color:rgb(51,153,153);\">&amp;<\/span>S<\/span><\/span><\/div>\n<p><span style=\"text-decoration:underline;\"><\/p>\n<p><\/span>The Co-op.  Possibly another story of a stuffy old shop modernising &#8211; the old logo&#8217;s loopy, lowercase, blue letters laid out in a square formation, firmly reminding me of shopping with my granny.  Like M&amp;S I like what the Co-operative are doing but surely they&#8217;re just jumping on a bandwagon with the new look&#8230;which isn&#8217;t far off something like&#8230;<\/p>\n<div style=\"text-align:center;\"><span style=\"color:rgb(0,0,153);font-size:180%;\"><span style=\"font-family:verdana;\">The<\/span> <span style=\"font-weight:bold;font-family:arial;\">co-operative<\/span><\/span><\/div>\n<p>Even charities are at it&#8230;internation Christian development agency, Tearfund, had their name in two fonts &#8211; with and without serifs, two colours &#8211; deep green and clean white, two weights &#8211; normal and bold, with a nice dandelion head in an orange box next to it.  But even charities modernise and we now have nothing more than&#8230;<\/p>\n<table style=\"width:81px;height:57px;\" bgcolor=\"#339999\">\n<tbody>\n<tr><\/p>\n<td>\n<div style=\"text-align:left;\"><\/div>\n<p><span style=\"font-weight:bold;font-size:180%;\"><span style=\"font-family:verdana;color:white;\">tearfund<\/span><br \/><\/span><\/td>\n<p><\/tr>\n<p><\/tbody>\n<\/table>\n<p>(I should point out that the &#8220;t&#8221; should be cross-shaped with no curly bottom.  This is probably important, but I don&#8217;t have a standard font that looks like that!)<\/p>\n<p>It&#8217;s a silly thing to have a rant about but what bugs me is that all the skill and creativity seems to have gone from marketing.  Let&#8217;s just take a company name, optionally abbreviate it in some way, pick a modern typeface, and choose a couple of colours.  Anyone could do it?  Couldn&#8217;t they?<br \/>If I had the time I could write a computer program to randomly re-brand company names in this way.  And people get paid a fortune to do it?<\/p>\n<p>So&#8230;to any marketing people out there&#8230;what&#8217;s stopping me?<\/p>\n<p>Alien 1: Here, buy this<br \/>Alien 2: I already have this<br \/>Alien 1: &#8220;Marketing&#8221;<br \/>Alien 2: Okay then, I&#8217;ll buy it<br \/>Alien 1: I have laughed so hard I have accidentally passed what passes for alien wee-wee<br \/>Alien 2: Put it in a bottle, you could sell it to the humans<br \/>Both: hahahahaha<\/p>\n",
         "excerpt": "<p>[Note &#8211; the original idea for this was to include pictures of the logos mentioned but I decided this was probably not legal and so removed them and just did my own &#8220;representations&#8221;, in the hope that that&#8217;s allowed. Look them up on an image search if you want the real thing!] &#8220;Maaaarketing&#8230;&#8221; said an [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 78,
-            "date": "2007-11-05T19:17:00",
-            "date_gmt": "2007-11-05T19:17:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/11\/05\/form-vs-function\/"
-            },
-            "modified": "2007-11-05T19:17:00",
-            "modified_gmt": "2007-11-05T19:17:00",
-            "slug": "form-vs-function",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/",
-            "title": {
-                "rendered": "Form vs Function"
-            },
-            "content": {
-                "rendered": "<p>Why is it that things that perform a job well always look stupid? This seems to be especially true of sports wear.<\/p>\n<p>Why is it that the best way to keep warm on my bike in winter is to wear skin-tight, fleecy-lined tights?<\/p>\n<p>Why is bright yellow seemingly the best colour to wear if you want to be seen on the roads in the daytime?<\/p>\n<p>When are they going to invent some head protection that looks compact and stylish (this probably does exist but is not in my price range).<\/p>\n<p>Where can I get some overshoes that don&#8217;t make my feet look like they belong to a large black alien.<\/p>\n<p>And of course, wearing all these things together simply make a person look ridiculous.<\/p>\n<p>I&#8217;ve been experiencing this strange law of nature recently as I&#8217;ve been acquiring and wearing more winter kit for my commute.  And I&#8217;m sure it holds true for more than just cycling kit.  I bet runners (Sarah?) have the same feelings about vests and shorts and so on &#8211; I bet the stuff that keeps you cool and comfortable in summer and warm and safe in winter looks really weird.<\/p>\n<p>So as winter goes on and I wrap up more and more I expect more and more jibes about how silly I look.  Well let it be said that I don&#8217;t care!  I may look daft, but I&#8217;m warm, dry, fast, fit, safe and comfortable.  So there!!!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Why is it that things that perform a job well always look stupid? This seems to be especially true of sports wear. Why is it that the best way to keep warm on my bike in winter is to wear skin-tight, fleecy-lined tights? Why is bright yellow seemingly the best colour to wear if you [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                6
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Form vs Function - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Form vs Function - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Why is it that things that perform a job well always look stupid? This seems to be especially true of sports wear. Why is it that the best way to keep warm on my bike in winter is to wear skin-tight, fleecy-lined tights? Why is bright yellow seemingly the best colour to wear if you [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-11-05T19:17:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/\",\"name\":\"Form vs Function - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-11-05T19:17:00+00:00\",\"dateModified\":\"2007-11-05T19:17:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Form vs Function\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Form vs Function - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Form vs Function - Ross Wintle",
-                "og_description": "Why is it that things that perform a job well always look stupid? This seems to be especially true of sports wear. Why is it that the best way to keep warm on my bike in winter is to wear skin-tight, fleecy-lined tights? Why is bright yellow seemingly the best colour to wear if you [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2007-11-05T19:17:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/",
-                            "url": "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/",
-                            "name": "Form vs Function - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2007-11-05T19:17:00+00:00",
-                            "dateModified": "2007-11-05T19:17:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Form vs Function"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/78"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=78"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/78\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=78"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=78"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=78"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 78,
-        "dateGmt": "2007-11-05T19:17:00",
-        "modifiedDateGmt": "2007-11-05T19:17:00",
-        "slug": "form-vs-function",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2007\/11\/form-vs-function\/",
-        "title": "Form vs Function",
-        "content": "<p>Why is it that things that perform a job well always look stupid? This seems to be especially true of sports wear.<\/p>\n<p>Why is it that the best way to keep warm on my bike in winter is to wear skin-tight, fleecy-lined tights?<\/p>\n<p>Why is bright yellow seemingly the best colour to wear if you want to be seen on the roads in the daytime?<\/p>\n<p>When are they going to invent some head protection that looks compact and stylish (this probably does exist but is not in my price range).<\/p>\n<p>Where can I get some overshoes that don&#8217;t make my feet look like they belong to a large black alien.<\/p>\n<p>And of course, wearing all these things together simply make a person look ridiculous.<\/p>\n<p>I&#8217;ve been experiencing this strange law of nature recently as I&#8217;ve been acquiring and wearing more winter kit for my commute.  And I&#8217;m sure it holds true for more than just cycling kit.  I bet runners (Sarah?) have the same feelings about vests and shorts and so on &#8211; I bet the stuff that keeps you cool and comfortable in summer and warm and safe in winter looks really weird.<\/p>\n<p>So as winter goes on and I wrap up more and more I expect more and more jibes about how silly I look.  Well let it be said that I don&#8217;t care!  I may look daft, but I&#8217;m warm, dry, fast, fit, safe and comfortable.  So there!!!<\/p>\n",
-        "excerpt": "<p>Why is it that things that perform a job well always look stupid? This seems to be especially true of sports wear. Why is it that the best way to keep warm on my bike in winter is to wear skin-tight, fleecy-lined tights? Why is bright yellow seemingly the best colour to wear if you [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

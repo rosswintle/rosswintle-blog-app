@@ -1,6 +1,250 @@
 [
     {
         "dataAsArray": {
+            "id": 1150,
+            "date": "2011-10-02T23:00:24",
+            "date_gmt": "2011-10-02T22:00:24",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/2011\/10\/moonlit-sky\/"
+            },
+            "modified": "2011-10-07T13:18:34",
+            "modified_gmt": "2011-10-07T12:18:34",
+            "slug": "moonlit-sky",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/",
+            "title": {
+                "rendered": "Moonlit sky"
+            },
+            "content": {
+                "rendered": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855.jpg\"><img decoding=\"async\" class=\"alignnone size-full\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855.jpg\" alt=\"20111002-225855.jpg\" \/><\/a><\/p>\n<p>Have been playing with a new iPhone app for making cool monochrome pictures called &#8216;Noir&#8217;. It&#8217;s pretty awesome, especially when combined with a beautiful evening sky at dusk.<\/p>\n<p>Here&#8217;s a full gallery including the originals:<\/p>\n<div id='gallery-1' class='gallery galleryid-1150 gallery-columns-2 gallery-size-thumbnail'><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Moonlit Sky - with Noir effect\" \/><\/a>\n\t\t\t<\/div><\/figure><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0786.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0786-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Moonlit Sky Original 1 - no Noir effects applied\" \/><\/a>\n\t\t\t<\/div><\/figure><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0787.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0787-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Moonlit Sky Original 2 - no Noir effects applied\" \/><\/a>\n\t\t\t<\/div><\/figure><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0788.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0788-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Moonlit Sky Original 3 - no Noir effects applied\" \/><\/a>\n\t\t\t<\/div><\/figure>\n\t\t<\/div>\n\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Have been playing with a new iPhone app for making cool monochrome pictures called &#8216;Noir&#8217;. It&#8217;s pretty awesome, especially when combined with a beautiful evening sky at dusk. Here&#8217;s a full gallery including the originals:<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                348
+            ],
+            "tags": [
+                349,
+                350,
+                319
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Moonlit sky - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Moonlit sky - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Have been playing with a new iPhone app for making cool monochrome pictures called &#8216;Noir&#8217;. It&#8217;s pretty awesome, especially when combined with a beautiful evening sky at dusk. Here&#8217;s a full gallery including the originals:\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-10-02T22:00:24+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2011-10-07T12:18:34+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855-150x150.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/\",\"name\":\"Moonlit sky - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2011-10-02T22:00:24+00:00\",\"dateModified\":\"2011-10-07T12:18:34+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Moonlit sky\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Moonlit sky - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Moonlit sky - Ross Wintle",
+                "og_description": "Have been playing with a new iPhone app for making cool monochrome pictures called &#8216;Noir&#8217;. It&#8217;s pretty awesome, especially when combined with a beautiful evening sky at dusk. Here&#8217;s a full gallery including the originals:",
+                "og_url": "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2011-10-02T22:00:24+00:00",
+                "article_modified_time": "2011-10-07T12:18:34+00:00",
+                "og_image": [
+                    {
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855-150x150.jpg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/",
+                            "url": "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/",
+                            "name": "Moonlit sky - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2011-10-02T22:00:24+00:00",
+                            "dateModified": "2011-10-07T12:18:34+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Moonlit sky"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1150"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1150"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 5,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1150\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 1153,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1150\/revisions\/1153"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1150"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1150"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1150"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 1150,
+        "dateGmt": "2011-10-02T22:00:24",
+        "modifiedDateGmt": "2011-10-07T12:18:34",
+        "slug": "moonlit-sky",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2011\/10\/moonlit-sky\/",
+        "title": "Moonlit sky",
+        "content": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855.jpg\"><img decoding=\"async\" class=\"alignnone size-full\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855.jpg\" alt=\"20111002-225855.jpg\" \/><\/a><\/p>\n<p>Have been playing with a new iPhone app for making cool monochrome pictures called &#8216;Noir&#8217;. It&#8217;s pretty awesome, especially when combined with a beautiful evening sky at dusk.<\/p>\n<p>Here&#8217;s a full gallery including the originals:<\/p>\n<div id='gallery-1' class='gallery galleryid-1150 gallery-columns-2 gallery-size-thumbnail'><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/20111002-225855-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Moonlit Sky - with Noir effect\" \/><\/a>\n\t\t\t<\/div><\/figure><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0786.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0786-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Moonlit Sky Original 1 - no Noir effects applied\" \/><\/a>\n\t\t\t<\/div><\/figure><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0787.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0787-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Moonlit Sky Original 2 - no Noir effects applied\" \/><\/a>\n\t\t\t<\/div><\/figure><figure class='gallery-item'>\n\t\t\t<div class='gallery-icon landscape'>\n\t\t\t\t<a href='https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0788.jpg'><img loading=\"lazy\" decoding=\"async\" width=\"150\" height=\"150\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/10\/IMG_0788-150x150.jpg\" class=\"attachment-thumbnail size-thumbnail\" alt=\"Moonlit Sky Original 3 - no Noir effects applied\" \/><\/a>\n\t\t\t<\/div><\/figure>\n\t\t<\/div>\n\n",
+        "excerpt": "<p>Have been playing with a new iPhone app for making cool monochrome pictures called &#8216;Noir&#8217;. It&#8217;s pretty awesome, especially when combined with a beautiful evening sky at dusk. Here&#8217;s a full gallery including the originals:<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 1107,
             "date": "2011-09-14T09:19:20",
             "date_gmt": "2011-09-14T08:19:20",
@@ -2231,258 +2475,6 @@
         "title": "Happy Birthday Oikos &#8211; A Personal Reflection",
         "content": "<p>This is a little late. \u00a0But the reason it&#8217;s late is that I&#8217;ve been really busy at work. \u00a0And this is a good thing. \u00a0As I shall explain.<\/p>\n<p>Back on 18th June was the anniversary of me officially creating Oikos &#8211; my freelance web development and technology consultancy business.<\/p>\n<p>With a good voluntary project on the go I&#8217;d manage to win, though some close contacts, a paid website development gig. \u00a0I needed paying, so I set up a bank account, registered self-employed and so became, in my own unique way, an entrepreneur.<\/p>\n<p><!--more--><\/p>\n<p>At the time I was also full-time employed. \u00a0I guess I&#8217;d fallen into my job by mistake really. \u00a0It was a convenience and, over the time I was there, I&#8217;d gotten quite good at it. \u00a0But I&#8217;d spent a lot of time thinking about how to get out, what to move on to.<\/p>\n<p>And Oikos was somewhat pre-meditated. I&#8217;d brainstormed what was bad about my old job, what I wanted from my work, and what I might do.<\/p>\n<figure id=\"attachment_1077\" aria-describedby=\"caption-attachment-1077\" style=\"width: 300px\" class=\"wp-caption aligncenter\"><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/07\/IMG_0148.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"size-medium wp-image-1077\" title=\"My Perfect Jop\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/07\/IMG_0148-300x224.jpg\" alt=\"Brainstorm of my perfect job circa June 2010\" width=\"300\" height=\"224\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/07\/IMG_0148-300x224.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/07\/IMG_0148-1024x764.jpg 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/07\/IMG_0148-150x112.jpg 150w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><\/a><figcaption id=\"caption-attachment-1077\" class=\"wp-caption-text\">Brainstorm of my perfect job<\/figcaption><\/figure>\n<p>The things I wanted from a job were nothing like what I was stuck doing, and as time passed it became clear that I was stressed and unhappy.<\/p>\n<p>I should also say that I have a Christian faith and I believe that God does guide us, his followers, in what we&#8217;re doing. \u00a0Friends had been praying about my position and their feedback was encouraging. I felt like my God was telling me it was OK to want to get out and that there was something better for me.<\/p>\n<p>More specifically than that, people believed that God was saying &#8220;I will provide. \u00a0There will always be enough&#8221;, and that I would be led through a difficult place, towards the unknown, but there would be something good at the end of the journey.<\/p>\n<p>Of course, I was praying too.<\/p>\n<p>And I was keen! \u00a0There were some long evenings and weekends getting my first few Oikos projects done. \u00a0There was some slowness and stress as I got to grips with proper front-end development, cross-browser compatibility issues and the quirks of CSS and \u00a0JavaScript. \u00a0There were difficult questions about how much to charge people and when I really needed to work and when I really needed to stop. \u00a0There was LOTS of patience on behalf of my ever-loving wife.<\/p>\n<p>In November a few things came to a head. \u00a0We had some savings in the bank and I handed my 3-month notice in. \u00a0To my surprise, no one really thought I was mad. \u00a0Many thought that, despite the uncertainty, I&#8217;d made a very good and wise decision. \u00a0I wasn&#8217;t so sure. \u00a0But I was going crazy and had to go.<\/p>\n<p>Oikos quietly churned away in the background while I handed over my work and finished off my time at C&amp;W. \u00a0Everyone was really good to me and I had a great send off. \u00a0I don&#8217;t miss my work, but I miss my team and colleagues. \u00a0They are good people.<\/p>\n<p>And so, in February, I was cut loose. \u00a0I was officially full-time self employed. \u00a0Or, I would have been had I had enough work.<\/p>\n<p>Starting out on your own is never going to be easy. \u00a0You&#8217;re not going to be rolling in cash or rushed off your feet. \u00a0Most people said two years was a good length of time to get going. \u00a0We didn&#8217;t have two years!<\/p>\n<p>But. \u00a0Well. \u00a0Whether you believe in coincidence, luck, hard work, or &#8211; as I do &#8211; that God is true to his work: there was always enough! \u00a0Every time the work dried up a little more came in. \u00a0There were big projects and small projects. I&#8217;m indebted to friends and contacts who gave me work, and recommended me to others.<\/p>\n<p>Some avenues opened. \u00a0Others closed. \u00a0Sometimes I was picky and chose not to take on work because it wasn&#8217;t what I wanted to do. \u00a0For a short time at least, I could afford to pick and choose what I did whilst building up my skills.<\/p>\n<p>And you know what?<\/p>\n<p>Oikos is having a boom. I&#8217;ve made a great contact who&#8217;s passing me a load of work that&#8217;s exactly what I want to be doing in exactly the sector I want to be doing it in. \u00a0And I&#8217;ve got a couple of smaller projects on the go in the background too.<\/p>\n<p>And you know what else?<\/p>\n<p>I&#8217;m LOVING it.<\/p>\n<p>I&#8217;m learning new things. I&#8217;m using my skills for social good in the charity and non-profit sector. I&#8217;ve got the flexibilty of working from home and for myself. I can train myself up and take on new technologies. I can &#8220;make stuff&#8221; &#8211; be creative and innovative. I&#8217;m in control of what I do. I can work with others who have a similar vision. \u00a0I can invest in myself and my work.<\/p>\n<p>And I&#8217;m happy. I&#8217;m physically and mentally stronger. I&#8217;ve not been ill (seriously!).<\/p>\n<p>I&#8217;m probably slightly more geeky and bonkers than I used to be. But that&#8217;s ME. That&#8217;s what I&#8217;m like. That&#8217;s what I enjoy. \u00a0My work is hard, but it&#8217;s fun. I&#8217;m sometimes tired (no change there) but I&#8217;m almost always full of enthusiasm and energy for what I&#8217;m doing.<\/p>\n<p>There&#8217;s been an added complication of a little Wintle coming along in November. But even the timing of that is perfect. Had it happened a few months earlier I maybe wouldn&#8217;t have left the stability of employment.<\/p>\n<p>It was a risk to quit. It was a risk to pick and choose my work. It was always going to be a challenge to make enough money to live on in the charity sector. It was going to be hard work. It was going to stretch me and my abilities and my relationships.<\/p>\n<p>But I&#8217;m so glad I did it, and I&#8217;m so thankful to those that have encouraged me in it and made it possible.<\/p>\n",
         "excerpt": "<p>Oikos is having a boom. I&#8217;m doing exactly what I want to be doing in exactly the sector I want to be doing it in.  I&#8217;m loving it!<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 1071,
-            "date": "2011-06-13T08:40:28",
-            "date_gmt": "2011-06-13T07:40:28",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1071"
-            },
-            "modified": "2011-06-13T08:40:28",
-            "modified_gmt": "2011-06-13T07:40:28",
-            "slug": "all-change-sky-to-virgin-media",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
-            "title": {
-                "rendered": "All change &#8211; Sky to Virgin Media"
-            },
-            "content": {
-                "rendered": "<p>So, life&#8217;s a bit different now to how it was a few months ago. I&#8217;m earning less and working from home, so it&#8217;s time to review \u00a0a few things. \u00a0And one change worthy of mention is my broadband supplier.<\/p>\n<p><!--more-->A long, long time ago I had a dial-up connection using NTL. \u00a0Leaving NTL was one of the biggest administration faffs of my life and I actually ended up losing several month&#8217;s line rental to them. \u00a0I was pretty upset and vowed never to use their services again. \u00a0When Virgin Media took NTL over my resentment was passed on to the new owner.<\/p>\n<p>This resentment has not been helped by Virgin&#8217;s frequent and incessant posting of marketing through our letterbox.<\/p>\n<p>When we moved to Swindon our first, rented house had no aerial so our options for TV were Sky or Virgin, and with past experiences in mind, we signed up to Sky. \u00a0Impressed with the service (especially Sky+, which has transformed our TV viewing), we&#8217;ve taken our Sky to the new house we&#8217;ve bought and gradually taken on more Sky services including phone calls and line rental.<\/p>\n<p>But working from home and being a web developer means I&#8217;m using my internet connection a lot more and doing not only lots of uploads, but some fairly hefty downloads too.<\/p>\n<p>And the only way to get quicker broadband round here is to go for Virgin and use the fibre that&#8217;s in our road.<\/p>\n<p>So I&#8217;ve been asking questions and considering the Virgin option and, with a slight reluctance, have now taken the plunge. \u00a0I&#8217;m ditching Sky and going fibre-optic.<\/p>\n<p>I have to say that this is almost purely a decision based on internet speed. \u00a0I&#8217;m expecting service to be roughly equivalent and cost-wise an equivalent Virgin package is about \u00a35 per month more expensive than Sky. \u00a0Well, it&#8217;s not quite equivalent; it includes HD &#8211; we can&#8217;t use HD as we have an old-skool SD, CRT TV, but where Sky do a cheaper SD option, VM don&#8217;t.<\/p>\n<p>We also benefit greatly from some Quidco.com cashback (\u00a3150&#8217;s worth!) and \u00a3100 credit on our account &#8211; a pretty nice little bonus.<\/p>\n<p>Sky didn&#8217;t put up much of a fight when I cancelled. \u00a0 No one seems to want to haggle these days! \u00a0I was expecting to be offered a cheaper package, but they didn&#8217;t offer me anything!<\/p>\n<p>So it&#8217;s being installed next Tuesday. \u00a0I&#8217;ll let you know how we get on!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>So, life&#8217;s a bit different now to how it was a few months ago. I&#8217;m earning less and working from home, so it&#8217;s time to review  a few things.  And one change worthy of mention is my broadband supplier.<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10,
-                23
-            ],
-            "tags": [
-                321,
-                322,
-                319,
-                324,
-                279,
-                323,
-                320
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>All change - Sky to Virgin Media - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"All change - Sky to Virgin Media - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"So, life&#039;s a bit different now to how it was a few months ago. I&#039;m earning less and working from home, so it&#039;s time to review a few things. And one change worthy of mention is my broadband supplier.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-06-13T07:40:28+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\",\"name\":\"All change - Sky to Virgin Media - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2011-06-13T07:40:28+00:00\",\"dateModified\":\"2011-06-13T07:40:28+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"All change &#8211; Sky to Virgin Media\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "All change - Sky to Virgin Media - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "All change - Sky to Virgin Media - Ross Wintle",
-                "og_description": "So, life's a bit different now to how it was a few months ago. I'm earning less and working from home, so it's time to review a few things. And one change worthy of mention is my broadband supplier.",
-                "og_url": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2011-06-13T07:40:28+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
-                            "url": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
-                            "name": "All change - Sky to Virgin Media - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2011-06-13T07:40:28+00:00",
-                            "dateModified": "2011-06-13T07:40:28+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "All change &#8211; Sky to Virgin Media"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1071"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1071"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1071\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 1074,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1071\/revisions\/1074"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1071"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1071"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1071"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 1071,
-        "dateGmt": "2011-06-13T07:40:28",
-        "modifiedDateGmt": "2011-06-13T07:40:28",
-        "slug": "all-change-sky-to-virgin-media",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
-        "title": "All change &#8211; Sky to Virgin Media",
-        "content": "<p>So, life&#8217;s a bit different now to how it was a few months ago. I&#8217;m earning less and working from home, so it&#8217;s time to review \u00a0a few things. \u00a0And one change worthy of mention is my broadband supplier.<\/p>\n<p><!--more-->A long, long time ago I had a dial-up connection using NTL. \u00a0Leaving NTL was one of the biggest administration faffs of my life and I actually ended up losing several month&#8217;s line rental to them. \u00a0I was pretty upset and vowed never to use their services again. \u00a0When Virgin Media took NTL over my resentment was passed on to the new owner.<\/p>\n<p>This resentment has not been helped by Virgin&#8217;s frequent and incessant posting of marketing through our letterbox.<\/p>\n<p>When we moved to Swindon our first, rented house had no aerial so our options for TV were Sky or Virgin, and with past experiences in mind, we signed up to Sky. \u00a0Impressed with the service (especially Sky+, which has transformed our TV viewing), we&#8217;ve taken our Sky to the new house we&#8217;ve bought and gradually taken on more Sky services including phone calls and line rental.<\/p>\n<p>But working from home and being a web developer means I&#8217;m using my internet connection a lot more and doing not only lots of uploads, but some fairly hefty downloads too.<\/p>\n<p>And the only way to get quicker broadband round here is to go for Virgin and use the fibre that&#8217;s in our road.<\/p>\n<p>So I&#8217;ve been asking questions and considering the Virgin option and, with a slight reluctance, have now taken the plunge. \u00a0I&#8217;m ditching Sky and going fibre-optic.<\/p>\n<p>I have to say that this is almost purely a decision based on internet speed. \u00a0I&#8217;m expecting service to be roughly equivalent and cost-wise an equivalent Virgin package is about \u00a35 per month more expensive than Sky. \u00a0Well, it&#8217;s not quite equivalent; it includes HD &#8211; we can&#8217;t use HD as we have an old-skool SD, CRT TV, but where Sky do a cheaper SD option, VM don&#8217;t.<\/p>\n<p>We also benefit greatly from some Quidco.com cashback (\u00a3150&#8217;s worth!) and \u00a3100 credit on our account &#8211; a pretty nice little bonus.<\/p>\n<p>Sky didn&#8217;t put up much of a fight when I cancelled. \u00a0 No one seems to want to haggle these days! \u00a0I was expecting to be offered a cheaper package, but they didn&#8217;t offer me anything!<\/p>\n<p>So it&#8217;s being installed next Tuesday. \u00a0I&#8217;ll let you know how we get on!<\/p>\n",
-        "excerpt": "<p>So, life&#8217;s a bit different now to how it was a few months ago. I&#8217;m earning less and working from home, so it&#8217;s time to review  a few things.  And one change worthy of mention is my broadband supplier.<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

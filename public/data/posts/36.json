@@ -1,6 +1,258 @@
 [
     {
         "dataAsArray": {
+            "id": 1071,
+            "date": "2011-06-13T08:40:28",
+            "date_gmt": "2011-06-13T07:40:28",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1071"
+            },
+            "modified": "2011-06-13T08:40:28",
+            "modified_gmt": "2011-06-13T07:40:28",
+            "slug": "all-change-sky-to-virgin-media",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
+            "title": {
+                "rendered": "All change &#8211; Sky to Virgin Media"
+            },
+            "content": {
+                "rendered": "<p>So, life&#8217;s a bit different now to how it was a few months ago. I&#8217;m earning less and working from home, so it&#8217;s time to review \u00a0a few things. \u00a0And one change worthy of mention is my broadband supplier.<\/p>\n<p><!--more-->A long, long time ago I had a dial-up connection using NTL. \u00a0Leaving NTL was one of the biggest administration faffs of my life and I actually ended up losing several month&#8217;s line rental to them. \u00a0I was pretty upset and vowed never to use their services again. \u00a0When Virgin Media took NTL over my resentment was passed on to the new owner.<\/p>\n<p>This resentment has not been helped by Virgin&#8217;s frequent and incessant posting of marketing through our letterbox.<\/p>\n<p>When we moved to Swindon our first, rented house had no aerial so our options for TV were Sky or Virgin, and with past experiences in mind, we signed up to Sky. \u00a0Impressed with the service (especially Sky+, which has transformed our TV viewing), we&#8217;ve taken our Sky to the new house we&#8217;ve bought and gradually taken on more Sky services including phone calls and line rental.<\/p>\n<p>But working from home and being a web developer means I&#8217;m using my internet connection a lot more and doing not only lots of uploads, but some fairly hefty downloads too.<\/p>\n<p>And the only way to get quicker broadband round here is to go for Virgin and use the fibre that&#8217;s in our road.<\/p>\n<p>So I&#8217;ve been asking questions and considering the Virgin option and, with a slight reluctance, have now taken the plunge. \u00a0I&#8217;m ditching Sky and going fibre-optic.<\/p>\n<p>I have to say that this is almost purely a decision based on internet speed. \u00a0I&#8217;m expecting service to be roughly equivalent and cost-wise an equivalent Virgin package is about \u00a35 per month more expensive than Sky. \u00a0Well, it&#8217;s not quite equivalent; it includes HD &#8211; we can&#8217;t use HD as we have an old-skool SD, CRT TV, but where Sky do a cheaper SD option, VM don&#8217;t.<\/p>\n<p>We also benefit greatly from some Quidco.com cashback (\u00a3150&#8217;s worth!) and \u00a3100 credit on our account &#8211; a pretty nice little bonus.<\/p>\n<p>Sky didn&#8217;t put up much of a fight when I cancelled. \u00a0 No one seems to want to haggle these days! \u00a0I was expecting to be offered a cheaper package, but they didn&#8217;t offer me anything!<\/p>\n<p>So it&#8217;s being installed next Tuesday. \u00a0I&#8217;ll let you know how we get on!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>So, life&#8217;s a bit different now to how it was a few months ago. I&#8217;m earning less and working from home, so it&#8217;s time to review  a few things.  And one change worthy of mention is my broadband supplier.<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10,
+                23
+            ],
+            "tags": [
+                321,
+                322,
+                319,
+                324,
+                279,
+                323,
+                320
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>All change - Sky to Virgin Media - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"All change - Sky to Virgin Media - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"So, life&#039;s a bit different now to how it was a few months ago. I&#039;m earning less and working from home, so it&#039;s time to review a few things. And one change worthy of mention is my broadband supplier.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-06-13T07:40:28+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\",\"name\":\"All change - Sky to Virgin Media - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2011-06-13T07:40:28+00:00\",\"dateModified\":\"2011-06-13T07:40:28+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"All change &#8211; Sky to Virgin Media\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "All change - Sky to Virgin Media - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "All change - Sky to Virgin Media - Ross Wintle",
+                "og_description": "So, life's a bit different now to how it was a few months ago. I'm earning less and working from home, so it's time to review a few things. And one change worthy of mention is my broadband supplier.",
+                "og_url": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2011-06-13T07:40:28+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
+                            "url": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
+                            "name": "All change - Sky to Virgin Media - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2011-06-13T07:40:28+00:00",
+                            "dateModified": "2011-06-13T07:40:28+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "All change &#8211; Sky to Virgin Media"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1071"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1071"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 3,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1071\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 1074,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1071\/revisions\/1074"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1071"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1071"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1071"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 1071,
+        "dateGmt": "2011-06-13T07:40:28",
+        "modifiedDateGmt": "2011-06-13T07:40:28",
+        "slug": "all-change-sky-to-virgin-media",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2011\/06\/all-change-sky-to-virgin-media\/",
+        "title": "All change &#8211; Sky to Virgin Media",
+        "content": "<p>So, life&#8217;s a bit different now to how it was a few months ago. I&#8217;m earning less and working from home, so it&#8217;s time to review \u00a0a few things. \u00a0And one change worthy of mention is my broadband supplier.<\/p>\n<p><!--more-->A long, long time ago I had a dial-up connection using NTL. \u00a0Leaving NTL was one of the biggest administration faffs of my life and I actually ended up losing several month&#8217;s line rental to them. \u00a0I was pretty upset and vowed never to use their services again. \u00a0When Virgin Media took NTL over my resentment was passed on to the new owner.<\/p>\n<p>This resentment has not been helped by Virgin&#8217;s frequent and incessant posting of marketing through our letterbox.<\/p>\n<p>When we moved to Swindon our first, rented house had no aerial so our options for TV were Sky or Virgin, and with past experiences in mind, we signed up to Sky. \u00a0Impressed with the service (especially Sky+, which has transformed our TV viewing), we&#8217;ve taken our Sky to the new house we&#8217;ve bought and gradually taken on more Sky services including phone calls and line rental.<\/p>\n<p>But working from home and being a web developer means I&#8217;m using my internet connection a lot more and doing not only lots of uploads, but some fairly hefty downloads too.<\/p>\n<p>And the only way to get quicker broadband round here is to go for Virgin and use the fibre that&#8217;s in our road.<\/p>\n<p>So I&#8217;ve been asking questions and considering the Virgin option and, with a slight reluctance, have now taken the plunge. \u00a0I&#8217;m ditching Sky and going fibre-optic.<\/p>\n<p>I have to say that this is almost purely a decision based on internet speed. \u00a0I&#8217;m expecting service to be roughly equivalent and cost-wise an equivalent Virgin package is about \u00a35 per month more expensive than Sky. \u00a0Well, it&#8217;s not quite equivalent; it includes HD &#8211; we can&#8217;t use HD as we have an old-skool SD, CRT TV, but where Sky do a cheaper SD option, VM don&#8217;t.<\/p>\n<p>We also benefit greatly from some Quidco.com cashback (\u00a3150&#8217;s worth!) and \u00a3100 credit on our account &#8211; a pretty nice little bonus.<\/p>\n<p>Sky didn&#8217;t put up much of a fight when I cancelled. \u00a0 No one seems to want to haggle these days! \u00a0I was expecting to be offered a cheaper package, but they didn&#8217;t offer me anything!<\/p>\n<p>So it&#8217;s being installed next Tuesday. \u00a0I&#8217;ll let you know how we get on!<\/p>\n",
+        "excerpt": "<p>So, life&#8217;s a bit different now to how it was a few months ago. I&#8217;m earning less and working from home, so it&#8217;s time to review  a few things.  And one change worthy of mention is my broadband supplier.<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 1064,
             "date": "2011-06-10T16:28:01",
             "date_gmt": "2011-06-10T14:28:01",
@@ -2231,254 +2483,6 @@
         "title": "Vows",
         "content": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/02\/DSC_1036.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"alignright size-medium wp-image-1000\" title=\"Wedding\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/02\/DSC_1036-218x300.jpg\" alt=\"Wedding Photo\" width=\"218\" height=\"300\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/02\/DSC_1036-218x300.jpg 218w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/02\/DSC_1036-746x1024.jpg 746w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/02\/DSC_1036-109x150.jpg 109w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/02\/DSC_1036.jpg 773w\" sizes=\"(max-width: 218px) 100vw, 218px\" \/><\/a>Someone, several years ago, asked me this:<\/p>\n<blockquote><p>&#8220;Ross, will you take Sally to be your wife?  Will you love her, comfort her, honour and protect her, and, forsaking all others, be faithful to her as long as you both shall live?&#8221;<\/p><\/blockquote>\n<p>to which I answered a loud and resounding and heartfelt, &#8220;I WILL&#8221;.<\/p>\n<p><!--more--><\/p>\n<p>A few minutes later I said these words:<\/p>\n<blockquote><p>I, Ross, take you, Sally, to be my wife, to have and to hold from this day forward; for better, for worse, for richer, for poorer, in sickness and in health, to love and to cherish, till death us do part; according to God&#8217;s holy law. In the presence of God I make this vow.&#8221;<\/p><\/blockquote>\n<p>And, to my continual amazement, Sally, of course, also said &#8220;I will&#8221; and made the vows.  An act for which I shall be forever thankful.<\/p>\n<p>I repeated them after our vicar, but I HAD memorised them and I&#8217;m glad I did, because I still remember them and it&#8217;s good to remember them occasionally becayse those promises are the foundation of my marriage.<\/p>\n<p>Yes, I took those vows in a church and yes I believe I did them &#8220;in the presence of God, who is judge of all and knows all the secrets of our hearts&#8221;.  But even without God, those are big promises to make that have consequences for the rest of ones life.<\/p>\n<p>Yesterday was St Valentine&#8217;s Day and, while we don&#8217;t ever do much for it, it&#8217;s good to remember and to celebrate.<\/p>\n<p>I think the most difficult part of the vows is the &#8220;honour and protect&#8221; bit.  It&#8217;s easy to slip into making throwaway, jokey comments about &#8220;the wife&#8221; &#8211; especially in a male-dominated office.  But it seems awkward and counter-cultural to praise your wife\/girlfriend\/partner in public.<\/p>\n<p>So, yes, maybe this is a soppy post, but I write it unashamedly.<\/p>\n<p>We&#8217;re going through big changes right now, changes which are mostly better for me than for Sally, but she&#8217;s been unceasingly patient, encouraging and committed.  She&#8217;s served me as I&#8217;ve worked &#8211; not just as I&#8217;ve been doing a job-and-a-half for the last few months, but for the duration of our marriage.  She helps me through my doubts and joins with me in my excitement.<\/p>\n<p>I couldn&#8217;t be making my career move without her.  Today, I celebrate my wife Sally, whom I love greatly.<\/p>\n",
         "excerpt": "<p>Yesterday was St Valentine&#8217;s Day and, while we&#8217;re not big celebrators of this event, it&#8217;s good to remember and to celebrate.<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 995,
-            "date": "2011-02-10T21:15:39",
-            "date_gmt": "2011-02-10T21:15:39",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=995"
-            },
-            "modified": "2011-02-10T21:15:39",
-            "modified_gmt": "2011-02-10T21:15:39",
-            "slug": "sparks",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2011\/02\/sparks\/",
-            "title": {
-                "rendered": "Sparks"
-            },
-            "content": {
-                "rendered": "<p>&#8220;You can&#8217;t start a fire without a spark&#8221; sang Bruce &#8220;The Boss&#8221; Springsteen. \u00a0But equally it only takes a spark to light a big fire.<\/p>\n<p>I&#8217;ve been thinking about how my journey to leaving my job started. \u00a0It&#8217;s funny how a few words can have such a profound effect on your life.<\/p>\n<h2><!--more-->Creative?<\/h2>\n<p>I&#8217;ve never really considered myself to be &#8220;creative&#8221;. \u00a0I&#8217;d always associated creativity with &#8220;doing art&#8221;, visual things, physical crafts. \u00a0 Stuff that I&#8217;m generally not good at.<\/p>\n<p>We have some good friends who&#8217;ve known me for years, and we&#8217;ve had many conversations with them about creativity. \u00a0But it was only when they took us out for a meal and brought along two of their friends who we&#8217;d only met once before, that a change of mind began.<\/p>\n<p>These two people, who hardly knew me, refused to believe that I was not creative. \u00a0I don&#8217;t think it was specifically me, they believed in the creativity present in every person.<\/p>\n<p>That conversation was the start of a change in my worldview, my thinking not only about myself, but about everyone. \u00a0And the start of a journey that will probably result in huge changes in my life.<\/p>\n<h2>Making Stuff<\/h2>\n<p>I&#8217;ve learned that creativity is not just painting and drawing, or pottery, or making films or music. \u00a0Creativity is a more general concept&#8230;making stuff.<\/p>\n<p>This knowledge has been incredibly freeing for me, because, the truth is, I love to make stuff. \u00a0Not necessarily physical things, but&#8230;and yes I know how much of a geek I will sound when I say this&#8230;I love to make computer programs!<\/p>\n<p>From little scripts that make\u00a0repetitive\u00a0everyday tasks quick and simple to big web applications that store lots of important configuration data. \u00a0I thrive on the challenge of solving the logic puzzles of coding and producing tools that make people&#8217;s (mine and other&#8217;s) jobs and lives easier.<\/p>\n<p>And more recently I&#8217;ve had the bonus pleasure of working with some great designers to bring some designs to life as real working websites. \u00a0So, though I may not be very visually creative myself, I can feel like I&#8217;m making something not just practical, but beautiful too.<\/p>\n<h2>Learning Graphics<\/h2>\n<p>Things have now come full-circle as well. \u00a0Not only do I acknowledge and embrace my creativity, I want to be more creative! \u00a0I desire more and different kinds of creativity. \u00a0I find myself wanting to be able to design and understand the visually creative process too.<\/p>\n<p>So I&#8217;ve been playing with Photoshop and Illustrator, soaking up design blogs and website galleries and praying for the gift of visual creativity.<\/p>\n<h2>Where now?<\/h2>\n<p>So where has all this lead? \u00a0Well, that little conversation in a restaurant with two people I hardly know planted the seeds of change that resulted in me quitting my job &#8211; where I don&#8217;t get to make stuff &#8211; to pursue a career where I do.<\/p>\n<p>And guess what? I&#8217;m even finding the process of working out what&#8217;s next a creative one too. \u00a0I&#8217;m not just making &#8220;stuff&#8221;, I&#8217;m making the rest of my life!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;ve been thinking about how my journey to leaving my job started.  It&#8217;s funny how a few words can have such a profound effect on your life.<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                187
-            ],
-            "tags": [
-                286,
-                284,
-                285,
-                582
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Sparks - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/02\/sparks\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Sparks - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;ve been thinking about how my journey to leaving my job started. It&#039;s funny how a few words can have such a profound effect on your life.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/02\/sparks\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-02-10T21:15:39+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/02\/sparks\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/02\/sparks\/\",\"name\":\"Sparks - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2011-02-10T21:15:39+00:00\",\"dateModified\":\"2011-02-10T21:15:39+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/02\/sparks\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/02\/sparks\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/02\/sparks\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Sparks\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Sparks - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2011\/02\/sparks\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Sparks - Ross Wintle",
-                "og_description": "I've been thinking about how my journey to leaving my job started. It's funny how a few words can have such a profound effect on your life.",
-                "og_url": "https:\/\/rosswintle.uk\/2011\/02\/sparks\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2011-02-10T21:15:39+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "3 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2011\/02\/sparks\/",
-                            "url": "https:\/\/rosswintle.uk\/2011\/02\/sparks\/",
-                            "name": "Sparks - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2011-02-10T21:15:39+00:00",
-                            "dateModified": "2011-02-10T21:15:39+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2011\/02\/sparks\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2011\/02\/sparks\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2011\/02\/sparks\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Sparks"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/995"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=995"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 2,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/995\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 997,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/995\/revisions\/997"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=995"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=995"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=995"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 995,
-        "dateGmt": "2011-02-10T21:15:39",
-        "modifiedDateGmt": "2011-02-10T21:15:39",
-        "slug": "sparks",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2011\/02\/sparks\/",
-        "title": "Sparks",
-        "content": "<p>&#8220;You can&#8217;t start a fire without a spark&#8221; sang Bruce &#8220;The Boss&#8221; Springsteen. \u00a0But equally it only takes a spark to light a big fire.<\/p>\n<p>I&#8217;ve been thinking about how my journey to leaving my job started. \u00a0It&#8217;s funny how a few words can have such a profound effect on your life.<\/p>\n<h2><!--more-->Creative?<\/h2>\n<p>I&#8217;ve never really considered myself to be &#8220;creative&#8221;. \u00a0I&#8217;d always associated creativity with &#8220;doing art&#8221;, visual things, physical crafts. \u00a0 Stuff that I&#8217;m generally not good at.<\/p>\n<p>We have some good friends who&#8217;ve known me for years, and we&#8217;ve had many conversations with them about creativity. \u00a0But it was only when they took us out for a meal and brought along two of their friends who we&#8217;d only met once before, that a change of mind began.<\/p>\n<p>These two people, who hardly knew me, refused to believe that I was not creative. \u00a0I don&#8217;t think it was specifically me, they believed in the creativity present in every person.<\/p>\n<p>That conversation was the start of a change in my worldview, my thinking not only about myself, but about everyone. \u00a0And the start of a journey that will probably result in huge changes in my life.<\/p>\n<h2>Making Stuff<\/h2>\n<p>I&#8217;ve learned that creativity is not just painting and drawing, or pottery, or making films or music. \u00a0Creativity is a more general concept&#8230;making stuff.<\/p>\n<p>This knowledge has been incredibly freeing for me, because, the truth is, I love to make stuff. \u00a0Not necessarily physical things, but&#8230;and yes I know how much of a geek I will sound when I say this&#8230;I love to make computer programs!<\/p>\n<p>From little scripts that make\u00a0repetitive\u00a0everyday tasks quick and simple to big web applications that store lots of important configuration data. \u00a0I thrive on the challenge of solving the logic puzzles of coding and producing tools that make people&#8217;s (mine and other&#8217;s) jobs and lives easier.<\/p>\n<p>And more recently I&#8217;ve had the bonus pleasure of working with some great designers to bring some designs to life as real working websites. \u00a0So, though I may not be very visually creative myself, I can feel like I&#8217;m making something not just practical, but beautiful too.<\/p>\n<h2>Learning Graphics<\/h2>\n<p>Things have now come full-circle as well. \u00a0Not only do I acknowledge and embrace my creativity, I want to be more creative! \u00a0I desire more and different kinds of creativity. \u00a0I find myself wanting to be able to design and understand the visually creative process too.<\/p>\n<p>So I&#8217;ve been playing with Photoshop and Illustrator, soaking up design blogs and website galleries and praying for the gift of visual creativity.<\/p>\n<h2>Where now?<\/h2>\n<p>So where has all this lead? \u00a0Well, that little conversation in a restaurant with two people I hardly know planted the seeds of change that resulted in me quitting my job &#8211; where I don&#8217;t get to make stuff &#8211; to pursue a career where I do.<\/p>\n<p>And guess what? I&#8217;m even finding the process of working out what&#8217;s next a creative one too. \u00a0I&#8217;m not just making &#8220;stuff&#8221;, I&#8217;m making the rest of my life!<\/p>\n",
-        "excerpt": "<p>I&#8217;ve been thinking about how my journey to leaving my job started.  It&#8217;s funny how a few words can have such a profound effect on your life.<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

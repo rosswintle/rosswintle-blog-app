@@ -1,6 +1,243 @@
 [
     {
         "dataAsArray": {
+            "id": 58,
+            "date": "2007-08-09T17:04:00",
+            "date_gmt": "2007-08-09T17:04:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/08\/09\/cycling-update\/"
+            },
+            "modified": "2007-08-09T17:04:00",
+            "modified_gmt": "2007-08-09T17:04:00",
+            "slug": "cycling-update",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/",
+            "title": {
+                "rendered": "Cycling update"
+            },
+            "content": {
+                "rendered": "<p>Not done much longer distance cycling recently &#8211; though some would say I&#8217;ve never ridden a &#8220;long&#8221; distance, my 30 milers are as good as it gets.  My excuse: the weather&#8217;s been awful this summer with LOTS of rain. But it&#8217;s finally getting better, so it&#8217;s time to get out and trying to build up the distances again.<\/p>\n<p>Last night managed a measly-but-hilly 13.3 miles out to Wanborough (towards Uffington) and back in just over 45 mins, averaging about 17.3mph.  I played squash before the ride and by the time I finished I was pretty knackered but felt good!  My knees were OK, I felt pretty strong throughout, and my cycling shoes and clipless pedals made it a joy to do.  There were times of riding on the flat at 24mph that just felt really good!<\/p>\n<p>Oh, and I stopped for a while to rescue a little dog who was running around all over a main road too.<\/p>\n<p>I&#8217;m encouraged about this short evening ride, but I do need to get the distances up.  Let&#8217;s hope for lots more good weather!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Not done much longer distance cycling recently &#8211; though some would say I&#8217;ve never ridden a &#8220;long&#8221; distance, my 30 milers are as good as it gets. My excuse: the weather&#8217;s been awful this summer with LOTS of rain. But it&#8217;s finally getting better, so it&#8217;s time to get out and trying to build up [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Cycling update - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Cycling update - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Not done much longer distance cycling recently &#8211; though some would say I&#8217;ve never ridden a &#8220;long&#8221; distance, my 30 milers are as good as it gets. My excuse: the weather&#8217;s been awful this summer with LOTS of rain. But it&#8217;s finally getting better, so it&#8217;s time to get out and trying to build up [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-08-09T17:04:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/\",\"name\":\"Cycling update - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-08-09T17:04:00+00:00\",\"dateModified\":\"2007-08-09T17:04:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cycling update\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Cycling update - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Cycling update - Ross Wintle",
+                "og_description": "Not done much longer distance cycling recently &#8211; though some would say I&#8217;ve never ridden a &#8220;long&#8221; distance, my 30 milers are as good as it gets. My excuse: the weather&#8217;s been awful this summer with LOTS of rain. But it&#8217;s finally getting better, so it&#8217;s time to get out and trying to build up [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-08-09T17:04:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/",
+                            "name": "Cycling update - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-08-09T17:04:00+00:00",
+                            "dateModified": "2007-08-09T17:04:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Cycling update"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/58"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=58"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/58\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=58"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=58"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=58"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 58,
+        "dateGmt": "2007-08-09T17:04:00",
+        "modifiedDateGmt": "2007-08-09T17:04:00",
+        "slug": "cycling-update",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/08\/cycling-update\/",
+        "title": "Cycling update",
+        "content": "<p>Not done much longer distance cycling recently &#8211; though some would say I&#8217;ve never ridden a &#8220;long&#8221; distance, my 30 milers are as good as it gets.  My excuse: the weather&#8217;s been awful this summer with LOTS of rain. But it&#8217;s finally getting better, so it&#8217;s time to get out and trying to build up the distances again.<\/p>\n<p>Last night managed a measly-but-hilly 13.3 miles out to Wanborough (towards Uffington) and back in just over 45 mins, averaging about 17.3mph.  I played squash before the ride and by the time I finished I was pretty knackered but felt good!  My knees were OK, I felt pretty strong throughout, and my cycling shoes and clipless pedals made it a joy to do.  There were times of riding on the flat at 24mph that just felt really good!<\/p>\n<p>Oh, and I stopped for a while to rescue a little dog who was running around all over a main road too.<\/p>\n<p>I&#8217;m encouraged about this short evening ride, but I do need to get the distances up.  Let&#8217;s hope for lots more good weather!<\/p>\n",
+        "excerpt": "<p>Not done much longer distance cycling recently &#8211; though some would say I&#8217;ve never ridden a &#8220;long&#8221; distance, my 30 milers are as good as it gets. My excuse: the weather&#8217;s been awful this summer with LOTS of rain. But it&#8217;s finally getting better, so it&#8217;s time to get out and trying to build up [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 57,
             "date": "2007-08-08T17:57:00",
             "date_gmt": "2007-08-08T17:57:00",
@@ -2128,240 +2365,6 @@
         "title": "Facebook Feed",
         "content": "<p>Facebook&#8217;s import of my Blog into its &#8220;Notes&#8221; section has been on the blink for a few weeks and today finally gave up on me &#8211; so I&#8217;ve reconfigured the feed and re-synchronised everything, so hopefully it will stay up to date now.  Apologies for any confusion.<\/p>\n",
         "excerpt": "<p>Facebook&#8217;s import of my Blog into its &#8220;Notes&#8221; section has been on the blink for a few weeks and today finally gave up on me &#8211; so I&#8217;ve reconfigured the feed and re-synchronised everything, so hopefully it will stay up to date now. Apologies for any confusion.<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 48,
-            "date": "2007-06-30T14:41:00",
-            "date_gmt": "2007-06-30T14:41:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/06\/30\/new-toy-a-little-mp3-player\/"
-            },
-            "modified": "2007-06-30T14:41:00",
-            "modified_gmt": "2007-06-30T14:41:00",
-            "slug": "new-toy-a-little-mp3-player",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/",
-            "title": {
-                "rendered": "New Toy: A little MP3 player."
-            },
-            "content": {
-                "rendered": "<p>As a bit of a techie I like my gadgets.  I&#8217;m not over the top in this respect, but I like it when technology can improve my life or do something useful.  So when I buy new &#8220;toys&#8221;, I&#8217;ve generally thought quite hard about it.<\/p>\n<p>I really don&#8217;t intend to start making this a &#8220;Gadget Review Blog&#8221;, but when I buy new &#8220;toys&#8221; I&#8217;ll try and say why I bought them and what I think about them in the hope that my thoughts benefit someone else &#8211; or myself at a later date.<\/p>\n<p><span style=\"font-weight:bold;\">Why buy a little MP3 player?<\/span><\/p>\n<p>The background to this is that, after much deliberation, I bought a big-proper 30GB Apple iPod about a year ago.  I&#8217;m very pleased with this and it&#8217;s good for long journeys, by train or car, or to give me a day&#8217;s tunes at work.  But, despite being almost miraculously small for what it does, it&#8217;s too big and too fragile to be used when walking, cycling (on quiet roads only of course), or when at the gym.<\/p>\n<p>So, for a while I&#8217;ve been thinking about a cheap, ultra-small, solid-state music player to go alongside it.  For the less-technical, solid-state means that it has no moving parts.  Given that I like iTunes (for reasons I won&#8217;t go into here), an iPod Shuffle seems like the obvious choice &#8211; as it will easily sync to an iTunes playlist (or smart playlist).  It took a while to come around to the idea of a player without a screen, but I can see how it fulfills the need to just shove something in your pocket full of your favourite tunes, and go.  So a Shuffle has been on my shopping list for a while.<\/p>\n<p>THEN, I discovered <a href=\"http:\/\/ita.sourceforge.net\/\">iTunes Agent<\/a>, which is a far-from perfect piece of software, but one which allows you to sync non-Apple devices with iTunes.  This opens up the possibilities a bit more.<\/p>\n<p>Originally I sync&#8217;ed my Sony Ericsson Walkman mobile phone with it, and took that to the gym a few times.  However, the controls on the walkman phone aren&#8217;t great (they get locked out by the phone&#8217;s &#8220;auto-lock&#8221; feature) but then I found the Creative &#8220;Stone&#8221;.<\/p>\n<p>The &#8220;Stone&#8221; is Creative&#8217;s equivalent of the iPod Shuffle.  It&#8217;s got 1GB capacity, no display, simple controls and ~8 hours battery life.  At around \u00a323, it&#8217;s about half the price of an iPod Shuffle!  Bargain.<\/p>\n<p>So I got one.  Here it is with headphones, close up, and next to some chewing gum for scale!<\/p>\n<p><a href=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwonQOpJI\/AAAAAAAAAWo\/nxhCu3eECII\/s1600-h\/DSC00024.JPG\"><img decoding=\"async\" style=\"cursor:pointer;width:177px;height:132px;margin:5px auto 10px;\" src=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwonQOpJI\/AAAAAAAAAWo\/nxhCu3eECII\/s400\/DSC00024.JPG\" alt=\"\" border=\"0\" \/><\/a>     <a href=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwwnQOpKI\/AAAAAAAAAWw\/SNRXPb07y1k\/s1600-h\/DSC00025.JPG\"><img decoding=\"async\" style=\"cursor:pointer;width:177px;height:133px;margin:5px auto 10px;\" src=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwwnQOpKI\/AAAAAAAAAWw\/SNRXPb07y1k\/s400\/DSC00025.JPG\" alt=\"\" border=\"0\" \/><\/a>     <a href=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/RoqxnHQOpMI\/AAAAAAAAAXA\/1F_7TcnEjB0\/s1600-h\/DSC00026.JPG\"><img decoding=\"async\" style=\"cursor:pointer;width:178px;height:133px;margin:5px auto 10px;\" src=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/RoqxnHQOpMI\/AAAAAAAAAXA\/1F_7TcnEjB0\/s400\/DSC00026.JPG\" alt=\"\" border=\"0\" \/><\/a><\/p>\n<p>Looks pretty.  Looks TINY!!! But does it do the job?<\/p>\n<p>And I&#8217;m happy to say that yes, it does.  It&#8217;s easy to use, sounds good and does everything that it says it does.  I&#8217;ve not had the battery run out on me yet.  It feels sturdy and has survived many hours in my pocket already without much damage.<\/p>\n<p>I could only pick out three odd things, though these are more observations than annoyances.<\/p>\n<ol>\n<li><span style=\"font-weight:bold;\">It can only be charged from a USB port<\/span>.  It comes with a short mini-USB cable to do this, but other charging options would be nice. Having said that, charging is quick and the battery lasts a good while, particularly as it&#8217;s not a device I&#8217;ll use for LONG periods of time.<\/li>\n<li><span style=\"font-weight:bold;\">It takes a while to start up<\/span>.  When you turns it on there&#8217;s about 20 seconds of silence before it does anything.  My guess is that it&#8217;s scanning the files that you&#8217;ve loaded onto it. Fortunately it only does this after a total shutdown.  You can happily pause and restart music and it will only turn completely off if you leave it paused for a long time.<\/li>\n<li>Unlike the iPod Shuffle, <span style=\"font-weight:bold;\">it doesn&#8217;t have a &#8220;hold&#8221; switch<\/span> &#8211; used to &#8220;lock&#8221; the controls so that you don&#8217;t make accidental <a href=\"void(0)\"><span><\/span><\/a>button presses when the thing is in your pocket.  However, this isn&#8217;t a problem as the buttons are very nicely set up so that they need too much force to press accidentally, but not so much that you can&#8217;t easily use the controls.<\/li>\n<\/ol>\n<p>Overall, I like my &#8220;Stone&#8221; and I&#8217;m glad I bought it.  It serves a simple purpose and will make many a trip to the gym with me.  I&#8217;d recommend it to someone that wants a simple, cheap, micro-sized media player, and with iTA, you can sync with iTunes and have a &#8220;Shuffle&#8221; equivalent for half the price.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>As a bit of a techie I like my gadgets. I&#8217;m not over the top in this respect, but I like it when technology can improve my life or do something useful. So when I buy new &#8220;toys&#8221;, I&#8217;ve generally thought quite hard about it. I really don&#8217;t intend to start making this a &#8220;Gadget [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                23
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>New Toy: A little MP3 player. - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"New Toy: A little MP3 player. - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"As a bit of a techie I like my gadgets. I&#8217;m not over the top in this respect, but I like it when technology can improve my life or do something useful. So when I buy new &#8220;toys&#8221;, I&#8217;ve generally thought quite hard about it. I really don&#8217;t intend to start making this a &#8220;Gadget [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-06-30T14:41:00+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwonQOpJI\/AAAAAAAAAWo\/nxhCu3eECII\/s400\/DSC00024.JPG\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/\",\"name\":\"New Toy: A little MP3 player. - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-06-30T14:41:00+00:00\",\"dateModified\":\"2007-06-30T14:41:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"New Toy: A little MP3 player.\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "New Toy: A little MP3 player. - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "New Toy: A little MP3 player. - Ross Wintle",
-                "og_description": "As a bit of a techie I like my gadgets. I&#8217;m not over the top in this respect, but I like it when technology can improve my life or do something useful. So when I buy new &#8220;toys&#8221;, I&#8217;ve generally thought quite hard about it. I really don&#8217;t intend to start making this a &#8220;Gadget [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2007-06-30T14:41:00+00:00",
-                "og_image": [
-                    {
-                        "url": "http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwonQOpJI\/AAAAAAAAAWo\/nxhCu3eECII\/s400\/DSC00024.JPG"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/",
-                            "url": "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/",
-                            "name": "New Toy: A little MP3 player. - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2007-06-30T14:41:00+00:00",
-                            "dateModified": "2007-06-30T14:41:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "New Toy: A little MP3 player."
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/48"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=48"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/48\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=48"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=48"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=48"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 48,
-        "dateGmt": "2007-06-30T14:41:00",
-        "modifiedDateGmt": "2007-06-30T14:41:00",
-        "slug": "new-toy-a-little-mp3-player",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2007\/06\/new-toy-a-little-mp3-player\/",
-        "title": "New Toy: A little MP3 player.",
-        "content": "<p>As a bit of a techie I like my gadgets.  I&#8217;m not over the top in this respect, but I like it when technology can improve my life or do something useful.  So when I buy new &#8220;toys&#8221;, I&#8217;ve generally thought quite hard about it.<\/p>\n<p>I really don&#8217;t intend to start making this a &#8220;Gadget Review Blog&#8221;, but when I buy new &#8220;toys&#8221; I&#8217;ll try and say why I bought them and what I think about them in the hope that my thoughts benefit someone else &#8211; or myself at a later date.<\/p>\n<p><span style=\"font-weight:bold;\">Why buy a little MP3 player?<\/span><\/p>\n<p>The background to this is that, after much deliberation, I bought a big-proper 30GB Apple iPod about a year ago.  I&#8217;m very pleased with this and it&#8217;s good for long journeys, by train or car, or to give me a day&#8217;s tunes at work.  But, despite being almost miraculously small for what it does, it&#8217;s too big and too fragile to be used when walking, cycling (on quiet roads only of course), or when at the gym.<\/p>\n<p>So, for a while I&#8217;ve been thinking about a cheap, ultra-small, solid-state music player to go alongside it.  For the less-technical, solid-state means that it has no moving parts.  Given that I like iTunes (for reasons I won&#8217;t go into here), an iPod Shuffle seems like the obvious choice &#8211; as it will easily sync to an iTunes playlist (or smart playlist).  It took a while to come around to the idea of a player without a screen, but I can see how it fulfills the need to just shove something in your pocket full of your favourite tunes, and go.  So a Shuffle has been on my shopping list for a while.<\/p>\n<p>THEN, I discovered <a href=\"http:\/\/ita.sourceforge.net\/\">iTunes Agent<\/a>, which is a far-from perfect piece of software, but one which allows you to sync non-Apple devices with iTunes.  This opens up the possibilities a bit more.<\/p>\n<p>Originally I sync&#8217;ed my Sony Ericsson Walkman mobile phone with it, and took that to the gym a few times.  However, the controls on the walkman phone aren&#8217;t great (they get locked out by the phone&#8217;s &#8220;auto-lock&#8221; feature) but then I found the Creative &#8220;Stone&#8221;.<\/p>\n<p>The &#8220;Stone&#8221; is Creative&#8217;s equivalent of the iPod Shuffle.  It&#8217;s got 1GB capacity, no display, simple controls and ~8 hours battery life.  At around \u00a323, it&#8217;s about half the price of an iPod Shuffle!  Bargain.<\/p>\n<p>So I got one.  Here it is with headphones, close up, and next to some chewing gum for scale!<\/p>\n<p><a href=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwonQOpJI\/AAAAAAAAAWo\/nxhCu3eECII\/s1600-h\/DSC00024.JPG\"><img decoding=\"async\" style=\"cursor:pointer;width:177px;height:132px;margin:5px auto 10px;\" src=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwonQOpJI\/AAAAAAAAAWo\/nxhCu3eECII\/s400\/DSC00024.JPG\" alt=\"\" border=\"0\" \/><\/a>     <a href=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwwnQOpKI\/AAAAAAAAAWw\/SNRXPb07y1k\/s1600-h\/DSC00025.JPG\"><img decoding=\"async\" style=\"cursor:pointer;width:177px;height:133px;margin:5px auto 10px;\" src=\"http:\/\/1.bp.blogspot.com\/__353xnCqQbI\/RoqwwnQOpKI\/AAAAAAAAAWw\/SNRXPb07y1k\/s400\/DSC00025.JPG\" alt=\"\" border=\"0\" \/><\/a>     <a href=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/RoqxnHQOpMI\/AAAAAAAAAXA\/1F_7TcnEjB0\/s1600-h\/DSC00026.JPG\"><img decoding=\"async\" style=\"cursor:pointer;width:178px;height:133px;margin:5px auto 10px;\" src=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/RoqxnHQOpMI\/AAAAAAAAAXA\/1F_7TcnEjB0\/s400\/DSC00026.JPG\" alt=\"\" border=\"0\" \/><\/a><\/p>\n<p>Looks pretty.  Looks TINY!!! But does it do the job?<\/p>\n<p>And I&#8217;m happy to say that yes, it does.  It&#8217;s easy to use, sounds good and does everything that it says it does.  I&#8217;ve not had the battery run out on me yet.  It feels sturdy and has survived many hours in my pocket already without much damage.<\/p>\n<p>I could only pick out three odd things, though these are more observations than annoyances.<\/p>\n<ol>\n<li><span style=\"font-weight:bold;\">It can only be charged from a USB port<\/span>.  It comes with a short mini-USB cable to do this, but other charging options would be nice. Having said that, charging is quick and the battery lasts a good while, particularly as it&#8217;s not a device I&#8217;ll use for LONG periods of time.<\/li>\n<li><span style=\"font-weight:bold;\">It takes a while to start up<\/span>.  When you turns it on there&#8217;s about 20 seconds of silence before it does anything.  My guess is that it&#8217;s scanning the files that you&#8217;ve loaded onto it. Fortunately it only does this after a total shutdown.  You can happily pause and restart music and it will only turn completely off if you leave it paused for a long time.<\/li>\n<li>Unlike the iPod Shuffle, <span style=\"font-weight:bold;\">it doesn&#8217;t have a &#8220;hold&#8221; switch<\/span> &#8211; used to &#8220;lock&#8221; the controls so that you don&#8217;t make accidental <a href=\"void(0)\"><span><\/span><\/a>button presses when the thing is in your pocket.  However, this isn&#8217;t a problem as the buttons are very nicely set up so that they need too much force to press accidentally, but not so much that you can&#8217;t easily use the controls.<\/li>\n<\/ol>\n<p>Overall, I like my &#8220;Stone&#8221; and I&#8217;m glad I bought it.  It serves a simple purpose and will make many a trip to the gym with me.  I&#8217;d recommend it to someone that wants a simple, cheap, micro-sized media player, and with iTA, you can sync with iTunes and have a &#8220;Shuffle&#8221; equivalent for half the price.<\/p>\n",
-        "excerpt": "<p>As a bit of a techie I like my gadgets. I&#8217;m not over the top in this respect, but I like it when technology can improve my life or do something useful. So when I buy new &#8220;toys&#8221;, I&#8217;ve generally thought quite hard about it. I really don&#8217;t intend to start making this a &#8220;Gadget [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

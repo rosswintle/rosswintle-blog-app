@@ -1,6 +1,250 @@
 [
     {
         "dataAsArray": {
+            "id": 1715,
+            "date": "2013-12-11T13:45:02",
+            "date_gmt": "2013-12-11T13:45:02",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1715"
+            },
+            "modified": "2013-12-12T10:18:32",
+            "modified_gmt": "2013-12-12T10:18:32",
+            "slug": "treachery-code",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+            "title": {
+                "rendered": "The Treachery of Code"
+            },
+            "content": {
+                "rendered": "<h2>Conversations about Code<\/h2>\n<p>I&#8217;ve had a couple of great conversations lately about coding, languages and teaching people to code. \u00a0The latter conversation was on the back of <a title=\"CodeAcademy\" href=\"http:\/\/www.codecademy.com\/\">CodeAcademy<\/a> launching an <a href=\"http:\/\/www.theguardian.com\/technology\/2013\/dec\/09\/codecademy-hour-of-code-iphone-app\">&#8220;Hour of Code&#8221; app<\/a> that aims to teach the basics of programming to anyone with a smartphone (iOS only at present, I believe, sorry!).<\/p>\n<p>Now, I actually think CodeAcademy is a great resource with a great mission: making learning to code easy! \u00a0But, I think CodeAcademy&#8217;s approach, and in particular, the focus on JavaScript (which is, in my opinion, a bad language to learn to code in), isn&#8217;t great. \u00a0And the app version has some serious flaws.<\/p>\n<p>(I&#8217;m keen to point out at this point that this is <em>opinion<\/em>, and that I have a particular, very formal background in software engineering on which those opinions are based. Other opinions may also be valid!)<\/p>\n<h2>Examples<\/h2>\n<p>To demonstrate these flaws, I had a conversation with someone older than me who&#8217;s done no coding. \u00a0I explained, in very basic terms, a particular aspect of why I dislike JavaScript as a language to learn to code. \u00a0It went something like this.<\/p>\n<p>In coding, there are different types of things. \u00a0There is the number 2, and there is the text representing the number 2.<\/p>\n<p>The number two is written like this:<\/p>\n<p>2<\/p>\n<p>This is actually a number.<\/p>\n<p>Here is another number:<\/p>\n<p>4<\/p>\n<p>You can do maths with numbers. \u00a0So you can add numbers together:<\/p>\n<p>2 + 4 = 6<\/p>\n<p>Now. \u00a0In most programming languages you can also write 2 with quotes around it, like this:<\/p>\n<p>&#8220;2&#8221;<\/p>\n<p>This is not a number. \u00a0This is called a &#8220;string&#8221;. \u00a0<span style=\"line-height: 1.5;\">Strings are just text &#8211; they can contain any symbols: letters, numbers, dollar signs, etc. \u00a0<\/span><\/p>\n<p>It&#8217;s like the old &#8220;Ceci n&#8217;est pas une pipe&#8221; thing. <a title=\"The Treachery of Images - Wikipedia\" href=\"http:\/\/en.wikipedia.org\/wiki\/The_Treachery_of_Images\">Magritte&#8217;s painting of a pipe<\/a>. \u00a0It&#8217;s not actually a pipe, it&#8217;s just a painting of a pipe. \u00a0This is not the number two, it&#8217;s a textual version of the number 2.<\/p>\n<p>We can have a string with a letter in:<\/p>\n<p>&#8220;a&#8221;<\/p>\n<p>Or we can have a string with several letters and\/or numbers:<\/p>\n<p>&#8220;abc123&#8221;<\/p>\n<p>And, conveniently, you can join strings together. \u00a0Oddly, in some languages, you use the + sign to do this:<\/p>\n<p>&#8220;abc&#8221; + &#8220;123&#8221; = &#8220;abc123&#8221;<\/p>\n<p>So. Let&#8217;s do some &#8220;addition&#8221; and see what we get.<\/p>\n<p>2 + 4 = 6<\/p>\n<p>but<\/p>\n<p>&#8220;2&#8221; + &#8220;4&#8221; = &#8220;24&#8221;<\/p>\n<p>remember these have quotes around them and so they are strings, not numbers. \u00a0+ joins them together, rather than adding them. \u00a0So we can also do:<\/p>\n<p>&#8220;2&#8221; + &#8220;a&#8221; = &#8220;2a&#8221;<\/p>\n<p>Hope you&#8217;re still with me.<\/p>\n<p>To the conundrum then. \u00a0What is this?:<\/p>\n<p>2 + &#8220;a&#8221; = ?<\/p>\n<p>When I put this to said older person who has no coding experience he said &#8220;It&#8217;s not allowed&#8221;.<\/p>\n<p>And, in my opinion, he&#8217;s right. \u00a0This shouldn&#8217;t be allowed. It should print an error message and force you to correct it.<\/p>\n<p>There are other opinions. \u00a0Some would say that, clearly, this should be:<\/p>\n<p>2 + &#8220;a&#8221; = &#8220;2a&#8221;<\/p>\n<p>In this case it&#8217;s assumed that the language will convert the number 2 from a number into a string and then do the joining.<\/p>\n<p>But assumptions are bad. \u00a0If you assume that then do you assume the same thing happens with two numbers?<\/p>\n<p>2 + 2 = &#8220;22&#8221; ?<\/p>\n<p>Clearly that&#8217;s an exaggeration, because it&#8217;s so simple. The intention there is clearly to do addition.<\/p>\n<p>But what about something even ever-so-slightly more complex like:<\/p>\n<p>2 + 2 + &#8220;a&#8221; =?<\/p>\n<p>Is this:<\/p>\n<p>2 + 2 + &#8220;a&#8221; = 4 + a = &#8220;4a&#8221;<\/p>\n<p>or<\/p>\n<p>2 + 2 + &#8220;a&#8221; = 2 + &#8220;2a&#8221; = &#8220;22a&#8221;<\/p>\n<p>Note to coders: yes, we can learn something from trying this. We can learn type casting\/coercion, and we can learn operator precedence. My point is that we shouldn&#8217;t have to. \u00a0Code should be clear and meaningful, not ambiguous. \u00a0We should teach people to understand the code that they write, and it&#8217;s much easier to teach that if the code that they write is correct and meaningful.<\/p>\n<p>So it kind of pained me to see an ambiguous example of hugely ambiguous code in CodeAcademy&#8217;s app. \u00a0The image below is a screen shot:<\/p>\n<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06.png\"><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter size-medium wp-image-1716\" alt=\"CodeAcademy App Bad Code\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png\" width=\"200\" height=\"300\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png 200w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06.png 640w\" sizes=\"(max-width: 200px) 100vw, 200px\" \/><\/a><\/p>\n<p>Here&#8217;s the code (I&#8217;ve filled in the minus symbol that is the correct answer to the question):<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&lt;span style=&quot;line-height: 1.5;&quot;&gt;var currentYear = 2013;&lt;\/span&gt;\r\n\r\nvar moonLandingYear = 1969;\r\n\r\nprint(&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;);\r\n\r\n<\/pre>\n<p><span style=\"line-height: 1.5;\">This has introduced an extra concept: the = sign is used to save a value. \u00a0So when you see &#8220;var currentYear = 2013&#8221; that means &#8220;store the value 2013 using the name currentYear&#8221;. \u00a0The code can then get the value 2013 back by asking for currentYear. Note that currentYear and moonLandingYear are numbers, not strings; they are 2013, not &#8220;2013&#8221;.<\/span><\/p>\n<p>Now, this code example isn&#8217;t JavaScript, but it looks a lot like it. The question is, what gets printed? \u00a0What is the result of &#8220;adding&#8221; the combination of strings and numbers:<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n<\/pre>\n<p>Option 1: Assume that the subtract is done first and the resulting number automatically converted to a string and joined with the rest<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 2013 - 1969 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 44 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was 44 years ago&quot;\r\n\r\n<\/pre>\n<p>This seems correct. But is it what the code actually does? \u00a0There&#8217;s another possible interpretation.<\/p>\n<p>Option 2: Assume that we process the + symbols from left to right (as you do in maths), converting numbers to strings as you go:<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 2013 - 1969 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was 2013&quot; - 1969 + &quot; years ago&quot; = ....?\r\n\r\n<\/pre>\n<p>Oh.<\/p>\n<p>Hang on.<\/p>\n<p>We know that the plus sign joins two strings together. \u00a0But what does the minus sign do with a string?<\/p>\n<p>It turns out that not only is this a really bad code example. But if you convert it into actual JavaScript you don&#8217;t get the intended result. You get the rather odd output of &#8220;NaN years ago&#8221;. \u00a0This is because a string minus a number is a special thing called &#8220;Not a Number&#8221;, or &#8220;NaN&#8221; for short.<\/p>\n<p>Here it is in practice:\u00a0<a href=\"http:\/\/jsfiddle.net\/8Xs4Q\/\">http:\/\/jsfiddle.net\/8Xs4Q\/<\/a>\u00a0&#8211; you can click the &#8220;Run&#8221; button at the top as many times as you like to run the code, which is in the bottom-left box, and see what gets printed in the pop-up box.<\/p>\n<h2>Why is this so bad?<\/h2>\n<p>Well, aside from the fact that CodeAcademy&#8217;s examples are broken&#8230;<\/p>\n<p>JavaScript is a neat, easy-to-use, very forgiving language. In some ways it&#8217;s ideal for learning to code because it&#8217;s installed on pretty much everyone&#8217;s PC as part of their web browser. \u00a0Just hit the F12 key, click &#8220;Console&#8221; and you can write JavaScript. And in the right hands it&#8217;s a very powerful language too. I don&#8217;t deny these things.<\/p>\n<p>But!&#8230;it&#8217;s SO easy to write the wrong code in JavaScript. It doesn&#8217;t tell you when you&#8217;ve made a basic error. \u00a0YES, yes you CAN learn by making mistakes and finding out what you did wrong. But is it not better to teach people not to make those mistakes in the first place? \u00a0To use a language that points out your mistakes clearly rather than one which makes assumptions about what you mean and carries on regardless?<\/p>\n<p>Code should be easy to understand, it should communicate the correct meaning to both the computer AND the reader. \u00a0The reader shouldn&#8217;t need a detailed understanding of operator precedence and type coercion to understand what&#8217;s going on in their first ever hour of coding.<\/p>\n<p>I&#8217;m not a perfect coder &#8211; no one is. I don&#8217;t do all the things in code that I think people should do all the time. But real-world projects have contraints that mean sometimes you have to work a bit quicker, deliver something to a deadline or budget.<\/p>\n<p>But I do think we should <em>teach<\/em> people to write code that&#8217;s meaningful and understandable. We should teach people to write code where it&#8217;s clear what the code does, not dependant on assumptions about the language or some deeper understanding. \u00a0It&#8217;s my opinion that neither JavaScript nor CodeAcademy&#8217;s new app are good tools for doing that. \u00a0Which is a shame, because I LOVE the CodeAcademy concept. Heck, if you&#8217;re interested in learning to code, it&#8217;s better than anywhere else to get self-taught. \u00a0Ignore my ranting and <a href=\"http:\/\/codeacademy.com\" target=\"_blank\">go and do something&#8230;errr&#8230;interesting<\/a>?<\/p>\n<p><iframe loading=\"lazy\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/L4p-Osvw3sQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe><\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I think we should teach people to write code that&#8217;s meaningful and understandable.  It&#8217;s my opinion that neither JavaScript nor CodeAcademy&#8217;s new app are good tools for doing that. <\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23,
+                24
+            ],
+            "tags": [
+                28,
+                387,
+                464,
+                107,
+                463
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Treachery of Code - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Treachery of Code - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I think we should teach people to write code that&#039;s meaningful and understandable. It&#039;s my opinion that neither JavaScript nor CodeAcademy&#039;s new app are good tools for doing that.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2013-12-11T13:45:02+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2013-12-12T10:18:32+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"7 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\",\"url\":\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\",\"name\":\"The Treachery of Code - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2013-12-11T13:45:02+00:00\",\"dateModified\":\"2013-12-12T10:18:32+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Treachery of Code\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "The Treachery of Code - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "The Treachery of Code - Ross Wintle",
+                "og_description": "I think we should teach people to write code that's meaningful and understandable. It's my opinion that neither JavaScript nor CodeAcademy's new app are good tools for doing that.",
+                "og_url": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2013-12-11T13:45:02+00:00",
+                "article_modified_time": "2013-12-12T10:18:32+00:00",
+                "og_image": [
+                    {
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "7 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+                            "url": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+                            "name": "The Treachery of Code - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2013-12-11T13:45:02+00:00",
+                            "dateModified": "2013-12-12T10:18:32+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "The Treachery of Code"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1715"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1715"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 9,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1715\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 1744,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1715\/revisions\/1744"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1715"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1715"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1715"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 1715,
+        "dateGmt": "2013-12-11T13:45:02",
+        "modifiedDateGmt": "2013-12-12T10:18:32",
+        "slug": "treachery-code",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2013\/12\/treachery-code\/",
+        "title": "The Treachery of Code",
+        "content": "<h2>Conversations about Code<\/h2>\n<p>I&#8217;ve had a couple of great conversations lately about coding, languages and teaching people to code. \u00a0The latter conversation was on the back of <a title=\"CodeAcademy\" href=\"http:\/\/www.codecademy.com\/\">CodeAcademy<\/a> launching an <a href=\"http:\/\/www.theguardian.com\/technology\/2013\/dec\/09\/codecademy-hour-of-code-iphone-app\">&#8220;Hour of Code&#8221; app<\/a> that aims to teach the basics of programming to anyone with a smartphone (iOS only at present, I believe, sorry!).<\/p>\n<p>Now, I actually think CodeAcademy is a great resource with a great mission: making learning to code easy! \u00a0But, I think CodeAcademy&#8217;s approach, and in particular, the focus on JavaScript (which is, in my opinion, a bad language to learn to code in), isn&#8217;t great. \u00a0And the app version has some serious flaws.<\/p>\n<p>(I&#8217;m keen to point out at this point that this is <em>opinion<\/em>, and that I have a particular, very formal background in software engineering on which those opinions are based. Other opinions may also be valid!)<\/p>\n<h2>Examples<\/h2>\n<p>To demonstrate these flaws, I had a conversation with someone older than me who&#8217;s done no coding. \u00a0I explained, in very basic terms, a particular aspect of why I dislike JavaScript as a language to learn to code. \u00a0It went something like this.<\/p>\n<p>In coding, there are different types of things. \u00a0There is the number 2, and there is the text representing the number 2.<\/p>\n<p>The number two is written like this:<\/p>\n<p>2<\/p>\n<p>This is actually a number.<\/p>\n<p>Here is another number:<\/p>\n<p>4<\/p>\n<p>You can do maths with numbers. \u00a0So you can add numbers together:<\/p>\n<p>2 + 4 = 6<\/p>\n<p>Now. \u00a0In most programming languages you can also write 2 with quotes around it, like this:<\/p>\n<p>&#8220;2&#8221;<\/p>\n<p>This is not a number. \u00a0This is called a &#8220;string&#8221;. \u00a0<span style=\"line-height: 1.5;\">Strings are just text &#8211; they can contain any symbols: letters, numbers, dollar signs, etc. \u00a0<\/span><\/p>\n<p>It&#8217;s like the old &#8220;Ceci n&#8217;est pas une pipe&#8221; thing. <a title=\"The Treachery of Images - Wikipedia\" href=\"http:\/\/en.wikipedia.org\/wiki\/The_Treachery_of_Images\">Magritte&#8217;s painting of a pipe<\/a>. \u00a0It&#8217;s not actually a pipe, it&#8217;s just a painting of a pipe. \u00a0This is not the number two, it&#8217;s a textual version of the number 2.<\/p>\n<p>We can have a string with a letter in:<\/p>\n<p>&#8220;a&#8221;<\/p>\n<p>Or we can have a string with several letters and\/or numbers:<\/p>\n<p>&#8220;abc123&#8221;<\/p>\n<p>And, conveniently, you can join strings together. \u00a0Oddly, in some languages, you use the + sign to do this:<\/p>\n<p>&#8220;abc&#8221; + &#8220;123&#8221; = &#8220;abc123&#8221;<\/p>\n<p>So. Let&#8217;s do some &#8220;addition&#8221; and see what we get.<\/p>\n<p>2 + 4 = 6<\/p>\n<p>but<\/p>\n<p>&#8220;2&#8221; + &#8220;4&#8221; = &#8220;24&#8221;<\/p>\n<p>remember these have quotes around them and so they are strings, not numbers. \u00a0+ joins them together, rather than adding them. \u00a0So we can also do:<\/p>\n<p>&#8220;2&#8221; + &#8220;a&#8221; = &#8220;2a&#8221;<\/p>\n<p>Hope you&#8217;re still with me.<\/p>\n<p>To the conundrum then. \u00a0What is this?:<\/p>\n<p>2 + &#8220;a&#8221; = ?<\/p>\n<p>When I put this to said older person who has no coding experience he said &#8220;It&#8217;s not allowed&#8221;.<\/p>\n<p>And, in my opinion, he&#8217;s right. \u00a0This shouldn&#8217;t be allowed. It should print an error message and force you to correct it.<\/p>\n<p>There are other opinions. \u00a0Some would say that, clearly, this should be:<\/p>\n<p>2 + &#8220;a&#8221; = &#8220;2a&#8221;<\/p>\n<p>In this case it&#8217;s assumed that the language will convert the number 2 from a number into a string and then do the joining.<\/p>\n<p>But assumptions are bad. \u00a0If you assume that then do you assume the same thing happens with two numbers?<\/p>\n<p>2 + 2 = &#8220;22&#8221; ?<\/p>\n<p>Clearly that&#8217;s an exaggeration, because it&#8217;s so simple. The intention there is clearly to do addition.<\/p>\n<p>But what about something even ever-so-slightly more complex like:<\/p>\n<p>2 + 2 + &#8220;a&#8221; =?<\/p>\n<p>Is this:<\/p>\n<p>2 + 2 + &#8220;a&#8221; = 4 + a = &#8220;4a&#8221;<\/p>\n<p>or<\/p>\n<p>2 + 2 + &#8220;a&#8221; = 2 + &#8220;2a&#8221; = &#8220;22a&#8221;<\/p>\n<p>Note to coders: yes, we can learn something from trying this. We can learn type casting\/coercion, and we can learn operator precedence. My point is that we shouldn&#8217;t have to. \u00a0Code should be clear and meaningful, not ambiguous. \u00a0We should teach people to understand the code that they write, and it&#8217;s much easier to teach that if the code that they write is correct and meaningful.<\/p>\n<p>So it kind of pained me to see an ambiguous example of hugely ambiguous code in CodeAcademy&#8217;s app. \u00a0The image below is a screen shot:<\/p>\n<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06.png\"><img loading=\"lazy\" decoding=\"async\" class=\"aligncenter size-medium wp-image-1716\" alt=\"CodeAcademy App Bad Code\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png\" width=\"200\" height=\"300\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06-200x300.png 200w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2013\/12\/2013-12-11-08.09.06.png 640w\" sizes=\"(max-width: 200px) 100vw, 200px\" \/><\/a><\/p>\n<p>Here&#8217;s the code (I&#8217;ve filled in the minus symbol that is the correct answer to the question):<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&lt;span style=&quot;line-height: 1.5;&quot;&gt;var currentYear = 2013;&lt;\/span&gt;\r\n\r\nvar moonLandingYear = 1969;\r\n\r\nprint(&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;);\r\n\r\n<\/pre>\n<p><span style=\"line-height: 1.5;\">This has introduced an extra concept: the = sign is used to save a value. \u00a0So when you see &#8220;var currentYear = 2013&#8221; that means &#8220;store the value 2013 using the name currentYear&#8221;. \u00a0The code can then get the value 2013 back by asking for currentYear. Note that currentYear and moonLandingYear are numbers, not strings; they are 2013, not &#8220;2013&#8221;.<\/span><\/p>\n<p>Now, this code example isn&#8217;t JavaScript, but it looks a lot like it. The question is, what gets printed? \u00a0What is the result of &#8220;adding&#8221; the combination of strings and numbers:<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n<\/pre>\n<p>Option 1: Assume that the subtract is done first and the resulting number automatically converted to a string and joined with the rest<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 2013 - 1969 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 44 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was 44 years ago&quot;\r\n\r\n<\/pre>\n<p>This seems correct. But is it what the code actually does? \u00a0There&#8217;s another possible interpretation.<\/p>\n<p>Option 2: Assume that we process the + symbols from left to right (as you do in maths), converting numbers to strings as you go:<\/p>\n<pre class=\"brush: plain; gutter: false; title: ; notranslate\" title=\"\">\r\n\r\n&quot;The first landing was &quot; + currentYear - moonLandingYear + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was &quot; + 2013 - 1969 + &quot; years ago&quot;\r\n\r\n=\u00a0&quot;The first landing was 2013&quot; - 1969 + &quot; years ago&quot; = ....?\r\n\r\n<\/pre>\n<p>Oh.<\/p>\n<p>Hang on.<\/p>\n<p>We know that the plus sign joins two strings together. \u00a0But what does the minus sign do with a string?<\/p>\n<p>It turns out that not only is this a really bad code example. But if you convert it into actual JavaScript you don&#8217;t get the intended result. You get the rather odd output of &#8220;NaN years ago&#8221;. \u00a0This is because a string minus a number is a special thing called &#8220;Not a Number&#8221;, or &#8220;NaN&#8221; for short.<\/p>\n<p>Here it is in practice:\u00a0<a href=\"http:\/\/jsfiddle.net\/8Xs4Q\/\">http:\/\/jsfiddle.net\/8Xs4Q\/<\/a>\u00a0&#8211; you can click the &#8220;Run&#8221; button at the top as many times as you like to run the code, which is in the bottom-left box, and see what gets printed in the pop-up box.<\/p>\n<h2>Why is this so bad?<\/h2>\n<p>Well, aside from the fact that CodeAcademy&#8217;s examples are broken&#8230;<\/p>\n<p>JavaScript is a neat, easy-to-use, very forgiving language. In some ways it&#8217;s ideal for learning to code because it&#8217;s installed on pretty much everyone&#8217;s PC as part of their web browser. \u00a0Just hit the F12 key, click &#8220;Console&#8221; and you can write JavaScript. And in the right hands it&#8217;s a very powerful language too. I don&#8217;t deny these things.<\/p>\n<p>But!&#8230;it&#8217;s SO easy to write the wrong code in JavaScript. It doesn&#8217;t tell you when you&#8217;ve made a basic error. \u00a0YES, yes you CAN learn by making mistakes and finding out what you did wrong. But is it not better to teach people not to make those mistakes in the first place? \u00a0To use a language that points out your mistakes clearly rather than one which makes assumptions about what you mean and carries on regardless?<\/p>\n<p>Code should be easy to understand, it should communicate the correct meaning to both the computer AND the reader. \u00a0The reader shouldn&#8217;t need a detailed understanding of operator precedence and type coercion to understand what&#8217;s going on in their first ever hour of coding.<\/p>\n<p>I&#8217;m not a perfect coder &#8211; no one is. I don&#8217;t do all the things in code that I think people should do all the time. But real-world projects have contraints that mean sometimes you have to work a bit quicker, deliver something to a deadline or budget.<\/p>\n<p>But I do think we should <em>teach<\/em> people to write code that&#8217;s meaningful and understandable. We should teach people to write code where it&#8217;s clear what the code does, not dependant on assumptions about the language or some deeper understanding. \u00a0It&#8217;s my opinion that neither JavaScript nor CodeAcademy&#8217;s new app are good tools for doing that. \u00a0Which is a shame, because I LOVE the CodeAcademy concept. Heck, if you&#8217;re interested in learning to code, it&#8217;s better than anywhere else to get self-taught. \u00a0Ignore my ranting and <a href=\"http:\/\/codeacademy.com\" target=\"_blank\">go and do something&#8230;errr&#8230;interesting<\/a>?<\/p>\n<p><iframe loading=\"lazy\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/L4p-Osvw3sQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe><\/p>\n",
+        "excerpt": "<p>I think we should teach people to write code that&#8217;s meaningful and understandable.  It&#8217;s my opinion that neither JavaScript nor CodeAcademy&#8217;s new app are good tools for doing that. <\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 1713,
             "date": "2013-12-09T09:14:25",
             "date_gmt": "2013-12-09T09:14:25",
@@ -2247,250 +2491,6 @@
         "title": "Going Digital: Music",
         "content": "<p><em>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to <a href=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\">read the introduction<\/a>.<\/em><\/p>\n<h2>My History of Digital Music<\/h2>\n<p>Here&#39;s a little potted history of digital music in my life.<\/p>\n<p>Let me let you in to a little secret: I thought Mini-Discs were <strong>great<\/strong>! But the rest of the world wasn&#39;t so keen and they died out with the advent of MP3s.  Having been bitten by that, I was shy of MP3 players and so have generally been slow on the uptake of digital music.<\/p>\n<p>Digital music software didn&#39;t help. The best software in terms of organising files was iTunes, but it was (and still is) big and slow and clunky. That hindered the process.<\/p>\n<p>Plus, our car has always had a CD player, so we&#39;ve always had CDs, and there is, I suppose, a general nostalgia for physical media and a fear of files disappearing that has contributed to us clinging to music on disc.<\/p>\n<p>Eventually I found myself with an iPhone, which was great for music. But as numbers of apps and photos grew it became impossible to store anything like a decent selection of music.<\/p>\n<p>Conveniently, this was around the time that cloud music services started to become available.  It was time to Go Digital! Or was it?<\/p>\n<p>To go fully digital I&#8217;d need a cloud music service to store my music with and to be able to access it from my computer and mobile devices, and I&#8217;d need to be buying music downloads instead of CDs.<\/p>\n<h2>Cloud Music Services<\/h2>\n<p>Cloud music services either give you access to a vast range of music stored at the music service, usually for a subscription, or they let you upload and store all of the music that you own in &#39;the cloud&#39;.  Some services avoid the need to upload ALL of your music by matching it to music that&#39;s already stored at the music service.<\/p>\n<p>I researched a few cloud music services. I don&#39;t listen to music enough to make a subscription to something like Spotify worthwhile, so it was an upload\/matching service that I needed.<\/p>\n<p>At the time I signed up there were only two services available in the UK: iTunes Match and Amazon Cloud Player.  Google Play Music has since become available in the UK.<\/p>\n<h3>Costs and tracks<\/h3>\n<p>These services limit you to a certain number of tracks.  For Amazon this is 250 for the free service and 250,000 for the paid service.  iTunes only has a paid service and it gives you 25,000 songs. Google&#39;s service is free and allows 20,000 songs.<\/p>\n<p>iTunes Match and Amazon&#39;s upgraded storage for cloud player are both \u00a321.99 per year.<\/p>\n<p>So Google&#39;s service is the best value for money. But does it do what I need?<\/p>\n<h3>Functions and Features<\/h3>\n<p>The services are all pretty similar in what they do, they:<\/p>\n<ul>\n<li>store music in &#39;the cloud&#39;<\/li>\n<li>let you stream it (play it without downloading, which requires a connection) * let you download it to your device<\/li>\n<li>act as a backup of your digital music files<\/li>\n<\/ul>\n<p>It should be noted that I&#39;m really not too bothered about sound quality. If you are then there are other factors that might affect your choice.<\/p>\n<h3>Complications<\/h3>\n<p>Actually, from what I can tell, the only exception to the list above is iTunes Match which doesn&#39;t let you stream your music: you have to download it and play. But you can play a track while its downloading.<\/p>\n<p>iTunes Match also only works with Apple devices and though iTunes, whereas the other services can be played on multiple platforms through web apps, or phone\/tablet apps.<\/p>\n<p>Google suffers from not having their own app for Apple devices. Third party apps exist but seem to vary in quality. Plus the web app really doesn&#39;t play well with iOS: I found that playing music in the background while doing other things was unreliable.<\/p>\n<h3>Choosing a service<\/h3>\n<p>So while Google seemed best value, it really didn&#39;t work well for a person with Apple devices.  At the time I evaluated them I <em>think<\/em> Amazon&#39;s service didn&#39;t do track matching, so you had to upload your entire collection, which would have taken a LOOOOONG time. So I ended up opting for iTunes Match for a year.<\/p>\n<p>In reality, I don&#39;t think any of these services is ideal. Google&#39;s service is amazing given that its free. And I think that, if I was paying again I&#39;d opt for Amazon&#39;s service rather than Apple&#39;s &#8211; especially now that Amazon&#39;s service has caught up a bit.<\/p>\n<p>So for the time being I have iTunes Match, but I&#8217;m hoping that there will be a decent iOS app for Google Music by the time my renewal comes up.<\/p>\n<h2>So did you &#39;Go Digital&#39;?<\/h2>\n<p>You know what, I didn&#39;t yet! My music is in the cloud, and it&#39;s really good. But I&#39;m still buying CDs. I&#39;m yet to start buying downloaded music in any great volume.<\/p>\n<p>But I&#39;m not really sure why any more. Is there a good reason to buy a CD? Other than, perhaps, to put in the car? CDs take up space, are actually less safe and reliable and, if you don&#39;t care about quality, there doesn&#39;t seem much reason not to be digital only. So I expect I&#39;ll be buying downloads more in the near future.<\/p>\n<p>Do you still buy CDs or Vinyl? What are your reasons? What stops you going digital?<\/p>\n",
         "excerpt": "<p>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to read the introduction. My History of Digital Music Here&#39;s a little potted history of digital music in my life. Let me let you in to a little secret: I thought Mini-Discs were great! But the rest [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 1351,
-            "date": "2013-06-29T17:50:41",
-            "date_gmt": "2013-06-29T16:50:41",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1351"
-            },
-            "modified": "2013-06-29T17:59:22",
-            "modified_gmt": "2013-06-29T16:59:22",
-            "slug": "going-digital-introduction",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/",
-            "title": {
-                "rendered": "Going Digital &#8211; Introduction"
-            },
-            "content": {
-                "rendered": "<p>You might think: &#8216;Ross? Yeah, he&#8217;s a real geek. All the latest gadgets.&#8217; But it&#8217;s not quite true. And it&#8217;s especially not true in the world of entertainment. We barely have HDTV, I&#8217;m not a big gamer, and we still buy most of our music on CD and we purchase real paper books.<\/p>\n<p>But I&#8217;ve been making forays into digital entertainment and questioning my own desire to have physical media for everything, and also playing with going &#8216;paperless&#8217;. <\/p>\n<p>This is the first in a mini-series of notes about &#8216;Going Digital&#8217;. Each will cover a separate real world thing (books, music, notes) that I&#8217;ve been going digital with, and will evaluate the tools I tried and how close to fully-digital I&#8217;ve become with that thing.<\/p>\n<p>But before tackling the things&#8230;why has Going Digital been so hard, and what changed?<\/p>\n<p><!--more--><\/p>\n<h2>Not-So-Digital<\/h2>\n<p>I don&#8217;t know why I&#8217;ve been so slow to embrace digital entertainment media. I mean, I&#8217;ve had an MP3 player for years, I now (somewhat ashamedly) have an iPhone and an iPad. I&#8217;ve been on broadband for years too. I&#8217;m generally not an early adopter of technology, but I certainly get in pre-mainstream.<\/p>\n<p>I guess I&#8217;ve been held back by what-ifs. If all my music and books are digital, it seems easier to lose. I need it backed up, and that backup needs to be safe.<\/p>\n<p>Plus we&#8217;ve had cars with CD players, so CDs have remained important. And we&#8217;ve just not had devices suitable for proper reading on.<\/p>\n<h2>What changed?<\/h2>\n<p>For music, the thing that changed was the cloud. Frustrated with only having a small percentage of my music on my mobile devices, I recently tried out cloud music services to keep all my music in &#8216;the cloud&#8217;.<\/p>\n<p>For books it was the iPad, which I decided could actually be a decent eBook reader.<\/p>\n<p>The iPad has also made a &#8216;paperless office&#8217; more feasible, so I&#8217;ve been playing with tools that achieve that, and note-taking tools in particular.<\/p>\n<p>I&#8217;ve not found going digital easy, the number of services and apps that you could possibly use is huge and finding the tools that work for you needs trial and error. I can see why people stick with what they know in the form of paper and CD&#8217;s!<\/p>\n<p>I hope the posts that follow help you choose tools without needing to try them out, and help ou on your own journey of Going Digital.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>You might think: &#8216;Ross? Yeah, he&#8217;s a real geek. All the latest gadgets.&#8217; But it&#8217;s not quite true. And it&#8217;s especially not true in the world of entertainment. We barely have HDTV, I&#8217;m not a big gamer, and we still buy most of our music on CD and we purchase real paper books. But I&#8217;ve [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                447
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Going Digital - Introduction - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Going Digital - Introduction - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"You might think: &#8216;Ross? Yeah, he&#8217;s a real geek. All the latest gadgets.&#8217; But it&#8217;s not quite true. And it&#8217;s especially not true in the world of entertainment. We barely have HDTV, I&#8217;m not a big gamer, and we still buy most of our music on CD and we purchase real paper books. But I&#8217;ve [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2013-06-29T16:50:41+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2013-06-29T16:59:22+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\",\"url\":\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\",\"name\":\"Going Digital - Introduction - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2013-06-29T16:50:41+00:00\",\"dateModified\":\"2013-06-29T16:59:22+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Going Digital &#8211; Introduction\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Going Digital - Introduction - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Going Digital - Introduction - Ross Wintle",
-                "og_description": "You might think: &#8216;Ross? Yeah, he&#8217;s a real geek. All the latest gadgets.&#8217; But it&#8217;s not quite true. And it&#8217;s especially not true in the world of entertainment. We barely have HDTV, I&#8217;m not a big gamer, and we still buy most of our music on CD and we purchase real paper books. But I&#8217;ve [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2013-06-29T16:50:41+00:00",
-                "article_modified_time": "2013-06-29T16:59:22+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/",
-                            "url": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/",
-                            "name": "Going Digital - Introduction - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2013-06-29T16:50:41+00:00",
-                            "dateModified": "2013-06-29T16:59:22+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Going Digital &#8211; Introduction"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1351"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1351"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 8,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1351\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 1640,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1351\/revisions\/1640"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1351"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1351"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1351"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 1351,
-        "dateGmt": "2013-06-29T16:50:41",
-        "modifiedDateGmt": "2013-06-29T16:59:22",
-        "slug": "going-digital-introduction",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/",
-        "title": "Going Digital &#8211; Introduction",
-        "content": "<p>You might think: &#8216;Ross? Yeah, he&#8217;s a real geek. All the latest gadgets.&#8217; But it&#8217;s not quite true. And it&#8217;s especially not true in the world of entertainment. We barely have HDTV, I&#8217;m not a big gamer, and we still buy most of our music on CD and we purchase real paper books.<\/p>\n<p>But I&#8217;ve been making forays into digital entertainment and questioning my own desire to have physical media for everything, and also playing with going &#8216;paperless&#8217;. <\/p>\n<p>This is the first in a mini-series of notes about &#8216;Going Digital&#8217;. Each will cover a separate real world thing (books, music, notes) that I&#8217;ve been going digital with, and will evaluate the tools I tried and how close to fully-digital I&#8217;ve become with that thing.<\/p>\n<p>But before tackling the things&#8230;why has Going Digital been so hard, and what changed?<\/p>\n<p><!--more--><\/p>\n<h2>Not-So-Digital<\/h2>\n<p>I don&#8217;t know why I&#8217;ve been so slow to embrace digital entertainment media. I mean, I&#8217;ve had an MP3 player for years, I now (somewhat ashamedly) have an iPhone and an iPad. I&#8217;ve been on broadband for years too. I&#8217;m generally not an early adopter of technology, but I certainly get in pre-mainstream.<\/p>\n<p>I guess I&#8217;ve been held back by what-ifs. If all my music and books are digital, it seems easier to lose. I need it backed up, and that backup needs to be safe.<\/p>\n<p>Plus we&#8217;ve had cars with CD players, so CDs have remained important. And we&#8217;ve just not had devices suitable for proper reading on.<\/p>\n<h2>What changed?<\/h2>\n<p>For music, the thing that changed was the cloud. Frustrated with only having a small percentage of my music on my mobile devices, I recently tried out cloud music services to keep all my music in &#8216;the cloud&#8217;.<\/p>\n<p>For books it was the iPad, which I decided could actually be a decent eBook reader.<\/p>\n<p>The iPad has also made a &#8216;paperless office&#8217; more feasible, so I&#8217;ve been playing with tools that achieve that, and note-taking tools in particular.<\/p>\n<p>I&#8217;ve not found going digital easy, the number of services and apps that you could possibly use is huge and finding the tools that work for you needs trial and error. I can see why people stick with what they know in the form of paper and CD&#8217;s!<\/p>\n<p>I hope the posts that follow help you choose tools without needing to try them out, and help ou on your own journey of Going Digital.<\/p>\n",
-        "excerpt": "<p>You might think: &#8216;Ross? Yeah, he&#8217;s a real geek. All the latest gadgets.&#8217; But it&#8217;s not quite true. And it&#8217;s especially not true in the world of entertainment. We barely have HDTV, I&#8217;m not a big gamer, and we still buy most of our music on CD and we purchase real paper books. But I&#8217;ve [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

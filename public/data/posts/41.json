@@ -1,6 +1,247 @@
 [
     {
         "dataAsArray": {
+            "id": 794,
+            "date": "2010-04-10T22:12:57",
+            "date_gmt": "2010-04-10T21:12:57",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/2010\/04\/election-publicity\/"
+            },
+            "modified": "2010-04-10T22:12:57",
+            "modified_gmt": "2010-04-10T21:12:57",
+            "slug": "election-publicity",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/",
+            "title": {
+                "rendered": "Election Publicity"
+            },
+            "content": {
+                "rendered": "<p>So the election is upon us and our household and circle of friends are taking it pretty seriously!<\/p>\n<p>One thing that always bothers me is the imbalance of publicity. In the last council elections we had lots of publicity from Labour and the Tories, but there were at least two other candidates that we knew nothing about!<\/p>\n<p>We had a conversation one night this week with a friend who, after the last election, had written to her local LibDem candidate asking why they hadn&#8217;t sent any publicity.  They replied to say that they just didn&#8217;t have either the money to produce it or the manpower to deliver it.<\/p>\n<p>This seems really unfair!  And thinking about it I wonder why there isn&#8217;t help for candidates to do this.  Perhaps part of the election deposit money could be used to independently produce and distribute a leaflet in which each candidate has a page or two with which to let us know who they are and what they stand for?<\/p>\n<p>Is this too simple and obvious a solution?  Is it not practical?  Has it been tried before?<\/p>\n<p>Of course, with the Internet we can choose to go and find out about parties and candidates easily and for free, but not everyone can do this, and not everyone is inclined too.<\/p>\n<p>What would you do to improve election communications?<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>So the election is upon us and our household and circle of friends are taking it pretty seriously! One thing that always bothers me is the imbalance of publicity. In the last council elections we had lots of publicity from Labour and the Tories, but there were at least two other candidates that we knew [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                19
+            ],
+            "tags": [
+                232,
+                579,
+                233
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Election Publicity - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Election Publicity - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"So the election is upon us and our household and circle of friends are taking it pretty seriously! One thing that always bothers me is the imbalance of publicity. In the last council elections we had lots of publicity from Labour and the Tories, but there were at least two other candidates that we knew [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-04-10T21:12:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/\",\"name\":\"Election Publicity - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-04-10T21:12:57+00:00\",\"dateModified\":\"2010-04-10T21:12:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Election Publicity\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Election Publicity - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Election Publicity - Ross Wintle",
+                "og_description": "So the election is upon us and our household and circle of friends are taking it pretty seriously! One thing that always bothers me is the imbalance of publicity. In the last council elections we had lots of publicity from Labour and the Tories, but there were at least two other candidates that we knew [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2010-04-10T21:12:57+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/",
+                            "url": "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/",
+                            "name": "Election Publicity - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2010-04-10T21:12:57+00:00",
+                            "dateModified": "2010-04-10T21:12:57+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Election Publicity"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/794"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=794"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/794\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=794"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=794"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=794"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 794,
+        "dateGmt": "2010-04-10T21:12:57",
+        "modifiedDateGmt": "2010-04-10T21:12:57",
+        "slug": "election-publicity",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2010\/04\/election-publicity\/",
+        "title": "Election Publicity",
+        "content": "<p>So the election is upon us and our household and circle of friends are taking it pretty seriously!<\/p>\n<p>One thing that always bothers me is the imbalance of publicity. In the last council elections we had lots of publicity from Labour and the Tories, but there were at least two other candidates that we knew nothing about!<\/p>\n<p>We had a conversation one night this week with a friend who, after the last election, had written to her local LibDem candidate asking why they hadn&#8217;t sent any publicity.  They replied to say that they just didn&#8217;t have either the money to produce it or the manpower to deliver it.<\/p>\n<p>This seems really unfair!  And thinking about it I wonder why there isn&#8217;t help for candidates to do this.  Perhaps part of the election deposit money could be used to independently produce and distribute a leaflet in which each candidate has a page or two with which to let us know who they are and what they stand for?<\/p>\n<p>Is this too simple and obvious a solution?  Is it not practical?  Has it been tried before?<\/p>\n<p>Of course, with the Internet we can choose to go and find out about parties and candidates easily and for free, but not everyone can do this, and not everyone is inclined too.<\/p>\n<p>What would you do to improve election communications?<\/p>\n",
+        "excerpt": "<p>So the election is upon us and our household and circle of friends are taking it pretty seriously! One thing that always bothers me is the imbalance of publicity. In the last council elections we had lots of publicity from Labour and the Tories, but there were at least two other candidates that we knew [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 793,
             "date": "2010-04-10T21:57:04",
             "date_gmt": "2010-04-10T20:57:04",
@@ -2209,252 +2450,6 @@
         "title": "Flying",
         "content": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/aeroplane-contrails-by-hey_mr_glen-flickr.com-glenscott.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"alignright size-medium wp-image-750\" title=\"Aeroplane with Contrails by hey_mr_glen - http:\/\/flickr.com\/glenscott\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/aeroplane-contrails-by-hey_mr_glen-flickr.com-glenscott-200x300.jpg\" alt=\"\" width=\"200\" height=\"300\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/aeroplane-contrails-by-hey_mr_glen-flickr.com-glenscott-200x300.jpg 200w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/aeroplane-contrails-by-hey_mr_glen-flickr.com-glenscott.jpg 683w\" sizes=\"(max-width: 200px) 100vw, 200px\" \/><\/a>My employer has another office in&#8230;well, let&#8217;s undo a joke from The Office and say it&#8217;s in Slough (it&#8217;s not, it&#8217;s up North!).<\/p>\n<p>It costs me anything from \u00a380 to \u00a3250 to get the train to &#8220;Slough&#8221; depending on when I go and which route I take.\u00a0 Regardless of route it takes me around 4 hours.<\/p>\n<p>The other day I saw, on the printer in our office, that someone had booked a flight from Southampton to &#8220;Slough&#8221; and back.\u00a0 It would take an hour, which I confess is hugely convenient.\u00a0 And it would cost less than \u00a360!\u00a0 All in!<\/p>\n<p>This is stupid for an almost innumerable number of reasons.\u00a0 How can it cost \u00a360?<\/p>\n<p>I confess, I&#8217;ve not researched the facts below but I believe them to be true. (Correct me in the comments if I&#8217;m wrong).<\/p>\n<p><!--more--><\/p>\n<ul>\n<li>Planes use more fuel than a trains, so planes should cost more than trains.<\/li>\n<li>Planes create more carbon emissions than\u00a0 trains.\u00a0 Pollution of most forms is taxed or financially penalised, so planes should cost more than trains.<\/li>\n<li>Planes are faster, and therefore more convenient than trains, and therefore they are higher value than trains and should cost more than trains.<\/li>\n<li>The capacity of a plane is less than that of a train.\u00a0 Assuming demand is equal a plane should cost more than a train.<\/li>\n<li>You have to pay an &#8220;airport tax&#8221;, I don&#8217;t believe you pay a &#8220;railway station tax&#8221;.\u00a0 Using an airport should cost more than using a railway station.<\/li>\n<\/ul>\n<p>I&#8217;m sure there&#8217;s more.\u00a0 So by what calculation can this be true?\u00a0 I AM naive so please, tell me, how is this so?\u00a0 Are we taking money from the railway companies and giving it to the airlines or something?<\/p>\n<p>It&#8217;s baffling and stupid and it needs to change.<\/p>\n",
         "excerpt": "<p>How can it cost \u00a360 to fly and no less than \u00a380 to go on the train.  Are we taking money from the railway companies and giving it to the airlines or something?<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 745,
-            "date": "2010-01-15T23:20:49",
-            "date_gmt": "2010-01-15T23:20:49",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=745"
-            },
-            "modified": "2010-01-30T20:17:30",
-            "modified_gmt": "2010-01-30T20:17:30",
-            "slug": "shiny-windows",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/",
-            "title": {
-                "rendered": "Shiny Windows"
-            },
-            "content": {
-                "rendered": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"alignright size-medium wp-image-746\" title=\"Windows7 by Mendhak - http:\/\/flickr.com\/mendhak\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak-300x199.jpg\" alt=\"Windows7 by Mendhak - http:\/\/flickr.com\/mendhak\" width=\"300\" height=\"199\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak-300x199.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak.jpg 1024w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><\/a>Last week our main computer was a circa 10-year old, occasionally upgraded, Tiny Computers tower, 768MB RAM, 160GB disk, USB1 built-in with a USB2 card, Wifi-card, Soundblaster card, external USB2 hub, external webcam, external speakers, external microphone, \u00a0keyboard, mouse, 15&#8243; LCD monitor, about 4 power bricks, a whole spaghetti of cables oh, and an extra fan to keep it cool! \u00a0It ran Windows XP&#8230;just!<\/p>\n<p>We have a NetBook for travel and simple web browsing (must write about that sometime), but the other option, if you wanted to do any serious work, was a 6-or-7 year old Sony Vaio laptop with, I think, 256MB RAM, no built-in Wifi, no webcam, no microphone, a battery that lasted 60 seconds &#8211; if you were lucky (i.e. it was tethered) and only 1 working USB1 port.<\/p>\n<p>Err&#8230;yeah, I said serious work.<\/p>\n<p>As a fairly major geek who works in IT and does little web development projects at home it&#8217;s kinda unbelievable that I&#8217;ve waited to long to upgrade. \u00a0It was part frugality, part stubbornness, part not-wanting-to-buy-anything running-Vista, but with the release of Windows 7, the Christmas sales and the approaching rise in VAT we finally decided that the time had come.<\/p>\n<p><!--more--><\/p>\n<p>It made sense really &#8211; replace both the desktop and laptop with a powerful laptop, run everything quicker, upgrade storage, run at much lower power, and reduce all the cables, power bricks and peripherals.<\/p>\n<h3>Apples to Apples<\/h3>\n<p>There was some debate about whether or not to get an Apple. \u00a0My iPod touch experience has been very good and lots of people we know have Apples. \u00a0I asked around about this and most people said &#8220;get an Apple&#8221; without really telling me why I should.<\/p>\n<p>So I stuck with what I know and got a Windows laptop direct from Dell. \u00a0Probably not as fancy but MUCH better value!<\/p>\n<h3>It&#8217;s arrived!<\/h3>\n<p>So, the new laptop has arrived and we&#8217;ve entered the modern age of computing. \u00a0And I have to say I like it.<\/p>\n<p>Windows 7 has surprised me by not being as different to XP as I thought it would be. \u00a0There are, of course, substantial improvements, but it&#8217;s been easy to get to grips with.<\/p>\n<p>At first I wasn&#8217;t sure that the speed improvement of the faster&#8230;well, everything&#8230;was that noticeable, but I&#8217;m pretty sure it is now. \u00a0Startup time is still not as fast as I would like it, but once running it flies and things like user switching, that we couldn&#8217;t really do before, just work!<\/p>\n<h3>Migration<\/h3>\n<p>Moving stuff from the old computer was, of course, a bit of a challenge. \u00a0I tried using Windows Easy Transfer, but it wasn&#8217;t easy, definitely wasn&#8217;t fast over the network, and I didn&#8217;t trust what it was doing behind the scenes. \u00a0We DID just about end up using it in conjunction with an external hard disk, but I&#8217;m not sure it made the process of moving our data any easier.<\/p>\n<p>Getting my regular free\/open source applications installed was hugely simplified by <a title=\"Ninite\" href=\"http:\/\/ninite.com\/\" target=\"_blank\">Ninite<\/a>. Importing mail into Thunderbird from my old Outlook Express files was easy, and <a title=\"XMarks\" href=\"http:\/\/xmarks.com\" target=\"_blank\">XMarks<\/a> made synching my bookmarks a doddle.<\/p>\n<p>The only real trauma was getting iTunes to keep my library (with playlists, import dates, ratings, album art, etc) intact whilst moving, and, hopefully, not screwing up my iPod when doing a first sync. \u00a0This did happen pretty smoothly, though I&#8217;m not entirely sure how I achieved it. \u00a0I did at one point have two entries for each track, but I just deleted the new ones and convinced it the the old ones were in C:\\Users\\ rather than C:\\Documents and Settings and all seemed to be OK.<\/p>\n<h3>Overall<\/h3>\n<p>Overall, this has been a really good move, and, with all that&#8217;s going on that might need more web development and online collaboration, a timely one too.<\/p>\n<p>I&#8217;m a pretty happy, newly upgraded, Windows-7-laptop-owning geek!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;m a pretty happy, newly upgraded, Windows-7-laptop-owning geek!<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10,
-                23
-            ],
-            "tags": [
-                214,
-                212,
-                213
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Shiny Windows - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Shiny Windows - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m a pretty happy, newly upgraded, Windows-7-laptop-owning geek!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-01-15T23:20:49+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2010-01-30T20:17:30+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak-300x199.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/\",\"name\":\"Shiny Windows - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-01-15T23:20:49+00:00\",\"dateModified\":\"2010-01-30T20:17:30+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Shiny Windows\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Shiny Windows - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Shiny Windows - Ross Wintle",
-                "og_description": "I'm a pretty happy, newly upgraded, Windows-7-laptop-owning geek!",
-                "og_url": "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2010-01-15T23:20:49+00:00",
-                "article_modified_time": "2010-01-30T20:17:30+00:00",
-                "og_image": [
-                    {
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak-300x199.jpg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "3 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/",
-                            "url": "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/",
-                            "name": "Shiny Windows - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2010-01-15T23:20:49+00:00",
-                            "dateModified": "2010-01-30T20:17:30+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Shiny Windows"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/745"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=745"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/745\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 748,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/745\/revisions\/748"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=745"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=745"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=745"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 745,
-        "dateGmt": "2010-01-15T23:20:49",
-        "modifiedDateGmt": "2010-01-30T20:17:30",
-        "slug": "shiny-windows",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2010\/01\/shiny-windows\/",
-        "title": "Shiny Windows",
-        "content": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"alignright size-medium wp-image-746\" title=\"Windows7 by Mendhak - http:\/\/flickr.com\/mendhak\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak-300x199.jpg\" alt=\"Windows7 by Mendhak - http:\/\/flickr.com\/mendhak\" width=\"300\" height=\"199\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak-300x199.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/01\/windows7-by-Mendhak-flickr.com-mendhak.jpg 1024w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><\/a>Last week our main computer was a circa 10-year old, occasionally upgraded, Tiny Computers tower, 768MB RAM, 160GB disk, USB1 built-in with a USB2 card, Wifi-card, Soundblaster card, external USB2 hub, external webcam, external speakers, external microphone, \u00a0keyboard, mouse, 15&#8243; LCD monitor, about 4 power bricks, a whole spaghetti of cables oh, and an extra fan to keep it cool! \u00a0It ran Windows XP&#8230;just!<\/p>\n<p>We have a NetBook for travel and simple web browsing (must write about that sometime), but the other option, if you wanted to do any serious work, was a 6-or-7 year old Sony Vaio laptop with, I think, 256MB RAM, no built-in Wifi, no webcam, no microphone, a battery that lasted 60 seconds &#8211; if you were lucky (i.e. it was tethered) and only 1 working USB1 port.<\/p>\n<p>Err&#8230;yeah, I said serious work.<\/p>\n<p>As a fairly major geek who works in IT and does little web development projects at home it&#8217;s kinda unbelievable that I&#8217;ve waited to long to upgrade. \u00a0It was part frugality, part stubbornness, part not-wanting-to-buy-anything running-Vista, but with the release of Windows 7, the Christmas sales and the approaching rise in VAT we finally decided that the time had come.<\/p>\n<p><!--more--><\/p>\n<p>It made sense really &#8211; replace both the desktop and laptop with a powerful laptop, run everything quicker, upgrade storage, run at much lower power, and reduce all the cables, power bricks and peripherals.<\/p>\n<h3>Apples to Apples<\/h3>\n<p>There was some debate about whether or not to get an Apple. \u00a0My iPod touch experience has been very good and lots of people we know have Apples. \u00a0I asked around about this and most people said &#8220;get an Apple&#8221; without really telling me why I should.<\/p>\n<p>So I stuck with what I know and got a Windows laptop direct from Dell. \u00a0Probably not as fancy but MUCH better value!<\/p>\n<h3>It&#8217;s arrived!<\/h3>\n<p>So, the new laptop has arrived and we&#8217;ve entered the modern age of computing. \u00a0And I have to say I like it.<\/p>\n<p>Windows 7 has surprised me by not being as different to XP as I thought it would be. \u00a0There are, of course, substantial improvements, but it&#8217;s been easy to get to grips with.<\/p>\n<p>At first I wasn&#8217;t sure that the speed improvement of the faster&#8230;well, everything&#8230;was that noticeable, but I&#8217;m pretty sure it is now. \u00a0Startup time is still not as fast as I would like it, but once running it flies and things like user switching, that we couldn&#8217;t really do before, just work!<\/p>\n<h3>Migration<\/h3>\n<p>Moving stuff from the old computer was, of course, a bit of a challenge. \u00a0I tried using Windows Easy Transfer, but it wasn&#8217;t easy, definitely wasn&#8217;t fast over the network, and I didn&#8217;t trust what it was doing behind the scenes. \u00a0We DID just about end up using it in conjunction with an external hard disk, but I&#8217;m not sure it made the process of moving our data any easier.<\/p>\n<p>Getting my regular free\/open source applications installed was hugely simplified by <a title=\"Ninite\" href=\"http:\/\/ninite.com\/\" target=\"_blank\">Ninite<\/a>. Importing mail into Thunderbird from my old Outlook Express files was easy, and <a title=\"XMarks\" href=\"http:\/\/xmarks.com\" target=\"_blank\">XMarks<\/a> made synching my bookmarks a doddle.<\/p>\n<p>The only real trauma was getting iTunes to keep my library (with playlists, import dates, ratings, album art, etc) intact whilst moving, and, hopefully, not screwing up my iPod when doing a first sync. \u00a0This did happen pretty smoothly, though I&#8217;m not entirely sure how I achieved it. \u00a0I did at one point have two entries for each track, but I just deleted the new ones and convinced it the the old ones were in C:\\Users\\ rather than C:\\Documents and Settings and all seemed to be OK.<\/p>\n<h3>Overall<\/h3>\n<p>Overall, this has been a really good move, and, with all that&#8217;s going on that might need more web development and online collaboration, a timely one too.<\/p>\n<p>I&#8217;m a pretty happy, newly upgraded, Windows-7-laptop-owning geek!<\/p>\n",
-        "excerpt": "<p>I&#8217;m a pretty happy, newly upgraded, Windows-7-laptop-owning geek!<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

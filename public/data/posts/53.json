@@ -1,6 +1,248 @@
 [
     {
         "dataAsArray": {
+            "id": 227,
+            "date": "2008-12-21T01:23:54",
+            "date_gmt": "2008-12-21T01:23:54",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/?p=227"
+            },
+            "modified": "2008-12-21T01:23:54",
+            "modified_gmt": "2008-12-21T01:23:54",
+            "slug": "spin-spin-spin-the-wheel-of-fortune",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
+            "title": {
+                "rendered": "Spin, spin, spin the wheel of fortune"
+            },
+            "content": {
+                "rendered": "<p>[Note &#8211; I&#8217;m writing this while waiting for DNS to update so I can migrate to WordPress&#8230;so you&#8217;ll see it after my actually time of posting and everything will seem to be in a weird order&#8230;sorry!]<\/p>\n<p>It was my work Christmas party on Thursday night and very good it was too.\u00a0 I won&#8217;t post too much for fear of libel &#8211; and it&#8217;s my policy to not mention work or other people without their permission here &#8211; but I wanted to talk about a discovery&#8230; I discovered a fascination with Roulette!<\/p>\n<p>It was a Las Vegas themed night and there were blackjack and roulette tables upstairs.\u00a0 I didn\u2019t gamble at all (not that there was any real money being passed around &#8211; it was all fake), but was enjoying watching others play.<\/p>\n<p>Initially I was only interested in the blackjack.\u00a0 It seemed you had more strategy involved and so more chance to win.\u00a0 Roulette seemed to be a mugs game with everything completely riding on chance.<\/p>\n<p>But I later began watching the roulette in some more detail and I quickly got hooked.\u00a0 There\u2019s 36 numbers and a zero.\u00a0 You can bet on single numbers, pairs of numbers, group of 4, groups of 12, groups of 18, red or black, odd or even, with odds being adjusted accordingly (I assume that zero is ignored for this and so e.g. you get 9 to 1 for playing a group of 4.<\/p>\n<p>The skill seems to be spreading your bets around.\u00a0 One guy was playing a single chip on 30 and 17 every time, and a small pile on red\/black, odd\/even, or a large group.\u00a0 The (more likely) wins on the large group kept his chips up while he waited to reel in one of the big 36 to 1 stakes.\u00a0 He never did and he ended up just losing chips all night.<\/p>\n<p>A pair of girls came along and started playing hesitantly, with just one chip on number 7.\u00a0 It quickly came up and they were loaded, but they lost it all again quickly.<\/p>\n<p>This looks like a game where most people lose a lot very quickly, but the odd lucky one gets a big win and can walk away rich.<\/p>\n<p>But watching people play was fascinating, and the croupier was amazing, keeping an eye on everything and shifting, sorting, stacking chips with such speed and skill.<\/p>\n<p>Of course, it IS a mugs game, but somehow, I was hooked!\u00a0 I hope I keep the discipline of never actually taking part.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Of course, it IS a mugs game, but somehow, I was hooked!<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10
+            ],
+            "tags": [
+                45,
+                122,
+                141,
+                582
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Spin, spin, spin the wheel of fortune - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Spin, spin, spin the wheel of fortune - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Of course, it IS a mugs game, but somehow, I was hooked!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-12-21T01:23:54+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\",\"name\":\"Spin, spin, spin the wheel of fortune - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-12-21T01:23:54+00:00\",\"dateModified\":\"2008-12-21T01:23:54+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Spin, spin, spin the wheel of fortune\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Spin, spin, spin the wheel of fortune - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Spin, spin, spin the wheel of fortune - Ross Wintle",
+                "og_description": "Of course, it IS a mugs game, but somehow, I was hooked!",
+                "og_url": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2008-12-21T01:23:54+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
+                            "url": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
+                            "name": "Spin, spin, spin the wheel of fortune - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2008-12-21T01:23:54+00:00",
+                            "dateModified": "2008-12-21T01:23:54+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Spin, spin, spin the wheel of fortune"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/227"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=227"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/227\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=227"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=227"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=227"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 227,
+        "dateGmt": "2008-12-21T01:23:54",
+        "modifiedDateGmt": "2008-12-21T01:23:54",
+        "slug": "spin-spin-spin-the-wheel-of-fortune",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2008\/12\/spin-spin-spin-the-wheel-of-fortune\/",
+        "title": "Spin, spin, spin the wheel of fortune",
+        "content": "<p>[Note &#8211; I&#8217;m writing this while waiting for DNS to update so I can migrate to WordPress&#8230;so you&#8217;ll see it after my actually time of posting and everything will seem to be in a weird order&#8230;sorry!]<\/p>\n<p>It was my work Christmas party on Thursday night and very good it was too.\u00a0 I won&#8217;t post too much for fear of libel &#8211; and it&#8217;s my policy to not mention work or other people without their permission here &#8211; but I wanted to talk about a discovery&#8230; I discovered a fascination with Roulette!<\/p>\n<p>It was a Las Vegas themed night and there were blackjack and roulette tables upstairs.\u00a0 I didn\u2019t gamble at all (not that there was any real money being passed around &#8211; it was all fake), but was enjoying watching others play.<\/p>\n<p>Initially I was only interested in the blackjack.\u00a0 It seemed you had more strategy involved and so more chance to win.\u00a0 Roulette seemed to be a mugs game with everything completely riding on chance.<\/p>\n<p>But I later began watching the roulette in some more detail and I quickly got hooked.\u00a0 There\u2019s 36 numbers and a zero.\u00a0 You can bet on single numbers, pairs of numbers, group of 4, groups of 12, groups of 18, red or black, odd or even, with odds being adjusted accordingly (I assume that zero is ignored for this and so e.g. you get 9 to 1 for playing a group of 4.<\/p>\n<p>The skill seems to be spreading your bets around.\u00a0 One guy was playing a single chip on 30 and 17 every time, and a small pile on red\/black, odd\/even, or a large group.\u00a0 The (more likely) wins on the large group kept his chips up while he waited to reel in one of the big 36 to 1 stakes.\u00a0 He never did and he ended up just losing chips all night.<\/p>\n<p>A pair of girls came along and started playing hesitantly, with just one chip on number 7.\u00a0 It quickly came up and they were loaded, but they lost it all again quickly.<\/p>\n<p>This looks like a game where most people lose a lot very quickly, but the odd lucky one gets a big win and can walk away rich.<\/p>\n<p>But watching people play was fascinating, and the croupier was amazing, keeping an eye on everything and shifting, sorting, stacking chips with such speed and skill.<\/p>\n<p>Of course, it IS a mugs game, but somehow, I was hooked!\u00a0 I hope I keep the discipline of never actually taking part.<\/p>\n",
+        "excerpt": "<p>Of course, it IS a mugs game, but somehow, I was hooked!<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 221,
             "date": "2008-12-15T22:10:00",
             "date_gmt": "2008-12-15T22:10:00",
@@ -2136,245 +2378,6 @@
         "title": "Proverbs for our Times",
         "content": "<p>Here are some wise sayings that seem quite relevant given the current credit crunch:<\/p>\n<ul>\n<li>&#8220;Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle.&#8221;<\/li>\n<li>&#8220;The rich rule over the poor, and the borrower is servant to the lender.&#8221;<\/li>\n<li>&#8220;Don&#8217;t guarantee to pay someone else&#8217;s debt.<span class=\"sup\"><\/span>If you don&#8217;t have the money,you might lose your bed.&#8221;<\/li>\n<\/ul>\n<p>And here is some ancient wisdom that would seem to apply to our current binge-drinking culture:<\/p>\n<blockquote><p>&#8220;Who has woe? Who has sorrow? Who has strife? Who has complaints? Who has needless bruises? Who has bloodshot eyes? <\/p>\n<p><span class=\"sup\"><\/span>Those who linger over wine, who go to sample bowls of mixed wine. <\/p>\n<p><span class=\"sup\"><\/span>Do not gaze at wine when it is red, when it sparkles in the cup, when it goes down smoothly!<span class=\"sup\"> <\/span> In the end it bites like a snake and poisons like a viper.<span class=\"sup\"><\/span> Your eyes will see strange sights and your mind imagine confusing things.<span class=\"sup\"><\/span> You will be like one sleeping on the high seas, lying on top of the rigging.<\/p>\n<p><span class=\"sup\"><\/span>&#8216;They hit me,&#8217; you will say, &#8216;but I&#8217;m not hurt! They beat me, but I don&#8217;t feel it! When will I wake up so I can find another drink?&#8221;<\/p>\n<\/blockquote>\n<p>This advice, all highly relevant in our world today, is straight from the Bible, from the book of Proverbs.<\/p>\n<p>It&#8217;s amazing, both that wisdom from thousands of years ago is still relevant today, and that human nature has moved on so little in that time.<\/p>\n",
         "excerpt": "<p>Here are some wise sayings that seem quite relevant given the current credit crunch: &#8220;Cast but a glance at riches, and they are gone, for they will surely sprout wings and fly off to the sky like an eagle.&#8221; &#8220;The rich rule over the poor, and the borrower is servant to the lender.&#8221; &#8220;Don&#8217;t guarantee [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 211,
-            "date": "2008-11-02T19:49:00",
-            "date_gmt": "2008-11-02T19:49:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/11\/02\/the-wii\/"
-            },
-            "modified": "2008-11-02T19:49:00",
-            "modified_gmt": "2008-11-02T19:49:00",
-            "slug": "the-wii",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/",
-            "title": {
-                "rendered": "The Wii"
-            },
-            "content": {
-                "rendered": "<p>I&#8217;m sure a million people have reviewed the Nintendo Wii, so my comments on the latest addition to our household will be late and fairly insignificant.  Still, having had the Wii for a while, I want to note what I think.<\/p>\n<p><span style=\"font-weight:bold;\">Gaming History and Philosophy in the Wintle Household<\/span><\/p>\n<p>Sally and I aren&#8217;t big gamers.  We have PCs and we play silly online games like <a href=\"http:\/\/www.stickcricket.com\/\">Stick Cricket<\/a> (a personal favourite) and <a href=\"http:\/\/www.helicoptergame.net\/\">The Helicopter Game<\/a> but in terms of gaming devices, until early June, the most advanced thing we owned was a cheap, 2nd-hand, Nintendo 64, and three games (only two of which were worth playing (GoldenEye and MarioKart).<\/p>\n<p>The reason we own the N64 is for Multiplayer games.  We use video games as a fun way to spend time with others.<\/p>\n<p>So when I&#8217;d heard much good stuff said about the Wii from my colleagues and had had a go on one round at a friend&#8217;s house, I&#8230;well&#8230;I know I shouldn&#8217;t covet, but, let&#8217;s say, I put buying one of the consoles on my to do list.<\/p>\n<p>All I had to do was convince Sally.  Which is a long story of it&#8217;s own.<\/p>\n<p>So, shortly before our birthdays in June, we treated ourselves and, after some hunting, found a Wii to buy and bought it.<\/p>\n<p><span style=\"font-weight:bold;\">Initial Thoughts<\/span><\/p>\n<p>First reaction?  It&#8217;s a heavy little thing.  A small, elegant white box, but solid-feeling and with quite some weight to it!  But it seems well built, well packaged and it was simple enough to set up.<\/p>\n<p>The basic package included a single wireless remote, and the &#8220;Wii Sports&#8221; game.  It doesn&#8217;t have co-axial output so you need a telly with SCART or RGB inputs (we still have a big CRT TV rather than a modern LCD or Plasma screen, but we had enough SCART sockets for this not to be a problem).  The only thing that felt a bit flimsy was the remote sensor bar, which you sit on top of or below your telly.<\/p>\n<p>The remote seems pretty robust and after the initial throwing-across-the-room accidents now comes with both a handy wrist strap (that the Wii constantly tells you to use!) and a silicon &#8220;jacket&#8221; which gives fairly thick padding to further prevent danger.<\/p>\n<p>In fact, the whole health-and-safety thing is a bit overdone with pages and pages of the manual given over to RSI, the dangers of waving remotes around, and how to use your Wii without damaging anyone or anything.  All done, presumably, so that Nintendo can say &#8220;we told you so&#8221; when common-sense-less people try to sue them for damages.  What a sad world we live in.  Still, I appreciate the wrist strap, which is a highly sensible addition.<\/p>\n<p><span style=\"font-weight:bold;\">Channels<\/span><\/p>\n<p>On startup the Wii does a few uninteresting things, like asking you to give it a name, and then presents you with a selection of &#8220;channels&#8221;.  These are the different things that the Wii can do, and all the channels are stored in the small amount of flash memory that the Wii has (I think this is 512MB).<\/p>\n<p>Channels are like little applications, and include a photo viewer (the Wii has an SD memory card slot for your camera or phone&#8217;s memory card to go in), settings pages, news, weather and &#8220;Mii&#8221; channel where you design your own little character with which to appear onscreen.<\/p>\n<p>You can add channels from some games and they are also downloadable if you set up a wireless internet connection.<\/p>\n<p>The only channel not stored in the Wii&#8217;s memory is the disc channel, which is where you access the games that come on DVD-like discs.<\/p>\n<p>The only fiddly thing is that the Wii needs to be left on standby to keep the weather and news up to date, which, of course, doesn&#8217;t appeal to our green sensibilities &#8211; yet they are very useful channels.<\/p>\n<p><span style=\"font-weight:bold;\">Design<\/span><\/p>\n<p>The Wii is pretty family-centric, and the look and feel could be said to be childish.  Yet it manages to accomplish this with some element of style.  Yes, the Mii&#8217;s are little cartoon characters, and everything has round edges and things float and bounce around.  But things are smooth and clean, things scroll and zoom nicely, and there are certain whizzy little things that probably shouldn&#8217;t be there but are &#8211; clever touches that grown ups appreciate.<\/p>\n<p><span style=\"font-weight:bold;\">Your first Game: Wii Sports<\/span><\/p>\n<p>Wii Sports comes with the Wii and is one of the big lures. \u00a0It&#8217;s simple but makes astoundingly good use of the Wii&#8217;s remote. \u00a0Tennis is a perennial favourite. \u00a0Easy to pick up, but as you learn that you can use the remote with twist and flick to achieve subtly different shots, the pace picks up.<\/p>\n<div><\/div>\n<div>Bowling is a great game if you&#8217;ve got people round but only have a limited number of remotes. \u00a0Golf is great, but tricky and could do with more depth (only 9 holes which quickly go from being simple to outrageous). \u00a0Baseball divides the Wintle household, I love it, but Sally&#8217;s not a fan. \u00a0The little nuances like waggling the bat while you&#8217;re waiting at the plate are great. \u00a0Shame you don&#8217;t have control over the outfielders though &#8211; the game is probably too much left to chance.<\/div>\n<div><\/div>\n<div>And then there&#8217;s boxing. \u00a0I put of doing boxing for as long as I could because I thought I&#8217;d look really stupid doing it, but it&#8217;s hugely energetic, and highly addictive. \u00a0Definitely a good way to get rid of some stress at the end of a difficult day.<\/div>\n<div><\/div>\n<div><span class=\"Apple-style-span\" style=\"font-weight:bold;\">Summary<\/span><\/div>\n<div><\/div>\n<div>We love our Wii and it&#8217;s a big part of entertainment in our home now. \u00a0We&#8217;ve added Lego Star Wars, Mario Kart and a Wii Fit (and the barely-worth-mentioning Wii Play) to the collection and, at the moment, that&#8217;s all that we need. \u00a0The download of a web-browser channel has made it useful as well as playful. \u00a0I&#8217;ll maybe write about some of these (especially Wii Fit) in the near future.<\/div>\n<div><\/div>\n<div>I love the way that video games have moved on to be more interactive, and especially they way Nintendo are playing with how we interact with the small-screen.<\/div>\n<div><\/div>\n<div>Overall a clever, simple, addicitve, and highly entertaining toy that hasn&#8217;t failed to disappoint.<\/div>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;m sure a million people have reviewed the Nintendo Wii, so my comments on the latest addition to our household will be late and fairly insignificant. Still, having had the Wii for a while, I want to note what I think. Gaming History and Philosophy in the Wintle Household Sally and I aren&#8217;t big gamers. [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                8,
-                10,
-                23
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Wii - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/11\/the-wii\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Wii - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;m sure a million people have reviewed the Nintendo Wii, so my comments on the latest addition to our household will be late and fairly insignificant. Still, having had the Wii for a while, I want to note what I think. Gaming History and Philosophy in the Wintle Household Sally and I aren&#8217;t big gamers. [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/11\/the-wii\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-11-02T19:49:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/11\/the-wii\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/11\/the-wii\/\",\"name\":\"The Wii - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-11-02T19:49:00+00:00\",\"dateModified\":\"2008-11-02T19:49:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/11\/the-wii\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/11\/the-wii\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/11\/the-wii\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Wii\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "The Wii - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "The Wii - Ross Wintle",
-                "og_description": "I&#8217;m sure a million people have reviewed the Nintendo Wii, so my comments on the latest addition to our household will be late and fairly insignificant. Still, having had the Wii for a while, I want to note what I think. Gaming History and Philosophy in the Wintle Household Sally and I aren&#8217;t big gamers. [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2008-11-02T19:49:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "5 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/",
-                            "url": "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/",
-                            "name": "The Wii - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2008-11-02T19:49:00+00:00",
-                            "dateModified": "2008-11-02T19:49:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "The Wii"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/211"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=211"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/211\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=211"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=211"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=211"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 211,
-        "dateGmt": "2008-11-02T19:49:00",
-        "modifiedDateGmt": "2008-11-02T19:49:00",
-        "slug": "the-wii",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2008\/11\/the-wii\/",
-        "title": "The Wii",
-        "content": "<p>I&#8217;m sure a million people have reviewed the Nintendo Wii, so my comments on the latest addition to our household will be late and fairly insignificant.  Still, having had the Wii for a while, I want to note what I think.<\/p>\n<p><span style=\"font-weight:bold;\">Gaming History and Philosophy in the Wintle Household<\/span><\/p>\n<p>Sally and I aren&#8217;t big gamers.  We have PCs and we play silly online games like <a href=\"http:\/\/www.stickcricket.com\/\">Stick Cricket<\/a> (a personal favourite) and <a href=\"http:\/\/www.helicoptergame.net\/\">The Helicopter Game<\/a> but in terms of gaming devices, until early June, the most advanced thing we owned was a cheap, 2nd-hand, Nintendo 64, and three games (only two of which were worth playing (GoldenEye and MarioKart).<\/p>\n<p>The reason we own the N64 is for Multiplayer games.  We use video games as a fun way to spend time with others.<\/p>\n<p>So when I&#8217;d heard much good stuff said about the Wii from my colleagues and had had a go on one round at a friend&#8217;s house, I&#8230;well&#8230;I know I shouldn&#8217;t covet, but, let&#8217;s say, I put buying one of the consoles on my to do list.<\/p>\n<p>All I had to do was convince Sally.  Which is a long story of it&#8217;s own.<\/p>\n<p>So, shortly before our birthdays in June, we treated ourselves and, after some hunting, found a Wii to buy and bought it.<\/p>\n<p><span style=\"font-weight:bold;\">Initial Thoughts<\/span><\/p>\n<p>First reaction?  It&#8217;s a heavy little thing.  A small, elegant white box, but solid-feeling and with quite some weight to it!  But it seems well built, well packaged and it was simple enough to set up.<\/p>\n<p>The basic package included a single wireless remote, and the &#8220;Wii Sports&#8221; game.  It doesn&#8217;t have co-axial output so you need a telly with SCART or RGB inputs (we still have a big CRT TV rather than a modern LCD or Plasma screen, but we had enough SCART sockets for this not to be a problem).  The only thing that felt a bit flimsy was the remote sensor bar, which you sit on top of or below your telly.<\/p>\n<p>The remote seems pretty robust and after the initial throwing-across-the-room accidents now comes with both a handy wrist strap (that the Wii constantly tells you to use!) and a silicon &#8220;jacket&#8221; which gives fairly thick padding to further prevent danger.<\/p>\n<p>In fact, the whole health-and-safety thing is a bit overdone with pages and pages of the manual given over to RSI, the dangers of waving remotes around, and how to use your Wii without damaging anyone or anything.  All done, presumably, so that Nintendo can say &#8220;we told you so&#8221; when common-sense-less people try to sue them for damages.  What a sad world we live in.  Still, I appreciate the wrist strap, which is a highly sensible addition.<\/p>\n<p><span style=\"font-weight:bold;\">Channels<\/span><\/p>\n<p>On startup the Wii does a few uninteresting things, like asking you to give it a name, and then presents you with a selection of &#8220;channels&#8221;.  These are the different things that the Wii can do, and all the channels are stored in the small amount of flash memory that the Wii has (I think this is 512MB).<\/p>\n<p>Channels are like little applications, and include a photo viewer (the Wii has an SD memory card slot for your camera or phone&#8217;s memory card to go in), settings pages, news, weather and &#8220;Mii&#8221; channel where you design your own little character with which to appear onscreen.<\/p>\n<p>You can add channels from some games and they are also downloadable if you set up a wireless internet connection.<\/p>\n<p>The only channel not stored in the Wii&#8217;s memory is the disc channel, which is where you access the games that come on DVD-like discs.<\/p>\n<p>The only fiddly thing is that the Wii needs to be left on standby to keep the weather and news up to date, which, of course, doesn&#8217;t appeal to our green sensibilities &#8211; yet they are very useful channels.<\/p>\n<p><span style=\"font-weight:bold;\">Design<\/span><\/p>\n<p>The Wii is pretty family-centric, and the look and feel could be said to be childish.  Yet it manages to accomplish this with some element of style.  Yes, the Mii&#8217;s are little cartoon characters, and everything has round edges and things float and bounce around.  But things are smooth and clean, things scroll and zoom nicely, and there are certain whizzy little things that probably shouldn&#8217;t be there but are &#8211; clever touches that grown ups appreciate.<\/p>\n<p><span style=\"font-weight:bold;\">Your first Game: Wii Sports<\/span><\/p>\n<p>Wii Sports comes with the Wii and is one of the big lures. \u00a0It&#8217;s simple but makes astoundingly good use of the Wii&#8217;s remote. \u00a0Tennis is a perennial favourite. \u00a0Easy to pick up, but as you learn that you can use the remote with twist and flick to achieve subtly different shots, the pace picks up.<\/p>\n<div><\/div>\n<div>Bowling is a great game if you&#8217;ve got people round but only have a limited number of remotes. \u00a0Golf is great, but tricky and could do with more depth (only 9 holes which quickly go from being simple to outrageous). \u00a0Baseball divides the Wintle household, I love it, but Sally&#8217;s not a fan. \u00a0The little nuances like waggling the bat while you&#8217;re waiting at the plate are great. \u00a0Shame you don&#8217;t have control over the outfielders though &#8211; the game is probably too much left to chance.<\/div>\n<div><\/div>\n<div>And then there&#8217;s boxing. \u00a0I put of doing boxing for as long as I could because I thought I&#8217;d look really stupid doing it, but it&#8217;s hugely energetic, and highly addictive. \u00a0Definitely a good way to get rid of some stress at the end of a difficult day.<\/div>\n<div><\/div>\n<div><span class=\"Apple-style-span\" style=\"font-weight:bold;\">Summary<\/span><\/div>\n<div><\/div>\n<div>We love our Wii and it&#8217;s a big part of entertainment in our home now. \u00a0We&#8217;ve added Lego Star Wars, Mario Kart and a Wii Fit (and the barely-worth-mentioning Wii Play) to the collection and, at the moment, that&#8217;s all that we need. \u00a0The download of a web-browser channel has made it useful as well as playful. \u00a0I&#8217;ll maybe write about some of these (especially Wii Fit) in the near future.<\/div>\n<div><\/div>\n<div>I love the way that video games have moved on to be more interactive, and especially they way Nintendo are playing with how we interact with the small-screen.<\/div>\n<div><\/div>\n<div>Overall a clever, simple, addicitve, and highly entertaining toy that hasn&#8217;t failed to disappoint.<\/div>\n",
-        "excerpt": "<p>I&#8217;m sure a million people have reviewed the Nintendo Wii, so my comments on the latest addition to our household will be late and fairly insignificant. Still, having had the Wii for a while, I want to note what I think. Gaming History and Philosophy in the Wintle Household Sally and I aren&#8217;t big gamers. [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

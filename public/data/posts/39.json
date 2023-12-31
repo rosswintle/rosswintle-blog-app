@@ -1,6 +1,255 @@
 [
     {
         "dataAsArray": {
+            "id": 866,
+            "date": "2010-07-23T22:14:00",
+            "date_gmt": "2010-07-23T21:14:00",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=866"
+            },
+            "modified": "2010-07-21T23:45:15",
+            "modified_gmt": "2010-07-21T22:45:15",
+            "slug": "cheaper-parking-again",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/",
+            "title": {
+                "rendered": "Cheaper Parking&#8230;Again"
+            },
+            "content": {
+                "rendered": "<p>The council are at it again <a title=\"Parking costs cut as boost for trade - Swindon Advertiser\" href=\"http:\/\/www.swindonadvertiser.co.uk\/news\/8211787.Parking_costs_cut_as_boost_for_trade\/\" target=\"_self\">cutting the cost of parking in Swindon Town Centre<\/a>.<\/p>\n<p>I <a title=\"Car Parks and Council Cash\" href=\"2009\/10\/car-parks-and-council-cash\/\" target=\"_self\">previously questioned the logic of that<\/a> back in September.<\/p>\n<p>Now, I understand the economics and I agree that it&#8217;s good to get people into town, but, as always, isn&#8217;t throwing the money at car usage incredibly short sighted?\u00a0 Here&#8217;s a few reasons why (most of them repeated from last time):<br \/>\n<!--more--><\/p>\n<ul>\n<li>Encouraging people to travel into town in cars increases congestion and make travel less pleasant for everyone.<\/li>\n<li>There are lots of people (e.g. students, the elderly, those with financial problems) who don&#8217;t drive and who won&#8217;t be helped into the town centre by this.<\/li>\n<li>It increases pollution.<\/li>\n<li>It affirms the car as the most important travel option.<\/li>\n<li>It&#8217;s a less healthy option.<\/li>\n<\/ul>\n<p>In the meantime, Park and Rides have been closed and the already-expensive bus services cut.<\/p>\n<p>To add insult to all this, the <a title=\"Change4Life\" href=\"http:\/\/swindon.gov.uk\/challengeswindon\/active_swindon_strategy-2.htm\" target=\"_blank\">Change4Life <\/a>team were out in town last Saturday with their message of &#8220;Eat Well, Move More and Live Longer&#8221; &#8211; right outside the two main car parks too!\u00a0 So if you took advantage of the cheap parking and drove to town you would have been confronted with a load of people wanting you to &#8220;gain big health benefits by making small lifestyle changes&#8221; &#8211; presumably one of which is to walk or cycle to places instead of use the car.<\/p>\n<p>I just wish they&#8217;d make up their minds.\u00a0 Do that want Swindon to be a healthy, sustainable city?\u00a0 Because if they do then they really need to be wholehearted and a little more creative in their approach to fixing the economic problems.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>The council are at it again cutting the cost of parking in Swindon Town Centre.  I understand the economics and I agree that it&#8217;s good to get people into town, but, as always, isn&#8217;t throwing the money at car usage incredibly short sighted?<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                6,
+                22
+            ],
+            "tags": [
+                249,
+                581,
+                170
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Cheaper Parking...Again - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Cheaper Parking...Again - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The council are at it again cutting the cost of parking in Swindon Town Centre. I understand the economics and I agree that it&#039;s good to get people into town, but, as always, isn&#039;t throwing the money at car usage incredibly short sighted?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-07-23T21:14:00+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2010-07-21T22:45:15+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/\",\"name\":\"Cheaper Parking...Again - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-07-23T21:14:00+00:00\",\"dateModified\":\"2010-07-21T22:45:15+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Cheaper Parking&#8230;Again\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Cheaper Parking...Again - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Cheaper Parking...Again - Ross Wintle",
+                "og_description": "The council are at it again cutting the cost of parking in Swindon Town Centre. I understand the economics and I agree that it's good to get people into town, but, as always, isn't throwing the money at car usage incredibly short sighted?",
+                "og_url": "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2010-07-23T21:14:00+00:00",
+                "article_modified_time": "2010-07-21T22:45:15+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/",
+                            "url": "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/",
+                            "name": "Cheaper Parking...Again - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2010-07-23T21:14:00+00:00",
+                            "dateModified": "2010-07-21T22:45:15+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Cheaper Parking&#8230;Again"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/866"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=866"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 3,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/866\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 871,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/866\/revisions\/871"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=866"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=866"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=866"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 866,
+        "dateGmt": "2010-07-23T21:14:00",
+        "modifiedDateGmt": "2010-07-21T22:45:15",
+        "slug": "cheaper-parking-again",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2010\/07\/cheaper-parking-again\/",
+        "title": "Cheaper Parking&#8230;Again",
+        "content": "<p>The council are at it again <a title=\"Parking costs cut as boost for trade - Swindon Advertiser\" href=\"http:\/\/www.swindonadvertiser.co.uk\/news\/8211787.Parking_costs_cut_as_boost_for_trade\/\" target=\"_self\">cutting the cost of parking in Swindon Town Centre<\/a>.<\/p>\n<p>I <a title=\"Car Parks and Council Cash\" href=\"2009\/10\/car-parks-and-council-cash\/\" target=\"_self\">previously questioned the logic of that<\/a> back in September.<\/p>\n<p>Now, I understand the economics and I agree that it&#8217;s good to get people into town, but, as always, isn&#8217;t throwing the money at car usage incredibly short sighted?\u00a0 Here&#8217;s a few reasons why (most of them repeated from last time):<br \/>\n<!--more--><\/p>\n<ul>\n<li>Encouraging people to travel into town in cars increases congestion and make travel less pleasant for everyone.<\/li>\n<li>There are lots of people (e.g. students, the elderly, those with financial problems) who don&#8217;t drive and who won&#8217;t be helped into the town centre by this.<\/li>\n<li>It increases pollution.<\/li>\n<li>It affirms the car as the most important travel option.<\/li>\n<li>It&#8217;s a less healthy option.<\/li>\n<\/ul>\n<p>In the meantime, Park and Rides have been closed and the already-expensive bus services cut.<\/p>\n<p>To add insult to all this, the <a title=\"Change4Life\" href=\"http:\/\/swindon.gov.uk\/challengeswindon\/active_swindon_strategy-2.htm\" target=\"_blank\">Change4Life <\/a>team were out in town last Saturday with their message of &#8220;Eat Well, Move More and Live Longer&#8221; &#8211; right outside the two main car parks too!\u00a0 So if you took advantage of the cheap parking and drove to town you would have been confronted with a load of people wanting you to &#8220;gain big health benefits by making small lifestyle changes&#8221; &#8211; presumably one of which is to walk or cycle to places instead of use the car.<\/p>\n<p>I just wish they&#8217;d make up their minds.\u00a0 Do that want Swindon to be a healthy, sustainable city?\u00a0 Because if they do then they really need to be wholehearted and a little more creative in their approach to fixing the economic problems.<\/p>\n",
+        "excerpt": "<p>The council are at it again cutting the cost of parking in Swindon Town Centre.  I understand the economics and I agree that it&#8217;s good to get people into town, but, as always, isn&#8217;t throwing the money at car usage incredibly short sighted?<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 855,
             "date": "2010-07-22T21:00:22",
             "date_gmt": "2010-07-22T20:00:22",
@@ -2220,251 +2469,6 @@
         "title": "Paris in the Spring &#8211; Velib!",
         "content": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2276.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"alignright size-medium wp-image-829\" title=\"My First Velib Station\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2276-300x225.jpg\" alt=\"\" width=\"300\" height=\"225\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2276-300x225.jpg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2276-1024x768.jpg 1024w\" sizes=\"(max-width: 300px) 100vw, 300px\" \/><\/a>OK, so I previously said that I didn&#8217;t think much about cycling while we were in Paris.\u00a0 But I did&#8230;a little.<\/p>\n<p>Well, how could I not when there was the Velib bike-hire system to check out.<\/p>\n<p>I confess, we didn&#8217;t use Velib <sup class='footnote'><a href='#fn-828-1' id='fnref-828-1' onclick='return fdfootnote_show(828)'>1<\/a><\/sup>, but that didn&#8217;t stop me being highly impressed with it.<\/p>\n<p><!--more-->There were lots&#8230;I mean LOTS&#8230;of people using Velib bikes.\u00a0 An astonishing number in fact<sup class='footnote'><a href='#fn-828-2' id='fnref-828-2' onclick='return fdfootnote_show(828)'>2<\/a><\/sup>.<\/p>\n<p>There were lots&#8230;I mean LOTS of Velib bikes to use.\u00a0 An equally astonishing number<sup class='footnote'><a href='#fn-828-3' id='fnref-828-3' onclick='return fdfootnote_show(828)'>3<\/a><\/sup>.<\/p>\n<p>There were lots&#8230;I mean LOTS of Velib stations around the city<sup class='footnote'><a href='#fn-828-4' id='fnref-828-4' onclick='return fdfootnote_show(828)'>4<\/a><\/sup>.<\/p>\n<p>You get the idea<sup class='footnote'><a href='#fn-828-5' id='fnref-828-5' onclick='return fdfootnote_show(828)'>5<\/a><\/sup>.<\/p>\n<p>Velib isn&#8217;t a system where Paris dipped it&#8217;s toes in the water to see what happened.\u00a0 They&#8217;ve SERIOUSLY invested here in a LOT of equipment and infrastructure and it looks to have seriously paid off.\u00a0 Velib is in no way half-hearted, it&#8217;s a real, serious form of public transport in Paris.<\/p>\n<p>I wonder what makes it such a success.\u00a0 Is it:<\/p>\n<ul>\n<li>The weather\/climate of Paris?\u00a0 Is it dry and warm a lot?\u00a0 Our week there was particularly nice.\u00a0 I wonder how much usage drops in bad weather.<\/li>\n<li>The availability? The sheer number of stations and bikes making it convenient.<\/li>\n<li>The cycling infrastructure?\u00a0 OK, it&#8217;s not Copenhagen or Amsterdam, but there were lots of wide open roads where plenty of space was given to cyclists (often shared with buses), lots of wide, decent and sensible cycle lanes &#8211; not always with priority over other traffic, but far better thought out than most of what I&#8217;ve seen in the UK.<\/li>\n<li>The culture?\u00a0 Maybe it was just because I was on holiday and relaxed, but Paris felt pretty chilled.\u00a0 No one was in a\u00a0 hurry.<\/li>\n<li>The pricing?\u00a0 Once you&#8217;ve paid a small fee to register, the first half-hour on a Velib is free!\u00a0 That&#8217;s probably long enough for most short journeys in Paris, making it a very cheap way to get around.<\/li>\n<\/ul>\n<p>Or is it, as I suspect, all of the above?<\/p>\n<p>Originally I had some questions though like what do you do when you need to park a Velib at a station that is full, but these all seem to have been thought out.<\/p>\n<p>I was seriously impressed.\u00a0\u00a0 Although, sadly, it seems that Velib hasn&#8217;t been without its problems &#8211; <a title=\"Wikipedia: Velib\" href=\"http:\/\/en.wikipedia.org\/wiki\/V%C3%A9lib%27\" target=\"_blank\">Wikipedia<\/a> reports a high level of theft and vandalism.<\/p>\n<p>London launches <a title=\"TFL: About Cycle Hire\" href=\"http:\/\/www.tfl.gov.uk\/roadusers\/cycling\/12444.aspx\" target=\"_blank\">its cycle hire\/sharing system<\/a> in July with:<\/p>\n<ul>\n<li>400 stations (no more than 300m apart);<\/li>\n<li><a title=\"TFL London Cycle Hire Zone map\" href=\"http:\/\/www.tfl.gov.uk\/assets\/downloads\/Cycling\/cycle-hire-scheme-zone-map.pdf\" target=\"_blank\">coverage<\/a> from Holland Park in the West, to Tower Hamlets in the East, and from Regent&#8217;s Park and Islington in the North down to Lambeth in the South <sup class='footnote'><a href='#fn-828-6' id='fnref-828-6' onclick='return fdfootnote_show(828)'>6<\/a><\/sup>;<\/li>\n<li>a similar pricing scheme (the first 30 minutes will be free).<\/li>\n<\/ul>\n<p>Yet I&#8217;m sceptical. With our weather, culture and roads, will we, the English, &#8220;get&#8221; it, and we use it?<\/p>\n<p>I guess only time will tell.<\/p>\n<div class='footnotes' id='footnotes-828'>\n<div class='footnotedivider'><\/div>\n<ol>\n<li id='fn-828-1'> I tried a little to persuade my lovely wife to give it a go, but I sensed that she wasn&#8217;t as excited about the prospect as I was and we had a carnet of Metro tickets to use up <span class='footnotereverse'><a href='#fnref-828-1'>&#8617;<\/a><\/span><\/li>\n<li id='fn-828-2'> I couldn&#8217;t find many stats but <a title=\"The Bike Sharing Blog: Velib Statistics from  May 2008\" href=\"http:\/\/bike-sharing.blogspot.com\/2008\/05\/updated-velib-stats.html\" target=\"_blank\">The  Bike Sharing Blog<\/a> reported, in 2008, that in under a year Velib had  clocked 20 million trips, an average of 70,000 per day, 190,000 pass  holders <span class='footnotereverse'><a href='#fnref-828-2'>&#8617;<\/a><\/span><\/li>\n<li id='fn-828-3'> There are over 20,000 bikes. <span class='footnotereverse'><a href='#fnref-828-3'>&#8617;<\/a><\/span><\/li>\n<li id='fn-828-4'> There are over 1,400 stations\u00a0 and at least one within any 300m radius. <span class='footnotereverse'><a href='#fnref-828-4'>&#8617;<\/a><\/span><\/li>\n<li id='fn-828-5'> Oh, and of course, very few people had helmets or any &#8216;special&#8217; clothing&#8230;in fact, I consider myself properly inducted into the world of European &#8216;cycle chic&#8217; <span class='footnotereverse'><a href='#fnref-828-5'>&#8617;<\/a><\/span><\/li>\n<li id='fn-828-6'> This is roughly equivalent to Tube Zone 1 <span class='footnotereverse'><a href='#fnref-828-6'>&#8617;<\/a><\/span><\/li>\n<\/ol>\n<\/div>\n",
         "excerpt": "<p>Velib is in no way half-hearted, it&#8217;s a real, serious form of public transport in Paris.<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 825,
-            "date": "2010-05-02T18:24:34",
-            "date_gmt": "2010-05-02T17:24:34",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=825"
-            },
-            "modified": "2010-05-02T18:24:34",
-            "modified_gmt": "2010-05-02T17:24:34",
-            "slug": "paris-in-the-spring",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/",
-            "title": {
-                "rendered": "Paris in the Spring"
-            },
-            "content": {
-                "rendered": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"alignright size-medium wp-image-826\" title=\"Eiffel Tower from Sacre Coeur\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291-225x300.jpg\" alt=\"\" width=\"225\" height=\"300\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291-225x300.jpg 225w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291-768x1024.jpg 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291.jpg 1944w\" sizes=\"(max-width: 225px) 100vw, 225px\" \/><\/a>This year my beautiful, amazing, wonderful wife and I celebrated 5 years of being married with a 4-night trip to Paris.<\/p>\n<p>It was an amazing few days.\u00a0 I totally chilled out.\u00a0 Anyone who knows me knows that I think a lot and I didn&#8217;t think about much at all&#8230;not about church, not about work, not about technology, not (much) about cycling.\u00a0 I confess, I thought quite a bit about food, but that&#8217;s France for you, and we talked a bit about politics too.<\/p>\n<p>I don&#8217;t normally travel well, but France is OK because I know the lingo pretty well, and in a city it&#8217;s easy to find food and drink and pretty much anything else that you need, at pretty much any time of day.<\/p>\n<p>We went on the train to London and Eurostar to Paris&#8230;so much nicer than flying.\u00a0 We stayed in a Hotel on the southern edge of the Latin Quarter and found lots of reasonable-quality, cheap food on Rue Moufftard, which helped keep costs down a bit &#8211; in fact, I loved Rue Moufftard, it was the quintessential trendy French street.<\/p>\n<p>The weather was perfect, and we walked our socks off exploring the city, and generally had a really relaxed and fun time.<\/p>\n<p>Some more specific thoughts will follow, but generally, visiting Paris was good, going by train was good, staying in the Latin Quarter was good.<\/p>\n<p>Oh, and being married for 5 years has also been very, very good!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Visiting Paris was good, going by train was good, staying in the Latin Quarter was good.<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                14
-            ],
-            "tags": [
-                243,
-                575,
-                242,
-                155
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Paris in the Spring - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Paris in the Spring - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Visiting Paris was good, going by train was good, staying in the Latin Quarter was good.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-05-02T17:24:34+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291-225x300.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/\",\"name\":\"Paris in the Spring - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-05-02T17:24:34+00:00\",\"dateModified\":\"2010-05-02T17:24:34+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Paris in the Spring\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Paris in the Spring - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Paris in the Spring - Ross Wintle",
-                "og_description": "Visiting Paris was good, going by train was good, staying in the Latin Quarter was good.",
-                "og_url": "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2010-05-02T17:24:34+00:00",
-                "og_image": [
-                    {
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291-225x300.jpg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/",
-                            "url": "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/",
-                            "name": "Paris in the Spring - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2010-05-02T17:24:34+00:00",
-                            "dateModified": "2010-05-02T17:24:34+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Paris in the Spring"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/825"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=825"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 1,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/825\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 827,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/825\/revisions\/827"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=825"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=825"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=825"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 825,
-        "dateGmt": "2010-05-02T17:24:34",
-        "modifiedDateGmt": "2010-05-02T17:24:34",
-        "slug": "paris-in-the-spring",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2010\/05\/paris-in-the-spring\/",
-        "title": "Paris in the Spring",
-        "content": "<p><a href=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291.jpg\"><img loading=\"lazy\" decoding=\"async\" class=\"alignright size-medium wp-image-826\" title=\"Eiffel Tower from Sacre Coeur\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291-225x300.jpg\" alt=\"\" width=\"225\" height=\"300\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291-225x300.jpg 225w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291-768x1024.jpg 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/05\/IMG_2291.jpg 1944w\" sizes=\"(max-width: 225px) 100vw, 225px\" \/><\/a>This year my beautiful, amazing, wonderful wife and I celebrated 5 years of being married with a 4-night trip to Paris.<\/p>\n<p>It was an amazing few days.\u00a0 I totally chilled out.\u00a0 Anyone who knows me knows that I think a lot and I didn&#8217;t think about much at all&#8230;not about church, not about work, not about technology, not (much) about cycling.\u00a0 I confess, I thought quite a bit about food, but that&#8217;s France for you, and we talked a bit about politics too.<\/p>\n<p>I don&#8217;t normally travel well, but France is OK because I know the lingo pretty well, and in a city it&#8217;s easy to find food and drink and pretty much anything else that you need, at pretty much any time of day.<\/p>\n<p>We went on the train to London and Eurostar to Paris&#8230;so much nicer than flying.\u00a0 We stayed in a Hotel on the southern edge of the Latin Quarter and found lots of reasonable-quality, cheap food on Rue Moufftard, which helped keep costs down a bit &#8211; in fact, I loved Rue Moufftard, it was the quintessential trendy French street.<\/p>\n<p>The weather was perfect, and we walked our socks off exploring the city, and generally had a really relaxed and fun time.<\/p>\n<p>Some more specific thoughts will follow, but generally, visiting Paris was good, going by train was good, staying in the Latin Quarter was good.<\/p>\n<p>Oh, and being married for 5 years has also been very, very good!<\/p>\n",
-        "excerpt": "<p>Visiting Paris was good, going by train was good, staying in the Latin Quarter was good.<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

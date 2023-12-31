@@ -1,6 +1,255 @@
 [
     {
         "dataAsArray": {
+            "id": 4510,
+            "date": "2019-01-31T10:58:40",
+            "date_gmt": "2019-01-31T10:58:40",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=4510"
+            },
+            "modified": "2019-01-31T11:05:53",
+            "modified_gmt": "2019-01-31T11:05:53",
+            "slug": "improving-internal-communications-its-a-people-problem",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
+            "title": {
+                "rendered": "Improving internal communications &#8211; it&#8217;s a people problem&#8230;"
+            },
+            "content": {
+                "rendered": "\n<p>In previous jobs, I have worked a fair bit to improve internal communications in work circles &#8211; informally, rather than as part of my specification.<\/p>\n\n\n\n<p>Through a combination of hard-won experience and probably <a href=\"https:\/\/rosswintle.uk\/2015\/07\/highly-sensitive\/\">being a bit sensitive<\/a> to what&#8217;s going on around me and thinking really hard about it, I&#8217;ve gained some useful insight for people wanting to try to help improve communications in their teams.<\/p>\n\n\n\n<p>A lot of this advice also applies to building online communities with forums or social media groups too.<\/p>\n\n\n\n<p><strong>The key thing to understand is that this problem is not a primarily a technological one, but a cultural\/psychological one.<\/strong> Many people start with &#8220;we need a new app to help us communicate better!&#8221;. But technology abounds, and the real problem is how do you get people to use any tools that you put in place, and keep people USING those tools (whatever they are) without constantly interrupting or annoying them, overloading them, and putting them off using it.<\/p>\n\n\n\n<p>Some things to think about that come about from looking at the problem in this way:<\/p>\n\n\n\n<p><strong>Will people use a new\/different tool?<\/strong> Or is it easier to just go where they are already at, like in a Facebook group?<\/p>\n\n\n\n<p><strong>Chat tools like Slack are great but they get noisy and demanding<\/strong>, encouraging immediacy.  They also focus on the immediate, to the extent that Slack&#8217;s entire business model is based around roping you in with free, real-time communication and then getting you to pay for access to historical conversations.<\/p>\n\n\n\n<p><strong>Trello is lovely, I like Trello. It works very much like a whiteboard full of post-its that everyone can see.<\/strong> But your team would probably have to be quite active in checking in on it. So <strong>if you are using Trello for comms and collaboration you should maybe have some other channel for prodding people to look at it<\/strong>.<\/p>\n\n\n\n<p><strong>If you like Facebook but don&#8217;t want to actually use Facebook then look into Facebook Workplace<\/strong>: <a href=\"https:\/\/www.facebook.com\/workplace\">https:\/\/www.facebook.com\/workplace<\/a> &#8211; it&#8217;s like your organisations own, private Facebook! This is great because most people know how to use Facebook, but you probably don&#8217;t want the whack-a-mole of real-Facebook notifications during the working day. So this keeps it work-only!<\/p>\n\n\n\n<p><strong>Don&#8217;t neglect more traditional channels!<\/strong> Email lists\/groups, posters on walls, and instant messages are all effective at reaching out to people. But use these to direct people back to the central tool you use to communicate  and collaborate. A weekly email summing up key points that people need  to know with links back to where they can read more works great.<\/p>\n\n\n\n<p><strong>Provide value.<\/strong> People won&#8217;t use a tool if it&#8217;s not up to date, or doesn&#8217;t aid them in their work. Make it useful. Keep information fresh and accurate. And solicit and pay attention to feedback from people to find out how to make the tool more useful for them<\/p>\n\n\n\n<p><strong>In all cases, this is a people problem and you will need people to help you solve it. <\/strong>So once you have chosen a technology, ensure that you have some kind of community leadership. Maybe recruit others to the cause of better communication and have them as your ambassadors\/champions, so that if someone says &#8220;Where do I tell everyone about this thing?&#8221; or &#8220;Where do I find out about the thing?&#8221; they can get directed to the new communications tool.<\/p>\n\n\n\n<p>Talk about the tool in meetings, embed it within the culture of your organisation. Make it THE place to go to communicate. This is key! Nothing attracts a crowd like a crowd and people won&#8217;t use the tool if no one else is using it<\/p>\n\n\n\n<p><strong>It&#8217;s also, helpful to understand the barriers to communication and communcation styles.<\/strong> <a href=\"https:\/\/www.andymort.com\/phone-reluctant-introvert\/\">Extroverts and sensitive types may hate using the phone<\/a> or speaking up in a more public forum, so find ways to gently encourage their communication or offer to communicate on their behalf.<\/p>\n\n\n\n<p>Understanding character types and why people behave like they do can be super helpful. Always be skeptical of psychology tests and putting people in boxes, but things like <a href=\"https:\/\/www.16personalities.com\/\">the excellent and mostly free 16 Personalities<\/a> can be helpful in understanding how each other&#8217;s brains work and how that affects communication.<\/p>\n\n\n\n<p>Getting a busy, diverse, distributed, flexi-time mixture of people to communicate is hard work &#8211; but if you can get it to work the benefits are huge! I hope you crack it!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Some useful experience and insight for people wanting to try to help improve communications in their teams.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                230,
+                24,
+                187
+            ],
+            "tags": [
+                445,
+                254,
+                231,
+                734,
+                735,
+                582
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Improving internal communications - it&#039;s a people problem... - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Improving internal communications - it&#039;s a people problem... - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some useful experience and insight for people wanting to try to help improve communications in their teams.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-01-31T10:58:40+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-01-31T11:05:53+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\",\"name\":\"Improving internal communications - it's a people problem... - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-01-31T10:58:40+00:00\",\"dateModified\":\"2019-01-31T11:05:53+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Improving internal communications &#8211; it&#8217;s a people problem&#8230;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Improving internal communications - it's a people problem... - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Improving internal communications - it's a people problem... - Ross Wintle",
+                "og_description": "Some useful experience and insight for people wanting to try to help improve communications in their teams.",
+                "og_url": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2019-01-31T10:58:40+00:00",
+                "article_modified_time": "2019-01-31T11:05:53+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "4 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
+                            "url": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
+                            "name": "Improving internal communications - it's a people problem... - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2019-01-31T10:58:40+00:00",
+                            "dateModified": "2019-01-31T11:05:53+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Improving internal communications &#8211; it&#8217;s a people problem&#8230;"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4510"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4510"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 3,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4510\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 4526,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4510\/revisions\/4526"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4510"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4510"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4510"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 4510,
+        "dateGmt": "2019-01-31T10:58:40",
+        "modifiedDateGmt": "2019-01-31T11:05:53",
+        "slug": "improving-internal-communications-its-a-people-problem",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
+        "title": "Improving internal communications &#8211; it&#8217;s a people problem&#8230;",
+        "content": "\n<p>In previous jobs, I have worked a fair bit to improve internal communications in work circles &#8211; informally, rather than as part of my specification.<\/p>\n\n\n\n<p>Through a combination of hard-won experience and probably <a href=\"https:\/\/rosswintle.uk\/2015\/07\/highly-sensitive\/\">being a bit sensitive<\/a> to what&#8217;s going on around me and thinking really hard about it, I&#8217;ve gained some useful insight for people wanting to try to help improve communications in their teams.<\/p>\n\n\n\n<p>A lot of this advice also applies to building online communities with forums or social media groups too.<\/p>\n\n\n\n<p><strong>The key thing to understand is that this problem is not a primarily a technological one, but a cultural\/psychological one.<\/strong> Many people start with &#8220;we need a new app to help us communicate better!&#8221;. But technology abounds, and the real problem is how do you get people to use any tools that you put in place, and keep people USING those tools (whatever they are) without constantly interrupting or annoying them, overloading them, and putting them off using it.<\/p>\n\n\n\n<p>Some things to think about that come about from looking at the problem in this way:<\/p>\n\n\n\n<p><strong>Will people use a new\/different tool?<\/strong> Or is it easier to just go where they are already at, like in a Facebook group?<\/p>\n\n\n\n<p><strong>Chat tools like Slack are great but they get noisy and demanding<\/strong>, encouraging immediacy.  They also focus on the immediate, to the extent that Slack&#8217;s entire business model is based around roping you in with free, real-time communication and then getting you to pay for access to historical conversations.<\/p>\n\n\n\n<p><strong>Trello is lovely, I like Trello. It works very much like a whiteboard full of post-its that everyone can see.<\/strong> But your team would probably have to be quite active in checking in on it. So <strong>if you are using Trello for comms and collaboration you should maybe have some other channel for prodding people to look at it<\/strong>.<\/p>\n\n\n\n<p><strong>If you like Facebook but don&#8217;t want to actually use Facebook then look into Facebook Workplace<\/strong>: <a href=\"https:\/\/www.facebook.com\/workplace\">https:\/\/www.facebook.com\/workplace<\/a> &#8211; it&#8217;s like your organisations own, private Facebook! This is great because most people know how to use Facebook, but you probably don&#8217;t want the whack-a-mole of real-Facebook notifications during the working day. So this keeps it work-only!<\/p>\n\n\n\n<p><strong>Don&#8217;t neglect more traditional channels!<\/strong> Email lists\/groups, posters on walls, and instant messages are all effective at reaching out to people. But use these to direct people back to the central tool you use to communicate  and collaborate. A weekly email summing up key points that people need  to know with links back to where they can read more works great.<\/p>\n\n\n\n<p><strong>Provide value.<\/strong> People won&#8217;t use a tool if it&#8217;s not up to date, or doesn&#8217;t aid them in their work. Make it useful. Keep information fresh and accurate. And solicit and pay attention to feedback from people to find out how to make the tool more useful for them<\/p>\n\n\n\n<p><strong>In all cases, this is a people problem and you will need people to help you solve it. <\/strong>So once you have chosen a technology, ensure that you have some kind of community leadership. Maybe recruit others to the cause of better communication and have them as your ambassadors\/champions, so that if someone says &#8220;Where do I tell everyone about this thing?&#8221; or &#8220;Where do I find out about the thing?&#8221; they can get directed to the new communications tool.<\/p>\n\n\n\n<p>Talk about the tool in meetings, embed it within the culture of your organisation. Make it THE place to go to communicate. This is key! Nothing attracts a crowd like a crowd and people won&#8217;t use the tool if no one else is using it<\/p>\n\n\n\n<p><strong>It&#8217;s also, helpful to understand the barriers to communication and communcation styles.<\/strong> <a href=\"https:\/\/www.andymort.com\/phone-reluctant-introvert\/\">Extroverts and sensitive types may hate using the phone<\/a> or speaking up in a more public forum, so find ways to gently encourage their communication or offer to communicate on their behalf.<\/p>\n\n\n\n<p>Understanding character types and why people behave like they do can be super helpful. Always be skeptical of psychology tests and putting people in boxes, but things like <a href=\"https:\/\/www.16personalities.com\/\">the excellent and mostly free 16 Personalities<\/a> can be helpful in understanding how each other&#8217;s brains work and how that affects communication.<\/p>\n\n\n\n<p>Getting a busy, diverse, distributed, flexi-time mixture of people to communicate is hard work &#8211; but if you can get it to work the benefits are huge! I hope you crack it!<\/p>\n",
+        "excerpt": "<p>Some useful experience and insight for people wanting to try to help improve communications in their teams.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 4506,
             "date": "2019-01-28T11:00:02",
             "date_gmt": "2019-01-28T11:00:02",
@@ -2185,253 +2434,6 @@
         "title": "Contemplating technical goals for 2019",
         "content": "\n<p>I\u2019ve been thinking about technical goals for 2019.<\/p>\n\n\n\n<p>I currently mostly write PHP with both WordPress and Laravel and associated HTML, CSS and bits of JavaScript enhancement, including Vue.js and I\u2019ve been trying to learn React too, without quite getting there.<\/p>\n\n\n\n<p>I\u2019m trying to #LearnToLoveJS, rather than Learn JavaScript Deeply as the WordPress world is trying to do. Unfortunately this isn\u2019t quite working out as I had hoped: I feel like I\u2019m making progress with deeper JavaScript knowledge, but not so much with the enjoyment\/loving it aspect.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Learn to love TypeScript, or learn it Deeply, or something?<\/h3>\n\n\n\n<p>So I\u2019ve been wondering about TypeScript and actually installing it and reading through the docs and tutorials.<\/p>\n\n\n\n<p>The trouble with TypeScript is that it\u2019s a departure from the norm.<\/p>\n\n\n\n<p>I like the small-to-medium-sized projects that I work on to be easily-hand-on-able.<\/p>\n\n\n\n<p>Another developer picking up one of my projects should not have to learn something that they don\u2019t know. The build process and tool-chain should be simple and well-documented (confession: the latter is not always true, for which I apologise to both other dev\u2019s and my future self).<\/p>\n\n\n\n<p>And TypeScript would add another dependency both into the tool-chain and the required knowledge to take on a project.<\/p>\n\n\n\n<p>BUT&#8230;I wonder if another goal of 2019 is to take on more projects that are more bespoke, more self-contained and less likely to be handed on to other devs. More projects where I am the dev and I make the technical choices and I\u2019m unashamed about picking the right tool for me to accomplish the task with.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Go, Go, Go!<\/h3>\n\n\n\n<p>I also have a real hankering to learn Go. I don\u2019t know how that will happen, but from what I\u2019ve heard it seems like a language I would enjoy working with. Compilation with compile-time static analysis. Strongly typed. Multi-threaded. There are all Good Things for a grumpy, old-school dev like me.<\/p>\n\n\n\n<p>But what would I do with it? I don\u2019t work on the kind of projects where Go would be a viable technology choice.<\/p>\n\n\n\n<p>But again&#8230;maybe I should. Maybe this is where I should be positioning myself this year.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Can you select technology choices before positioning yourself for work?<\/h3>\n\n\n\n<p>Or should it happen the other way around? I suspect a bit of both is required. You won\u2019t win the kinds of work you want until you show capability.<\/p>\n\n\n\n<p>So maybe that\u2019s the goal for this year &#8211; demonstrate capability for more of this kind of work and see what happens.<\/p>\n\n\n\n<p>I\u2019m pretty firmly entrenched in WordPress world. And I\u2019d like that to continue somewhat. So I SHOULD be learning Gutenberg and Blocks and React. But the reasons for not wanting to do that are&#8230;<\/p>\n\n\n\n<p>&#8230;the subject of another post probably.<\/p>\n",
         "excerpt": "<p>I\u2019m considering coding tech choices for 2019. Is change afoot? Will I stick or twist?<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 4407,
-            "date": "2018-12-13T12:55:36",
-            "date_gmt": "2018-12-13T12:55:36",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=4407"
-            },
-            "modified": "2019-02-06T15:30:57",
-            "modified_gmt": "2019-02-06T15:30:57",
-            "slug": "refactoring-ui",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
-            "title": {
-                "rendered": "Refactoring UI"
-            },
-            "content": {
-                "rendered": "\n<p>As a developer who finds design really hard, I was very much looking forward to the release of Steve Schoger and Adam Wathan&#8217;s &#8220;<a href=\"https:\/\/refactoringui.com\/book\/\">Refactoring UI<\/a>&#8221; book and kit of resources. Here&#8217;s some thoughts on it.<\/p>\n\n\n\n<p>Note: I&#8217;m writing my thoughts in the order I had them. The positive stuff comes later!<br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Price<br><\/h3>\n\n\n\n<p>I heard the quote recently that &#8220;If people complain about the price, you&#8217;re doing it right&#8221;, and I confess, I complained about the price, so maybe they did price it right. I&#8217;d prepared myself for it to be 3 or 4 times the cost of an expensive book. But they priced it at $249 for the digital version of the book (not a physical book!) with all the resources! Yes, there&#8217;s a launch discount of 50%, but even so, this half-priced version was expensive.<\/p>\n\n\n\n<p>Yes, I get the arguments that a lot of experience and knowledge is in here, and a lot of work has been put in to make it a thing. And I get the argument that this will save me time, and it only has to save me a few hours to pay for itself. But actually, I think owning this book won&#8217;t save me time; it will make me do better design work and spend longer on it! Which is fine. As long as someone wants that and is paying me for it!<\/p>\n\n\n\n<p>I also can&#8217;t help thinking that if this was half the price then they&#8217;d sell twice as many copies, make just as much money and share their knowledge more widely. And isn&#8217;t this the point of making such a resource: to share your knowledge with people?<\/p>\n\n\n\n<p>A could of years back I&#8217;d been disappointed by Adam&#8217;s &#8220;<a href=\"https:\/\/adamwathan.me\/refactoring-to-collections\/\">Refactoring to Collections<\/a>&#8221; book which I thought wasn&#8217;t worth the money, and the provided videos in particular weren&#8217;t useful at all. So I was skeptical that this book&#8217;s extra resources would be helpful too &#8211; maybe I should just buy the basic package with the book?<br><\/p>\n\n\n\n<p>But persuaded by the <a href=\"http:\/\/www.fullstackradio.com\/103\">Full Stack Radio podcast<\/a> that detailed exactly what was in it, I eventually bit and bought the full Refactoring UI kit.<br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Format<\/h3>\n\n\n\n<p>Aside from it being a digital-only book, it was PDF format. And I get that they&#8217;ve spent time laying it out and typesetting it, but PDF&#8217;s are still not my favourite eBook format.<\/p>\n\n\n\n<p>They&#8217;re also selling it on Gumroad and the Gumroad reader seems to display PDFs at low quality. I&#8217;ve seen complaints on Twitter about the PDF quality and if you download it and open it locally it&#8217;s fine.<\/p>\n\n\n\n<p>More annoying though is that the component library, colour schemes and font selections are all also in PDF form. Which is annoying because the ability to copy\/paste stuff out of here, see the code, and tinker with it in the browser would have been great.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Material\/Content<\/h3>\n\n\n\n<p>OK, so here&#8217;s the good stuff. Because I&#8217;m not a designer, I can&#8217;t see visual stuff in my head or produce &#8220;nice looking stuff&#8221; out of thin air, I&#8217;m pretty dependent on rules and copying other people&#8217;s ideas to make things I make for the web look nice.<\/p>\n\n\n\n<p>And the book here really delivers. Strategic, rule-based design tips that really suit someone like me. It&#8217;s presented in a really easily digestible format, and has LOADS of very-well-put-together real-life examples.<\/p>\n\n\n\n<p>You can see the amount of work that has gone into this in creating the fictional-but-real-looking designs that illustrate the points being made. They&#8217;re done a really great job.<\/p>\n\n\n\n<p>It&#8217;s great stuff, well presented, and reading it WILL change my work for the better.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">I want exercises!<\/h3>\n\n\n\n<p>Finally, as well as wanting the component library and things in code, I think it would really benefit from some exercises.<\/p>\n\n\n\n<p>The videos are great at explaining the concepts and showing how to transform a bad design into a good one. But I really want to have a go at this myself.<\/p>\n\n\n\n<p>Some exercises a bit like Wes Bos&#8217;s <a href=\"https:\/\/javascript30.com\/\">JavaScript 30<\/a> course would be an amazing addition. Give me the video, the starting design\/code and the ending design\/code, and let me see if I can make some of the changes myself.<\/p>\n\n\n\n<p>Reading and watching is all well and good, but I&#8217;m only going to build up the skills and get them into my &#8220;muscle memory&#8221; if I actually DO then.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Summary<\/h3>\n\n\n\n<p>I love this kit. It&#8217;s expensive, but it&#8217;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.<br><\/p>\n\n\n\n<p>My hope is that Adam and Steve have made so much cash now that they don&#8217;t have to work for a year, and that now the book is out, they can spend some time producing some additional resources for those who have purchased it.<\/p>\n\n\n\n<p><br><\/p>\n\n\n\n<p><br><\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I love this kit. It&#8217;s expensive, but it&#8217;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                4,
-                187
-            ],
-            "tags": [
-                425,
-                540,
-                136,
-                438,
-                606
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Refactoring UI - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Refactoring UI - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I love this kit. It&#039;s expensive, but it&#039;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-12-13T12:55:36+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-02-06T15:30:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\",\"name\":\"Refactoring UI - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-12-13T12:55:36+00:00\",\"dateModified\":\"2019-02-06T15:30:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Refactoring UI\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Refactoring UI - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Refactoring UI - Ross Wintle",
-                "og_description": "I love this kit. It's expensive, but it's an amazing tool for me. But it does also feel lacking\/incomplete in its current form.",
-                "og_url": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2018-12-13T12:55:36+00:00",
-                "article_modified_time": "2019-02-06T15:30:57+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
-                            "url": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
-                            "name": "Refactoring UI - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2018-12-13T12:55:36+00:00",
-                            "dateModified": "2019-02-06T15:30:57+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Refactoring UI"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4407"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4407"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 2,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4407\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 4410,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4407\/revisions\/4410"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4407"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4407"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4407"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 4407,
-        "dateGmt": "2018-12-13T12:55:36",
-        "modifiedDateGmt": "2019-02-06T15:30:57",
-        "slug": "refactoring-ui",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2018\/12\/refactoring-ui\/",
-        "title": "Refactoring UI",
-        "content": "\n<p>As a developer who finds design really hard, I was very much looking forward to the release of Steve Schoger and Adam Wathan&#8217;s &#8220;<a href=\"https:\/\/refactoringui.com\/book\/\">Refactoring UI<\/a>&#8221; book and kit of resources. Here&#8217;s some thoughts on it.<\/p>\n\n\n\n<p>Note: I&#8217;m writing my thoughts in the order I had them. The positive stuff comes later!<br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Price<br><\/h3>\n\n\n\n<p>I heard the quote recently that &#8220;If people complain about the price, you&#8217;re doing it right&#8221;, and I confess, I complained about the price, so maybe they did price it right. I&#8217;d prepared myself for it to be 3 or 4 times the cost of an expensive book. But they priced it at $249 for the digital version of the book (not a physical book!) with all the resources! Yes, there&#8217;s a launch discount of 50%, but even so, this half-priced version was expensive.<\/p>\n\n\n\n<p>Yes, I get the arguments that a lot of experience and knowledge is in here, and a lot of work has been put in to make it a thing. And I get the argument that this will save me time, and it only has to save me a few hours to pay for itself. But actually, I think owning this book won&#8217;t save me time; it will make me do better design work and spend longer on it! Which is fine. As long as someone wants that and is paying me for it!<\/p>\n\n\n\n<p>I also can&#8217;t help thinking that if this was half the price then they&#8217;d sell twice as many copies, make just as much money and share their knowledge more widely. And isn&#8217;t this the point of making such a resource: to share your knowledge with people?<\/p>\n\n\n\n<p>A could of years back I&#8217;d been disappointed by Adam&#8217;s &#8220;<a href=\"https:\/\/adamwathan.me\/refactoring-to-collections\/\">Refactoring to Collections<\/a>&#8221; book which I thought wasn&#8217;t worth the money, and the provided videos in particular weren&#8217;t useful at all. So I was skeptical that this book&#8217;s extra resources would be helpful too &#8211; maybe I should just buy the basic package with the book?<br><\/p>\n\n\n\n<p>But persuaded by the <a href=\"http:\/\/www.fullstackradio.com\/103\">Full Stack Radio podcast<\/a> that detailed exactly what was in it, I eventually bit and bought the full Refactoring UI kit.<br><\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Format<\/h3>\n\n\n\n<p>Aside from it being a digital-only book, it was PDF format. And I get that they&#8217;ve spent time laying it out and typesetting it, but PDF&#8217;s are still not my favourite eBook format.<\/p>\n\n\n\n<p>They&#8217;re also selling it on Gumroad and the Gumroad reader seems to display PDFs at low quality. I&#8217;ve seen complaints on Twitter about the PDF quality and if you download it and open it locally it&#8217;s fine.<\/p>\n\n\n\n<p>More annoying though is that the component library, colour schemes and font selections are all also in PDF form. Which is annoying because the ability to copy\/paste stuff out of here, see the code, and tinker with it in the browser would have been great.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Material\/Content<\/h3>\n\n\n\n<p>OK, so here&#8217;s the good stuff. Because I&#8217;m not a designer, I can&#8217;t see visual stuff in my head or produce &#8220;nice looking stuff&#8221; out of thin air, I&#8217;m pretty dependent on rules and copying other people&#8217;s ideas to make things I make for the web look nice.<\/p>\n\n\n\n<p>And the book here really delivers. Strategic, rule-based design tips that really suit someone like me. It&#8217;s presented in a really easily digestible format, and has LOADS of very-well-put-together real-life examples.<\/p>\n\n\n\n<p>You can see the amount of work that has gone into this in creating the fictional-but-real-looking designs that illustrate the points being made. They&#8217;re done a really great job.<\/p>\n\n\n\n<p>It&#8217;s great stuff, well presented, and reading it WILL change my work for the better.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">I want exercises!<\/h3>\n\n\n\n<p>Finally, as well as wanting the component library and things in code, I think it would really benefit from some exercises.<\/p>\n\n\n\n<p>The videos are great at explaining the concepts and showing how to transform a bad design into a good one. But I really want to have a go at this myself.<\/p>\n\n\n\n<p>Some exercises a bit like Wes Bos&#8217;s <a href=\"https:\/\/javascript30.com\/\">JavaScript 30<\/a> course would be an amazing addition. Give me the video, the starting design\/code and the ending design\/code, and let me see if I can make some of the changes myself.<\/p>\n\n\n\n<p>Reading and watching is all well and good, but I&#8217;m only going to build up the skills and get them into my &#8220;muscle memory&#8221; if I actually DO then.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Summary<\/h3>\n\n\n\n<p>I love this kit. It&#8217;s expensive, but it&#8217;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.<br><\/p>\n\n\n\n<p>My hope is that Adam and Steve have made so much cash now that they don&#8217;t have to work for a year, and that now the book is out, they can spend some time producing some additional resources for those who have purchased it.<\/p>\n\n\n\n<p><br><\/p>\n\n\n\n<p><br><\/p>\n",
-        "excerpt": "<p>I love this kit. It&#8217;s expensive, but it&#8217;s an amazing tool for me. But it does also feel lacking\/incomplete in its current form.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

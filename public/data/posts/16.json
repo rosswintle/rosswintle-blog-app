@@ -1,6 +1,256 @@
 [
     {
         "dataAsArray": {
+            "id": 4119,
+            "date": "2018-08-27T23:10:07",
+            "date_gmt": "2018-08-27T22:10:07",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=4119"
+            },
+            "modified": "2018-08-27T23:10:09",
+            "modified_gmt": "2018-08-27T22:10:09",
+            "slug": "blooming-mailchimp-groups-and-gdpr-fields",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+            "title": {
+                "rendered": "Blooming MailChimp Groups and GDPR fields"
+            },
+            "content": {
+                "rendered": "<h3>Because some things on the internet are inexplicably hard to do<\/h3>\n<p>Gosh, what a frustrating afternoon.<\/p>\n<p>This is a case of knowing the individual parts of a task pretty well, but not having put all the parts together in this particular way before.<\/p>\n<p>Today I needed\/wanted to create a simple email sign-up\/opt-in form with:<\/p>\n<ul>\n<li>The excellent Elegant Themes <a href=\"https:\/\/www.elegantthemes.com\/plugins\/bloom\/\">Bloom email sign-up plugin<\/a>\u00a0(though it could have been pretty much any email sign-up plugin)<\/li>\n<li>A regular MailChimp List<\/li>\n<li>MailChimp groups<\/li>\n<li>MailChimp&#8217;s new GDPR fields<\/li>\n<li>and when I got stuck, <a href=\"http:\/\/wpforms.com\/\">WPForms<\/a> too.<\/li>\n<\/ul>\n<p>I reckon I&#8217;ve combined two of these things together in several different combinations. And I&#8217;m pretty sure I&#8217;ve done one specific combination of three of them. But never more than that.<\/p>\n<p>And I needed at least four of them. And the GDPR fields in MailChimp are new and, well, let&#8217;s say they seem to have been shoe-horned in in a bit of a hurry.<\/p>\n<p>Now&#8230;let&#8217;s go down the rabbit hole&#8230;<\/p>\n<p>Bloom integrates with regular MailChimp, but won&#8217;t let you use groups.\u00a0 To do that you need to use a &#8220;custom HTML form&#8221; in the Bloom opt-in which you copy and paste from MailChimp&#8217;s embedded forms section.<\/p>\n<p>The problem with that is that in a pop-up (we have a good case for using a pop-up, it&#8217;s OK!) is that the GDPR text and fields make the form really long and it won&#8217;t fit nicely on a smaller screen.<\/p>\n<p>So I tried reducing the form to just an email input and a button, and then sending that input to a WPForms form using a URL parameter to autocomplete the email field on the &#8220;full&#8221; form. Great! That works really nicely.<\/p>\n<p>Only&#8230;WPForms doesn&#8217;t send the GDPR opt-in fields. Rats! I assume Gravity Forms won&#8217;t do this either.<\/p>\n<p>So maybe, rather than linking the Bloom opt-in to an on-site form, I&#8217;ll link it to an off-site form. That will work!<\/p>\n<p>Only, I want the subscriber to sign up to a specific group, and it turns out that <a href=\"https:\/\/mailchimp.com\/help\/automatically-add-subscribers-to-a-group-at-signup\/\">you sort-of can&#8217;t have a pre-selected group on MailChimps own, hosted forms<\/a>.<\/p>\n<p>So what am I left with? Taking a MailChimp embedded form, sticking it in a WordPress page, editing the HTML of the form to make the required group pre-selected and hiding the group selection from the user and linking my Bloom pop-up to that page.<\/p>\n<p>That&#8217;s pretty gross. But it does work.<\/p>\n<p>I&#8217;m hoping that at some point MailChimp&#8217;s API will work nicer with the GDPR fields. It seems to have the ability to send &#8220;marketing_permissions&#8221; with a new subscriber, but it&#8217;s not clear how you get the ID&#8217;s needed to send. When this does work nicely, hopefully WPForms or Bloom or Gravity Forms will integrate with it and let me do this properly.<\/p>\n<p>For now&#8230;making a simple form requires a humongous kludge.<\/p>\n<p>Welcome to the internet, everybody!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23,
+                639
+            ],
+            "tags": [
+                70,
+                103,
+                703,
+                317,
+                462,
+                582
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Blooming MailChimp Groups and GDPR fields - Ross Wintle<\/title>\n<meta name=\"description\" content=\"Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Blooming MailChimp Groups and GDPR fields - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-08-27T22:10:07+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-08-27T22:10:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\",\"name\":\"Blooming MailChimp Groups and GDPR fields - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-08-27T22:10:07+00:00\",\"dateModified\":\"2018-08-27T22:10:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"description\":\"Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Blooming MailChimp Groups and GDPR fields\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Blooming MailChimp Groups and GDPR fields - Ross Wintle",
+                "description": "Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Blooming MailChimp Groups and GDPR fields - Ross Wintle",
+                "og_description": "Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f",
+                "og_url": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2018-08-27T22:10:07+00:00",
+                "article_modified_time": "2018-08-27T22:10:09+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+                            "url": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+                            "name": "Blooming MailChimp Groups and GDPR fields - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2018-08-27T22:10:07+00:00",
+                            "dateModified": "2018-08-27T22:10:09+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "description": "Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f",
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Blooming MailChimp Groups and GDPR fields"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4119"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4119"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4119\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 4120,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4119\/revisions\/4120"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4119"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4119"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4119"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 4119,
+        "dateGmt": "2018-08-27T22:10:07",
+        "modifiedDateGmt": "2018-08-27T22:10:09",
+        "slug": "blooming-mailchimp-groups-and-gdpr-fields",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2018\/08\/blooming-mailchimp-groups-and-gdpr-fields\/",
+        "title": "Blooming MailChimp Groups and GDPR fields",
+        "content": "<h3>Because some things on the internet are inexplicably hard to do<\/h3>\n<p>Gosh, what a frustrating afternoon.<\/p>\n<p>This is a case of knowing the individual parts of a task pretty well, but not having put all the parts together in this particular way before.<\/p>\n<p>Today I needed\/wanted to create a simple email sign-up\/opt-in form with:<\/p>\n<ul>\n<li>The excellent Elegant Themes <a href=\"https:\/\/www.elegantthemes.com\/plugins\/bloom\/\">Bloom email sign-up plugin<\/a>\u00a0(though it could have been pretty much any email sign-up plugin)<\/li>\n<li>A regular MailChimp List<\/li>\n<li>MailChimp groups<\/li>\n<li>MailChimp&#8217;s new GDPR fields<\/li>\n<li>and when I got stuck, <a href=\"http:\/\/wpforms.com\/\">WPForms<\/a> too.<\/li>\n<\/ul>\n<p>I reckon I&#8217;ve combined two of these things together in several different combinations. And I&#8217;m pretty sure I&#8217;ve done one specific combination of three of them. But never more than that.<\/p>\n<p>And I needed at least four of them. And the GDPR fields in MailChimp are new and, well, let&#8217;s say they seem to have been shoe-horned in in a bit of a hurry.<\/p>\n<p>Now&#8230;let&#8217;s go down the rabbit hole&#8230;<\/p>\n<p>Bloom integrates with regular MailChimp, but won&#8217;t let you use groups.\u00a0 To do that you need to use a &#8220;custom HTML form&#8221; in the Bloom opt-in which you copy and paste from MailChimp&#8217;s embedded forms section.<\/p>\n<p>The problem with that is that in a pop-up (we have a good case for using a pop-up, it&#8217;s OK!) is that the GDPR text and fields make the form really long and it won&#8217;t fit nicely on a smaller screen.<\/p>\n<p>So I tried reducing the form to just an email input and a button, and then sending that input to a WPForms form using a URL parameter to autocomplete the email field on the &#8220;full&#8221; form. Great! That works really nicely.<\/p>\n<p>Only&#8230;WPForms doesn&#8217;t send the GDPR opt-in fields. Rats! I assume Gravity Forms won&#8217;t do this either.<\/p>\n<p>So maybe, rather than linking the Bloom opt-in to an on-site form, I&#8217;ll link it to an off-site form. That will work!<\/p>\n<p>Only, I want the subscriber to sign up to a specific group, and it turns out that <a href=\"https:\/\/mailchimp.com\/help\/automatically-add-subscribers-to-a-group-at-signup\/\">you sort-of can&#8217;t have a pre-selected group on MailChimps own, hosted forms<\/a>.<\/p>\n<p>So what am I left with? Taking a MailChimp embedded form, sticking it in a WordPress page, editing the HTML of the form to make the required group pre-selected and hiding the group selection from the user and linking my Bloom pop-up to that page.<\/p>\n<p>That&#8217;s pretty gross. But it does work.<\/p>\n<p>I&#8217;m hoping that at some point MailChimp&#8217;s API will work nicer with the GDPR fields. It seems to have the ability to send &#8220;marketing_permissions&#8221; with a new subscriber, but it&#8217;s not clear how you get the ID&#8217;s needed to send. When this does work nicely, hopefully WPForms or Bloom or Gravity Forms will integrate with it and let me do this properly.<\/p>\n<p>For now&#8230;making a simple form requires a humongous kludge.<\/p>\n<p>Welcome to the internet, everybody!<\/p>\n",
+        "excerpt": "<p>Some things on the internet are inexplicably hard. e.g. Bloom + MailChimp + Groups + GDPR fields ?\u200d\u2642\ufe0f<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 4103,
             "date": "2018-08-25T08:14:19",
             "date_gmt": "2018-08-25T07:14:19",
@@ -2188,249 +2438,6 @@
         "excerpt": "<p>This is from a great episode of the ChangeLog podcast\u00a0that interviews Tim Bell, the founder and creator of CS Unplugged: a collection of free teaching material that teaches computer science through engaging games and puzzles. I struggle with how much screentime our kids have. Perhaps this quote will inspire is to do more creative things [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 3734,
-            "date": "2018-06-15T10:13:55",
-            "date_gmt": "2018-06-15T09:13:55",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=3734"
-            },
-            "modified": "2018-06-15T10:13:57",
-            "modified_gmt": "2018-06-15T09:13:57",
-            "slug": "more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/",
-            "title": {
-                "rendered": "More struggling with JS: how the PHP -> JS interface is broken and why this is painful"
-            },
-            "content": {
-                "rendered": "\n<p><a href=\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/\">Yesterday<\/a> I was struggling with getting Vue components to do non-AJAXy things and wondering why on earth this was so difficult.<\/p>\n\n\n\n<p>The conclusion I came to, with the help of some good people on Twitter, is that if you&#8217;re using a component-based reactive framework like Vue, you don&#8217;t want to be half-hearted about it. You need to go all in. They aren&#8217;t intended to be mashed up with traditional HTML page reloads.<\/p>\n\n\n\n<p>So I then tried to work out how to use the Axios HTTP client library to do my delete action.<\/p>\n\n\n\n<p>And was that easy?<\/p>\n\n\n\n<p>Well&#8230;hmm&#8230;.<\/p>\n\n\n\n<p>The Axios\/AJAX thing was actually pretty simple. I&#8217;ll give you that.<\/p>\n\n\n\n<p>But I was then faced with the propsect of having to delete the <code>thing<\/code>\u00a0from my list of things stored as data in the top-level component instance.<\/p>\n\n\n\n<p>And the problem with this is that this data is a nested array that comes from PHP via JSON.<\/p>\n\n\n\n<p>Now I know some people complain that PHP arrays are trying to be all things to all men, but from a developer happiness point of view they are pretty nice and I&#8217;ve got very used to their flexibility and ease of use.<\/p>\n\n\n\n<p>But getting them from PHP into JS isn&#8217;t so simple.<\/p>\n\n\n\n<p>In my case I have a list of things for each day of the week. But not every day needs a list. So I can have:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">[<br\/>  1 => [<br\/>          'thing1',<br\/>          'thing2'<br\/>  ],<br\/>  3 => [<br\/>          'thing3',<br\/>          'thing4'<br\/>  ]<br\/>]<\/pre>\n\n\n\n<p>And I can have this in JavaScript too. Sort of.\u00a0 JavaScript doesn&#8217;t like the gaps &#8211; note in the image below the <code>empty<\/code>\u00a0slots and the length:<\/p>\n\n\n\n<figure class=\"wp-block-image is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08.png\" alt=\"\" class=\"wp-image-3778\" width=\"316\" height=\"84\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08.png 632w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08-300x80.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08-600x159.png 600w\" sizes=\"(max-width: 316px) 100vw, 316px\" \/><\/figure>\n\n\n\n<p>BUT&#8230;to get between PHP and JS we generally use JSON as a kind of intermediate format.<\/p>\n\n\n\n<p>And JSON doesn&#8217;t have arrays with indexes. JSON arrays have no specific indices. They always start at zero and subsequent elements are indexed with the next integer.<\/p>\n\n\n\n<p>So to get around this, PHP&#8217;s <code>json_encode()<\/code>\u00a0function works out if the PHP array is compatible with JSON. If it is then it spits out a JSON array. And if it isn&#8217;t then it spits out a JSON OBJECT!<\/p>\n\n\n\n<p>Here&#8217;s a valid JSON array &#8211; zero-indexed and all sequential keys:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">> $a = [ 0 => 'a', 1 => 'b' ];<br\/>> echo json_encode( $a );<br\/>[\"a\",\"b\"]<\/pre>\n\n\n\n<p>Here&#8217;s a non-JSON compatible array:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">> $b = [ 1 => 'a', 2 => 'b' ];<br\/>> echo json_encode( $b );<br\/>{\"1\":\"a\",\"2\":\"b\"}<br\/><\/pre>\n\n\n\n<p>Fun! Now I note that you can add the <code>JSON_FORCE_OBJECT<\/code>\u00a0flag to always convert PHP arrays to JSON objects, even if they are JSON-array compatible. But for the most part, you sometime get an array in JSON, and you sometimes get an object.<\/p>\n\n\n\n<p>And my list of things, not being JSON-array compatible, was being spat out as an object.<\/p>\n\n\n\n<p>And here&#8217;s my issue: JavaScript objects aren&#8217;t really iterable. You can&#8217;t easily loop over them. I mean, yes, you can get the keys, and you can use <code>for...of<\/code>\u00a0or <code>for...in<\/code>\u00a0or something. But sometimes you&#8217;ll get properties you don&#8217;t want (such as a Vue <code>__ob__<\/code>\u00a0observer property) and&#8230;well&#8230;objects just aren&#8217;t really intended to be used in this way. Objects are objects, not lists or arrays.<\/p>\n\n\n\n<p>So what to do?<\/p>\n\n\n\n<p>Well, I could use <code>JSON_FORCE_OBJECT<\/code>\u00a0and treat ALL my arrays as objects and deal with it. That would probably be OK. But then I&#8217;m stuck using objects for lists of things in JS and that&#8217;s not right.<\/p>\n\n\n\n<p>Or I could try to make all my PHP arrays JSON compatible. So my list would be zero-indexed and sequential, like this:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">[<br\/>  0 => [],<br\/>  1 => [<br\/>    'thing1',<br\/>    'thing2'<br\/>  ],<br\/>  2 => [],<br\/>  3 => [<br\/>    'thing3',<br\/>    'thing4'<br\/>  ]<br\/>]<\/pre>\n\n\n\n<p>But enforcing this inside PHP doesn&#8217;t seem like the right thing to do.<\/p>\n\n\n\n<p>Or I could try to find a way to convert JSON objects that only have numeric keys back into JS arrays. But that still has issues.<\/p>\n\n\n\n<p>This, I think, is a major pain point and frustration for me.\u00a0 Once my data is in the right places and in the right types of data structure, I know what I&#8217;m doing and can work quickly.<\/p>\n\n\n\n<p>But moving data between the different parts of these multi-part systems is hard to get right. And doing it in a scalable and maintainable way is even harder.<\/p>\n\n\n\n<p>Yesterday I also had problems with:<\/p>\n\n\n\n<h4 class=\"wp-block-heading\">JavaScript scope<\/h4>\n\n\n\n<p>How how how How HOW do\u00a0I pass a variable to a lexically-out-of-scope callback, like:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">function deleteThingFromData( thingToDelete ) {<br\/>  newData = _.mapValues( data, myOutOfScopeCallback );<br\/>  data = newData;<br\/>}<br\/><br\/>function myOutOfScopeCallback( dataItem ) {<br\/>  \/\/ Needs access to thingToDelete!<br\/>}<\/pre>\n\n\n\n<h4 class=\"wp-block-heading\">this<\/h4>\n\n\n\n<p>this is perpetually not my friend. Nothing in programming should be called <code>this<\/code>, especially when its meaning can vary so wildly.<\/p>\n\n\n\n<p>Yesterday I got caught by the fact that <code>this<\/code>\u00a0inside an arrow function is different to <code>this<\/code>\u00a0with a normal function.\u00a0<\/p>\n\n\n\n<h4 class=\"wp-block-heading\">#learnToLoveJs<\/h4>\n\n\n\n<p>For now, my delete now works (YAY!), and I&#8217;m still motivated to #learnToLoveJS, but gosh it&#8217;s hard work.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Yesterday I was struggling with getting Vue components to do non-AJAXy things and wondering why on earth this was so difficult.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                23
-            ],
-            "tags": [
-                286,
-                64,
-                107,
-                693,
-                291
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>More struggling with JS: how the PHP -&gt; JS interface is broken and why this is painful - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"More struggling with JS: how the PHP -&gt; JS interface is broken and why this is painful - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Yesterday I was struggling with getting Vue components to do non-AJAXy things and wondering why on earth this was so difficult.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-06-15T09:13:55+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-06-15T09:13:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08.png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/\",\"name\":\"More struggling with JS: how the PHP -> JS interface is broken and why this is painful - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-06-15T09:13:55+00:00\",\"dateModified\":\"2018-06-15T09:13:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"More struggling with JS: how the PHP -> JS interface is broken and why this is painful\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "More struggling with JS: how the PHP -> JS interface is broken and why this is painful - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "More struggling with JS: how the PHP -> JS interface is broken and why this is painful - Ross Wintle",
-                "og_description": "Yesterday I was struggling with getting Vue components to do non-AJAXy things and wondering why on earth this was so difficult.",
-                "og_url": "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2018-06-15T09:13:55+00:00",
-                "article_modified_time": "2018-06-15T09:13:57+00:00",
-                "og_image": [
-                    {
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08.png"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/",
-                            "url": "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/",
-                            "name": "More struggling with JS: how the PHP -> JS interface is broken and why this is painful - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2018-06-15T09:13:55+00:00",
-                            "dateModified": "2018-06-15T09:13:57+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "More struggling with JS: how the PHP -> JS interface is broken and why this is painful"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3734"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=3734"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 150,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3734\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 3885,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3734\/revisions\/3885"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=3734"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=3734"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=3734"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 3734,
-        "dateGmt": "2018-06-15T09:13:55",
-        "modifiedDateGmt": "2018-06-15T09:13:57",
-        "slug": "more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2018\/06\/more-struggling-with-js-how-the-php-js-interface-is-broken-and-why-this-is-painful\/",
-        "title": "More struggling with JS: how the PHP -> JS interface is broken and why this is painful",
-        "content": "\n<p><a href=\"https:\/\/rosswintle.uk\/2018\/06\/adding-a-delete-link-to-a-vue-component-representing-a-laravel-model\/\">Yesterday<\/a> I was struggling with getting Vue components to do non-AJAXy things and wondering why on earth this was so difficult.<\/p>\n\n\n\n<p>The conclusion I came to, with the help of some good people on Twitter, is that if you&#8217;re using a component-based reactive framework like Vue, you don&#8217;t want to be half-hearted about it. You need to go all in. They aren&#8217;t intended to be mashed up with traditional HTML page reloads.<\/p>\n\n\n\n<p>So I then tried to work out how to use the Axios HTTP client library to do my delete action.<\/p>\n\n\n\n<p>And was that easy?<\/p>\n\n\n\n<p>Well&#8230;hmm&#8230;.<\/p>\n\n\n\n<p>The Axios\/AJAX thing was actually pretty simple. I&#8217;ll give you that.<\/p>\n\n\n\n<p>But I was then faced with the propsect of having to delete the <code>thing<\/code>\u00a0from my list of things stored as data in the top-level component instance.<\/p>\n\n\n\n<p>And the problem with this is that this data is a nested array that comes from PHP via JSON.<\/p>\n\n\n\n<p>Now I know some people complain that PHP arrays are trying to be all things to all men, but from a developer happiness point of view they are pretty nice and I&#8217;ve got very used to their flexibility and ease of use.<\/p>\n\n\n\n<p>But getting them from PHP into JS isn&#8217;t so simple.<\/p>\n\n\n\n<p>In my case I have a list of things for each day of the week. But not every day needs a list. So I can have:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">[<br\/>  1 => [<br\/>          'thing1',<br\/>          'thing2'<br\/>  ],<br\/>  3 => [<br\/>          'thing3',<br\/>          'thing4'<br\/>  ]<br\/>]<\/pre>\n\n\n\n<p>And I can have this in JavaScript too. Sort of.\u00a0 JavaScript doesn&#8217;t like the gaps &#8211; note in the image below the <code>empty<\/code>\u00a0slots and the length:<\/p>\n\n\n\n<figure class=\"wp-block-image is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08.png\" alt=\"\" class=\"wp-image-3778\" width=\"316\" height=\"84\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08.png 632w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08-300x80.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/06\/Screen-Shot-2018-06-15-at-09.45.08-600x159.png 600w\" sizes=\"(max-width: 316px) 100vw, 316px\" \/><\/figure>\n\n\n\n<p>BUT&#8230;to get between PHP and JS we generally use JSON as a kind of intermediate format.<\/p>\n\n\n\n<p>And JSON doesn&#8217;t have arrays with indexes. JSON arrays have no specific indices. They always start at zero and subsequent elements are indexed with the next integer.<\/p>\n\n\n\n<p>So to get around this, PHP&#8217;s <code>json_encode()<\/code>\u00a0function works out if the PHP array is compatible with JSON. If it is then it spits out a JSON array. And if it isn&#8217;t then it spits out a JSON OBJECT!<\/p>\n\n\n\n<p>Here&#8217;s a valid JSON array &#8211; zero-indexed and all sequential keys:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">> $a = [ 0 => 'a', 1 => 'b' ];<br\/>> echo json_encode( $a );<br\/>[\"a\",\"b\"]<\/pre>\n\n\n\n<p>Here&#8217;s a non-JSON compatible array:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">> $b = [ 1 => 'a', 2 => 'b' ];<br\/>> echo json_encode( $b );<br\/>{\"1\":\"a\",\"2\":\"b\"}<br\/><\/pre>\n\n\n\n<p>Fun! Now I note that you can add the <code>JSON_FORCE_OBJECT<\/code>\u00a0flag to always convert PHP arrays to JSON objects, even if they are JSON-array compatible. But for the most part, you sometime get an array in JSON, and you sometimes get an object.<\/p>\n\n\n\n<p>And my list of things, not being JSON-array compatible, was being spat out as an object.<\/p>\n\n\n\n<p>And here&#8217;s my issue: JavaScript objects aren&#8217;t really iterable. You can&#8217;t easily loop over them. I mean, yes, you can get the keys, and you can use <code>for...of<\/code>\u00a0or <code>for...in<\/code>\u00a0or something. But sometimes you&#8217;ll get properties you don&#8217;t want (such as a Vue <code>__ob__<\/code>\u00a0observer property) and&#8230;well&#8230;objects just aren&#8217;t really intended to be used in this way. Objects are objects, not lists or arrays.<\/p>\n\n\n\n<p>So what to do?<\/p>\n\n\n\n<p>Well, I could use <code>JSON_FORCE_OBJECT<\/code>\u00a0and treat ALL my arrays as objects and deal with it. That would probably be OK. But then I&#8217;m stuck using objects for lists of things in JS and that&#8217;s not right.<\/p>\n\n\n\n<p>Or I could try to make all my PHP arrays JSON compatible. So my list would be zero-indexed and sequential, like this:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">[<br\/>  0 => [],<br\/>  1 => [<br\/>    'thing1',<br\/>    'thing2'<br\/>  ],<br\/>  2 => [],<br\/>  3 => [<br\/>    'thing3',<br\/>    'thing4'<br\/>  ]<br\/>]<\/pre>\n\n\n\n<p>But enforcing this inside PHP doesn&#8217;t seem like the right thing to do.<\/p>\n\n\n\n<p>Or I could try to find a way to convert JSON objects that only have numeric keys back into JS arrays. But that still has issues.<\/p>\n\n\n\n<p>This, I think, is a major pain point and frustration for me.\u00a0 Once my data is in the right places and in the right types of data structure, I know what I&#8217;m doing and can work quickly.<\/p>\n\n\n\n<p>But moving data between the different parts of these multi-part systems is hard to get right. And doing it in a scalable and maintainable way is even harder.<\/p>\n\n\n\n<p>Yesterday I also had problems with:<\/p>\n\n\n\n<h4 class=\"wp-block-heading\">JavaScript scope<\/h4>\n\n\n\n<p>How how how How HOW do\u00a0I pass a variable to a lexically-out-of-scope callback, like:<\/p>\n\n\n\n<pre class=\"wp-block-preformatted\">function deleteThingFromData( thingToDelete ) {<br\/>  newData = _.mapValues( data, myOutOfScopeCallback );<br\/>  data = newData;<br\/>}<br\/><br\/>function myOutOfScopeCallback( dataItem ) {<br\/>  \/\/ Needs access to thingToDelete!<br\/>}<\/pre>\n\n\n\n<h4 class=\"wp-block-heading\">this<\/h4>\n\n\n\n<p>this is perpetually not my friend. Nothing in programming should be called <code>this<\/code>, especially when its meaning can vary so wildly.<\/p>\n\n\n\n<p>Yesterday I got caught by the fact that <code>this<\/code>\u00a0inside an arrow function is different to <code>this<\/code>\u00a0with a normal function.\u00a0<\/p>\n\n\n\n<h4 class=\"wp-block-heading\">#learnToLoveJs<\/h4>\n\n\n\n<p>For now, my delete now works (YAY!), and I&#8217;m still motivated to #learnToLoveJS, but gosh it&#8217;s hard work.<\/p>\n",
-        "excerpt": "<p>Yesterday I was struggling with getting Vue components to do non-AJAXy things and wondering why on earth this was so difficult.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
         "featuredMediaId": 0
     }
 ]

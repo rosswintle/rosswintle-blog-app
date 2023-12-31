@@ -1,6 +1,251 @@
 [
     {
         "dataAsArray": {
+            "id": 4744,
+            "date": "2019-04-04T13:13:06",
+            "date_gmt": "2019-04-04T12:13:06",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=4744"
+            },
+            "modified": "2019-04-04T13:13:09",
+            "modified_gmt": "2019-04-04T12:13:09",
+            "slug": "speaker-tips-from-the-wonderful-wordcamp-london-folks",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
+            "title": {
+                "rendered": "Speaker Tips from the wonderful WordCamp London folks"
+            },
+            "content": {
+                "rendered": "\n<p>I&#8217;m speaking at <a href=\"https:\/\/2019.london.wordcamp.org\/\">WordCamp London<\/a> on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Who has super speaker tips? Assume nothing. I want all the basics.<\/p><\/blockquote>\n\n\n\n<p>I gave a couple of my own for starters:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Quit All Your Apps when presenting (other than your presenting app)<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Mute all notifications! Mac users can enable Do Not Disturb mode if you click the notification centre &#8211; top right &#8211; and scroll up to the toggle, or just Alt-Click the notification centre icon in the menu bar. There&#8217;s probably a Windows equivalent.<\/p><\/blockquote>\n\n\n\n<p>I also have a tip that is WordCamp London venue-specific:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Also, if you&#8217;re speaking in track A, the Great Hall, it sounds stupid but there&#8217;s a HUGE clock on the back wall and one year it was about 4 minutes slow. Take note of if this clock is accurate cos you don&#8217;t want to look at it and think you&#8217;ve got lots of time that you haven&#8217;t!<\/p><\/blockquote>\n\n\n\n<p>But this probably translates into more of a general &#8220;Check out your environment beforehand. Stand on the stage. Find out what you will be looking at.<\/p>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/danmaby\">Dan Maby<\/a> had a few useful nuggets:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>I use Owly to keep my mac awake too https:\/\/itunes.apple.com\/us\/app\/owly-prevent-display-sleep\/id882812218?mt=12<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Drink water<\/p><\/blockquote>\n\n\n\n<p>(which I followed with &#8220;but not too much water!&#8221;)<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Breath<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Pause, giving yourself a second to catch up with yourself is good for everyone<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Pause Dropbox\/Google Drive\/One Drive etc.<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Make sure your Google Slides are available off-line<\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/tnash\">Tim Nash<\/a> is super-experienced. And his experience suggests that the following are good ideas:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t fall of the stage<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t panic, if words are coming out of your mouth its probably ok<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t open the file called passwords.txt<\/p><p><\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Clean and hide your desktop if you like to use that space as a general place to dump files. Inevitably you will minimise your presentation and you never know what files are there.<\/p><p><\/p><\/blockquote>\n\n\n\n<p>Which I followed up with my own tip: Even if it means shoving everything into a &#8220;Things that were on my desktop&#8221; folder temporarily.<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>When you&#8217;re on stage, if you can, get away from the lectern, it both obscures you but also will make you hunch which will make it harder to project. It sometimes feels safe behind there but it really is worth trying to avoid that space entirely<\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/karmatosed\">Tammie Lister<\/a>, who is also a very experienced speaker, countered this and made her own wise suggestions too:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Standing by lectern is OK. For those of us that need notes and have poor eyesight or reading hurdles it&#8217;s OK. Just be comfortable.<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Turn off your wifi, seriously stop doing live demos &#8211; if wifi is off you can&#8217;t get notifications<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t focus on one person, move your eyes over everyone.<\/p><\/blockquote>\n\n\n\n<p>Which prompted a related, WordPress-specific tech tip from me:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>If you&#8217;re demoing WordPress locally, you can use this to speed it up and stop network stuff happening too: https:\/\/github.com\/norcross\/airplane-mode<br><\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/swissspidy\">Pascal Birchler<\/a> suggests you:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Arrive on time for your talk <\/p><\/blockquote>\n\n\n\n<p>Which got some follow ups:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Early even!<br><\/p><p>And sit in the audience if you can for a talk in your track, if you not been in the room before. It will give you a rough idea of what they the audience can see\/hear.<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Yes. Definitely scout the room. Have a chat with the AV\/sound people in a break before your talk if you can. They&#8217;re super helpful.<\/p><cite>Ross Wintle<\/cite><\/blockquote>\n\n\n\n<p>There were some lightning-talk specific tips and tips on Q&amp;A&#8217;s afterwards too:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Perhaps a bit late and very much my take, but front load your talk, you have a very short amount of time, so don&#8217;t spend to long talking about yourself, or your background, so if you have slides like about you put them at the end, so you can say I was &lt;whoever you are> come find me afterwards. Similarly keep resources to the end, as otherwise folks will start trying to find links to sites etc, while your talking and miss like half the talk<br><\/p><p>I think more so for a lightning talk its all about giving folks things to go away and think and research. It&#8217;s also one of the few times, where its OK to be a little fast paced just don&#8217;t trip over yourself.<\/p><p>Also don&#8217;t be afraid to say, I will take questions at the end<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>For lightning talks, leverage the Happiness Bar (the &#8220;tech support zone&#8221;  of a WordCamp) heavily. Only talk about the important things, and at the end of your talk say &#8220;I&#8217;m going to the Happiness Bar right now to answer any more questions&#8221;<\/p><cite>Topher DeRosia<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>&#8220;I don&#8217;t know&#8221;, is the most powerful answer to a question ever, don&#8217;t be afraid to say it, no one will think less of you. If anything the opposite, I am much more likely to respect a speaker, who when asked a question they don&#8217;t know the answer to says I don&#8217;t know, but if you remind me later I might be able to find out.<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<p>And finally, as Tim Nash says<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Have fun!<\/p><\/blockquote>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I&#8217;m speaking at WordCamp London on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips: Who has super speaker tips? Assume nothing. I want all the basics. I gave a couple of my own for [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10
+            ],
+            "tags": [
+                501,
+                742,
+                601,
+                595
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Speaker Tips from the wonderful WordCamp London folks - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Speaker Tips from the wonderful WordCamp London folks - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;m speaking at WordCamp London on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips: Who has super speaker tips? Assume nothing. I want all the basics. I gave a couple of my own for [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-04-04T12:13:06+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-04-04T12:13:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\",\"name\":\"Speaker Tips from the wonderful WordCamp London folks - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-04-04T12:13:06+00:00\",\"dateModified\":\"2019-04-04T12:13:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Speaker Tips from the wonderful WordCamp London folks\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Speaker Tips from the wonderful WordCamp London folks - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Speaker Tips from the wonderful WordCamp London folks - Ross Wintle",
+                "og_description": "I&#8217;m speaking at WordCamp London on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips: Who has super speaker tips? Assume nothing. I want all the basics. I gave a couple of my own for [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2019-04-04T12:13:06+00:00",
+                "article_modified_time": "2019-04-04T12:13:09+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "4 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
+                            "url": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
+                            "name": "Speaker Tips from the wonderful WordCamp London folks - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2019-04-04T12:13:06+00:00",
+                            "dateModified": "2019-04-04T12:13:09+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Speaker Tips from the wonderful WordCamp London folks"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4744"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4744"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4744\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 4745,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4744\/revisions\/4745"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4744"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4744"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4744"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 4744,
+        "dateGmt": "2019-04-04T12:13:06",
+        "modifiedDateGmt": "2019-04-04T12:13:09",
+        "slug": "speaker-tips-from-the-wonderful-wordcamp-london-folks",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2019\/04\/speaker-tips-from-the-wonderful-wordcamp-london-folks\/",
+        "title": "Speaker Tips from the wonderful WordCamp London folks",
+        "content": "\n<p>I&#8217;m speaking at <a href=\"https:\/\/2019.london.wordcamp.org\/\">WordCamp London<\/a> on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Who has super speaker tips? Assume nothing. I want all the basics.<\/p><\/blockquote>\n\n\n\n<p>I gave a couple of my own for starters:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Quit All Your Apps when presenting (other than your presenting app)<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Mute all notifications! Mac users can enable Do Not Disturb mode if you click the notification centre &#8211; top right &#8211; and scroll up to the toggle, or just Alt-Click the notification centre icon in the menu bar. There&#8217;s probably a Windows equivalent.<\/p><\/blockquote>\n\n\n\n<p>I also have a tip that is WordCamp London venue-specific:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Also, if you&#8217;re speaking in track A, the Great Hall, it sounds stupid but there&#8217;s a HUGE clock on the back wall and one year it was about 4 minutes slow. Take note of if this clock is accurate cos you don&#8217;t want to look at it and think you&#8217;ve got lots of time that you haven&#8217;t!<\/p><\/blockquote>\n\n\n\n<p>But this probably translates into more of a general &#8220;Check out your environment beforehand. Stand on the stage. Find out what you will be looking at.<\/p>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/danmaby\">Dan Maby<\/a> had a few useful nuggets:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>I use Owly to keep my mac awake too https:\/\/itunes.apple.com\/us\/app\/owly-prevent-display-sleep\/id882812218?mt=12<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Drink water<\/p><\/blockquote>\n\n\n\n<p>(which I followed with &#8220;but not too much water!&#8221;)<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Breath<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Pause, giving yourself a second to catch up with yourself is good for everyone<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Pause Dropbox\/Google Drive\/One Drive etc.<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Make sure your Google Slides are available off-line<\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/tnash\">Tim Nash<\/a> is super-experienced. And his experience suggests that the following are good ideas:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t fall of the stage<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t panic, if words are coming out of your mouth its probably ok<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t open the file called passwords.txt<\/p><p><\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Clean and hide your desktop if you like to use that space as a general place to dump files. Inevitably you will minimise your presentation and you never know what files are there.<\/p><p><\/p><\/blockquote>\n\n\n\n<p>Which I followed up with my own tip: Even if it means shoving everything into a &#8220;Things that were on my desktop&#8221; folder temporarily.<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>When you&#8217;re on stage, if you can, get away from the lectern, it both obscures you but also will make you hunch which will make it harder to project. It sometimes feels safe behind there but it really is worth trying to avoid that space entirely<\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/karmatosed\">Tammie Lister<\/a>, who is also a very experienced speaker, countered this and made her own wise suggestions too:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Standing by lectern is OK. For those of us that need notes and have poor eyesight or reading hurdles it&#8217;s OK. Just be comfortable.<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Turn off your wifi, seriously stop doing live demos &#8211; if wifi is off you can&#8217;t get notifications<\/p><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Don&#8217;t focus on one person, move your eyes over everyone.<\/p><\/blockquote>\n\n\n\n<p>Which prompted a related, WordPress-specific tech tip from me:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>If you&#8217;re demoing WordPress locally, you can use this to speed it up and stop network stuff happening too: https:\/\/github.com\/norcross\/airplane-mode<br><\/p><\/blockquote>\n\n\n\n<p><a href=\"https:\/\/twitter.com\/swissspidy\">Pascal Birchler<\/a> suggests you:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Arrive on time for your talk <\/p><\/blockquote>\n\n\n\n<p>Which got some follow ups:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Early even!<br><\/p><p>And sit in the audience if you can for a talk in your track, if you not been in the room before. It will give you a rough idea of what they the audience can see\/hear.<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Yes. Definitely scout the room. Have a chat with the AV\/sound people in a break before your talk if you can. They&#8217;re super helpful.<\/p><cite>Ross Wintle<\/cite><\/blockquote>\n\n\n\n<p>There were some lightning-talk specific tips and tips on Q&amp;A&#8217;s afterwards too:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Perhaps a bit late and very much my take, but front load your talk, you have a very short amount of time, so don&#8217;t spend to long talking about yourself, or your background, so if you have slides like about you put them at the end, so you can say I was &lt;whoever you are> come find me afterwards. Similarly keep resources to the end, as otherwise folks will start trying to find links to sites etc, while your talking and miss like half the talk<br><\/p><p>I think more so for a lightning talk its all about giving folks things to go away and think and research. It&#8217;s also one of the few times, where its OK to be a little fast paced just don&#8217;t trip over yourself.<\/p><p>Also don&#8217;t be afraid to say, I will take questions at the end<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>For lightning talks, leverage the Happiness Bar (the &#8220;tech support zone&#8221;  of a WordCamp) heavily. Only talk about the important things, and at the end of your talk say &#8220;I&#8217;m going to the Happiness Bar right now to answer any more questions&#8221;<\/p><cite>Topher DeRosia<\/cite><\/blockquote>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>&#8220;I don&#8217;t know&#8221;, is the most powerful answer to a question ever, don&#8217;t be afraid to say it, no one will think less of you. If anything the opposite, I am much more likely to respect a speaker, who when asked a question they don&#8217;t know the answer to says I don&#8217;t know, but if you remind me later I might be able to find out.<\/p><cite>Tim Nash<\/cite><\/blockquote>\n\n\n\n<p>And finally, as Tim Nash says<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\"><p>Have fun!<\/p><\/blockquote>\n",
+        "excerpt": "<p>I&#8217;m speaking at WordCamp London on Sunday. And I ALWAYS learn something new when public speaking. I&#8217;ve been chatting with other speakers in the Speaker&#8217;s Slack Channel and I popped in and asked for tips: Who has super speaker tips? Assume nothing. I want all the basics. I gave a couple of my own for [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 4703,
             "date": "2019-03-22T09:55:33",
             "date_gmt": "2019-03-22T09:55:33",
@@ -2193,255 +2438,6 @@
         "title": "Opinion: WordPress Gutenberg and the responsibility of owning a website",
         "content": "\n<p>I heard a thing today which made me realise something about what has happened with WordPress&#8217;s new &#8220;Gutenberg&#8221; editor.<\/p>\n\n\n\n<p>I have been really frustrated that people like me that build websites for others seemed to be a bit left out with both WHAT Gutenberg is and HOW is was delivered.<\/p>\n\n\n\n<p>I&#8217;ve always known that the new block editor in WordPress is designed to help WordPress compete with website builders like Wix and SquareSpace and Weebly.<\/p>\n\n\n\n<p>What I had ignored or forgotten was that website builders like those are intended to help people build websites on their own, without small agency owners like me being involved.<\/p>\n\n\n\n<p>And so WordPress, in moving to this model, is actually moving to a space where people like me aren&#8217;t needed. Or at least, to a space where IT APPEARS that people like me aren&#8217;t needed.<\/p>\n\n\n\n<p>For example, take the fact that Gutenberg allows someone writing a post or page to change the font size or text colour. People like me are cross about this because we spend time designing sites, and paying attention to details like font sizes and colours that should be consistent across the site. So we&#8217;re frustrated that people will now be able to come along and use text sizes and colours inconsistently and mess up our nice designs.<\/p>\n\n\n\n<p>But regular people who want to build a website are probably thinking: &#8220;Woo hoo! I can edit text colour and size, and even change the background colour of a block. I don&#8217;t need to ask my web developer person to do this any more, I can build the site myself!&#8221;<\/p>\n\n\n\n<p>Now, I&#8217;m not complaining that Gutenberg is taking my work away. That&#8217;s not the point I want to make.<\/p>\n\n\n\n<p>I&#8217;m also not complaining that Gutenberg is bad. At least, not the IDEA of Gutenberg. I think the idea of a block editor is exactly the right thing. I just think Gutenberg is the WRONG block editor.<\/p>\n\n\n\n<p>The point I want to make is that making a <em><strong>good<\/strong><\/em> website requires skill, knowledge and experience. The Wix&#8217;s and Weebly&#8217;s give the impression that someone with very little knowledge can, for a few dollars a month, have a beautiful, functional website.<\/p>\n\n\n\n<p>And to some extent that&#8217;s true. But then I look at the stuff that people make with these tools and it&#8217;s often very poor. And I look at the code that the builder creates, and the speed of the site, and other &#8220;under the bonnet&#8221; technical things, and it turns out that these platforms are really bad at the technology stuff.<\/p>\n\n\n\n<p>Gutenberg is intended to give this same veneer: you don&#8217;t need someone to help you; you can make a website yourself!<\/p>\n\n\n\n<p>This may enable WordPress to compete better with the site builders. To maintain and grow it&#8217;s already-enormous market share. But at what cost?<\/p>\n\n\n\n<p>At the cost of annoying many people like me who previously recommended WordPress to people but who are now seriously considering alternatives, or have already jumped ship?<\/p>\n\n\n\n<p>At the cost of tricking people into thinking they can build a site by themselves when actually what they need is some help to do it properly?<\/p>\n\n\n\n<p>At the cost of raising the bar of what\u2019s needed to develop for WordPress by including React and lots of complicated build processes?<\/p>\n\n\n\n<p>Has the project lost its way chasing user numbers rather than focusing on its mission?<\/p>\n\n\n\n<p>A different Gutenberg might have said &#8220;OK, let&#8217;s let Wix and Weebly do their thing, and we&#8217;ll do our thing. They might take some people away from WordPress at first because those tools appear easier. But WE will guide people along a better path.&#8221;<\/p>\n\n\n\n<p>And these thoughts lead me to having a better understanding of why the WordPress governance project has sprung up (best explained here on the <a href=\"https:\/\/wptavern.com\/wpweekly-episode-344-introduction-to-the-wordpress-governance-project\">recent WordPress Weekly podcast<\/a>). Who was making the decisions to chase after these things? Where are the bigger decisions about the direction of the project not documented? Why are some of these processes so opaque?<\/p>\n\n\n\n<p>This is just opinion, of course. But I do think it was an important realisation to have: WordPress isn\u2019t focussed on agencies and developers right now &#8211; it wants users who can fend for themselves.<\/p>\n",
         "excerpt": "<p>I had a realisation: WordPress isn\u2019t focussed on agencies and developers right now &#8211; it wants users who can fend for themselves.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 4510,
-            "date": "2019-01-31T10:58:40",
-            "date_gmt": "2019-01-31T10:58:40",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=4510"
-            },
-            "modified": "2019-01-31T11:05:53",
-            "modified_gmt": "2019-01-31T11:05:53",
-            "slug": "improving-internal-communications-its-a-people-problem",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
-            "title": {
-                "rendered": "Improving internal communications &#8211; it&#8217;s a people problem&#8230;"
-            },
-            "content": {
-                "rendered": "\n<p>In previous jobs, I have worked a fair bit to improve internal communications in work circles &#8211; informally, rather than as part of my specification.<\/p>\n\n\n\n<p>Through a combination of hard-won experience and probably <a href=\"https:\/\/rosswintle.uk\/2015\/07\/highly-sensitive\/\">being a bit sensitive<\/a> to what&#8217;s going on around me and thinking really hard about it, I&#8217;ve gained some useful insight for people wanting to try to help improve communications in their teams.<\/p>\n\n\n\n<p>A lot of this advice also applies to building online communities with forums or social media groups too.<\/p>\n\n\n\n<p><strong>The key thing to understand is that this problem is not a primarily a technological one, but a cultural\/psychological one.<\/strong> Many people start with &#8220;we need a new app to help us communicate better!&#8221;. But technology abounds, and the real problem is how do you get people to use any tools that you put in place, and keep people USING those tools (whatever they are) without constantly interrupting or annoying them, overloading them, and putting them off using it.<\/p>\n\n\n\n<p>Some things to think about that come about from looking at the problem in this way:<\/p>\n\n\n\n<p><strong>Will people use a new\/different tool?<\/strong> Or is it easier to just go where they are already at, like in a Facebook group?<\/p>\n\n\n\n<p><strong>Chat tools like Slack are great but they get noisy and demanding<\/strong>, encouraging immediacy.  They also focus on the immediate, to the extent that Slack&#8217;s entire business model is based around roping you in with free, real-time communication and then getting you to pay for access to historical conversations.<\/p>\n\n\n\n<p><strong>Trello is lovely, I like Trello. It works very much like a whiteboard full of post-its that everyone can see.<\/strong> But your team would probably have to be quite active in checking in on it. So <strong>if you are using Trello for comms and collaboration you should maybe have some other channel for prodding people to look at it<\/strong>.<\/p>\n\n\n\n<p><strong>If you like Facebook but don&#8217;t want to actually use Facebook then look into Facebook Workplace<\/strong>: <a href=\"https:\/\/www.facebook.com\/workplace\">https:\/\/www.facebook.com\/workplace<\/a> &#8211; it&#8217;s like your organisations own, private Facebook! This is great because most people know how to use Facebook, but you probably don&#8217;t want the whack-a-mole of real-Facebook notifications during the working day. So this keeps it work-only!<\/p>\n\n\n\n<p><strong>Don&#8217;t neglect more traditional channels!<\/strong> Email lists\/groups, posters on walls, and instant messages are all effective at reaching out to people. But use these to direct people back to the central tool you use to communicate  and collaborate. A weekly email summing up key points that people need  to know with links back to where they can read more works great.<\/p>\n\n\n\n<p><strong>Provide value.<\/strong> People won&#8217;t use a tool if it&#8217;s not up to date, or doesn&#8217;t aid them in their work. Make it useful. Keep information fresh and accurate. And solicit and pay attention to feedback from people to find out how to make the tool more useful for them<\/p>\n\n\n\n<p><strong>In all cases, this is a people problem and you will need people to help you solve it. <\/strong>So once you have chosen a technology, ensure that you have some kind of community leadership. Maybe recruit others to the cause of better communication and have them as your ambassadors\/champions, so that if someone says &#8220;Where do I tell everyone about this thing?&#8221; or &#8220;Where do I find out about the thing?&#8221; they can get directed to the new communications tool.<\/p>\n\n\n\n<p>Talk about the tool in meetings, embed it within the culture of your organisation. Make it THE place to go to communicate. This is key! Nothing attracts a crowd like a crowd and people won&#8217;t use the tool if no one else is using it<\/p>\n\n\n\n<p><strong>It&#8217;s also, helpful to understand the barriers to communication and communcation styles.<\/strong> <a href=\"https:\/\/www.andymort.com\/phone-reluctant-introvert\/\">Extroverts and sensitive types may hate using the phone<\/a> or speaking up in a more public forum, so find ways to gently encourage their communication or offer to communicate on their behalf.<\/p>\n\n\n\n<p>Understanding character types and why people behave like they do can be super helpful. Always be skeptical of psychology tests and putting people in boxes, but things like <a href=\"https:\/\/www.16personalities.com\/\">the excellent and mostly free 16 Personalities<\/a> can be helpful in understanding how each other&#8217;s brains work and how that affects communication.<\/p>\n\n\n\n<p>Getting a busy, diverse, distributed, flexi-time mixture of people to communicate is hard work &#8211; but if you can get it to work the benefits are huge! I hope you crack it!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Some useful experience and insight for people wanting to try to help improve communications in their teams.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                230,
-                24,
-                187
-            ],
-            "tags": [
-                445,
-                254,
-                231,
-                734,
-                735,
-                582
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Improving internal communications - it&#039;s a people problem... - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Improving internal communications - it&#039;s a people problem... - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some useful experience and insight for people wanting to try to help improve communications in their teams.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-01-31T10:58:40+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-01-31T11:05:53+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\",\"name\":\"Improving internal communications - it's a people problem... - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-01-31T10:58:40+00:00\",\"dateModified\":\"2019-01-31T11:05:53+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Improving internal communications &#8211; it&#8217;s a people problem&#8230;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Improving internal communications - it's a people problem... - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Improving internal communications - it's a people problem... - Ross Wintle",
-                "og_description": "Some useful experience and insight for people wanting to try to help improve communications in their teams.",
-                "og_url": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2019-01-31T10:58:40+00:00",
-                "article_modified_time": "2019-01-31T11:05:53+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
-                            "url": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
-                            "name": "Improving internal communications - it's a people problem... - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2019-01-31T10:58:40+00:00",
-                            "dateModified": "2019-01-31T11:05:53+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Improving internal communications &#8211; it&#8217;s a people problem&#8230;"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4510"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4510"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4510\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 4526,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4510\/revisions\/4526"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4510"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4510"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4510"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 4510,
-        "dateGmt": "2019-01-31T10:58:40",
-        "modifiedDateGmt": "2019-01-31T11:05:53",
-        "slug": "improving-internal-communications-its-a-people-problem",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/",
-        "title": "Improving internal communications &#8211; it&#8217;s a people problem&#8230;",
-        "content": "\n<p>In previous jobs, I have worked a fair bit to improve internal communications in work circles &#8211; informally, rather than as part of my specification.<\/p>\n\n\n\n<p>Through a combination of hard-won experience and probably <a href=\"https:\/\/rosswintle.uk\/2015\/07\/highly-sensitive\/\">being a bit sensitive<\/a> to what&#8217;s going on around me and thinking really hard about it, I&#8217;ve gained some useful insight for people wanting to try to help improve communications in their teams.<\/p>\n\n\n\n<p>A lot of this advice also applies to building online communities with forums or social media groups too.<\/p>\n\n\n\n<p><strong>The key thing to understand is that this problem is not a primarily a technological one, but a cultural\/psychological one.<\/strong> Many people start with &#8220;we need a new app to help us communicate better!&#8221;. But technology abounds, and the real problem is how do you get people to use any tools that you put in place, and keep people USING those tools (whatever they are) without constantly interrupting or annoying them, overloading them, and putting them off using it.<\/p>\n\n\n\n<p>Some things to think about that come about from looking at the problem in this way:<\/p>\n\n\n\n<p><strong>Will people use a new\/different tool?<\/strong> Or is it easier to just go where they are already at, like in a Facebook group?<\/p>\n\n\n\n<p><strong>Chat tools like Slack are great but they get noisy and demanding<\/strong>, encouraging immediacy.  They also focus on the immediate, to the extent that Slack&#8217;s entire business model is based around roping you in with free, real-time communication and then getting you to pay for access to historical conversations.<\/p>\n\n\n\n<p><strong>Trello is lovely, I like Trello. It works very much like a whiteboard full of post-its that everyone can see.<\/strong> But your team would probably have to be quite active in checking in on it. So <strong>if you are using Trello for comms and collaboration you should maybe have some other channel for prodding people to look at it<\/strong>.<\/p>\n\n\n\n<p><strong>If you like Facebook but don&#8217;t want to actually use Facebook then look into Facebook Workplace<\/strong>: <a href=\"https:\/\/www.facebook.com\/workplace\">https:\/\/www.facebook.com\/workplace<\/a> &#8211; it&#8217;s like your organisations own, private Facebook! This is great because most people know how to use Facebook, but you probably don&#8217;t want the whack-a-mole of real-Facebook notifications during the working day. So this keeps it work-only!<\/p>\n\n\n\n<p><strong>Don&#8217;t neglect more traditional channels!<\/strong> Email lists\/groups, posters on walls, and instant messages are all effective at reaching out to people. But use these to direct people back to the central tool you use to communicate  and collaborate. A weekly email summing up key points that people need  to know with links back to where they can read more works great.<\/p>\n\n\n\n<p><strong>Provide value.<\/strong> People won&#8217;t use a tool if it&#8217;s not up to date, or doesn&#8217;t aid them in their work. Make it useful. Keep information fresh and accurate. And solicit and pay attention to feedback from people to find out how to make the tool more useful for them<\/p>\n\n\n\n<p><strong>In all cases, this is a people problem and you will need people to help you solve it. <\/strong>So once you have chosen a technology, ensure that you have some kind of community leadership. Maybe recruit others to the cause of better communication and have them as your ambassadors\/champions, so that if someone says &#8220;Where do I tell everyone about this thing?&#8221; or &#8220;Where do I find out about the thing?&#8221; they can get directed to the new communications tool.<\/p>\n\n\n\n<p>Talk about the tool in meetings, embed it within the culture of your organisation. Make it THE place to go to communicate. This is key! Nothing attracts a crowd like a crowd and people won&#8217;t use the tool if no one else is using it<\/p>\n\n\n\n<p><strong>It&#8217;s also, helpful to understand the barriers to communication and communcation styles.<\/strong> <a href=\"https:\/\/www.andymort.com\/phone-reluctant-introvert\/\">Extroverts and sensitive types may hate using the phone<\/a> or speaking up in a more public forum, so find ways to gently encourage their communication or offer to communicate on their behalf.<\/p>\n\n\n\n<p>Understanding character types and why people behave like they do can be super helpful. Always be skeptical of psychology tests and putting people in boxes, but things like <a href=\"https:\/\/www.16personalities.com\/\">the excellent and mostly free 16 Personalities<\/a> can be helpful in understanding how each other&#8217;s brains work and how that affects communication.<\/p>\n\n\n\n<p>Getting a busy, diverse, distributed, flexi-time mixture of people to communicate is hard work &#8211; but if you can get it to work the benefits are huge! I hope you crack it!<\/p>\n",
-        "excerpt": "<p>Some useful experience and insight for people wanting to try to help improve communications in their teams.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0
