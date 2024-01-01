@@ -1,6 +1,243 @@
 [
     {
         "dataAsArray": {
+            "id": 173,
+            "date": "2008-08-05T20:54:00",
+            "date_gmt": "2008-08-05T20:54:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/08\/05\/behind-with-the-times\/"
+            },
+            "modified": "2008-08-05T20:54:00",
+            "modified_gmt": "2008-08-05T20:54:00",
+            "slug": "behind-with-the-times",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/",
+            "title": {
+                "rendered": "Behind with the Times"
+            },
+            "content": {
+                "rendered": "<p>This is a bit of an unstructured brain-dump of where certain techie things are in my head right now.<\/p>\n<p>I wrote about<a href=\"http:\/\/wintle.blogspot.com\/2008\/02\/taking-up-twittering-as-facebook-flops.html\"> my use of Twitter <\/a>a while back.  One of the boons of this has been watching the inspiring little comments of an old Bathonian friend of mine.<\/p>\n<p>My friend (I won&#8217;t name him unless he reads this and decides he would like me to) is&#8230;well&#8230;I don&#8217;t really know what he does now.  I think he used to work for the Institute of Physics or something, as a web designer, and he seems to have continued in a similar line of work.  And now, in the absence of anyone else, he&#8217;s my personal guru for all things web design, Web 2.0, blogs, social networking and so on.  I guess he inspires my inner-geek.<\/p>\n<p>And I do have a part of me that thrives on this stuff.  I love the interesting ways that people make innovative use of technology to achieve useful, and sometimes beautiful things.  Here are some other little web-based things that I&#8217;ve come across since following this person:<\/p>\n<p>&#8211; <a href=\"http:\/\/last.fm\">last.fm<\/a> &#8211; great way to discover new music<br \/>&#8211; <a href=\"http:\/\/www.mycyclinglog.com\">mycyclinglog.com<\/a> &#8211; my current bike logger<br \/>&#8211; <a href=\"http:\/\/identi.ca\">identi.ca<\/a> &#8211; open alternative to Twitter<br \/>&#8211; <a href=\"http:\/\/ping.fm\">ping.fm<\/a> &#8211; update multiple statuses\/micro-blogs from one place<br \/>&#8211; <a href=\"http:\/\/www.opera.com\">Opera<\/a> &#8211; a rediscovery of the old alternative web-browser<\/p>\n<p>But not just those practical things.  My curiosity about the way people are using the web to communicate and interact has been roused.  I&#8217;m intrigued how people are creating web sites that are simple, functional and well-designed.  Things not only of purpose but of beauty.<\/p>\n<p>I&#8217;m feeling behind and afraid though.  I barely know Java and have heard only rumours of Ajax, let alone other &#8220;next big things&#8221;.  I&#8217;ve been toying with client-side scripting, servlets, application frameworks, but not digging deep.  I have an excellent grounding in Computer Science and an inquisitive mind, but there&#8217;s so much to learn and I don&#8217;t have time enough to invest to satisfy my curiosity, let alone learn anything of much use.  And where would I start?<\/p>\n<p>I&#8217;m afraid because of security, the nature of my online identity. I&#8217;m generally very open, as readers of this blog would know, but there&#8217;s stuff that I don&#8217;t want out there on the internet (mostly about other people and work, but sometimes about me).  Can I throw myself into the online world of sharing so much with so many in safety?  Do I want <a href=\"http:\/\/www.brightkite.com\">BrightKite.com<\/a> telling everyone where I am all the time?<\/p>\n<p>And there&#8217;s the issue of time.  My feed list in <a href=\"http:\/\/reader.google.com\">Google Reader<\/a> continues to grow and reading, as well as writing, is a chore.  Could I read the Twitter entries of more than about 20 people and have a real life too?<\/p>\n<p>I&#8217;m also uncertain about who to take on the journey with me.  In many ways I&#8217;m a long way ahead of my peers and I&#8217;d love to be able to introduce others to my personal world of customised web sites, RSS and Atom feeds, alternative browsers and web presence because I think these things are useful tools.  But would they get it?  How confusing is it to a non techie?  There are so many places to be with new networks and tools appearing all the time. If I can barely keep up, how will they?<\/p>\n<p>I think the web is an exciting, fun, and hugely creative place to be at the moment.  Yet it&#8217;s a big place.  A scary place.  A confusing place.  An ever-changing and unknown place.<\/p>\n<p>My online interaction with the friend I mentioned above is a fine example of how the web can bring together people with a common cause or interest.  It can be a very negative place, but it can be inspiring and friendly too.  With my friend&#8217;s help I hope to continue to be a part of this strange world, and to introduce others to it, and maybe, one day, to be responsible for a small part of it.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>This is a bit of an unstructured brain-dump of where certain techie things are in my head right now. I wrote about my use of Twitter a while back. One of the boons of this has been watching the inspiring little comments of an old Bathonian friend of mine. My friend (I won&#8217;t name him [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Behind with the Times - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Behind with the Times - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This is a bit of an unstructured brain-dump of where certain techie things are in my head right now. I wrote about my use of Twitter a while back. One of the boons of this has been watching the inspiring little comments of an old Bathonian friend of mine. My friend (I won&#8217;t name him [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-08-05T20:54:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/\",\"name\":\"Behind with the Times - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-08-05T20:54:00+00:00\",\"dateModified\":\"2008-08-05T20:54:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Behind with the Times\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Behind with the Times - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Behind with the Times - Ross Wintle",
+                "og_description": "This is a bit of an unstructured brain-dump of where certain techie things are in my head right now. I wrote about my use of Twitter a while back. One of the boons of this has been watching the inspiring little comments of an old Bathonian friend of mine. My friend (I won&#8217;t name him [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2008-08-05T20:54:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "3 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/",
+                            "url": "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/",
+                            "name": "Behind with the Times - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2008-08-05T20:54:00+00:00",
+                            "dateModified": "2008-08-05T20:54:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Behind with the Times"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/173"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=173"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/173\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=173"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=173"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=173"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 173,
+        "dateGmt": "2008-08-05T20:54:00",
+        "modifiedDateGmt": "2008-08-05T20:54:00",
+        "slug": "behind-with-the-times",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2008\/08\/behind-with-the-times\/",
+        "title": "Behind with the Times",
+        "content": "<p>This is a bit of an unstructured brain-dump of where certain techie things are in my head right now.<\/p>\n<p>I wrote about<a href=\"http:\/\/wintle.blogspot.com\/2008\/02\/taking-up-twittering-as-facebook-flops.html\"> my use of Twitter <\/a>a while back.  One of the boons of this has been watching the inspiring little comments of an old Bathonian friend of mine.<\/p>\n<p>My friend (I won&#8217;t name him unless he reads this and decides he would like me to) is&#8230;well&#8230;I don&#8217;t really know what he does now.  I think he used to work for the Institute of Physics or something, as a web designer, and he seems to have continued in a similar line of work.  And now, in the absence of anyone else, he&#8217;s my personal guru for all things web design, Web 2.0, blogs, social networking and so on.  I guess he inspires my inner-geek.<\/p>\n<p>And I do have a part of me that thrives on this stuff.  I love the interesting ways that people make innovative use of technology to achieve useful, and sometimes beautiful things.  Here are some other little web-based things that I&#8217;ve come across since following this person:<\/p>\n<p>&#8211; <a href=\"http:\/\/last.fm\">last.fm<\/a> &#8211; great way to discover new music<br \/>&#8211; <a href=\"http:\/\/www.mycyclinglog.com\">mycyclinglog.com<\/a> &#8211; my current bike logger<br \/>&#8211; <a href=\"http:\/\/identi.ca\">identi.ca<\/a> &#8211; open alternative to Twitter<br \/>&#8211; <a href=\"http:\/\/ping.fm\">ping.fm<\/a> &#8211; update multiple statuses\/micro-blogs from one place<br \/>&#8211; <a href=\"http:\/\/www.opera.com\">Opera<\/a> &#8211; a rediscovery of the old alternative web-browser<\/p>\n<p>But not just those practical things.  My curiosity about the way people are using the web to communicate and interact has been roused.  I&#8217;m intrigued how people are creating web sites that are simple, functional and well-designed.  Things not only of purpose but of beauty.<\/p>\n<p>I&#8217;m feeling behind and afraid though.  I barely know Java and have heard only rumours of Ajax, let alone other &#8220;next big things&#8221;.  I&#8217;ve been toying with client-side scripting, servlets, application frameworks, but not digging deep.  I have an excellent grounding in Computer Science and an inquisitive mind, but there&#8217;s so much to learn and I don&#8217;t have time enough to invest to satisfy my curiosity, let alone learn anything of much use.  And where would I start?<\/p>\n<p>I&#8217;m afraid because of security, the nature of my online identity. I&#8217;m generally very open, as readers of this blog would know, but there&#8217;s stuff that I don&#8217;t want out there on the internet (mostly about other people and work, but sometimes about me).  Can I throw myself into the online world of sharing so much with so many in safety?  Do I want <a href=\"http:\/\/www.brightkite.com\">BrightKite.com<\/a> telling everyone where I am all the time?<\/p>\n<p>And there&#8217;s the issue of time.  My feed list in <a href=\"http:\/\/reader.google.com\">Google Reader<\/a> continues to grow and reading, as well as writing, is a chore.  Could I read the Twitter entries of more than about 20 people and have a real life too?<\/p>\n<p>I&#8217;m also uncertain about who to take on the journey with me.  In many ways I&#8217;m a long way ahead of my peers and I&#8217;d love to be able to introduce others to my personal world of customised web sites, RSS and Atom feeds, alternative browsers and web presence because I think these things are useful tools.  But would they get it?  How confusing is it to a non techie?  There are so many places to be with new networks and tools appearing all the time. If I can barely keep up, how will they?<\/p>\n<p>I think the web is an exciting, fun, and hugely creative place to be at the moment.  Yet it&#8217;s a big place.  A scary place.  A confusing place.  An ever-changing and unknown place.<\/p>\n<p>My online interaction with the friend I mentioned above is a fine example of how the web can bring together people with a common cause or interest.  It can be a very negative place, but it can be inspiring and friendly too.  With my friend&#8217;s help I hope to continue to be a part of this strange world, and to introduce others to it, and maybe, one day, to be responsible for a small part of it.<\/p>\n",
+        "excerpt": "<p>This is a bit of an unstructured brain-dump of where certain techie things are in my head right now. I wrote about my use of Twitter a while back. One of the boons of this has been watching the inspiring little comments of an old Bathonian friend of mine. My friend (I won&#8217;t name him [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 172,
             "date": "2008-07-28T21:57:00",
             "date_gmt": "2008-07-28T21:57:00",
@@ -2127,243 +2364,6 @@
         "title": "Blogging",
         "content": "<p>It&#8217;ll seem odd that I just posted my holiday notes from the end of March.  These have been half written for ages now, and I have a few other notes that need writing to completion before publishing.  I&#8217;ve been surprised to have almost an entire week of free evenings and an almost free weekend, so it&#8217;s good catching up time&#8230;expect more backdated posts.<\/p>\n<p>The question then is, how do I get regular time to write this thing?<\/p>\n",
         "excerpt": "<p>It&#8217;ll seem odd that I just posted my holiday notes from the end of March. These have been half written for ages now, and I have a few other notes that need writing to completion before publishing. I&#8217;ve been surprised to have almost an entire week of free evenings and an almost free weekend, so [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 162,
-            "date": "2008-06-13T22:27:00",
-            "date_gmt": "2008-06-13T22:27:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2008\/06\/13\/shopping-beer-and-slugs\/"
-            },
-            "modified": "2008-06-13T22:27:00",
-            "modified_gmt": "2008-06-13T22:27:00",
-            "slug": "shopping-beer-and-slugs",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/",
-            "title": {
-                "rendered": "Shopping, Beer, and Slugs"
-            },
-            "content": {
-                "rendered": "<p>Sally and I made our approximately three-weekly trek to Sainsbury&#8217;s yesterday.  Shopping is always interesting as we both have our little things we&#8217;re passionate about.  Fair trade, free range, recycled, compostable, organic, low-energy, locally sourced, etc.  And we&#8217;re fortunate enough to a) have the choice to buy these things b) be able to afford them!  So our shopping bill is probably quite high for a two-person household.<\/p>\n<p>We also seem to buy a LOT of cereals!  I eat a combination of muesli, crunchy oat cereal and corn flakes for breakfast, and I snack on cereal bars during the day (either bought, or all-natural, home-made from&#8230;oats, muesli, seeds, dried fruit, honey, egg whites, and apple juice &#8211; recipe available on request).  Cereals also last a long time so we stock up whenever we&#8217;re in the shops.  I reckon about a third of our trolley load was cereals!  Maybe I&#8217;m addicted to oats?<\/p>\n<p>We were also astonished to find cheap beer.  I mean CHEAP beer.<\/p>\n<p>We&#8217;ve been using up some old, past-its-sell-by-date lager in beer traps to get the slugs in our garden (highly effective I might add!).  But we&#8217;ve run out, so I bought some Sainsbury&#8217;s &#8220;Basics&#8221; bitter.  For&#8230;wait for it&#8230;97p for 4 cans!!!<\/p>\n<p>This is cheaper than coke!  It&#8217;s probably cheaper than bottled water.  I&#8217;ve heard about such beer on the news, but to actually see it in the shops is astounding.<\/p>\n<p>Sally turned the cheap-beer thing into something light-hearted though by commenting that, because we&#8217;ve switched from lager to bitter, &#8220;we&#8217;ll probably catch the older, fatter slugs with beards now&#8221;.<\/p>\n<p>We&#8217;ll wait and see!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Sally and I made our approximately three-weekly trek to Sainsbury&#8217;s yesterday. Shopping is always interesting as we both have our little things we&#8217;re passionate about. Fair trade, free range, recycled, compostable, organic, low-energy, locally sourced, etc. And we&#8217;re fortunate enough to a) have the choice to buy these things b) be able to afford them! [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Shopping, Beer, and Slugs - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Shopping, Beer, and Slugs - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Sally and I made our approximately three-weekly trek to Sainsbury&#8217;s yesterday. Shopping is always interesting as we both have our little things we&#8217;re passionate about. Fair trade, free range, recycled, compostable, organic, low-energy, locally sourced, etc. And we&#8217;re fortunate enough to a) have the choice to buy these things b) be able to afford them! [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2008-06-13T22:27:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/\",\"url\":\"https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/\",\"name\":\"Shopping, Beer, and Slugs - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2008-06-13T22:27:00+00:00\",\"dateModified\":\"2008-06-13T22:27:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Shopping, Beer, and Slugs\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Shopping, Beer, and Slugs - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Shopping, Beer, and Slugs - Ross Wintle",
-                "og_description": "Sally and I made our approximately three-weekly trek to Sainsbury&#8217;s yesterday. Shopping is always interesting as we both have our little things we&#8217;re passionate about. Fair trade, free range, recycled, compostable, organic, low-energy, locally sourced, etc. And we&#8217;re fortunate enough to a) have the choice to buy these things b) be able to afford them! [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2008-06-13T22:27:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/",
-                            "url": "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/",
-                            "name": "Shopping, Beer, and Slugs - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2008-06-13T22:27:00+00:00",
-                            "dateModified": "2008-06-13T22:27:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Shopping, Beer, and Slugs"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/162"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=162"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/162\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=162"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=162"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=162"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 162,
-        "dateGmt": "2008-06-13T22:27:00",
-        "modifiedDateGmt": "2008-06-13T22:27:00",
-        "slug": "shopping-beer-and-slugs",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2008\/06\/shopping-beer-and-slugs\/",
-        "title": "Shopping, Beer, and Slugs",
-        "content": "<p>Sally and I made our approximately three-weekly trek to Sainsbury&#8217;s yesterday.  Shopping is always interesting as we both have our little things we&#8217;re passionate about.  Fair trade, free range, recycled, compostable, organic, low-energy, locally sourced, etc.  And we&#8217;re fortunate enough to a) have the choice to buy these things b) be able to afford them!  So our shopping bill is probably quite high for a two-person household.<\/p>\n<p>We also seem to buy a LOT of cereals!  I eat a combination of muesli, crunchy oat cereal and corn flakes for breakfast, and I snack on cereal bars during the day (either bought, or all-natural, home-made from&#8230;oats, muesli, seeds, dried fruit, honey, egg whites, and apple juice &#8211; recipe available on request).  Cereals also last a long time so we stock up whenever we&#8217;re in the shops.  I reckon about a third of our trolley load was cereals!  Maybe I&#8217;m addicted to oats?<\/p>\n<p>We were also astonished to find cheap beer.  I mean CHEAP beer.<\/p>\n<p>We&#8217;ve been using up some old, past-its-sell-by-date lager in beer traps to get the slugs in our garden (highly effective I might add!).  But we&#8217;ve run out, so I bought some Sainsbury&#8217;s &#8220;Basics&#8221; bitter.  For&#8230;wait for it&#8230;97p for 4 cans!!!<\/p>\n<p>This is cheaper than coke!  It&#8217;s probably cheaper than bottled water.  I&#8217;ve heard about such beer on the news, but to actually see it in the shops is astounding.<\/p>\n<p>Sally turned the cheap-beer thing into something light-hearted though by commenting that, because we&#8217;ve switched from lager to bitter, &#8220;we&#8217;ll probably catch the older, fatter slugs with beards now&#8221;.<\/p>\n<p>We&#8217;ll wait and see!<\/p>\n",
-        "excerpt": "<p>Sally and I made our approximately three-weekly trek to Sainsbury&#8217;s yesterday. Shopping is always interesting as we both have our little things we&#8217;re passionate about. Fair trade, free range, recycled, compostable, organic, low-energy, locally sourced, etc. And we&#8217;re fortunate enough to a) have the choice to buy these things b) be able to afford them! [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

@@ -1,6 +1,240 @@
 [
     {
         "dataAsArray": {
+            "id": 50,
+            "date": "2007-07-03T20:33:00",
+            "date_gmt": "2007-07-03T20:33:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/07\/03\/naturewatch-our-new-bonsai-tree\/"
+            },
+            "modified": "2007-07-03T20:33:00",
+            "modified_gmt": "2007-07-03T20:33:00",
+            "slug": "naturewatch-our-new-bonsai-tree",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/",
+            "title": {
+                "rendered": "Naturewatch: Our new Bonsai Tree!"
+            },
+            "content": {
+                "rendered": "<p>At one of our friend&#8217;s weddings we were fortunate enough to win the Bonsai tree that was used as a table decoration.  This is my latest nature fascination.<\/p>\n<p>Sadly, as we went on holiday for a week it got a bit neglected and dropped lots of leaves.  With some TLC, lots of water and the sunniest place in the house there are lots of new buds forming.  I&#8217;m worried about the fact that we&#8217;ve got hard water though &#8211; it&#8217;s not supposed to like that.  Hmm&#8230;<\/p>\n<p><a href=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RoqywXQOpNI\/AAAAAAAAAXI\/RON5SwuEebA\/s1600-h\/DSC00022.JPG\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RoqywXQOpNI\/AAAAAAAAAXI\/RON5SwuEebA\/s400\/DSC00022.JPG\" alt=\"\" border=\"0\" \/><\/a><\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>At one of our friend&#8217;s weddings we were fortunate enough to win the Bonsai tree that was used as a table decoration. This is my latest nature fascination. Sadly, as we went on holiday for a week it got a bit neglected and dropped lots of leaves. With some TLC, lots of water and the [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10,
+                18
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Naturewatch: Our new Bonsai Tree! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Naturewatch: Our new Bonsai Tree! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"At one of our friend&#8217;s weddings we were fortunate enough to win the Bonsai tree that was used as a table decoration. This is my latest nature fascination. Sadly, as we went on holiday for a week it got a bit neglected and dropped lots of leaves. With some TLC, lots of water and the [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-07-03T20:33:00+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RoqywXQOpNI\/AAAAAAAAAXI\/RON5SwuEebA\/s400\/DSC00022.JPG\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/\",\"name\":\"Naturewatch: Our new Bonsai Tree! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-07-03T20:33:00+00:00\",\"dateModified\":\"2007-07-03T20:33:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Naturewatch: Our new Bonsai Tree!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Naturewatch: Our new Bonsai Tree! - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Naturewatch: Our new Bonsai Tree! - Ross Wintle",
+                "og_description": "At one of our friend&#8217;s weddings we were fortunate enough to win the Bonsai tree that was used as a table decoration. This is my latest nature fascination. Sadly, as we went on holiday for a week it got a bit neglected and dropped lots of leaves. With some TLC, lots of water and the [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-07-03T20:33:00+00:00",
+                "og_image": [
+                    {
+                        "url": "http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RoqywXQOpNI\/AAAAAAAAAXI\/RON5SwuEebA\/s400\/DSC00022.JPG"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/",
+                            "name": "Naturewatch: Our new Bonsai Tree! - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-07-03T20:33:00+00:00",
+                            "dateModified": "2007-07-03T20:33:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Naturewatch: Our new Bonsai Tree!"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/50"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=50"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/50\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=50"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=50"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=50"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 50,
+        "dateGmt": "2007-07-03T20:33:00",
+        "modifiedDateGmt": "2007-07-03T20:33:00",
+        "slug": "naturewatch-our-new-bonsai-tree",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/07\/naturewatch-our-new-bonsai-tree\/",
+        "title": "Naturewatch: Our new Bonsai Tree!",
+        "content": "<p>At one of our friend&#8217;s weddings we were fortunate enough to win the Bonsai tree that was used as a table decoration.  This is my latest nature fascination.<\/p>\n<p>Sadly, as we went on holiday for a week it got a bit neglected and dropped lots of leaves.  With some TLC, lots of water and the sunniest place in the house there are lots of new buds forming.  I&#8217;m worried about the fact that we&#8217;ve got hard water though &#8211; it&#8217;s not supposed to like that.  Hmm&#8230;<\/p>\n<p><a href=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RoqywXQOpNI\/AAAAAAAAAXI\/RON5SwuEebA\/s1600-h\/DSC00022.JPG\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RoqywXQOpNI\/AAAAAAAAAXI\/RON5SwuEebA\/s400\/DSC00022.JPG\" alt=\"\" border=\"0\" \/><\/a><\/p>\n",
+        "excerpt": "<p>At one of our friend&#8217;s weddings we were fortunate enough to win the Bonsai tree that was used as a table decoration. This is my latest nature fascination. Sadly, as we went on holiday for a week it got a bit neglected and dropped lots of leaves. With some TLC, lots of water and the [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 49,
             "date": "2007-06-30T15:21:00",
             "date_gmt": "2007-06-30T15:21:00",
@@ -2125,243 +2359,6 @@
         "title": "Waste Neutrality, the Eden Project, and saving the planet.",
         "content": "<div>Wednesday of our holiday in Cornwall, and a visit to the Eden Project!  You mostly hear good things about it but occasionally you meet someone that thought it was rubbish.  I can see why people might not like it but I thought it was fascinating, beautiful, educational and inspiring.<\/div>\n<p><\/p>\n<div>A visit to the Eden Project raises lots of questions about our planet.  I&#8217;d probably fall into the category of very-nearly-green-hippy.  Partly driven by my faith &#8211; my belief in a creator and in our duty to look after His creation &#8211; and partly driven by science and common sense, I believe we should reduce, recycle and reuse as much as possible.<\/p>\n<p>I&#8217;ve been having a lot of conversations at work about being green.  Mostly with people who slightly mock the concept of being overtly, or overly, environmentally friendly.  Mostly with people who think I&#8217;m silly for cycling in the rain (but that&#8217;s another issue altogether).  I feel in a minority there.<\/p>\n<p>But most of the discussions aren&#8217;t actually about the concepts of waste, wastefulness, packaging, reuse of materials and consumerism.  Most of the discussions are about &#8220;Carbon Footprints&#8221;, which I don&#8217;t really understand myself and which, to me, seem to be just marketing to make us feel good about buying a product or service.  But I don&#8217;t actually get what it means to put a tonne of carbon dioxide into the air!  In contrast, I DO get what it means to put a plastic bag in a landfill.  It means that I&#8217;ve wasted some oil &#8211; a precious natural resource that will, one day pretty soon now, run out &#8211; in order to produce something that I&#8217;ve then discarded on a big heap and which will sit there being a plastic bag in the way, for a VERY long time.<\/div>\n<p><\/p>\n<div>I&#8217;m all for being carbon neutral.  But I&#8217;m more for thinking about how much stuff we use and throw away.  And by &#8220;use&#8221; I include &#8220;burn to make energy&#8221;, which means that my concept of &#8220;reducing&#8221; includes lowering emissions, but, so I think, seems to be a more holistic approach.<\/div>\n<p><\/p>\n<div>What&#8217;s this got to do with my holiday and the Eden Project?<\/p>\n<p>Well, there aren&#8217;t many things that I don&#8217;t like about the lovely cottage that we&#8217;re staying in, but one thing that bugs me is that we can&#8217;t recycle.  Everything is thrown in the bin (well, we&#8217;re going to take some stuff home with us too).  This means that in 5 days we&#8217;ve produced about 2 times as much waste as we&#8217;d normally produce at home.  It&#8217;s shocking how, without compost and recycling, it mounts up so quickly.<\/div>\n<p><\/p>\n<div>In contrast, the Eden Project was keen to talk about how it was trying to be &#8220;waste neutral&#8221;.  Reducing the amount of waste that they produce, reusing items where it is possible, recycling what&#8217;s left, and buying recycled goods (and thus creating demand for recycled products).<\/p>\n<p>It&#8217;s expensive, and it sounds like hard work and lots of thinking.  They declare it to be &#8220;a philosophy for life&#8221;.  It&#8217;s a challenge to all of us.  It&#8217;s a challenge to me!  How much do I think about the waste that will be produced by an item that I buy?  How often do I get lazy and throw something away because to take it home and recycle it would be too much hard work?  Am I willing to pay a bit extra for something that&#8217;s locally sourced, recycled, or in &#8220;green&#8221; packaging?<\/p>\n<\/div>\n<p>One other thing that I wondered was, are we doing enough?  That is are we DOING enough?<\/p>\n<p>The Eden Project sells lots of books.  Mostly books about being green and ethical.  It&#8217;s good to read (or write!) an article or book about this kind of thing.  It&#8217;s good to be inspired by the wonders of nature on display at the Eden Project and feel protective of our amazing planet.  It&#8217;s good to read about how others are adopting this philosophy for life.  It&#8217;s good to think and ask the questions.<\/p>\n<p>But when we get to the supermarket, or need to travel somewhere nearby, or book a holiday, or are throwing something in the bin&#8230;when we have a choice to make a difference&#8230;what are we actually going to choose to do?<\/p>\n",
         "excerpt": "<p>Wednesday of our holiday in Cornwall, and a visit to the Eden Project! You mostly hear good things about it but occasionally you meet someone that thought it was rubbish. I can see why people might not like it but I thought it was fascinating, beautiful, educational and inspiring. A visit to the Eden Project [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 40,
-            "date": "2007-06-12T19:12:00",
-            "date_gmt": "2007-06-12T19:12:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/06\/12\/discovering-the-national-trust\/"
-            },
-            "modified": "2007-06-12T19:12:00",
-            "modified_gmt": "2007-06-12T19:12:00",
-            "slug": "discovering-the-national-trust",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
-            "title": {
-                "rendered": "Discovering the National Trust"
-            },
-            "content": {
-                "rendered": "<div>It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall.<\/p>\n<p>Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith.<\/p>\n<p>Today we had a really nice day, cycling north up the Lizard to the Helford estuary (about 10 miles), then getting the passenger ferry to Glendurgan gardens on the other side of the estuary.<\/p>\n<p>Now, I should point out that my wife recently started working for the National Trust, which comes with the great benefit of free entry to the National Trust&#8217;s properties.<\/p>\n<p>I&#8217;ve never really considered the National Trust as something of much interest.  It makes you think of big, stuffy old mansion houses and random bits of old castle.  But having been to a few places you start to realise how good the work that they do is, AND, having a link with them, you start to notice how much they look after.<\/p>\n<p>Here&#8217;s where we&#8217;ve been in a few months that&#8217;s owned by the National Trust:<\/p>\n<ul>\n<li>Lacock <\/li>\n<li>Buscot Castle Drogo<\/li>\n<li>Lizard Coast<\/li>\n<li> Lizard Point<\/li>\n<li> Kynance Cove<\/li>\n<li>Glendurgan Gardens<\/li>\n<li>and we&#8217;ll be going to St Michael&#8217;s Mount later in the week<\/li>\n<\/ul>\n<p>   Here are some things that have impressed me about the National Trust:<\/p>\n<ul>\n<li><span style=\"font-weight:bold;\">They own LOADS of stuff<\/span>: much of the Lizard&#8217;s coastline, many small coves and sites of beauty or scientific interest, lots of interesting buildings and gardens.  Some of it is well known and listed in their handbook, but lots of it is just land that they care for and preserve that&#8217;s not listed anywhere and is open to anyone for free!<\/li>\n<li><span style=\"font-weight:bold;\">Their facilities are always really good<\/span>: clean toilets, good information, friendly staff, well organised, well sign posted, lots of free leaflets, good food in their cafe&#8217;s.  The quality of what they do is always excellent.<\/li>\n<li><span style=\"font-weight:bold;\">They care for people<\/span>: related to good facilities, but also in Sally&#8217;s working for them, you can see that people are important to them and their quality and integrity stems from that.<\/li>\n<li><span style=\"font-weight:bold;\">They care for the environment:<\/span> they take the view that there&#8217;s no point preserving all this stuff if the world&#8217;s being messed up around it.  To that end they put their money where their mouth is and invest in things like solar panels, using their own resources, using renewable energy and materials, recycling, fair trade and so on.  They&#8217;re also keen on promoting environmental issues to their members.<\/li>\n<\/ul>\n<p>I&#8217;m really very impressed, to the extent that I&#8217;d pay for membership now- not just to get free entry to all their properties, but to support the good work that they do.<\/p>\n<p>If you don&#8217;t know much about the National Trust, look them up, find out what they do, look out for their land and properties and I hope you&#8217;ll agree that they do a great job and are worth supporting.<\/div>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall. Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith. Today we had a really nice [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Discovering the National Trust - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Discovering the National Trust - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall. Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith. Today we had a really nice [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-06-12T19:12:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\",\"name\":\"Discovering the National Trust - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-06-12T19:12:00+00:00\",\"dateModified\":\"2007-06-12T19:12:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Discovering the National Trust\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Discovering the National Trust - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Discovering the National Trust - Ross Wintle",
-                "og_description": "It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall. Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith. Today we had a really nice [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2007-06-12T19:12:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
-                            "url": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
-                            "name": "Discovering the National Trust - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2007-06-12T19:12:00+00:00",
-                            "dateModified": "2007-06-12T19:12:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Discovering the National Trust"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/40"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=40"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/40\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=40"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=40"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=40"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 40,
-        "dateGmt": "2007-06-12T19:12:00",
-        "modifiedDateGmt": "2007-06-12T19:12:00",
-        "slug": "discovering-the-national-trust",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
-        "title": "Discovering the National Trust",
-        "content": "<div>It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall.<\/p>\n<p>Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith.<\/p>\n<p>Today we had a really nice day, cycling north up the Lizard to the Helford estuary (about 10 miles), then getting the passenger ferry to Glendurgan gardens on the other side of the estuary.<\/p>\n<p>Now, I should point out that my wife recently started working for the National Trust, which comes with the great benefit of free entry to the National Trust&#8217;s properties.<\/p>\n<p>I&#8217;ve never really considered the National Trust as something of much interest.  It makes you think of big, stuffy old mansion houses and random bits of old castle.  But having been to a few places you start to realise how good the work that they do is, AND, having a link with them, you start to notice how much they look after.<\/p>\n<p>Here&#8217;s where we&#8217;ve been in a few months that&#8217;s owned by the National Trust:<\/p>\n<ul>\n<li>Lacock <\/li>\n<li>Buscot Castle Drogo<\/li>\n<li>Lizard Coast<\/li>\n<li> Lizard Point<\/li>\n<li> Kynance Cove<\/li>\n<li>Glendurgan Gardens<\/li>\n<li>and we&#8217;ll be going to St Michael&#8217;s Mount later in the week<\/li>\n<\/ul>\n<p>   Here are some things that have impressed me about the National Trust:<\/p>\n<ul>\n<li><span style=\"font-weight:bold;\">They own LOADS of stuff<\/span>: much of the Lizard&#8217;s coastline, many small coves and sites of beauty or scientific interest, lots of interesting buildings and gardens.  Some of it is well known and listed in their handbook, but lots of it is just land that they care for and preserve that&#8217;s not listed anywhere and is open to anyone for free!<\/li>\n<li><span style=\"font-weight:bold;\">Their facilities are always really good<\/span>: clean toilets, good information, friendly staff, well organised, well sign posted, lots of free leaflets, good food in their cafe&#8217;s.  The quality of what they do is always excellent.<\/li>\n<li><span style=\"font-weight:bold;\">They care for people<\/span>: related to good facilities, but also in Sally&#8217;s working for them, you can see that people are important to them and their quality and integrity stems from that.<\/li>\n<li><span style=\"font-weight:bold;\">They care for the environment:<\/span> they take the view that there&#8217;s no point preserving all this stuff if the world&#8217;s being messed up around it.  To that end they put their money where their mouth is and invest in things like solar panels, using their own resources, using renewable energy and materials, recycling, fair trade and so on.  They&#8217;re also keen on promoting environmental issues to their members.<\/li>\n<\/ul>\n<p>I&#8217;m really very impressed, to the extent that I&#8217;d pay for membership now- not just to get free entry to all their properties, but to support the good work that they do.<\/p>\n<p>If you don&#8217;t know much about the National Trust, look them up, find out what they do, look out for their land and properties and I hope you&#8217;ll agree that they do a great job and are worth supporting.<\/div>\n",
-        "excerpt": "<p>It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall. Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith. Today we had a really nice [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

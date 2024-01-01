@@ -1,6 +1,252 @@
 [
     {
         "dataAsArray": {
+            "id": 3326,
+            "date": "2018-03-09T10:27:01",
+            "date_gmt": "2018-03-09T10:27:01",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=3326"
+            },
+            "modified": "2018-03-09T10:54:54",
+            "modified_gmt": "2018-03-09T10:54:54",
+            "slug": "you-owe-me-a-beer",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/",
+            "title": {
+                "rendered": "If you&#8217;ve ever felt like you owed me a beer&#8230;"
+            },
+            "content": {
+                "rendered": "<p>My college computing teacher, <a href=\"https:\/\/www.justgiving.com\/fundraising\/raymond-burcham\">Ray Burcham<\/a>, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment.<\/p>\n<p><a href=\"https:\/\/www.justgiving.com\/fundraising\/raymond-burcham\">https:\/\/www.justgiving.com\/fundraising\/raymond-burcham<\/a><\/p>\n<p>This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, any mentoring or coaching or benefitted from a talk I&#8217;ve given, blog post I&#8217;ve written, or screencast I&#8217;ve made&#8230;basically, if you&#8217;ve ever thought you owe me a beer, you probably actually owe it to him.<\/p>\n<p>So go <a href=\"https:\/\/www.justgiving.com\/fundraising\/raymond-burcham\">make a donation<\/a> &#8211; he&#8217;s nearly at <code>currency_format(0x400, '\u00a3')<\/code>, let&#8217;s see if we can get him to at least <code>currency_format(0x800, '\u00a3')<\/code><\/p>\n<p>Thanks in advance, and thanks Ray for being an awesome, inspiring, fun, helpful teacher and friend.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>My college computing teacher, Ray Burcham, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment. https:\/\/www.justgiving.com\/fundraising\/raymond-burcham This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10
+            ],
+            "tags": [
+                420,
+                689,
+                688,
+                687,
+                581
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>If you&#039;ve ever felt like you owed me a beer... - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"If you&#039;ve ever felt like you owed me a beer... - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"My college computing teacher, Ray Burcham, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment. https:\/\/www.justgiving.com\/fundraising\/raymond-burcham This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-09T10:27:01+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-03-09T10:54:54+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\",\"name\":\"If you've ever felt like you owed me a beer... - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-03-09T10:27:01+00:00\",\"dateModified\":\"2018-03-09T10:54:54+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"If you&#8217;ve ever felt like you owed me a beer&#8230;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "If you've ever felt like you owed me a beer... - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "If you've ever felt like you owed me a beer... - Ross Wintle",
+                "og_description": "My college computing teacher, Ray Burcham, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment. https:\/\/www.justgiving.com\/fundraising\/raymond-burcham This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2018-03-09T10:27:01+00:00",
+                "article_modified_time": "2018-03-09T10:54:54+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/",
+                            "url": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/",
+                            "name": "If you've ever felt like you owed me a beer... - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2018-03-09T10:27:01+00:00",
+                            "dateModified": "2018-03-09T10:54:54+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "If you&#8217;ve ever felt like you owed me a beer&#8230;"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3326"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=3326"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3326\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 3347,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/3326\/revisions\/3347"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=3326"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=3326"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=3326"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 3326,
+        "dateGmt": "2018-03-09T10:27:01",
+        "modifiedDateGmt": "2018-03-09T10:54:54",
+        "slug": "you-owe-me-a-beer",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/",
+        "title": "If you&#8217;ve ever felt like you owed me a beer&#8230;",
+        "content": "<p>My college computing teacher, <a href=\"https:\/\/www.justgiving.com\/fundraising\/raymond-burcham\">Ray Burcham<\/a>, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment.<\/p>\n<p><a href=\"https:\/\/www.justgiving.com\/fundraising\/raymond-burcham\">https:\/\/www.justgiving.com\/fundraising\/raymond-burcham<\/a><\/p>\n<p>This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, any mentoring or coaching or benefitted from a talk I&#8217;ve given, blog post I&#8217;ve written, or screencast I&#8217;ve made&#8230;basically, if you&#8217;ve ever thought you owe me a beer, you probably actually owe it to him.<\/p>\n<p>So go <a href=\"https:\/\/www.justgiving.com\/fundraising\/raymond-burcham\">make a donation<\/a> &#8211; he&#8217;s nearly at <code>currency_format(0x400, '\u00a3')<\/code>, let&#8217;s see if we can get him to at least <code>currency_format(0x800, '\u00a3')<\/code><\/p>\n<p>Thanks in advance, and thanks Ray for being an awesome, inspiring, fun, helpful teacher and friend.<\/p>\n",
+        "excerpt": "<p>My college computing teacher, Ray Burcham, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment. https:\/\/www.justgiving.com\/fundraising\/raymond-burcham This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 3308,
             "date": "2018-03-08T08:34:02",
             "date_gmt": "2018-03-08T08:34:02",
@@ -2207,242 +2453,5 @@
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 3066
-    },
-    {
-        "dataAsArray": {
-            "id": 2978,
-            "date": "2018-01-01T21:09:41",
-            "date_gmt": "2018-01-01T21:09:41",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=2978"
-            },
-            "modified": "2022-09-22T18:47:30",
-            "modified_gmt": "2022-09-22T17:47:30",
-            "slug": "2017-in-review-ask-me-anything",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/",
-            "title": {
-                "rendered": "2017 in review &#8211; Ask Me Anything!"
-            },
-            "content": {
-                "rendered": "\n<p>So I did this thing on Facebook and it was pretty good fun, so I\u2019m writing it up here too.<\/p>\n\n\n\n<p>I\u2019ve been pretty terrible at Christmas wishes this year. December seems to get more crazy every year. This one has felt like the busiest ever, with the addition of a nephew, two children &#8211; one of whom has started going to bed later, a nasty cold, and busy workplaces.<\/p>\n\n\n\n<p>I&#8217;ve had a few more restful days over Christmas, and I was reading \u201cnewsletters\u201d the other day from other people and was aware that we probably don\u2019t share all that much on social media relative to other people. I am acutely aware that some people are owed updates\/greetings\/even gifts from us! And those will come.<\/p>\n\n\n\n<p>But for the time being, rather than write an long newsletter update of my own, I thought I\u2019d try a little experiment. I asked people on Facebook to use comments to ask me questions about my year, and those that weren&#8217;t too personal or difficult to answer got replies.<\/p>\n\n\n\n<p>This was great, because it generated some good discussions, and allow me to throw questions back at people.<\/p>\n\n\n\n<p>So I&#8217;ve written that up in a slightly edited way here as a summary and as my &#8220;newsletter&#8221; to the world.<\/p>\n\n\n\n<p>But also, feel free to ask MORE questions.&nbsp;Be creative. I hope this might be fun.<\/p>\n\n\n\n<p>So&#8230;what do you want to know about my year?! Ask in the comments if your question isn&#8217;t covered below.<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What have I missed?<\/strong><\/p>\n\n\n\n<p>Well, I don\u2019t really know. Which is why I\u2019m asking you!&nbsp;<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What a good idea I have so many questions; some I\u2019ll share publically, some perhaps in other formats. Here\u2019s a starter: whats your favourite book, movie, TV and music of 2017?<\/strong><\/p>\n\n\n\n<p>Man, this is a hard question to answer. For one thing running your own business in a fast moving industry AND having two small kids that you love dearly means that I\u2019m not really hooked in to popular culture much. Or, at least, not grown-up popular culture.<\/p>\n\n\n\n<p>But also I need to think back a whole year. Ok. Here goes.<\/p>\n\n\n\n<p>Book: probably from last Christmas when I was given the <a href=\"https:\/\/en.m.wikipedia.org\/wiki\/The_Thrilling_Adventures_of_Lovelace_and_Babbage\">Ada Lovelace Graphic Novel<\/a>. A well-researched, funny, mostly-historical, thing that is also a work of art. The pages about George Boole had me giggling for about half an hour!<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img loading=\"lazy\" decoding=\"async\" width=\"4032\" height=\"3024\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744.jpeg\" alt=\"Ada Lovelace Book\" class=\"wp-image-3001\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744.jpeg 4032w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-300x225.jpeg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-768x576.jpeg 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-1024x768.jpeg 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-945x709.jpeg 945w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-600x450.jpeg 600w\" sizes=\"(max-width: 4032px) 100vw, 4032px\" \/><\/figure>\n\n\n\n<p>Movie&#8230; I honestly don\u2019t remember watching a whole movie. Well&#8230;other than Star Wars. So I guess I\u2019d have to say The Force Awakens, which we just re-watched in preparation for going to see The Last Jedi. NO SPOILERS!!<\/p>\n\n\n\n<p>TV&#8230; hmm&#8230; I\u2019m not much into Drama. And to be honest I probably listen to podcasts now instead. So I\u2019m going to leave my perpetual favourite piece of internet radio here: <a href=\"http:\/\/99PercentInvisible.org\">http:\/\/99PercentInvisible.org<\/a><\/p>\n\n\n\n<p>Music: partly because it\u2019s very much my style, but also partly because is got me through the year, I\u2019m sticking with Switchfoot. Their latest album took a bit of getting used to, but the depth is there if you give it time. \u201cI Won\u2019t Let You Go\u201d has made me cry. \u201cIf The House Burns Down Tonight\u201d has kept me mindful of what\u2019s important. And \u201clive it well\u201d has been the perpetual call to positive action, in the little things and the big.<\/p>\n\n\n\n<figure class=\"wp-block-embed-youtube\">\n    <iframe loading=\"lazy\" width=\"640\" height=\"360\" src=\"https:\/\/www.youtube.com\/embed\/pfUssvjj4rs?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/figure>\n\n\n\n<figure class=\"wp-block-embed-youtube\">\n    <iframe loading=\"lazy\" width=\"640\" height=\"360\" src=\"https:\/\/www.youtube.com\/embed\/Ov_lnXy7tkQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/figure>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What\u2019s your Favourite place to Camp at . What\u2019s your year been like? What\u2019s your Favourite chocolate?\ufeff<\/strong><\/p>\n\n\n\n<p>We didn\u2019t camp this year, but probably either Greenbelt festival or a local place called Brinchcombe Farm. Though we did have a really lovely time at a campsite in&#8230;St Ives was it?&#8230;one year.<\/p>\n\n\n\n<p>Year has been good. Maybe I\u2019ll answer more another time.<\/p>\n\n\n\n<p>Chocolate? I don\u2019t think you can beat a Wispa!<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What was your highlight at work this year? <br>What was you best family outing\/day out\/activity?\ufeff<\/strong><\/p>\n\n\n\n<p>I think the highlights at work continue to be being able to help small organisations. I\u2019ve had some lovely feedback from small charities that I\u2019ve done small pieces of work for. Stuff that they\u2019d be lost with if I hadn\u2019t been available. That\u2019s always a joy.<\/p>\n\n\n\n<p>Best day out was probably LegoLand which my sister partly paid for for my birthday. We went just with the boy and it was SO good to have a day with just the boy. But we also had a very lovely week-long holiday in Devon with old, good friends &#8211; that whole week was ace!<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What things have brought you the most happiness this year (I promise this isn&#8217;t meant as a leading question)?<\/strong><\/p>\n\n\n\n<p><strong><\/strong><em>\ufeffNote: this question was from my sister-in-law who just had a baby!<\/em><\/p>\n\n\n\n<p>The boy&#8217;s School report. The NHS and ending the year with healthy family. How certain situations brought family close this year. I\u2019m fact, most happiness has been because of close family and friends.<\/p>\n\n\n\n<p>Oh&#8230;and&#8230;gaining a nephew! <\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>\ufeffWhat made you laugh this year?<\/strong><\/p>\n\n\n\n<p>Hey Duggee!<\/p>\n\n\n\n<p>Actually I\u2019m sure there\u2019s a better answer than that.<\/p>\n\n\n\n<figure class=\"wp-block-embed-youtube\">\n    <iframe loading=\"lazy\" width=\"640\" height=\"360\" src=\"https:\/\/www.youtube.com\/embed\/K05N2jqFHc8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/figure>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What are you and Sally doing for work? I saw a post about you helping her finish it and thought maybe she had changed jobs.\ufeff<\/strong><\/p>\n\n\n\n<p>No change. Well&#8230;Sally finished a long maternity leave, which was quite a change. [Edited our details of Sally\u2019s work &#8211; this is my blog, not hers]. She works hard and cares a lot about her \u201ccraft\u201d. I\u2019m proud of her and what she does.<\/p>\n\n\n\n<p>I\u2019m still \u201cCreator, Engineer, Advisor\u201d (I love my self-determined job title!) at my own business, Oikos. Still mostly building websites for charities and small businesses. My portfolio is a bit behind but you can read up at <a href=\"https:\/\/oikos.digital\">https:\/\/oikos.digital<\/a> (my own website remains neglected and terrible!)<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>One highlight and something you&#8217;ve learnt<\/strong><\/p>\n\n\n\n<p>There\u2019s a few highlights listed in other questions.<\/p>\n\n\n\n<p>I\u2019ve learnt that that picture of an opened pot with a number like \u201c6m\u201d on it on things like toothpaste and shower gel is an indication of the life of the product after opening! Amazing.<\/p>\n\n\n\n<p>More seriously, I\u2019m not sure it counts as &#8220;this year&#8221; but I\u2019ve been learning that mind, body and spirit are much more closely linked that people say they are. That we have a real problem with what I\u2019ve come to call \u201cspiritual illiteracy\u201d&#8230; regardless of \u201creligion\u201d.<\/p>\n\n\n\n<p>I also learned about \u201c<a href=\"https:\/\/www.facebook.com\/notes\/blake-ross\/aphantasia-how-it-feels-to-be-blind-in-your-mind\/10156834777480504\/\">aphantasia<\/a>\u201d and \u201c<a href=\"https:\/\/en.wikipedia.org\/wiki\/Exploding_head_syndrome\">exploding head syndrome<\/a>\u201d. Both of which I think I might have. I\u2019m such a weirdo.<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I asked people on Facebook to use comments to ask me questions about my year &#8211; I&#8217;m writing up and continuing here!<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>2017 in review - Ask Me Anything! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"2017 in review - Ask Me Anything! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I asked people on Facebook to use comments to ask me questions about my year - I&#039;m writing up and continuing here!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-01T21:09:41+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-09-22T17:47:30+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744.jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"6 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/\",\"name\":\"2017 in review - Ask Me Anything! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-01-01T21:09:41+00:00\",\"dateModified\":\"2022-09-22T17:47:30+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"2017 in review &#8211; Ask Me Anything!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "2017 in review - Ask Me Anything! - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "2017 in review - Ask Me Anything! - Ross Wintle",
-                "og_description": "I asked people on Facebook to use comments to ask me questions about my year - I'm writing up and continuing here!",
-                "og_url": "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2018-01-01T21:09:41+00:00",
-                "article_modified_time": "2022-09-22T17:47:30+00:00",
-                "og_image": [
-                    {
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744.jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "6 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/",
-                            "url": "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/",
-                            "name": "2017 in review - Ask Me Anything! - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2018-01-01T21:09:41+00:00",
-                            "dateModified": "2022-09-22T17:47:30+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "2017 in review &#8211; Ask Me Anything!"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2978"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2978"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 75,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2978\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 11332,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2978\/revisions\/11332"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2978"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2978"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2978"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 2978,
-        "dateGmt": "2018-01-01T21:09:41",
-        "modifiedDateGmt": "2022-09-22T17:47:30",
-        "slug": "2017-in-review-ask-me-anything",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2018\/01\/2017-in-review-ask-me-anything\/",
-        "title": "2017 in review &#8211; Ask Me Anything!",
-        "content": "\n<p>So I did this thing on Facebook and it was pretty good fun, so I\u2019m writing it up here too.<\/p>\n\n\n\n<p>I\u2019ve been pretty terrible at Christmas wishes this year. December seems to get more crazy every year. This one has felt like the busiest ever, with the addition of a nephew, two children &#8211; one of whom has started going to bed later, a nasty cold, and busy workplaces.<\/p>\n\n\n\n<p>I&#8217;ve had a few more restful days over Christmas, and I was reading \u201cnewsletters\u201d the other day from other people and was aware that we probably don\u2019t share all that much on social media relative to other people. I am acutely aware that some people are owed updates\/greetings\/even gifts from us! And those will come.<\/p>\n\n\n\n<p>But for the time being, rather than write an long newsletter update of my own, I thought I\u2019d try a little experiment. I asked people on Facebook to use comments to ask me questions about my year, and those that weren&#8217;t too personal or difficult to answer got replies.<\/p>\n\n\n\n<p>This was great, because it generated some good discussions, and allow me to throw questions back at people.<\/p>\n\n\n\n<p>So I&#8217;ve written that up in a slightly edited way here as a summary and as my &#8220;newsletter&#8221; to the world.<\/p>\n\n\n\n<p>But also, feel free to ask MORE questions.&nbsp;Be creative. I hope this might be fun.<\/p>\n\n\n\n<p>So&#8230;what do you want to know about my year?! Ask in the comments if your question isn&#8217;t covered below.<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What have I missed?<\/strong><\/p>\n\n\n\n<p>Well, I don\u2019t really know. Which is why I\u2019m asking you!&nbsp;<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What a good idea I have so many questions; some I\u2019ll share publically, some perhaps in other formats. Here\u2019s a starter: whats your favourite book, movie, TV and music of 2017?<\/strong><\/p>\n\n\n\n<p>Man, this is a hard question to answer. For one thing running your own business in a fast moving industry AND having two small kids that you love dearly means that I\u2019m not really hooked in to popular culture much. Or, at least, not grown-up popular culture.<\/p>\n\n\n\n<p>But also I need to think back a whole year. Ok. Here goes.<\/p>\n\n\n\n<p>Book: probably from last Christmas when I was given the <a href=\"https:\/\/en.m.wikipedia.org\/wiki\/The_Thrilling_Adventures_of_Lovelace_and_Babbage\">Ada Lovelace Graphic Novel<\/a>. A well-researched, funny, mostly-historical, thing that is also a work of art. The pages about George Boole had me giggling for about half an hour!<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img loading=\"lazy\" decoding=\"async\" width=\"4032\" height=\"3024\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744.jpeg\" alt=\"Ada Lovelace Book\" class=\"wp-image-3001\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744.jpeg 4032w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-300x225.jpeg 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-768x576.jpeg 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-1024x768.jpeg 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-945x709.jpeg 945w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/12\/1E452734-4D17-4E84-B0F5-FDCD250ED744-600x450.jpeg 600w\" sizes=\"(max-width: 4032px) 100vw, 4032px\" \/><\/figure>\n\n\n\n<p>Movie&#8230; I honestly don\u2019t remember watching a whole movie. Well&#8230;other than Star Wars. So I guess I\u2019d have to say The Force Awakens, which we just re-watched in preparation for going to see The Last Jedi. NO SPOILERS!!<\/p>\n\n\n\n<p>TV&#8230; hmm&#8230; I\u2019m not much into Drama. And to be honest I probably listen to podcasts now instead. So I\u2019m going to leave my perpetual favourite piece of internet radio here: <a href=\"http:\/\/99PercentInvisible.org\">http:\/\/99PercentInvisible.org<\/a><\/p>\n\n\n\n<p>Music: partly because it\u2019s very much my style, but also partly because is got me through the year, I\u2019m sticking with Switchfoot. Their latest album took a bit of getting used to, but the depth is there if you give it time. \u201cI Won\u2019t Let You Go\u201d has made me cry. \u201cIf The House Burns Down Tonight\u201d has kept me mindful of what\u2019s important. And \u201clive it well\u201d has been the perpetual call to positive action, in the little things and the big.<\/p>\n\n\n\n<figure class=\"wp-block-embed-youtube\">\n    <iframe loading=\"lazy\" width=\"640\" height=\"360\" src=\"https:\/\/www.youtube.com\/embed\/pfUssvjj4rs?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/figure>\n\n\n\n<figure class=\"wp-block-embed-youtube\">\n    <iframe loading=\"lazy\" width=\"640\" height=\"360\" src=\"https:\/\/www.youtube.com\/embed\/Ov_lnXy7tkQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/figure>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What\u2019s your Favourite place to Camp at . What\u2019s your year been like? What\u2019s your Favourite chocolate?\ufeff<\/strong><\/p>\n\n\n\n<p>We didn\u2019t camp this year, but probably either Greenbelt festival or a local place called Brinchcombe Farm. Though we did have a really lovely time at a campsite in&#8230;St Ives was it?&#8230;one year.<\/p>\n\n\n\n<p>Year has been good. Maybe I\u2019ll answer more another time.<\/p>\n\n\n\n<p>Chocolate? I don\u2019t think you can beat a Wispa!<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What was your highlight at work this year? <br>What was you best family outing\/day out\/activity?\ufeff<\/strong><\/p>\n\n\n\n<p>I think the highlights at work continue to be being able to help small organisations. I\u2019ve had some lovely feedback from small charities that I\u2019ve done small pieces of work for. Stuff that they\u2019d be lost with if I hadn\u2019t been available. That\u2019s always a joy.<\/p>\n\n\n\n<p>Best day out was probably LegoLand which my sister partly paid for for my birthday. We went just with the boy and it was SO good to have a day with just the boy. But we also had a very lovely week-long holiday in Devon with old, good friends &#8211; that whole week was ace!<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What things have brought you the most happiness this year (I promise this isn&#8217;t meant as a leading question)?<\/strong><\/p>\n\n\n\n<p><strong><\/strong><em>\ufeffNote: this question was from my sister-in-law who just had a baby!<\/em><\/p>\n\n\n\n<p>The boy&#8217;s School report. The NHS and ending the year with healthy family. How certain situations brought family close this year. I\u2019m fact, most happiness has been because of close family and friends.<\/p>\n\n\n\n<p>Oh&#8230;and&#8230;gaining a nephew! <\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>\ufeffWhat made you laugh this year?<\/strong><\/p>\n\n\n\n<p>Hey Duggee!<\/p>\n\n\n\n<p>Actually I\u2019m sure there\u2019s a better answer than that.<\/p>\n\n\n\n<figure class=\"wp-block-embed-youtube\">\n    <iframe loading=\"lazy\" width=\"640\" height=\"360\" src=\"https:\/\/www.youtube.com\/embed\/K05N2jqFHc8?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen><\/iframe>\n<\/figure>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>What are you and Sally doing for work? I saw a post about you helping her finish it and thought maybe she had changed jobs.\ufeff<\/strong><\/p>\n\n\n\n<p>No change. Well&#8230;Sally finished a long maternity leave, which was quite a change. [Edited our details of Sally\u2019s work &#8211; this is my blog, not hers]. She works hard and cares a lot about her \u201ccraft\u201d. I\u2019m proud of her and what she does.<\/p>\n\n\n\n<p>I\u2019m still \u201cCreator, Engineer, Advisor\u201d (I love my self-determined job title!) at my own business, Oikos. Still mostly building websites for charities and small businesses. My portfolio is a bit behind but you can read up at <a href=\"https:\/\/oikos.digital\">https:\/\/oikos.digital<\/a> (my own website remains neglected and terrible!)<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n\n\n\n<p><strong>One highlight and something you&#8217;ve learnt<\/strong><\/p>\n\n\n\n<p>There\u2019s a few highlights listed in other questions.<\/p>\n\n\n\n<p>I\u2019ve learnt that that picture of an opened pot with a number like \u201c6m\u201d on it on things like toothpaste and shower gel is an indication of the life of the product after opening! Amazing.<\/p>\n\n\n\n<p>More seriously, I\u2019m not sure it counts as &#8220;this year&#8221; but I\u2019ve been learning that mind, body and spirit are much more closely linked that people say they are. That we have a real problem with what I\u2019ve come to call \u201cspiritual illiteracy\u201d&#8230; regardless of \u201creligion\u201d.<\/p>\n\n\n\n<p>I also learned about \u201c<a href=\"https:\/\/www.facebook.com\/notes\/blake-ross\/aphantasia-how-it-feels-to-be-blind-in-your-mind\/10156834777480504\/\">aphantasia<\/a>\u201d and \u201c<a href=\"https:\/\/en.wikipedia.org\/wiki\/Exploding_head_syndrome\">exploding head syndrome<\/a>\u201d. Both of which I think I might have. I\u2019m such a weirdo.<\/p>\n\n\n\n<hr class=\"wp-block-separator has-css-opacity\"\/>\n",
-        "excerpt": "<p>I asked people on Facebook to use comments to ask me questions about my year &#8211; I&#8217;m writing up and continuing here!<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
     }
 ]

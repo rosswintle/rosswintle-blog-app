@@ -1,6 +1,250 @@
 [
     {
         "dataAsArray": {
+            "id": 254482,
+            "date": "2023-07-06T20:16:40",
+            "date_gmt": "2023-07-06T19:16:40",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=254482"
+            },
+            "modified": "2023-07-06T20:20:32",
+            "modified_gmt": "2023-07-06T19:20:32",
+            "slug": "what-is-intelligence-anyway",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/",
+            "title": {
+                "rendered": "What is intelligence anyway?"
+            },
+            "content": {
+                "rendered": "\n<p><a href=\"https:\/\/www.thisamericanlife.org\/803\/\">This episode of This American Life<\/a> is amazing. It has several parts and looks at artificial intelligence from a number of different creative angles.<\/p>\n\n\n\n<p>There&#8217;s fascinating stories of how people become convinced of the &#8220;intelligence&#8221; of ChatGPT. There&#8217;s a short story that reverses the roles and tries to see how intelligent machines might question the intelligence of &#8220;meat&#8221;. There&#8217;s an aside about what whales might be up to. And a truly wonderful short documentary about teenagerhood.<\/p>\n\n\n\n<p>These are all wonderful bits of audio, as you would expect from the TAL crew. But the first one tapped into a whole load of things I&#8217;m thinking about these Large Language Model (LLM) AI&#8217;s.<\/p>\n\n\n\n<p>Typically, when explaining how LLM&#8217;s work to people, I&#8217;ll say:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>&#8220;It&#8217;s just predicting the next word from what it knows. So if I say to you &#8216;The cat sat on the&#8230;&#8217;, you would normally say&#8230;&#8221;<\/p>\n<\/blockquote>\n\n\n\n<p>and the answer comes back:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>&#8220;Mat&#8221;<\/p>\n<\/blockquote>\n\n\n\n<p>And&#8230;that works as a REALLY simplified explanation. But it does often leave me wondering: Hang on&#8230; are WE just predicting the next word too?<\/p>\n\n\n\n<p>In the podcast, the people interviewed explain how they tried to get ChatGPT to do things that proved &#8211; or disproved &#8211; its &#8220;intelligence&#8221;. To show that it had a deeper understanding of what it was doing.<\/p>\n\n\n\n<p>One challenge to ChatGPT is to get it to draw something. But it can&#8217;t draw. So they get it to write some code that will draw something. And it draws a unicorn. And then it&#8217;s given code that draws a unicorn without a horn, and is asked to modify the code to add the horn. And it does it!<\/p>\n\n\n\n<p>Woah!!<\/p>\n\n\n\n<p>They also ask it how to stack a number of items on top of each other: &#8220;a book, nine eggs, a laptop, a bottle, and a nail&#8221;<\/p>\n\n\n\n<p>ChatGPT 3 can&#8217;t do this. But ChatGPT 4 can:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>&#8220;place the book flat on the level surface&#8230; Arrange the nine eggs in a 3-by-3 square on top of the book, leaving some space between them. The eggs will form a second layer and distribute the weight evenly. It continues&#8230; Laptop goes on the eggs, then the bottle, then the nail on the bottle cap, pointy end of the nail facing up&#8221;<\/p>\n<\/blockquote>\n\n\n\n<p>Woah!!!! It&#8230; it &#8220;understands&#8221;!<\/p>\n\n\n\n<p>Then there&#8217;s a &#8220;theory of mind&#8221; incident. This is where you can understand what another person knows or could be thinking, and it&#8217;s something you can&#8217;t do as a baby. Until you have &#8220;theory of mind&#8221; everyone knows the same things that you know.<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>John and Mark are in a room with a cat, a box, and a basket. John takes the cat and puts it in the basket. He leaves the room and goes to school. While John&#8217;s away, Mark takes the cat out of the basket and puts it in the box. Mark leaves the room and goes to work. John and Mark come back and enter the room. Where do they [each] think the cat is?<\/p>\n<\/blockquote>\n\n\n\n<p>And ChatGPT 4 knows.<\/p>\n\n\n\n<p>This is where I start to have questions.<\/p>\n\n\n\n<p>For one&#8230; it seems to me like the computer should know this. Well, it should be able to complete this, regardless of whether or not it &#8220;knows&#8221; about the people and stuff. So I wouldn&#8217;t say that the computer has theory of mind.<\/p>\n\n\n\n<p>So what, then, prevents humans being able to complete this task correctly as an infant? Why do we NOT have theory of mind at a young age?<\/p>\n\n\n\n<p>I&#8217;m not a psychologist. Perhaps there is an answer. And I&#8217;m not a philosopher. But this does speak to a part of me that thinks that we are more than just knowledge machines.<\/p>\n\n\n\n<p>Our thinking and behaviour is often cloudied or muddied or influenced by other things. Tiredness. Hormones. Emotions. Memories can be fallible. Thoughts can both come from nowhere, and be muddled and incomplete for a whole variety of reasons.<\/p>\n\n\n\n<p>Yes, you probably can model a brain in terms of a neural network. But there&#8217;s all these other things going on in a person. A lot of which we don&#8217;t even understand let alone have the ability to model.<\/p>\n\n\n\n<p>One thing I wondered was are the infants with no theory of mind driven more by their &#8220;lizard brain&#8221;? I&#8217;ve read a lot about how we have the primaeval &#8220;lizard brain&#8221; that controls our deepest instincts like the fight-or-flight instinct; the &#8220;monkey brain&#8221; which controls some higher levels of motivation and emotion, and the &#8220;human brain&#8221; which controls more abstract thought. (This is <a href=\"https:\/\/en.wikipedia.org\/wiki\/Triune_brain\">kinda considered a myth now<\/a>, but it seems to be a useful simplification.)<\/p>\n\n\n\n<p>Are infants just more reliant on their instinctive behaviour?<\/p>\n\n\n\n<p>And could we say that the LLM&#8217;s like Chat GPT are just &#8220;pure human brain&#8221; &#8211; logical, abstract thought, but with no emotions or instincts?<\/p>\n\n\n\n<p>Many, many years ago now, in my A Level Computing class (education aged 16-18) we debated whether an accurate reconstruction of a human brain from silicon &#8220;neurons&#8221; would be &#8220;intelligent&#8221; or &#8220;alive&#8221;.<\/p>\n\n\n\n<p>I always felt like it wouldn&#8217;t be. That a human has something else going on. A &#8220;soul&#8221; or &#8220;spirit&#8221; that is something more than the sum of its parts. And this was before any helpful encounter with religion or spirituality.<\/p>\n\n\n\n<p>I still think this with ChatGPT. Sure&#8230; it&#8217;s clever. But is there more to &#8220;intelligence&#8221; than even &#8220;knowing&#8221; or &#8220;understanding&#8221; things? Is ChatGPT clever because it _has_ &#8220;theory of mind&#8221;, or is it stupid because it _lacks_ the instincts that keep a toddler alive.<\/p>\n\n\n\n<p>I really don&#8217;t know. But they were interesting thoughts.<\/p>\n\n\n\n<p>What do YOU think?<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>This episode of This American Life is amazing. It has several parts and looks at artificial intelligence from a number of different creative angles. There&#8217;s fascinating stories of how people become convinced of the &#8220;intelligence&#8221; of ChatGPT. There&#8217;s a short story that reverses the roles and tries to see how intelligent machines might question the [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23,
+                24
+            ],
+            "tags": [
+                4886,
+                16183
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>What is intelligence anyway? - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"What is intelligence anyway? - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This episode of This American Life is amazing. It has several parts and looks at artificial intelligence from a number of different creative angles. There&#8217;s fascinating stories of how people become convinced of the &#8220;intelligence&#8221; of ChatGPT. There&#8217;s a short story that reverses the roles and tries to see how intelligent machines might question the [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-07-06T19:16:40+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-07-06T19:20:32+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/\",\"name\":\"What is intelligence anyway? - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-07-06T19:16:40+00:00\",\"dateModified\":\"2023-07-06T19:20:32+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"What is intelligence anyway?\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "What is intelligence anyway? - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "What is intelligence anyway? - Ross Wintle",
+                "og_description": "This episode of This American Life is amazing. It has several parts and looks at artificial intelligence from a number of different creative angles. There&#8217;s fascinating stories of how people become convinced of the &#8220;intelligence&#8221; of ChatGPT. There&#8217;s a short story that reverses the roles and tries to see how intelligent machines might question the [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2023-07-06T19:16:40+00:00",
+                "article_modified_time": "2023-07-06T19:20:32+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "5 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/",
+                            "url": "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/",
+                            "name": "What is intelligence anyway? - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2023-07-06T19:16:40+00:00",
+                            "dateModified": "2023-07-06T19:20:32+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "What is intelligence anyway?"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254482"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=254482"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 2,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254482\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 254485,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254482\/revisions\/254485"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=254482"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=254482"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=254482"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 254482,
+        "dateGmt": "2023-07-06T19:16:40",
+        "modifiedDateGmt": "2023-07-06T19:20:32",
+        "slug": "what-is-intelligence-anyway",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2023\/07\/what-is-intelligence-anyway\/",
+        "title": "What is intelligence anyway?",
+        "content": "\n<p><a href=\"https:\/\/www.thisamericanlife.org\/803\/\">This episode of This American Life<\/a> is amazing. It has several parts and looks at artificial intelligence from a number of different creative angles.<\/p>\n\n\n\n<p>There&#8217;s fascinating stories of how people become convinced of the &#8220;intelligence&#8221; of ChatGPT. There&#8217;s a short story that reverses the roles and tries to see how intelligent machines might question the intelligence of &#8220;meat&#8221;. There&#8217;s an aside about what whales might be up to. And a truly wonderful short documentary about teenagerhood.<\/p>\n\n\n\n<p>These are all wonderful bits of audio, as you would expect from the TAL crew. But the first one tapped into a whole load of things I&#8217;m thinking about these Large Language Model (LLM) AI&#8217;s.<\/p>\n\n\n\n<p>Typically, when explaining how LLM&#8217;s work to people, I&#8217;ll say:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>&#8220;It&#8217;s just predicting the next word from what it knows. So if I say to you &#8216;The cat sat on the&#8230;&#8217;, you would normally say&#8230;&#8221;<\/p>\n<\/blockquote>\n\n\n\n<p>and the answer comes back:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>&#8220;Mat&#8221;<\/p>\n<\/blockquote>\n\n\n\n<p>And&#8230;that works as a REALLY simplified explanation. But it does often leave me wondering: Hang on&#8230; are WE just predicting the next word too?<\/p>\n\n\n\n<p>In the podcast, the people interviewed explain how they tried to get ChatGPT to do things that proved &#8211; or disproved &#8211; its &#8220;intelligence&#8221;. To show that it had a deeper understanding of what it was doing.<\/p>\n\n\n\n<p>One challenge to ChatGPT is to get it to draw something. But it can&#8217;t draw. So they get it to write some code that will draw something. And it draws a unicorn. And then it&#8217;s given code that draws a unicorn without a horn, and is asked to modify the code to add the horn. And it does it!<\/p>\n\n\n\n<p>Woah!!<\/p>\n\n\n\n<p>They also ask it how to stack a number of items on top of each other: &#8220;a book, nine eggs, a laptop, a bottle, and a nail&#8221;<\/p>\n\n\n\n<p>ChatGPT 3 can&#8217;t do this. But ChatGPT 4 can:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>&#8220;place the book flat on the level surface&#8230; Arrange the nine eggs in a 3-by-3 square on top of the book, leaving some space between them. The eggs will form a second layer and distribute the weight evenly. It continues&#8230; Laptop goes on the eggs, then the bottle, then the nail on the bottle cap, pointy end of the nail facing up&#8221;<\/p>\n<\/blockquote>\n\n\n\n<p>Woah!!!! It&#8230; it &#8220;understands&#8221;!<\/p>\n\n\n\n<p>Then there&#8217;s a &#8220;theory of mind&#8221; incident. This is where you can understand what another person knows or could be thinking, and it&#8217;s something you can&#8217;t do as a baby. Until you have &#8220;theory of mind&#8221; everyone knows the same things that you know.<\/p>\n\n\n\n<blockquote class=\"wp-block-quote\">\n<p>John and Mark are in a room with a cat, a box, and a basket. John takes the cat and puts it in the basket. He leaves the room and goes to school. While John&#8217;s away, Mark takes the cat out of the basket and puts it in the box. Mark leaves the room and goes to work. John and Mark come back and enter the room. Where do they [each] think the cat is?<\/p>\n<\/blockquote>\n\n\n\n<p>And ChatGPT 4 knows.<\/p>\n\n\n\n<p>This is where I start to have questions.<\/p>\n\n\n\n<p>For one&#8230; it seems to me like the computer should know this. Well, it should be able to complete this, regardless of whether or not it &#8220;knows&#8221; about the people and stuff. So I wouldn&#8217;t say that the computer has theory of mind.<\/p>\n\n\n\n<p>So what, then, prevents humans being able to complete this task correctly as an infant? Why do we NOT have theory of mind at a young age?<\/p>\n\n\n\n<p>I&#8217;m not a psychologist. Perhaps there is an answer. And I&#8217;m not a philosopher. But this does speak to a part of me that thinks that we are more than just knowledge machines.<\/p>\n\n\n\n<p>Our thinking and behaviour is often cloudied or muddied or influenced by other things. Tiredness. Hormones. Emotions. Memories can be fallible. Thoughts can both come from nowhere, and be muddled and incomplete for a whole variety of reasons.<\/p>\n\n\n\n<p>Yes, you probably can model a brain in terms of a neural network. But there&#8217;s all these other things going on in a person. A lot of which we don&#8217;t even understand let alone have the ability to model.<\/p>\n\n\n\n<p>One thing I wondered was are the infants with no theory of mind driven more by their &#8220;lizard brain&#8221;? I&#8217;ve read a lot about how we have the primaeval &#8220;lizard brain&#8221; that controls our deepest instincts like the fight-or-flight instinct; the &#8220;monkey brain&#8221; which controls some higher levels of motivation and emotion, and the &#8220;human brain&#8221; which controls more abstract thought. (This is <a href=\"https:\/\/en.wikipedia.org\/wiki\/Triune_brain\">kinda considered a myth now<\/a>, but it seems to be a useful simplification.)<\/p>\n\n\n\n<p>Are infants just more reliant on their instinctive behaviour?<\/p>\n\n\n\n<p>And could we say that the LLM&#8217;s like Chat GPT are just &#8220;pure human brain&#8221; &#8211; logical, abstract thought, but with no emotions or instincts?<\/p>\n\n\n\n<p>Many, many years ago now, in my A Level Computing class (education aged 16-18) we debated whether an accurate reconstruction of a human brain from silicon &#8220;neurons&#8221; would be &#8220;intelligent&#8221; or &#8220;alive&#8221;.<\/p>\n\n\n\n<p>I always felt like it wouldn&#8217;t be. That a human has something else going on. A &#8220;soul&#8221; or &#8220;spirit&#8221; that is something more than the sum of its parts. And this was before any helpful encounter with religion or spirituality.<\/p>\n\n\n\n<p>I still think this with ChatGPT. Sure&#8230; it&#8217;s clever. But is there more to &#8220;intelligence&#8221; than even &#8220;knowing&#8221; or &#8220;understanding&#8221; things? Is ChatGPT clever because it _has_ &#8220;theory of mind&#8221;, or is it stupid because it _lacks_ the instincts that keep a toddler alive.<\/p>\n\n\n\n<p>I really don&#8217;t know. But they were interesting thoughts.<\/p>\n\n\n\n<p>What do YOU think?<\/p>\n",
+        "excerpt": "<p>This episode of This American Life is amazing. It has several parts and looks at artificial intelligence from a number of different creative angles. There&#8217;s fascinating stories of how people become convinced of the &#8220;intelligence&#8221; of ChatGPT. There&#8217;s a short story that reverses the roles and tries to see how intelligent machines might question the [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 254469,
             "date": "2023-07-02T12:04:59",
             "date_gmt": "2023-07-02T11:04:59",
@@ -2181,248 +2425,6 @@
         "title": "Website pt 3 \u2013 A 5 Minute Window",
         "content": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Let&#039;s Make a Website pt 3 - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/RLm59mtsYVQ?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>Morning!<\/p>\n\n\n\n<p>Or whatever time of day.<\/p>\n\n\n\n<p>Yesterday was a bit longer than 5 minutes.<\/p>\n\n\n\n<p>5 minutes is an aspiration, not a hard limit!<\/p>\n\n\n\n<p>No apologies here!!<\/p>\n\n\n\n<p>Let&#8217;s continue building a website.<\/p>\n\n\n\n<p>We have the starter kit and I was adding my first card component. But it was a bit weird.<\/p>\n\n\n\n<p>Turns out I just needed to wait for the build. It runs every 5 seconds.<\/p>\n\n\n\n<p>Let&#8217;s start the loop again!<\/p>\n\n\n\n<p>Nice. Here&#8217;s how we&#8217;re looking\u2026<\/p>\n\n\n\n<p>We&#8217;re working in VS Code\u2026 let&#8217;s sort that spacing!<\/p>\n\n\n\n<p>That&#8217;ll do.<\/p>\n\n\n\n<p>Now I want a grid. But\u2026<\/p>\n\n\n\n<p>CONFESSION!<\/p>\n\n\n\n<p>I&#8217;ve never really used CSS Grid, so it&#8217;s flexbox all the way!!<\/p>\n\n\n\n<p>Hmm\u2026 only one card! Weird.<\/p>\n\n\n\n<p>Did I save? <em>facepalm<\/em><\/p>\n\n\n\n<p>That will do for now.<\/p>\n\n\n\n<p>I&#8217;ll add some content offline, and maybe we can deploy in the next video!<\/p>\n",
         "excerpt": "<p>Let&#8217;s continue building a website.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 11593,
-            "date": "2023-01-13T00:00:00",
-            "date_gmt": "2023-01-13T00:00:00",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=11593"
-            },
-            "modified": "2023-01-14T09:07:12",
-            "modified_gmt": "2023-01-14T09:07:12",
-            "slug": "website-pt-2-a-5-minute-window",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
-            "title": {
-                "rendered": "Website pt 2 &#8211; A 5 Minute Window"
-            },
-            "content": {
-                "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Let&#039;s Make a Website pt 2 - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/iGVrY5jhF_k?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>Hi!<\/p>\n\n\n\n<p>I&#8217;m not sure how this will go today. I don&#8217;t have much of a plan.<\/p>\n\n\n\n<p>We&#8217;re building a website though.<\/p>\n\n\n\n<p>Infrastructure is in place (See the last video).<\/p>\n\n\n\n<p>The site is a simple index for a domain I own: veryuseful.app<\/p>\n\n\n\n<p>I build small side projects on subdomains of this. And I want a landing page to show<br>what is there.<\/p>\n\n\n\n<p>I&#8217;ve seen a new component library for TailwindCSS recently called\u2026<\/p>\n\n\n\n<p>Sailboat!<\/p>\n\n\n\n<p>So I&#8217;m going to try that out.<\/p>\n\n\n\n<p>My CSS and front-end may be a bit rusty, so bear with me!<\/p>\n\n\n\n<p>We&#8217;re working in VS Code\u2026<\/p>\n\n\n\n<p>My little starter kit doesn&#8217;t have hot reloading or anything, but I run the<br>build script in a loop\u2026<\/p>\n\n\n\n<p>Like this:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>> while true; do .\/build.sh; sleep 5; done;<\/code><\/pre>\n\n\n\n<p>Hang on &#8211; where IS this site?<\/p>\n\n\n\n<p>Ah yes, veryuseful.test!<\/p>\n\n\n\n<p>Let&#8217;s grab the card component\u2026<\/p>\n\n\n\n<p>Let&#8217;s see what the parts of this are.<\/p>\n\n\n\n<p>Need to include it in the main template first!<\/p>\n\n\n\n<p>What happened?<\/p>\n\n\n\n<p>Ah! Didn&#8217;t save the card. Silly me.<\/p>\n\n\n\n<p>Not helpful. I&#8217;ll do some more work and pick it up tomorrow.<\/p>\n\n\n\n<p>Hopefully you see how the little framework is helpful though.<\/p>\n\n\n\n<p>That&#8217;s at\u2026<\/p>\n\n\n\n<p><a href=\"https:\/\/github.com\/rosswintle\/small-site-template\">https:\/\/github.com\/rosswintle\/small-site-template<\/a><\/p>\n\n\n\n<p>Good night!<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;m not sure how this will go today. I don&#8217;t have much of a plan.<\/p>\n<p>We&#8217;re building a website though.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "closed",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                5175
-            ],
-            "tags": [
-                712
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Website pt 2 - A 5 Minute Window - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Website pt 2 - A 5 Minute Window - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m not sure how this will go today. I don&#039;t have much of a plan. We&#039;re building a website though.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-01-13T00:00:00+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-01-14T09:07:12+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\",\"name\":\"Website pt 2 - A 5 Minute Window - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-01-13T00:00:00+00:00\",\"dateModified\":\"2023-01-14T09:07:12+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Website pt 2 &#8211; A 5 Minute Window\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Website pt 2 - A 5 Minute Window - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Website pt 2 - A 5 Minute Window - Ross Wintle",
-                "og_description": "I'm not sure how this will go today. I don't have much of a plan. We're building a website though.",
-                "og_url": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2023-01-13T00:00:00+00:00",
-                "article_modified_time": "2023-01-14T09:07:12+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
-                            "url": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
-                            "name": "Website pt 2 - A 5 Minute Window - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2023-01-13T00:00:00+00:00",
-                            "dateModified": "2023-01-14T09:07:12+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Website pt 2 &#8211; A 5 Minute Window"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11593"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11593"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11593\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 11596,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11593\/revisions\/11596"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11593"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11593"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11593"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 11593,
-        "dateGmt": "2023-01-13T00:00:00",
-        "modifiedDateGmt": "2023-01-14T09:07:12",
-        "slug": "website-pt-2-a-5-minute-window",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
-        "title": "Website pt 2 &#8211; A 5 Minute Window",
-        "content": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Let&#039;s Make a Website pt 2 - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/iGVrY5jhF_k?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>Hi!<\/p>\n\n\n\n<p>I&#8217;m not sure how this will go today. I don&#8217;t have much of a plan.<\/p>\n\n\n\n<p>We&#8217;re building a website though.<\/p>\n\n\n\n<p>Infrastructure is in place (See the last video).<\/p>\n\n\n\n<p>The site is a simple index for a domain I own: veryuseful.app<\/p>\n\n\n\n<p>I build small side projects on subdomains of this. And I want a landing page to show<br>what is there.<\/p>\n\n\n\n<p>I&#8217;ve seen a new component library for TailwindCSS recently called\u2026<\/p>\n\n\n\n<p>Sailboat!<\/p>\n\n\n\n<p>So I&#8217;m going to try that out.<\/p>\n\n\n\n<p>My CSS and front-end may be a bit rusty, so bear with me!<\/p>\n\n\n\n<p>We&#8217;re working in VS Code\u2026<\/p>\n\n\n\n<p>My little starter kit doesn&#8217;t have hot reloading or anything, but I run the<br>build script in a loop\u2026<\/p>\n\n\n\n<p>Like this:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>> while true; do .\/build.sh; sleep 5; done;<\/code><\/pre>\n\n\n\n<p>Hang on &#8211; where IS this site?<\/p>\n\n\n\n<p>Ah yes, veryuseful.test!<\/p>\n\n\n\n<p>Let&#8217;s grab the card component\u2026<\/p>\n\n\n\n<p>Let&#8217;s see what the parts of this are.<\/p>\n\n\n\n<p>Need to include it in the main template first!<\/p>\n\n\n\n<p>What happened?<\/p>\n\n\n\n<p>Ah! Didn&#8217;t save the card. Silly me.<\/p>\n\n\n\n<p>Not helpful. I&#8217;ll do some more work and pick it up tomorrow.<\/p>\n\n\n\n<p>Hopefully you see how the little framework is helpful though.<\/p>\n\n\n\n<p>That&#8217;s at\u2026<\/p>\n\n\n\n<p><a href=\"https:\/\/github.com\/rosswintle\/small-site-template\">https:\/\/github.com\/rosswintle\/small-site-template<\/a><\/p>\n\n\n\n<p>Good night!<\/p>\n",
-        "excerpt": "<p>I&#8217;m not sure how this will go today. I don&#8217;t have much of a plan.<\/p>\n<p>We&#8217;re building a website though.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

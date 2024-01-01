@@ -1,6 +1,252 @@
 [
     {
         "dataAsArray": {
+            "id": 9090,
+            "date": "2020-03-28T15:16:01",
+            "date_gmt": "2020-03-28T15:16:01",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=9090"
+            },
+            "modified": "2020-03-28T15:16:03",
+            "modified_gmt": "2020-03-28T15:16:03",
+            "slug": "laravel-5-7-upgrades-break-published-email-styles",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/",
+            "title": {
+                "rendered": "Laravel 5.7 upgrades break published email styles"
+            },
+            "content": {
+                "rendered": "\n<p>I&#8217;ve been updating some old Laravel apps and I just came across <a href=\"https:\/\/github.com\/laravel\/framework\/issues\/25597\">this issue<\/a> with updating from 5.6 to 5.7. It&#8217;s noted in <a href=\"https:\/\/laravel.com\/docs\/5.7\/upgrade\">the upgrade docs<\/a> (see &#8220;Template Theme&#8221;) but easy to miss. I know I&#8217;ll come across this again, so it&#8217;s worth noting here for the future.<\/p>\n\n\n\n<p>If you have published your mail templates to customise them, when you upgrade to Laravel 5.7 the button classes change from <code>button-blue<\/code>, <code>button-green<\/code> and <code>button-red<\/code> to <code>button-primary<\/code>, <code>button-success<\/code>, and <code>button-error<\/code>.<\/p>\n\n\n\n<p>This results in the action button in the password reset email being white or unreadable because it has no background style.<\/p>\n\n\n\n<p>The fix for this is to edit <code>resources\/views\/vendor\/mail\/html\/themes\/default.css<\/code> and change:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\n.button-blue {\n   ...\n}\n\n.button-green {\n   ...\n}\n\n.button-red {\n   ...\n}\n<\/pre><\/div>\n\n\n<p>to <\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\n.button-blue,\n.button-primary {\n   ...\n}\n\n.button-green,\n.button-success {\n   ...\n}\n\n.button-red,\n.button-error {\n   ...\n}\n<\/pre><\/div>\n\n\n<p>You can see <a href=\"https:\/\/github.com\/laravel\/framework\/blob\/8e69728f1c80a024588adbd24c65c4fcf9aa9192\/src\/Illuminate\/Mail\/resources\/views\/html\/themes\/default.css#L212\">the equivalent Laravel 5.7 file in GitHub<\/a>.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I&#8217;ve been updating some old Laravel apps and I just came across this issue with updating from 5.6 to 5.7. It&#8217;s noted in the upgrade docs (see &#8220;Template Theme&#8221;) but easy to miss. I know I&#8217;ll come across this again, so it&#8217;s worth noting here for the future. If you have published your mail templates [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                642,
+                23,
+                736
+            ],
+            "tags": [
+                643,
+                4933,
+                4934
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Laravel 5.7 upgrades break published email styles - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Laravel 5.7 upgrades break published email styles - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;ve been updating some old Laravel apps and I just came across this issue with updating from 5.6 to 5.7. It&#8217;s noted in the upgrade docs (see &#8220;Template Theme&#8221;) but easy to miss. I know I&#8217;ll come across this again, so it&#8217;s worth noting here for the future. If you have published your mail templates [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2020-03-28T15:16:01+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-03-28T15:16:03+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/\",\"url\":\"https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/\",\"name\":\"Laravel 5.7 upgrades break published email styles - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2020-03-28T15:16:01+00:00\",\"dateModified\":\"2020-03-28T15:16:03+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Laravel 5.7 upgrades break published email styles\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Laravel 5.7 upgrades break published email styles - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Laravel 5.7 upgrades break published email styles - Ross Wintle",
+                "og_description": "I&#8217;ve been updating some old Laravel apps and I just came across this issue with updating from 5.6 to 5.7. It&#8217;s noted in the upgrade docs (see &#8220;Template Theme&#8221;) but easy to miss. I know I&#8217;ll come across this again, so it&#8217;s worth noting here for the future. If you have published your mail templates [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2020-03-28T15:16:01+00:00",
+                "article_modified_time": "2020-03-28T15:16:03+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/",
+                            "url": "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/",
+                            "name": "Laravel 5.7 upgrades break published email styles - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2020-03-28T15:16:01+00:00",
+                            "dateModified": "2020-03-28T15:16:03+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Laravel 5.7 upgrades break published email styles"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9090"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=9090"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9090\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 9091,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9090\/revisions\/9091"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=9090"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=9090"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=9090"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 9090,
+        "dateGmt": "2020-03-28T15:16:01",
+        "modifiedDateGmt": "2020-03-28T15:16:03",
+        "slug": "laravel-5-7-upgrades-break-published-email-styles",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2020\/03\/laravel-5-7-upgrades-break-published-email-styles\/",
+        "title": "Laravel 5.7 upgrades break published email styles",
+        "content": "\n<p>I&#8217;ve been updating some old Laravel apps and I just came across <a href=\"https:\/\/github.com\/laravel\/framework\/issues\/25597\">this issue<\/a> with updating from 5.6 to 5.7. It&#8217;s noted in <a href=\"https:\/\/laravel.com\/docs\/5.7\/upgrade\">the upgrade docs<\/a> (see &#8220;Template Theme&#8221;) but easy to miss. I know I&#8217;ll come across this again, so it&#8217;s worth noting here for the future.<\/p>\n\n\n\n<p>If you have published your mail templates to customise them, when you upgrade to Laravel 5.7 the button classes change from <code>button-blue<\/code>, <code>button-green<\/code> and <code>button-red<\/code> to <code>button-primary<\/code>, <code>button-success<\/code>, and <code>button-error<\/code>.<\/p>\n\n\n\n<p>This results in the action button in the password reset email being white or unreadable because it has no background style.<\/p>\n\n\n\n<p>The fix for this is to edit <code>resources\/views\/vendor\/mail\/html\/themes\/default.css<\/code> and change:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\n.button-blue {\n   ...\n}\n\n.button-green {\n   ...\n}\n\n.button-red {\n   ...\n}\n<\/pre><\/div>\n\n\n<p>to <\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\n.button-blue,\n.button-primary {\n   ...\n}\n\n.button-green,\n.button-success {\n   ...\n}\n\n.button-red,\n.button-error {\n   ...\n}\n<\/pre><\/div>\n\n\n<p>You can see <a href=\"https:\/\/github.com\/laravel\/framework\/blob\/8e69728f1c80a024588adbd24c65c4fcf9aa9192\/src\/Illuminate\/Mail\/resources\/views\/html\/themes\/default.css#L212\">the equivalent Laravel 5.7 file in GitHub<\/a>.<\/p>\n",
+        "excerpt": "<p>I&#8217;ve been updating some old Laravel apps and I just came across this issue with updating from 5.6 to 5.7. It&#8217;s noted in the upgrade docs (see &#8220;Template Theme&#8221;) but easy to miss. I know I&#8217;ll come across this again, so it&#8217;s worth noting here for the future. If you have published your mail templates [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 8952,
             "date": "2020-02-23T21:08:55",
             "date_gmt": "2020-02-23T21:08:55",
@@ -2198,252 +2444,6 @@
         "title": "Celebrating sensitivity",
         "content": "\n<p><em>People with a high attention to detail or years of experience may seem to be negative, disruptive, \u201cno-go\u201d\u2019people that stand in the way of progress and disrupt innovation. But have super powers and you should celebrate them.<\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">A Tricky Day<\/h2>\n\n\n\n<p>I had a really tricky day a few weeks ago. A number of things had happened in quick succession that had caused me to have a bit of a moment. In this moment I felt incredibly alien, like my brain works SO differently to everyone else&#8217;s. Despite the morning being spent with my wife and some of my best friends &#8211; people that know each other very well &#8211; I was left feeling like no one understood me.<\/p>\n\n\n\n<p>And the main reason for this &#8211; the main way in which my brain seems to  work differently &#8211; is that changes of plan, or new ideas, cause a cascade of thoughts and questions that need to be resolved before I can become excited about something.<\/p>\n\n\n\n<p>Probably some of this is learned behaviour or habit, but I also put this down to having the character trait of &#8220;<a href=\"https:\/\/rosswintle.uk\/2015\/07\/highly-sensitive\/\">High sensitivity<\/a>&#8220;.<\/p>\n\n\n\n<p>To others observing, or expecting a response from me, this probably appears as negativity or aloofness or cynicism or needless anxiety (I won&#8217;t pretend &#8211; sometimes I get anxious if too much of this stuff happens at once).<\/p>\n\n\n\n<p>By why is it seen this way? Why is this sensitivity not seen as positive?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Literally, all I do&#8230;<\/h2>\n\n\n\n<p>Yesterday a bunch of tweets went around that started &#8220;Literally all I do as a&#8230;&#8221;<\/p>\n\n\n\n<p>It&#8217;s hard to say for sure where it started, but I traced it back to an attorney:<\/p>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Literally all I do as an attorney:<br><br>No.<br>No. <br>Seriously, no. <br>Like, how did you even think this was a good idea. <br>Stop immediately.<br>No, that doesn&#39;t make it okay, either. <br>No. <br>Stop. <br>Stop it, you can\u2019t do that.<br>No.<\/p>&mdash; FP (@FaciePrima) <a href=\"https:\/\/twitter.com\/FaciePrima\/status\/1194785651574505472?ref_src=twsrc%5Etfw\">November 14, 2019<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>I&#8217;m sure it spun off in all sorts of directions, but there was parenting:<\/p>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Literally all I do as a Dad:<br><br>No. <br>No. <br>Don&#39;t do that. <br>No, that girls decision doesn&#39;t matter. <br>No. <br>No, social media doesn&#39;t have good ideas. <br>No. <br>Stop immediately. <br>No, that doesn&#39;t make it okay, either. <br>No. <br>Stop, don&#39;t do that. <br>No.<\/p>&mdash; Temptedge (@Anthony13051547) <a href=\"https:\/\/twitter.com\/Anthony13051547\/status\/1195436580120354817?ref_src=twsrc%5Etfw\">November 15, 2019<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>And Feline care:<\/p>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">All I do as a human with cats:<br>No.<br>It is not dinner time yet.<br>No, not yet either.<br>No.<br>Get off the stove it will kill you.<br>No.<br>Get off the stairs you will kill me.<br>No, please, barf on the tile instead!<br>No.<br>It\u2019s a good thing you\u2019re cute.<\/p>&mdash; Kim Goodwin (@kimgoodwin) <a href=\"https:\/\/twitter.com\/kimgoodwin\/status\/1197136346466471944?ref_src=twsrc%5Etfw\">November 20, 2019<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>And it ended up coming to me via UX Design:<\/p>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Literally all I do as a UX designer:<br><br>No.<br>No.<br>Have you spoken to a current user?<br>NO.<br>How would anyone except you know where that option is?<br>No one will use it.<br>No.<br>Which metric is this meant to push?<br>How does this fit into the content model?<br>Absolutely not.<br>Sales is not the user. <a href=\"https:\/\/t.co\/p3oiy0hY00\">https:\/\/t.co\/p3oiy0hY00<\/a><\/p>&mdash; Pavel A. Samsonov (@PavelASamsonov) <a href=\"https:\/\/twitter.com\/PavelASamsonov\/status\/1196975230184505345?ref_src=twsrc%5Etfw\">November 20, 2019<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>and content design:<\/p>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Literally all I do as a content designer:<br><br>Why?<br>What\u2019s the point of that?<br>No<br>So who\u2019s that for?<br>We could do that but how would we know if it works?<br>No, you\u2019re not your audience<br>Why?<br>No<br>This CMS is rubbish<br>Can we prototype and test it with our audience?<br>Why?<br>That\u2019s not a good idea <a href=\"https:\/\/t.co\/OVZ49EJRnJ\">https:\/\/t.co\/OVZ49EJRnJ<\/a><\/p>&mdash; Chris Harding ? (@The_Kraken) <a href=\"https:\/\/twitter.com\/The_Kraken\/status\/1197053178866475008?ref_src=twsrc%5Etfw\">November 20, 2019<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>(Though the strategist made me laugh too!)<\/p>\n\n\n\n<figure class=\"wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter\"><div class=\"wp-block-embed__wrapper\">\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\"><p lang=\"en\" dir=\"ltr\">Literally all I do as a strategist:<br><br>It depends<br>It depends<br>It depends<br>It depends <br>It depends <br>It depends <br>It depends <br>It depends<br>It depends<br>It depends <br>It depends<br>It depends<br>It depends<br>Absolutely not, don\u2019t be ridiculous<br>It depends<\/p>&mdash; Sarah Rachel Jones (@SarahRachJones) <a href=\"https:\/\/twitter.com\/SarahRachJones\/status\/1197047070257041408?ref_src=twsrc%5Etfw\">November 20, 2019<\/a><\/blockquote><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script>\n<\/div><\/figure>\n\n\n\n<p>And these are funny. But they made me think of how saying &#8220;no&#8221; or asking awkward questions is so often seen as negative.<\/p>\n\n\n\n<p>All these people, in their jobs, are applying their education, experience, wisdom of years, and attention to detail to Doing The Right Thing.<\/p>\n\n\n\n<p>There&#8217;s a (mis)quote about how if a job takes me 30 minutes, it because of the ten years of training and experience I have; you pay for the ten years, not the 30 minutes.<\/p>\n\n\n\n<p>But is it also true that a person&#8217;s job might be telling you not to do something at all. Or that to do that 30 minute job actually requires 2 days of preparatory work doing other things in order to do it correctly.<\/p>\n\n\n\n<p>AND&#8230;this application of skill and experience will probably protect you. From hackers; from legal action; from causing harm; from losing money; or from bad business decisions.<\/p>\n\n\n\n<p>Our &#8220;no&#8221; might seem like a block in your path. But, from the right person, it&#8217;s valuable insight into what you should be doing.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">We Are Creative!<\/h2>\n\n\n\n<p>Often these skilled and experienced people are creative and want to find a way.<\/p>\n\n\n\n<p>Despite my seeming reluctance when you throw something new at me, I love new ideas. I <a href=\"https:\/\/vimeo.com\/337727445\">preach creativity.<\/a> I have <a href=\"https:\/\/rosswintle.uk\/projects\/\">umpteen stupid side projects<\/a> that I tinker with.<\/p>\n\n\n\n<figure class=\"wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-16-9 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" src=\"https:\/\/player.vimeo.com\/video\/337727445?dnt=1&amp;app_id=122963\" width=\"640\" height=\"360\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>But when you put creative things out into the real world you do have to consider the consequences.<\/p>\n\n\n\n<p>People that help you to do that are like gold dust. They may seem awkward to others in their teams. They may need to be gently nudged away from their pickiness at times. But they are valuable assets. Their insight should be celebrated and embraced. We should do this more.<\/p>\n\n\n\n<p>So go cheer on the pedant on your team today.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Literally all *I* do&#8230;<\/h2>\n\n\n\n<p>I suppose I should chip in then, in jest and in solidarity.<\/p>\n\n\n\n<p>Literally all I do&#8230;as a software and website developer:<\/p>\n\n\n\n<ul><li>Really?!<\/li><li>And how will this look\/work on mobile?<\/li><li>Do you have a privacy policy for that form?<\/li><li>That slider probably isn&#8217;t a good idea.<\/li><li>And on mobile?<\/li><li>Seriously, have you tested it on your phone?<\/li><li>That won&#8217;t work<\/li><li>Really?!<\/li><li>And what if the title wraps on to two lines?<\/li><li>Do you really need that?<\/li><li>And what about on a portrait tablet?<\/li><li>How will you get consent for GDPR?<\/li><li>Really?!<\/li><li>YAY! We launched it!<\/li><\/ul>\n",
         "excerpt": "<p>People with a high attention to detail or years of experience may seem to be negative, disruptive, \u201cno-go\u201d\u2019people that stand in the way of progress and disrupt innovation. But have super powers and you should celebrate them.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 8783,
-            "date": "2019-11-15T22:11:28",
-            "date_gmt": "2019-11-15T22:11:28",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=8783"
-            },
-            "modified": "2019-11-15T22:11:57",
-            "modified_gmt": "2019-11-15T22:11:57",
-            "slug": "how-test-users-work-with-facebook-messenger-bots",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
-            "title": {
-                "rendered": "How to make test users work with Facebook Messenger Bots"
-            },
-            "content": {
-                "rendered": "\r\n<p><em>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!<\/em><\/p>\r\n<p>It\u2019s no secret that I have built my own personal Messenger \u201cbot\u201d for school information called SchoolBot.<\/p>\r\n\r\n\r\n\r\n<p>But at some point I\u2019d love for it to be more public, to get people to test it, to get some feedback from more normal people than I to see if it\u2019s really, actually useful, or just a toy for me to play with.<\/p>\r\n\r\n\r\n\r\n<p>So I created a test instance for \u201cSpringfield Elementary\u201d with the aim of allowing others to try it out.<\/p>\r\n\r\n\r\n\r\n<p>I don\u2019t want to make this thing public to everyone &#8211; but I do want people to be able to find it and give controlled access to it to test it out. But HOW does this work?<\/p>\r\n<p>The way that Facebook Messenger bots use apps and pages and which users are allowed to use which things when you\u2019re in test\/development mode is REALLY confusing. But I think I\u2019ve figured it out.<\/p>\r\n<p>\r\n\r\n<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">The component parts<\/h2>\r\n\r\n\r\n\r\n<p>I\u2018m building SchoolBot with BotMan &#8211; a Laravel-based chatbot framework. This forms the ultimate back-end for the bot.<\/p>\r\n\r\n\r\n\r\n<p>At the \u201cfront end\u201d of this system is a page that you message through Facebook Messenger.<\/p>\r\n\r\n\r\n\r\n<p>And a Facebook App connects the page to the BotMan back-end, passing messages between the two.<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">Private, published, dev, live and all the roles!<\/h2>\r\n\r\n\r\n\r\n<p>The two Facebook components &#8211; the app and the page &#8211; both have a status. The page can be Published or Unpublished. The app can be in development mode, or live mode.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Development Apps vs Live Apps<\/h3>\r\n\r\n\r\n\r\n<p>Development apps are only usable by those users that have been added with an app role.<\/p>\r\n\r\n\r\n\r\n<p>To allow anyone to use your app you need to make the app live. To get your app live can be quite tricky as you may need to submit it for review, and this requires all sorts of things like privacy policies and maybe organisational verification. (This is a GOOD thing! It prevents random apps stealing all your data!!)<\/p>\r\n\r\n\r\n\r\n<p>So if you want to just do some testing before you apply for review, or if you\u2019re waiting to go through the review process you\u2019ll be stuck in development mode.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Published vs Unpublished pages<\/h3>\r\n<p>Unpublished pages won&#8217;t be found in search and can only be seen by and interacted with by those users that have been added with a page role.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Page roles<\/h3>\r\n\r\n\r\n\r\n<p>A published page can be searched for and discovered by anyone. But an unpublished page can only be seen and used by people who have a Page Role.<\/p>\r\n\r\n\r\n\r\n<p>Page Roles are a bit annoying because there isn\u2019t a role that lets someone just see and use an unpublished page. The lowest level is \u201cAnalyst\u201d which \u201cCan see which admin created a post or comment and view Insights.\u201d<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">App Roles<\/h3>\r\n\r\n\r\n\r\n<p>App Roles are better because you can actually give people a \u201cTester\u201d role. BUT&#8230;App Roles are annoying for test users because they have to use the developer.facebook.com developer portal to accept their role and the whole thing is a bit scary if they\u2019ve not seen it before.<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">Putting it together<\/h2>\r\n\r\n\r\n\r\n<p>So I have my Page which talks to my BotMan through my App. I\u2019ve connected them all together (this is a whole other post worth of stuff) and now I\u2019m wanting to bring in some people to test it the Messenger bot. What do we have to do?:<\/p>\r\n\r\n\r\n\r\n<ul>\r\n<li>The Page can be published or unpublished. Just bear in mind that it\u2019s harder for people to find if it\u2019s unpublished &#8211; you\u2019ll probably have to send them a link.<\/li>\r\n<li>IF the Page is unpublished then the test users will need to be added with a Page Role, the lowest of which is \u201cAnalyst\u201d. And then you\u2019ll have to send them the link to the page too because it won&#8217;t be found in search.<\/li>\r\n<\/ul>\r\n<p>They should then be able to Message the page once you set up a \u201cSend Message\u201d button on the page. But their message won\u2019t get to the Bot because they aren\u2019t allowed to use the app part that relays the message. So&#8230;<\/p>\r\n<ul>\r\n<li>You need to go to the developer portal and add them as a &#8220;Tester&#8221;. This will send them an invite but they&#8217;ll need to log in to the developer portal themselves to accept it.<\/li>\r\n<\/ul>\r\n<h2>Done!<\/h2>\r\n<p>With that all done, the person should be able to send a message to the page, have it relayed to the bot by the app, and the have the responses relayed back too.<\/p>\r\n<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot in this way.<\/p>\r\n<p>YAY!<\/p>\r\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                23
-            ],
-            "tags": [
-                28,
-                4874,
-                254,
-                4875,
-                4873
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>How to make test users work with Facebook Messenger Bots - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"How to make test users work with Facebook Messenger Bots - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"It&#039;s not massively easy, and it&#039;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#039;s how!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-11-15T22:11:28+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-11-15T22:11:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\",\"name\":\"How to make test users work with Facebook Messenger Bots - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-11-15T22:11:28+00:00\",\"dateModified\":\"2019-11-15T22:11:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"How to make test users work with Facebook Messenger Bots\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "How to make test users work with Facebook Messenger Bots - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "How to make test users work with Facebook Messenger Bots - Ross Wintle",
-                "og_description": "It's not massively easy, and it's definitely not clear. But you CAN have test users for your Messenger bot. Here's how!",
-                "og_url": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2019-11-15T22:11:28+00:00",
-                "article_modified_time": "2019-11-15T22:11:57+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
-                            "url": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
-                            "name": "How to make test users work with Facebook Messenger Bots - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2019-11-15T22:11:28+00:00",
-                            "dateModified": "2019-11-15T22:11:57+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "How to make test users work with Facebook Messenger Bots"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8783"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8783"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 7,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8783\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 8812,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8783\/revisions\/8812"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8783"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8783"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8783"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 8783,
-        "dateGmt": "2019-11-15T22:11:28",
-        "modifiedDateGmt": "2019-11-15T22:11:57",
-        "slug": "how-test-users-work-with-facebook-messenger-bots",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
-        "title": "How to make test users work with Facebook Messenger Bots",
-        "content": "\r\n<p><em>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!<\/em><\/p>\r\n<p>It\u2019s no secret that I have built my own personal Messenger \u201cbot\u201d for school information called SchoolBot.<\/p>\r\n\r\n\r\n\r\n<p>But at some point I\u2019d love for it to be more public, to get people to test it, to get some feedback from more normal people than I to see if it\u2019s really, actually useful, or just a toy for me to play with.<\/p>\r\n\r\n\r\n\r\n<p>So I created a test instance for \u201cSpringfield Elementary\u201d with the aim of allowing others to try it out.<\/p>\r\n\r\n\r\n\r\n<p>I don\u2019t want to make this thing public to everyone &#8211; but I do want people to be able to find it and give controlled access to it to test it out. But HOW does this work?<\/p>\r\n<p>The way that Facebook Messenger bots use apps and pages and which users are allowed to use which things when you\u2019re in test\/development mode is REALLY confusing. But I think I\u2019ve figured it out.<\/p>\r\n<p>\r\n\r\n<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">The component parts<\/h2>\r\n\r\n\r\n\r\n<p>I\u2018m building SchoolBot with BotMan &#8211; a Laravel-based chatbot framework. This forms the ultimate back-end for the bot.<\/p>\r\n\r\n\r\n\r\n<p>At the \u201cfront end\u201d of this system is a page that you message through Facebook Messenger.<\/p>\r\n\r\n\r\n\r\n<p>And a Facebook App connects the page to the BotMan back-end, passing messages between the two.<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">Private, published, dev, live and all the roles!<\/h2>\r\n\r\n\r\n\r\n<p>The two Facebook components &#8211; the app and the page &#8211; both have a status. The page can be Published or Unpublished. The app can be in development mode, or live mode.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Development Apps vs Live Apps<\/h3>\r\n\r\n\r\n\r\n<p>Development apps are only usable by those users that have been added with an app role.<\/p>\r\n\r\n\r\n\r\n<p>To allow anyone to use your app you need to make the app live. To get your app live can be quite tricky as you may need to submit it for review, and this requires all sorts of things like privacy policies and maybe organisational verification. (This is a GOOD thing! It prevents random apps stealing all your data!!)<\/p>\r\n\r\n\r\n\r\n<p>So if you want to just do some testing before you apply for review, or if you\u2019re waiting to go through the review process you\u2019ll be stuck in development mode.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Published vs Unpublished pages<\/h3>\r\n<p>Unpublished pages won&#8217;t be found in search and can only be seen by and interacted with by those users that have been added with a page role.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Page roles<\/h3>\r\n\r\n\r\n\r\n<p>A published page can be searched for and discovered by anyone. But an unpublished page can only be seen and used by people who have a Page Role.<\/p>\r\n\r\n\r\n\r\n<p>Page Roles are a bit annoying because there isn\u2019t a role that lets someone just see and use an unpublished page. The lowest level is \u201cAnalyst\u201d which \u201cCan see which admin created a post or comment and view Insights.\u201d<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">App Roles<\/h3>\r\n\r\n\r\n\r\n<p>App Roles are better because you can actually give people a \u201cTester\u201d role. BUT&#8230;App Roles are annoying for test users because they have to use the developer.facebook.com developer portal to accept their role and the whole thing is a bit scary if they\u2019ve not seen it before.<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">Putting it together<\/h2>\r\n\r\n\r\n\r\n<p>So I have my Page which talks to my BotMan through my App. I\u2019ve connected them all together (this is a whole other post worth of stuff) and now I\u2019m wanting to bring in some people to test it the Messenger bot. What do we have to do?:<\/p>\r\n\r\n\r\n\r\n<ul>\r\n<li>The Page can be published or unpublished. Just bear in mind that it\u2019s harder for people to find if it\u2019s unpublished &#8211; you\u2019ll probably have to send them a link.<\/li>\r\n<li>IF the Page is unpublished then the test users will need to be added with a Page Role, the lowest of which is \u201cAnalyst\u201d. And then you\u2019ll have to send them the link to the page too because it won&#8217;t be found in search.<\/li>\r\n<\/ul>\r\n<p>They should then be able to Message the page once you set up a \u201cSend Message\u201d button on the page. But their message won\u2019t get to the Bot because they aren\u2019t allowed to use the app part that relays the message. So&#8230;<\/p>\r\n<ul>\r\n<li>You need to go to the developer portal and add them as a &#8220;Tester&#8221;. This will send them an invite but they&#8217;ll need to log in to the developer portal themselves to accept it.<\/li>\r\n<\/ul>\r\n<h2>Done!<\/h2>\r\n<p>With that all done, the person should be able to send a message to the page, have it relayed to the bot by the app, and the have the responses relayed back too.<\/p>\r\n<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot in this way.<\/p>\r\n<p>YAY!<\/p>\r\n",
-        "excerpt": "<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

@@ -1,6 +1,258 @@
 [
     {
         "dataAsArray": {
+            "id": 2287,
+            "date": "2016-04-13T09:53:02",
+            "date_gmt": "2016-04-13T08:53:02",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=2287"
+            },
+            "modified": "2016-04-13T10:00:13",
+            "modified_gmt": "2016-04-13T09:00:13",
+            "slug": "on-startups",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/",
+            "title": {
+                "rendered": "Let&#8217;s stop glorifying &#8220;Startups&#8221; and celebrate happy, successful businesses"
+            },
+            "content": {
+                "rendered": "<p>I have post that&#8217;s been brewing for a long time about Startup culture and it&#8217;s a topic I seem to be having more and more conversations about.<\/p>\n<p>Jason Fried &#8211; the founder of Basecamp, the project management software company &#8211; was quoted in the latest <a href=\"https:\/\/www.smashingmagazine.com\/smashing-newsletter-issue-156\/\">Smashing Magazine newsletter<\/a> summed it up somewhat:<\/p>\n<blockquote><p><span class=\"s1\">With a niche and a good customer base, you can build a successful product, without &#8220;angel&#8221; investors and exponential growth in hiring. Maybe sometimes it&#8217;s not necessary at all.\u00a0<\/span><span class=\"s2\">We&#8217;ve all seen company owners rushing from one big idea to another, thinking of acquisition meetings and exit strategies too early. Instead, you should create, design, build and nourish the product you love (and stay with it!) \u2014 with or without venture capital. You might be happier this way.<\/span><\/p><\/blockquote>\n<p>I&#8217;m not anti-growth, but growth seems to be the measure by which all businesses are judged. However,\u00a0definitions of success can vary.<\/p>\n<p>&#8220;Startups&#8221; &#8211; defined, by me as companies intending to take on investment, grow fast, and head for exit or acquisition &#8211; seem to get all the news, either by failing tragically, or by &#8211; in very rare cases &#8211; succeeding.<\/p>\n<p>And it bothers me that the many hundreds and thousands of happy and successful lifestyle businesses don&#8217;t get press. Businesses bootstrapped with the founders&#8217; money and time; profitable businesses with no debt; businesses that have happy owners doing something they enjoy and are good at; businesses that make enough money for their owners to have a good living; businesses that pay taxes, and are often ethical and give back to society and local communities.<\/p>\n<p>I&#8217;d love to hear more stories about these kind of businesses and less glorification of &#8220;Startups&#8221;.<\/p>\n<p>If you have a successful, small scale lifestyle business, tell us what you make or do, and how you work in the comments.<\/p>\n<p>&nbsp;<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I wish we&#8217;d stop glorifying Startup culture and start celebrating the many successful, happy, bootstrapped and lifestyle businesses that exist.<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                614,
+                24
+            ],
+            "tags": [
+                616,
+                36,
+                497,
+                617,
+                603,
+                615
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Let&#039;s stop glorifying &quot;Startups&quot; and celebrate happy, successful businesses - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2016\/04\/on-startups\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Let&#039;s stop glorifying &quot;Startups&quot; and celebrate happy, successful businesses - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I wish we&#039;d stop glorifying Startup culture and start celebrating the many successful, happy, bootstrapped and lifestyle businesses that exist.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2016\/04\/on-startups\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2016-04-13T08:53:02+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2016-04-13T09:00:13+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/04\/on-startups\/\",\"url\":\"https:\/\/rosswintle.uk\/2016\/04\/on-startups\/\",\"name\":\"Let's stop glorifying \\\"Startups\\\" and celebrate happy, successful businesses - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2016-04-13T08:53:02+00:00\",\"dateModified\":\"2016-04-13T09:00:13+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2016\/04\/on-startups\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2016\/04\/on-startups\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/04\/on-startups\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Let&#8217;s stop glorifying &#8220;Startups&#8221; and celebrate happy, successful businesses\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Let's stop glorifying \"Startups\" and celebrate happy, successful businesses - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Let's stop glorifying \"Startups\" and celebrate happy, successful businesses - Ross Wintle",
+                "og_description": "I wish we'd stop glorifying Startup culture and start celebrating the many successful, happy, bootstrapped and lifestyle businesses that exist.",
+                "og_url": "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2016-04-13T08:53:02+00:00",
+                "article_modified_time": "2016-04-13T09:00:13+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/",
+                            "url": "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/",
+                            "name": "Let's stop glorifying \"Startups\" and celebrate happy, successful businesses - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2016-04-13T08:53:02+00:00",
+                            "dateModified": "2016-04-13T09:00:13+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Let&#8217;s stop glorifying &#8220;Startups&#8221; and celebrate happy, successful businesses"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2287"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2287"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 3,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2287\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 2290,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2287\/revisions\/2290"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2287"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2287"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2287"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 2287,
+        "dateGmt": "2016-04-13T08:53:02",
+        "modifiedDateGmt": "2016-04-13T09:00:13",
+        "slug": "on-startups",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2016\/04\/on-startups\/",
+        "title": "Let&#8217;s stop glorifying &#8220;Startups&#8221; and celebrate happy, successful businesses",
+        "content": "<p>I have post that&#8217;s been brewing for a long time about Startup culture and it&#8217;s a topic I seem to be having more and more conversations about.<\/p>\n<p>Jason Fried &#8211; the founder of Basecamp, the project management software company &#8211; was quoted in the latest <a href=\"https:\/\/www.smashingmagazine.com\/smashing-newsletter-issue-156\/\">Smashing Magazine newsletter<\/a> summed it up somewhat:<\/p>\n<blockquote><p><span class=\"s1\">With a niche and a good customer base, you can build a successful product, without &#8220;angel&#8221; investors and exponential growth in hiring. Maybe sometimes it&#8217;s not necessary at all.\u00a0<\/span><span class=\"s2\">We&#8217;ve all seen company owners rushing from one big idea to another, thinking of acquisition meetings and exit strategies too early. Instead, you should create, design, build and nourish the product you love (and stay with it!) \u2014 with or without venture capital. You might be happier this way.<\/span><\/p><\/blockquote>\n<p>I&#8217;m not anti-growth, but growth seems to be the measure by which all businesses are judged. However,\u00a0definitions of success can vary.<\/p>\n<p>&#8220;Startups&#8221; &#8211; defined, by me as companies intending to take on investment, grow fast, and head for exit or acquisition &#8211; seem to get all the news, either by failing tragically, or by &#8211; in very rare cases &#8211; succeeding.<\/p>\n<p>And it bothers me that the many hundreds and thousands of happy and successful lifestyle businesses don&#8217;t get press. Businesses bootstrapped with the founders&#8217; money and time; profitable businesses with no debt; businesses that have happy owners doing something they enjoy and are good at; businesses that make enough money for their owners to have a good living; businesses that pay taxes, and are often ethical and give back to society and local communities.<\/p>\n<p>I&#8217;d love to hear more stories about these kind of businesses and less glorification of &#8220;Startups&#8221;.<\/p>\n<p>If you have a successful, small scale lifestyle business, tell us what you make or do, and how you work in the comments.<\/p>\n<p>&nbsp;<\/p>\n",
+        "excerpt": "<p>I wish we&#8217;d stop glorifying Startup culture and start celebrating the many successful, happy, bootstrapped and lifestyle businesses that exist.<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 2265,
             "date": "2016-03-14T23:19:03",
             "date_gmt": "2016-03-14T23:19:03",
@@ -2223,251 +2475,6 @@
         "title": "What will WordPress be?",
         "content": "<h2>Change is upon us!<\/h2>\n<p>If you work with WordPress, that is.<\/p>\n<p>I won&#8217;t go into details on the <a href=\"http:\/\/wptavern.com\/the-first-half-of-the-rest-api-is-officially-added-to-wordpress-core\">WordPress REST API that&#8217;s going to be a part of the software soon<\/a>, or of &#8220;<a href=\"http:\/\/wptavern.com\/automattic-unveils-open-source-wordpress-desktop-application-for-the-mac\">Calypso<\/a>&#8221; which is a new tool for\u00a0edit content and managing WordPress sites (both wordpress.com and self-hosted wordpress.org) that uses an API (or two) to communicate with WordPress.<\/p>\n<p>But these things are coming&#8230;or are already here&#8230;and they will change what WordPress is.<\/p>\n<p>I&#8217;ve been thinking about this for a while. The idea of having a WordPress REST API seems really good on the surface. It will let developers do some amazing things. But here&#8217;s the problem: <em>it will let developers do amazing things!<\/em><\/p>\n<p>If developers can build cool things they will. They will build amazing new themes based on JS frameworks. And they will build new dashboards and editing interfaces.<\/p>\n<p>Is this good? Well, who knows? We can only guess and speculate at this point.<\/p>\n<p>I predict short term pain and confusion as lots of new things bolt on to the WordPress API. There will be fragmentation and experimentation as new user interfaces for WordPress appear. Users will be confused about what WordPress is. And after a while this will probably settle down and the good things will mature. But I think there may\u00a0still be confusion. And people may have lost faith in the mean time.<\/p>\n<h2>Ssssh&#8230;don&#8217;t tell anyone but&#8230;<\/h2>\n<p>Now&#8230;here&#8217;s the thing. And I kinda need to whisper this because it may be quite controversial:<\/p>\n<p><em><span style=\"color: #999999;\">WordPress doesn&#8217;t have a great data model for general purpose app development!<\/span><\/em><\/p>\n<p>Some people try to build really complex web applications using WordPress &#8211; yes, I have too! &#8211; and it&#8217;s hard and inefficient because of the limitations of the data model.<\/p>\n<p>So if you&#8217;re going to build a new JavaScript-based user interface that communicates with a back-end using a REST API then, well, it doesn&#8217;t matter what the back-end is. You can write your own. And it could well be better suited to a web-application&#8217;s needs than WordPress is.<\/p>\n<p>Many people are asking &#8220;What can we build on top of WordPress now that it has an API?&#8221; but an alternative question might be &#8220;If Calypso is a good user experience, what can we build to go behind Calypso?&#8221;<\/p>\n<p>There&#8217;s another way of looking at this too. I&#8217;m going to call it:<\/p>\n<h2>Throwing the baby out with the bathwater<\/h2>\n<p>Here are some of the things I really like about WordPress:<\/p>\n<ul>\n<li>It&#8217;s actually a really well thought out blogging tool and simple CMS that has evolved over time<\/li>\n<li>It has (relatively) great built-in media management<\/li>\n<li>LOTS of people already know how to use it and are familiar with the UI<\/li>\n<li>It has loads of plugins that you can use to extend its functionality, many of which extend the UI<\/li>\n<li>It&#8217;s really easy to install and update &#8211; automatic security updates are great!<\/li>\n<li>It&#8217;s templating system isn&#8217;t great, but its easy to get to grips with which makes simple development work easy, and it&#8217;s a low barrier-of-entry for new developers.<\/li>\n<\/ul>\n<p>Here are some of the things that I don&#8217;t like about WordPress:<\/p>\n<ul>\n<li>It has a limited data model with no relationships between object types (taxonomies are not general purpose objects!) and no real ORM<\/li>\n<li>It&#8217;s well coded and easy to understand, but it doesn&#8217;t use modern &#8211; well quite well-established now! &#8211; patterns for development<\/li>\n<li>The PHP code is well documented. But the JavaScript code and libraries is\/are really hard to learn how to use.<\/li>\n<\/ul>\n<p>It seems to me that building a new user interface using the REST API will embrace those things that I dislike while throwing away a lot of the things that I like. If you&#8217;re not going to use the Dashboard, then why accept the limitations of the data model?<\/p>\n<p>If I&#8217;m going to build a complex web app, I&#8217;m not going to use WordPress as a back-end because its data model is not good enough. It&#8217;s a data model designed for blogs and low-to-moderately complex websites.<\/p>\n<p>If I&#8217;m going to build a blog or low-to-moderately complex website then WordPress is ideal precisely because of the user interface. It&#8217;s a user interface designed for blogs and low-to-moderately complex websites.<\/p>\n<p>It seems to me that it&#8217;s the combination of these two things that makes WordPress what it is: the de-facto website content management system that powers more than 25% of the web. And that separating them could actually be a disaster.<\/p>\n<p>Even one of the WordPress REST API&#8217;s developers seems to agree:<\/p>\n<p>https:\/\/twitter.com\/danielbachhuber\/status\/672207252019945472<\/p>\n<p>So the future for WordPress seems uncertain to me. In some ways I hope that all the UI experimentation comes to nothing and the API is just used to enhance the existing WordPress dashboard (AJAX-based post filtering and pagination PLEASE!!!). It seems to me that the Dashboard is one of WordPress&#8217;s best assets. Throw it out and it&#8217;s not WordPress anymore. Throw it out, and you may as well use something else altogether.<\/p>\n<p>This, for me, is the identity crisis that WordPress will have in the months and years to come.<\/p>\n",
         "excerpt": "<p>Change is upon us! If you work with WordPress, that is. I won&#8217;t go into details on the WordPress REST API that&#8217;s going to be a part of the software soon, or of &#8220;Calypso&#8221; which is a new tool for\u00a0edit content and managing WordPress sites (both wordpress.com and self-hosted wordpress.org) that uses an API (or [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 2202,
-            "date": "2015-12-03T23:04:39",
-            "date_gmt": "2015-12-03T23:04:39",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=2202"
-            },
-            "modified": "2018-01-11T21:16:40",
-            "modified_gmt": "2018-01-11T21:16:40",
-            "slug": "bombs",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2015\/12\/bombs\/",
-            "title": {
-                "rendered": "Bombs"
-            },
-            "content": {
-                "rendered": "<p>I tend not to comment quickly on things. I like to think. And, actually, quite often I don&#8217;t have time enough to think.<\/p>\n<p>I was travelling today. Travel time is good. It&#8217;s restful and gives me time to think.<\/p>\n<p>And I was catching up with my Twitter timeline from last night. The night that our parliament voted to bomb Syria.<\/p>\n<p>Now, I&#8217;m not a foreign affairs or middle-east expert. And I know that you can&#8217;t just sit down and talk with ISIS\/IS\/ISIL\/Daesh. They are not peaceful people. Peace is not what they want.<\/p>\n<p>But I do find myself disagreeing with the concept of bombing&#8230;well&#8230;anyone really. In my mind, violence only leads to violence. But I&#8217;ve found it hard to express what I think because it&#8217;s such a complex topic.<\/p>\n<p>As I caught up with sentiment on social media, I found myself welling up.<\/p>\n<p>Here&#8217;s some of what I read (and yes, I an fully aware of the self-controlled Twitter bubble that I live in where the views of others probably reflect and reinforce my own views):<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">This is a terrible mistake. Chest-banging, self-important, debating society fuckwittery. No plan, no exit strategy. No hope. <a href=\"https:\/\/twitter.com\/hashtag\/NotInMyName?src=hash&amp;ref_src=twsrc%5Etfw\">#NotInMyName<\/a><\/p>\n<p>&mdash; Samuel West (@exitthelemming) <a href=\"https:\/\/twitter.com\/exitthelemming\/status\/672183829881311233?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>https:\/\/twitter.com\/OnMeArse\/status\/672183894226149377<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Odd that the big pro bombing speeches were just rhetoric, no details, only passion. A cynic might call it lying by omission. <a href=\"https:\/\/twitter.com\/hashtag\/DontBombSyria?src=hash&amp;ref_src=twsrc%5Etfw\">#DontBombSyria<\/a><\/p>\n<p>&mdash; Oliver Humpage (@oliverhumpage) <a href=\"https:\/\/twitter.com\/oliverhumpage\/status\/672184086170071040?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">*Bomb countries.<br \/>*Displace people.<br \/>*Create refugees.<br \/>*Deny them asylum.<\/p>\n<p>*Repeat.<\/p>\n<p>&mdash; The Malcontent (@TheMal_Content) <a href=\"https:\/\/twitter.com\/TheMal_Content\/status\/672184389544091648?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>It just all seems so&#8230;unnecessary and wrong and badly thought out. It&#8217;s a huge expense when we&#8217;re in a time of &#8220;austerity&#8221;. It&#8217;s massively destructive. It&#8217;s probably exactly what ISIS want us to do. It will probably kill innocent people. It will probably increase the number of people wanting to flee Syria. It will give ISIS or whatever they are called today more reason to hate us. I just can&#8217;t see many ways in which this action will make things better.<\/p>\n<p>There was some positive\u00a0stuff too:<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">If you are reading this, I beg you: PLEASE put more love in the world. Curb your own hate. Choose empathy. Practice patience. BE LOVE.<\/p>\n<p>&mdash; Whitney Hess (@whitneyhess) <a href=\"https:\/\/twitter.com\/whitneyhess\/status\/672185660548112384?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Significant respect for parliament tonight and the debate and manner in which these human beings have conducted today <a href=\"https:\/\/twitter.com\/hashtag\/SyriaVote?src=hash&amp;ref_src=twsrc%5Etfw\">#SyriaVote<\/a><\/p>\n<p>&mdash; Matt Currey (@mattcurrey) <a href=\"https:\/\/twitter.com\/mattcurrey\/status\/672187577215135744?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>It was good that it was debated at length. I do respect that we took time to do that and I do respect our democracy. This is what our elected representatives think we should do, and they&#8217;ve thought about it longer and harder than me.<\/p>\n<p>But also can&#8217;t help thinking that there&#8217;s a different, better way. A more peaceful, non-violent, but equally disruptive way. When my own MP says:<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">I will be voting to stand shoulder to shoulder with France. To turn away now would be unforgivable <a href=\"https:\/\/twitter.com\/hashtag\/SyriaVote?src=hash&amp;ref_src=twsrc%5Etfw\">#SyriaVote<\/a><\/p>\n<p>&mdash; Justin Tomlinson MP (@JustinTomlinson) <a href=\"https:\/\/twitter.com\/JustinTomlinson\/status\/672029386611249152?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>I wonder if, actually, this is all all about pride, strength, power. About not letting the side down. About 5-yearly electability. I wonder if NOT bombing Syria makes us look weak in some way, both to our international partners, and to some sections of the electorate.<\/p>\n<p>But no. FOLLOWING France, the US, and the UN is, actually, the easy way. Standing up to France, the US, the UN and suggesting that they might be doing things wring is harder, and requires a <strong>greater<\/strong>\u00a0show of strength. I&#8217;m not suggesting that we &#8220;turn away&#8221;. I&#8217;m suggesting that, rather than go and join in with the a gang in the street throwing stones and petrol bombs at a rival gang, we grab their arm\u00a0and ask them: is this really the way to stop more people getting hurt?<\/p>\n<p>I don&#8217;t have answers. But this all feels so wrong.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I tend not to comment quickly on things. I like to think. And, actually, quite often I don&#8217;t have time enough to think. I was travelling today. Travel time is good. It&#8217;s restful and gives me time to think. And I was catching up with my Twitter timeline from last night. The night that our [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                24
-            ],
-            "tags": [
-                587,
-                579,
-                588,
-                258
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Bombs - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2015\/12\/bombs\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Bombs - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I tend not to comment quickly on things. I like to think. And, actually, quite often I don&#8217;t have time enough to think. I was travelling today. Travel time is good. It&#8217;s restful and gives me time to think. And I was catching up with my Twitter timeline from last night. The night that our [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2015\/12\/bombs\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2015-12-03T23:04:39+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-11T21:16:40+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2015\/12\/bombs\/\",\"url\":\"https:\/\/rosswintle.uk\/2015\/12\/bombs\/\",\"name\":\"Bombs - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2015-12-03T23:04:39+00:00\",\"dateModified\":\"2018-01-11T21:16:40+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2015\/12\/bombs\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2015\/12\/bombs\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2015\/12\/bombs\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Bombs\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Bombs - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2015\/12\/bombs\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Bombs - Ross Wintle",
-                "og_description": "I tend not to comment quickly on things. I like to think. And, actually, quite often I don&#8217;t have time enough to think. I was travelling today. Travel time is good. It&#8217;s restful and gives me time to think. And I was catching up with my Twitter timeline from last night. The night that our [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2015\/12\/bombs\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2015-12-03T23:04:39+00:00",
-                "article_modified_time": "2018-01-11T21:16:40+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "3 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2015\/12\/bombs\/",
-                            "url": "https:\/\/rosswintle.uk\/2015\/12\/bombs\/",
-                            "name": "Bombs - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2015-12-03T23:04:39+00:00",
-                            "dateModified": "2018-01-11T21:16:40+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2015\/12\/bombs\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2015\/12\/bombs\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2015\/12\/bombs\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Bombs"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2202"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2202"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2202\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 2205,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2202\/revisions\/2205"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2202"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2202"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2202"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 2202,
-        "dateGmt": "2015-12-03T23:04:39",
-        "modifiedDateGmt": "2018-01-11T21:16:40",
-        "slug": "bombs",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2015\/12\/bombs\/",
-        "title": "Bombs",
-        "content": "<p>I tend not to comment quickly on things. I like to think. And, actually, quite often I don&#8217;t have time enough to think.<\/p>\n<p>I was travelling today. Travel time is good. It&#8217;s restful and gives me time to think.<\/p>\n<p>And I was catching up with my Twitter timeline from last night. The night that our parliament voted to bomb Syria.<\/p>\n<p>Now, I&#8217;m not a foreign affairs or middle-east expert. And I know that you can&#8217;t just sit down and talk with ISIS\/IS\/ISIL\/Daesh. They are not peaceful people. Peace is not what they want.<\/p>\n<p>But I do find myself disagreeing with the concept of bombing&#8230;well&#8230;anyone really. In my mind, violence only leads to violence. But I&#8217;ve found it hard to express what I think because it&#8217;s such a complex topic.<\/p>\n<p>As I caught up with sentiment on social media, I found myself welling up.<\/p>\n<p>Here&#8217;s some of what I read (and yes, I an fully aware of the self-controlled Twitter bubble that I live in where the views of others probably reflect and reinforce my own views):<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">This is a terrible mistake. Chest-banging, self-important, debating society fuckwittery. No plan, no exit strategy. No hope. <a href=\"https:\/\/twitter.com\/hashtag\/NotInMyName?src=hash&amp;ref_src=twsrc%5Etfw\">#NotInMyName<\/a><\/p>\n<p>&mdash; Samuel West (@exitthelemming) <a href=\"https:\/\/twitter.com\/exitthelemming\/status\/672183829881311233?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>https:\/\/twitter.com\/OnMeArse\/status\/672183894226149377<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Odd that the big pro bombing speeches were just rhetoric, no details, only passion. A cynic might call it lying by omission. <a href=\"https:\/\/twitter.com\/hashtag\/DontBombSyria?src=hash&amp;ref_src=twsrc%5Etfw\">#DontBombSyria<\/a><\/p>\n<p>&mdash; Oliver Humpage (@oliverhumpage) <a href=\"https:\/\/twitter.com\/oliverhumpage\/status\/672184086170071040?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">*Bomb countries.<br \/>*Displace people.<br \/>*Create refugees.<br \/>*Deny them asylum.<\/p>\n<p>*Repeat.<\/p>\n<p>&mdash; The Malcontent (@TheMal_Content) <a href=\"https:\/\/twitter.com\/TheMal_Content\/status\/672184389544091648?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>It just all seems so&#8230;unnecessary and wrong and badly thought out. It&#8217;s a huge expense when we&#8217;re in a time of &#8220;austerity&#8221;. It&#8217;s massively destructive. It&#8217;s probably exactly what ISIS want us to do. It will probably kill innocent people. It will probably increase the number of people wanting to flee Syria. It will give ISIS or whatever they are called today more reason to hate us. I just can&#8217;t see many ways in which this action will make things better.<\/p>\n<p>There was some positive\u00a0stuff too:<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">If you are reading this, I beg you: PLEASE put more love in the world. Curb your own hate. Choose empathy. Practice patience. BE LOVE.<\/p>\n<p>&mdash; Whitney Hess (@whitneyhess) <a href=\"https:\/\/twitter.com\/whitneyhess\/status\/672185660548112384?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">Significant respect for parliament tonight and the debate and manner in which these human beings have conducted today <a href=\"https:\/\/twitter.com\/hashtag\/SyriaVote?src=hash&amp;ref_src=twsrc%5Etfw\">#SyriaVote<\/a><\/p>\n<p>&mdash; Matt Currey (@mattcurrey) <a href=\"https:\/\/twitter.com\/mattcurrey\/status\/672187577215135744?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>It was good that it was debated at length. I do respect that we took time to do that and I do respect our democracy. This is what our elected representatives think we should do, and they&#8217;ve thought about it longer and harder than me.<\/p>\n<p>But also can&#8217;t help thinking that there&#8217;s a different, better way. A more peaceful, non-violent, but equally disruptive way. When my own MP says:<\/p>\n<blockquote class=\"twitter-tweet\" data-width=\"550\" data-dnt=\"true\">\n<p lang=\"en\" dir=\"ltr\">I will be voting to stand shoulder to shoulder with France. To turn away now would be unforgivable <a href=\"https:\/\/twitter.com\/hashtag\/SyriaVote?src=hash&amp;ref_src=twsrc%5Etfw\">#SyriaVote<\/a><\/p>\n<p>&mdash; Justin Tomlinson MP (@JustinTomlinson) <a href=\"https:\/\/twitter.com\/JustinTomlinson\/status\/672029386611249152?ref_src=twsrc%5Etfw\">December 2, 2015<\/a><\/p><\/blockquote>\n<p><script async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"><\/script><\/p>\n<p>I wonder if, actually, this is all all about pride, strength, power. About not letting the side down. About 5-yearly electability. I wonder if NOT bombing Syria makes us look weak in some way, both to our international partners, and to some sections of the electorate.<\/p>\n<p>But no. FOLLOWING France, the US, and the UN is, actually, the easy way. Standing up to France, the US, the UN and suggesting that they might be doing things wring is harder, and requires a <strong>greater<\/strong>\u00a0show of strength. I&#8217;m not suggesting that we &#8220;turn away&#8221;. I&#8217;m suggesting that, rather than go and join in with the a gang in the street throwing stones and petrol bombs at a rival gang, we grab their arm\u00a0and ask them: is this really the way to stop more people getting hurt?<\/p>\n<p>I don&#8217;t have answers. But this all feels so wrong.<\/p>\n",
-        "excerpt": "<p>I tend not to comment quickly on things. I like to think. And, actually, quite often I don&#8217;t have time enough to think. I was travelling today. Travel time is good. It&#8217;s restful and gives me time to think. And I was catching up with my Twitter timeline from last night. The night that our [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

@@ -1,6 +1,246 @@
 [
     {
         "dataAsArray": {
+            "id": 4219,
+            "date": "2018-09-18T22:33:30",
+            "date_gmt": "2018-09-18T21:33:30",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=4219"
+            },
+            "modified": "2018-09-18T22:33:32",
+            "modified_gmt": "2018-09-18T21:33:32",
+            "slug": "the-week-17th-september-2018",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/",
+            "title": {
+                "rendered": "The Week: 17th September 2018"
+            },
+            "content": {
+                "rendered": "\n<p><em>A summary of my week in projects, posts, and pins. This is probably as much for my benefit as anything, but let me know if you find it interesting or helpful. Use the comments \u2013 I\u2019m happy to tweak the format to make it more useful for others.<\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Projects: what I&#8217;ve been up to<\/h2>\n\n\n\n<ul><li>The big job this week was a small project to develop a branch lookup system for a client who uses lots of Ninja Forms.\u00a0 The branch lookup will need to work on multiple forms, so I&#8217;m extending Ninja Forms with a custom field that can be used wherever it is needed.<br\/><br\/>This has involved working out the existing data structures, creating an API for doing the lookups, and building the form element. I got a but stuck, because, while Ninja Forms has a good reputation, I&#8217;ve found the developer documentation a bit lacking. More next week!<br\/><\/li><li>I&#8217;m working with a local community organisation on a new website. This is a project that has been on and off for a while and I&#8217;m determined to get stuck into it. There was some WordPress plugin finding\/testing, some WP-CLI commands to do some custom data importing and processing and some general WordPress work.<\/li><li>I have an ongoing piece of work updating a Laravel\/Vue Project that got some more updating based on testing and feedback.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Posts: things I made<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/rosswintle.uk\/2018\/09\/charging-up-the-schoolbot\/\">Charging up the SchoolBot<\/a>\u00a0&#8211;\u00a0I\u2019ve been gently nudging SchoolBot development along in my mornings and evenings the last week \u2013 here\u2019s where it\u2019s at.<\/li><li><a href=\"https:\/\/rosswintle.uk\/2018\/09\/do-website-owners-need-a-drivers-license\/\">Do website owners need a \u201cdrivers license\u201d, or should websites be more \u201cself-driving\u201d?<\/a>\u00a0&#8211;\u00a0Surely many of the things that I set up on new WordPress sites with plugins and settings tweaks are solved problems now. So why do I have to add them myself?<\/li><li><a href=\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/\">CSS and\u2026 err \u2026job titles?<\/a>\u00a0&#8211;\u00a0I think it\u2019s easier to switch languages than to switch disciplines. We need job titles that better describe our disciplines.<\/li><li><a href=\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/\">Be careful what you write! Basic SEO is easy, important, and really boring.<\/a>\u00a0&#8211;\u00a0Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Pins: things I read and remembered<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/hankchizljaw.io\/wrote\/css-specifity-and-the-cascade\/\" target=\"_blank\" rel=\"noreferrer noopener\">CSS specificity and the cascade &#8211; HankChizlJaw<\/a>\u00a0&#8211; great article from Andy explaining the CSS cascade<\/li><li><a href=\"https:\/\/programmingisterrible.com\/post\/176657481103\/repeat-yourself-do-more-than-one-thing-and\" target=\"_blank\" rel=\"noreferrer noopener\">Repeat yourself, do more than one thing, and&#8230; \u2014 programming is terrible<\/a>\u00a0 &#8211; a pragmatic take on sometimes-dogmatic programming mantras: <em>&#8216;The problem with following advice to the letter is that it rarely works in practice&#8230;It isn\u2019t \u201cDon\u2019t Repeat Yourself\u201d, but \u201cSome redundancy is healthy, some isn\u2019t&#8217;<\/em><\/li><li><a href=\"https:\/\/httpstatusdogs.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">HTTP Status Dogs<\/a>\u00a0&#8211; made me laugh<\/li><li><a href=\"https:\/\/www.wptherightway.org\/en\/\" target=\"_blank\" rel=\"noreferrer noopener\">Introduction \u00b7 WordPress The Right Way<\/a>\u00a0&#8211; Tom Nowell has pulled together a bunch of WordPress developer information and best practices &#8211; a good resource!<\/li><li><a href=\"https:\/\/happyselfjournal.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">Home &#8211; HappySelf<\/a>\u00a0&#8211; I came across this on a Slack channel. It&#8217;s a journal for kids intended to promoted positivity and resilience. I was initialy shocked at the price tag of \u00a319.95 for a 3-month journal, but when the author pointed out this was the cost of two swimming lessons it seemed like good value. Hoping to try it out with my kid. Oh, and adults needs this too!<\/li><li><a href=\"https:\/\/wordpress.org\/plugins\/acf-better-search\/\" target=\"_blank\" rel=\"noreferrer noopener\">ACF: Better Search | WordPress.org<\/a>\u00a0&#8211; A WordPress plugin that makes ACF fields searchable. I need this!<br\/><\/li><\/ul>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>A summary of my week in projects, posts, and pins.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                709
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Week: 17th September 2018 - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Week: 17th September 2018 - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A summary of my week in projects, posts, and pins.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-09-18T21:33:30+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-09-18T21:33:32+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/\",\"name\":\"The Week: 17th September 2018 - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-09-18T21:33:30+00:00\",\"dateModified\":\"2018-09-18T21:33:32+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Week: 17th September 2018\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "The Week: 17th September 2018 - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "The Week: 17th September 2018 - Ross Wintle",
+                "og_description": "A summary of my week in projects, posts, and pins.",
+                "og_url": "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2018-09-18T21:33:30+00:00",
+                "article_modified_time": "2018-09-18T21:33:32+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "3 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/",
+                            "url": "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/",
+                            "name": "The Week: 17th September 2018 - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2018-09-18T21:33:30+00:00",
+                            "dateModified": "2018-09-18T21:33:32+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "The Week: 17th September 2018"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4219"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4219"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4219\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 4220,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4219\/revisions\/4220"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4219"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4219"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4219"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 4219,
+        "dateGmt": "2018-09-18T21:33:30",
+        "modifiedDateGmt": "2018-09-18T21:33:32",
+        "slug": "the-week-17th-september-2018",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2018\/09\/the-week-17th-september-2018\/",
+        "title": "The Week: 17th September 2018",
+        "content": "\n<p><em>A summary of my week in projects, posts, and pins. This is probably as much for my benefit as anything, but let me know if you find it interesting or helpful. Use the comments \u2013 I\u2019m happy to tweak the format to make it more useful for others.<\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Projects: what I&#8217;ve been up to<\/h2>\n\n\n\n<ul><li>The big job this week was a small project to develop a branch lookup system for a client who uses lots of Ninja Forms.\u00a0 The branch lookup will need to work on multiple forms, so I&#8217;m extending Ninja Forms with a custom field that can be used wherever it is needed.<br\/><br\/>This has involved working out the existing data structures, creating an API for doing the lookups, and building the form element. I got a but stuck, because, while Ninja Forms has a good reputation, I&#8217;ve found the developer documentation a bit lacking. More next week!<br\/><\/li><li>I&#8217;m working with a local community organisation on a new website. This is a project that has been on and off for a while and I&#8217;m determined to get stuck into it. There was some WordPress plugin finding\/testing, some WP-CLI commands to do some custom data importing and processing and some general WordPress work.<\/li><li>I have an ongoing piece of work updating a Laravel\/Vue Project that got some more updating based on testing and feedback.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Posts: things I made<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/rosswintle.uk\/2018\/09\/charging-up-the-schoolbot\/\">Charging up the SchoolBot<\/a>\u00a0&#8211;\u00a0I\u2019ve been gently nudging SchoolBot development along in my mornings and evenings the last week \u2013 here\u2019s where it\u2019s at.<\/li><li><a href=\"https:\/\/rosswintle.uk\/2018\/09\/do-website-owners-need-a-drivers-license\/\">Do website owners need a \u201cdrivers license\u201d, or should websites be more \u201cself-driving\u201d?<\/a>\u00a0&#8211;\u00a0Surely many of the things that I set up on new WordPress sites with plugins and settings tweaks are solved problems now. So why do I have to add them myself?<\/li><li><a href=\"https:\/\/rosswintle.uk\/2018\/09\/css-and-err-job-titles\/\">CSS and\u2026 err \u2026job titles?<\/a>\u00a0&#8211;\u00a0I think it\u2019s easier to switch languages than to switch disciplines. We need job titles that better describe our disciplines.<\/li><li><a href=\"https:\/\/rosswintle.uk\/2018\/09\/be-careful-what-you-write-basic-seo-is-easy-important-and-really-boring\/\">Be careful what you write! Basic SEO is easy, important, and really boring.<\/a>\u00a0&#8211;\u00a0Trendy, abstract, modernist marketing is great, and you can still use some of that, but be careful what you write: you may need to be boring to be found!<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Pins: things I read and remembered<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/hankchizljaw.io\/wrote\/css-specifity-and-the-cascade\/\" target=\"_blank\" rel=\"noreferrer noopener\">CSS specificity and the cascade &#8211; HankChizlJaw<\/a>\u00a0&#8211; great article from Andy explaining the CSS cascade<\/li><li><a href=\"https:\/\/programmingisterrible.com\/post\/176657481103\/repeat-yourself-do-more-than-one-thing-and\" target=\"_blank\" rel=\"noreferrer noopener\">Repeat yourself, do more than one thing, and&#8230; \u2014 programming is terrible<\/a>\u00a0 &#8211; a pragmatic take on sometimes-dogmatic programming mantras: <em>&#8216;The problem with following advice to the letter is that it rarely works in practice&#8230;It isn\u2019t \u201cDon\u2019t Repeat Yourself\u201d, but \u201cSome redundancy is healthy, some isn\u2019t&#8217;<\/em><\/li><li><a href=\"https:\/\/httpstatusdogs.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">HTTP Status Dogs<\/a>\u00a0&#8211; made me laugh<\/li><li><a href=\"https:\/\/www.wptherightway.org\/en\/\" target=\"_blank\" rel=\"noreferrer noopener\">Introduction \u00b7 WordPress The Right Way<\/a>\u00a0&#8211; Tom Nowell has pulled together a bunch of WordPress developer information and best practices &#8211; a good resource!<\/li><li><a href=\"https:\/\/happyselfjournal.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">Home &#8211; HappySelf<\/a>\u00a0&#8211; I came across this on a Slack channel. It&#8217;s a journal for kids intended to promoted positivity and resilience. I was initialy shocked at the price tag of \u00a319.95 for a 3-month journal, but when the author pointed out this was the cost of two swimming lessons it seemed like good value. Hoping to try it out with my kid. Oh, and adults needs this too!<\/li><li><a href=\"https:\/\/wordpress.org\/plugins\/acf-better-search\/\" target=\"_blank\" rel=\"noreferrer noopener\">ACF: Better Search | WordPress.org<\/a>\u00a0&#8211; A WordPress plugin that makes ACF fields searchable. I need this!<br\/><\/li><\/ul>\n",
+        "excerpt": "<p>A summary of my week in projects, posts, and pins.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 4206,
             "date": "2018-09-16T14:12:41",
             "date_gmt": "2018-09-16T13:12:41",
@@ -2183,250 +2423,6 @@
         "title": "Cordless family life",
         "content": "\n<p>I&#8217;ve always had that temptation to spend extra money on cordless things. But the extra expense has never quite seemed worth it.<\/p>\n\n\n\n<p>However, battery-powered, cordless things are getting cheaper. And, while I won&#8217;t paint a life of posh, cordless-powered luxury in the Wintle household (because that&#8217;s not what it&#8217;s like at all), I have made some purchases recently that have really helped with getting things done.<\/p>\n\n\n\n<p>Firstly, I know Lidl do a cordless hammer drill that gets good reviews. But they don&#8217;t stock it very often! (Watch out, they stock the non-hammer-action drill often, but it won&#8217;t do masonry!). So when it DID appear in stock one week I bought one.<\/p>\n\n\n\n<p>And not only did I then go and hang a load of things on walls that had been waiting for me to do so for ages, but I also went a bit crazy and creative and made my son a <a href=\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\">basketball hoop<\/a> on a whim!<\/p>\n\n\n\n<p>Freed from the constraints of having to find an appropriate combination of socket, circuit breaker, and extension lead, I could now just grab-and-go. And it was a joy!<\/p>\n\n\n\n<p>I&#8217;d had this nagging feeling that I&#8217;d get more done with cordless things. Being able to just pick up a tool and do a job was great. Especially with busy family life where having kids around corded electrical goods is a bit of a hazard for everyone. And it had been proven true. So what next?!<\/p>\n\n\n\n<p>Well, my wife broke her ankle, that&#8217;s what was next. And I was in charge of EVERYTHING for six weeks in the late spring. 2 children. All the cooking. Even carrying cups of tea around the house. I barely had a moment to spare. So anything that would speed up household tasks and let me do little bits here and there rather than committing to huge long sessions of cleaning would be a boon.<\/p>\n\n\n\n<p>So, one day in Lidl again, I saw they were selling a battery-powered lawn strimmer.<\/p>\n\n\n\n<p>&#8220;That&#8217;s amazing!&#8221;, I thought, &#8220;I can just grab this while the kids are playing in the garden, whizz round a bit of the lawn and keep it from getting too long, all without that incredible hassle of traipsing up and down my long garden with extension leads and stuff. AND it uses the SAME batteries as the drill!!!&#8221;<\/p>\n\n\n\n<p>And that was proven right too.\u00a0 Sure, a battery-powered strimmer isn&#8217;t as powerful as a corded one. And it feels a bit plasticky and flimsy. But it really does the job. I grab it and &#8220;mow&#8221; while the kids are playing. I can do 10 or 15 minutes of it at a time and the job gets done in little bursts as a part of daily life.<\/p>\n\n\n\n<p>So finally, and this took some convincing and research and waiting for a good deal, but I caved and also bought a cordless vacuum cleaner. These things can be expensive. But I got one for a huge 50% off. And it&#8217;s not perfect, but it has transformed cleaning in our house.<\/p>\n\n\n\n<p>It&#8217;s less powerful than our &#8220;big vacuum&#8221;, but this has the benefit that it&#8217;s also much quieter. And it&#8217;s great. We can just grab it, do a room while the kids watch TV or something, and then put it away. So quick and easy and brilliant for a busy family.<\/p>\n\n\n\n<p>Some problems are people problems and have solutions with people. But sometimes technology really is a help in everyday life. I&#8217;ve loved ditching cables around the house. Are there other appliances I should go cordless with?<\/p>\n",
         "excerpt": "<p>Freed from the constraints of having to find an appropriate combination of socket, circuit breaker, and extension lead, I could now just grab-and-go.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 4122,
-            "date": "2018-08-28T20:17:20",
-            "date_gmt": "2018-08-28T19:17:20",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=4122"
-            },
-            "modified": "2018-08-28T20:17:21",
-            "modified_gmt": "2018-08-28T19:17:21",
-            "slug": "the-grass-under-my-feet",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/",
-            "title": {
-                "rendered": "The Grass Under My Feet"
-            },
-            "content": {
-                "rendered": "\n<p>It was lovely, on holiday last week, to be outdoors in a safe environment without much to do at times.<\/p>\n\n\n\n<p>Despite having a very \u201cindoorsy\u201d job, I love being outside.\u00a0I find it hard to work outside for some reason, even though flexible freelance life means I could.<\/p>\n\n\n\n<p>But being trapped in an office means I don\u2019t get to be outside often. And at home, when I\u2019m outside, I\u2019m usually gardening, cycling, walking or doing something else with purpose.<\/p>\n\n\n\n<p>And this all means that I rarely get to be barefoot.<\/p>\n\n\n\n<p>It will probably sound like a really odd thing, but I REALLY liked walking around barefoot on the grass and (this will surprise some but&#8230;) the beach on holiday.<\/p>\n\n\n\n<p>I like things that connect me to the earth. Cycling and gardening means I have to pay attention to weather. Gardening and growing food also puts you very much in touch with the seasons.<\/p>\n\n\n\n<p>I like cooking (even though Sally does most of it) and baking. \u00a0I like the processes of brewing tea and filter coffee. I like the slowness of making sourdough bread which is a thing which, when starter and dough, feels very much \u201calive\u201d.<\/p>\n\n\n\n<p>Computers and the internet are great, brilliant, amazing things. But there\u2019s something special about just feeling the grass beneath your feet.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Computers and the internet are great, brilliant, amazing things. But there\u2019s something special about just feeling the grass beneath your feet.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                14,
-                24
-            ],
-            "tags": [
-                575,
-                120
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Grass Under My Feet - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Grass Under My Feet - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Computers and the internet are great, brilliant, amazing things. But there\u2019s something special about just feeling the grass beneath your feet.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-08-28T19:17:20+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-08-28T19:17:21+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/\",\"name\":\"The Grass Under My Feet - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-08-28T19:17:20+00:00\",\"dateModified\":\"2018-08-28T19:17:21+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Grass Under My Feet\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "The Grass Under My Feet - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "The Grass Under My Feet - Ross Wintle",
-                "og_description": "Computers and the internet are great, brilliant, amazing things. But there\u2019s something special about just feeling the grass beneath your feet.",
-                "og_url": "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2018-08-28T19:17:20+00:00",
-                "article_modified_time": "2018-08-28T19:17:21+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/",
-                            "url": "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/",
-                            "name": "The Grass Under My Feet - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2018-08-28T19:17:20+00:00",
-                            "dateModified": "2018-08-28T19:17:21+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "The Grass Under My Feet"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4122"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4122"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4122\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 4125,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4122\/revisions\/4125"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4122"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4122"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4122"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 4122,
-        "dateGmt": "2018-08-28T19:17:20",
-        "modifiedDateGmt": "2018-08-28T19:17:21",
-        "slug": "the-grass-under-my-feet",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2018\/08\/the-grass-under-my-feet\/",
-        "title": "The Grass Under My Feet",
-        "content": "\n<p>It was lovely, on holiday last week, to be outdoors in a safe environment without much to do at times.<\/p>\n\n\n\n<p>Despite having a very \u201cindoorsy\u201d job, I love being outside.\u00a0I find it hard to work outside for some reason, even though flexible freelance life means I could.<\/p>\n\n\n\n<p>But being trapped in an office means I don\u2019t get to be outside often. And at home, when I\u2019m outside, I\u2019m usually gardening, cycling, walking or doing something else with purpose.<\/p>\n\n\n\n<p>And this all means that I rarely get to be barefoot.<\/p>\n\n\n\n<p>It will probably sound like a really odd thing, but I REALLY liked walking around barefoot on the grass and (this will surprise some but&#8230;) the beach on holiday.<\/p>\n\n\n\n<p>I like things that connect me to the earth. Cycling and gardening means I have to pay attention to weather. Gardening and growing food also puts you very much in touch with the seasons.<\/p>\n\n\n\n<p>I like cooking (even though Sally does most of it) and baking. \u00a0I like the processes of brewing tea and filter coffee. I like the slowness of making sourdough bread which is a thing which, when starter and dough, feels very much \u201calive\u201d.<\/p>\n\n\n\n<p>Computers and the internet are great, brilliant, amazing things. But there\u2019s something special about just feeling the grass beneath your feet.<\/p>\n",
-        "excerpt": "<p>Computers and the internet are great, brilliant, amazing things. But there\u2019s something special about just feeling the grass beneath your feet.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

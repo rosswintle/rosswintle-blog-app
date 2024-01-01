@@ -1,6 +1,258 @@
 [
     {
         "dataAsArray": {
+            "id": 1645,
+            "date": "2013-07-01T09:55:28",
+            "date_gmt": "2013-07-01T08:55:28",
+            "guid": {
+                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1645"
+            },
+            "modified": "2013-06-30T12:14:29",
+            "modified_gmt": "2013-06-30T11:14:29",
+            "slug": "going-digital-books",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/",
+            "title": {
+                "rendered": "Going Digital: Books"
+            },
+            "content": {
+                "rendered": "<p><em>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to <a href=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\">read the introduction<\/a>.<\/em><\/p>\n<h2>Books and Me<\/h2>\n<p>In theory, I love books. I&#39;d love to be the kind of person that finishes a decent book once a week. In reality I&#39;m great at starting reading books, and awful at finishing them. And I just don&#39;t get novels.<\/p>\n<p>That means I&#39;m probably not the best person to be talking about book readers.<\/p>\n<p>But lately I have been reading books on web design and development.<\/p>\n<p>eBooks have always made a lot of sense to me. I think the Kindle is a genius piece of technology.  Why carry heavy books around with you when you can take one, small, electronic device? But, due to the fact that I&#39;m a rubbish reader, I&#39;ve never owned one, and so I&#39;ve never really been an eBook reader.<\/p>\n<p>When I bought an iPad, that all changed. I suddenly had a device that was great for reading long-form content on. It was time to Go Digital!<\/p>\n<h2>Reader Apps<\/h2>\n<p>To go digital with books and an iPad, you need a reader. And, like with music, when I first started looking, there wasn&#39;t an app that did what I wanted.  My needs were:<\/p>\n<ul>\n<li>runs on iOS &#8211; both iPhone and iPad optimised<\/li>\n<li>synchronises both my library and reading position across devices<\/li>\n<li>allows me to upload my own books (I&#39;ve got some pretty big book files with lots of images)<\/li>\n<\/ul>\n<p>Here&#39;s the main options I looked at:<\/p>\n<ul>\n<li>iBooks<\/li>\n<li>Kindle<\/li>\n<li>Readmill<\/li>\n<li>and&hellip;recently added&hellip;Google Play Books<\/li>\n<\/ul>\n<h3>iBooks<\/h3>\n<p>It&#39;s awful. I hate it. It feels slow and clumsy. It syncs reading position but not books. At least, not always. It confused me. And your options for uploading your own books are severely limited (I think it&#39;s just the iTunes book store or uploading from an iOS device). Don&#39;t bother.<\/p>\n<h3>Kindle<\/h3>\n<p>Kindle is a nice reader, if a little simple. You have the ability to upload up to 5GB of <a href=\"http:\/\/www.amazon.co.uk\/gp\/help\/customer\/display.html?nodeId=200767360\">personal documents<\/a> by email, or using an uploader app, and it&#39;s syncs your reading position.<\/p>\n<p>Kindle also has the advantage that it can read Kindle books bought from Amazon&#39;s really rather large library. Something that, to my knowledge, you can&#39;t do with other reader apps.<\/p>\n<h3>Readmill<\/h3>\n<p>I&#39;d not heard of Readmill until I came across a button on a website I was downloading an eBook from. And I love it.<\/p>\n<p>Readmill is an eBook Reader that incorporates the concept of &#39;Social Reading&#39;. This means that other people can see what you&#39;re reading and the &#39;highlights&#39; you&#39;ve made from each book. It tracks how long you&#39;ve been reading and can track your location and tell you where you&#39;ve been reading, so you can observe your own reading habits.<\/p>\n<p>The app is simple, but effective and beautiful. The typography is perfect. Visually it&#39;s my favourite reader app.<\/p>\n<p>You can upload books to Readmill from a web browser and it syncs them, and your reading position and highlights, to your devices.<\/p>\n<p>The downside: it&#39;s iOS only and it accepts a very limited set of book formats.<\/p>\n<h3>Google Play<\/h3>\n<p>As with other things, Google were late to the party here. Their iOS app is acceptable, but not amazing. It does all the syncing you&#39;d expect, and you can upload up to 1000 of your own books\/files to Google Play from the website, as long as they&#39;re smaller than 50MB each.<\/p>\n<h3>Apps verdict<\/h3>\n<p>As an iOS user I&#39;ve adopted a combination of Readmill (for books I can download in the right format) and Kindle (for things bought from Amazon).<\/p>\n<p>I&#39;m not sure what I&#39;d do if I had an Android device. Maybe I&#39;d go Kindle all the way? Or maybe Google Play works better on Android?<\/p>\n<p>Of course, if I had a Kindle, I&#39;d use the Kindle app on other devices for sure.<\/p>\n<h2>So did you &#39;Go Digital&#39;?<\/h2>\n<p>I still have a lot of paper books. And I&#39;ve not bought any books for a long time. And, actually, those that I have have, for various odd reasons, been from Amazon in Kindle format.<\/p>\n<p>And in terms of my web design and development reading, I&#39;m semi-digital. I have bought some digital-only books, but in other cases I&#39;ve wanted the hard copy too. Why?  I think it&#39;s just because the experience of flicking through pages of a book can&#39;t actually be replicated fully on a digital device.<\/p>\n<p>I&#39;d say eBooks were on test.  Maybe I will eventually fully convert and buy new books as eBooks only. But I&#39;m not there yet.<\/p>\n<p>What I do love is Readmill&#39;s social reading idea. It adds something to eBooks that you don&#39;t get with paper. And as someone who struggles to read I think it would be really great to share my reading within a community. I might encourage me to read more!<\/p>\n<p>Do you read eBooks? What devices and apps do you use? What are your frustrations and what works? Do you just buy eBooks or do you still buy paper copies too?  I&#39;d be interested to hear your experiences.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to read the introduction. Books and Me In theory, I love books. I&#39;d love to be the kind of person that finishes a decent book once a week. In reality I&#39;m great at starting reading books, and [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                447
+            ],
+            "tags": [
+                450,
+                28,
+                425,
+                220,
+                451,
+                453,
+                452
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Going Digital: Books - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Going Digital: Books - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This is part of a mini-series of posts about &#039;Going Digital&#039;. If you missed it you might want to read the introduction. Books and Me In theory, I love books. I&#039;d love to be the kind of person that finishes a decent book once a week. In reality I&#039;m great at starting reading books, and [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2013-07-01T08:55:28+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2013-06-30T11:14:29+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/\",\"url\":\"https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/\",\"name\":\"Going Digital: Books - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2013-07-01T08:55:28+00:00\",\"dateModified\":\"2013-06-30T11:14:29+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Going Digital: Books\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Going Digital: Books - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Going Digital: Books - Ross Wintle",
+                "og_description": "This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to read the introduction. Books and Me In theory, I love books. I&#39;d love to be the kind of person that finishes a decent book once a week. In reality I&#39;m great at starting reading books, and [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2013-07-01T08:55:28+00:00",
+                "article_modified_time": "2013-06-30T11:14:29+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "4 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/",
+                            "url": "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/",
+                            "name": "Going Digital: Books - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2013-07-01T08:55:28+00:00",
+                            "dateModified": "2013-06-30T11:14:29+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Going Digital: Books"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1645"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1645"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 2,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1645\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 1655,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1645\/revisions\/1655"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1645"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1645"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1645"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 1645,
+        "dateGmt": "2013-07-01T08:55:28",
+        "modifiedDateGmt": "2013-06-30T11:14:29",
+        "slug": "going-digital-books",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2013\/07\/going-digital-books\/",
+        "title": "Going Digital: Books",
+        "content": "<p><em>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to <a href=\"https:\/\/rosswintle.uk\/2013\/06\/going-digital-introduction\/\">read the introduction<\/a>.<\/em><\/p>\n<h2>Books and Me<\/h2>\n<p>In theory, I love books. I&#39;d love to be the kind of person that finishes a decent book once a week. In reality I&#39;m great at starting reading books, and awful at finishing them. And I just don&#39;t get novels.<\/p>\n<p>That means I&#39;m probably not the best person to be talking about book readers.<\/p>\n<p>But lately I have been reading books on web design and development.<\/p>\n<p>eBooks have always made a lot of sense to me. I think the Kindle is a genius piece of technology.  Why carry heavy books around with you when you can take one, small, electronic device? But, due to the fact that I&#39;m a rubbish reader, I&#39;ve never owned one, and so I&#39;ve never really been an eBook reader.<\/p>\n<p>When I bought an iPad, that all changed. I suddenly had a device that was great for reading long-form content on. It was time to Go Digital!<\/p>\n<h2>Reader Apps<\/h2>\n<p>To go digital with books and an iPad, you need a reader. And, like with music, when I first started looking, there wasn&#39;t an app that did what I wanted.  My needs were:<\/p>\n<ul>\n<li>runs on iOS &#8211; both iPhone and iPad optimised<\/li>\n<li>synchronises both my library and reading position across devices<\/li>\n<li>allows me to upload my own books (I&#39;ve got some pretty big book files with lots of images)<\/li>\n<\/ul>\n<p>Here&#39;s the main options I looked at:<\/p>\n<ul>\n<li>iBooks<\/li>\n<li>Kindle<\/li>\n<li>Readmill<\/li>\n<li>and&hellip;recently added&hellip;Google Play Books<\/li>\n<\/ul>\n<h3>iBooks<\/h3>\n<p>It&#39;s awful. I hate it. It feels slow and clumsy. It syncs reading position but not books. At least, not always. It confused me. And your options for uploading your own books are severely limited (I think it&#39;s just the iTunes book store or uploading from an iOS device). Don&#39;t bother.<\/p>\n<h3>Kindle<\/h3>\n<p>Kindle is a nice reader, if a little simple. You have the ability to upload up to 5GB of <a href=\"http:\/\/www.amazon.co.uk\/gp\/help\/customer\/display.html?nodeId=200767360\">personal documents<\/a> by email, or using an uploader app, and it&#39;s syncs your reading position.<\/p>\n<p>Kindle also has the advantage that it can read Kindle books bought from Amazon&#39;s really rather large library. Something that, to my knowledge, you can&#39;t do with other reader apps.<\/p>\n<h3>Readmill<\/h3>\n<p>I&#39;d not heard of Readmill until I came across a button on a website I was downloading an eBook from. And I love it.<\/p>\n<p>Readmill is an eBook Reader that incorporates the concept of &#39;Social Reading&#39;. This means that other people can see what you&#39;re reading and the &#39;highlights&#39; you&#39;ve made from each book. It tracks how long you&#39;ve been reading and can track your location and tell you where you&#39;ve been reading, so you can observe your own reading habits.<\/p>\n<p>The app is simple, but effective and beautiful. The typography is perfect. Visually it&#39;s my favourite reader app.<\/p>\n<p>You can upload books to Readmill from a web browser and it syncs them, and your reading position and highlights, to your devices.<\/p>\n<p>The downside: it&#39;s iOS only and it accepts a very limited set of book formats.<\/p>\n<h3>Google Play<\/h3>\n<p>As with other things, Google were late to the party here. Their iOS app is acceptable, but not amazing. It does all the syncing you&#39;d expect, and you can upload up to 1000 of your own books\/files to Google Play from the website, as long as they&#39;re smaller than 50MB each.<\/p>\n<h3>Apps verdict<\/h3>\n<p>As an iOS user I&#39;ve adopted a combination of Readmill (for books I can download in the right format) and Kindle (for things bought from Amazon).<\/p>\n<p>I&#39;m not sure what I&#39;d do if I had an Android device. Maybe I&#39;d go Kindle all the way? Or maybe Google Play works better on Android?<\/p>\n<p>Of course, if I had a Kindle, I&#39;d use the Kindle app on other devices for sure.<\/p>\n<h2>So did you &#39;Go Digital&#39;?<\/h2>\n<p>I still have a lot of paper books. And I&#39;ve not bought any books for a long time. And, actually, those that I have have, for various odd reasons, been from Amazon in Kindle format.<\/p>\n<p>And in terms of my web design and development reading, I&#39;m semi-digital. I have bought some digital-only books, but in other cases I&#39;ve wanted the hard copy too. Why?  I think it&#39;s just because the experience of flicking through pages of a book can&#39;t actually be replicated fully on a digital device.<\/p>\n<p>I&#39;d say eBooks were on test.  Maybe I will eventually fully convert and buy new books as eBooks only. But I&#39;m not there yet.<\/p>\n<p>What I do love is Readmill&#39;s social reading idea. It adds something to eBooks that you don&#39;t get with paper. And as someone who struggles to read I think it would be really great to share my reading within a community. I might encourage me to read more!<\/p>\n<p>Do you read eBooks? What devices and apps do you use? What are your frustrations and what works? Do you just buy eBooks or do you still buy paper copies too?  I&#39;d be interested to hear your experiences.<\/p>\n",
+        "excerpt": "<p>This is part of a mini-series of posts about &#39;Going Digital&#39;. If you missed it you might want to read the introduction. Books and Me In theory, I love books. I&#39;d love to be the kind of person that finishes a decent book once a week. In reality I&#39;m great at starting reading books, and [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 1641,
             "date": "2013-06-30T10:10:00",
             "date_gmt": "2013-06-30T09:10:00",
@@ -2243,245 +2495,6 @@
         "title": "Get Britain Cycling",
         "content": "<p>Hello blog. It&#8217;s been a while&#8230;again.<\/p>\n<p>This is really an extended Tweet which makes idea blog post material.<\/p>\n<p>I&#8217;ve not been cycling much lately. A combination of working from home and not really having any spare time due to running a business and being a dad. But I still love my bike and my cycling and think getting more people cycling would be a great idea for a whole load of reasons.<\/p>\n<p>So I&#8217;ve been following The Times&#8217; &#8216;Cities Fit for Cycling&#8217; campaign and the All Party Parliamentary Cycling Group&#8217;s &#8216;<a href=\"http:\/\/allpartycycling.org\">Get Britain Cycling<\/a>&#8216;<br \/>\nInquiry and the <a href=\"http:\/\/allpartycycling.files.wordpress.com\/2013\/04\/get-britain-cycling_goodwin-report.pdf\">subsequent report<\/a>, published a few days ago.<\/p>\n<p>I confess I&#8217;ve not read the report but the headlines seem to be a recommendation to get 10% of journeys made by bike by 2025 and at least \u00a310 per person per year of the transport budget spent by the government on cycling.<\/p>\n<p>This sounds to me like seriously good stuff. If would ease congestion, make people fitter and healthier leading to a more healthy workforce and less strain on the NHS, reduce road maintenance and building costs, improve road safety for all, reduce carbon emissions, boost bike manufacturing and sales in the UK, and lead to a greater service industry around cycling. So many good things.<\/p>\n<p>And it&#8217;s <a href=\"http:\/\/www.thetimes.co.uk\/tto\/public\/cyclesafety\/article3749149.ece\">not just me that thinks so<\/a>.  Lord Sugar, Barclays Bank, Sainsburys, the Confederation of British Industry and a whole load of others think this is a good idea.<\/p>\n<p>The president of the AA said: \u201cImplementation of the Get Britain Cycling recommendations would bring tangible business and economic benefits by reducing congestion, absenteeism, NHS costs and by producing a more creative and active workforce.\u201d<\/p>\n<p>The chairman of the Federation of Small Businesses said that more people cycling to work would help &#8220;both the health of the high street as well as the nation&#8221;.<\/p>\n<p>I simply don&#8217;t see how anyone can argue that the &#8216;reduced congestion, environmental benefits and healthier citizens&#8217; that the APPCG claim as benefits would be good for our nation.  This is the conclusion of an all-party parliamentary inquiry with extensive evidence from over 100 individuals and organisations.<\/p>\n<p>So, whether you walk, cycle, get the bus, or drive to work, school, college, or wherever. Or even if, like me, you simply stagger down the landing in your pyjamas to start your day, can I point you at <a href=\"http:\/\/epetitions.direct.gov.uk\/petitions\/49196\">this petition<\/a> to get the government to pay attention to the recommendations of the report.<\/p>\n<p>Thank you.<\/p>\n",
         "excerpt": "<p>Hello blog. It&#8217;s been a while&#8230;again. This is really an extended Tweet which makes idea blog post material. I&#8217;ve not been cycling much lately. A combination of working from home and not really having any spare time due to running a business and being a dad. But I still love my bike and my cycling [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 1544,
-            "date": "2013-02-14T22:43:23",
-            "date_gmt": "2013-02-14T22:43:23",
-            "guid": {
-                "rendered": "http:\/\/blog.wintle.me.uk\/?p=1544"
-            },
-            "modified": "2013-02-14T22:43:23",
-            "modified_gmt": "2013-02-14T22:43:23",
-            "slug": "a-saint-and-a-valentine",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/",
-            "title": {
-                "rendered": "A saint and a valentine"
-            },
-            "content": {
-                "rendered": "<p>I&#8217;ve been poorly today so Sally has taken Isaac to nursery (usually my job) prepared tea in the slow cooker, looked after Isaac all night (as always) and not complained or been bothered by it at all. She&#8217;s done everything needed to let me just rest and fight off my man-flu.<\/p>\n<p>And today just about sums her up: patient, dedicated, loving.<\/p>\n<p>She has supported me through a major change of work and life and helps me daily as I run my business and work hard for my clients.  She&#8217;s a massively dedicated mum who puts her son first in everything at great personal cost to herself.  She&#8217;s a brilliant cook, wonderfully creative, hard working, and caring of the people and things around her.<\/p>\n<p>And so today, while I wasn&#8217;t physically able to get to a shop, and we don&#8217;t normally indulge in Valentines gifts anyway, I want to take this opportunity to publicly honour my wife.<\/p>\n<p>Thank you Sally.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>I&#8217;ve been poorly today so Sally has taken Isaac to nursery (usually my job) prepared tea in the slow cooker, looked after Isaac all night (as always) and not complained or been bothered by it at all. She&#8217;s done everything needed to let me just rest and fight off my man-flu. And today just about [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [
-                288
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>A saint and a valentine - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A saint and a valentine - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;ve been poorly today so Sally has taken Isaac to nursery (usually my job) prepared tea in the slow cooker, looked after Isaac all night (as always) and not complained or been bothered by it at all. She&#8217;s done everything needed to let me just rest and fight off my man-flu. And today just about [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2013-02-14T22:43:23+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/\",\"url\":\"https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/\",\"name\":\"A saint and a valentine - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2013-02-14T22:43:23+00:00\",\"dateModified\":\"2013-02-14T22:43:23+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"A saint and a valentine\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "A saint and a valentine - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "A saint and a valentine - Ross Wintle",
-                "og_description": "I&#8217;ve been poorly today so Sally has taken Isaac to nursery (usually my job) prepared tea in the slow cooker, looked after Isaac all night (as always) and not complained or been bothered by it at all. She&#8217;s done everything needed to let me just rest and fight off my man-flu. And today just about [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2013-02-14T22:43:23+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/",
-                            "url": "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/",
-                            "name": "A saint and a valentine - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2013-02-14T22:43:23+00:00",
-                            "dateModified": "2013-02-14T22:43:23+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "A saint and a valentine"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1544"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=1544"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/1544\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=1544"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=1544"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=1544"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 1544,
-        "dateGmt": "2013-02-14T22:43:23",
-        "modifiedDateGmt": "2013-02-14T22:43:23",
-        "slug": "a-saint-and-a-valentine",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2013\/02\/a-saint-and-a-valentine\/",
-        "title": "A saint and a valentine",
-        "content": "<p>I&#8217;ve been poorly today so Sally has taken Isaac to nursery (usually my job) prepared tea in the slow cooker, looked after Isaac all night (as always) and not complained or been bothered by it at all. She&#8217;s done everything needed to let me just rest and fight off my man-flu.<\/p>\n<p>And today just about sums her up: patient, dedicated, loving.<\/p>\n<p>She has supported me through a major change of work and life and helps me daily as I run my business and work hard for my clients.  She&#8217;s a massively dedicated mum who puts her son first in everything at great personal cost to herself.  She&#8217;s a brilliant cook, wonderfully creative, hard working, and caring of the people and things around her.<\/p>\n<p>And so today, while I wasn&#8217;t physically able to get to a shop, and we don&#8217;t normally indulge in Valentines gifts anyway, I want to take this opportunity to publicly honour my wife.<\/p>\n<p>Thank you Sally.<\/p>\n",
-        "excerpt": "<p>I&#8217;ve been poorly today so Sally has taken Isaac to nursery (usually my job) prepared tea in the slow cooker, looked after Isaac all night (as always) and not complained or been bothered by it at all. She&#8217;s done everything needed to let me just rest and fight off my man-flu. And today just about [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

@@ -1,6 +1,248 @@
 [
     {
         "dataAsArray": {
+            "id": 11593,
+            "date": "2023-01-13T00:00:00",
+            "date_gmt": "2023-01-13T00:00:00",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=11593"
+            },
+            "modified": "2023-01-14T09:07:12",
+            "modified_gmt": "2023-01-14T09:07:12",
+            "slug": "website-pt-2-a-5-minute-window",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
+            "title": {
+                "rendered": "Website pt 2 &#8211; A 5 Minute Window"
+            },
+            "content": {
+                "rendered": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Let&#039;s Make a Website pt 2 - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/iGVrY5jhF_k?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>Hi!<\/p>\n\n\n\n<p>I&#8217;m not sure how this will go today. I don&#8217;t have much of a plan.<\/p>\n\n\n\n<p>We&#8217;re building a website though.<\/p>\n\n\n\n<p>Infrastructure is in place (See the last video).<\/p>\n\n\n\n<p>The site is a simple index for a domain I own: veryuseful.app<\/p>\n\n\n\n<p>I build small side projects on subdomains of this. And I want a landing page to show<br>what is there.<\/p>\n\n\n\n<p>I&#8217;ve seen a new component library for TailwindCSS recently called\u2026<\/p>\n\n\n\n<p>Sailboat!<\/p>\n\n\n\n<p>So I&#8217;m going to try that out.<\/p>\n\n\n\n<p>My CSS and front-end may be a bit rusty, so bear with me!<\/p>\n\n\n\n<p>We&#8217;re working in VS Code\u2026<\/p>\n\n\n\n<p>My little starter kit doesn&#8217;t have hot reloading or anything, but I run the<br>build script in a loop\u2026<\/p>\n\n\n\n<p>Like this:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>> while true; do .\/build.sh; sleep 5; done;<\/code><\/pre>\n\n\n\n<p>Hang on &#8211; where IS this site?<\/p>\n\n\n\n<p>Ah yes, veryuseful.test!<\/p>\n\n\n\n<p>Let&#8217;s grab the card component\u2026<\/p>\n\n\n\n<p>Let&#8217;s see what the parts of this are.<\/p>\n\n\n\n<p>Need to include it in the main template first!<\/p>\n\n\n\n<p>What happened?<\/p>\n\n\n\n<p>Ah! Didn&#8217;t save the card. Silly me.<\/p>\n\n\n\n<p>Not helpful. I&#8217;ll do some more work and pick it up tomorrow.<\/p>\n\n\n\n<p>Hopefully you see how the little framework is helpful though.<\/p>\n\n\n\n<p>That&#8217;s at\u2026<\/p>\n\n\n\n<p><a href=\"https:\/\/github.com\/rosswintle\/small-site-template\">https:\/\/github.com\/rosswintle\/small-site-template<\/a><\/p>\n\n\n\n<p>Good night!<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I&#8217;m not sure how this will go today. I don&#8217;t have much of a plan.<\/p>\n<p>We&#8217;re building a website though.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "closed",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                5175
+            ],
+            "tags": [
+                712
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Website pt 2 - A 5 Minute Window - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Website pt 2 - A 5 Minute Window - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m not sure how this will go today. I don&#039;t have much of a plan. We&#039;re building a website though.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2023-01-13T00:00:00+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2023-01-14T09:07:12+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\",\"url\":\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\",\"name\":\"Website pt 2 - A 5 Minute Window - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2023-01-13T00:00:00+00:00\",\"dateModified\":\"2023-01-14T09:07:12+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Website pt 2 &#8211; A 5 Minute Window\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Website pt 2 - A 5 Minute Window - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Website pt 2 - A 5 Minute Window - Ross Wintle",
+                "og_description": "I'm not sure how this will go today. I don't have much of a plan. We're building a website though.",
+                "og_url": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2023-01-13T00:00:00+00:00",
+                "article_modified_time": "2023-01-14T09:07:12+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "1 minute"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
+                            "url": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
+                            "name": "Website pt 2 - A 5 Minute Window - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2023-01-13T00:00:00+00:00",
+                            "dateModified": "2023-01-14T09:07:12+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Website pt 2 &#8211; A 5 Minute Window"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11593"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11593"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 3,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11593\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 11596,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11593\/revisions\/11596"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11593"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11593"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11593"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 11593,
+        "dateGmt": "2023-01-13T00:00:00",
+        "modifiedDateGmt": "2023-01-14T09:07:12",
+        "slug": "website-pt-2-a-5-minute-window",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2023\/01\/website-pt-2-a-5-minute-window\/",
+        "title": "Website pt 2 &#8211; A 5 Minute Window",
+        "content": "\n<figure class=\"wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" title=\"Let&#039;s Make a Website pt 2 - A 5 Minute Window:\" width=\"640\" height=\"480\" src=\"https:\/\/www.youtube.com\/embed\/iGVrY5jhF_k?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen><\/iframe>\n<\/div><\/figure>\n\n\n\n<p>Hi!<\/p>\n\n\n\n<p>I&#8217;m not sure how this will go today. I don&#8217;t have much of a plan.<\/p>\n\n\n\n<p>We&#8217;re building a website though.<\/p>\n\n\n\n<p>Infrastructure is in place (See the last video).<\/p>\n\n\n\n<p>The site is a simple index for a domain I own: veryuseful.app<\/p>\n\n\n\n<p>I build small side projects on subdomains of this. And I want a landing page to show<br>what is there.<\/p>\n\n\n\n<p>I&#8217;ve seen a new component library for TailwindCSS recently called\u2026<\/p>\n\n\n\n<p>Sailboat!<\/p>\n\n\n\n<p>So I&#8217;m going to try that out.<\/p>\n\n\n\n<p>My CSS and front-end may be a bit rusty, so bear with me!<\/p>\n\n\n\n<p>We&#8217;re working in VS Code\u2026<\/p>\n\n\n\n<p>My little starter kit doesn&#8217;t have hot reloading or anything, but I run the<br>build script in a loop\u2026<\/p>\n\n\n\n<p>Like this:<\/p>\n\n\n\n<pre class=\"wp-block-code\"><code>> while true; do .\/build.sh; sleep 5; done;<\/code><\/pre>\n\n\n\n<p>Hang on &#8211; where IS this site?<\/p>\n\n\n\n<p>Ah yes, veryuseful.test!<\/p>\n\n\n\n<p>Let&#8217;s grab the card component\u2026<\/p>\n\n\n\n<p>Let&#8217;s see what the parts of this are.<\/p>\n\n\n\n<p>Need to include it in the main template first!<\/p>\n\n\n\n<p>What happened?<\/p>\n\n\n\n<p>Ah! Didn&#8217;t save the card. Silly me.<\/p>\n\n\n\n<p>Not helpful. I&#8217;ll do some more work and pick it up tomorrow.<\/p>\n\n\n\n<p>Hopefully you see how the little framework is helpful though.<\/p>\n\n\n\n<p>That&#8217;s at\u2026<\/p>\n\n\n\n<p><a href=\"https:\/\/github.com\/rosswintle\/small-site-template\">https:\/\/github.com\/rosswintle\/small-site-template<\/a><\/p>\n\n\n\n<p>Good night!<\/p>\n",
+        "excerpt": "<p>I&#8217;m not sure how this will go today. I don&#8217;t have much of a plan.<\/p>\n<p>We&#8217;re building a website though.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 11576,
             "date": "2023-01-12T00:00:00",
             "date_gmt": "2023-01-12T00:00:00",
@@ -2176,248 +2418,6 @@
         "title": "Mastodon &#8211; what I know that you may need to",
         "content": "\n<p>So I&#8217;ve been on Mastodon for a little longer that most, and I&#8217;ve taken some time to look into how it works. So I&#8217;m a little ahead of the curve. And lots of people are asking questions about it.<\/p>\n\n\n\n<p>There are a ton of posts about it. But perhaps you trust me more than other random strangers? Here&#8217;s my take.<\/p>\n\n\n\n<p>My thing is: You don&#8217;t have to move to it. You can stay on Twitter (though there are MANY good reasons not to right now). You can also move to other places like Tumblr. Or stay on Instagram or Facebook. You really don&#8217;t have to.<\/p>\n\n\n\n<p>But you probably want to make an informed choice. So here&#8217;s my general info.<\/p>\n\n\n\n<ul>\n<li>Yes, Mastodon is quite a lot like Twitter, but it also has a lot of differences<\/li>\n\n\n\n<li>Mastodon has different &#8220;servers&#8221; (sometimes called &#8220;instances&#8221;). Each server is like a little self-contained mini-Twitter. BUT, servers can talk to each other. You will hear this called &#8220;federation&#8221;.<\/li>\n\n\n\n<li>Some people say it&#8217;s &#8220;like email&#8221; because if you have GMail you can send and receive messages to someone with Outlook. And it IS like that, but there are other things about the server that you are on that are important.<\/li>\n\n\n\n<li>So if you sign up for an account on, say, <a href=\"https:\/\/mastodon.social\" target=\"_blank\" rel=\"noreferrer noopener\">mastodon.social<\/a> (which I wouldn&#8217;t recommend because it&#8217;s overloaded), you can see posts by me on the server that I&#8217;m on: <a href=\"https:\/\/fosstodon.org\" target=\"_blank\" rel=\"noreferrer noopener\">fosstodon.org<\/a>.<\/li>\n\n\n\n<li>Each server has its own rules (these are on the &#8220;about&#8221; page for the server). So check these out before you join. My server, for example, forbids a thing called &#8220;s**tposting&#8221; and &#8220;spam&#8221;. Generally these rules are A Good Thing(TM).<\/li>\n\n\n\n<li>You also get to see a &#8220;local feed&#8221; from your own server. So if you&#8217;re into, say, bollards, and you joins the <a href=\"https:\/\/bollards.lol\" target=\"_blank\" rel=\"noreferrer noopener\">bollards.lol<\/a> server then your local feed will be full of people talking about bollards. This may or may not be of interest to you. (Other servers are available.)<\/li>\n\n\n\n<li>You can move servers. But not, like, every day. And there are limitations to it. Like, your posts don&#8217;t move with you, but your followers do.<\/li>\n\n\n\n<li>Mastodon has the appearance of being &#8220;free as in beer&#8221;. But it is costing someone &#8211; the person running the server &#8211; money to run it and time to moderate it. So please, please, PLEASE consider sending your server admins a few \u00a3s to support them.<\/li>\n\n\n\n<li>There&#8217;s no ads or algorithms. &#8220;Likes&#8221; don&#8217;t influence who sees something. There&#8217;s no &#8220;Look! Here&#8217;s a post from someone that someone you follow follows liked.&#8221; Or &#8220;Here&#8217;s a random video of a bollard that you&#8217;re seeing just, because, well, Bollards are cool right now.&#8221;<\/li>\n<\/ul>\n\n\n\n<p>I will take further questions.<\/p>\n\n\n\n<p>But not about bollards.<\/p>\n\n\n\n<p>Sorry if you love bollards.<\/p>\n",
         "excerpt": "<p>There are a ton of posts about Mastodon. But perhaps you trust me more than other random strangers? Here&#8217;s my take.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 11394,
-            "date": "2022-10-28T22:16:42",
-            "date_gmt": "2022-10-28T21:16:42",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=11394"
-            },
-            "modified": "2022-11-04T21:50:57",
-            "modified_gmt": "2022-11-04T21:50:57",
-            "slug": "something-about-twitter",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/",
-            "title": {
-                "rendered": "Something about Twitter"
-            },
-            "content": {
-                "rendered": "\n<p>So Elon bought Twitter. And lots of people are attempting to take their social presence elsewhere. Which is a good idea. But to me seems futile, in the short term at least.<\/p>\n\n\n\n<p>Don&#8217;t get me wrong. I would genuinely love to see a move towards a more open technology based on common protocols and where people own their own information.<\/p>\n\n\n\n<p>I love <a href=\"https:\/\/micro.blog\/\">Micro.blog<\/a> (which is often the answer when people propose &#8220;can&#8217;t we just aggregate RSS feeds somehow?&#8221;). I&#8217;m sometimes <a href=\"https:\/\/micro.blog\/ross\">over there<\/a> for starters.<\/p>\n\n\n\n<p>I&#8217;ve tried Mastodon several times as <a href=\"https:\/\/fosstodon.org\/ross\">@ross@fosstodon.org<\/a> (previously <a href=\"https:\/\/mastodon.social\/@magicroundabout\">@magicroundabout@mastodon.social<\/a>).<\/p>\n\n\n\n<p>And I recently found the fun-looking collection of tools over at <a href=\"https:\/\/omg.lol\/\">omg.lol<\/a> where I signed up as <a href=\"https:\/\/rw.omg.lol\/\">rw.omg.lol<\/a> with a &#8220;status log&#8221; at <a href=\"https:\/\/omg.lol\/@rw\">omg.lol\/@rw<\/a><\/p>\n\n\n\n<p>But we\u2019ve seen this attempted exodus to the promised land many times before.<\/p>\n\n\n\n<p>Without a proper mass migration of people and organisations to another service, it doesn\u2019t stick.<\/p>\n\n\n\n<p>You end up with people cross posting to multiple services to reach all the people that they want to reach.<\/p>\n\n\n\n<p>And then as a reader I\u2019m checking multiple services and seeing the same things. The signal\/noise ratio goes down.<\/p>\n\n\n\n<p>And most people get fed up and end up back where they were before.<\/p>\n\n\n\n<p>It takes huge discipline and sacrifice by a large number of people simultaneously to have the right effect.&nbsp;This is hard to achieve. I&nbsp;don\u2019t&nbsp;understand how a mass migration to not-Twitter happens.<\/p>\n\n\n\n<p>(I&#8217;m aware that the use of &#8220;sacrifice&#8221; here may seem odd, but for all their flaws, the big social networks have real, genuine value for people, so you do often give something up when you move somewhere quieter. You could, however, replace &#8220;discipline and sacrifice&#8221; with &#8220;not-giving-a-crappery&#8221; if you want to.&nbsp;That\u2019s&nbsp;definitely also an option for how to leave. To simply not care.)<\/p>\n\n\n\n<p>Many people are flocking to Mastodon. My personal issue with Mastodon specifically is that I feel like&nbsp;I\u2019m&nbsp;either putting my social presence in the hands of a total stranger with an unknown business model and no clue as to the service\u2019s sustainability.&nbsp;Or I have the pain and cost of running\/managing my own server.<\/p>\n\n\n\n<p>Now I don&#8217;t mind paying a little for a social presence that has value, but Mastodon simply hasn&#8217;t had that for me yet.<\/p>\n\n\n\n<p>I prefer the <a href=\"https:\/\/micro.blog\/\">micro.blog<\/a> model. It\u2019s been around for a while and <a href=\"https:\/\/micro.blog\/manton\">Manton<\/a> seems to have built a sustainable indie platform. You can bring your own \u201cCMS\u201d and he does the following\/feed\/comment bits. Or you can use the very simple posting\/blogging system that he&#8217;s built for a small fee.&nbsp;It\u2019s&nbsp;all based on open&nbsp;standards and <a href=\"https:\/\/indieweb.org\/\">indieweb<\/a>&nbsp;protocols, but it has the simplicity of setup that an everyday internet user needs to get started.<\/p>\n\n\n\n<p>I\u2019m not saying I wouldn\u2019t love a mass migration to happen.&nbsp;I\u2019ve just seen so many attempts now and none seem to have been particularly successful, and I don&#8217;t see why this one would either.<\/p>\n\n\n\n<p>For a big change to happen, I think either the platform has to spontaneously combust itself or it falls out of fashion by a long period of attrition and fades from the public consciousness over time. Facebook may even be at the start of this. Time will tell.<\/p>\n\n\n\n<p>Perhaps, one day, we will look back and remember that thing we all used called Twitter the same way we remember Geocities and MySpace. But I struggle to see how that will be next week or next month. It will be in many years.<\/p>\n\n\n\n<p>These occasional reconnaissance missions are good. I&#8217;m respectful of them. And grateful for them. They will eventually lead the charge away. So do look around. See if you feel at home elsewhere. And look me up elsewhere in the coming weeks too. The more of you that are elsewhere, the less I will think that I still need the big networks.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>My thoughts on what&#8217;s going on in social media this week.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "closed",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                421
-            ],
-            "tags": [
-                172
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Something about Twitter - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Something about Twitter - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"My thoughts on what&#039;s going on in social media this week.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2022-10-28T21:16:42+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-11-04T21:50:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/\",\"url\":\"https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/\",\"name\":\"Something about Twitter - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2022-10-28T21:16:42+00:00\",\"dateModified\":\"2022-11-04T21:50:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Something about Twitter\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Something about Twitter - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Something about Twitter - Ross Wintle",
-                "og_description": "My thoughts on what's going on in social media this week.",
-                "og_url": "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2022-10-28T21:16:42+00:00",
-                "article_modified_time": "2022-11-04T21:50:57+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "3 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/",
-                            "url": "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/",
-                            "name": "Something about Twitter - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2022-10-28T21:16:42+00:00",
-                            "dateModified": "2022-11-04T21:50:57+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Something about Twitter"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11394"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=11394"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 3,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11394\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 11404,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/11394\/revisions\/11404"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=11394"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=11394"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=11394"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 11394,
-        "dateGmt": "2022-10-28T21:16:42",
-        "modifiedDateGmt": "2022-11-04T21:50:57",
-        "slug": "something-about-twitter",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2022\/10\/something-about-twitter\/",
-        "title": "Something about Twitter",
-        "content": "\n<p>So Elon bought Twitter. And lots of people are attempting to take their social presence elsewhere. Which is a good idea. But to me seems futile, in the short term at least.<\/p>\n\n\n\n<p>Don&#8217;t get me wrong. I would genuinely love to see a move towards a more open technology based on common protocols and where people own their own information.<\/p>\n\n\n\n<p>I love <a href=\"https:\/\/micro.blog\/\">Micro.blog<\/a> (which is often the answer when people propose &#8220;can&#8217;t we just aggregate RSS feeds somehow?&#8221;). I&#8217;m sometimes <a href=\"https:\/\/micro.blog\/ross\">over there<\/a> for starters.<\/p>\n\n\n\n<p>I&#8217;ve tried Mastodon several times as <a href=\"https:\/\/fosstodon.org\/ross\">@ross@fosstodon.org<\/a> (previously <a href=\"https:\/\/mastodon.social\/@magicroundabout\">@magicroundabout@mastodon.social<\/a>).<\/p>\n\n\n\n<p>And I recently found the fun-looking collection of tools over at <a href=\"https:\/\/omg.lol\/\">omg.lol<\/a> where I signed up as <a href=\"https:\/\/rw.omg.lol\/\">rw.omg.lol<\/a> with a &#8220;status log&#8221; at <a href=\"https:\/\/omg.lol\/@rw\">omg.lol\/@rw<\/a><\/p>\n\n\n\n<p>But we\u2019ve seen this attempted exodus to the promised land many times before.<\/p>\n\n\n\n<p>Without a proper mass migration of people and organisations to another service, it doesn\u2019t stick.<\/p>\n\n\n\n<p>You end up with people cross posting to multiple services to reach all the people that they want to reach.<\/p>\n\n\n\n<p>And then as a reader I\u2019m checking multiple services and seeing the same things. The signal\/noise ratio goes down.<\/p>\n\n\n\n<p>And most people get fed up and end up back where they were before.<\/p>\n\n\n\n<p>It takes huge discipline and sacrifice by a large number of people simultaneously to have the right effect.&nbsp;This is hard to achieve. I&nbsp;don\u2019t&nbsp;understand how a mass migration to not-Twitter happens.<\/p>\n\n\n\n<p>(I&#8217;m aware that the use of &#8220;sacrifice&#8221; here may seem odd, but for all their flaws, the big social networks have real, genuine value for people, so you do often give something up when you move somewhere quieter. You could, however, replace &#8220;discipline and sacrifice&#8221; with &#8220;not-giving-a-crappery&#8221; if you want to.&nbsp;That\u2019s&nbsp;definitely also an option for how to leave. To simply not care.)<\/p>\n\n\n\n<p>Many people are flocking to Mastodon. My personal issue with Mastodon specifically is that I feel like&nbsp;I\u2019m&nbsp;either putting my social presence in the hands of a total stranger with an unknown business model and no clue as to the service\u2019s sustainability.&nbsp;Or I have the pain and cost of running\/managing my own server.<\/p>\n\n\n\n<p>Now I don&#8217;t mind paying a little for a social presence that has value, but Mastodon simply hasn&#8217;t had that for me yet.<\/p>\n\n\n\n<p>I prefer the <a href=\"https:\/\/micro.blog\/\">micro.blog<\/a> model. It\u2019s been around for a while and <a href=\"https:\/\/micro.blog\/manton\">Manton<\/a> seems to have built a sustainable indie platform. You can bring your own \u201cCMS\u201d and he does the following\/feed\/comment bits. Or you can use the very simple posting\/blogging system that he&#8217;s built for a small fee.&nbsp;It\u2019s&nbsp;all based on open&nbsp;standards and <a href=\"https:\/\/indieweb.org\/\">indieweb<\/a>&nbsp;protocols, but it has the simplicity of setup that an everyday internet user needs to get started.<\/p>\n\n\n\n<p>I\u2019m not saying I wouldn\u2019t love a mass migration to happen.&nbsp;I\u2019ve just seen so many attempts now and none seem to have been particularly successful, and I don&#8217;t see why this one would either.<\/p>\n\n\n\n<p>For a big change to happen, I think either the platform has to spontaneously combust itself or it falls out of fashion by a long period of attrition and fades from the public consciousness over time. Facebook may even be at the start of this. Time will tell.<\/p>\n\n\n\n<p>Perhaps, one day, we will look back and remember that thing we all used called Twitter the same way we remember Geocities and MySpace. But I struggle to see how that will be next week or next month. It will be in many years.<\/p>\n\n\n\n<p>These occasional reconnaissance missions are good. I&#8217;m respectful of them. And grateful for them. They will eventually lead the charge away. So do look around. See if you feel at home elsewhere. And look me up elsewhere in the coming weeks too. The more of you that are elsewhere, the less I will think that I still need the big networks.<\/p>\n",
-        "excerpt": "<p>My thoughts on what&#8217;s going on in social media this week.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

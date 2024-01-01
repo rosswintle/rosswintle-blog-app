@@ -1,6 +1,243 @@
 [
     {
         "dataAsArray": {
+            "id": 40,
+            "date": "2007-06-12T19:12:00",
+            "date_gmt": "2007-06-12T19:12:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/06\/12\/discovering-the-national-trust\/"
+            },
+            "modified": "2007-06-12T19:12:00",
+            "modified_gmt": "2007-06-12T19:12:00",
+            "slug": "discovering-the-national-trust",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
+            "title": {
+                "rendered": "Discovering the National Trust"
+            },
+            "content": {
+                "rendered": "<div>It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall.<\/p>\n<p>Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith.<\/p>\n<p>Today we had a really nice day, cycling north up the Lizard to the Helford estuary (about 10 miles), then getting the passenger ferry to Glendurgan gardens on the other side of the estuary.<\/p>\n<p>Now, I should point out that my wife recently started working for the National Trust, which comes with the great benefit of free entry to the National Trust&#8217;s properties.<\/p>\n<p>I&#8217;ve never really considered the National Trust as something of much interest.  It makes you think of big, stuffy old mansion houses and random bits of old castle.  But having been to a few places you start to realise how good the work that they do is, AND, having a link with them, you start to notice how much they look after.<\/p>\n<p>Here&#8217;s where we&#8217;ve been in a few months that&#8217;s owned by the National Trust:<\/p>\n<ul>\n<li>Lacock <\/li>\n<li>Buscot Castle Drogo<\/li>\n<li>Lizard Coast<\/li>\n<li> Lizard Point<\/li>\n<li> Kynance Cove<\/li>\n<li>Glendurgan Gardens<\/li>\n<li>and we&#8217;ll be going to St Michael&#8217;s Mount later in the week<\/li>\n<\/ul>\n<p>   Here are some things that have impressed me about the National Trust:<\/p>\n<ul>\n<li><span style=\"font-weight:bold;\">They own LOADS of stuff<\/span>: much of the Lizard&#8217;s coastline, many small coves and sites of beauty or scientific interest, lots of interesting buildings and gardens.  Some of it is well known and listed in their handbook, but lots of it is just land that they care for and preserve that&#8217;s not listed anywhere and is open to anyone for free!<\/li>\n<li><span style=\"font-weight:bold;\">Their facilities are always really good<\/span>: clean toilets, good information, friendly staff, well organised, well sign posted, lots of free leaflets, good food in their cafe&#8217;s.  The quality of what they do is always excellent.<\/li>\n<li><span style=\"font-weight:bold;\">They care for people<\/span>: related to good facilities, but also in Sally&#8217;s working for them, you can see that people are important to them and their quality and integrity stems from that.<\/li>\n<li><span style=\"font-weight:bold;\">They care for the environment:<\/span> they take the view that there&#8217;s no point preserving all this stuff if the world&#8217;s being messed up around it.  To that end they put their money where their mouth is and invest in things like solar panels, using their own resources, using renewable energy and materials, recycling, fair trade and so on.  They&#8217;re also keen on promoting environmental issues to their members.<\/li>\n<\/ul>\n<p>I&#8217;m really very impressed, to the extent that I&#8217;d pay for membership now- not just to get free entry to all their properties, but to support the good work that they do.<\/p>\n<p>If you don&#8217;t know much about the National Trust, look them up, find out what they do, look out for their land and properties and I hope you&#8217;ll agree that they do a great job and are worth supporting.<\/div>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall. Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith. Today we had a really nice [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Discovering the National Trust - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Discovering the National Trust - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall. Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith. Today we had a really nice [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-06-12T19:12:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\",\"name\":\"Discovering the National Trust - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-06-12T19:12:00+00:00\",\"dateModified\":\"2007-06-12T19:12:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Discovering the National Trust\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "Discovering the National Trust - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "Discovering the National Trust - Ross Wintle",
+                "og_description": "It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall. Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith. Today we had a really nice [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-06-12T19:12:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "2 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
+                            "name": "Discovering the National Trust - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-06-12T19:12:00+00:00",
+                            "dateModified": "2007-06-12T19:12:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "Discovering the National Trust"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/40"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=40"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/40\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=40"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=40"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=40"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 40,
+        "dateGmt": "2007-06-12T19:12:00",
+        "modifiedDateGmt": "2007-06-12T19:12:00",
+        "slug": "discovering-the-national-trust",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/06\/discovering-the-national-trust\/",
+        "title": "Discovering the National Trust",
+        "content": "<div>It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall.<\/p>\n<p>Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith.<\/p>\n<p>Today we had a really nice day, cycling north up the Lizard to the Helford estuary (about 10 miles), then getting the passenger ferry to Glendurgan gardens on the other side of the estuary.<\/p>\n<p>Now, I should point out that my wife recently started working for the National Trust, which comes with the great benefit of free entry to the National Trust&#8217;s properties.<\/p>\n<p>I&#8217;ve never really considered the National Trust as something of much interest.  It makes you think of big, stuffy old mansion houses and random bits of old castle.  But having been to a few places you start to realise how good the work that they do is, AND, having a link with them, you start to notice how much they look after.<\/p>\n<p>Here&#8217;s where we&#8217;ve been in a few months that&#8217;s owned by the National Trust:<\/p>\n<ul>\n<li>Lacock <\/li>\n<li>Buscot Castle Drogo<\/li>\n<li>Lizard Coast<\/li>\n<li> Lizard Point<\/li>\n<li> Kynance Cove<\/li>\n<li>Glendurgan Gardens<\/li>\n<li>and we&#8217;ll be going to St Michael&#8217;s Mount later in the week<\/li>\n<\/ul>\n<p>   Here are some things that have impressed me about the National Trust:<\/p>\n<ul>\n<li><span style=\"font-weight:bold;\">They own LOADS of stuff<\/span>: much of the Lizard&#8217;s coastline, many small coves and sites of beauty or scientific interest, lots of interesting buildings and gardens.  Some of it is well known and listed in their handbook, but lots of it is just land that they care for and preserve that&#8217;s not listed anywhere and is open to anyone for free!<\/li>\n<li><span style=\"font-weight:bold;\">Their facilities are always really good<\/span>: clean toilets, good information, friendly staff, well organised, well sign posted, lots of free leaflets, good food in their cafe&#8217;s.  The quality of what they do is always excellent.<\/li>\n<li><span style=\"font-weight:bold;\">They care for people<\/span>: related to good facilities, but also in Sally&#8217;s working for them, you can see that people are important to them and their quality and integrity stems from that.<\/li>\n<li><span style=\"font-weight:bold;\">They care for the environment:<\/span> they take the view that there&#8217;s no point preserving all this stuff if the world&#8217;s being messed up around it.  To that end they put their money where their mouth is and invest in things like solar panels, using their own resources, using renewable energy and materials, recycling, fair trade and so on.  They&#8217;re also keen on promoting environmental issues to their members.<\/li>\n<\/ul>\n<p>I&#8217;m really very impressed, to the extent that I&#8217;d pay for membership now- not just to get free entry to all their properties, but to support the good work that they do.<\/p>\n<p>If you don&#8217;t know much about the National Trust, look them up, find out what they do, look out for their land and properties and I hope you&#8217;ll agree that they do a great job and are worth supporting.<\/div>\n",
+        "excerpt": "<p>It&#8217;s the Tuesday of our week&#8217;s holiday in Cornwall. Yesterday we did a lovely walk around the bottom of the Lizard from Cadgwith Cove (very near where we are staying) along the coast path to Lizard Point and then on to Kynance Cove before tracking back, inland, to Cadgwith. Today we had a really nice [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 39,
             "date": "2007-06-05T22:16:00",
             "date_gmt": "2007-06-05T22:16:00",
@@ -2132,241 +2369,6 @@
         "title": "Storytelling",
         "content": "<p>&#8220;It&#8217;s dark, it&#8217;s cold, my skin is wet from walking through dense fog, and I want to know the way home.  Keeping my hands in my pockets, I shiver and shuffle around in my coat and draw it closer.  I&#8217;m lost, in a place I don&#8217;t know very well.  I don&#8217;t recognise anything.  Signposts tell me the way to streets and landmarks I&#8217;ve not been to.  I walk past the odd person I don&#8217;t recognise &#8211; well, why would I?  I know that home is nearby, somewhere, and yet, without a clue as to where I am, I could be out here all night&#8230;&#8221;<\/p>\n<p>A story?  A metaphor?  A parable?  Is it real?  Is it trying to tell me something?  What is it?<\/p>\n<p>I love the medium, the magic and the mystery of storytelling.  It&#8217;s an art that we&#8217;ve lost in modern times.<\/p>\n<p>I discovered it at Lee Abbey Summer Camp in Devon when I met a man called Simon &#8211; a really fun and interesting man who was a storyteller in his spare time.  He taught us some of the tricks of the trade in a short workshop and I was hooked.  He could communicate ideas, facts, morals, history, dreams and sometimes just stories, in such a captivating way.  It was amazing.<\/p>\n<p>I like storytelling as a means of communicating and I think that we should do it more.  Jesus told lots of stories to communicate important things to people in memorable ways.  Many will know the story of the Good Samaritan, and maybe the Prodigal Son.<\/p>\n<p>Yes, storytelling is a very good thing.  So why then do I find it so overused?<\/p>\n<p>In church services people pepper their talks, sermons or messages with little anecdotes to draw you in or make the points more practical.  Yet I find this dilutes a talk rather than enhancing it.<\/p>\n<p>In modern non-fiction books (and especially in books that fall into the &#8220;Christian Living&#8221; category) I find myself wallowing in stories and struggling to get to what&#8217;s actually being said.<\/p>\n<p>I&#8217;m currently trying to work out my love-hate relationship with storytelling.<\/p>\n<p>I THINK that what I see in talks and books are short anecdotes &#8211; not proper storytelling as such.  And these are useful.  But I think we need to be careful how, and how much, we use them, otherwise our message gets diluted, or our audience drifts off at the thought of another of so-and-so&#8217;s tiresome tales.<\/p>\n<p>What I saw Simon doing at Lee Abbey was REAL storytelling.  He didn&#8217;t need to add to it, or explain it.  The story itself &#8211; and the way he told it &#8211; was enough.  Sometimes he left you with questions, but that was OK; sometimes that WAS the point!<\/p>\n<p>Rob Bell of the Mars Hill Church in the US does a good mixture of both in his &#8220;Nooma&#8221; videos.  He tells a story.  One story.  That&#8217;s his parable, that&#8217;s his hook to get you in and to give you something to remember.  But then he develops that story into a message.  And it works.  We saw one of these videos on Sunday night.  I&#8217;d seen it before a few months ago and it was very familiar.  I can tell you all about Rob walking along the beach telling the story, his little boy wanting the thing on a strap that will hit him in the face and screaming &#8220;I WAAAAANT one&#8221; and &#8220;I NEEEED it&#8221; when daddy knows better.  And not just because I wrote about it in my &#8220;Sunday evening brain dump&#8221;.<\/p>\n<p>I&#8217;m fed up with the books I&#8217;m reading full of anecdotes, and I don&#8217;t connect with preaching that mixes up powerful truth and personal tales; they make me feel like a guy who&#8217;s lost in the fog who wishes he could find what he&#8217;s really looking for.  A story should get to the heart of the matter, it should be told passionately, and it should teach a simple truth.<\/p>\n<p>Yes, I&#8217;m not really sure what to make of storytelling.  I&#8217;ll keep trying to work out what I make of it.  I&#8217;m sure there&#8217;s no perfect formula but I just think it&#8217;s a means of communication that we could use better.  I&#8217;ll keep struggling with my books &#8211; there are good, real-life illustrations in there that make a point real.  I&#8217;ll keep listening to my preachers and teachers because, after all, they&#8217;re far wiser and more knowledgeable than I about most things.<\/p>\n<p>And hopefully the signposts and the people I come across will help me find my home.<\/p>\n",
         "excerpt": "<p>&#8220;It&#8217;s dark, it&#8217;s cold, my skin is wet from walking through dense fog, and I want to know the way home. Keeping my hands in my pockets, I shiver and shuffle around in my coat and draw it closer. I&#8217;m lost, in a place I don&#8217;t know very well. I don&#8217;t recognise anything. Signposts tell [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 30,
-            "date": "2007-05-22T08:03:00",
-            "date_gmt": "2007-05-22T08:03:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/05\/22\/more-naturewatching\/"
-            },
-            "modified": "2007-05-22T08:03:00",
-            "modified_gmt": "2007-05-22T08:03:00",
-            "slug": "more-naturewatching",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/",
-            "title": {
-                "rendered": "More naturewatching"
-            },
-            "content": {
-                "rendered": "<p>SO the baby blackbirds have flown the nest, though it looks like a new brood may be on the way sometime&#8230;so my interest has turned to these little fella&#8217;s that I found outside our house yesterday morning.  Looks like some spider&#8217;s eggs hatched and there was just a writhing tangle of little legs.<\/p>\n<p><a href=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RlKlGDyvwdI\/AAAAAAAAAWE\/tamstUhTGek\/s1600-h\/IMG_2416.jpg\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RlKlGDyvwdI\/AAAAAAAAAWE\/tamstUhTGek\/s400\/IMG_2416.jpg\" alt=\"\" border=\"0\" \/><\/a>Seems that they &#8220;huddle&#8221; when they want to sleep:<\/p>\n<p><a href=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/RlKlgzyvweI\/AAAAAAAAAWM\/hI-KMpZDTTA\/s1600-h\/IMG_2421.jpg\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/RlKlgzyvweI\/AAAAAAAAAWM\/hI-KMpZDTTA\/s400\/IMG_2421.jpg\" alt=\"\" border=\"0\" \/><\/a>And <a href=\"http:\/\/eyespot.com\/share?cmd=permalink&amp;r=eVEXaw00e5lryEs22biEJW0hIWa7kg\">this little video<\/a> shows them wriggling a bit and gives you an idea of scale.  The white box is the gas meter box outside our house.<\/p>\n<p>Awesome!<\/p>\n<p>[Update 7th September]<br \/>Blogger now allows video uploads so the video is included here now too.<\/p>\n<p><\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>SO the baby blackbirds have flown the nest, though it looks like a new brood may be on the way sometime&#8230;so my interest has turned to these little fella&#8217;s that I found outside our house yesterday morning. Looks like some spider&#8217;s eggs hatched and there was just a writhing tangle of little legs. Seems that [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10,
-                18
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>More naturewatching - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"More naturewatching - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"SO the baby blackbirds have flown the nest, though it looks like a new brood may be on the way sometime&#8230;so my interest has turned to these little fella&#8217;s that I found outside our house yesterday morning. Looks like some spider&#8217;s eggs hatched and there was just a writhing tangle of little legs. Seems that [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-05-22T08:03:00+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RlKlGDyvwdI\/AAAAAAAAAWE\/tamstUhTGek\/s400\/IMG_2416.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/\",\"name\":\"More naturewatching - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-05-22T08:03:00+00:00\",\"dateModified\":\"2007-05-22T08:03:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"More naturewatching\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "More naturewatching - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "More naturewatching - Ross Wintle",
-                "og_description": "SO the baby blackbirds have flown the nest, though it looks like a new brood may be on the way sometime&#8230;so my interest has turned to these little fella&#8217;s that I found outside our house yesterday morning. Looks like some spider&#8217;s eggs hatched and there was just a writhing tangle of little legs. Seems that [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2007-05-22T08:03:00+00:00",
-                "og_image": [
-                    {
-                        "url": "http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RlKlGDyvwdI\/AAAAAAAAAWE\/tamstUhTGek\/s400\/IMG_2416.jpg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/",
-                            "url": "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/",
-                            "name": "More naturewatching - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2007-05-22T08:03:00+00:00",
-                            "dateModified": "2007-05-22T08:03:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "More naturewatching"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/30"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=30"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/30\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=30"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=30"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=30"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 30,
-        "dateGmt": "2007-05-22T08:03:00",
-        "modifiedDateGmt": "2007-05-22T08:03:00",
-        "slug": "more-naturewatching",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2007\/05\/more-naturewatching\/",
-        "title": "More naturewatching",
-        "content": "<p>SO the baby blackbirds have flown the nest, though it looks like a new brood may be on the way sometime&#8230;so my interest has turned to these little fella&#8217;s that I found outside our house yesterday morning.  Looks like some spider&#8217;s eggs hatched and there was just a writhing tangle of little legs.<\/p>\n<p><a href=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RlKlGDyvwdI\/AAAAAAAAAWE\/tamstUhTGek\/s1600-h\/IMG_2416.jpg\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/4.bp.blogspot.com\/__353xnCqQbI\/RlKlGDyvwdI\/AAAAAAAAAWE\/tamstUhTGek\/s400\/IMG_2416.jpg\" alt=\"\" border=\"0\" \/><\/a>Seems that they &#8220;huddle&#8221; when they want to sleep:<\/p>\n<p><a href=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/RlKlgzyvweI\/AAAAAAAAAWM\/hI-KMpZDTTA\/s1600-h\/IMG_2421.jpg\"><img decoding=\"async\" style=\"display:block;text-align:center;cursor:pointer;margin:0 auto 10px;\" src=\"http:\/\/3.bp.blogspot.com\/__353xnCqQbI\/RlKlgzyvweI\/AAAAAAAAAWM\/hI-KMpZDTTA\/s400\/IMG_2421.jpg\" alt=\"\" border=\"0\" \/><\/a>And <a href=\"http:\/\/eyespot.com\/share?cmd=permalink&amp;r=eVEXaw00e5lryEs22biEJW0hIWa7kg\">this little video<\/a> shows them wriggling a bit and gives you an idea of scale.  The white box is the gas meter box outside our house.<\/p>\n<p>Awesome!<\/p>\n<p>[Update 7th September]<br \/>Blogger now allows video uploads so the video is included here now too.<\/p>\n<p><\/p>\n",
-        "excerpt": "<p>SO the baby blackbirds have flown the nest, though it looks like a new brood may be on the way sometime&#8230;so my interest has turned to these little fella&#8217;s that I found outside our house yesterday morning. Looks like some spider&#8217;s eggs hatched and there was just a writhing tangle of little legs. Seems that [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0

@@ -1,6 +1,246 @@
 [
     {
         "dataAsArray": {
+            "id": 2562,
+            "date": "2017-03-04T15:00:39",
+            "date_gmt": "2017-03-04T15:00:39",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/"
+            },
+            "modified": "2017-03-04T15:00:39",
+            "modified_gmt": "2017-03-04T15:00:39",
+            "slug": "first-lego-stop-frame-animation",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/",
+            "title": {
+                "rendered": "First Lego stop-frame animation"
+            },
+            "content": {
+                "rendered": "<p>Quite pleased with my first Lego stop-frame animation! <\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Quite pleased with my first Lego stop-frame animation! <\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 2561,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                348
+            ],
+            "tags": [
+                126
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>First Lego stop-frame animation - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"First Lego stop-frame animation - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Quite pleased with my first Lego stop-frame animation!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2017-03-04T15:00:39+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/03\/IMG_5752.gif\" \/>\n\t<meta property=\"og:image:width\" content=\"480\" \/>\n\t<meta property=\"og:image:height\" content=\"270\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/gif\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/\",\"url\":\"https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/\",\"name\":\"First Lego stop-frame animation - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2017-03-04T15:00:39+00:00\",\"dateModified\":\"2017-03-04T15:00:39+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"First Lego stop-frame animation\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "First Lego stop-frame animation - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "First Lego stop-frame animation - Ross Wintle",
+                "og_description": "Quite pleased with my first Lego stop-frame animation!",
+                "og_url": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2017-03-04T15:00:39+00:00",
+                "og_image": [
+                    {
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2017\/03\/IMG_5752.gif",
+                        "width": 480,
+                        "height": 270,
+                        "type": "image\/gif"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/",
+                            "url": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/",
+                            "name": "First Lego stop-frame animation - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2017-03-04T15:00:39+00:00",
+                            "dateModified": "2017-03-04T15:00:39+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "First Lego stop-frame animation"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2562"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=2562"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/2562\/revisions"
+                    }
+                ],
+                "wp:featuredmedia": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/2561"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=2562"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=2562"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=2562"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 2562,
+        "dateGmt": "2017-03-04T15:00:39",
+        "modifiedDateGmt": "2017-03-04T15:00:39",
+        "slug": "first-lego-stop-frame-animation",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2017\/03\/first-lego-stop-frame-animation\/",
+        "title": "First Lego stop-frame animation",
+        "content": "<p>Quite pleased with my first Lego stop-frame animation! <\/p>\n",
+        "excerpt": "<p>Quite pleased with my first Lego stop-frame animation! <\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 2561
+    },
+    {
+        "dataAsArray": {
             "id": 2551,
             "date": "2017-02-22T10:15:36",
             "date_gmt": "2017-02-22T10:15:36",
@@ -2220,252 +2460,6 @@
         "title": "Parenting: Living someone else&#8217;s life",
         "content": "<p>Lately I&#8217;ve been thinking about how, in my thirties, I&#8217;ve come to understand how deeply related eating and sleeping and emotions are.<\/p>\n<p>So much so that I wonder how I got through my twenties without realising that I got grumpy when I needed to eat. Or that I hit &#8220;the wall&#8221; about 9 hours after waking up and need half an hour of downtime before I can as much as converse with anyone again.<\/p>\n<p>Then Sally points out that, in my twenties, I only ever got properly grumpy or angry about twice a year. Which is totally true. And she pointed out that having kids probably made me these things start happening.<\/p>\n<p>She&#8217;s right &#8211; it&#8217;s not that I&#8217;ve <strong>realised<\/strong> that these things happen, it&#8217;s that these things just didn&#8217;t used to happen. They happen because I&#8217;m doing things &#8211; sleeping and eating &#8211; on someone else&#8217;s schedule. Or, at best\/worst, a combination of someone else&#8217;s schedule AND my schedule.<\/p>\n<p>And so we&#8217;ve come to see that one of the key facts of parenting is that you really truly do start living someone else&#8217;s life.<\/p>\n<p>&nbsp;<\/p>\n",
         "excerpt": "<p>And so we&#8217;ve come to see that one of the key facts of parenting is that you really truly do start living someone else&#8217;s life.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 4746,
-            "date": "2016-08-10T10:10:03",
-            "date_gmt": "2016-08-10T09:10:03",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=4746"
-            },
-            "modified": "2019-04-05T10:17:17",
-            "modified_gmt": "2019-04-05T09:17:17",
-            "slug": "the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/",
-            "title": {
-                "rendered": "The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats"
-            },
-            "content": {
-                "rendered": "\n<p><em>On my walk to work today I was listening to a podcast. I can\u2019t help but think that format isn\u2019t quite right. Here\u2019s a transcript of how not to make a boring piece of audio. With apologies to anyone that makes podcasts\u200a\u2014\u200aI actually admire and respect your work. Consider this \u201cconstructive feedback\u201d, and I hope you\u2019ll laugh along.<\/em><\/p>\n\n\n\n<p>Hi, and welcome to this episode of The Podcast Podcast. The Podcast that tells you about the Podcast about Podcasts.<\/p>\n\n\n\n<p>Later\n on we\u2019ll tell you about this week\u2019s podcast, but I want to start today \nby telling you all about last weeks podcast which was mostly all about \nlast weeks podcast, but also told you a bit about the week before\u2019s \npodcast, and even, excitingly, gave you a look ahead to this week\u2019s \npodcast.<\/p>\n\n\n\n<p>If\n you\u2019ve not already listened then you really should and make sure that \nyou review it on iTunes, share it with all your friends, and subscribe \nin your favourite podcast app so that you never miss and episode.<\/p>\n\n\n\n<p>Now\n before I tell you about this week\u2019s podcast we just need to take a \nquick sponsor break but we\u2019ll be back soon with this week\u2019s podcast and \nif you can hold on long enough we may even give a teaser later on of \nwhat in next week\u2019s podcast.<\/p>\n\n\n\n<p>We\u2019ll be back after the break.<\/p>\n\n\n\n<p>Today\u2019s sponsor is AudioChimp\u2026.<\/p>\n\n\n\n<p>Welcome\n back to The Podcast Podcast. Before the break we told you what would be\n coming up after the break, which we\u2019ll get to in a minute.<\/p>\n\n\n\n<p>Today\u2019s\n episode is actually a listener question. Our listener Chas is an avid \nfollower of The Podcast Podcast and I\u2019d just like to say thank you, \nChas, for listening. The podcast wouldn\u2019t be what it is without our \nlisteners and I\u2019d like to thank each and everyone of them for \nsubscribing and listening and submitting questions. It\u2019s people like \nChas that make The Podcast Podcast worthwhile.<\/p>\n\n\n\n<p>So\n Chas submitted a question via The Podcast Podcast website, which is on \npodcastpodcast.not, or you can contact us on Twitter at @podcastpodcast \nwhich you can also do if you have a question. Not all of our episodes \nare listener questions, but they give us something to talk about when \nwe\u2019ve run out of ideas of our own.<\/p>\n\n\n\n<p>Chas\n actually submitted a question previously on The Podcast Podcast, and if\n you want to hear that then you can look up episode 32 on iTunes or on \nour website at podcastpodcast.lol. It\u2019s truly hard to believe that we\u2019ve\n now been going for 68 episodes and next week we\u2019re expecting to hit \n100,000 downloads which is JUST amazing. I\u2019m so grateful to everyone \nthat listens to the show. It started as just a stupid thing in my spare \ntime, and has now grown into this huge network of podcasts which is just\n incredible. And it\u2019s our goal to provide you with a stack of \ninteresting content week-by-week. So make sure you look up our other \npodcasts too.<\/p>\n\n\n\n<p>Speaking\n of interesting content, that\u2019s exactly what Chas\u2019s question is about. \nChas asks \u201cWhy is there not more content on The Podcast Podcast?\u201d. Well,\n Chas, this is a great question, and we\u2019ll answer it after the break \nwhen we\u2019ll come back and actually answer your question and give a teaser\n for next week\u2019s episode.<\/p>\n\n\n\n<p>Don\u2019t go away.<\/p>\n\n\n\n<p>This week\u2019s second sponsor is Mail Ocean\u2026<\/p>\n\n\n\n<p>Welcome\n back to The Podcast Podcast. Before the break we told you about \nlong-term Podcast Podcast listener Chas\u2019 listener question, and how we \nwere going to answer his question after the last break. So that\u2019s what \nwe\u2019re about to do.<\/p>\n\n\n\n<p>You\u2019ll remember that Chas\u2019 question was \u201cWhy is there not more content on The Podcast Podcast?\u201d<\/p>\n\n\n\n<p>Well\n the answer, Chas, is that sponsorship is really important for podcasts \nbecause it pays us to make them. So I\u2019m sure you totally understand the \nneed for that. But as for why we can\u2019t just run an ad, get on with the \ncontent, and then run another ad at the end? Well, I really don\u2019t know.<\/p>\n\n\n\n<p>I hope that answers your question Chas and thanks for submitting it.<\/p>\n\n\n\n<p>So\n today we\u2019ve looked at what we were going to speak about today, told you\n lots about this podcast, and spent a short time answering a listener \nquestion. In a moment we\u2019re going to tell you about next week\u2019s podcast.<\/p>\n\n\n\n<p>But\n first don\u2019t forget that if you, like Chas, have a question for The \nPodcast Podcast then you can submit it through our website at \npodcastpodcast.not, or ask us via Twitter at @podcastpodcast<\/p>\n\n\n\n<p>Next\n week on The Podcast Podcast, we\u2019re going to talk about this week\u2019s \npodcast, next week\u2019s podcast, and maybe even look ahead to the following\n week\u2019s podcast. We\u2019ll even throw in the usual segments where we ask you\n to share our podcast and rate it on iTunes.<\/p>\n\n\n\n<p>Thanks for listening to The Podcast Podcast, and see you next time!<\/p>\n\n\n\n<p><br><\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>On my walk to work today I was listening to a podcast. I can\u2019t help but think that format isn\u2019t quite right. Here\u2019s a transcript of how not to make a boring piece of audio. With apologies to anyone that makes podcasts\u200a\u2014\u200aI actually admire and respect your work. Consider this \u201cconstructive feedback\u201d, and I hope [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10,
-                21
-            ],
-            "tags": [
-                744,
-                699,
-                743,
-                619
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast\u200a-\u200aa-satirical-lesson-in-boring-audio-formats\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"On my walk to work today I was listening to a podcast. I can\u2019t help but think that format isn\u2019t quite right. Here\u2019s a transcript of how not to make a boring piece of audio. With apologies to anyone that makes podcasts\u200a\u2014\u200aI actually admire and respect your work. Consider this \u201cconstructive feedback\u201d, and I hope [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast\u200a-\u200aa-satirical-lesson-in-boring-audio-formats\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2016-08-10T09:10:03+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-04-05T09:17:17+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/\",\"url\":\"https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/\",\"name\":\"The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2016-08-10T09:10:03+00:00\",\"dateModified\":\"2019-04-05T09:17:17+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast\u200a-\u200aa-satirical-lesson-in-boring-audio-formats\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats - Ross Wintle",
-                "og_description": "On my walk to work today I was listening to a podcast. I can\u2019t help but think that format isn\u2019t quite right. Here\u2019s a transcript of how not to make a boring piece of audio. With apologies to anyone that makes podcasts\u200a\u2014\u200aI actually admire and respect your work. Consider this \u201cconstructive feedback\u201d, and I hope [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast\u200a-\u200aa-satirical-lesson-in-boring-audio-formats\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2016-08-10T09:10:03+00:00",
-                "article_modified_time": "2019-04-05T09:17:17+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/",
-                            "url": "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/",
-                            "name": "The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2016-08-10T09:10:03+00:00",
-                            "dateModified": "2019-04-05T09:17:17+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4746"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=4746"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 1,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4746\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 4747,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/4746\/revisions\/4747"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=4746"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=4746"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=4746"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 4746,
-        "dateGmt": "2016-08-10T09:10:03",
-        "modifiedDateGmt": "2019-04-05T09:17:17",
-        "slug": "the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2016\/08\/the-podcast-podcast%e2%80%8a-%e2%80%8aa-satirical-lesson-in-boring-audio-formats\/",
-        "title": "The Podcast Podcast\u200a\u2014\u200aa satirical lesson in boring audio formats",
-        "content": "\n<p><em>On my walk to work today I was listening to a podcast. I can\u2019t help but think that format isn\u2019t quite right. Here\u2019s a transcript of how not to make a boring piece of audio. With apologies to anyone that makes podcasts\u200a\u2014\u200aI actually admire and respect your work. Consider this \u201cconstructive feedback\u201d, and I hope you\u2019ll laugh along.<\/em><\/p>\n\n\n\n<p>Hi, and welcome to this episode of The Podcast Podcast. The Podcast that tells you about the Podcast about Podcasts.<\/p>\n\n\n\n<p>Later\n on we\u2019ll tell you about this week\u2019s podcast, but I want to start today \nby telling you all about last weeks podcast which was mostly all about \nlast weeks podcast, but also told you a bit about the week before\u2019s \npodcast, and even, excitingly, gave you a look ahead to this week\u2019s \npodcast.<\/p>\n\n\n\n<p>If\n you\u2019ve not already listened then you really should and make sure that \nyou review it on iTunes, share it with all your friends, and subscribe \nin your favourite podcast app so that you never miss and episode.<\/p>\n\n\n\n<p>Now\n before I tell you about this week\u2019s podcast we just need to take a \nquick sponsor break but we\u2019ll be back soon with this week\u2019s podcast and \nif you can hold on long enough we may even give a teaser later on of \nwhat in next week\u2019s podcast.<\/p>\n\n\n\n<p>We\u2019ll be back after the break.<\/p>\n\n\n\n<p>Today\u2019s sponsor is AudioChimp\u2026.<\/p>\n\n\n\n<p>Welcome\n back to The Podcast Podcast. Before the break we told you what would be\n coming up after the break, which we\u2019ll get to in a minute.<\/p>\n\n\n\n<p>Today\u2019s\n episode is actually a listener question. Our listener Chas is an avid \nfollower of The Podcast Podcast and I\u2019d just like to say thank you, \nChas, for listening. The podcast wouldn\u2019t be what it is without our \nlisteners and I\u2019d like to thank each and everyone of them for \nsubscribing and listening and submitting questions. It\u2019s people like \nChas that make The Podcast Podcast worthwhile.<\/p>\n\n\n\n<p>So\n Chas submitted a question via The Podcast Podcast website, which is on \npodcastpodcast.not, or you can contact us on Twitter at @podcastpodcast \nwhich you can also do if you have a question. Not all of our episodes \nare listener questions, but they give us something to talk about when \nwe\u2019ve run out of ideas of our own.<\/p>\n\n\n\n<p>Chas\n actually submitted a question previously on The Podcast Podcast, and if\n you want to hear that then you can look up episode 32 on iTunes or on \nour website at podcastpodcast.lol. It\u2019s truly hard to believe that we\u2019ve\n now been going for 68 episodes and next week we\u2019re expecting to hit \n100,000 downloads which is JUST amazing. I\u2019m so grateful to everyone \nthat listens to the show. It started as just a stupid thing in my spare \ntime, and has now grown into this huge network of podcasts which is just\n incredible. And it\u2019s our goal to provide you with a stack of \ninteresting content week-by-week. So make sure you look up our other \npodcasts too.<\/p>\n\n\n\n<p>Speaking\n of interesting content, that\u2019s exactly what Chas\u2019s question is about. \nChas asks \u201cWhy is there not more content on The Podcast Podcast?\u201d. Well,\n Chas, this is a great question, and we\u2019ll answer it after the break \nwhen we\u2019ll come back and actually answer your question and give a teaser\n for next week\u2019s episode.<\/p>\n\n\n\n<p>Don\u2019t go away.<\/p>\n\n\n\n<p>This week\u2019s second sponsor is Mail Ocean\u2026<\/p>\n\n\n\n<p>Welcome\n back to The Podcast Podcast. Before the break we told you about \nlong-term Podcast Podcast listener Chas\u2019 listener question, and how we \nwere going to answer his question after the last break. So that\u2019s what \nwe\u2019re about to do.<\/p>\n\n\n\n<p>You\u2019ll remember that Chas\u2019 question was \u201cWhy is there not more content on The Podcast Podcast?\u201d<\/p>\n\n\n\n<p>Well\n the answer, Chas, is that sponsorship is really important for podcasts \nbecause it pays us to make them. So I\u2019m sure you totally understand the \nneed for that. But as for why we can\u2019t just run an ad, get on with the \ncontent, and then run another ad at the end? Well, I really don\u2019t know.<\/p>\n\n\n\n<p>I hope that answers your question Chas and thanks for submitting it.<\/p>\n\n\n\n<p>So\n today we\u2019ve looked at what we were going to speak about today, told you\n lots about this podcast, and spent a short time answering a listener \nquestion. In a moment we\u2019re going to tell you about next week\u2019s podcast.<\/p>\n\n\n\n<p>But\n first don\u2019t forget that if you, like Chas, have a question for The \nPodcast Podcast then you can submit it through our website at \npodcastpodcast.not, or ask us via Twitter at @podcastpodcast<\/p>\n\n\n\n<p>Next\n week on The Podcast Podcast, we\u2019re going to talk about this week\u2019s \npodcast, next week\u2019s podcast, and maybe even look ahead to the following\n week\u2019s podcast. We\u2019ll even throw in the usual segments where we ask you\n to share our podcast and rate it on iTunes.<\/p>\n\n\n\n<p>Thanks for listening to The Podcast Podcast, and see you next time!<\/p>\n\n\n\n<p><br><\/p>\n",
-        "excerpt": "<p>On my walk to work today I was listening to a podcast. I can\u2019t help but think that format isn\u2019t quite right. Here\u2019s a transcript of how not to make a boring piece of audio. With apologies to anyone that makes podcasts\u200a\u2014\u200aI actually admire and respect your work. Consider this \u201cconstructive feedback\u201d, and I hope [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

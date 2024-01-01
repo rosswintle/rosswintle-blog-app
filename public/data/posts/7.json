@@ -1,6 +1,258 @@
 [
     {
         "dataAsArray": {
+            "id": 10126,
+            "date": "2021-04-18T10:25:23",
+            "date_gmt": "2021-04-18T09:25:23",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=10126"
+            },
+            "modified": "2021-04-18T10:25:26",
+            "modified_gmt": "2021-04-18T09:25:26",
+            "slug": "we-need-a-common-visual-language-for-block-editing",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/",
+            "title": {
+                "rendered": "We need a common visual language for block editing"
+            },
+            "content": {
+                "rendered": "\n<p><em>Blocks are a new paradigm. They need complex new user interfaces. And we don&#8217;t have a common visual language for them.<\/em><\/p>\n\n\n\n<p>I&#8217;m spending my Saturday morning &#8220;TV&#8221; time watching the <a href=\"https:\/\/wordpress.tv\/2021\/04\/14\/april-14-2021-fse-demo\/\">WordPress &#8220;Full Site Editing&#8221; demo<\/a>.<\/p>\n\n\n\n<p>Now&#8230; I should say some things up front.<\/p>\n\n\n\n<ol><li>I&#8217;m an old dude now. I don&#8217;t like change. I&#8217;m also a sensitive person who thinks things through deeply. I doubly don&#8217;t like change. I know this.<\/li><li>I have every respect for the people designing and building the block editor. It&#8217;s a complex piece of software with a complex interface. What they are doing is hard.<\/li><li>I&#8217;m well aware that this is unfinished work.<\/li><\/ol>\n\n\n\n<p>But &#8230; I&#8217;m watching this video, and I&#8217;m completely baffled about what is going on. There is lots of talk of refining the UI in the video, of stuff that needs to be done before this is ready. But I&#8217;m so confused. And I&#8217;m an expert at this stuff who is confident with IT and computers and things.<\/p>\n\n\n\n<p>So what is wrong?<\/p>\n\n\n\n<p>I&#8217;m looking at the UI of this thing. The myriad icons.<\/p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/iconsiconsicons.png\" alt=\"\" class=\"wp-image-10127\" width=\"454\" height=\"196\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/iconsiconsicons.png 712w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/iconsiconsicons-300x129.png 300w\" sizes=\"(max-width: 454px) 100vw, 454px\" \/><\/figure>\n\n\n\n<p>The primary, secondary and tertiary tools for blocks that appear scattered across the inline interface, the pop-up toolbar (which I have hated since day one), and the sidebar.<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"575\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-1024x575.png\" alt=\"\" class=\"wp-image-10128\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-1024x575.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-300x169.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-768x432.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-1536x863.png 1536w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-2048x1151.png 2048w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>And I want to be able to understand and use these tools.<\/p>\n\n\n\n<p>So I&#8217;m thinking: why is this so hard. The classic editor was so much easier.<\/p>\n\n\n\n<p>And the classic editor was partly easier because it was simpler. But it was also easier because it was familiar. I could say to people &#8220;It&#8217;s just like Microsoft Word&#8221; and they understood. Because the tools and icons were familiar.<\/p>\n\n\n\n<p>What we dont have right now is a common visual language for all this block editing interface. And I think that WordPress is forging its own path rather than replicating something that already exists.<\/p>\n\n\n\n<p>Perhaps WordPress&#8217;s editor will become the new &#8220;standard&#8221; block editor interface. Perhaps, in future, we will say to people &#8220;It&#8217;s just like WordPress&#8221;.<\/p>\n\n\n\n<p>But right now we are making new things that haven&#8217;t existed before. They are WAY more complex than what we had before. And we lack a known visual language for what we are making. And it&#8217;s VERY confusing.<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>Blocks are a new paradigm. They need complex new user interfaces. And we don&#8217;t have a common visual language for them.<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 10127,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23,
+                24,
+                639
+            ],
+            "tags": [
+                540,
+                677,
+                462
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>We need a common visual language for block editing - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"We need a common visual language for block editing - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Blocks are a new paradigm. They need complex new user interfaces. And we don&#039;t have a common visual language for them.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2021-04-18T09:25:23+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-04-18T09:25:26+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/iconsiconsicons.png\" \/>\n\t<meta property=\"og:image:width\" content=\"712\" \/>\n\t<meta property=\"og:image:height\" content=\"307\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/\",\"url\":\"https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/\",\"name\":\"We need a common visual language for block editing - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2021-04-18T09:25:23+00:00\",\"dateModified\":\"2021-04-18T09:25:26+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"We need a common visual language for block editing\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "We need a common visual language for block editing - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "We need a common visual language for block editing - Ross Wintle",
+                "og_description": "Blocks are a new paradigm. They need complex new user interfaces. And we don't have a common visual language for them.",
+                "og_url": "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2021-04-18T09:25:23+00:00",
+                "article_modified_time": "2021-04-18T09:25:26+00:00",
+                "og_image": [
+                    {
+                        "width": 712,
+                        "height": 307,
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/iconsiconsicons.png",
+                        "type": "image\/png"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "3 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/",
+                            "url": "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/",
+                            "name": "We need a common visual language for block editing - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2021-04-18T09:25:23+00:00",
+                            "dateModified": "2021-04-18T09:25:26+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "We need a common visual language for block editing"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10126"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=10126"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 1,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10126\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 10129,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/10126\/revisions\/10129"
+                    }
+                ],
+                "wp:featuredmedia": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media\/10127"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=10126"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=10126"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=10126"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 10126,
+        "dateGmt": "2021-04-18T09:25:23",
+        "modifiedDateGmt": "2021-04-18T09:25:26",
+        "slug": "we-need-a-common-visual-language-for-block-editing",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2021\/04\/we-need-a-common-visual-language-for-block-editing\/",
+        "title": "We need a common visual language for block editing",
+        "content": "\n<p><em>Blocks are a new paradigm. They need complex new user interfaces. And we don&#8217;t have a common visual language for them.<\/em><\/p>\n\n\n\n<p>I&#8217;m spending my Saturday morning &#8220;TV&#8221; time watching the <a href=\"https:\/\/wordpress.tv\/2021\/04\/14\/april-14-2021-fse-demo\/\">WordPress &#8220;Full Site Editing&#8221; demo<\/a>.<\/p>\n\n\n\n<p>Now&#8230; I should say some things up front.<\/p>\n\n\n\n<ol><li>I&#8217;m an old dude now. I don&#8217;t like change. I&#8217;m also a sensitive person who thinks things through deeply. I doubly don&#8217;t like change. I know this.<\/li><li>I have every respect for the people designing and building the block editor. It&#8217;s a complex piece of software with a complex interface. What they are doing is hard.<\/li><li>I&#8217;m well aware that this is unfinished work.<\/li><\/ol>\n\n\n\n<p>But &#8230; I&#8217;m watching this video, and I&#8217;m completely baffled about what is going on. There is lots of talk of refining the UI in the video, of stuff that needs to be done before this is ready. But I&#8217;m so confused. And I&#8217;m an expert at this stuff who is confident with IT and computers and things.<\/p>\n\n\n\n<p>So what is wrong?<\/p>\n\n\n\n<p>I&#8217;m looking at the UI of this thing. The myriad icons.<\/p>\n\n\n\n<figure class=\"wp-block-image size-large is-resized\"><img loading=\"lazy\" decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/iconsiconsicons.png\" alt=\"\" class=\"wp-image-10127\" width=\"454\" height=\"196\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/iconsiconsicons.png 712w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/iconsiconsicons-300x129.png 300w\" sizes=\"(max-width: 454px) 100vw, 454px\" \/><\/figure>\n\n\n\n<p>The primary, secondary and tertiary tools for blocks that appear scattered across the inline interface, the pop-up toolbar (which I have hated since day one), and the sidebar.<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"575\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-1024x575.png\" alt=\"\" class=\"wp-image-10128\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-1024x575.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-300x169.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-768x432.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-1536x863.png 1536w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2021\/04\/CleanShot-2021-04-18-at-10.17.40@2x-2048x1151.png 2048w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>And I want to be able to understand and use these tools.<\/p>\n\n\n\n<p>So I&#8217;m thinking: why is this so hard. The classic editor was so much easier.<\/p>\n\n\n\n<p>And the classic editor was partly easier because it was simpler. But it was also easier because it was familiar. I could say to people &#8220;It&#8217;s just like Microsoft Word&#8221; and they understood. Because the tools and icons were familiar.<\/p>\n\n\n\n<p>What we dont have right now is a common visual language for all this block editing interface. And I think that WordPress is forging its own path rather than replicating something that already exists.<\/p>\n\n\n\n<p>Perhaps WordPress&#8217;s editor will become the new &#8220;standard&#8221; block editor interface. Perhaps, in future, we will say to people &#8220;It&#8217;s just like WordPress&#8221;.<\/p>\n\n\n\n<p>But right now we are making new things that haven&#8217;t existed before. They are WAY more complex than what we had before. And we lack a known visual language for what we are making. And it&#8217;s VERY confusing.<\/p>\n",
+        "excerpt": "<p>Blocks are a new paradigm. They need complex new user interfaces. And we don&#8217;t have a common visual language for them.<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 10127
+    },
+    {
+        "dataAsArray": {
             "id": 10108,
             "date": "2021-04-12T20:50:52",
             "date_gmt": "2021-04-12T19:50:52",
@@ -2202,246 +2454,6 @@
         "title": "Where are my MySQL database files on MacOS?",
         "content": "\n<p><em>My 7-year-old MacBook got bricked. So I needed to recover some MySQL files from a Time Machine backup and load them onto a new computer.<\/em><\/p>\n\n\n\n<p><em>And so I&#8217;ve been digging around finding out where all my homebrew and MySQL files are. While running mulitple instances of everything!<\/em><\/p>\n\n\n\n<p><em>Here&#8217;s a fairly unstructured brain-dump of all that I&#8217;ve learned (or re-learned) along the way.<\/em><\/p>\n\n\n\n<p>Includes using:<\/p>\n\n\n\n<ul><li><a href=\"https:\/\/brew.sh\/\">homebrew<\/a> versions of MySQL and MariaDB<\/li><li><a href=\"https:\/\/dbngin.com\/\">DBNgin<\/a> (a MacOS App for managing installed databases)<\/li><li><a href=\"https:\/\/www.araelium.com\/querious\">Querious<\/a> and <a href=\"https:\/\/sequel-ace.com\/\">Sequel Ace<\/a> database management tools<\/li><\/ul>\n\n\n\n<p>Requires: better than average command-line knowledge<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Where is homebrew installed?<\/h2>\n\n\n\n<p>Turns out <a href=\"https:\/\/docs.brew.sh\/Installation#untar-anywhere\">you can have multiple copies of homebrew installed<\/a>.<\/p>\n\n\n\n<p>The current default install goes to <code>\/usr\/local\/Homebrew<\/code><\/p>\n\n\n\n<p>It seems that they may be moving the default install to <code>\/opt\/homebrew<\/code> on MacOS ARM\/Apple Silicon processors. <a href=\"https:\/\/docs.brew.sh\/Installation#untar-anywhere\">More&#8230;<\/a><\/p>\n\n\n\n<p>If you run <code>\/some\/homebrew\/path\/bin\/brew<\/code> then all operations will happen within that homebrew instance and not affect others.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Where are homebrew-installed MySQL\/MariaDB binaries\/executables?<\/h2>\n\n\n\n<p>Homebrew keeps package binaries in <code>\/some\/homebrew\/path\/Cellar<\/code><\/p>\n\n\n\n<p>So if you want to use a specific version of the mysql client you can do, for example: <code>\/some\/homebrew\/path\/Cellar\/mariadb@10.4\/10.4.17\/bin\/mysql<\/code><\/p>\n\n\n\n<p>Note that there is a notion of a &#8220;current&#8221; version that is symlinked into <code>\/some\/homebrew\/path\/bin\/<\/code><\/p>\n\n\n\n<p>You can change the symlinked current version using <code>brew link<\/code> (make sure you use the right brew instance!)<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Where are homebrew-installed MySQL\/MariaDB data files?<\/h2>\n\n\n\n<p>The standard location for the database data files is <code>\/some\/homebrew\/path\/var\/mysql<\/code><\/p>\n\n\n\n<p>Every version of MySQL\/MariaDB installed in a particular brew instance appears to share the same location. Which is odd. This MUST be configurable from somewhere, but I didn&#8217;t get to finding out where it was. <code>\/some\/homebrew\/path\/etc<\/code> would be the obvious place. And there is a file there, but it doesn&#8217;t have much config in.<\/p>\n\n\n\n<p>You&#8217;ll have to dig in to this to find out yourself. I would assume MySQL has some default location it&#8217;s reading from.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Starting and stopping MySQL\/MariaDB using homebrew<\/h2>\n\n\n\n<p>Worth a quick note that you can start and stop homebrew-installed MySQL\/MariaDB as a service using:<\/p>\n\n\n\n<p><code>\/some\/homebrew\/path\/bin\/brew services start &lt;servicename><\/code><\/p>\n\n\n\n<p>e.g.<\/p>\n\n\n\n<p><code>\/some\/homebrew\/path\/bin\/brew services start mariadb@10.4<\/code><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">What even IS DBngin?<\/h2>\n\n\n\n<p>DBngin is a free MacOS app that lets you install\/start\/stop different databases. I figured all this out while I was moving to a new Mac and so thought I&#8217;d give it a go.<\/p>\n\n\n\n<p>It&#8217;s limited in that it doesn&#8217;t include MariaDB yet. One of my big issues was &#8211; I think &#8211; incompatibilities between MariaDB and MySQL when reading data files.<\/p>\n\n\n\n<p>Anyway&#8230;<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Where are DBngin MySQL binaries?<\/h2>\n\n\n\n<p>DBngin puts binaries in <code>\/Users\/Shared\/DBngin\/mysql\/&lt;version><\/code><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Where does DBngin put data files?<\/h2>\n\n\n\n<p>DBngin puts data files in <code>\/Users\/&lt;you>\/Library\/Application Support\/com.tinyapp.DBngin\/engines\/mysql\/&lt;some ID><\/code><\/p>\n\n\n\n<p>I discovered while doing this migration that if there are not files called <code>auto.cnf<\/code> and <code>com.tinyapp.DBngin.mysqld-&lt;some ID>.plist<\/code> in this directory then the whole directory will be wiped clean when you use DBngin to start up the database.<\/p>\n\n\n\n<p>So if you empty this directory and copy a bunch of existing data files into it then you&#8217;ll immediately have them all deleted.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">That&#8230;<\/h2>\n\n\n\n<p>is all I got!<\/p>\n",
         "excerpt": "<p>My 7-year-old MacBook got bricked. So I needed to recover some MySQL files from a Time Machine backup and load them onto a new computer. And so I&#8217;ve been digging around finding out where all my homebrew and MySQL files are. While running mulitple instances of everything! Here&#8217;s a fairly unstructured brain-dump of all that I&#8217;ve learned (or re-learned) along the way.<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 9639,
-            "date": "2020-11-17T08:22:00",
-            "date_gmt": "2020-11-17T08:22:00",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=9639"
-            },
-            "modified": "2020-11-19T11:26:52",
-            "modified_gmt": "2020-11-19T11:26:52",
-            "slug": "apple-m1-apple-silicon-day-1-live",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/",
-            "title": {
-                "rendered": "Apple M1\/Apple Silicon Day 1 LIVE"
-            },
-            "content": {
-                "rendered": "\n<p>Follow up &#8211; day 3!<\/p>\n\n\n\n<p>So, overall I&#8217;m pretty happy with the 8GB M1 Air. Outstanding issues I have are:<\/p>\n\n\n\n<ul><li>ScreenFlow and some Rogue Amoeba audio apps don&#8217;t work &#8211; I guess these are doing some clever low-level stuff.<\/li><li>I&#8217;m having issues importing my MySQL databases from backup. This is not really an M1 specific issue, apart from the fact that I can&#8217;t use homebrew to install anything other than the latest version of MariaDB.<\/li><\/ul>\n\n\n\n<p>Some useful links that have helped me out along the way:<\/p>\n\n\n\n<ul><li><a href=\"https:\/\/github.com\/Homebrew\/brew\/issues\/7857\">Status of Homebrew on Apple Silicon<\/a><\/li><li>&#8220;Sam&#8221; has <a href=\"https:\/\/soffes.blog\/homebrew-on-apple-silicon\">a tip on running command line stuff using Rosetta<\/a><\/li><li>A clever person figured out that if you make a copy of terminal (or iTerm) and <a href=\"https:\/\/www.notion.so\/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602\">set it to &#8220;Run as Rosetta&#8221;<\/a> it seems to run any sub-commands using Rosetta too.<\/li><\/ul>\n\n\n\n<p>I&#8217;ll have some write ups &#8211; or possibly unstructured brain dumps &#8211; on stuff I&#8217;ve learned along the way.<\/p>\n\n\n\n<p>22:42<\/p>\n\n\n\n<p>Aside: yarn and npm are the one thing that I&#8217;ve noticed it REALLY FREAKING FAST on this machine.<\/p>\n\n\n\n<p>22:32<\/p>\n\n\n\n<p>Yes &#8211; I&#8217;m still at it &#8211; in between other things.<\/p>\n\n\n\n<p>So I&#8217;d heard from a friend that lib-sass or node-sass &#8211; I don&#8217;t recall which &#8211; maybe both would fail to work.<\/p>\n\n\n\n<p>And that&#8217;s true. And it raises a whole weird load of questions about how Rosetta works.<\/p>\n\n\n\n<p>yarn and npm both seem to work OK. But if I understand correctly, lib-sass was a compiled binary, and it refused to run with the usual webpack\/npm\/webpack barf, including:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nModule build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: OS X Unsupported architecture (arm64) with Unsupported runtime (88)\n<\/pre><\/div>\n\n\n<p>So why does everything else seem to run fine under Rosetta, but not this one thing?<\/p>\n\n\n\n<p>Anyway, I eventually found a way to:<\/p>\n\n\n\n<ul><li>update <code>node-sass<\/code> to <code>dart-sass<\/code><\/li><li>update the <code>sass-loader<\/code> (v10 is too high &#8211; I get more barf and errors &#8211; v7.1 seems to work)<\/li><li>update the sass-loader config<\/li><\/ul>\n\n\n\n<p>This then all runs under node 15, which I have compiled for ARM\/M1. And&#8230;YAY!!! I can successfully build the project I need to put live VERY SOON!!!<\/p>\n\n\n\n<p>20:18<\/p>\n\n\n\n<p>Gosh I have a LOT of software!<\/p>\n\n\n\n<p>This is going pretty well considering. HOWEVER&#8230;  brew and node are pretty confusing.<\/p>\n\n\n\n<p>I&#8217;ve basically got brew working, but it&#8217;s giving me this nudge to run it with Rosetta which I have no idea how to do.<\/p>\n\n\n\n<p>And I have node v15 installed using <code>brew install -s node<\/code> (I had to run it a few times to get it to work)<\/p>\n\n\n\n<p>I can&#8217;t get the &#8216;<code>n<\/code>&#8216; node version manager to do anything &#8211; it&#8217;s installed but won&#8217;t list or install any versions.<\/p>\n\n\n\n<p>And I can&#8217;t get node@10 or node@12 to install with homebrew.<\/p>\n\n\n\n<p>Next up &#8211; can I actually compile a project that uses node?<\/p>\n\n\n\n<p>16:28<\/p>\n\n\n\n<p>While pretty much every download-to-your-applicaitons folder app seems fine, the problems are on command-line.<\/p>\n\n\n\n<p>I&#8217;ve got Homebrew installed. And seem to have compiled my own version of PHP with <code>brew install -s php<\/code>, but I can&#8217;t get a build of nodeJs to compile.<\/p>\n\n\n\n<p>Perhaps there&#8217;s a better way than homebrew for this?<\/p>\n\n\n\n<p>15:29<\/p>\n\n\n\n<p>To be honest, this is going pretty well. I&#8217;ve not got some system utilities like Moom, Better Touch Tool, Bartender and the Harvest time tracking app installed. I&#8217;ve yet to set them up properly but they all seem to be working.<\/p>\n\n\n\n<p>I also have Sequel Ace for databases and Wavebox for managing some web apps &#8211; this is an Electron app and I thought there was issues with Electron. But seems it&#8217;s OK!<\/p>\n\n\n\n<p>Dashdocs, Tweetbot and iTerm are all doing fine now too.<\/p>\n\n\n\n<p>Nice that MacOS now has zsh by default but there&#8217;s some dotfiles I&#8217;ll need to recover!<\/p>\n\n\n\n<p>14:43<\/p>\n\n\n\n<p>I have a school run to do&#8230; back later!<\/p>\n\n\n\n<p>14:17<\/p>\n\n\n\n<p>I also have Homebrew and am attempting a PHP 7.4 install. Not sure what&#8217;s gonna happen!<\/p>\n\n\n\n<p>14:15<\/p>\n\n\n\n<p>Tinkerwell and HELO installed. I have iTunes\/Music set up. I&#8217;ve attempted ClamXAV install but need to get a new license. Hmmm&#8230; Hurrying through now.<\/p>\n\n\n\n<p>13:54<\/p>\n\n\n\n<p>Weird &#8211; having installed the MacOS command-line tools, Firefox seems much happier! Perhaps extensions need some command line thing installed to work?<\/p>\n\n\n\n<p>Slack is installed and fine.<\/p>\n\n\n\n<p>13:10<\/p>\n\n\n\n<p>In the meantime I have an update from the Apple Service centre about my old MacBook &#8211; they can&#8217;t do anything. What diagnostics they can do are showing &#8211; surprise! &#8211; logic board failures.<\/p>\n\n\n\n<p>It&#8217;s back to Apple.<\/p>\n\n\n\n<p>13:16<\/p>\n\n\n\n<p>I&#8217;m going to have to do some real work now. But just to add:<\/p>\n\n\n\n<ul><li>Homebrew not properly supported yet &#8211; it says to run it under Rosetta, but I don&#8217;t know how you do that from the command line! Work ongoing <a href=\"https:\/\/github.com\/Homebrew\/brew\/issues\/7857\">here<\/a>. Another dev linked from that issue also has <a href=\"https:\/\/github.com\/mikelxc\/Workarounds-for-ARM-mac\">a list of fixes and workarounds<\/a> for things.<\/li><li>PHP 7.3 in installed by default. I have composer running.<\/li><li>Git not installed by default? Having to download Apple&#8217;s command line utilities &#8211; this could take a while!<\/li><li>SourceTree is incoming&#8230;<\/li><\/ul>\n\n\n\n<p>Also &#8211; I will need to find a way to copy over, or recreate a LOT of configuration from my old machine. Not just dot files, but other stuff too.<\/p>\n\n\n\n<p>A fun few days ahead!<\/p>\n\n\n\n<p>13:07<\/p>\n\n\n\n<p>I&#8217;m not able to specifically point to anything wrong with Firefox extensions, but they generally seem broken. I turned them all off, and I could get a couple of them back on, but the Containers extension and React Dev tools seemed to just break Firefox.<\/p>\n\n\n\n<p>This needs sorting FAST!!<\/p>\n\n\n\n<p>12:54<\/p>\n\n\n\n<p>Well, I&#8217;m gonna call it: Something in Firefox doesn&#8217;t work! It kinda opens tabs, but doesn&#8217;t load them. Incognito windows are fine. So it&#8217;s probably extension related.<\/p>\n\n\n\n<p>12:06<\/p>\n\n\n\n<p>Blazing through app installs &#8211; I have a lot of stuff to install.<\/p>\n\n\n\n<p>Is this my first Apple Silicon issue though? Wow! Not where I expected it!<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"368\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-1024x368.png\" alt=\"Operating system error sating &quot;Google Chrome quit unexpectedly&quot;\" class=\"wp-image-9658\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-1024x368.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-300x108.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-768x276.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25.png 1036w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>11:52<\/p>\n\n\n\n<p>Weird that the 1Password APP wouldn&#8217;t take a physical security key. That was a test.<\/p>\n\n\n\n<p>Dropbox seems fine.<\/p>\n\n\n\n<p>Firefox and Chrome are incoming.<\/p>\n\n\n\n<p>No issues as yet. How do I know if apps are using Rosetta or are built for ARM?<\/p>\n\n\n\n<p>11:37<\/p>\n\n\n\n<p>So, so far so good. I have 1Password (was a good test of my own security getting in on a new device!). I have Telegram and WhatsApp for chatting to some people. I have Alfred because I&#8217;m an option-space person, not a Cmd-space one! I&#8217;m downloading Dropbox&#8230;  argh! Is that going to work?!<\/p>\n\n\n\n<p>11:23<\/p>\n\n\n\n<p>OK &#8211; here I am in WordPress in Safari. First step: Get 1Password up and running so I can log in to stuff.<\/p>\n\n\n\n<p>Install from App Store was OK. But then it wouldn&#8217;t open. Eventually found a little window asking me to install Rosetta. Surprised 1Password isn&#8217;t a universal build yet! But it&#8217;s open and working!<\/p>\n\n\n\n<p>11:06<\/p>\n\n\n\n<p>No I\u2019m not \u201cunboxing\u201d it. You don\u2019t care about that. You want to know what software runs on it.<\/p>\n\n\n\n<p>I also have a dongle. You don\u2019t need a photo of that! ?<br><br>11:04<\/p>\n\n\n\n<p>Here&#8230;<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/31318691-B160-46B0-BD72-11B2917399CA-scaled.jpeg\" alt=\"\" class=\"wp-image-9647\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/31318691-B160-46B0-BD72-11B2917399CA-scaled.jpeg 2560w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/31318691-B160-46B0-BD72-11B2917399CA-300x225.jpeg 300w\" sizes=\"(max-width: 2560px) 100vw, 2560px\" \/><\/figure>\n\n\n\n<p>11:00<\/p>\n\n\n\n<p>Here we are then. I have travelled to the stars (OK, to Cirencester) and I have forged new elements (OK, I have a new laptop with Apple Silicon)<\/p>\n\n\n\n<p>The big question is: can I get WordPress on my phone to upload photos?<\/p>\n\n\n\n<p>9:10<\/p>\n\n\n\n<p>I should say that this isn\u2019t some vain, impulse buy. It\u2019s well thought through. I\u2019ve been wanting to upgrade for about two years, but wanted a robust keyboard. That came along from Apple last year. And then Apple Silicon was announced and it\u2019s a call between a) how long before software stops working on Intel and b) how long before it starts working on M1?<\/p>\n\n\n\n<p>I NEED to get a new laptop and I\u2019m trying to play the long game. If I want this machine to be running all my software in 5 or 6 years, the new chips seem to be the right choice. I hope.<\/p>\n\n\n\n<p><br>8:40<\/p>\n\n\n\n<p>Some people have been warning me about compatibility of software and I do have concerns. But I\u2019ve researched and discussed this with people and let me say where I\u2019m at:<\/p>\n\n\n\n<p>I don\u2019t do much\/any virtualisation. I don\u2019t use Docker &#8211; which I know doesn\u2019t work. What virtualisation I do is minimal and not mission-critical.<\/p>\n\n\n\n<p>Looks like some software that integrates with the OS at low level like screen recorders and audio tools might struggle.<\/p>\n\n\n\n<p>There seem to have been concerns around Electron apps but I couldn\u2019t find anything concrete. It looks like Electron apps will build. But I\u2019m not sure what specific tools are.<\/p>\n\n\n\n<p>I have concerns about Homebrew, PHP, composer, databases. But these are all Linux things right? Creating ARM binaries &#8211; if they don\u2019t already exist &#8211; should be OK?<\/p>\n\n\n\n<p>Well &#8211; that\u2019s what we\u2019re about to find out!<\/p>\n\n\n\n<p>8:15 am: My late 2013 MacBook Pro has failed. Totally bricked. Others are reporting this failure too and a fix could be weeks away.<\/p>\n\n\n\n<p>I\u2019m normally a risk-averse person. But for some stupid reason I\u2019ve decided to jump in on day 1 with an Apple Silicon M1 MacBook Air that I\u2019m collecting this morning.<\/p>\n\n\n\n<p>Will I sink or swim? I know not everything will work on day 1. But will it be disastrous? Or just mildly annoying?<\/p>\n\n\n\n<p>Follow along and see how it goes. If nothing else it might be an insight into the tools of this full-stack PHP\/WordPress\/Laravel developer.<\/p>\n\n\n\n<p>I\u2019ll post updates here rather than Twitter. I guess you have to revisit occasionally to see what\u2019s going on!<\/p>\n\n\n\n<p><\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>Follow up &#8211; day 3! So, overall I&#8217;m pretty happy with the 8GB M1 Air. Outstanding issues I have are: ScreenFlow and some Rogue Amoeba audio apps don&#8217;t work &#8211; I guess these are doing some clever low-level stuff. I&#8217;m having issues importing my MySQL databases from backup. This is not really an M1 specific [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                10
-            ],
-            "tags": [
-                498,
-                317
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Apple M1\/Apple Silicon Day 1 LIVE - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Apple M1\/Apple Silicon Day 1 LIVE - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Follow up &#8211; day 3! So, overall I&#8217;m pretty happy with the 8GB M1 Air. Outstanding issues I have are: ScreenFlow and some Rogue Amoeba audio apps don&#8217;t work &#8211; I guess these are doing some clever low-level stuff. I&#8217;m having issues importing my MySQL databases from backup. This is not really an M1 specific [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2020-11-17T08:22:00+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-11-19T11:26:52+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-1024x368.png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"8 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/\",\"url\":\"https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/\",\"name\":\"Apple M1\/Apple Silicon Day 1 LIVE - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2020-11-17T08:22:00+00:00\",\"dateModified\":\"2020-11-19T11:26:52+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Apple M1\/Apple Silicon Day 1 LIVE\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "Apple M1\/Apple Silicon Day 1 LIVE - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "Apple M1\/Apple Silicon Day 1 LIVE - Ross Wintle",
-                "og_description": "Follow up &#8211; day 3! So, overall I&#8217;m pretty happy with the 8GB M1 Air. Outstanding issues I have are: ScreenFlow and some Rogue Amoeba audio apps don&#8217;t work &#8211; I guess these are doing some clever low-level stuff. I&#8217;m having issues importing my MySQL databases from backup. This is not really an M1 specific [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2020-11-17T08:22:00+00:00",
-                "article_modified_time": "2020-11-19T11:26:52+00:00",
-                "og_image": [
-                    {
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-1024x368.png"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "8 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/",
-                            "url": "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/",
-                            "name": "Apple M1\/Apple Silicon Day 1 LIVE - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2020-11-17T08:22:00+00:00",
-                            "dateModified": "2020-11-19T11:26:52+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "Apple M1\/Apple Silicon Day 1 LIVE"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9639"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=9639"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 25,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9639\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 9685,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/9639\/revisions\/9685"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=9639"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=9639"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=9639"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 9639,
-        "dateGmt": "2020-11-17T08:22:00",
-        "modifiedDateGmt": "2020-11-19T11:26:52",
-        "slug": "apple-m1-apple-silicon-day-1-live",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2020\/11\/apple-m1-apple-silicon-day-1-live\/",
-        "title": "Apple M1\/Apple Silicon Day 1 LIVE",
-        "content": "\n<p>Follow up &#8211; day 3!<\/p>\n\n\n\n<p>So, overall I&#8217;m pretty happy with the 8GB M1 Air. Outstanding issues I have are:<\/p>\n\n\n\n<ul><li>ScreenFlow and some Rogue Amoeba audio apps don&#8217;t work &#8211; I guess these are doing some clever low-level stuff.<\/li><li>I&#8217;m having issues importing my MySQL databases from backup. This is not really an M1 specific issue, apart from the fact that I can&#8217;t use homebrew to install anything other than the latest version of MariaDB.<\/li><\/ul>\n\n\n\n<p>Some useful links that have helped me out along the way:<\/p>\n\n\n\n<ul><li><a href=\"https:\/\/github.com\/Homebrew\/brew\/issues\/7857\">Status of Homebrew on Apple Silicon<\/a><\/li><li>&#8220;Sam&#8221; has <a href=\"https:\/\/soffes.blog\/homebrew-on-apple-silicon\">a tip on running command line stuff using Rosetta<\/a><\/li><li>A clever person figured out that if you make a copy of terminal (or iTerm) and <a href=\"https:\/\/www.notion.so\/Run-x86-Apps-including-homebrew-in-the-Terminal-on-Apple-Silicon-8350b43d97de4ce690f283277e958602\">set it to &#8220;Run as Rosetta&#8221;<\/a> it seems to run any sub-commands using Rosetta too.<\/li><\/ul>\n\n\n\n<p>I&#8217;ll have some write ups &#8211; or possibly unstructured brain dumps &#8211; on stuff I&#8217;ve learned along the way.<\/p>\n\n\n\n<p>22:42<\/p>\n\n\n\n<p>Aside: yarn and npm are the one thing that I&#8217;ve noticed it REALLY FREAKING FAST on this machine.<\/p>\n\n\n\n<p>22:32<\/p>\n\n\n\n<p>Yes &#8211; I&#8217;m still at it &#8211; in between other things.<\/p>\n\n\n\n<p>So I&#8217;d heard from a friend that lib-sass or node-sass &#8211; I don&#8217;t recall which &#8211; maybe both would fail to work.<\/p>\n\n\n\n<p>And that&#8217;s true. And it raises a whole weird load of questions about how Rosetta works.<\/p>\n\n\n\n<p>yarn and npm both seem to work OK. But if I understand correctly, lib-sass was a compiled binary, and it refused to run with the usual webpack\/npm\/webpack barf, including:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nModule build failed: ModuleBuildError: Module build failed: Error: Node Sass does not yet support your current environment: OS X Unsupported architecture (arm64) with Unsupported runtime (88)\n<\/pre><\/div>\n\n\n<p>So why does everything else seem to run fine under Rosetta, but not this one thing?<\/p>\n\n\n\n<p>Anyway, I eventually found a way to:<\/p>\n\n\n\n<ul><li>update <code>node-sass<\/code> to <code>dart-sass<\/code><\/li><li>update the <code>sass-loader<\/code> (v10 is too high &#8211; I get more barf and errors &#8211; v7.1 seems to work)<\/li><li>update the sass-loader config<\/li><\/ul>\n\n\n\n<p>This then all runs under node 15, which I have compiled for ARM\/M1. And&#8230;YAY!!! I can successfully build the project I need to put live VERY SOON!!!<\/p>\n\n\n\n<p>20:18<\/p>\n\n\n\n<p>Gosh I have a LOT of software!<\/p>\n\n\n\n<p>This is going pretty well considering. HOWEVER&#8230;  brew and node are pretty confusing.<\/p>\n\n\n\n<p>I&#8217;ve basically got brew working, but it&#8217;s giving me this nudge to run it with Rosetta which I have no idea how to do.<\/p>\n\n\n\n<p>And I have node v15 installed using <code>brew install -s node<\/code> (I had to run it a few times to get it to work)<\/p>\n\n\n\n<p>I can&#8217;t get the &#8216;<code>n<\/code>&#8216; node version manager to do anything &#8211; it&#8217;s installed but won&#8217;t list or install any versions.<\/p>\n\n\n\n<p>And I can&#8217;t get node@10 or node@12 to install with homebrew.<\/p>\n\n\n\n<p>Next up &#8211; can I actually compile a project that uses node?<\/p>\n\n\n\n<p>16:28<\/p>\n\n\n\n<p>While pretty much every download-to-your-applicaitons folder app seems fine, the problems are on command-line.<\/p>\n\n\n\n<p>I&#8217;ve got Homebrew installed. And seem to have compiled my own version of PHP with <code>brew install -s php<\/code>, but I can&#8217;t get a build of nodeJs to compile.<\/p>\n\n\n\n<p>Perhaps there&#8217;s a better way than homebrew for this?<\/p>\n\n\n\n<p>15:29<\/p>\n\n\n\n<p>To be honest, this is going pretty well. I&#8217;ve not got some system utilities like Moom, Better Touch Tool, Bartender and the Harvest time tracking app installed. I&#8217;ve yet to set them up properly but they all seem to be working.<\/p>\n\n\n\n<p>I also have Sequel Ace for databases and Wavebox for managing some web apps &#8211; this is an Electron app and I thought there was issues with Electron. But seems it&#8217;s OK!<\/p>\n\n\n\n<p>Dashdocs, Tweetbot and iTerm are all doing fine now too.<\/p>\n\n\n\n<p>Nice that MacOS now has zsh by default but there&#8217;s some dotfiles I&#8217;ll need to recover!<\/p>\n\n\n\n<p>14:43<\/p>\n\n\n\n<p>I have a school run to do&#8230; back later!<\/p>\n\n\n\n<p>14:17<\/p>\n\n\n\n<p>I also have Homebrew and am attempting a PHP 7.4 install. Not sure what&#8217;s gonna happen!<\/p>\n\n\n\n<p>14:15<\/p>\n\n\n\n<p>Tinkerwell and HELO installed. I have iTunes\/Music set up. I&#8217;ve attempted ClamXAV install but need to get a new license. Hmmm&#8230; Hurrying through now.<\/p>\n\n\n\n<p>13:54<\/p>\n\n\n\n<p>Weird &#8211; having installed the MacOS command-line tools, Firefox seems much happier! Perhaps extensions need some command line thing installed to work?<\/p>\n\n\n\n<p>Slack is installed and fine.<\/p>\n\n\n\n<p>13:10<\/p>\n\n\n\n<p>In the meantime I have an update from the Apple Service centre about my old MacBook &#8211; they can&#8217;t do anything. What diagnostics they can do are showing &#8211; surprise! &#8211; logic board failures.<\/p>\n\n\n\n<p>It&#8217;s back to Apple.<\/p>\n\n\n\n<p>13:16<\/p>\n\n\n\n<p>I&#8217;m going to have to do some real work now. But just to add:<\/p>\n\n\n\n<ul><li>Homebrew not properly supported yet &#8211; it says to run it under Rosetta, but I don&#8217;t know how you do that from the command line! Work ongoing <a href=\"https:\/\/github.com\/Homebrew\/brew\/issues\/7857\">here<\/a>. Another dev linked from that issue also has <a href=\"https:\/\/github.com\/mikelxc\/Workarounds-for-ARM-mac\">a list of fixes and workarounds<\/a> for things.<\/li><li>PHP 7.3 in installed by default. I have composer running.<\/li><li>Git not installed by default? Having to download Apple&#8217;s command line utilities &#8211; this could take a while!<\/li><li>SourceTree is incoming&#8230;<\/li><\/ul>\n\n\n\n<p>Also &#8211; I will need to find a way to copy over, or recreate a LOT of configuration from my old machine. Not just dot files, but other stuff too.<\/p>\n\n\n\n<p>A fun few days ahead!<\/p>\n\n\n\n<p>13:07<\/p>\n\n\n\n<p>I&#8217;m not able to specifically point to anything wrong with Firefox extensions, but they generally seem broken. I turned them all off, and I could get a couple of them back on, but the Containers extension and React Dev tools seemed to just break Firefox.<\/p>\n\n\n\n<p>This needs sorting FAST!!<\/p>\n\n\n\n<p>12:54<\/p>\n\n\n\n<p>Well, I&#8217;m gonna call it: Something in Firefox doesn&#8217;t work! It kinda opens tabs, but doesn&#8217;t load them. Incognito windows are fine. So it&#8217;s probably extension related.<\/p>\n\n\n\n<p>12:06<\/p>\n\n\n\n<p>Blazing through app installs &#8211; I have a lot of stuff to install.<\/p>\n\n\n\n<p>Is this my first Apple Silicon issue though? Wow! Not where I expected it!<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"368\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-1024x368.png\" alt=\"Operating system error sating &quot;Google Chrome quit unexpectedly&quot;\" class=\"wp-image-9658\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-1024x368.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-300x108.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25-768x276.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/Screenshot-2020-11-17-at-12.06.25.png 1036w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>11:52<\/p>\n\n\n\n<p>Weird that the 1Password APP wouldn&#8217;t take a physical security key. That was a test.<\/p>\n\n\n\n<p>Dropbox seems fine.<\/p>\n\n\n\n<p>Firefox and Chrome are incoming.<\/p>\n\n\n\n<p>No issues as yet. How do I know if apps are using Rosetta or are built for ARM?<\/p>\n\n\n\n<p>11:37<\/p>\n\n\n\n<p>So, so far so good. I have 1Password (was a good test of my own security getting in on a new device!). I have Telegram and WhatsApp for chatting to some people. I have Alfred because I&#8217;m an option-space person, not a Cmd-space one! I&#8217;m downloading Dropbox&#8230;  argh! Is that going to work?!<\/p>\n\n\n\n<p>11:23<\/p>\n\n\n\n<p>OK &#8211; here I am in WordPress in Safari. First step: Get 1Password up and running so I can log in to stuff.<\/p>\n\n\n\n<p>Install from App Store was OK. But then it wouldn&#8217;t open. Eventually found a little window asking me to install Rosetta. Surprised 1Password isn&#8217;t a universal build yet! But it&#8217;s open and working!<\/p>\n\n\n\n<p>11:06<\/p>\n\n\n\n<p>No I\u2019m not \u201cunboxing\u201d it. You don\u2019t care about that. You want to know what software runs on it.<\/p>\n\n\n\n<p>I also have a dongle. You don\u2019t need a photo of that! ?<br><br>11:04<\/p>\n\n\n\n<p>Here&#8230;<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"2560\" height=\"1920\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/31318691-B160-46B0-BD72-11B2917399CA-scaled.jpeg\" alt=\"\" class=\"wp-image-9647\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/31318691-B160-46B0-BD72-11B2917399CA-scaled.jpeg 2560w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2020\/11\/31318691-B160-46B0-BD72-11B2917399CA-300x225.jpeg 300w\" sizes=\"(max-width: 2560px) 100vw, 2560px\" \/><\/figure>\n\n\n\n<p>11:00<\/p>\n\n\n\n<p>Here we are then. I have travelled to the stars (OK, to Cirencester) and I have forged new elements (OK, I have a new laptop with Apple Silicon)<\/p>\n\n\n\n<p>The big question is: can I get WordPress on my phone to upload photos?<\/p>\n\n\n\n<p>9:10<\/p>\n\n\n\n<p>I should say that this isn\u2019t some vain, impulse buy. It\u2019s well thought through. I\u2019ve been wanting to upgrade for about two years, but wanted a robust keyboard. That came along from Apple last year. And then Apple Silicon was announced and it\u2019s a call between a) how long before software stops working on Intel and b) how long before it starts working on M1?<\/p>\n\n\n\n<p>I NEED to get a new laptop and I\u2019m trying to play the long game. If I want this machine to be running all my software in 5 or 6 years, the new chips seem to be the right choice. I hope.<\/p>\n\n\n\n<p><br>8:40<\/p>\n\n\n\n<p>Some people have been warning me about compatibility of software and I do have concerns. But I\u2019ve researched and discussed this with people and let me say where I\u2019m at:<\/p>\n\n\n\n<p>I don\u2019t do much\/any virtualisation. I don\u2019t use Docker &#8211; which I know doesn\u2019t work. What virtualisation I do is minimal and not mission-critical.<\/p>\n\n\n\n<p>Looks like some software that integrates with the OS at low level like screen recorders and audio tools might struggle.<\/p>\n\n\n\n<p>There seem to have been concerns around Electron apps but I couldn\u2019t find anything concrete. It looks like Electron apps will build. But I\u2019m not sure what specific tools are.<\/p>\n\n\n\n<p>I have concerns about Homebrew, PHP, composer, databases. But these are all Linux things right? Creating ARM binaries &#8211; if they don\u2019t already exist &#8211; should be OK?<\/p>\n\n\n\n<p>Well &#8211; that\u2019s what we\u2019re about to find out!<\/p>\n\n\n\n<p>8:15 am: My late 2013 MacBook Pro has failed. Totally bricked. Others are reporting this failure too and a fix could be weeks away.<\/p>\n\n\n\n<p>I\u2019m normally a risk-averse person. But for some stupid reason I\u2019ve decided to jump in on day 1 with an Apple Silicon M1 MacBook Air that I\u2019m collecting this morning.<\/p>\n\n\n\n<p>Will I sink or swim? I know not everything will work on day 1. But will it be disastrous? Or just mildly annoying?<\/p>\n\n\n\n<p>Follow along and see how it goes. If nothing else it might be an insight into the tools of this full-stack PHP\/WordPress\/Laravel developer.<\/p>\n\n\n\n<p>I\u2019ll post updates here rather than Twitter. I guess you have to revisit occasionally to see what\u2019s going on!<\/p>\n\n\n\n<p><\/p>\n",
-        "excerpt": "<p>Follow up &#8211; day 3! So, overall I&#8217;m pretty happy with the 8GB M1 Air. Outstanding issues I have are: ScreenFlow and some Rogue Amoeba audio apps don&#8217;t work &#8211; I guess these are doing some clever low-level stuff. I&#8217;m having issues importing my MySQL databases from backup. This is not really an M1 specific [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

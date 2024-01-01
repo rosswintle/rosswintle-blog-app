@@ -1,6 +1,252 @@
 [
     {
         "dataAsArray": {
+            "id": 8783,
+            "date": "2019-11-15T22:11:28",
+            "date_gmt": "2019-11-15T22:11:28",
+            "guid": {
+                "rendered": "https:\/\/rosswintle.uk\/?p=8783"
+            },
+            "modified": "2019-11-15T22:11:57",
+            "modified_gmt": "2019-11-15T22:11:57",
+            "slug": "how-test-users-work-with-facebook-messenger-bots",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
+            "title": {
+                "rendered": "How to make test users work with Facebook Messenger Bots"
+            },
+            "content": {
+                "rendered": "\r\n<p><em>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!<\/em><\/p>\r\n<p>It\u2019s no secret that I have built my own personal Messenger \u201cbot\u201d for school information called SchoolBot.<\/p>\r\n\r\n\r\n\r\n<p>But at some point I\u2019d love for it to be more public, to get people to test it, to get some feedback from more normal people than I to see if it\u2019s really, actually useful, or just a toy for me to play with.<\/p>\r\n\r\n\r\n\r\n<p>So I created a test instance for \u201cSpringfield Elementary\u201d with the aim of allowing others to try it out.<\/p>\r\n\r\n\r\n\r\n<p>I don\u2019t want to make this thing public to everyone &#8211; but I do want people to be able to find it and give controlled access to it to test it out. But HOW does this work?<\/p>\r\n<p>The way that Facebook Messenger bots use apps and pages and which users are allowed to use which things when you\u2019re in test\/development mode is REALLY confusing. But I think I\u2019ve figured it out.<\/p>\r\n<p>\r\n\r\n<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">The component parts<\/h2>\r\n\r\n\r\n\r\n<p>I\u2018m building SchoolBot with BotMan &#8211; a Laravel-based chatbot framework. This forms the ultimate back-end for the bot.<\/p>\r\n\r\n\r\n\r\n<p>At the \u201cfront end\u201d of this system is a page that you message through Facebook Messenger.<\/p>\r\n\r\n\r\n\r\n<p>And a Facebook App connects the page to the BotMan back-end, passing messages between the two.<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">Private, published, dev, live and all the roles!<\/h2>\r\n\r\n\r\n\r\n<p>The two Facebook components &#8211; the app and the page &#8211; both have a status. The page can be Published or Unpublished. The app can be in development mode, or live mode.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Development Apps vs Live Apps<\/h3>\r\n\r\n\r\n\r\n<p>Development apps are only usable by those users that have been added with an app role.<\/p>\r\n\r\n\r\n\r\n<p>To allow anyone to use your app you need to make the app live. To get your app live can be quite tricky as you may need to submit it for review, and this requires all sorts of things like privacy policies and maybe organisational verification. (This is a GOOD thing! It prevents random apps stealing all your data!!)<\/p>\r\n\r\n\r\n\r\n<p>So if you want to just do some testing before you apply for review, or if you\u2019re waiting to go through the review process you\u2019ll be stuck in development mode.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Published vs Unpublished pages<\/h3>\r\n<p>Unpublished pages won&#8217;t be found in search and can only be seen by and interacted with by those users that have been added with a page role.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Page roles<\/h3>\r\n\r\n\r\n\r\n<p>A published page can be searched for and discovered by anyone. But an unpublished page can only be seen and used by people who have a Page Role.<\/p>\r\n\r\n\r\n\r\n<p>Page Roles are a bit annoying because there isn\u2019t a role that lets someone just see and use an unpublished page. The lowest level is \u201cAnalyst\u201d which \u201cCan see which admin created a post or comment and view Insights.\u201d<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">App Roles<\/h3>\r\n\r\n\r\n\r\n<p>App Roles are better because you can actually give people a \u201cTester\u201d role. BUT&#8230;App Roles are annoying for test users because they have to use the developer.facebook.com developer portal to accept their role and the whole thing is a bit scary if they\u2019ve not seen it before.<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">Putting it together<\/h2>\r\n\r\n\r\n\r\n<p>So I have my Page which talks to my BotMan through my App. I\u2019ve connected them all together (this is a whole other post worth of stuff) and now I\u2019m wanting to bring in some people to test it the Messenger bot. What do we have to do?:<\/p>\r\n\r\n\r\n\r\n<ul>\r\n<li>The Page can be published or unpublished. Just bear in mind that it\u2019s harder for people to find if it\u2019s unpublished &#8211; you\u2019ll probably have to send them a link.<\/li>\r\n<li>IF the Page is unpublished then the test users will need to be added with a Page Role, the lowest of which is \u201cAnalyst\u201d. And then you\u2019ll have to send them the link to the page too because it won&#8217;t be found in search.<\/li>\r\n<\/ul>\r\n<p>They should then be able to Message the page once you set up a \u201cSend Message\u201d button on the page. But their message won\u2019t get to the Bot because they aren\u2019t allowed to use the app part that relays the message. So&#8230;<\/p>\r\n<ul>\r\n<li>You need to go to the developer portal and add them as a &#8220;Tester&#8221;. This will send them an invite but they&#8217;ll need to log in to the developer portal themselves to accept it.<\/li>\r\n<\/ul>\r\n<h2>Done!<\/h2>\r\n<p>With that all done, the person should be able to send a message to the page, have it relayed to the bot by the app, and the have the responses relayed back too.<\/p>\r\n<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot in this way.<\/p>\r\n<p>YAY!<\/p>\r\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!<\/p>\n",
+                "protected": false
+            },
+            "author": 2,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "closed",
+            "sticky": false,
+            "template": "",
+            "format": "standard",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                23
+            ],
+            "tags": [
+                28,
+                4874,
+                254,
+                4875,
+                4873
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>How to make test users work with Facebook Messenger Bots - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"How to make test users work with Facebook Messenger Bots - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"It&#039;s not massively easy, and it&#039;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#039;s how!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-11-15T22:11:28+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2019-11-15T22:11:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\",\"name\":\"How to make test users work with Facebook Messenger Bots - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-11-15T22:11:28+00:00\",\"dateModified\":\"2019-11-15T22:11:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"How to make test users work with Facebook Messenger Bots\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "How to make test users work with Facebook Messenger Bots - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "How to make test users work with Facebook Messenger Bots - Ross Wintle",
+                "og_description": "It's not massively easy, and it's definitely not clear. But you CAN have test users for your Messenger bot. Here's how!",
+                "og_url": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2019-11-15T22:11:28+00:00",
+                "article_modified_time": "2019-11-15T22:11:57+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "Ross Wintle",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "Ross Wintle",
+                    "Estimated reading time": "4 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
+                            "url": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
+                            "name": "How to make test users work with Facebook Messenger Bots - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2019-11-15T22:11:28+00:00",
+                            "dateModified": "2019-11-15T22:11:57+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "How to make test users work with Facebook Messenger Bots"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                            "name": "Ross Wintle",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                                "caption": "Ross Wintle"
+                            },
+                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8783"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8783"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 7,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8783\/revisions"
+                    }
+                ],
+                "predecessor-version": [
+                    {
+                        "id": 8812,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8783\/revisions\/8812"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8783"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8783"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8783"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 8783,
+        "dateGmt": "2019-11-15T22:11:28",
+        "modifiedDateGmt": "2019-11-15T22:11:57",
+        "slug": "how-test-users-work-with-facebook-messenger-bots",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2019\/11\/how-test-users-work-with-facebook-messenger-bots\/",
+        "title": "How to make test users work with Facebook Messenger Bots",
+        "content": "\r\n<p><em>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!<\/em><\/p>\r\n<p>It\u2019s no secret that I have built my own personal Messenger \u201cbot\u201d for school information called SchoolBot.<\/p>\r\n\r\n\r\n\r\n<p>But at some point I\u2019d love for it to be more public, to get people to test it, to get some feedback from more normal people than I to see if it\u2019s really, actually useful, or just a toy for me to play with.<\/p>\r\n\r\n\r\n\r\n<p>So I created a test instance for \u201cSpringfield Elementary\u201d with the aim of allowing others to try it out.<\/p>\r\n\r\n\r\n\r\n<p>I don\u2019t want to make this thing public to everyone &#8211; but I do want people to be able to find it and give controlled access to it to test it out. But HOW does this work?<\/p>\r\n<p>The way that Facebook Messenger bots use apps and pages and which users are allowed to use which things when you\u2019re in test\/development mode is REALLY confusing. But I think I\u2019ve figured it out.<\/p>\r\n<p>\r\n\r\n<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">The component parts<\/h2>\r\n\r\n\r\n\r\n<p>I\u2018m building SchoolBot with BotMan &#8211; a Laravel-based chatbot framework. This forms the ultimate back-end for the bot.<\/p>\r\n\r\n\r\n\r\n<p>At the \u201cfront end\u201d of this system is a page that you message through Facebook Messenger.<\/p>\r\n\r\n\r\n\r\n<p>And a Facebook App connects the page to the BotMan back-end, passing messages between the two.<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">Private, published, dev, live and all the roles!<\/h2>\r\n\r\n\r\n\r\n<p>The two Facebook components &#8211; the app and the page &#8211; both have a status. The page can be Published or Unpublished. The app can be in development mode, or live mode.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Development Apps vs Live Apps<\/h3>\r\n\r\n\r\n\r\n<p>Development apps are only usable by those users that have been added with an app role.<\/p>\r\n\r\n\r\n\r\n<p>To allow anyone to use your app you need to make the app live. To get your app live can be quite tricky as you may need to submit it for review, and this requires all sorts of things like privacy policies and maybe organisational verification. (This is a GOOD thing! It prevents random apps stealing all your data!!)<\/p>\r\n\r\n\r\n\r\n<p>So if you want to just do some testing before you apply for review, or if you\u2019re waiting to go through the review process you\u2019ll be stuck in development mode.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Published vs Unpublished pages<\/h3>\r\n<p>Unpublished pages won&#8217;t be found in search and can only be seen by and interacted with by those users that have been added with a page role.<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">Page roles<\/h3>\r\n\r\n\r\n\r\n<p>A published page can be searched for and discovered by anyone. But an unpublished page can only be seen and used by people who have a Page Role.<\/p>\r\n\r\n\r\n\r\n<p>Page Roles are a bit annoying because there isn\u2019t a role that lets someone just see and use an unpublished page. The lowest level is \u201cAnalyst\u201d which \u201cCan see which admin created a post or comment and view Insights.\u201d<\/p>\r\n\r\n\r\n\r\n<h3 class=\"wp-block-heading\">App Roles<\/h3>\r\n\r\n\r\n\r\n<p>App Roles are better because you can actually give people a \u201cTester\u201d role. BUT&#8230;App Roles are annoying for test users because they have to use the developer.facebook.com developer portal to accept their role and the whole thing is a bit scary if they\u2019ve not seen it before.<\/p>\r\n\r\n\r\n\r\n<h2 class=\"wp-block-heading\">Putting it together<\/h2>\r\n\r\n\r\n\r\n<p>So I have my Page which talks to my BotMan through my App. I\u2019ve connected them all together (this is a whole other post worth of stuff) and now I\u2019m wanting to bring in some people to test it the Messenger bot. What do we have to do?:<\/p>\r\n\r\n\r\n\r\n<ul>\r\n<li>The Page can be published or unpublished. Just bear in mind that it\u2019s harder for people to find if it\u2019s unpublished &#8211; you\u2019ll probably have to send them a link.<\/li>\r\n<li>IF the Page is unpublished then the test users will need to be added with a Page Role, the lowest of which is \u201cAnalyst\u201d. And then you\u2019ll have to send them the link to the page too because it won&#8217;t be found in search.<\/li>\r\n<\/ul>\r\n<p>They should then be able to Message the page once you set up a \u201cSend Message\u201d button on the page. But their message won\u2019t get to the Bot because they aren\u2019t allowed to use the app part that relays the message. So&#8230;<\/p>\r\n<ul>\r\n<li>You need to go to the developer portal and add them as a &#8220;Tester&#8221;. This will send them an invite but they&#8217;ll need to log in to the developer portal themselves to accept it.<\/li>\r\n<\/ul>\r\n<h2>Done!<\/h2>\r\n<p>With that all done, the person should be able to send a message to the page, have it relayed to the bot by the app, and the have the responses relayed back too.<\/p>\r\n<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot in this way.<\/p>\r\n<p>YAY!<\/p>\r\n",
+        "excerpt": "<p>It&#8217;s not massively easy, and it&#8217;s definitely not clear. But you CAN have test users for your Messenger bot. Here&#8217;s how!<\/p>\n",
+        "parentId": 0,
+        "authorId": 2,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 8793,
             "date": "2019-11-15T12:26:14",
             "date_gmt": "2019-11-15T12:26:14",
@@ -2186,259 +2432,6 @@
         "title": "The Week: 16th September 2019",
         "content": "\n<p>Late weeknotes &#8211; sorry! We&#8217;re well back into the swing of new-term things now, but last week I was hit by a heavy cold so I have been a bit slow.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Projects: what I&#8217;ve been up to<\/h2>\n\n\n\n<p>I&#8217;ve mostly been continuing my charity microsite build. There&#8217;s been a few other small bits of support I&#8217;ve been working on. But it&#8217;s mostly build, build, build in HTML\/CSS.<\/p>\n\n\n\n<p>On the side I&#8217;ve been doing a few interesting things.<\/p>\n\n\n\n<ul><li><strong>Made a simple chatbot framework in about 100 lines of vanilla JS<\/strong> &#8211; for ages I&#8217;ve been wanting to work on the &#8220;marketing&#8221; and explanatory side of my SchoolBot Parent Information System. As one of the main components of SchoolBot is a chatbot, I&#8217;d wondered if I could build a chatbot to explain what SchoolBot does. An hour or so later and I had done just that. The conversation needs to be developed, but it works nicely: https:\/\/schoolbot.co.uk<\/li><li>Related: <strong>I did NOT get involved in school comms<\/strong>! There was NOT <a href=\"https:\/\/twitter.com\/giuliavmerlo\/status\/1171084332246716417\">a conversation on Twitter<\/a> about service design and user experience of school stuff that resulted in me trying to DO something to pull people together to make some kind of framework to help schools improve communications with parents.<\/li><li>I signed up for <a href=\"https:\/\/doaction.org\/event\/cheltenham-2019\/\">the Cheltenham do_action charity hackathon<\/a> on 4th October. They still need some designers, so sign up if that&#8217;s you and you fancy giving back some work to local charities.<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Posts: things I made<\/h2>\n\n\n\n<ul><li><a href=\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\">WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields<\/a> &#8211; a quick WordPress technical note<\/li><\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">This week I learned<\/h2>\n\n\n\n<ul><li>Blackcurrant Lemsips are WAY nicer than the lemon ones. ?<\/li><li>The <a href=\"http:\/\/focos.me\/\">Focos app for iOS<\/a> takes pictures with no depth information and uses machine learning to add depth information, giving you depth of field\/bokeh type stuff, and the ability to add virtual lighting. Amazing stuff.<\/li><li>There&#8217;s a great new browser testing tool on the block that&#8217;s cheaper than BrowserStack and has a simple, free tier. Check out <a href=\"http:\/\/www.lambdatest.com?fp_ref=ross62\">LambdaTest<\/a> (affiliate link) (discovered via <a href=\"https:\/\/twitter.com\/calebporzio\">@calebporzio<\/a>)<\/li><li>Laravel&#8217;s &#8220;Tinker&#8221; command line utility has an &#8220;edit&#8221; command you can use to launch an editor for adding multi-line stuff (think this might have been via a <a href=\"https:\/\/laracasts.com\">Laracasts<\/a> video)<\/li><\/ul>\n\n\n\n<figure class=\"wp-block-embed-vimeo wp-block-embed is-type-video is-provider-vimeo wp-embed-aspect-4-3 wp-has-aspect-ratio\"><div class=\"wp-block-embed__wrapper\">\n<iframe loading=\"lazy\" src=\"https:\/\/player.vimeo.com\/video\/360752721?dnt=1&amp;app_id=122963\" width=\"640\" height=\"362\" frameborder=\"0\" allow=\"autoplay; fullscreen\" allowfullscreen><\/iframe>\n<\/div><figcaption>Laravel Tinker&#8217;s edit mode demo<\/figcaption><\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">Toolbox<\/h2>\n\n\n\n<p>I listen to a fair few Podcasts, and so I want a decent app that syncs them all together. My needs are:<\/p>\n\n\n\n<ul><li>Cross-platform &#8211; so I can use it on iOS, Android, Mac and PC.<\/li><li>Subscriptions, listens and progress synced, so I can pick up where I left on on another device<\/li><li>Listen queue<\/li><li>Stars\/favourites<\/li><li>Great sharing functionality<\/li><\/ul>\n\n\n\n<p><a href=\"https:\/\/www.pocketcasts.com\/\">PocketCasts<\/a> has for a LONG time been my go-to app. It does all these things really well. Highly recommended.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Time Machine<\/h2>\n\n\n\n<p>A post from the past: I&#8217;m thinking a lot about communications and processes right now. It&#8217;s good to be reminded that good <a href=\"https:\/\/rosswintle.uk\/2019\/01\/improving-internal-communications-its-a-people-problem\/\">communications is primarily a people problem, not a technological one<\/a>.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Pins: things I read and remembered<\/h2>\n\n\n\n<p>Here&#8217;s what I bookmarked this week:<\/p>\n\n\n\n<p><em>(Brought to you with <\/em><a href=\"https:\/\/pinboard.in\"><em>pinboard.in<\/em><\/a><em> and my <\/em><a href=\"https:\/\/wordpress.org\/plugins\/sync-pinboard\/\"><em>Sync Pinboard<\/em><\/a><em> plugin)<\/em><\/p>\n\n\n\n<div class=\"wp-block-sync-pinboard-pins\"><ul><li><a href=\"https:\/\/bastianallgeier.com\/notes\/simplicity-part-2\">bastianallgeier.com<\/a><span> &#8211; <\/span><span>Precisely my thoughts on software development. And a few other thoughts too (like how GitHub actions bind you to the service)<\/span><\/li><li><a href=\"http:\/\/www.ranzey.com\/generators\/bart\/index.html\">Bart Simpson Chalkboard Generator | enufstyle.com<\/a><span> &#8211; <\/span><span>Bart Simpson lines on chalkboard\/blackboard meme generator via @djdclarke<\/span><\/li><li><a href=\"https:\/\/louderthanten.com\/coax\/having-the-guts-to-say-no-to-bad-money\">Having the guts to say no to bad money | Louder Than Ten<\/a><span> &#8211; <\/span><span>Tom from Wholegrain Digital on some of the history of Wholegrain and how to recognise and turn down bad money for unethical projects, or projects that don&#8217;t fit your values.<\/span><\/li><li><a href=\"https:\/\/macopenweb.com\/\">Mac Open Web, by Brian Warren<\/a><span> &#8211; <\/span><span>Decent list of independent apps for the Mac that support the open web.<\/span><\/li><li><a href=\"https:\/\/www.lawbite.co.uk\/\">Online Legal Advice and Services for Businesses | LawBite<\/a><span> &#8211; <\/span><span>Lawyer service recommended by @rhyswynne<\/span><\/li><li><a href=\"https:\/\/www.webprojectbook.com\/\">The Web Project Guide<\/a><span> &#8211; <\/span><span>Useful-looking guide to a fairly intensive web design and build process<\/span><\/li><li><a href=\"https:\/\/www.lambdatest.com\/\">Cross Browser Testing Tools | Test Your Website on Different Browsers | LambdaTest<\/a><span> &#8211; <\/span><span>Interesting looking legacy browser testing tool. Alternative to browserstack. via @calebporzio<\/span><\/li><li><a href=\"https:\/\/leanweb.dev\/\">The Lean Web<\/a><span> &#8211; <\/span><span>Talk and eBook from Chris Ferdinandi about keeping web code simple, using standard APIs etc. Includes his 3 Lean Web principles <\/span><\/li><li><a href=\"https:\/\/www.araelium.com\/querious\">Querious &#8211; The best MySQL Tool for macOS<\/a><span> &#8211; <\/span><span>MacOS MySql desktop tool &#8211; alternative to SequelPro and TablePlus<\/span><\/li><\/ul><\/div>\n\n\n\n<p>Have a great week!<\/p>\n",
         "excerpt": "<p>My week in projects, posts and pins. Plus my Toolbox, Time Machine and This Week I Learned<\/p>\n",
-        "parentId": 0,
-        "authorId": 2,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 8631,
-            "date": "2019-09-13T21:55:43",
-            "date_gmt": "2019-09-13T20:55:43",
-            "guid": {
-                "rendered": "https:\/\/rosswintle.uk\/?p=8631"
-            },
-            "modified": "2020-06-15T13:46:16",
-            "modified_gmt": "2020-06-15T12:46:16",
-            "slug": "wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
-            "title": {
-                "rendered": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields"
-            },
-            "content": {
-                "rendered": "\n<p>There wasn&#8217;t really a shorter title for this post.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Too long? Didn&#8217;t read?<\/h2>\n\n\n\n<p>Here&#8217;s the quick bit of learning: WordPress runs the <code>wp_enqueue_scripts<\/code> action hook during the execution of <code>wp_head<\/code> and it encourages you to register scripts on this hook. SO if you do something that you want to enqueue scripts correctly, you must do it AFTER <code>wp_head<\/code> runs &#8211; which usually means after <code>wp_header()<\/code> is called in the theme.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">My use case and problem<\/h2>\n\n\n\n<p>I was working for a client doing some maintenance on a theme that someone else had built. The theme used Advanced Custom Fields, and in some cases shortcodes were used inside ACF WYSIWYG fields.<\/p>\n\n\n\n<p>One of the shortcodes used needed some styles and\/or scripts to be enqueued to make the shortcode work. But this should be fine right? Executing the shortcode would enqueue the assets. No problem there.<\/p>\n\n\n\n<p>Well, then my theme had some code that was using the ACF field&#8217;s content. It set up some values near the top of the file, grabbing values from the ACF fields using the <code>get_field()<\/code> function, before outputting the template&#8217;s HTML content. Something like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;?php\n$title = get_field('title');\n$content = get_field('content');\n?&gt;\n\n&lt;?php\n  wp_header();\n?&gt;\n\n&lt;main&gt;\n  \/\/ Output the content here\n&lt;\/main&gt;\n<\/pre><\/div>\n\n\n<p>But, while the shortcode was definitely running, as I was seeing it&#8217;s output, the scripts that made the shortcode work were not being enqueued.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">What&#8217;s going on?<\/h2>\n\n\n\n<p>The plugin that gave me the shortcode actually worked correctly:<\/p>\n\n\n\n<ul><li>Scripts were registered correctly using <code>wp_register_script()<\/code> on the <code>wp_enqueue_scripts<\/code> action hook<\/li><li>The callback function that generated the shortcode output was running the <code>wp_enqueue_script()<\/code> function<\/li><li>The scripts were registered to be output in the footer, so enqueuing them during the shortcode output function should be fine<\/li><\/ul>\n\n\n\n<p>BUT&#8230;because the <code>wp_enqueue_scripts<\/code> action hook fires during <code>wp_header()<\/code> this code was failing.<\/p>\n\n\n\n<p>It failed because the shortcode callback was run when I did the <code>get_field()<\/code> call on the WYSIWYG field. The <code>get_field()<\/code> call is before <code>wp_header()<\/code> and therefore before the scripts are registered. So at the point the shortcode call back runs, the script is not registered so it can not be enqueued.<\/p>\n\n\n\n<p>Phew. Are you still with me?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The fix<\/h2>\n\n\n\n<p>The fix is simple &#8211; get the content, and therefore run the shortcodes, after <code>wp_header()<\/code> has been called so that the scripts are registered before they are enqueued:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;?php\n  wp_header();\n?&gt;\n\n&lt;?php\n$title = get_field('title');\n$content = get_field('content');\n?&gt;\n\n&lt;main&gt;\n  \/\/ Output the content here\n&lt;\/main&gt;\n<\/pre><\/div>\n\n\n<p><\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.<\/p>\n",
-                "protected": false
-            },
-            "author": 2,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "closed",
-            "sticky": false,
-            "template": "",
-            "format": "standard",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                23,
-                736,
-                639
-            ],
-            "tags": [
-                4849,
-                286,
-                64,
-                4850,
-                4848,
-                4847,
-                181,
-                462
-            ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle<\/title>\n<meta name=\"description\" content=\"A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2019-09-13T20:55:43+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2020-06-15T12:46:16+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\",\"url\":\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\",\"name\":\"WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2019-09-13T20:55:43+00:00\",\"dateModified\":\"2020-06-15T12:46:16+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"description\":\"A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle",
-                "description": "A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle",
-                "og_description": "A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.",
-                "og_url": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2019-09-13T20:55:43+00:00",
-                "article_modified_time": "2020-06-15T12:46:16+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "Ross Wintle",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "Ross Wintle",
-                    "Estimated reading time": "2 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
-                            "url": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
-                            "name": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2019-09-13T20:55:43+00:00",
-                            "dateModified": "2020-06-15T12:46:16+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
-                            },
-                            "description": "A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.",
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
-                            "name": "Ross Wintle",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
-                                "caption": "Ross Wintle"
-                            },
-                            "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8631"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=8631"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 1,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8631\/revisions"
-                    }
-                ],
-                "predecessor-version": [
-                    {
-                        "id": 8632,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/8631\/revisions\/8632"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=8631"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=8631"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=8631"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 8631,
-        "dateGmt": "2019-09-13T20:55:43",
-        "modifiedDateGmt": "2020-06-15T12:46:16",
-        "slug": "wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2019\/09\/wordpress-fixing-shortcodes-that-enqueue-javascript-when-used-in-acf-fields\/",
-        "title": "WordPress: Fixing shortcodes that enqueue JavaScript when used in ACF fields",
-        "content": "\n<p>There wasn&#8217;t really a shorter title for this post.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Too long? Didn&#8217;t read?<\/h2>\n\n\n\n<p>Here&#8217;s the quick bit of learning: WordPress runs the <code>wp_enqueue_scripts<\/code> action hook during the execution of <code>wp_head<\/code> and it encourages you to register scripts on this hook. SO if you do something that you want to enqueue scripts correctly, you must do it AFTER <code>wp_head<\/code> runs &#8211; which usually means after <code>wp_header()<\/code> is called in the theme.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">My use case and problem<\/h2>\n\n\n\n<p>I was working for a client doing some maintenance on a theme that someone else had built. The theme used Advanced Custom Fields, and in some cases shortcodes were used inside ACF WYSIWYG fields.<\/p>\n\n\n\n<p>One of the shortcodes used needed some styles and\/or scripts to be enqueued to make the shortcode work. But this should be fine right? Executing the shortcode would enqueue the assets. No problem there.<\/p>\n\n\n\n<p>Well, then my theme had some code that was using the ACF field&#8217;s content. It set up some values near the top of the file, grabbing values from the ACF fields using the <code>get_field()<\/code> function, before outputting the template&#8217;s HTML content. Something like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;?php\n$title = get_field('title');\n$content = get_field('content');\n?&gt;\n\n&lt;?php\n  wp_header();\n?&gt;\n\n&lt;main&gt;\n  \/\/ Output the content here\n&lt;\/main&gt;\n<\/pre><\/div>\n\n\n<p>But, while the shortcode was definitely running, as I was seeing it&#8217;s output, the scripts that made the shortcode work were not being enqueued.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">What&#8217;s going on?<\/h2>\n\n\n\n<p>The plugin that gave me the shortcode actually worked correctly:<\/p>\n\n\n\n<ul><li>Scripts were registered correctly using <code>wp_register_script()<\/code> on the <code>wp_enqueue_scripts<\/code> action hook<\/li><li>The callback function that generated the shortcode output was running the <code>wp_enqueue_script()<\/code> function<\/li><li>The scripts were registered to be output in the footer, so enqueuing them during the shortcode output function should be fine<\/li><\/ul>\n\n\n\n<p>BUT&#8230;because the <code>wp_enqueue_scripts<\/code> action hook fires during <code>wp_header()<\/code> this code was failing.<\/p>\n\n\n\n<p>It failed because the shortcode callback was run when I did the <code>get_field()<\/code> call on the WYSIWYG field. The <code>get_field()<\/code> call is before <code>wp_header()<\/code> and therefore before the scripts are registered. So at the point the shortcode call back runs, the script is not registered so it can not be enqueued.<\/p>\n\n\n\n<p>Phew. Are you still with me?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The fix<\/h2>\n\n\n\n<p>The fix is simple &#8211; get the content, and therefore run the shortcodes, after <code>wp_header()<\/code> has been called so that the scripts are registered before they are enqueued:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; gutter: false; title: ; notranslate\" title=\"\">\n&lt;?php\n  wp_header();\n?&gt;\n\n&lt;?php\n$title = get_field('title');\n$content = get_field('content');\n?&gt;\n\n&lt;main&gt;\n  \/\/ Output the content here\n&lt;\/main&gt;\n<\/pre><\/div>\n\n\n<p><\/p>\n",
-        "excerpt": "<p>A quick bit of WordPress learning on the interaction between ACF, shortcodes, and enqueuing and registering scripts.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
         "featuredMediaId": 0

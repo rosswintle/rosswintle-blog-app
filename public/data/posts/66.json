@@ -1,6 +1,244 @@
 [
     {
         "dataAsArray": {
+            "id": 90,
+            "date": "2007-12-20T20:34:00",
+            "date_gmt": "2007-12-20T20:34:00",
+            "guid": {
+                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/12\/20\/file-sharing\/"
+            },
+            "modified": "2007-12-20T20:34:00",
+            "modified_gmt": "2007-12-20T20:34:00",
+            "slug": "file-sharing",
+            "status": "publish",
+            "type": "post",
+            "link": "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/",
+            "title": {
+                "rendered": "File Sharing"
+            },
+            "content": {
+                "rendered": "<p>I&#8217;ve mentioned Iko, the excellent band that a friend of ours is in, before.  The lead singer of the band recently posted an message on his MySpace Blog about filesharing.  I spent some time writing a response and wanted to copy my thoughts here.  The full thread can be found <a href=\"http:\/\/blog.myspace.com\/index.cfm?fuseaction=blog.view&amp;friendID=38074918&amp;blogID=338942328\">on MySpace here<\/a>.<\/p>\n<p>Ultimately, Kieran was starting a discussion about file sharing, whether or not it&#8217;s beneficial to the music industry, or should it be banned in some way.  He hadn&#8217;t asked a specific question, just wanted to see what people&#8217;s thoughts were.<\/p>\n<p>&#8212;<\/p>\n<p>Hi Kieran and other folks,<\/p>\n<p>I consider myself pretty old-school, I like cover artwork and inlays, I like to have a physical item in my music collection. Not everyone is like me.<\/p>\n<p>I don&#8217;t do piracy. At least, I always pay for music that&#8217;s in my collection because it has value. Not everyone is like me.<\/p>\n<p>Hmm&#8230;.piracy. It&#8217;s not new. It&#8217;s not just that we&#8217;re all selfish now&#8230;we&#8217;ve always been selfish! Hands up all those that copied CD or tapes (remember them) before computers and the Internet were fast enough to make MP3&#8217;s and file sharing a reality? All that&#8217;s changed is that it&#8217;s quicker and easier to copy and swap music and, with digital, you don&#8217;t lose quality with each copy.<\/p>\n<p>But the technology has improved in leaps and bounds &#8211; faster than the industry can cope with, it seems.<\/p>\n<p>The Internet truly is a double-edged sword.On the one hand:<br \/>&#8211; it has made it easy for new bands to promote themselves.<br \/>&#8211; it removes barriers and makes people equal; Iko probably have as much power as Radiohead on the Internet.<br \/>&#8211; it has the potential to create an environment where only truly good music thrives because you can try stuff for free and if it&#8217;s no good you&#8217;ll leave it and move on to something else quickly (as Dean does).<br \/>&#8211; it has potential to remove the middle men (distributors and record shops) and have more of the cost of music going direct to the artist&#8230;or to even reduce the cost of music in the same way (most people I know that copy stuff do so because they think\/know they&#8217;re being ripped off by the distributors and shops).<\/p>\n<p>So there&#8217;s a lot of good things about using the internet for music.<\/p>\n<p>On the other hand it has turned music into &#8220;just information&#8221; that can very easily be passed between people at no cost. In some cases this may be to the benefit of the artist; especially to a decent new act just starting out who wants to get their sound &#8220;out there&#8221;. However, I suspect that in many cases it can be crippling as the monetary value is removed from the art.<\/p>\n<p>I work with technology a LOT. It is a tool. It is a means to an end. You don&#8217;t own a hammer for the sake of owning a hammer, you own it so you can hit things with it. And like any tool, it can be used, and it can be ab-used. I can use my hammer to hit people, for instance, which isn&#8217;t very nice (I don&#8217;t, by the way)<\/p>\n<p>File sharing is a tool. I&#8217;m sure it has many legal, useful purposes and that&#8217;s why it exists. Sadly it seems to be abused more and more. And, oddly, I find that people who are normally kind, sensible, good-moraled, law-abiding citizens, have no problem with using computers for piracy, and seem to think that it&#8217;s stupid that they have to pay for stuff that they can freely copy around.<\/p>\n<p>So what can we do?<\/p>\n<p>Just banning\/outlawing p2p file sharing is impractical and unlikely to help. People will just find other ways.<\/p>\n<p>We can fight technology with technology. DRM (digital rights management) is another method of protecting the artists rights. Giving the purchaser the ability to use the file on a limited number of devices, or for a limited length of time. Sadly this is more complex than it seems. What if I replace my computer and can no longer use that file? That&#8217;s unfair is it not? People will always crack the technology anyway, rendering it useless. And the technology industry will always want to make as much hard cash as possible, and so you end up with not one technology, but several, with each technology onwer hoping that theirs will become the big one! (e.g. VHS\/Betamax, or the recent HD DVD wars). There are many reasons why this isn&#8217;t a great solution.<\/p>\n<p>Education is not likely to work either. There will always be people who just don&#8217;t care.<\/p>\n<p>OK &#8211; I&#8217;m out of ideas. This whole new internet world needs some real creative thinking to work out how artists can best make use of it. Perhaps that&#8217;s why Kieran started this discussion? The world is not the one we used to know and we&#8217;re still mapping out the Internet and forming the unspoken rules and morals that surround it.<\/p>\n<p>Have I helped the discussion? Probably not, K didn&#8217;t ask a direct question, so I&#8217;ve not sought to answer one &#8211; in fact, I&#8217;ve raised a few of my own.<\/p>\n<p>What&#8217;s encouraging is that there seem to be people who share the values that make the internet good. To all the commenters above &#8211; good on &#8216;ya. Perhaps one way we can all help is to help is to spread the word about how artists deserve and need the cash. Perhaps we can be role models in that, speak up for the artists, challenge those we know who copy and file share.<\/p>\n<p>After all, we&#8217;re right that it&#8217;s wrong.<\/p>\n<p>Aren&#8217;t we?<\/p>\n",
+                "protected": false
+            },
+            "excerpt": {
+                "rendered": "<p>I&#8217;ve mentioned Iko, the excellent band that a friend of ours is in, before. The lead singer of the band recently posted an message on his MySpace Blog about filesharing. I spent some time writing a response and wanted to copy my thoughts here. The full thread can be found on MySpace here. Ultimately, Kieran [&hellip;]<\/p>\n",
+                "protected": false
+            },
+            "author": 1,
+            "featured_media": 0,
+            "comment_status": "open",
+            "ping_status": "open",
+            "sticky": false,
+            "template": "",
+            "format": "aside",
+            "meta": {
+                "sig_custom_text": "",
+                "sig_image_type": "featured-image",
+                "sig_custom_image": 0,
+                "sig_is_disabled": false,
+                "url": "",
+                "footnotes": ""
+            },
+            "categories": [
+                10,
+                17
+            ],
+            "tags": [],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>File Sharing - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"File Sharing - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#8217;ve mentioned Iko, the excellent band that a friend of ours is in, before. The lead singer of the band recently posted an message on his MySpace Blog about filesharing. I spent some time writing a response and wanted to copy my thoughts here. The full thread can be found on MySpace here. Ultimately, Kieran [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-12-20T20:34:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/\",\"name\":\"File Sharing - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-12-20T20:34:00+00:00\",\"dateModified\":\"2007-12-20T20:34:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"File Sharing\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "yoast_head_json": {
+                "title": "File Sharing - Ross Wintle",
+                "robots": {
+                    "index": "index",
+                    "follow": "follow",
+                    "max-snippet": "max-snippet:-1",
+                    "max-image-preview": "max-image-preview:large",
+                    "max-video-preview": "max-video-preview:-1"
+                },
+                "canonical": "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/",
+                "og_locale": "en_GB",
+                "og_type": "article",
+                "og_title": "File Sharing - Ross Wintle",
+                "og_description": "I&#8217;ve mentioned Iko, the excellent band that a friend of ours is in, before. The lead singer of the band recently posted an message on his MySpace Blog about filesharing. I spent some time writing a response and wanted to copy my thoughts here. The full thread can be found on MySpace here. Ultimately, Kieran [&hellip;]",
+                "og_url": "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/",
+                "og_site_name": "Ross Wintle",
+                "article_published_time": "2007-12-20T20:34:00+00:00",
+                "og_image": [
+                    {
+                        "width": "600",
+                        "height": "399",
+                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                        "type": "image\/jpeg"
+                    }
+                ],
+                "author": "magicroundabout",
+                "twitter_card": "summary_large_image",
+                "twitter_creator": "@magicroundabout",
+                "twitter_site": "@magicroundabout",
+                "twitter_misc": {
+                    "Written by": "magicroundabout",
+                    "Estimated reading time": "5 minutes"
+                },
+                "schema": {
+                    "@context": "https:\/\/schema.org",
+                    "@graph": [
+                        {
+                            "@type": "WebPage",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/",
+                            "url": "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/",
+                            "name": "File Sharing - Ross Wintle",
+                            "isPartOf": {
+                                "@id": "https:\/\/rosswintle.uk\/#website"
+                            },
+                            "datePublished": "2007-12-20T20:34:00+00:00",
+                            "dateModified": "2007-12-20T20:34:00+00:00",
+                            "author": {
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
+                            },
+                            "breadcrumb": {
+                                "@id": "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/#breadcrumb"
+                            },
+                            "inLanguage": "en-GB",
+                            "potentialAction": [
+                                {
+                                    "@type": "ReadAction",
+                                    "target": [
+                                        "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "BreadcrumbList",
+                            "@id": "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/#breadcrumb",
+                            "itemListElement": [
+                                {
+                                    "@type": "ListItem",
+                                    "position": 1,
+                                    "name": "Home",
+                                    "item": "https:\/\/rosswintle.uk\/"
+                                },
+                                {
+                                    "@type": "ListItem",
+                                    "position": 2,
+                                    "name": "File Sharing"
+                                }
+                            ]
+                        },
+                        {
+                            "@type": "WebSite",
+                            "@id": "https:\/\/rosswintle.uk\/#website",
+                            "url": "https:\/\/rosswintle.uk\/",
+                            "name": "Ross Wintle",
+                            "description": "Creativity, curiosity, and code",
+                            "potentialAction": [
+                                {
+                                    "@type": "SearchAction",
+                                    "target": {
+                                        "@type": "EntryPoint",
+                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                                    },
+                                    "query-input": "required name=search_term_string"
+                                }
+                            ],
+                            "inLanguage": "en-GB"
+                        },
+                        {
+                            "@type": "Person",
+                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
+                            "name": "magicroundabout",
+                            "image": {
+                                "@type": "ImageObject",
+                                "inLanguage": "en-GB",
+                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
+                                "caption": "magicroundabout"
+                            },
+                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
+                            "sameAs": [
+                                "https:\/\/twitter.com\/magicroundabout"
+                            ],
+                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
+                        }
+                    ]
+                }
+            },
+            "_links": {
+                "self": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/90"
+                    }
+                ],
+                "collection": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+                    }
+                ],
+                "about": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+                    }
+                ],
+                "author": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
+                    }
+                ],
+                "replies": [
+                    {
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=90"
+                    }
+                ],
+                "version-history": [
+                    {
+                        "count": 0,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/90\/revisions"
+                    }
+                ],
+                "wp:attachment": [
+                    {
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=90"
+                    }
+                ],
+                "wp:term": [
+                    {
+                        "taxonomy": "category",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=90"
+                    },
+                    {
+                        "taxonomy": "post_tag",
+                        "embeddable": true,
+                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=90"
+                    }
+                ],
+                "curies": [
+                    {
+                        "name": "wp",
+                        "href": "https:\/\/api.w.org\/{rel}",
+                        "templated": true
+                    }
+                ]
+            }
+        },
+        "id": 90,
+        "dateGmt": "2007-12-20T20:34:00",
+        "modifiedDateGmt": "2007-12-20T20:34:00",
+        "slug": "file-sharing",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/rosswintle.uk\/2007\/12\/file-sharing\/",
+        "title": "File Sharing",
+        "content": "<p>I&#8217;ve mentioned Iko, the excellent band that a friend of ours is in, before.  The lead singer of the band recently posted an message on his MySpace Blog about filesharing.  I spent some time writing a response and wanted to copy my thoughts here.  The full thread can be found <a href=\"http:\/\/blog.myspace.com\/index.cfm?fuseaction=blog.view&amp;friendID=38074918&amp;blogID=338942328\">on MySpace here<\/a>.<\/p>\n<p>Ultimately, Kieran was starting a discussion about file sharing, whether or not it&#8217;s beneficial to the music industry, or should it be banned in some way.  He hadn&#8217;t asked a specific question, just wanted to see what people&#8217;s thoughts were.<\/p>\n<p>&#8212;<\/p>\n<p>Hi Kieran and other folks,<\/p>\n<p>I consider myself pretty old-school, I like cover artwork and inlays, I like to have a physical item in my music collection. Not everyone is like me.<\/p>\n<p>I don&#8217;t do piracy. At least, I always pay for music that&#8217;s in my collection because it has value. Not everyone is like me.<\/p>\n<p>Hmm&#8230;.piracy. It&#8217;s not new. It&#8217;s not just that we&#8217;re all selfish now&#8230;we&#8217;ve always been selfish! Hands up all those that copied CD or tapes (remember them) before computers and the Internet were fast enough to make MP3&#8217;s and file sharing a reality? All that&#8217;s changed is that it&#8217;s quicker and easier to copy and swap music and, with digital, you don&#8217;t lose quality with each copy.<\/p>\n<p>But the technology has improved in leaps and bounds &#8211; faster than the industry can cope with, it seems.<\/p>\n<p>The Internet truly is a double-edged sword.On the one hand:<br \/>&#8211; it has made it easy for new bands to promote themselves.<br \/>&#8211; it removes barriers and makes people equal; Iko probably have as much power as Radiohead on the Internet.<br \/>&#8211; it has the potential to create an environment where only truly good music thrives because you can try stuff for free and if it&#8217;s no good you&#8217;ll leave it and move on to something else quickly (as Dean does).<br \/>&#8211; it has potential to remove the middle men (distributors and record shops) and have more of the cost of music going direct to the artist&#8230;or to even reduce the cost of music in the same way (most people I know that copy stuff do so because they think\/know they&#8217;re being ripped off by the distributors and shops).<\/p>\n<p>So there&#8217;s a lot of good things about using the internet for music.<\/p>\n<p>On the other hand it has turned music into &#8220;just information&#8221; that can very easily be passed between people at no cost. In some cases this may be to the benefit of the artist; especially to a decent new act just starting out who wants to get their sound &#8220;out there&#8221;. However, I suspect that in many cases it can be crippling as the monetary value is removed from the art.<\/p>\n<p>I work with technology a LOT. It is a tool. It is a means to an end. You don&#8217;t own a hammer for the sake of owning a hammer, you own it so you can hit things with it. And like any tool, it can be used, and it can be ab-used. I can use my hammer to hit people, for instance, which isn&#8217;t very nice (I don&#8217;t, by the way)<\/p>\n<p>File sharing is a tool. I&#8217;m sure it has many legal, useful purposes and that&#8217;s why it exists. Sadly it seems to be abused more and more. And, oddly, I find that people who are normally kind, sensible, good-moraled, law-abiding citizens, have no problem with using computers for piracy, and seem to think that it&#8217;s stupid that they have to pay for stuff that they can freely copy around.<\/p>\n<p>So what can we do?<\/p>\n<p>Just banning\/outlawing p2p file sharing is impractical and unlikely to help. People will just find other ways.<\/p>\n<p>We can fight technology with technology. DRM (digital rights management) is another method of protecting the artists rights. Giving the purchaser the ability to use the file on a limited number of devices, or for a limited length of time. Sadly this is more complex than it seems. What if I replace my computer and can no longer use that file? That&#8217;s unfair is it not? People will always crack the technology anyway, rendering it useless. And the technology industry will always want to make as much hard cash as possible, and so you end up with not one technology, but several, with each technology onwer hoping that theirs will become the big one! (e.g. VHS\/Betamax, or the recent HD DVD wars). There are many reasons why this isn&#8217;t a great solution.<\/p>\n<p>Education is not likely to work either. There will always be people who just don&#8217;t care.<\/p>\n<p>OK &#8211; I&#8217;m out of ideas. This whole new internet world needs some real creative thinking to work out how artists can best make use of it. Perhaps that&#8217;s why Kieran started this discussion? The world is not the one we used to know and we&#8217;re still mapping out the Internet and forming the unspoken rules and morals that surround it.<\/p>\n<p>Have I helped the discussion? Probably not, K didn&#8217;t ask a direct question, so I&#8217;ve not sought to answer one &#8211; in fact, I&#8217;ve raised a few of my own.<\/p>\n<p>What&#8217;s encouraging is that there seem to be people who share the values that make the internet good. To all the commenters above &#8211; good on &#8216;ya. Perhaps one way we can all help is to help is to spread the word about how artists deserve and need the cash. Perhaps we can be role models in that, speak up for the artists, challenge those we know who copy and file share.<\/p>\n<p>After all, we&#8217;re right that it&#8217;s wrong.<\/p>\n<p>Aren&#8217;t we?<\/p>\n",
+        "excerpt": "<p>I&#8217;ve mentioned Iko, the excellent band that a friend of ours is in, before. The lead singer of the band recently posted an message on his MySpace Blog about filesharing. I spent some time writing a response and wanted to copy my thoughts here. The full thread can be found on MySpace here. Ultimately, Kieran [&hellip;]<\/p>\n",
+        "parentId": 0,
+        "authorId": 1,
+        "featuredMediaId": 0
+    },
+    {
+        "dataAsArray": {
             "id": 89,
             "date": "2007-12-19T19:26:00",
             "date_gmt": "2007-12-19T19:26:00",
@@ -2128,243 +2366,6 @@
         "title": "New camera",
         "content": "<p>During our trip to the Lakes last year, to climb Helvellyn via Striding Edge with my sister and her man (oddly, I didn&#8217;t write anything about this, but we did!), we managed to drown both our digital camera and a mobile phone.  They were wrapped up safely in rucksacks but it was so wet that they filled with water anyway and they never came back to life.<\/p>\n<p>So, after phoning the insurance people and a bit of research, we&#8217;ve bought a new digital camera.  We&#8217;ve bought a Canon Ixus 70 because:<\/p>\n<ol>\n<li>We&#8217;ve had a Canon before, they&#8217;re well built (but not waterproof) and we know how to use them<\/li>\n<li>It&#8217;s pocket-sized but has a 3x optical zoom and all the features we need.<\/li>\n<li>We&#8217;d hoped for a fully-manual mode but there are hard to find on compact cameras.  You can manually adjust the ISO setting, but there&#8217;s no aperture or time priority.  But then no other camera we looked at had those either.<\/li>\n<li>The flash on our old Canon SureShot A80 was horrible, but this one, in testing, seems to have been improved.<\/li>\n<li>We chose the Ixus 70 over the Ixus 75 mostly because it has a smaller screen and therefore better battery life.<\/li>\n<\/ol>\n<p>Overall we&#8217;re happy with the purchase.  It&#8217;s small, takes good snaps, the battery lasts long enough (though I don&#8217;t like having a rechargable &#8211; our old one just took standard AA batteries).  It&#8217;s all we expected really.  I guess, to the untrained eye, digital cameras are much of a muchness and though the Ixus 70 is nothing extraordinary, it is a well-built and easy to use camera.<\/p>\n<p>It has one feature that I particularly like though &#8211; it does time-lapse filming!  You can only set it to take a picture every 1 second or two seconds, and it kills the battery pretty quickly, but I&#8217;ve had some fun playing around with it and it gives interesting results.  It has prompted a bit of a fascination with life-at-high-speed.<\/p>\n<p>I first started playing around with this after a day&#8217;s working from home.  Here&#8217;s a bit of me at the laptop &#8211; it&#8217;s quite boring but I had no other subject to try it out on:<\/p>\n<p>For a laugh I tried moving really slowly to see what would happen when speeded back up again.  This has a strange stop-motion animation effect and makes me laugh every time:<\/p>\n<p>I wonder what sort of life-observation could be had with this.  Look out for speeded-up naturewatch movies next spring!<\/p>\n",
         "excerpt": "<p>During our trip to the Lakes last year, to climb Helvellyn via Striding Edge with my sister and her man (oddly, I didn&#8217;t write anything about this, but we did!), we managed to drown both our digital camera and a mobile phone. They were wrapped up safely in rucksacks but it was so wet that [&hellip;]<\/p>\n",
-        "parentId": 0,
-        "authorId": 1,
-        "featuredMediaId": 0
-    },
-    {
-        "dataAsArray": {
-            "id": 80,
-            "date": "2007-11-18T14:52:00",
-            "date_gmt": "2007-11-18T14:52:00",
-            "guid": {
-                "rendered": "http:\/\/magicroundabout.wordpress.com\/2007\/11\/18\/a-couple-of-gigs\/"
-            },
-            "modified": "2007-11-18T14:52:00",
-            "modified_gmt": "2007-11-18T14:52:00",
-            "slug": "a-couple-of-gigs",
-            "status": "publish",
-            "type": "post",
-            "link": "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/",
-            "title": {
-                "rendered": "A couple of gigs"
-            },
-            "content": {
-                "rendered": "<p>We&#8217;ve had the good fortune of seeing a couple of gigs lately.  We always enjoy live music, but finding bands\/artists we like at venues we like on dates that we&#8217;re free, and at prices we like is always difficult.<\/p>\n<p>However &#8211; despite our picky-ness we made it to the following recently (nicely matching with some recent CD purschases!)<\/p>\n<p><span style=\"font-weight:bold;\">KT Tunstall at Colston Hall, Bristol<\/span><\/p>\n<p>Now&#8230;one of the games we played when we lived in Shepherd&#8217;s Bush was guessing who was playing at the Empire (a popular music venue just round the corner from where we lived) from the people who were queueing up\/milling around.  e.g. Jack Johnson gigs have lots of normally-dressed, but pretty stoned, surfer and indie types; The Beautiful South had lots of middle-aged, middle-of-the-road-looking people queueing outside.<\/p>\n<p>For some reason, I was very self-concious at this KT gig.  Though the crowd was a real mix, I felt slightly too young, slightly too normal, slightly too 90&#8217;s indie.  Yet, I think if I was playing the &#8220;who&#8217;s on at the Colston Hall&#8221; game, I&#8217;d have picked me out as a MOR soft-rocker type along with everyone else.  And I didn&#8217;t like that.  Part of me is embarrassed that I went.<\/p>\n<p>BUT&#8230;I don&#8217;t really care.  The gig was GREAT!  KT is a great entertainer, with lots of crowd-pleasing banter.  She&#8217;s confident and charming, but a bit kooky.  She&#8217;s incredibly cool, and very talented, but comes across as homely and clumsy.  Her mum and dad were in the audience and she even forgot the words to one song called &#8220;Hopeless&#8221;, which, ironically, is about being just that!<\/p>\n<p>The band were awesome and KT certainly doesn&#8217;t stand alone, with a bassist, guitarist, keyboards\/random sounds guy, a brilliant percussionist (I&#8217;m not calling him a drummer because he played far more than just drums), and two backing singers, playing, between them all, a HUGE number of different instruments.<\/p>\n<p>The songs were great, and we had fun, and enjoyed a class act.<\/p>\n<p><span style=\"font-weight:bold;\">Martyn Joseph at Marlborough Town Hall<\/span><\/p>\n<p>I was almost certainly too young and too cool to attend this aging, accoustic folk-rockers latest tour, but we love him to bits and we&#8217;ve caught the last 2 tours (and previous gigs too), so I&#8217;ve already lost any credibility I might have had. \ud83d\ude42<\/p>\n<p>We&#8217;ve seen MJ with accompaniment before &#8211; a single keyboard player at a gig at Bush Hall in London.  But this time he had a little band of sorts.  There was a very cool-looking and talented female bassist playing double bass and both fretted and fretless electric bass &#8211; not all at the same time of course.  And a very un-cool-looking but equally talented wind-instrument guy, playing tenor sax, clarinet and&#8230;yes really&#8230;the recorder!<\/p>\n<p>I won&#8217;t say much about MJ.  He was on good form and the new songs, which have grown on me more since my album review, sound great live.  Though I prefer &#8220;Kindness&#8221; unaccompanied&#8230;it has a certain kind of emotion and tension when it&#8217;s just the accoustic guitar&#8230;it&#8217;s longing for more sound around it&#8230;&#8221;how I miss you\/my angel and my reason how I miss you&#8221;.  (Though I&#8217;m just listening to it again and there&#8217;s a hint of piano and electric guitar on the album version&#8230;so I&#8217;m wrong there.  I do prefer the album version though).<\/p>\n<p>What did amaze me at this gig was the teamwork, humility and restraint of the musicians.  The wind-instrument guy hardly played at all.  He only chipped in when it was needed.  He didn&#8217;t, pardon the pun, blow his own trumpet.<\/p>\n<p>There&#8217;s a great metaphor in here for how we should live our lives.  Quietly working in the background, not demanding attention, playing along to the tune of our creator, but remembering always that it&#8217;s His work.  He&#8217;s the lead, we follow, we play, and if we demand too much attention that will detract from His glory!<\/p>\n<p>Music is a great gift and I left both gigs thankful for the talented people who write and play these songs to bring us pleasure.<\/p>\n",
-                "protected": false
-            },
-            "excerpt": {
-                "rendered": "<p>We&#8217;ve had the good fortune of seeing a couple of gigs lately. We always enjoy live music, but finding bands\/artists we like at venues we like on dates that we&#8217;re free, and at prices we like is always difficult. However &#8211; despite our picky-ness we made it to the following recently (nicely matching with some [&hellip;]<\/p>\n",
-                "protected": false
-            },
-            "author": 1,
-            "featured_media": 0,
-            "comment_status": "open",
-            "ping_status": "open",
-            "sticky": false,
-            "template": "",
-            "format": "aside",
-            "meta": {
-                "sig_custom_text": "",
-                "sig_image_type": "featured-image",
-                "sig_custom_image": 0,
-                "sig_is_disabled": false,
-                "url": "",
-                "footnotes": ""
-            },
-            "categories": [
-                17
-            ],
-            "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.7 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>A couple of gigs - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A couple of gigs - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"We&#8217;ve had the good fortune of seeing a couple of gigs lately. We always enjoy live music, but finding bands\/artists we like at venues we like on dates that we&#8217;re free, and at prices we like is always difficult. However &#8211; despite our picky-ness we made it to the following recently (nicely matching with some [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2007-11-18T14:52:00+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/\",\"url\":\"https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/\",\"name\":\"A couple of gigs - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2007-11-18T14:52:00+00:00\",\"dateModified\":\"2007-11-18T14:52:00+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"A couple of gigs\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/twitter.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
-            "yoast_head_json": {
-                "title": "A couple of gigs - Ross Wintle",
-                "robots": {
-                    "index": "index",
-                    "follow": "follow",
-                    "max-snippet": "max-snippet:-1",
-                    "max-image-preview": "max-image-preview:large",
-                    "max-video-preview": "max-video-preview:-1"
-                },
-                "canonical": "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/",
-                "og_locale": "en_GB",
-                "og_type": "article",
-                "og_title": "A couple of gigs - Ross Wintle",
-                "og_description": "We&#8217;ve had the good fortune of seeing a couple of gigs lately. We always enjoy live music, but finding bands\/artists we like at venues we like on dates that we&#8217;re free, and at prices we like is always difficult. However &#8211; despite our picky-ness we made it to the following recently (nicely matching with some [&hellip;]",
-                "og_url": "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/",
-                "og_site_name": "Ross Wintle",
-                "article_published_time": "2007-11-18T14:52:00+00:00",
-                "og_image": [
-                    {
-                        "width": "600",
-                        "height": "399",
-                        "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
-                        "type": "image\/jpeg"
-                    }
-                ],
-                "author": "magicroundabout",
-                "twitter_card": "summary_large_image",
-                "twitter_creator": "@magicroundabout",
-                "twitter_site": "@magicroundabout",
-                "twitter_misc": {
-                    "Written by": "magicroundabout",
-                    "Estimated reading time": "3 minutes"
-                },
-                "schema": {
-                    "@context": "https:\/\/schema.org",
-                    "@graph": [
-                        {
-                            "@type": "WebPage",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/",
-                            "url": "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/",
-                            "name": "A couple of gigs - Ross Wintle",
-                            "isPartOf": {
-                                "@id": "https:\/\/rosswintle.uk\/#website"
-                            },
-                            "datePublished": "2007-11-18T14:52:00+00:00",
-                            "dateModified": "2007-11-18T14:52:00+00:00",
-                            "author": {
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2"
-                            },
-                            "breadcrumb": {
-                                "@id": "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/#breadcrumb"
-                            },
-                            "inLanguage": "en-GB",
-                            "potentialAction": [
-                                {
-                                    "@type": "ReadAction",
-                                    "target": [
-                                        "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/"
-                                    ]
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "BreadcrumbList",
-                            "@id": "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/#breadcrumb",
-                            "itemListElement": [
-                                {
-                                    "@type": "ListItem",
-                                    "position": 1,
-                                    "name": "Home",
-                                    "item": "https:\/\/rosswintle.uk\/"
-                                },
-                                {
-                                    "@type": "ListItem",
-                                    "position": 2,
-                                    "name": "A couple of gigs"
-                                }
-                            ]
-                        },
-                        {
-                            "@type": "WebSite",
-                            "@id": "https:\/\/rosswintle.uk\/#website",
-                            "url": "https:\/\/rosswintle.uk\/",
-                            "name": "Ross Wintle",
-                            "description": "Creativity, curiosity, and code",
-                            "potentialAction": [
-                                {
-                                    "@type": "SearchAction",
-                                    "target": {
-                                        "@type": "EntryPoint",
-                                        "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
-                                    },
-                                    "query-input": "required name=search_term_string"
-                                }
-                            ],
-                            "inLanguage": "en-GB"
-                        },
-                        {
-                            "@type": "Person",
-                            "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2",
-                            "name": "magicroundabout",
-                            "image": {
-                                "@type": "ImageObject",
-                                "inLanguage": "en-GB",
-                                "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
-                                "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
-                                "caption": "magicroundabout"
-                            },
-                            "description": "I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.",
-                            "sameAs": [
-                                "https:\/\/twitter.com\/magicroundabout"
-                            ],
-                            "url": "https:\/\/rosswintle.uk\/author\/magicroundabout\/"
-                        }
-                    ]
-                }
-            },
-            "_links": {
-                "self": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/80"
-                    }
-                ],
-                "collection": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
-                    }
-                ],
-                "about": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
-                    }
-                ],
-                "author": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/1"
-                    }
-                ],
-                "replies": [
-                    {
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=80"
-                    }
-                ],
-                "version-history": [
-                    {
-                        "count": 0,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/80\/revisions"
-                    }
-                ],
-                "wp:attachment": [
-                    {
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=80"
-                    }
-                ],
-                "wp:term": [
-                    {
-                        "taxonomy": "category",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=80"
-                    },
-                    {
-                        "taxonomy": "post_tag",
-                        "embeddable": true,
-                        "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=80"
-                    }
-                ],
-                "curies": [
-                    {
-                        "name": "wp",
-                        "href": "https:\/\/api.w.org\/{rel}",
-                        "templated": true
-                    }
-                ]
-            }
-        },
-        "id": 80,
-        "dateGmt": "2007-11-18T14:52:00",
-        "modifiedDateGmt": "2007-11-18T14:52:00",
-        "slug": "a-couple-of-gigs",
-        "status": "publish",
-        "type": "post",
-        "link": "https:\/\/rosswintle.uk\/2007\/11\/a-couple-of-gigs\/",
-        "title": "A couple of gigs",
-        "content": "<p>We&#8217;ve had the good fortune of seeing a couple of gigs lately.  We always enjoy live music, but finding bands\/artists we like at venues we like on dates that we&#8217;re free, and at prices we like is always difficult.<\/p>\n<p>However &#8211; despite our picky-ness we made it to the following recently (nicely matching with some recent CD purschases!)<\/p>\n<p><span style=\"font-weight:bold;\">KT Tunstall at Colston Hall, Bristol<\/span><\/p>\n<p>Now&#8230;one of the games we played when we lived in Shepherd&#8217;s Bush was guessing who was playing at the Empire (a popular music venue just round the corner from where we lived) from the people who were queueing up\/milling around.  e.g. Jack Johnson gigs have lots of normally-dressed, but pretty stoned, surfer and indie types; The Beautiful South had lots of middle-aged, middle-of-the-road-looking people queueing outside.<\/p>\n<p>For some reason, I was very self-concious at this KT gig.  Though the crowd was a real mix, I felt slightly too young, slightly too normal, slightly too 90&#8217;s indie.  Yet, I think if I was playing the &#8220;who&#8217;s on at the Colston Hall&#8221; game, I&#8217;d have picked me out as a MOR soft-rocker type along with everyone else.  And I didn&#8217;t like that.  Part of me is embarrassed that I went.<\/p>\n<p>BUT&#8230;I don&#8217;t really care.  The gig was GREAT!  KT is a great entertainer, with lots of crowd-pleasing banter.  She&#8217;s confident and charming, but a bit kooky.  She&#8217;s incredibly cool, and very talented, but comes across as homely and clumsy.  Her mum and dad were in the audience and she even forgot the words to one song called &#8220;Hopeless&#8221;, which, ironically, is about being just that!<\/p>\n<p>The band were awesome and KT certainly doesn&#8217;t stand alone, with a bassist, guitarist, keyboards\/random sounds guy, a brilliant percussionist (I&#8217;m not calling him a drummer because he played far more than just drums), and two backing singers, playing, between them all, a HUGE number of different instruments.<\/p>\n<p>The songs were great, and we had fun, and enjoyed a class act.<\/p>\n<p><span style=\"font-weight:bold;\">Martyn Joseph at Marlborough Town Hall<\/span><\/p>\n<p>I was almost certainly too young and too cool to attend this aging, accoustic folk-rockers latest tour, but we love him to bits and we&#8217;ve caught the last 2 tours (and previous gigs too), so I&#8217;ve already lost any credibility I might have had. \ud83d\ude42<\/p>\n<p>We&#8217;ve seen MJ with accompaniment before &#8211; a single keyboard player at a gig at Bush Hall in London.  But this time he had a little band of sorts.  There was a very cool-looking and talented female bassist playing double bass and both fretted and fretless electric bass &#8211; not all at the same time of course.  And a very un-cool-looking but equally talented wind-instrument guy, playing tenor sax, clarinet and&#8230;yes really&#8230;the recorder!<\/p>\n<p>I won&#8217;t say much about MJ.  He was on good form and the new songs, which have grown on me more since my album review, sound great live.  Though I prefer &#8220;Kindness&#8221; unaccompanied&#8230;it has a certain kind of emotion and tension when it&#8217;s just the accoustic guitar&#8230;it&#8217;s longing for more sound around it&#8230;&#8221;how I miss you\/my angel and my reason how I miss you&#8221;.  (Though I&#8217;m just listening to it again and there&#8217;s a hint of piano and electric guitar on the album version&#8230;so I&#8217;m wrong there.  I do prefer the album version though).<\/p>\n<p>What did amaze me at this gig was the teamwork, humility and restraint of the musicians.  The wind-instrument guy hardly played at all.  He only chipped in when it was needed.  He didn&#8217;t, pardon the pun, blow his own trumpet.<\/p>\n<p>There&#8217;s a great metaphor in here for how we should live our lives.  Quietly working in the background, not demanding attention, playing along to the tune of our creator, but remembering always that it&#8217;s His work.  He&#8217;s the lead, we follow, we play, and if we demand too much attention that will detract from His glory!<\/p>\n<p>Music is a great gift and I left both gigs thankful for the talented people who write and play these songs to bring us pleasure.<\/p>\n",
-        "excerpt": "<p>We&#8217;ve had the good fortune of seeing a couple of gigs lately. We always enjoy live music, but finding bands\/artists we like at venues we like on dates that we&#8217;re free, and at prices we like is always difficult. However &#8211; despite our picky-ness we made it to the following recently (nicely matching with some [&hellip;]<\/p>\n",
         "parentId": 0,
         "authorId": 1,
         "featuredMediaId": 0
