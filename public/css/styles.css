@@ -1124,6 +1124,10 @@ video {
   top: auto;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
