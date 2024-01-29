@@ -1,0 +1,95 @@
+<body><header><h1 data-pagefind-meta="title">Weekend Project: Simple notes app</h1></header><main>
+<p><em>I can&#8217;t use any of my favourite note-taking apps at work. But I can use a web browser and I can write JavaScript. The logical conclusion is, of course, that I should build my own!: <a href="https://notes.veryuseful.app/">https://notes.veryuseful.app/</a></em></p>
+
+
+
+<p>Outside of work, I love my <a href="https://bear.app/">Bear Notes</a>. It&#8217;s the perfect quick note-taking app for me. Fast, simple, uses markdown, has simple tagging, syncs through iCloud. It&#8217;s great and amazing value for money.</p>
+
+
+
+<p>But at work I&#8217;m hampered by corporate IT and security as to what I can use. So I went looking for alternatives that I CAN use.</p>
+
+
+
+<p>I&#8217;ve looked at <a href="https://obsidian.md/">Obsidian</a>, and would be plenty happy with it. But that&#8217;s not allowed.</p>
+
+
+
+<p>I also like the simplicity of <a href="https://simplenote.com/">Simplenote</a>, but again, it&#8217;s not approved!</p>
+
+
+
+<p>Apple&#8217;s Notes app is allowed. But it&#8217;s has the wrong feature set for me and doesn&#8217;t do Markdown.</p>
+
+
+
+<p>Google Keep is also allowed but… honestly?… it&#8217;s crap.</p>
+
+
+
+<p>I&#8217;d previously looked into <a href="https://mdsilo.com/">mdSilo</a> and <a href="https://logseq.com/">logSeq</a> as these both had web versions that you could connect to local files. This seemed like it should be allowed. But they both seem to have lost their web-only features.</p>
+
+
+
+<p>So I polled my team, and the majority liked Notion. But I&#8217;ve always found Notion slow and cumbersome.</p>
+
+
+
+<p>Some use Evernote and were looking for alternatives as it&#8217;s gone downhill recently.</p>
+
+
+
+<p>So… what to do?</p>
+
+
+
+<h2 class="wp-block-heading">Scratch your own itch</h2>
+
+
+
+<p>Data. Websites. Files. APIs. This is my thing, right? It can&#8217;t be too hard to make a simple notes app.</p>
+
+
+
+<p>I just want a searchable list of notes with titles, tags, markdown. There are open-source markdown editors.</p>
+
+
+
+<p>My initial thought was to use WordPress as a back end and write a simple web app that saved notes using the WordPress REST API.</p>
+
+
+
+<p>And so I got to work.</p>
+
+
+
+<p>I used my <a href="https://github.com/rosswintle/small-site-template">small site template</a> with a simple PHP build process, TailwindCSS and AlpineJS.</p>
+
+
+
+<p>As I started building I realised that I could probably just store a good lump of notes in local storage in the browser. Looks like 5MB is the limit and the internet says that a MB is about 500 pages of text. So local storage gets me 2,500 notes. That&#8217;s fine for a good long while. I&#8217;ve only got about 1,100 notes in Bear after about four years.</p>
+
+
+
+<p>In about 90 minutes on Saturday night I had a working prototype. And as I went to sleep I was thinking that I could just use the browser&#8217;s built-in file access API to save the notes to a JSON file. I could do this every 10 seconds or so as an autosave. In theory I could then ditch the local storage. Hmm…</p>
+
+
+
+<p>And so it&#8217;s Sunday. I&#8217;m writing this post in my own, simple, home-grown notes app that runs in a browser and saves data to a local file.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="994" height="808" src="https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-14-at-21.37.47.png" alt="A screengrab of my new JavaScript-based notes app showing a list of notes on the left, and on the right I am editing this actual post that you are reading!" class="wp-image-254894" srcset="https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-14-at-21.37.47.png 994w, https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-14-at-21.37.47-300x244.png 300w, https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-14-at-21.37.47-768x624.png 768w" sizes="(max-width: 994px) 100vw, 994px" /></figure>
+
+
+
+<p>It&#8217;s not perfect. It&#8217;s badly designed. There aren&#8217;t tags yet. But it does what I need for now. And other than major dependencies (<a href="https://github.com/Ionaru/easy-markdown-editor">EasyMDE</a> and <a href="https://alpinejs.dev/directives/bind#binding-classes">AlpineJS</a>) it&#8217;s all my own code. 200 lines of JS (6KB unminified).</p>
+
+
+
+<p>Please do NOT trust it with important information. Use entirely at your own risk. But do feel free to give it a whirl!</p>
+
+
+
+<p><a href="https://notes.veryuseful.app/">https://notes.veryuseful.app/</a></p>
+</main></body>

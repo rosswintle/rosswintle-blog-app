@@ -1,0 +1,229 @@
+{
+    "id": 254893,
+    "date": "2024-01-14T21:39:35",
+    "date_gmt": "2024-01-14T21:39:35",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=254893"
+    },
+    "modified": "2024-01-14T21:39:36",
+    "modified_gmt": "2024-01-14T21:39:36",
+    "slug": "weekend-project-simple-notes-app",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/",
+    "title": {
+        "rendered": "Weekend Project: Simple notes app"
+    },
+    "content": {
+        "rendered": "\n<p><em>I can&#8217;t use any of my favourite note-taking apps at work. But I can use a web browser and I can write JavaScript. The logical conclusion is, of course, that I should build my own!: <a href=\"https:\/\/notes.veryuseful.app\/\">https:\/\/notes.veryuseful.app\/<\/a><\/em><\/p>\n\n\n\n<p>Outside of work, I love my <a href=\"https:\/\/bear.app\/\">Bear Notes<\/a>. It&#8217;s the perfect quick note-taking app for me. Fast, simple, uses markdown, has simple tagging, syncs through iCloud. It&#8217;s great and amazing value for money.<\/p>\n\n\n\n<p>But at work I&#8217;m hampered by corporate IT and security as to what I can use. So I went looking for alternatives that I CAN use.<\/p>\n\n\n\n<p>I&#8217;ve looked at <a href=\"https:\/\/obsidian.md\/\">Obsidian<\/a>, and would be plenty happy with it. But that&#8217;s not allowed.<\/p>\n\n\n\n<p>I also like the simplicity of <a href=\"https:\/\/simplenote.com\/\">Simplenote<\/a>, but again, it&#8217;s not approved!<\/p>\n\n\n\n<p>Apple&#8217;s Notes app is allowed. But it&#8217;s has the wrong feature set for me and doesn&#8217;t do Markdown.<\/p>\n\n\n\n<p>Google Keep is also allowed but\u2026 honestly?\u2026 it&#8217;s crap.<\/p>\n\n\n\n<p>I&#8217;d previously looked into <a href=\"https:\/\/mdsilo.com\/\">mdSilo<\/a> and <a href=\"https:\/\/logseq.com\/\">logSeq<\/a> as these both had web versions that you could connect to local files. This seemed like it should be allowed. But they both seem to have lost their web-only features.<\/p>\n\n\n\n<p>So I polled my team, and the majority liked Notion. But I&#8217;ve always found Notion slow and cumbersome.<\/p>\n\n\n\n<p>Some use Evernote and were looking for alternatives as it&#8217;s gone downhill recently.<\/p>\n\n\n\n<p>So\u2026 what to do?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Scratch your own itch<\/h2>\n\n\n\n<p>Data. Websites. Files. APIs. This is my thing, right? It can&#8217;t be too hard to make a simple notes app.<\/p>\n\n\n\n<p>I just want a searchable list of notes with titles, tags, markdown. There are open-source markdown editors.<\/p>\n\n\n\n<p>My initial thought was to use WordPress as a back end and write a simple web app that saved notes using the WordPress REST API.<\/p>\n\n\n\n<p>And so I got to work.<\/p>\n\n\n\n<p>I used my <a href=\"https:\/\/github.com\/rosswintle\/small-site-template\">small site template<\/a> with a simple PHP build process, TailwindCSS and AlpineJS.<\/p>\n\n\n\n<p>As I started building I realised that I could probably just store a good lump of notes in local storage in the browser. Looks like 5MB is the limit and the internet says that a MB is about 500 pages of text. So local storage gets me 2,500 notes. That&#8217;s fine for a good long while. I&#8217;ve only got about 1,100 notes in Bear after about four years.<\/p>\n\n\n\n<p>In about 90 minutes on Saturday night I had a working prototype. And as I went to sleep I was thinking that I could just use the browser&#8217;s built-in file access API to save the notes to a JSON file. I could do this every 10 seconds or so as an autosave. In theory I could then ditch the local storage. Hmm\u2026<\/p>\n\n\n\n<p>And so it&#8217;s Sunday. I&#8217;m writing this post in my own, simple, home-grown notes app that runs in a browser and saves data to a local file.<\/p>\n\n\n\n<figure class=\"wp-block-image size-full\"><img loading=\"lazy\" decoding=\"async\" width=\"994\" height=\"808\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-14-at-21.37.47.png\" alt=\"A screengrab of my new JavaScript-based notes app showing a list of notes on the left, and on the right I am editing this actual post that you are reading!\" class=\"wp-image-254894\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-14-at-21.37.47.png 994w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-14-at-21.37.47-300x244.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-14-at-21.37.47-768x624.png 768w\" sizes=\"(max-width: 994px) 100vw, 994px\" \/><\/figure>\n\n\n\n<p>It&#8217;s not perfect. It&#8217;s badly designed. There aren&#8217;t tags yet. But it does what I need for now. And other than major dependencies (<a href=\"https:\/\/github.com\/Ionaru\/easy-markdown-editor\">EasyMDE<\/a> and <a href=\"https:\/\/alpinejs.dev\/directives\/bind#binding-classes\">AlpineJS<\/a>) it&#8217;s all my own code. 200 lines of JS (6KB unminified).<\/p>\n\n\n\n<p>Please do NOT trust it with important information. Use entirely at your own risk. But do feel free to give it a whirl!<\/p>\n\n\n\n<p><a href=\"https:\/\/notes.veryuseful.app\/\">https:\/\/notes.veryuseful.app\/<\/a><\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I can&#8217;t use any of my favourite note-taking apps at work. But I can use a web browser and I can write JavaScript. The logical conclusion is, of course, that I should build my own!<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        16216,
+        64,
+        107,
+        631,
+        705,
+        181
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v21.9.1 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Weekend Project: Simple notes app - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Weekend Project: Simple notes app - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I can&#039;t use any of my favourite note-taking apps at work. But I can use a web browser and I can write JavaScript. The logical conclusion is, of course, that I should build my own!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2024-01-14T21:39:35+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2024-01-14T21:39:36+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-14-at-21.37.47.png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/\",\"url\":\"https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/\",\"name\":\"Weekend Project: Simple notes app - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-01-14T21:39:35+00:00\",\"dateModified\":\"2024-01-14T21:39:36+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Weekend Project: Simple notes app\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Weekend Project: Simple notes app - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Weekend Project: Simple notes app - Ross Wintle",
+        "og_description": "I can't use any of my favourite note-taking apps at work. But I can use a web browser and I can write JavaScript. The logical conclusion is, of course, that I should build my own!",
+        "og_url": "https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2024-01-14T21:39:35+00:00",
+        "article_modified_time": "2024-01-14T21:39:36+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-14-at-21.37.47.png"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/",
+                    "url": "https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/",
+                    "name": "Weekend Project: Simple notes app - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-01-14T21:39:35+00:00",
+                    "dateModified": "2024-01-14T21:39:36+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/01\/weekend-project-simple-notes-app\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Weekend Project: Simple notes app"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254893"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=254893"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254893\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 254895,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254893\/revisions\/254895"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=254893"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=254893"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=254893"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}
