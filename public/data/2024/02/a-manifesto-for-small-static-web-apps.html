@@ -1,0 +1,255 @@
+<body><header><h1 data-pagefind-meta="title">A manifesto for small, static, web apps</h1></header><main>
+<p><em>I&#8217;m having a lot of fun building small, static web apps. And there are certain principles I&#8217;m trying to stick to as I do it. Let&#8217;s see what they are&#8230;</em></p>
+
+
+
+<h2 class="wp-block-heading">What is a manifesto anyway?</h2>
+
+
+
+<p>As I started writing this, I asked myself: &#8220;Is this actually a manifesto? What is a manifesto?&#8221;</p>
+
+
+
+<p>But the definition is actually helpful: &#8220;<em>a written declaration of the intentions, motives, or views <strong>of the issuer</strong></em>&#8220;</p>
+
+
+
+<p>And what I want to make clear is that these are <em>my</em> intentions. Sure, you may find them helpful. Or you may disagree with them entirely. That&#8217;s fine. They aren&#8217;t yours.</p>
+
+
+
+<p>I&#8217;m writing them down because I think they are an interesting way to look at software for the web. And a useful set of constraints for what I am trying to do. You may want to adopt some or all of them for your own projects. But I&#8217;m not demanding anyone does. You can take or leave them.</p>
+
+
+
+<h2 class="wp-block-heading">The Manifesto</h2>
+
+
+
+<p>Here is a summary of the articles, I shall talk more about each below:</p>
+
+
+
+<ul>
+<li>Static first/only</li>
+
+
+
+<li>No login</li>
+
+
+
+<li>Don&#8217;t store user data</li>
+
+
+
+<li>Use the smallest JS library possible</li>
+
+
+
+<li>Use web standards as much as possible</li>
+
+
+
+<li>Use simple build steps that won&#8217;t break</li>
+
+
+
+<li>“Done” is a goal</li>
+
+
+
+<li>Zero-maintenance (and easy maintenance) is a goal</li>
+
+
+
+<li>Don’t minify</li>
+
+
+
+<li>Be accessible</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">1. Static first/only</h2>
+
+
+
+<p>My goal when building these web apps is to see what I can do with static files only. I&#8217;m <em>very</em> curious about how far you can take static-only apps. It makes hosting trivial and mostly free. It makes apps fast. And it&#8217;s a <em>really</em> interesting constraint to work within.</p>
+
+
+
+<p>In some cases there will be a large benefit in having a database or something else that is more dynamic. In these cases I will try to build &#8220;static first&#8221;. My <a href="https://notes.veryuseful.app/">notes app</a> is a good example of this: it works fine writing to local files. But there is a large benefit in having notes available across multiple browsers. So <a href="https://rosswintle.uk/2024/02/static-databases-for-static-sites-possible/">I&#8217;m thinking about ways to achieve that</a>.</p>
+
+
+
+<p>In these cases I&#8217;m hoping that the app will be &#8220;static first&#8221;. It will work without some additional &#8220;cloud&#8221; stuff as an optional enhancement. But first it will be a static app.</p>
+
+
+
+<h2 class="wp-block-heading">2. No login</h2>
+
+
+
+<p>I mentioned this in <a href="https://rosswintle.uk/2024/02/static-databases-for-static-sites-possible/">my last post</a>, but the first time I came across an app that worked using the browser&#8217;s local storage (Gaya Kessler&#8217;s time tracker, &#8220;<a href="https://usethyme.com/">Thyme</a>&#8220;) and had no login it was so surprising and delightful. I can just use this tool, without registering and handing over an email address? I just click a button and works?</p>
+
+
+
+<p>I want my helpful little apps to be like this.</p>
+
+
+
+<h2 class="wp-block-heading">3. Don&#8217;t store user data</h2>
+
+
+
+<p>By this I mean, don&#8217;t store data on behalf of the user. Find ways to let the user store their own data.</p>
+
+
+
+<p>This frees you from privacy policies and rules. It helps with the &#8220;No login&#8221; goal. It helps with the &#8220;Static first&#8221; goal. And yes, it&#8217;s a constraint/limitation. But it&#8217;s part of the challenge: how can you implement your tool in a way that doesn&#8217;t need you to store data?</p>
+
+
+
+<p>Again, <a href="https://rosswintle.uk/2024/02/static-databases-for-static-sites-possible/">my previous post</a> explores this.</p>
+
+
+
+<h2 class="wp-block-heading">4. Use the smallest JS library possible</h2>
+
+
+
+<p>I actually fail at this as I normally use <a href="https://alpinejs.dev/">AlpineJS</a>, which I realised recently has steadily grown to about 43kB. I almost certainly don&#8217;t need 40+kB of JS to do most of what I want to do. It&#8217;s super helpful as a reactive JS library. But <a href="https://github.com/vuejs/petite-vue">Petite Vue</a> clocks in at 6kB. <a href="https://preactjs.com/">Preact</a> is 3kB. And Alpine v2 was 24kB. So it&#8217;s feeling a little bloated (sorry, Caleb!).</p>
+
+
+
+<p>However, I want to reduce this, so having this as a goal will encourage me to look around.</p>
+
+
+
+<h2 class="wp-block-heading">5. Use web standards as much as possible</h2>
+
+
+
+<p>Web browsers have <em>so</em> much built-in stuff now. And these web apps should assume up-to-date browsers with modern features. This helps achieve simple build steps and fewer dependencies.</p>
+
+
+
+<h2 class="wp-block-heading">6. Use simple build steps that won&#8217;t break</h2>
+
+
+
+<p>In order to make maintenance easy, build steps should be simple and robust.</p>
+
+
+
+<p>I do currently use TailwindCSS, but I consider that robust and it has few dependencies. Its not breaking every year and as the output is static I consider it acceptable as a tool.</p>
+
+
+
+<p>Currently, my other build steps are:</p>
+
+
+
+<ul>
+<li><code>build.sh</code> &#8211; a project-specific shell script that performs whatever other steps are needed to build the site. It&#8217;s a shell script, so it runs everywhere and should have a long lifespan</li>
+
+
+
+<li><code>while true; do ./build.sh; sleep 5; done;</code> &#8211; this is fine as a &#8220;watch&#8221; script. It doesn&#8217;t hot-reload, it doesn&#8217;t auto-refresh. But that&#8217;s fine. I accept needing to manually reload a page as acceptable. It&#8217;s zero-dependency and is unlikely to break. That&#8217;s more important.</li>
+</ul>
+
+
+
+<p>I&#8217;m sure there are better ways. But these work and meet my needs without compromising the other goals.</p>
+
+
+
+<h2 class="wp-block-heading">7. “Done” is a goal</h2>
+
+
+
+<p>I hear so much about software never being finished. But I think, these little apps <em>can</em> and <em>should</em> be finished. They should reach a state where they are complete.</p>
+
+
+
+<p>The pattern of startups is so familiar. Build something simple; gain excited users; realise you need to compete and grow; add more features; pivot to different features; add more features; either a) run out of money and shut down or b) get acquired, monetise and become crap.</p>
+
+
+
+<p>The whole idea of my little apps is that they can be built quickly to do a simple job, and shared easily and cheaply on the internet for everyone to use. They don&#8217;t need to grow or be sold. They don&#8217;t even need to make money &#8211; I put <a href="https://ko-fi.com/magicroundabout/">a ko-fi link</a> on some of mine, or link to something else I make or sell, but that&#8217;s 100% optional. The joy is in the making and sharing.</p>
+
+
+
+<p>So I think these tools can be complete. By being static, not having logins, using web standards and minimal libraries, they should be good for a long time!</p>
+
+
+
+<h2 class="wp-block-heading">8. Zero-maintenance (and easy maintenance) is a goal</h2>
+
+
+
+<p>Related to &#8220;Done&#8221; being a goal is that zero-maintenance is also a goal. It won&#8217;t actually be zero. But in making things be &#8220;done&#8221;, in referencing minimal libraries and in not storing user logins and data, it should be able to be close to zero. Using simple build steps ensures that returning to a project to do maintenance is also easy.</p>
+
+
+
+<h2 class="wp-block-heading">9. Don’t minify</h2>
+
+
+
+<p>I want these tools to be educational. If nothing else I want others to see I want people to be able to inspect the source. They will use minimal JavaScript, and that will be compressed in transit by the CDN. So I&#8217;m not concerned about performance. Readability is more important.</p>
+
+
+
+<p>So, while I know about source maps, I think &#8220;don&#8217;t minify&#8221; is a good goal.</p>
+
+
+
+<h2 class="wp-block-heading">10. Be accessible</h2>
+
+
+
+<p>I&#8217;ve been bad at this but it needs to be a part.</p>
+
+
+
+<p>Web <em>apps</em> are harder to do accessibility for than web <em>sites</em> as they are more interactive. I need to learn more in this area and these little projects are an excuse to do that.</p>
+
+
+
+<p>But I confess, I have neglected it, and I really want the things I make to be accessible.</p>
+
+
+
+<p>Other goals, such as using web standards, should make accessibility easier.</p>
+
+
+
+<p>This should not be neglected. It should be a priority, both for my own learning, and it&#8217;s the right thing to do for my little tools.</p>
+
+
+
+<h2 class="wp-block-heading">Summary thoughts</h2>
+
+
+
+<p>As I wrote this all out and explained it, it was amazing how all of these goals interlink with each other. This is why I&#8217;m excited about the approach. Joining all these things up enables a whole new way of thinking about building stuff.</p>
+
+
+
+<p>Being able to build and publish a finished thing that works and does something useful but that requires no (or very little) future involvement from me is really exciting. It&#8217;s freeing. It opens up my geeky creativity.</p>
+
+
+
+<p>In many ways this manifesto is massively constraining. But in other ways it makes doing fun web-stuff possible again.</p>
+
+
+
+<p>Arguably this is my own &#8220;<a href="https://en.wikipedia.org/wiki/Jamstack">Jamstack</a>&#8220;, and I&#8217;m about twelve years later than everyone else to it. I&#8217;m fine with that. Jamstack also had APIs at its core and this frequently meant having a node.js back-end, which is, well, just not my jam (yes pun intended).</p>
+
+
+
+<p>I hope this inspires you in some way.</p>
+</main></body>

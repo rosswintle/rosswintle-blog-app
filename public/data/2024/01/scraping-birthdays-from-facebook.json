@@ -1,0 +1,228 @@
+{
+    "id": 254930,
+    "date": "2024-01-29T16:07:34",
+    "date_gmt": "2024-01-29T16:07:34",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=254930"
+    },
+    "modified": "2024-01-29T16:07:35",
+    "modified_gmt": "2024-01-29T16:07:35",
+    "slug": "scraping-birthdays-from-facebook",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/",
+    "title": {
+        "rendered": "Scraping Birthdays from Facebook"
+    },
+    "content": {
+        "rendered": "\n<p><em>I used some hacky JavaScript to scrape my friends birthdays from Facebook so that I can put them in my actual calendar.<\/em><\/p>\n\n\n\n<p>This is a bit technical and probably not something you want to do. And it may not even work for you. And it&#8217;s probably not allowed. But I&#8217;d argue that if you can see all your friends birthdays on Facebook anyway then this is just an automated version of something you could do manually.<\/p>\n\n\n\n<p>But anyway, I wanted to record what I did.<\/p>\n\n\n\n<p>So here&#8217;s the situation: I&#8217;m not really on Facebook. But there are some people I&#8217;m friends with on there for whom I wanted reminders of their birthdays. So I wanted to be able to download just these dates so that I can save them for my own use.<\/p>\n\n\n\n<p>The first step is to open your browser&#8217;s dev tools, and go to the Facebook Birthdays page: <a href=\"https:\/\/www.facebook.com\/friends\/birthdays\">https:\/\/www.facebook.com\/friends\/birthdays<\/a><\/p>\n\n\n\n<p>On the network tab you&#8217;ll now see all the network requests.<\/p>\n\n\n\n<p>Hit Ctrl\/Cmd-F to open the find window and search for <code>friends_by_birthday_month_context_sentence<\/code><\/p>\n\n\n\n<p>This will show all the requests that contain the birthday data. It will look something like this:<\/p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img loading=\"lazy\" decoding=\"async\" width=\"1024\" height=\"412\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-29-at-15.41.56@2x-1024x412.png\" alt=\"\" class=\"wp-image-254931\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-29-at-15.41.56@2x-1024x412.png 1024w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-29-at-15.41.56@2x-300x121.png 300w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-29-at-15.41.56@2x-768x309.png 768w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-29-at-15.41.56@2x-1536x618.png 1536w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-29-at-15.41.56@2x-2048x824.png 2048w\" sizes=\"(max-width: 1024px) 100vw, 1024px\" \/><\/figure>\n\n\n\n<p>On the left, in the search results, you can see the <code>\/birthdays<\/code> request with results for February, March and April. (Note: I&#8217;m doing this in January!) And then a follow-up request to <code>\/graphql<\/code> that gets the data for May and June.<\/p>\n\n\n\n<p>If you scroll the page down the other months load as well, but you&#8217;ll need to reload the search to get the full results.<\/p>\n\n\n\n<p>You then need to get the data from these requests into somewhere you can run JavaScript.  And this will need some manual effort.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Processing the \/birthdays request<\/h3>\n\n\n\n<p>For the <code>\/birthdays<\/code> request you&#8217;ll need to track down the script that contains <code>friends_by_birthday_month_context_sentence<\/code><\/p>\n\n\n\n<p>Then copy that script into a code editor (I actually did this in an interactive JavaScript tool called <a href=\"https:\/\/runjs.app\/\">RunJS<\/a>). Do NOT use an online code editor like CodePen or JSBin as this file contains the personal data of your friends!!!<\/p>\n\n\n\n<p>Then edit the code to assign the JSON from the response to a variable by prepending it with <\/p>\n\n\n\n<p><code>const data = <\/code><\/p>\n\n\n\n<p>At the end of this file you should then add code to extract the names and dates. Mine looks like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; gutter: false; title: ; notranslate\" title=\"\">\nlet friends_by_months = data.require&#x5B;0]&#x5B;3]&#x5B;0]&#x5B;'__bbox'].require&#x5B;5]&#x5B;3]&#x5B;1]&#x5B;'__bbox'].result.data.viewer.all_friends_by_birthday_month.edges.flatMap(m =&gt; m.node.friends.edges)\nfriends_by_months.map(f =&gt; f.node.name + ',' + f.node.birthdate.year + '-' + f.node.birthdate.month + '-' + f.node.birthdate.day)\n<\/pre><\/div>\n\n\n<p>Yes. This is a mess. But if you run this JS code it you should get out an array of names and birthdays for the first few months.<\/p>\n\n\n\n<h3 class=\"wp-block-heading\">Processing the \/graphql requests<\/h3>\n\n\n\n<p>The requests for the other months are GraphQL requests. You&#8217;ll need to do something similar to what you did for the main <code>birthdays<\/code> request for each of the GraphQL requests containing birthday data.<\/p>\n\n\n\n<p>Copy the JSON response into a code editor and prepend with:<\/p>\n\n\n\n<p><code>const data = <\/code><\/p>\n\n\n\n<p>The code to extract the dates is slightly different. But putting this at the end of the file and executing it should give you the array of names and dates:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; gutter: false; title: ; notranslate\" title=\"\">\nlet friends_by_months = data.data.viewer.all_friends_by_birthday_month.edges.flatMap(m =&gt; m.node.friends.edges)\nfriends_by_months.map(f =&gt; f.node.name + ',' + f.node.birthdate.year + '-' + f.node.birthdate.month + '-' + f.node.birthdate.day)\n<\/pre><\/div>\n\n\n<p>That&#8217;s all I got! Maybe this is useful to someone.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I used some hacky JavaScript to scrape my friends birthdays from Facebook so that I can put them in my actual calendar.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        315,
+        254,
+        16220,
+        107,
+        16221
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.0 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Scraping Birthdays from Facebook - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Scraping Birthdays from Facebook - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I used some hacky JavaScript to scrape my friends birthdays from Facebook so that I can put them in my actual calendar.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2024-01-29T16:07:34+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2024-01-29T16:07:35+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-29-at-15.41.56@2x-1024x412.png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/\",\"url\":\"https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/\",\"name\":\"Scraping Birthdays from Facebook - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-01-29T16:07:34+00:00\",\"dateModified\":\"2024-01-29T16:07:35+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Scraping Birthdays from Facebook\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Scraping Birthdays from Facebook - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Scraping Birthdays from Facebook - Ross Wintle",
+        "og_description": "I used some hacky JavaScript to scrape my friends birthdays from Facebook so that I can put them in my actual calendar.",
+        "og_url": "https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2024-01-29T16:07:34+00:00",
+        "article_modified_time": "2024-01-29T16:07:35+00:00",
+        "og_image": [
+            {
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2024\/01\/CleanShot-2024-01-29-at-15.41.56@2x-1024x412.png"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "3 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/",
+                    "url": "https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/",
+                    "name": "Scraping Birthdays from Facebook - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-01-29T16:07:34+00:00",
+                    "dateModified": "2024-01-29T16:07:35+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/01\/scraping-birthdays-from-facebook\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Scraping Birthdays from Facebook"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254930"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=254930"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254930\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 254932,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254930\/revisions\/254932"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=254930"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=254930"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=254930"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -1,0 +1,225 @@
+{
+    "id": 254993,
+    "date": "2024-02-15T20:19:18",
+    "date_gmt": "2024-02-15T20:19:18",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=254993"
+    },
+    "modified": "2024-02-17T15:24:17",
+    "modified_gmt": "2024-02-17T15:24:17",
+    "slug": "static-databases-for-static-sites-possible",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/",
+    "title": {
+        "rendered": "Static databases for static sites. Possible?"
+    },
+    "content": {
+        "rendered": "\n<p><em>Regular readers will know about <a href=\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/\">my love of simple, static-hosted, web-based apps<\/a> that are easy to build and maintain, and free to host. But they are held back by the lack of dynamic data. Sure, you can store data in local storage, but what if you want to share data between browsers? Is there a way to do that that is simple and ultra-low-cost for side-projects that I let the world use for free?<\/em><\/p>\n\n\n\n<p>A simple solution is fine. I don&#8217;t plan using this for large volumes of data. So is there some kind of key-value (KV) store I can put a JSON blob in using a simple REST API that is somehow secure?<\/p>\n\n\n\n<p>I&#8217;ve mentioned this on social media a couple of times. I get responses suggesting tools. The responses I get are good, but they are things like <a href=\"https:\/\/fauna.com\/\">Fauna<\/a>, <a href=\"https:\/\/redis.io\/\">Redis<\/a>, <a href=\"https:\/\/supabase.com\/\">Supabase<\/a>, <a href=\"https:\/\/www.cloudflare.com\/en-gb\/developer-platform\/workers-kv\/\">Cloudflare KV<\/a>, <a href=\"https:\/\/aws.amazon.com\/dynamodb\/\">DynamoDB<\/a>, <a href=\"https:\/\/github.com\/rqlite\/rqlite\">rqlite<\/a> and <a href=\"https:\/\/kvdb.io\/\">KVdb<\/a>.<\/p>\n\n\n\n<p>All of these fall into one or more of these categories:<\/p>\n\n\n\n<ul>\n<li>Doesn&#8217;t have an HTTP API<\/li>\n\n\n\n<li>Requires me to jump through lots of hoops to set up<\/li>\n\n\n\n<li>Requires me to self-host<\/li>\n\n\n\n<li>Is just overkill for what I want to do<\/li>\n<\/ul>\n\n\n\n<p>Even though some of them have decent free tiers, I still think these don&#8217;t meet the need that I have.<\/p>\n\n\n\n<p>There&#8217;s also an overriding feeling that these just wouldn&#8217;t work for an everyday person.<\/p>\n\n\n\n<p>When I try to discuss it, people don&#8217;t seem to quite understand the requirement.<\/p>\n\n\n\n<p>So let me try to explain what I think I would like.<\/p>\n\n\n\n<p>I have a static-file web application. It&#8217;s just HTML, CSS and JavaScript.<\/p>\n\n\n\n<p>I want to read and write data to a data store using a simple REST API call that takes two parameters: a key name, and a data value.<\/p>\n\n\n\n<p>The endpoint should be authenticated for security. The API key or password should be per-user and per-app and should be stored in the browser&#8217;s local storage.<\/p>\n\n\n\n<p>The per-user thing is important. This avoids the application having an application key that needs to be kept safe.<\/p>\n\n\n\n<p>It also means that I as the app developer don&#8217;t have to be responsible for user data and privacy. It leaves the user in control of their own data. All I provide is the JavaScript code that moves the data around. The data is either in your browser, or it&#8217;s pushed to a place that you own and control.<\/p>\n\n\n\n<p>From an end-user&#8217;s point of view this is like having your own personal KV store. Like a Dropbox but for data. You connect each app to your datastore&#8217;s account. Or you manually get an API key and save it in the app. Then the app can push and pull the data.<\/p>\n\n\n\n<p>Aside: Yes, I could just connect to Dropbox and save the data as a JSON file. The downside of this is that the JSON files exist in the user&#8217;s Dropbox and can be accessed, which could be dangerous. I could also use <a href=\"https:\/\/developer.apple.com\/icloud\/cloudkit\/\">Apple&#8217;s CloudKit<\/a>, which basically works this way but without showing data to the user. But it needs an Apple account which doesn&#8217;t make for a very cross-platform solution.<\/p>\n\n\n\n<p>To be clear:<\/p>\n\n\n\n<ul>\n<li>This should be online\/cloud-based with an HTTP API (probably a REST API).<\/li>\n\n\n\n<li>This should not be a database. I do not expect schemas to be defined. Storing long strings is totally fine.<\/li>\n\n\n\n<li>This should not be self-hosted &#8211; perhaps that could be an option if people want it.<\/li>\n\n\n\n<li>Everything should be as simple as possible: auth, API calls, data structures.<\/li>\n<\/ul>\n\n\n\n<p>These static apps work by reading text files over HTTP. I want this system to be as simple as possible. Reading the data can be reading a static file using HTTP (with user identification and auth!). Writing the data should be as simple as that too.<\/p>\n\n\n\n<p>It&#8217;s <em>really <\/em>simple to make a service like this. I could build one in Laravel in probably about half an hour.<\/p>\n\n\n\n<p>But my guess is that this doesn&#8217;t exist because:<\/p>\n\n\n\n<ul>\n<li>It&#8217;s hard to market it. It&#8217;s difficult to explain to end-users exactly what this is. And that limits the audience.<\/li>\n\n\n\n<li>Nothing that writes data on the web is easy. You need to consider authentication, privacy, security, spam, misuse, scaling, backups, legal stuff. So there isn&#8217;t enough value here to become a service.<\/li>\n<\/ul>\n\n\n\n<p>Scaling up my ambitions: What if this was actually a web standard? A protocol for simple read\/write of key\/value data from web pages. One where users could choose a provider and connect web apps by providing an endpoint URL and a password &#8211; or using some oAuth-like system. Where users control their data, and can export\/migrate their data to another platform. Like the Fediverse but for data?<\/p>\n\n\n\n<p>I know this is a pipe dream. Something with little value. Something just for little indie devs like me.<\/p>\n\n\n\n<p>But also, I love the idea of these simple, applications running in the browser. And if there was some simple way to save data perhaps making things like this would be more popular? And for end-users, signing up to try a new app wouldn&#8217;t come with all the give-us-your-email-address-and-sign-your-life-away stuff.<\/p>\n\n\n\n<p>I remember when I first encountered an app like this. It was Gaya Kessler&#8217;s &#8220;<a href=\"https:\/\/usethyme.com\/\">Thyme<\/a>&#8221; time-tracker. And I was stunned that I could use it by just clicking a button. No sign up. No login. Just start using it. I was surprising. Delightful. And, at the time, disconcerting. How was this storing my data? But once I understood, I immediately knew more applications should be like this.<\/p>\n\n\n\n<p>What do you think? Am I missing something? Does this exist? Is it actually pointless? Should I accept that I&#8217;m the only person in the world that wants this and just sign up for Supabase?<\/p>\n\n\n\n<p> <\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Regular readers will know about my love of simple, static-hosted, web-based apps that are easy to build and maintain, and free to host. But they are held back by the lack of dynamic data. Sure, you can store data in local storage, but what if you want to share data between browsers? Is there a [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10
+    ],
+    "tags": [],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.0 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Static databases for static sites. Possible? - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Static databases for static sites. Possible? - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Regular readers will know about my love of simple, static-hosted, web-based apps that are easy to build and maintain, and free to host. But they are held back by the lack of dynamic data. Sure, you can store data in local storage, but what if you want to share data between browsers? Is there a [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2024-02-15T20:19:18+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2024-02-17T15:24:17+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"5 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/\",\"url\":\"https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/\",\"name\":\"Static databases for static sites. Possible? - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-02-15T20:19:18+00:00\",\"dateModified\":\"2024-02-17T15:24:17+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Static databases for static sites. Possible?\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Static databases for static sites. Possible? - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Static databases for static sites. Possible? - Ross Wintle",
+        "og_description": "Regular readers will know about my love of simple, static-hosted, web-based apps that are easy to build and maintain, and free to host. But they are held back by the lack of dynamic data. Sure, you can store data in local storage, but what if you want to share data between browsers? Is there a [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2024-02-15T20:19:18+00:00",
+        "article_modified_time": "2024-02-17T15:24:17+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "5 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/",
+                    "url": "https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/",
+                    "name": "Static databases for static sites. Possible? - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-02-15T20:19:18+00:00",
+                    "dateModified": "2024-02-17T15:24:17+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/02\/static-databases-for-static-sites-possible\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Static databases for static sites. Possible?"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254993"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=254993"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 4,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254993\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 255009,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/254993\/revisions\/255009"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=254993"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=254993"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=254993"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

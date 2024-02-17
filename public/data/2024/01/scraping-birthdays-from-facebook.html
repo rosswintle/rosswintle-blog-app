@@ -1,0 +1,109 @@
+<body><header><h1 data-pagefind-meta="title">Scraping Birthdays from Facebook</h1></header><main>
+<p><em>I used some hacky JavaScript to scrape my friends birthdays from Facebook so that I can put them in my actual calendar.</em></p>
+
+
+
+<p>This is a bit technical and probably not something you want to do. And it may not even work for you. And it&#8217;s probably not allowed. But I&#8217;d argue that if you can see all your friends birthdays on Facebook anyway then this is just an automated version of something you could do manually.</p>
+
+
+
+<p>But anyway, I wanted to record what I did.</p>
+
+
+
+<p>So here&#8217;s the situation: I&#8217;m not really on Facebook. But there are some people I&#8217;m friends with on there for whom I wanted reminders of their birthdays. So I wanted to be able to download just these dates so that I can save them for my own use.</p>
+
+
+
+<p>The first step is to open your browser&#8217;s dev tools, and go to the Facebook Birthdays page: <a href="https://www.facebook.com/friends/birthdays">https://www.facebook.com/friends/birthdays</a></p>
+
+
+
+<p>On the network tab you&#8217;ll now see all the network requests.</p>
+
+
+
+<p>Hit Ctrl/Cmd-F to open the find window and search for <code>friends_by_birthday_month_context_sentence</code></p>
+
+
+
+<p>This will show all the requests that contain the birthday data. It will look something like this:</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="412" src="https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-29-at-15.41.56@2x-1024x412.png" alt="" class="wp-image-254931" srcset="https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-29-at-15.41.56@2x-1024x412.png 1024w, https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-29-at-15.41.56@2x-300x121.png 300w, https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-29-at-15.41.56@2x-768x309.png 768w, https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-29-at-15.41.56@2x-1536x618.png 1536w, https://rosswintle.uk/wp-content/uploads/2024/01/CleanShot-2024-01-29-at-15.41.56@2x-2048x824.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>On the left, in the search results, you can see the <code>/birthdays</code> request with results for February, March and April. (Note: I&#8217;m doing this in January!) And then a follow-up request to <code>/graphql</code> that gets the data for May and June.</p>
+
+
+
+<p>If you scroll the page down the other months load as well, but you&#8217;ll need to reload the search to get the full results.</p>
+
+
+
+<p>You then need to get the data from these requests into somewhere you can run JavaScript.  And this will need some manual effort.</p>
+
+
+
+<h3 class="wp-block-heading">Processing the /birthdays request</h3>
+
+
+
+<p>For the <code>/birthdays</code> request you&#8217;ll need to track down the script that contains <code>friends_by_birthday_month_context_sentence</code></p>
+
+
+
+<p>Then copy that script into a code editor (I actually did this in an interactive JavaScript tool called <a href="https://runjs.app/">RunJS</a>). Do NOT use an online code editor like CodePen or JSBin as this file contains the personal data of your friends!!!</p>
+
+
+
+<p>Then edit the code to assign the JSON from the response to a variable by prepending it with </p>
+
+
+
+<p><code>const data = </code></p>
+
+
+
+<p>At the end of this file you should then add code to extract the names and dates. Mine looks like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; gutter: false; title: ; notranslate" title="">
+let friends_by_months = data.require&#x5B;0]&#x5B;3]&#x5B;0]&#x5B;'__bbox'].require&#x5B;5]&#x5B;3]&#x5B;1]&#x5B;'__bbox'].result.data.viewer.all_friends_by_birthday_month.edges.flatMap(m =&gt; m.node.friends.edges)
+friends_by_months.map(f =&gt; f.node.name + ',' + f.node.birthdate.year + '-' + f.node.birthdate.month + '-' + f.node.birthdate.day)
+</pre></div>
+
+
+<p>Yes. This is a mess. But if you run this JS code it you should get out an array of names and birthdays for the first few months.</p>
+
+
+
+<h3 class="wp-block-heading">Processing the /graphql requests</h3>
+
+
+
+<p>The requests for the other months are GraphQL requests. You&#8217;ll need to do something similar to what you did for the main <code>birthdays</code> request for each of the GraphQL requests containing birthday data.</p>
+
+
+
+<p>Copy the JSON response into a code editor and prepend with:</p>
+
+
+
+<p><code>const data = </code></p>
+
+
+
+<p>The code to extract the dates is slightly different. But putting this at the end of the file and executing it should give you the array of names and dates:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; gutter: false; title: ; notranslate" title="">
+let friends_by_months = data.data.viewer.all_friends_by_birthday_month.edges.flatMap(m =&gt; m.node.friends.edges)
+friends_by_months.map(f =&gt; f.node.name + ',' + f.node.birthdate.year + '-' + f.node.birthdate.month + '-' + f.node.birthdate.day)
+</pre></div>
+
+
+<p>That&#8217;s all I got! Maybe this is useful to someone.</p>
+</main></body>
