@@ -1,0 +1,150 @@
+<body><header><h1 data-pagefind-meta="title">Readable code tips: Don&#8217;t inline everything!</h1></header><main>
+<p><em>Previous Tip: <a href="https://rosswintle.uk/2024/03/readable-code-tips-extract-complex-conditions/">Extract complex conditionals</a></em></p>
+
+
+
+<p>There is a balance to be found between &#8220;inlining&#8221; multiple expressions, and using temporary variables.</p>
+
+
+
+<p>This example uses lots of nicely named variables. But it&#8217;s like a wall of code that&#8217;s actually hard to read and surprisingly hard to reason about.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function isExistingTextFile($filename) {
+    $isEmptyFilename = ! is_empty($filename);
+    $isValidFilename =  strlen($filename) &gt; 5;
+    $isNonEmptyValidFilename = $isEmptyFilename &amp;&amp; $isValidFilename;
+    $filenameHasTextExtension = pathinfo($filename, PATHINFO_EXTENSION) === 'txt';
+    $fileExists = file_exists($filename);
+    $isValidTextFilename = $isNonEmptyValidFilename &amp;&amp; $fileNameHasTextExtension;
+    $isTextFile = $isValidTextFilename &amp;&amp; $fileExists;
+    return $isTextFile;
+}
+</pre></div>
+
+
+<p>One possible way to fix this is to say &#8220;Well, this is really just one condition. A single expression. Let&#8217;s just inline everything and return it:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function isExistingTextFile($filename) {
+    return ! is_empty($filename) &amp;&amp; strlen($filename) &gt; 5 &amp;&amp; pathinfo($filename, PATHINFO_EXTENSION) === 'txt' &amp;&amp; file_exists($filename);
+}
+</pre></div>
+
+
+<p>And on the face of it this is much nicer. But for me, this is the other extreme. It&#8217;s still actually kinda hard to read. I think that a good, well-named intermediate variable can actually help break down a multi-part expression like this.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function isExistingTextFile($filename) {
+	$isValidFilename = ! is_empty($filename) &amp;&amp; strlen($filename) &gt; 5;
+	$isTxtFile = $isValidFilename &amp;&amp; pathinfo($filename, PATHINFO_EXTENSION) === 'txt';
+	return $isTxtFile &amp;&amp; file_exists($filename);
+}
+</pre></div>
+
+
+<p>I think this is a nice middle ground with the final <code>return</code> being a readable statement of what we want to check for. And working our way back up the expressions we can see how each is also readable. In my opinion at least.</p>
+
+
+
+<h2 class="wp-block-heading">Bonus: A quick primer on short-circuit evaluation!</h2>
+
+
+
+<p>Now&#8230; to that &#8220;hard to reason about&#8221; piece. Why is this code hard to reason about? It seems pretty simple?</p>
+
+
+
+<p>Well if you&#8217;ve not heard of short-circuit evaluation, it&#8217;s worth finding out about.</p>
+
+
+
+<p>Boolean expressions can be made more efficient using short-circuit evaluation. When this happens, the computer runs the minimum number of checks required to complete the evaluation of the expression.</p>
+
+
+
+<p>There&#8217;s some words in there. Maybe that means nothing to you. So let&#8217;s look at an example.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+$result = complexFunction1() &amp;&amp; complexFunction2();
+</pre></div>
+
+
+<p>Because we&#8217;re using <code>&amp;&amp;</code>, we don&#8217;t always have to call both functions.</p>
+
+
+
+<p>If the result of the first function is <code>false</code> then the whole thing is false. So <code>complexFunction2()</code> doesn&#8217;t <em>need</em> to be called to get the result. And in many programming languages, including PHP and JavaScript, it is <em>not</em> called.</p>
+
+
+
+<p>Wait? What?! You might be thinking.</p>
+
+
+
+<p>Yeah, this can be pretty powerful and we need to be careful with it.</p>
+
+
+
+<p>Imagine that these two complex function calls involve slow operations, say, database queries or API requests. It could be much quicker to only call the first function.</p>
+
+
+
+<p>Consider this case:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+$result = createPost() &amp;&amp; publishPost();
+</pre></div>
+
+
+<p>In this case short-circuit evaluation helps us because if <code>createPost()</code> fails then <code>publishPost()</code> will also fail. But short-circuit evaluation means we don&#8217;t call <code>publishPost()</code>, which could save us time.</p>
+
+
+
+<p>Now what if we extracted variables here?</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+$isPostCreated = createPost();
+$isPostPublished = publishPost();
+$result = $isPostCreated &amp;&amp; $isPostPublished;
+</pre></div>
+
+
+<p>This is slightly contrived, and probably not what you would do. But if we did do this then <code>publishPost()</code> is ALWAYS called on the second line, even if <code>createPost()</code>fails and returns false.</p>
+
+
+
+<p>Note that short-circuit evaluation also works for <code>||</code> conditions, but backwards:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+$result = complexFunction1() || complexFunction2();
+</pre></div>
+
+
+<p>Here if <code>complexFunction1()</code> is <code>true</code> then the whole expression will always be <code>true</code> and we don&#8217;t need to call <code>complexFunction2()</code> to determine that, and so it&#8217;s not called.</p>
+
+
+
+<p>So there might be a benefit to our fully-inlined version:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function isExistingTextFile($filename) {
+    return ! is_empty($filename) &amp;&amp; strlen($filename) &gt; 5 &amp;&amp; pathinfo($filename, PATHINFO_EXTENSION) === 'txt' &amp;&amp; file_exists($filename);
+}
+</pre></div>
+
+
+<p>because if we fail any step, the subsequent steps are not executed at all.</p>
+
+
+
+<p>I shall leave it up to the reader to look at the example code at the top of this post and try to figure out what is called and when. Did the code work differently as we inlined and then un-inlined the parts of the expression?</p>
+</main></body>

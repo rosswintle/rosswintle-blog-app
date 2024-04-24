@@ -1,0 +1,185 @@
+{
+    "id": 255163,
+    "date": "2024-04-03T21:46:19",
+    "date_gmt": "2024-04-03T20:46:19",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?page_id=255163"
+    },
+    "modified": "2024-04-14T18:41:12",
+    "modified_gmt": "2024-04-14T17:41:12",
+    "slug": "ideas",
+    "status": "publish",
+    "type": "page",
+    "link": "https:\/\/rosswintle.uk\/ideas\/",
+    "title": {
+        "rendered": "Ideas"
+    },
+    "content": {
+        "rendered": "\n<p>The crazy things I always wanted to make, concepts I&#8217;m mulling over, or planned projects<\/p>\n\n\n\n<p>Last updated: 2024-04-14<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">A simple key\/value store for static apps<\/h2>\n\n\n\n<p>This idea has been bouncing around for a while. Is there some way I can enhance my <a href=\"https:\/\/rosswintle.uk\/2024\/02\/a-manifesto-for-small-static-web-apps\/\">simple static web apps<\/a> with a simple, secure key-value store with a REST API? Lots of ideas for how to do this have been put forward, but it&#8217;s probably a simple Laravel app that I need to build and deploy.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>The crazy things I always wanted to make, concepts I&#8217;m mulling over, or planned projects Last updated: 2024-04-14 A simple key\/value store for static apps This idea has been bouncing around for a while. Is there some way I can enhance my simple static web apps with a simple, secure key-value store with a REST [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 3,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Ideas - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/ideas\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Ideas - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The crazy things I always wanted to make, concepts I&#8217;m mulling over, or planned projects Last updated: 2024-04-14 A simple key\/value store for static apps This idea has been bouncing around for a while. Is there some way I can enhance my simple static web apps with a simple, secure key-value store with a REST [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/ideas\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:modified_time\" content=\"2024-04-14T17:41:12+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/ideas\/\",\"url\":\"https:\/\/rosswintle.uk\/ideas\/\",\"name\":\"Ideas - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-04-03T20:46:19+00:00\",\"dateModified\":\"2024-04-14T17:41:12+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/ideas\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/ideas\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/ideas\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Ideas\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Ideas - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/ideas\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Ideas - Ross Wintle",
+        "og_description": "The crazy things I always wanted to make, concepts I&#8217;m mulling over, or planned projects Last updated: 2024-04-14 A simple key\/value store for static apps This idea has been bouncing around for a while. Is there some way I can enhance my simple static web apps with a simple, secure key-value store with a REST [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/ideas\/",
+        "og_site_name": "Ross Wintle",
+        "article_modified_time": "2024-04-14T17:41:12+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_site": "@magicroundabout",
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/ideas\/",
+                    "url": "https:\/\/rosswintle.uk\/ideas\/",
+                    "name": "Ideas - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-04-03T20:46:19+00:00",
+                    "dateModified": "2024-04-14T17:41:12+00:00",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/ideas\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/ideas\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/ideas\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Ideas"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/255163"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/page"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/3"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=255163"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/255163\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 255186,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/255163\/revisions\/255186"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=255163"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

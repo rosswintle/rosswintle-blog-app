@@ -1,0 +1,157 @@
+<body><header><h1 data-pagefind-meta="title">Trusting code</h1></header><main>
+<h2 class="wp-block-heading">The school run</h2>
+
+
+
+<p>When we start a new school year, my wife and I have new routines for getting our kids to and from school. And those early weeks are filled with text messages going back and forth like &#8220;You&#8217;re collecting kid 1 today at 3pm, right?&#8221;, or &#8220;You know kid 2 has after-school club today, right?&#8221;</p>
+
+
+
+<p>It takes time for the trust to build that the other person is checking the calendar, has set the right reminders, and knows the routine.</p>
+
+
+
+<p>After a few weeks, these messages stop (until there is an exception to the routine!).</p>
+
+
+
+<h2 class="wp-block-heading">You have a relationship with your code!</h2>
+
+
+
+<p>You kinda have a relationship with code from your projects. You probably have feelings about it. It can delight you, and it can frustrate you. Like with a friendship or romantic relationship, you&#8217;ll get the most out of it if you invest in it, tend it, nurture it. If you neglect it it will slap you in the face the next time you demand something of it.</p>
+
+
+
+<p>Trust is also something you can have &#8211; or not have &#8211; in a code base.</p>
+
+
+
+<p>As I&#8217;ve been <a href="https://rosswintle.uk/2024/03/readable-code-tips-intro/">thinking about code style</a>, I&#8217;ve also been thinking about how it&#8217;s important to build up trust in a code base.</p>
+
+
+
+<h2 class="wp-block-heading">You keep using that word. I do not think it means what you think it means.</h2>
+
+
+
+<p>Sometimes I have a project that I&#8217;ve been looking at where I don&#8217;t trust it.</p>
+
+
+
+<p>I maybe don&#8217;t trust it because I know it&#8217;s poorly typed, or not typed at all, and so I know edge cases can creep in.</p>
+
+
+
+<p>I maybe don&#8217;t trust it because it has no tests.</p>
+
+
+
+<p>Perhaps it&#8217;s so complex and poorly documented that I&#8217;m not convinced the author know what the code did, let alone this newcomer to it.</p>
+
+
+
+<p>Or maybe it just seems muddled and badly structured.</p>
+
+
+
+<p>In any case, I might be reading some code like this and come across a function call like:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+validateEmailParameter();
+</pre></div>
+
+
+<p>And a function definition like:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+// Validate the email address.
+function validateEmailParameter()
+{
+   ...
+}
+</pre></div>
+
+
+<p>Without further information or context, I might have a lot of questions about what this does.</p>
+
+
+
+<ul>
+<li>Where is the parameter that&#8217;s being validated? This <em>might</em> be evident from the context, such as inside an HTTP request handler. But it might not.</li>
+
+
+
+<li>What is a valid email in this case? Have they implemented this robustly?</li>
+
+
+
+<li>Does it only accept a string? Does it handle other types or null? Does it handle an empty string?</li>
+
+
+
+<li>What might this return? Does it return? Could it return an error code or exception?</li>
+</ul>
+
+
+
+<p>In an untrustworthy codebase, I won&#8217;t make assumptions about a function like this. I will have to open it up, read through the code, and figure out what it does. This takes time, and for more complex situations this can <em>really</em> slow me down.</p>
+
+
+
+<p>BUT, if I trust the codebase, then the function definition will probably be something like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+/**
+ * Tests if the &quot;email&quot; parameter passed in the URL query string is present and is a
+ * valid address. If it's not then a 400 HTTP status code will be returned and the
+ * application will exit.
+ *
+ * If the address is present and valid, true is returned.
+ * 
+ * @return boolean
+ */
+function validateEmailParameter()
+{
+    ...
+}
+</pre></div>
+
+
+<p>This is a contrived, awkward and simple case. But in a case like this I&#8217;m much more likely to believe the function&#8217;s description and not even read the code to see what it does.</p>
+
+
+
+<h2 class="wp-block-heading">Earning my trust</h2>
+
+
+
+<p>However, this trust isn&#8217;t a one-off thing. My trust in a code base is earned over time through repeated exposure to good practice, good documentation, attention to detail, and other factors.</p>
+
+
+
+<p>But once it has my trust, it&#8217;s so much easier to work with without having to go <a href="https://queue.acm.org/detail.cfm?id=945136">spelunking</a>. I can work with it faster because the mental overhead of reading it is so much lower.</p>
+
+
+
+<p>This post sits as a sidebar to my series on readable code. They go hand in hand.</p>
+
+
+
+<p>The readable code tips work best when a code base is trusted. But they are also one of the ways in which you can build trust in your code.</p>
+
+
+
+<p>So think about your work. Do you trust the code in your projects? If not why not? And what can you do to make your code more trustworthy?</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+</main></body>

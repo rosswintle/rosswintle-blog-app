@@ -1,0 +1,227 @@
+{
+    "id": 255060,
+    "date": "2024-03-09T22:09:02",
+    "date_gmt": "2024-03-09T22:09:02",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=255060"
+    },
+    "modified": "2024-03-30T23:26:36",
+    "modified_gmt": "2024-03-30T23:26:36",
+    "slug": "readable-code-tips-intro",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/",
+    "title": {
+        "rendered": "Readable code tips: Introduction"
+    },
+    "content": {
+        "rendered": "\n<h2 class=\"wp-block-heading\">Contents<\/h2>\n\n\n\n<ul>\n<li>Introduction and naming with units<\/li>\n\n\n\n<li><a href=\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-extract-complex-conditions\/\">Extract complex conditions<\/a><\/li>\n\n\n\n<li><a href=\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-dont-inline-everything\/\">Don&#8217;t inline everything<\/a><\/li>\n<\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">There&#8217;s lots about code that slows us down<\/h2>\n\n\n\n<p>I&#8217;ve been doing a lot of code reviews recently. And while most of the code I review works (by which I mean: meets the specification), it often takes me a long time to get to a point where I&#8217;m happy that it works.<\/p>\n\n\n\n<p>I include as a part of my review process:<\/p>\n\n\n\n<ul>\n<li>checking types (if static analysis is not done)<\/li>\n\n\n\n<li>checking that input and output is validated and escaped (if this is not done automatically)<\/li>\n\n\n\n<li>cross-referencing with APIs, documentation, or other parts of the code<\/li>\n\n\n\n<li>looking for and testing for security issues<\/li>\n\n\n\n<li>thinking about performance<\/li>\n\n\n\n<li>considering the architecture<\/li>\n\n\n\n<li>other things I can&#8217;t remember right now.<\/li>\n<\/ul>\n\n\n\n<p>These things, when not automated, slow me down and require thinking.<\/p>\n\n\n\n<p>A lot of these can be at least partially automated. If not then a lot of them are kinda &#8220;checklisty&#8221;. Hard rules that can be followed to ensure consistency.<\/p>\n\n\n\n<p>Many of these things also slow me down when I revisit code later, or open up someone else&#8217;s code to work on it.<\/p>\n\n\n\n<p>Yes, there are already plenty of things about code that slow us down. And they do so for good reason. This is &#8220;good friction&#8221;.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Poor code readability is bad friction<\/h2>\n\n\n\n<p>But there is an aspect of code that slows me down greatly; doesn&#8217;t seem to have much automation; and really doesn&#8217;t seem to be well understood in a lot of places. I consider it &#8220;bad friction&#8221;.<\/p>\n\n\n\n<p>That aspect is: code readability.<\/p>\n\n\n\n<p>And by &#8220;code readability&#8221; I don&#8217;t mean &#8220;style&#8221; as in tabs vs spaces, the casing of variable names, how long your lines are and so on that linters and formatting tools catch. I mean making your code readable and easily understandable to other humans &#8211; including your future self.<\/p>\n\n\n\n<p>I mean things like:<\/p>\n\n\n\n<ul>\n<li>Naming your variables so that they are unambiguous and clear.<\/li>\n\n\n\n<li>Striking the right balance between inline expressions, and tons of variables.<\/li>\n\n\n\n<li>Making conditions simple.<\/li>\n\n\n\n<li>Using early returns\/guard clauses &#8211; but not overusing them.<\/li>\n\n\n\n<li>Understanding language and framework features properly to make things simple.<\/li>\n<\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">An example<\/h2>\n\n\n\n<p>As a quick example, consider variables that have units associated with them. The tip here is to add the unit to the variable name. This removes ambiguity and prevents having to look up the source of the variable to figure out what the unit is. It&#8217;s right there for you in the place that you need it.<\/p>\n\n\n\n<p>Compare:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\nfunction applyCoupon( $couponDiscount, $price ) {\n    \/\/ Is the discount a percentage, or a value?\n    \/\/ Is the price in cents or dollars?\n}\n<\/pre><\/div>\n\n\n<p>with:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\nfunction applyCoupon( $couponDiscountAsPercentage, $priceAsDollars ) {\n    return $priceAsDollars * ( $couponDiscountAsPercentage \/ 100 );\n}\n<\/pre><\/div>\n\n\n<p>Sure, it&#8217;s longer. But I can read this code <em>and only this code<\/em> and know exactly what is going on without having to go looking up definitions or documentation.<\/p>\n\n\n\n<p>This really simple tip, if you can remember to do it, reduces bad friction and speeds up everyone, including your future self!<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">This is great! Show us more!<\/h2>\n\n\n\n<p>Yes! If you like this, I plan to present some of my code style rules for readability and I will do this over the course of my next few posts.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Or maybe: This is bad. I don&#8217;t like it!<\/h2>\n\n\n\n<p>That&#8217;s cool too. I present these tips with the clear caveat that they are <em>my styl<\/em>e. You may not like these ideas. That is fine because you have your own style. But I think they are simple, practical things that you can do to make your code better for people to understand.<\/p>\n\n\n\n<p>At least be open minded, consider them. That&#8217;s all I&#8217;m asking. Or&#8230; don&#8217;t read on. You can literally close this tab now and not think about it again. Do what works for you.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Final notes and references<\/h2>\n\n\n\n<p>I see these things that come up again and again. And they seem to me to be easy to fix.<\/p>\n\n\n\n<p>Yes, they are things that I sometimes neglect or forget to to. And yes, there are cases where they are not appropriate. But I think we are not exposed enough to other ideas about code style and readability, and we don&#8217;t think about it enough. I&#8217;m sharing some of mine to give you some ideas for your own code style.<\/p>\n\n\n\n<p>So take them if they are helpful. Leave them if they aren&#8217;t.<\/p>\n\n\n\n<p>My examples will be in PHP, but many of these principles apply to other languages.<\/p>\n\n\n\n<p>This style is largely inspired by learnings from the Laravel community, who care about code style a lot. I would like to recommend that you look up the following resources for more examples and better explanations than my own:<\/p>\n\n\n\n<ul>\n<li><a href=\"https:\/\/basecodefieldguide.com\/\">BaseCode Field Guide<\/a>: This is a short ebook that is now free. I highly recommend reading it.<\/li>\n\n\n\n<li><a href=\"https:\/\/writing-readable-php.com\/\">Writing Readable PHP<\/a>: A really quite expensive short video course. But there&#8217;s a free short email course you can sign up for too.<\/li>\n<\/ul>\n\n\n\n<p>I don&#8217;t know when the next posts will arrive. You can follow me <a href=\"https:\/\/fosstodon.org\/@ross\">on Mastodon<\/a> or subscribe to my <a href=\"https:\/\/rosswintle.uk\/feed\/\">RSS feed<\/a> and you&#8217;ll find out when I&#8217;ve had time to write more!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Poor code readability slows us down. So I&#8217;m going to post some of my code-readability tips! This is an introduction with the ideas behind it and all the caveats.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        286
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Readable code tips: Introduction - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Readable code tips: Introduction - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Poor code readability slows us down. So I&#039;m going to post some of my code-readability tips! This is an introduction with the ideas behind it and all the caveats.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2024-03-09T22:09:02+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2024-03-30T23:26:36+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/\",\"url\":\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/\",\"name\":\"Readable code tips: Introduction - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-03-09T22:09:02+00:00\",\"dateModified\":\"2024-03-30T23:26:36+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Readable code tips: Introduction\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Readable code tips: Introduction - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "Readable code tips: Introduction - Ross Wintle",
+        "og_description": "Poor code readability slows us down. So I'm going to post some of my code-readability tips! This is an introduction with the ideas behind it and all the caveats.",
+        "og_url": "https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2024-03-09T22:09:02+00:00",
+        "article_modified_time": "2024-03-30T23:26:36+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "4 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/",
+                    "url": "https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/",
+                    "name": "Readable code tips: Introduction - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-03-09T22:09:02+00:00",
+                    "dateModified": "2024-03-30T23:26:36+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/03\/readable-code-tips-intro\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Readable code tips: Introduction"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255060"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=255060"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 6,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255060\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 255132,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255060\/revisions\/255132"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=255060"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=255060"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=255060"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

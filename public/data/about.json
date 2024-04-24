@@ -1,0 +1,188 @@
+{
+    "id": 305,
+    "date": "2009-02-09T23:26:32",
+    "date_gmt": "2009-02-09T23:26:32",
+    "guid": {
+        "rendered": "http:\/\/blog.wintle.me.uk\/?page_id=305"
+    },
+    "modified": "2024-04-03T21:06:29",
+    "modified_gmt": "2024-04-03T20:06:29",
+    "slug": "about",
+    "status": "publish",
+    "type": "page",
+    "link": "https:\/\/rosswintle.uk\/about\/",
+    "title": {
+        "rendered": "About"
+    },
+    "content": {
+        "rendered": "<p>Hi, I&#8217;m Ross. I&#8217;m a mid-forties, multi-disciplinary geek from Swindon, UK.<\/p>\n<p>I&#8217;m currently employed as a full-stack web developer working with PHP, WordPress, JavaScript, and React.<\/p>\n<p>I&#8217;ve previously worked as a freelance software developer who used technology to help people solve problems and to do good &#8211; frequently working with charities, non-profits and small businesses. I use WordPress, Laravel and other web tech to build websites and web-based applications.<\/p>\n<p>I love helping people to understand how they can use technology to achieve their goals, and help them implement that technology.<\/p>\n<p>I&#8217;m very experienced with computers and software, with a career that spans safety-critical software engineering in the aerospace sector, large-scale corporate IT and hosting operations, and software and website development, both freelance and full-time employed.<\/p>\n<p>I have a softer side that likes to work with people, advising, consulting, and educating too.<\/p>\n<p>I have numerous <a href=\"https:\/\/rosswintle.uk\/projects\/\">side-projects<\/a>, (out of date) WordPress training videos at <a href=\"https:\/\/press-ups.com\/\">Press Ups<\/a>,\u00a0and I occasionally do public speaking.<\/p>\n<p>If you&#8217;re interested in finding out more or working with me <a href=\"https:\/\/rw.omg.lol\/\">contact me<\/a>.<\/p>\n<p>When I&#8217;m not in the office I can be found parenting, cycling, gardening, trying to make sourdough rise, learning new skills, and, occasionally, writing about some of that here.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Hi, I&#8217;m Ross. I&#8217;m a mid-forties, multi-disciplinary geek from Swindon, UK. I&#8217;m currently employed as a full-stack web developer working with PHP, WordPress, JavaScript, and React. I&#8217;ve previously worked as a freelance software developer who used technology to help people solve problems and to do good &#8211; frequently working with charities, non-profits and small businesses. [&hellip;]<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 1,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>About - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/about\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"About - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Hi, I&#8217;m Ross. I&#8217;m a mid-forties, multi-disciplinary geek from Swindon, UK. I&#8217;m currently employed as a full-stack web developer working with PHP, WordPress, JavaScript, and React. I&#8217;ve previously worked as a freelance software developer who used technology to help people solve problems and to do good &#8211; frequently working with charities, non-profits and small businesses. [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/about\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:modified_time\" content=\"2024-04-03T20:06:29+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data1\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/about\/\",\"url\":\"https:\/\/rosswintle.uk\/about\/\",\"name\":\"About - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-02-09T23:26:32+00:00\",\"dateModified\":\"2024-04-03T20:06:29+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/about\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/about\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/about\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"About\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "About - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/about\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "About - Ross Wintle",
+        "og_description": "Hi, I&#8217;m Ross. I&#8217;m a mid-forties, multi-disciplinary geek from Swindon, UK. I&#8217;m currently employed as a full-stack web developer working with PHP, WordPress, JavaScript, and React. I&#8217;ve previously worked as a freelance software developer who used technology to help people solve problems and to do good &#8211; frequently working with charities, non-profits and small businesses. [&hellip;]",
+        "og_url": "https:\/\/rosswintle.uk\/about\/",
+        "og_site_name": "Ross Wintle",
+        "article_modified_time": "2024-04-03T20:06:29+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "twitter_card": "summary_large_image",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Estimated reading time": "1 minute"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/about\/",
+                    "url": "https:\/\/rosswintle.uk\/about\/",
+                    "name": "About - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2009-02-09T23:26:32+00:00",
+                    "dateModified": "2024-04-03T20:06:29+00:00",
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/about\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/about\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/about\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "About"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/305"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/page"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=305"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 9,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/305\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 255156,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/pages\/305\/revisions\/255156"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=305"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

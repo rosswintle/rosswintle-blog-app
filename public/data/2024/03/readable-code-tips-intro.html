@@ -1,0 +1,212 @@
+<body><header><h1 data-pagefind-meta="title">Readable code tips: Introduction</h1></header><main>
+<h2 class="wp-block-heading">Contents</h2>
+
+
+
+<ul>
+<li>Introduction and naming with units</li>
+
+
+
+<li><a href="https://rosswintle.uk/2024/03/readable-code-tips-extract-complex-conditions/">Extract complex conditions</a></li>
+
+
+
+<li><a href="https://rosswintle.uk/2024/03/readable-code-tips-dont-inline-everything/">Don&#8217;t inline everything</a></li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">There&#8217;s lots about code that slows us down</h2>
+
+
+
+<p>I&#8217;ve been doing a lot of code reviews recently. And while most of the code I review works (by which I mean: meets the specification), it often takes me a long time to get to a point where I&#8217;m happy that it works.</p>
+
+
+
+<p>I include as a part of my review process:</p>
+
+
+
+<ul>
+<li>checking types (if static analysis is not done)</li>
+
+
+
+<li>checking that input and output is validated and escaped (if this is not done automatically)</li>
+
+
+
+<li>cross-referencing with APIs, documentation, or other parts of the code</li>
+
+
+
+<li>looking for and testing for security issues</li>
+
+
+
+<li>thinking about performance</li>
+
+
+
+<li>considering the architecture</li>
+
+
+
+<li>other things I can&#8217;t remember right now.</li>
+</ul>
+
+
+
+<p>These things, when not automated, slow me down and require thinking.</p>
+
+
+
+<p>A lot of these can be at least partially automated. If not then a lot of them are kinda &#8220;checklisty&#8221;. Hard rules that can be followed to ensure consistency.</p>
+
+
+
+<p>Many of these things also slow me down when I revisit code later, or open up someone else&#8217;s code to work on it.</p>
+
+
+
+<p>Yes, there are already plenty of things about code that slow us down. And they do so for good reason. This is &#8220;good friction&#8221;.</p>
+
+
+
+<h2 class="wp-block-heading">Poor code readability is bad friction</h2>
+
+
+
+<p>But there is an aspect of code that slows me down greatly; doesn&#8217;t seem to have much automation; and really doesn&#8217;t seem to be well understood in a lot of places. I consider it &#8220;bad friction&#8221;.</p>
+
+
+
+<p>That aspect is: code readability.</p>
+
+
+
+<p>And by &#8220;code readability&#8221; I don&#8217;t mean &#8220;style&#8221; as in tabs vs spaces, the casing of variable names, how long your lines are and so on that linters and formatting tools catch. I mean making your code readable and easily understandable to other humans &#8211; including your future self.</p>
+
+
+
+<p>I mean things like:</p>
+
+
+
+<ul>
+<li>Naming your variables so that they are unambiguous and clear.</li>
+
+
+
+<li>Striking the right balance between inline expressions, and tons of variables.</li>
+
+
+
+<li>Making conditions simple.</li>
+
+
+
+<li>Using early returns/guard clauses &#8211; but not overusing them.</li>
+
+
+
+<li>Understanding language and framework features properly to make things simple.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">An example</h2>
+
+
+
+<p>As a quick example, consider variables that have units associated with them. The tip here is to add the unit to the variable name. This removes ambiguity and prevents having to look up the source of the variable to figure out what the unit is. It&#8217;s right there for you in the place that you need it.</p>
+
+
+
+<p>Compare:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function applyCoupon( $couponDiscount, $price ) {
+    // Is the discount a percentage, or a value?
+    // Is the price in cents or dollars?
+}
+</pre></div>
+
+
+<p>with:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function applyCoupon( $couponDiscountAsPercentage, $priceAsDollars ) {
+    return $priceAsDollars * ( $couponDiscountAsPercentage / 100 );
+}
+</pre></div>
+
+
+<p>Sure, it&#8217;s longer. But I can read this code <em>and only this code</em> and know exactly what is going on without having to go looking up definitions or documentation.</p>
+
+
+
+<p>This really simple tip, if you can remember to do it, reduces bad friction and speeds up everyone, including your future self!</p>
+
+
+
+<h2 class="wp-block-heading">This is great! Show us more!</h2>
+
+
+
+<p>Yes! If you like this, I plan to present some of my code style rules for readability and I will do this over the course of my next few posts.</p>
+
+
+
+<h2 class="wp-block-heading">Or maybe: This is bad. I don&#8217;t like it!</h2>
+
+
+
+<p>That&#8217;s cool too. I present these tips with the clear caveat that they are <em>my styl</em>e. You may not like these ideas. That is fine because you have your own style. But I think they are simple, practical things that you can do to make your code better for people to understand.</p>
+
+
+
+<p>At least be open minded, consider them. That&#8217;s all I&#8217;m asking. Or&#8230; don&#8217;t read on. You can literally close this tab now and not think about it again. Do what works for you.</p>
+
+
+
+<h2 class="wp-block-heading">Final notes and references</h2>
+
+
+
+<p>I see these things that come up again and again. And they seem to me to be easy to fix.</p>
+
+
+
+<p>Yes, they are things that I sometimes neglect or forget to to. And yes, there are cases where they are not appropriate. But I think we are not exposed enough to other ideas about code style and readability, and we don&#8217;t think about it enough. I&#8217;m sharing some of mine to give you some ideas for your own code style.</p>
+
+
+
+<p>So take them if they are helpful. Leave them if they aren&#8217;t.</p>
+
+
+
+<p>My examples will be in PHP, but many of these principles apply to other languages.</p>
+
+
+
+<p>This style is largely inspired by learnings from the Laravel community, who care about code style a lot. I would like to recommend that you look up the following resources for more examples and better explanations than my own:</p>
+
+
+
+<ul>
+<li><a href="https://basecodefieldguide.com/">BaseCode Field Guide</a>: This is a short ebook that is now free. I highly recommend reading it.</li>
+
+
+
+<li><a href="https://writing-readable-php.com/">Writing Readable PHP</a>: A really quite expensive short video course. But there&#8217;s a free short email course you can sign up for too.</li>
+</ul>
+
+
+
+<p>I don&#8217;t know when the next posts will arrive. You can follow me <a href="https://fosstodon.org/@ross">on Mastodon</a> or subscribe to my <a href="https://rosswintle.uk/feed/">RSS feed</a> and you&#8217;ll find out when I&#8217;ve had time to write more!</p>
+</main></body>

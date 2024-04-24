@@ -1,0 +1,54 @@
+<body><header><h1 data-pagefind-meta="title">Readable code tips: Extract complex conditions</h1></header><main>
+<p><em>Previous tip: <a href="https://rosswintle.uk/2024/03/readable-code-tips-intro/">Introduction and naming with units</a></em><br><em>Next tip: <a href="https://rosswintle.uk/2024/03/readable-code-tips-dont-inline-everything/">Don&#8217;t inline everything</a></em></p>
+
+
+
+<p>One idea that I learned <em>very</em> early on in my computing education was that you work &#8220;top down&#8221; by writing a high-level, abstract version of a more complex process, stating what you want to do, and then working on each of the sub-steps of the process.</p>
+
+
+
+<p>I&#8217;ve heard this called &#8220;pseudo-code&#8221; and &#8220;programming by wishful thinking&#8221; (as in &#8220;I wish there was a function called <code>getPostsFromApi()</code>&#8220;)</p>
+
+
+
+<p>I often come across complex conditions in code that are hard to read because they have multiple sub-conditions.</p>
+
+
+
+<p>Things like:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+if (
+    pathinfo($filename, PATHINFO_EXTENSION) === 'txt' &amp;&amp;
+    file_exists($filename) &amp;&amp;
+    filetype($filename) === 'file'
+) {
+    ...
+}
+</pre></div>
+
+
+<p>I&#8217;m sure that these kinds of conditions normally evolve over time and so don&#8217;t exist as pseudo-code to start with. But the pseudo-code idea can now be used to make this easier to read:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function isExistingTextFile($filename) {
+	return
+        pathinfo($filename, PATHINFO_EXTENSION) === 'txt' &amp;&amp;
+        file_exists($filename) &amp;&amp;
+        filetype($filename) === 'file';
+}
+
+if (isExistingTextFile($filename)) {
+    ...
+}
+</pre></div>
+
+
+<p>This has the additional benefit that the <code>isExistingTextFile</code> function here is also reusable.</p>
+
+
+
+<p>And if you can <a href="https://rosswintle.uk/2024/03/trusting-code/">build trust in your code base</a>, this is easier to read and faster to work with too.</p>
+</main></body>

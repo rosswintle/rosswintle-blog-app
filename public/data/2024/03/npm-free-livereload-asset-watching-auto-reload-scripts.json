@@ -1,0 +1,232 @@
+{
+    "id": 255031,
+    "date": "2024-03-02T15:26:14",
+    "date_gmt": "2024-03-02T15:26:14",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=255031"
+    },
+    "modified": "2024-03-02T15:27:19",
+    "modified_gmt": "2024-03-02T15:27:19",
+    "slug": "npm-free-livereload-asset-watching-auto-reload-scripts",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/",
+    "title": {
+        "rendered": "npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser"
+    },
+    "content": {
+        "rendered": "\n<p><em>I recently read Chris Coyier&#8217;s &#8220;<a href=\"https:\/\/frontendmasters.com\/blog\/fine-ill-use-a-super-basic-css-processing-setup\/\">Fine, I\u2019ll Use a Super Basic CSS Processing Setup<\/a>&#8221; on FrontendMasters.com and was inspired by the tools he referenced to add a super simple asset-watching script (in bash and then in PHP using server-side events) and &#8220;LiveReload&#8221; functionality. All fitting with my values. Let&#8217;s see what it looks like!<\/em><\/p>\n\n\n\n<p><strong>Previous references<\/strong> that this post follows on from:<\/p>\n\n\n\n<ul>\n<li><a href=\"https:\/\/rosswintle.uk\/2023\/08\/free-websites-for-side-projects\/\">FREE WEBSITES!! How I make small, side-project websites for free (pretty much)<\/a><\/li>\n\n\n\n<li><a href=\"https:\/\/rosswintle.uk\/2024\/02\/a-manifesto-for-small-static-web-apps\/\">A manifesto for small, static, web apps<\/a><\/li>\n\n\n\n<li><a href=\"https:\/\/rosswintle.uk\/2021\/12\/hang-on-php-is-a-static-site-generator\/\">Hang on, PHP IS a static site generator!<\/a><\/li>\n<\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">Background<\/h2>\n\n\n\n<p>If you&#8217;re not bored of me talking about building small static web apps yet, read the links above and you soon will be!<\/p>\n\n\n\n<p>If you&#8217;re following along though, one of the things that was annoying about my almost-npm-free build script is that it didn&#8217;t have a file watcher or any kind of hot-reloading.<\/p>\n\n\n\n<p>I always thought there must be a way I could do this that fitted my needs:<\/p>\n\n\n\n<ul>\n<li>No NPM or wearisome dependency hell with all the risks of future breakage that brings.<\/li>\n\n\n\n<li>Use the tools I have to hand.<\/li>\n\n\n\n<li>Make it simple and &#8220;done&#8221;.<\/li>\n\n\n\n<li>Make it something others can use and learn from.<\/li>\n<\/ul>\n\n\n\n<h2 class=\"wp-block-heading\">The &#8220;Aha!&#8221; moment<\/h2>\n\n\n\n<p>Then, the other day, I read <a href=\"https:\/\/frontendmasters.com\/blog\/fine-ill-use-a-super-basic-css-processing-setup\/\">Chris Coyier&#8217;s<\/a> article about using <a href=\"https:\/\/lightningcss.dev\/\">Lightning CSS<\/a> in a lightweight build setup.<\/p>\n\n\n\n<p>In it, Chris outlines a simple watch\/reload setup using:<\/p>\n\n\n\n<ul>\n<li><a href=\"https:\/\/github.com\/gajus\/turbowatch\">Turbowatch<\/a> for file watching &#8211; It&#8217;s an &#8220;extremely fast file change detector and task orchestrator for Node.js.&#8221;. This isn&#8217;t a huge thing to download, and the config file isn&#8217;t terrible, but it&#8217;s still overkill. We can do better!<\/li>\n\n\n\n<li><a href=\"https:\/\/livejs.com\/\">Live.js<\/a> for reloading in the browser. This is old and clunky, but works. It basically polls for changes using special, small, fast, HTTP requests and re-loads stuff if it finds changes.<\/li>\n<\/ul>\n\n\n\n<p>Finding Live.js was the &#8220;Aha!&#8221; moment. Polling is fine for local dev on small static sites. Inject the script in development and away you go! The only real downside is clutter in your dev tools network panel with all the requests.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">The initial soution: A simple file-watching shell script<\/h2>\n\n\n\n<p><em>Spoiler: This was not the final solution! But it was an important step towards it. Skip this bit if you don&#8217;t care about the journey.<\/em><\/p>\n\n\n\n<p>So here&#8217;s the thing&#8230; Unix\/Linux can tell you file change times quickly, and shell scripting is kinda perfect for this kind of thing. So why don&#8217;t we just do that!<\/p>\n\n\n\n<p>We can use the `find` command to get the latest timestamp of files in a directory.<\/p>\n\n\n\n<p>We can provide a simple list of directories to watch and loop through them seeing what has updated.<\/p>\n\n\n\n<p>When change is detected we can run the build process and then leave some file lying around that front-end polling can detect to prompt a reload.<\/p>\n\n\n\n<p>So I made a script that does that. It does leave <code>.modified_time<\/code> files in the source directories &#8211; you will want to add them to your <code>.gitignore<\/code>.<\/p>\n\n\n\n<p>It also creates a project-global <code>.modified_time<\/code> file with a timestamp in it. Read on to find out why we need this.<\/p>\n\n\n\n<p>It should work on both MacOS and Linux, but I&#8217;d not tried Linux properly yet.<\/p>\n\n\n\n<p>You can see the script in <a href=\"https:\/\/gist.github.com\/rosswintle\/616803deae9d5ee97f592b33d4d7a015\">this gist<\/a>.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Updating Live.js<\/h2>\n\n\n\n<p>I then added Live.js to my site and hoped it would just work. But sadly, it did not.<\/p>\n\n\n\n<p>I&#8217;m running Laravel Valet locally and that uses nginx which is fine for <code>.css<\/code> and <code>.js<\/code> files, but seems to strip out <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Headers\/ETag\">ETag<\/a> and <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/HTTP\/Headers\/Last-Modified\">Last-Modified<\/a> headers for HTTP requests that aren&#8217;t for resources, like it&#8217;s expecting PHP or something to provide them. Live.js depends on these headers for spotting changes. And it was broken! Grrrr.<\/p>\n\n\n\n<p>I could probably hack the nginx config, but this felt like it was awkward and hard for people to do, and could be overwritten in future. I want this to &#8220;just work&#8221;. So there needs to be another way.<\/p>\n\n\n\n<p>Hold on though&#8230; I control this end-to-end. I know the watcher on the back-end as well. So I can link them up!<\/p>\n\n\n\n<p>So I decided to:<\/p>\n\n\n\n<ul>\n<li>make the file watcher script add a timestamp to a file on the server<\/li>\n\n\n\n<li>modify Live.js to check for the value in that timestamp file as well as the HTTP headers for resources on the page<\/li>\n\n\n\n<li>generally tidy up and modernise Live.js code that I heavily based this on<\/li>\n<\/ul>\n\n\n\n<p>The result of that is in <a href=\"https:\/\/gist.github.com\/rosswintle\/ae6e47d52e4e5b06dfe197543be4c5eb\">this gist<\/a>. I include this only in my development environment and it works a treat.<\/p>\n\n\n\n<p>But it still clutters up the dev tools network panel with its polling requests. Can we do better?<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">A final solution: A simple PHP file watcher server using server-side events<\/h2>\n\n\n\n<p>I thought hard about this. Was there a better way for the back-end to notify the front-end. Perhaps using some kind of persistent connection?<\/p>\n\n\n\n<p>There&#8217;s <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/WebSockets_API\">websockets<\/a>, but this looked like it would either require me to custom code a LOT more stuff, or use a library, which I&#8217;m trying to avoid because it will almost certainly do a thousand things that I don&#8217;t need it to. I&#8217;m going for a minimal solution that I can write and maintain that only does what I need.<\/p>\n\n\n\n<p>I&#8217;d recently read something about <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Streams_API\">streaming responses in the browser<\/a>. Something like this wouldn&#8217;t work for a real site as you&#8217;d need loads of long-running processes and open connections on the server.<\/p>\n\n\n\n<p>But it could work for a single browser connecting to a locally-run server for local development.<\/p>\n\n\n\n<p>And then I found <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Server-sent_events\/Using_server-sent_events\">Server-Side Events<\/a>. These are ancient technology (Chrome version 6 anyone? I think this was from <a href=\"https:\/\/chromereleases.googleblog.com\/2010\/09\/stable-and-beta-channel-updates.html\">September 2010<\/a>!) and pretty simple to implement on both sides.<\/p>\n\n\n\n<p>You basically run your server in a loop, outputting events in a particular format, and the browser can respond. There are quriks around closing connections properly and keeping the server side alive. But nothing we can&#8217;t handle.<\/p>\n\n\n\n<p>So here&#8217;s where I landed:<\/p>\n\n\n\n<ul>\n<li>A PHP file watcher that runs using PHP&#8217;s built in web server<\/li>\n\n\n\n<li>A simple <code>watch.sh<\/code> shell script to run this server<\/li>\n\n\n\n<li>A further updated and modernised version of Live.js that uses <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/EventSource\">EventSource<\/a> to receive the events and trigger reloads.<\/li>\n<\/ul>\n\n\n\n<p>Detecting nginx changes with my Valet setup wasn&#8217;t quite working, so I implement some content hashing. It fetches the current page, hashes the content, and compares to a saved hash. Again, inefficient really, but fine for a development environment.<\/p>\n\n\n\n<p>Here it is then: <a href=\"https:\/\/gist.github.com\/rosswintle\/d1f6428685be5eb1091dab2246015ff2\">A PHP file watching watching server and JS reloading script for local development<\/a>.<\/p>\n\n\n\n<p>I shall work this into my small-site-template soon as I want this in my new small site projects in future.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>A super simple asset-watching script and &#8220;LiveReload&#8221; functionality. All fitting with my values. Let&#8217;s see what it looks like!<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        23
+    ],
+    "tags": [
+        723,
+        16228,
+        64,
+        291,
+        4850,
+        165
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A super simple asset-watching script and &quot;LiveReload&quot; functionality. All fitting with my values. Let&#039;s see what it looks like!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2024-03-02T15:26:14+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2024-03-02T15:27:19+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"6 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/\",\"url\":\"https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/\",\"name\":\"npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-03-02T15:26:14+00:00\",\"dateModified\":\"2024-03-02T15:27:19+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/",
+        "og_locale": "en_GB",
+        "og_type": "article",
+        "og_title": "npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser - Ross Wintle",
+        "og_description": "A super simple asset-watching script and \"LiveReload\" functionality. All fitting with my values. Let's see what it looks like!",
+        "og_url": "https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2024-03-02T15:26:14+00:00",
+        "article_modified_time": "2024-03-02T15:27:19+00:00",
+        "og_image": [
+            {
+                "width": "600",
+                "height": "399",
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Estimated reading time": "6 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/",
+                    "url": "https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/",
+                    "name": "npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-03-02T15:26:14+00:00",
+                    "dateModified": "2024-03-02T15:27:19+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/#breadcrumb"
+                    },
+                    "inLanguage": "en-GB",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/03\/npm-free-livereload-asset-watching-auto-reload-scripts\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "npm-free LiveReload(ish): Simple scripts for asset watching and auto-reload in the browser"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": "required name=search_term_string"
+                        }
+                    ],
+                    "inLanguage": "en-GB"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-GB",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255031"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=255031"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 5,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255031\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 255047,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255031\/revisions\/255047"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=255031"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=255031"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=255031"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}
