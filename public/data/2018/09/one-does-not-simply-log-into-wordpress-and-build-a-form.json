@@ -15,7 +15,7 @@
         "rendered": "One does not simply log into WordPress and build a form"
     },
     "content": {
-        "rendered": "\n<p>This is coming up a lot at the moment. Building forms isn&#8217;t always simple. There are some brilliant WordPress plugins that make is seem simple.\u00a0 But they need thought. There are more questions you need to ask about forms than you think.<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img loading=\"lazy\" decoding=\"async\" width=\"568\" height=\"335\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\" alt=\"\" class=\"wp-image-4233\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg 568w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm-300x177.jpg 300w\" sizes=\"(max-width: 568px) 100vw, 568px\" \/><\/figure>\n\n\n\n<p>Here are some of them:<\/p>\n\n\n\n<ul><li>Which fields are required and which are optional?<\/li><li>Does your form have a privacy policy and is this clearly linked? (If you collect any personal information, the answer should be yes!)<\/li><li>Does your form require any kind of consent because of GDPR?<\/li><li>What should your form display, or where should your user be sent to once the form is submitted?<\/li><li>Should the user get an email when the form is submitted? If so:<br\/><ul><li>What should it say?<\/li><li>What name and email address should it be from?<\/li><li>What should the title and contents of the email be?<\/li><\/ul><\/li><li>Should anyone else (perhaps an administrator) get an email when the form is submitted?\u00a0 If so:<ul><li>What should it say?<\/li><li>What name and email address should it be from?<\/li><li>What should the title and contents of the email be?<\/li><\/ul><\/li><li>Should the details of the form submission be stored on the server? If so:<ul><li>How long should it be stored for?<\/li><li>How will old entries be deleted?<\/li><\/ul><\/li><\/ul>\n\n\n\n<p><\/p>\n",
+        "rendered": "\n<p>This is coming up a lot at the moment. Building forms isn&#8217;t always simple. There are some brilliant WordPress plugins that make is seem simple.\u00a0 But they need thought. There are more questions you need to ask about forms than you think.<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img loading=\"lazy\" decoding=\"async\" width=\"568\" height=\"335\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\" alt=\"\" class=\"wp-image-4233\" srcset=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg 568w, https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm-300x177.jpg 300w\" sizes=\"(max-width: 568px) 100vw, 568px\" \/><\/figure>\n\n\n\n<p>Here are some of them:<\/p>\n\n\n\n<ul class=\"wp-block-list\"><li>Which fields are required and which are optional?<\/li><li>Does your form have a privacy policy and is this clearly linked? (If you collect any personal information, the answer should be yes!)<\/li><li>Does your form require any kind of consent because of GDPR?<\/li><li>What should your form display, or where should your user be sent to once the form is submitted?<\/li><li>Should the user get an email when the form is submitted? If so:<br\/><ul><li>What should it say?<\/li><li>What name and email address should it be from?<\/li><li>What should the title and contents of the email be?<\/li><\/ul><\/li><li>Should anyone else (perhaps an administrator) get an email when the form is submitted?\u00a0 If so:<ul><li>What should it say?<\/li><li>What name and email address should it be from?<\/li><li>What should the title and contents of the email be?<\/li><\/ul><\/li><li>Should the details of the form submission be stored on the server? If so:<ul><li>How long should it be stored for?<\/li><li>How will old entries be deleted?<\/li><\/ul><\/li><\/ul>\n\n\n\n<p><\/p>\n",
         "protected": false
     },
     "excerpt": {
@@ -45,7 +45,19 @@
         716,
         462
     ],
-    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>One does not simply log into WordPress and build a form - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"One does not simply log into WordPress and build a form - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"There are more questions you need to ask about forms than you think.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-09-30T06:39:44+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-10-13T12:54:58+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\",\"name\":\"One does not simply log into WordPress and build a form - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\",\"datePublished\":\"2018-09-30T06:39:44+00:00\",\"dateModified\":\"2018-10-13T12:54:58+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\",\"width\":568,\"height\":335},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"One does not simply log into WordPress and build a form\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "class_list": [
+        "post-4232",
+        "post",
+        "type-post",
+        "status-publish",
+        "format-standard",
+        "hentry",
+        "category-techie",
+        "category-wordpress",
+        "tag-forms",
+        "tag-wordpress"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>One does not simply log into WordPress and build a form - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"One does not simply log into WordPress and build a form - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"There are more questions you need to ask about forms than you think.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-09-30T06:39:44+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-10-13T12:54:58+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\",\"name\":\"One does not simply log into WordPress and build a form - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\",\"datePublished\":\"2018-09-30T06:39:44+00:00\",\"dateModified\":\"2018-10-13T12:54:58+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg\",\"width\":568,\"height\":335},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"One does not simply log into WordPress and build a form\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
     "yoast_head_json": {
         "title": "One does not simply log into WordPress and build a form - Ross Wintle",
         "robots": {
@@ -56,7 +68,7 @@
             "max-video-preview": "max-video-preview:-1"
         },
         "canonical": "https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/",
-        "og_locale": "en_GB",
+        "og_locale": "en_US",
         "og_type": "article",
         "og_title": "One does not simply log into WordPress and build a form - Ross Wintle",
         "og_description": "There are more questions you need to ask about forms than you think.",
@@ -75,7 +87,7 @@
         "twitter_site": "@magicroundabout",
         "twitter_misc": {
             "Written by": "Ross Wintle",
-            "Estimated reading time": "1 minute"
+            "Est. reading time": "1 minute"
         },
         "schema": {
             "@context": "https:\/\/schema.org",
@@ -103,7 +115,7 @@
                     "breadcrumb": {
                         "@id": "https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#breadcrumb"
                     },
-                    "inLanguage": "en-GB",
+                    "inLanguage": "en-US",
                     "potentialAction": [
                         {
                             "@type": "ReadAction",
@@ -115,7 +127,7 @@
                 },
                 {
                     "@type": "ImageObject",
-                    "inLanguage": "en-GB",
+                    "inLanguage": "en-US",
                     "@id": "https:\/\/rosswintle.uk\/2018\/09\/one-does-not-simply-log-into-wordpress-and-build-a-form\/#primaryimage",
                     "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg",
                     "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/09\/2iupnm.jpg",
@@ -152,10 +164,14 @@
                                 "@type": "EntryPoint",
                                 "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                             },
-                            "query-input": "required name=search_term_string"
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
                         }
                     ],
-                    "inLanguage": "en-GB"
+                    "inLanguage": "en-US"
                 },
                 {
                     "@type": "Person",
@@ -163,7 +179,7 @@
                     "name": "Ross Wintle",
                     "image": {
                         "@type": "ImageObject",
-                        "inLanguage": "en-GB",
+                        "inLanguage": "en-US",
                         "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                         "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                         "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",

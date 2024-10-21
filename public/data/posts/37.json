@@ -47,7 +47,20 @@
                 259,
                 180
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Pause? - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Pause? - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Sometimes, I just want to press pause and have every day like this.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-09-17T21:59:35+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur-300x200.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\",\"name\":\"Pause? - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur-300x200.jpg\",\"datePublished\":\"2010-09-17T21:59:35+00:00\",\"dateModified\":\"2010-09-17T21:59:35+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur.jpg\",\"width\":\"1024\",\"height\":\"685\",\"caption\":\"Pause by Connor Lawless - http:\/\/flickr.com\/conchur\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Pause?\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-898",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-cycling",
+                "tag-cycling",
+                "tag-good-days",
+                "tag-weather",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Pause? - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Pause? - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Sometimes, I just want to press pause and have every day like this.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-09-17T21:59:35+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur-300x200.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\",\"name\":\"Pause? - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur-300x200.jpg\",\"datePublished\":\"2010-09-17T21:59:35+00:00\",\"dateModified\":\"2010-09-17T21:59:35+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/09\/pause\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur.jpg\",\"width\":\"1024\",\"height\":\"685\",\"caption\":\"Pause by Connor Lawless - http:\/\/flickr.com\/conchur\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/pause\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Pause?\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Pause? - Ross Wintle",
                 "robots": {
@@ -58,7 +71,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2010\/09\/pause\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Pause? - Ross Wintle",
                 "og_description": "Sometimes, I just want to press pause and have every day like this.",
@@ -76,7 +89,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
+                    "Est. reading time": "1 minute"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -104,7 +117,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2010\/09\/pause\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -116,7 +129,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2010\/09\/pause\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur.jpg",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/pause-by-connor-lawlss-flickr.com-conchur.jpg",
@@ -154,10 +167,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -165,7 +182,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -305,7 +322,18 @@
                 18
             ],
             "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Survival of the Fittest - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Survival of the Fittest - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"It&#039;s been fascinating seeing &quot;survival of the fittest&quot; in action in our garden this year.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-09-18T09:37:28+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2010-09-17T23:28:12+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish-300x225.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\",\"name\":\"Survival of the Fittest - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish-300x225.jpg\",\"datePublished\":\"2010-09-18T09:37:28+00:00\",\"dateModified\":\"2010-09-17T23:28:12+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish.jpg\",\"width\":\"1280\",\"height\":\"960\",\"caption\":\"Photo by zimpenfish http:\/\/flickr.com\/zimpenfish\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Survival of the Fittest\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-863",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-gardening",
+                "category-naturewatch",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Survival of the Fittest - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Survival of the Fittest - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"It&#039;s been fascinating seeing &quot;survival of the fittest&quot; in action in our garden this year.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-09-18T09:37:28+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2010-09-17T23:28:12+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish-300x225.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\",\"name\":\"Survival of the Fittest - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish-300x225.jpg\",\"datePublished\":\"2010-09-18T09:37:28+00:00\",\"dateModified\":\"2010-09-17T23:28:12+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish.jpg\",\"width\":\"1280\",\"height\":\"960\",\"caption\":\"Photo by zimpenfish http:\/\/flickr.com\/zimpenfish\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Survival of the Fittest\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Survival of the Fittest - Ross Wintle",
                 "robots": {
@@ -316,7 +344,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Survival of the Fittest - Ross Wintle",
                 "og_description": "It's been fascinating seeing \"survival of the fittest\" in action in our garden this year.",
@@ -335,7 +363,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "2 minutes"
+                    "Est. reading time": "2 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -363,7 +391,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -375,7 +403,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2010\/09\/survival-of-the-fittest\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish.jpg",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/09\/ladybird-lavae-by-zimpenfish-flickr.com-zimpenfish.jpg",
@@ -413,10 +441,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -424,7 +456,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -563,7 +595,17 @@
                 23
             ],
             "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>iPhone vs Android - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"iPhone vs Android - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"What sort of mobile device does a person like me have?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-09-18T16:28:30+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-05-24T07:51:07+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"7 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\",\"name\":\"iPhone vs Android - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-09-18T16:28:30+00:00\",\"dateModified\":\"2022-05-24T07:51:07+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"iPhone vs Android\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-859",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-techie",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>iPhone vs Android - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"iPhone vs Android - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"What sort of mobile device does a person like me have?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-09-18T16:28:30+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-05-24T07:51:07+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"7 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\",\"name\":\"iPhone vs Android - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-09-18T16:28:30+00:00\",\"dateModified\":\"2022-05-24T07:51:07+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"iPhone vs Android\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "iPhone vs Android - Ross Wintle",
                 "robots": {
@@ -574,7 +616,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "iPhone vs Android - Ross Wintle",
                 "og_description": "What sort of mobile device does a person like me have?",
@@ -584,8 +626,8 @@
                 "article_modified_time": "2022-05-24T07:51:07+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -596,7 +638,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "7 minutes"
+                    "Est. reading time": "7 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -617,7 +659,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2010\/09\/iphone-vs-android\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -657,10 +699,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -668,7 +714,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -814,7 +860,23 @@
                 260,
                 581
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Relics - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Relics - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Sometimes I find myself thinking &quot;Did we? Did we REALLY cycle 50 miles?&quot;\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-10-01T21:34:45+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\",\"name\":\"Relics - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg\",\"datePublished\":\"2010-10-01T21:34:45+00:00\",\"dateModified\":\"2010-10-01T21:34:45+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Relics\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-914",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-cycling",
+                "tag-bike",
+                "tag-cycling",
+                "tag-events",
+                "tag-history",
+                "tag-ride",
+                "tag-swindon",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Relics - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Relics - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Sometimes I find myself thinking &quot;Did we? Did we REALLY cycle 50 miles?&quot;\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-10-01T21:34:45+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\",\"name\":\"Relics - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg\",\"datePublished\":\"2010-10-01T21:34:45+00:00\",\"dateModified\":\"2010-10-01T21:34:45+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/10\/relics\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/10\/relics\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Relics\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Relics - Ross Wintle",
                 "robots": {
@@ -825,7 +887,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2010\/10\/relics\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Relics - Ross Wintle",
                 "og_description": "Sometimes I find myself thinking \"Did we? Did we REALLY cycle 50 miles?\"",
@@ -843,7 +905,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
+                    "Est. reading time": "1 minute"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -871,7 +933,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2010\/10\/relics\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -883,7 +945,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2010\/10\/relics\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2010\/10\/bike-ride-logo.jpg"
@@ -918,10 +980,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -929,7 +995,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -1077,7 +1143,25 @@
                 180,
                 186
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>True Grit - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"True Grit - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Duelling with the council over gritting of cycle paths.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-11-17T21:50:52+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-05-24T07:49:16+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\",\"name\":\"True Grit - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-11-17T21:50:52+00:00\",\"dateModified\":\"2022-05-24T07:49:16+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"True Grit\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-921",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-cycling",
+                "category-swindon",
+                "tag-cycling",
+                "tag-grit",
+                "tag-ice",
+                "tag-salt",
+                "tag-snow",
+                "tag-weather",
+                "tag-winter",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>True Grit - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"True Grit - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Duelling with the council over gritting of cycle paths.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-11-17T21:50:52+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-05-24T07:49:16+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\",\"name\":\"True Grit - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-11-17T21:50:52+00:00\",\"dateModified\":\"2022-05-24T07:49:16+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/true-grit\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"True Grit\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "True Grit - Ross Wintle",
                 "robots": {
@@ -1088,7 +1172,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2010\/11\/true-grit\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "True Grit - Ross Wintle",
                 "og_description": "Duelling with the council over gritting of cycle paths.",
@@ -1098,8 +1182,8 @@
                 "article_modified_time": "2022-05-24T07:49:16+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -1110,7 +1194,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "3 minutes"
+                    "Est. reading time": "3 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -1131,7 +1215,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2010\/11\/true-grit\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -1171,10 +1255,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -1182,7 +1270,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -1326,7 +1414,21 @@
                 581,
                 186
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Credit where it&#039;s due - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Credit where it&#039;s due - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"There was a little cleaning machine out this morning clearing up all the slippery leaf mulch on the cycle path to work. Thank you Swindon Council &#8211; it&#8217;s really appreciated!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-11-18T21:44:29+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\",\"name\":\"Credit where it's due - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-11-18T21:44:29+00:00\",\"dateModified\":\"2010-11-18T21:44:29+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Credit where it&#8217;s due\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-926",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-cycling",
+                "category-swindon",
+                "tag-cycling",
+                "tag-swindon",
+                "tag-winter",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Credit where it&#039;s due - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Credit where it&#039;s due - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"There was a little cleaning machine out this morning clearing up all the slippery leaf mulch on the cycle path to work. Thank you Swindon Council &#8211; it&#8217;s really appreciated!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-11-18T21:44:29+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\",\"name\":\"Credit where it's due - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-11-18T21:44:29+00:00\",\"dateModified\":\"2010-11-18T21:44:29+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Credit where it&#8217;s due\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Credit where it's due - Ross Wintle",
                 "robots": {
@@ -1337,7 +1439,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Credit where it's due - Ross Wintle",
                 "og_description": "There was a little cleaning machine out this morning clearing up all the slippery leaf mulch on the cycle path to work. Thank you Swindon Council &#8211; it&#8217;s really appreciated!",
@@ -1346,8 +1448,8 @@
                 "article_published_time": "2010-11-18T21:44:29+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -1378,7 +1480,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2010\/11\/credit-where-its-due\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -1418,10 +1520,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -1429,7 +1535,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -1569,7 +1675,18 @@
                 22
             ],
             "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Local Travel Plans (again) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Local Travel Plans (again) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Reading, and hoping to respond to, Swindon&#039;s local travel plan. How about you?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-12-08T21:13:07+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-05-24T07:55:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\",\"name\":\"Local Travel Plans (again) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-12-08T21:13:07+00:00\",\"dateModified\":\"2022-05-24T07:55:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Local Travel Plans (again)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-938",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-cycling",
+                "category-swindon",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Local Travel Plans (again) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Local Travel Plans (again) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Reading, and hoping to respond to, Swindon&#039;s local travel plan. How about you?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2010-12-08T21:13:07+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-05-24T07:55:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\",\"url\":\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\",\"name\":\"Local Travel Plans (again) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2010-12-08T21:13:07+00:00\",\"dateModified\":\"2022-05-24T07:55:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Local Travel Plans (again)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Local Travel Plans (again) - Ross Wintle",
                 "robots": {
@@ -1580,7 +1697,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Local Travel Plans (again) - Ross Wintle",
                 "og_description": "Reading, and hoping to respond to, Swindon's local travel plan. How about you?",
@@ -1590,8 +1707,8 @@
                 "article_modified_time": "2022-05-24T07:55:09+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -1602,7 +1719,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
+                    "Est. reading time": "1 minute"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -1623,7 +1740,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2010\/12\/local-travel-plans-again\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -1663,10 +1780,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -1674,7 +1795,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -1814,7 +1935,18 @@
                 264
             ],
             "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Playing with light - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Playing with light - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The blog has been a bit quiet of late again, but I&#8217;m hoping to make more and shorter posts this year. The world has gone mad on a couple of things: End-to-End Cycle Challenges &#8211; loads of people I know are planning cycling either John O&#8217; Groats to Land&#8217;s End or vice versa this year.\u00a0 [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-01-02T18:32:10+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964-680x1024.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\",\"name\":\"Playing with light - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964-680x1024.jpg\",\"datePublished\":\"2011-01-02T18:32:10+00:00\",\"dateModified\":\"2011-01-02T18:32:10+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964.jpg\",\"width\":\"2848\",\"height\":\"4288\",\"caption\":\"Playing with Light\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Playing with light\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-941",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-general",
+                "category-photography",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Playing with light - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Playing with light - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The blog has been a bit quiet of late again, but I&#8217;m hoping to make more and shorter posts this year. The world has gone mad on a couple of things: End-to-End Cycle Challenges &#8211; loads of people I know are planning cycling either John O&#8217; Groats to Land&#8217;s End or vice versa this year.\u00a0 [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-01-02T18:32:10+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964-680x1024.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\",\"name\":\"Playing with light - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964-680x1024.jpg\",\"datePublished\":\"2011-01-02T18:32:10+00:00\",\"dateModified\":\"2011-01-02T18:32:10+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964.jpg\",\"width\":\"2848\",\"height\":\"4288\",\"caption\":\"Playing with Light\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Playing with light\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Playing with light - Ross Wintle",
                 "robots": {
@@ -1825,7 +1957,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Playing with light - Ross Wintle",
                 "og_description": "The blog has been a bit quiet of late again, but I&#8217;m hoping to make more and shorter posts this year. The world has gone mad on a couple of things: End-to-End Cycle Challenges &#8211; loads of people I know are planning cycling either John O&#8217; Groats to Land&#8217;s End or vice versa this year.\u00a0 [&hellip;]",
@@ -1843,7 +1975,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
+                    "Est. reading time": "1 minute"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -1871,7 +2003,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -1883,7 +2015,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2011\/01\/playing-with-light\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964.jpg",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/DSC_0086-e1293992370964.jpg",
@@ -1921,10 +2053,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -1932,7 +2068,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -2082,7 +2218,27 @@
                 170,
                 179
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Local Transport Plans (Part 3) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Local Transport Plans (Part 3) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Oh, look, another magic roundabout...with integrated traffic lights.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-01-05T00:09:29+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-05-24T07:53:22+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"9 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\",\"name\":\"Local Transport Plans (Part 3) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2011-01-05T00:09:29+00:00\",\"dateModified\":\"2022-05-24T07:53:22+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Local Transport Plans (Part 3)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-950",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-climate-change",
+                "category-cycling",
+                "category-swindon",
+                "tag-buses",
+                "tag-cycling",
+                "tag-local",
+                "tag-ltp3",
+                "tag-swindon",
+                "tag-transport",
+                "tag-travel",
+                "tag-walking",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Local Transport Plans (Part 3) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Local Transport Plans (Part 3) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Oh, look, another magic roundabout...with integrated traffic lights.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-01-05T00:09:29+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2022-05-24T07:53:22+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"9 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\",\"name\":\"Local Transport Plans (Part 3) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2011-01-05T00:09:29+00:00\",\"dateModified\":\"2022-05-24T07:53:22+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Local Transport Plans (Part 3)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Local Transport Plans (Part 3) - Ross Wintle",
                 "robots": {
@@ -2093,7 +2249,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Local Transport Plans (Part 3) - Ross Wintle",
                 "og_description": "Oh, look, another magic roundabout...with integrated traffic lights.",
@@ -2103,8 +2259,8 @@
                 "article_modified_time": "2022-05-24T07:53:22+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -2115,7 +2271,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "9 minutes"
+                    "Est. reading time": "9 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -2136,7 +2292,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2011\/01\/local-transport-plans-part-3\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -2176,10 +2332,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -2187,7 +2347,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
@@ -2333,7 +2493,23 @@
                 151,
                 175
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>A bit of fun in the snow - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A bit of fun in the snow - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This year, we arrived in Devon with deep snow all ready and waiting for us. We recently upgraded to a waterproof, shockproof Olympus camera, and so I couldn&#039;t resist re-making SledgeCam in HD.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-01-07T20:05:20+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2011-01-07T20:12:41+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787-224x300.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\",\"name\":\"A bit of fun in the snow - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787-224x300.jpg\",\"datePublished\":\"2011-01-07T20:05:20+00:00\",\"dateModified\":\"2011-01-07T20:12:41+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787.jpg\",\"width\":\"3216\",\"height\":\"4288\",\"caption\":\"Devon Hills\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"A bit of fun in the snow\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-956",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-aside",
+                "hentry",
+                "category-general",
+                "tag-camera",
+                "tag-devon",
+                "tag-sledgecam",
+                "tag-sledging",
+                "tag-snow",
+                "tag-video",
+                "post_format-post-format-aside"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>A bit of fun in the snow - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"A bit of fun in the snow - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This year, we arrived in Devon with deep snow all ready and waiting for us. We recently upgraded to a waterproof, shockproof Olympus camera, and so I couldn&#039;t resist re-making SledgeCam in HD.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2011-01-07T20:05:20+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2011-01-07T20:12:41+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787-224x300.jpg\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\",\"url\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\",\"name\":\"A bit of fun in the snow - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787-224x300.jpg\",\"datePublished\":\"2011-01-07T20:05:20+00:00\",\"dateModified\":\"2011-01-07T20:12:41+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787.jpg\",\"width\":\"3216\",\"height\":\"4288\",\"caption\":\"Devon Hills\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"A bit of fun in the snow\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "A bit of fun in the snow - Ross Wintle",
                 "robots": {
@@ -2344,7 +2520,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "A bit of fun in the snow - Ross Wintle",
                 "og_description": "This year, we arrived in Devon with deep snow all ready and waiting for us. We recently upgraded to a waterproof, shockproof Olympus camera, and so I couldn't resist re-making SledgeCam in HD.",
@@ -2363,7 +2539,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "magicroundabout",
-                    "Estimated reading time": "1 minute"
+                    "Est. reading time": "1 minute"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -2391,7 +2567,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -2403,7 +2579,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2011\/01\/a-bit-of-fun-in-the-snow\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787.jpg",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2011\/01\/PC250253-e1294431075787.jpg",
@@ -2441,10 +2617,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -2452,7 +2632,7 @@
                             "name": "magicroundabout",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",

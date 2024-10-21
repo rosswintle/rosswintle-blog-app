@@ -1,0 +1,247 @@
+{
+    "id": 255390,
+    "date": "2024-07-08T22:51:53",
+    "date_gmt": "2024-07-08T21:51:53",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=255390"
+    },
+    "modified": "2024-07-08T22:51:57",
+    "modified_gmt": "2024-07-08T21:51:57",
+    "slug": "migrating-to-db",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/",
+    "title": {
+        "rendered": "Migrating to DB"
+    },
+    "content": {
+        "rendered": "\n<p>I have a new job!<\/p>\n\n\n\n<p>In 2021, after ten years of freelance web development, I applied for a web developer job at Delicious Brains. It was a dream job. Almost. I not-very-secretly hoped that at some point I would move from developing the Delicious Brains websites to developing the Delicious Brains products that the websites were selling.<\/p>\n\n\n\n<p>In 2022, Delicious Brains was bought by WP Engine. And because I was in the web development team, I moved into the equivalent team. Which happened to be in the marketing department.<\/p>\n\n\n\n<p>And so I&#8217;ve inhabited this strange role of being a highly technical engineer working in a department of not-engineers.<\/p>\n\n\n\n<p>My team has been completely wonderful. My boss is awesome, and my colleagues are some of the best engineers I&#8217;ve ever worked with. They work hard, but they have fun too. They are a friendly and smart bunch of people who care a lot about their work and the team.<\/p>\n\n\n\n<p>But the direction of the team is very much marketing and front-end. That&#8217;s not really a direction that suits me, and therefore I&#8217;m not really a person that suits the direction. Someone else will be better suited to this team&#8217;s future than I am.<\/p>\n\n\n\n<p><em>If you&#8217;re a senior level developer who is experienced in WordPress and React, has experience of making custom blocks, and is looking for a remote role in a busy marketing team, you could <a href=\"https:\/\/wpeng.in\/webdev\/\">backfill my role<\/a>!<\/em><\/p>\n\n\n\n<p>So when an engineering role came up in one of the Delicious Brains product teams, all these historic and future things combined into an obvious application. I apparently made a good impression. I got the job and started today.<\/p>\n\n\n\n<p>It was a bittersweet decision to leave marketing and web dev &#8211; I&#8217;m sad to leave my friends and colleagues in the old team. But I know it&#8217;s the right thing for me to try this new thing!<\/p>\n\n\n\n<p>Day one was good. I&#8217;m hoping to have made my first PRs on day two. And I&#8217;m looking forward to working on a set of products I&#8217;ve been a user of for over 10 years!<\/p>\n\n\n\n<p>(My first WP Migrate DB Pro order was an order number less than 1800. My latest order number was over 111,100! I was an early customer, for sure!)<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>I have a new job!<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        639,
+        187
+    ],
+    "tags": [
+        111,
+        462,
+        582
+    ],
+    "class_list": [
+        "post-255390",
+        "post",
+        "type-post",
+        "status-publish",
+        "format-standard",
+        "hentry",
+        "category-wordpress",
+        "category-work",
+        "tag-life",
+        "tag-wordpress",
+        "tag-work"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Migrating to DB - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Migrating to DB - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I have a new job!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2024-07-08T21:51:53+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2024-07-08T21:51:57+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/\",\"url\":\"https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/\",\"name\":\"Migrating to DB - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-07-08T21:51:53+00:00\",\"dateModified\":\"2024-07-08T21:51:57+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Migrating to DB\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Migrating to DB - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Migrating to DB - Ross Wintle",
+        "og_description": "I have a new job!",
+        "og_url": "https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2024-07-08T21:51:53+00:00",
+        "article_modified_time": "2024-07-08T21:51:57+00:00",
+        "og_image": [
+            {
+                "width": 600,
+                "height": 399,
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Est. reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/",
+                    "url": "https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/",
+                    "name": "Migrating to DB - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-07-08T21:51:53+00:00",
+                    "dateModified": "2024-07-08T21:51:57+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/#breadcrumb"
+                    },
+                    "inLanguage": "en-US",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/07\/migrating-to-db\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Migrating to DB"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
+                        }
+                    ],
+                    "inLanguage": "en-US"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-US",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255390"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=255390"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255390\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 255391,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255390\/revisions\/255391"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=255390"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=255390"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=255390"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

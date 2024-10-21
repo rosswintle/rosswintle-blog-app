@@ -1,0 +1,79 @@
+<body><header><h1 data-pagefind-meta="title">Readable code tips: Use “is” or “has” for Boolean variables/functions</h1></header><main>
+<p><em>Previous Tip: <a href="https://rosswintle.uk/2024/03/readable-code-tips-dont-inline-everything/">Don&#8217;t inline everything!</a></em></p>
+
+
+
+<p>This is a little naming convention that I find really helpful.</p>
+
+
+
+<p>If a variable is Boolean type, or if a function returns a Boolean type, then consider if you can name it with an &#8220;is&#8221; or &#8220;has&#8221; prefix (or somewhere in the name). Because in many cases, not doing this can be confusing.</p>
+
+
+
+<p>Let&#8217;s see some examples.</p>
+
+
+
+<p>Here&#8217;s a variable that tells us if a file has a .txt extension.</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+$txtExtension = pathinfo($filename, PATHINFO_EXTENSION) === 'txt'
+</pre></div>
+
+
+<p>But&#8230; with that name, it could mean &#8220;here is the string that is used for a text file extension&#8221;.</p>
+
+
+
+<p>This variable tells us if a file has a txt extension. So let&#8217;s name it appropriately:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+$fileHasTxtExtension = pathinfo($filename, PATHINFO_EXTENSION) === 'txt'
+</pre></div>
+
+
+<p>I see this <em>a lot</em>! And it&#8217;s a really simple improvement.</p>
+
+
+
+<p>Here&#8217;s a Boolean function/method:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function textFile(string $filename) : bool {
+    ...
+}
+</pre></div>
+
+
+<p>I mean, the name is just really confusing. It could do anything. But if the intention is to test if the filename is that of a text file, then say so!</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: php; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+function isTextFile($filename) {
+    ...
+}
+</pre></div>
+
+
+<h2 class="wp-block-heading">Bonus related weird programming fact</h2>
+
+
+
+<p>One of the first languages I learned properly was the functional language &#8220;Scheme&#8221;, which was like Lisp with training wheels.</p>
+
+
+
+<p>There was <a href="https://lisp-lang.org/style-guide/#predicates">a convention in Lisp</a> that a &#8220;predicate&#8221; (a function that returned <code>t</code> or <code>nil</code>, which are equivalent to <code>true</code> and <code>false</code>) would be named with a <code>p</code> or <code>-p</code> suffix.</p>
+
+
+
+<p>And I still think of this sometimes. Can I ask my wife if she wants a cup of tea by asking &#8220;Tea-P?&#8221; (No, I don&#8217;t. Never. Ever.)</p>
+
+
+
+<p>I think <code>function textFileP( $filename )</code>isn&#8217;t quite as clear, but know that naming conventions like this are proper old!</p>
+</main></body>

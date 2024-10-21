@@ -15,7 +15,7 @@
 
 
 
-<ul><li>Listed &#8211; AMO host the extension and all updates. It&#8217;s publicly listed. Anyone can find and install it from AMO.</li><li>Invisible &#8211; AMO verify and sign the extension, but it&#8217;s not publicly listed, and you self-host the extension and all updates to it.</li></ul>
+<ul class="wp-block-list"><li>Listed &#8211; AMO host the extension and all updates. It&#8217;s publicly listed. Anyone can find and install it from AMO.</li><li>Invisible &#8211; AMO verify and sign the extension, but it&#8217;s not publicly listed, and you self-host the extension and all updates to it.</li></ul>
 
 
 
@@ -23,7 +23,7 @@
 
 
 
-<ul><li>Unlisted &#8211; AMO host the extension and all updates but it&#8217;s NOT publicly listed, people have to have the link to install it.</li></ul>
+<ul class="wp-block-list"><li>Unlisted &#8211; AMO host the extension and all updates but it&#8217;s NOT publicly listed, people have to have the link to install it.</li></ul>
 
 
 
@@ -51,7 +51,7 @@
 
 
 
-<ul><li><a href="https://extensionworkshop.com/documentation/publish/submitting-an-add-on/#self-distribution">Extension Workshop &#8211; Self Distribution</a></li><li><a href="https://extensionworkshop.com/documentation/manage/updating-your-extension/">Extension Workshop &#8211; Updating your Extension</a></li></ul>
+<ul class="wp-block-list"><li><a href="https://extensionworkshop.com/documentation/publish/submitting-an-add-on/#self-distribution">Extension Workshop &#8211; Self Distribution</a></li><li><a href="https://extensionworkshop.com/documentation/manage/updating-your-extension/">Extension Workshop &#8211; Updating your Extension</a></li></ul>
 
 
 
@@ -67,7 +67,7 @@
 
 
 
-<ul><li>Bump the version number in <code>manifest.json</code>, <code>package.json</code> and anywhere else that you need to. </li><li>Sign the addon and create the xpi. I use the <code>web-ext</code> command-line tool to do this, but you can upload a zip file to Mozilla too. And I have some excluded files that I put in a <code>web-ext-config.js</code> file.</li></ul>
+<ul class="wp-block-list"><li>Bump the version number in <code>manifest.json</code>, <code>package.json</code> and anywhere else that you need to. </li><li>Sign the addon and create the xpi. I use the <code>web-ext</code> command-line tool to do this, but you can upload a zip file to Mozilla too. And I have some excluded files that I put in a <code>web-ext-config.js</code> file.</li></ul>
 
 
 
@@ -75,7 +75,7 @@
 
 
 
-<ul><li>With the CLI tool, this will create the signed xpi file in <code>/web-ext-artifacts</code> (or wherever you specify)</li><li>Create the SHA256 hash of this using (on MacOS):</li></ul>
+<ul class="wp-block-list"><li>With the CLI tool, this will create the signed xpi file in <code>/web-ext-artifacts</code> (or wherever you specify)</li><li>Create the SHA256 hash of this using (on MacOS):</li></ul>
 
 
 
@@ -83,7 +83,7 @@
 
 
 
-<ul><li>Add the new version and hash to your <code>updates.json</code>. You&#8217;ll need to host this somewhere too. It&#8217;s a good idea to validate the JSON formatting before uploading.</li><li>Upload the <code>.xpi</code> and <code>updates.json</code> to wherever you are hosting them.</li><li>Test an update (you might want to go to about:config and set <code>extensions.update.interval</code> to <code>120</code> for a two-minute check. Note that you can see console messages about update checks in Firefox, Tools -> Browser Tools -> Browser Console)</li></ul>
+<ul class="wp-block-list"><li>Add the new version and hash to your <code>updates.json</code>. You&#8217;ll need to host this somewhere too. It&#8217;s a good idea to validate the JSON formatting before uploading.</li><li>Upload the <code>.xpi</code> and <code>updates.json</code> to wherever you are hosting them.</li><li>Test an update (you might want to go to about:config and set <code>extensions.update.interval</code> to <code>120</code> for a two-minute check. Note that you can see console messages about update checks in Firefox, Tools -> Browser Tools -> Browser Console)</li></ul>
 
 
 

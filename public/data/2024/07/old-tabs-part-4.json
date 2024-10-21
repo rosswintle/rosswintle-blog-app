@@ -1,0 +1,238 @@
+{
+    "id": 255461,
+    "date": "2024-07-26T22:46:04",
+    "date_gmt": "2024-07-26T21:46:04",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=255461"
+    },
+    "modified": "2024-07-26T22:46:09",
+    "modified_gmt": "2024-07-26T21:46:09",
+    "slug": "old-tabs-part-4",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/",
+    "title": {
+        "rendered": "Old tabs: Part 4"
+    },
+    "content": {
+        "rendered": "\n<p>My habit of keeping interesting things open in tabs on my mobile is WAY out of hand. So I&#8217;m challenging myself to blog them as I close them down. 10 a day. This is part 4.<\/p>\n\n\n\n<p>I am terrible at keeping up streaks like this. We&#8217;ll see how long it lasts.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">1.  De-coupling Domain Logic in WordPress &#8211; Tom McFarlin<\/h2>\n\n\n\n<p><a href=\"https:\/\/tommcfarlin.com\/domain-logic-in-wordpress\/\">https:\/\/tommcfarlin.com\/domain-logic-in-wordpress\/<\/a><\/p>\n\n\n\n<p>More good stuff from Tom on code architecture in WordPress.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">2. Create a static build &#8211; FrakenPHP<\/h2>\n\n\n\n<p><a href=\"https:\/\/frankenphp.dev\/docs\/static\">https:\/\/frankenphp.dev\/docs\/static<\/a><\/p>\n\n\n\n<p>FrakenPHP is a PHP application server written in Go. This help article explains how to use the static-php-cli project to create a statically built PHP application. Useful for me because I was looking at making a statically-built PHP CLI tool.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">3. static-php-cli<\/h2>\n\n\n\n<p><a href=\"https:\/\/static-php.dev\/en\/guide\/manual-build.html\">https:\/\/static-php.dev\/en\/guide\/manual-build.html<\/a><\/p>\n\n\n\n<p>Docs for the actual static-php-cli project.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">4. static-php-cli&#8217;s precompiled binaries<\/h2>\n\n\n\n<p><a href=\"https:\/\/dl.zhamao.xin\/static-php-cli\">https:\/\/dl.zhamao.xin\/static-php-cli<\/a><\/p>\n\n\n\n<p>Index of static-php-cli&#8217;s precompiled binaries. Boring!<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">5. The Year Twitter Died &#8211; The Verge<\/h2>\n\n\n\n<p><a href=\"https:\/\/www.theverge.com\/c\/23972308\/twitter-x-death-tweets-history-elon-musk\">https:\/\/www.theverge.com\/c\/23972308\/twitter-x-death-tweets-history-elon-musk<\/a><\/p>\n\n\n\n<p>The Verge&#8217;s really excellent, uniquely art-directed article about the death of Twitter in 2023. Funny. Poignant.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">6. dnspeep  &#8211; Julia Evans<\/h2>\n\n\n\n<p><a href=\"https:\/\/github.com\/jvns\/dnspeep\">https:\/\/github.com\/jvns\/dnspeep<\/a><\/p>\n\n\n\n<p>Julia (<a href=\"https:\/\/social.jvns.ca\/@b0rk#.\">@b0rk<\/a>) makes amazing educational &#8220;Zines&#8221; about tech stuff. But she also makes tools that help you understand those things. dnspeep is an experimental tool for spying on your DNS queries.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">7. Glorious GMMK 2 Compact 65% Keyboard<\/h2>\n\n\n\n<p><a href=\"https:\/\/www.gloriousgaming.com\/products\/gmmk2\">https:\/\/www.gloriousgaming.com\/products\/gmmk2<\/a><\/p>\n\n\n\n<p>I think I had this open as a possible gift for my son. It&#8217;s a good quality mechanical gaming keyboard that you build yourself and is highly customisable.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">8. Teller &#8211; <a href=\"https:\/\/www.dannyvankooten.com\/\">Danny van Kooten<\/a><\/h2>\n\n\n\n<p>https:\/\/teller.dvk.co<\/p>\n\n\n\n<p>I love Danny&#8217;s work. Teller was an attempt at &#8220;simple website analytics software that only does aggregate counts&#8221;. Seems it&#8217;s abandoned, but you can see something of it at <a href=\"https:\/\/git.sr.ht\/~dvko\/teller\">https:\/\/git.sr.ht\/~dvko\/teller<\/a><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">9. You don&#8217;t need JavaScript for that &#8211; Kilian Valkhof<\/h2>\n\n\n\n<p><a href=\"https:\/\/www.htmhell.dev\/adventcalendar\/2023\/2\">https:\/\/www.htmhell.dev\/adventcalendar\/2023\/2<\/a><\/p>\n\n\n\n<p>I&#8217;m very much into the web platform and using minimal JS and progressive enhancement. So this list of some things that you think you need JavaScript for but maybe don&#8217;t is good. Custom switches\/toggles; datalist\/autosuggest; colour pickers; accordions; and dialogs.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">10. The case of the Golden Idol<\/h2>\n\n\n\n<p><a href=\"https:\/\/www.thegoldenidol.com\">https:\/\/www.thegoldenidol.com<\/a><\/p>\n\n\n\n<p>A recommended game. You can play the first chapter in the browser, which is kinda cool.<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>The fourth set of ten links as I close down my open tabs on my mobile. Games, keyboards, static PHP builds, and The Death of Twitter!!<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        10
+    ],
+    "tags": [],
+    "class_list": [
+        "post-255461",
+        "post",
+        "type-post",
+        "status-publish",
+        "format-standard",
+        "hentry",
+        "category-general"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Old tabs: Part 4 - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Old tabs: Part 4 - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The fourth set of ten links as I close down my open tabs on my mobile. Games, keyboards, static PHP builds, and The Death of Twitter!!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2024-07-26T21:46:04+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2024-07-26T21:46:09+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/\",\"url\":\"https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/\",\"name\":\"Old tabs: Part 4 - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-07-26T21:46:04+00:00\",\"dateModified\":\"2024-07-26T21:46:09+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Old tabs: Part 4\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "Old tabs: Part 4 - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "Old tabs: Part 4 - Ross Wintle",
+        "og_description": "The fourth set of ten links as I close down my open tabs on my mobile. Games, keyboards, static PHP builds, and The Death of Twitter!!",
+        "og_url": "https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2024-07-26T21:46:04+00:00",
+        "article_modified_time": "2024-07-26T21:46:09+00:00",
+        "og_image": [
+            {
+                "width": 600,
+                "height": 399,
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Est. reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/",
+                    "url": "https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/",
+                    "name": "Old tabs: Part 4 - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-07-26T21:46:04+00:00",
+                    "dateModified": "2024-07-26T21:46:09+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/#breadcrumb"
+                    },
+                    "inLanguage": "en-US",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/07\/old-tabs-part-4\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "Old tabs: Part 4"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
+                        }
+                    ],
+                    "inLanguage": "en-US"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-US",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255461"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=255461"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 4,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255461\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 255474,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255461\/revisions\/255474"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=255461"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=255461"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=255461"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

@@ -37,7 +37,14 @@
         "url": "",
         "footnotes": ""
     },
-    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Now - Ross Wintle<\/title>\n<meta name=\"description\" content=\"My \/now page that tells you what I&#039;m up to.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/now\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Now - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"My \/now page that tells you what I&#039;m up to.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/now\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:modified_time\" content=\"2024-04-03T20:03:48+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/now\/\",\"url\":\"https:\/\/rosswintle.uk\/now\/\",\"name\":\"Now - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-04-03T20:03:21+00:00\",\"dateModified\":\"2024-04-03T20:03:48+00:00\",\"description\":\"My \/now page that tells you what I'm up to.\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/now\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/now\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/now\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Now\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "class_list": [
+        "post-255152",
+        "page",
+        "type-page",
+        "status-publish",
+        "hentry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Now - Ross Wintle<\/title>\n<meta name=\"description\" content=\"My \/now page that tells you what I&#039;m up to.\" \/>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/now\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Now - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"My \/now page that tells you what I&#039;m up to.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/now\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:modified_time\" content=\"2024-04-03T20:03:48+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/now\/\",\"url\":\"https:\/\/rosswintle.uk\/now\/\",\"name\":\"Now - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-04-03T20:03:21+00:00\",\"dateModified\":\"2024-04-03T20:03:48+00:00\",\"description\":\"My \/now page that tells you what I'm up to.\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/now\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/now\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/now\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Now\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
     "yoast_head_json": {
         "title": "Now - Ross Wintle",
         "description": "My \/now page that tells you what I'm up to.",
@@ -49,7 +56,7 @@
             "max-video-preview": "max-video-preview:-1"
         },
         "canonical": "https:\/\/rosswintle.uk\/now\/",
-        "og_locale": "en_GB",
+        "og_locale": "en_US",
         "og_type": "article",
         "og_title": "Now - Ross Wintle",
         "og_description": "My \/now page that tells you what I'm up to.",
@@ -58,8 +65,8 @@
         "article_modified_time": "2024-04-03T20:03:48+00:00",
         "og_image": [
             {
-                "width": "600",
-                "height": "399",
+                "width": 600,
+                "height": 399,
                 "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                 "type": "image\/jpeg"
             }
@@ -83,7 +90,7 @@
                     "breadcrumb": {
                         "@id": "https:\/\/rosswintle.uk\/now\/#breadcrumb"
                     },
-                    "inLanguage": "en-GB",
+                    "inLanguage": "en-US",
                     "potentialAction": [
                         {
                             "@type": "ReadAction",
@@ -123,10 +130,14 @@
                                 "@type": "EntryPoint",
                                 "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                             },
-                            "query-input": "required name=search_term_string"
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
                         }
                     ],
-                    "inLanguage": "en-GB"
+                    "inLanguage": "en-US"
                 }
             ]
         }

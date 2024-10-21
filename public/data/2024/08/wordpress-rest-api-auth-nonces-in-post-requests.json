@@ -1,0 +1,251 @@
+{
+    "id": 255543,
+    "date": "2024-08-11T17:44:43",
+    "date_gmt": "2024-08-11T16:44:43",
+    "guid": {
+        "rendered": "https:\/\/rosswintle.uk\/?p=255543"
+    },
+    "modified": "2024-08-11T19:07:42",
+    "modified_gmt": "2024-08-11T18:07:42",
+    "slug": "wordpress-rest-api-auth-nonces-in-post-requests",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/",
+    "title": {
+        "rendered": "WordPress REST API Auth nonces in POST requests"
+    },
+    "content": {
+        "rendered": "\n<p>I have a strange feeling I&#8217;ve been here before.<\/p>\n\n\n\n<p>Let&#8217;s say you (who me?) are injecting JavaScript into a WordPress admin page that wants to do stuff with the REST API.<\/p>\n\n\n\n<p>You can&#8217;t be bothered to set up application passwords as if you&#8217;re logged in you already have cookies that authenticate you! Application passwords are for use <em>outside<\/em> WordPress itself, and you know that you are already <em>inside<\/em> WordPress.<\/p>\n\n\n\n<p>However, if you are using cookie-based authentication for WordPress REST API requests you need both the cookies for authentication <em>and<\/em> a nonce for actions (POST requests).<\/p>\n\n\n\n<p>The <a href=\"https:\/\/developer.wordpress.org\/rest-api\/using-the-rest-api\/authentication\/\">authentication docs<\/a> say this:<\/p>\n\n\n\n<blockquote class=\"wp-block-quote is-layout-flow wp-block-quote-is-layout-flow\">\n<p>[the nonce] can then be passed to the API via the _wpnonce data parameter (either POST data or in the query for GET requests), or via the X-WP-Nonce header<\/p>\n<\/blockquote>\n\n\n\n<p>And it turns out that the POST data approach <em>does not work!<\/em><\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Testing requests in the browser<\/h2>\n\n\n\n<p>I was testing requests in the browser using the <a href=\"https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/Fetch_API\/Using_Fetch\">fetch API<\/a>.<\/p>\n\n\n\n<p>First you&#8217;ll need the nonce, which you can get by opening up the dev tools console once you&#8217;re logged into WordPress and type in this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; auto-links: false; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\nwpApiSettings.nonce\n<\/pre><\/div>\n\n\n<p>You can then use the nonce, and a known post ID (we will update the title, so make sure you&#8217;re working on production!) to so something like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; auto-links: false; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\nlet r = await fetch(\n  '\/wp-json\/wp\/v2\/posts\/12345',\n  {\n    body: JSON.stringify({\n      title: 'Hello Moon'\n    }),\n    method: 'POST',\n  }\n);\n<\/pre><\/div>\n\n\n<p>This will fail with a &#8220;401 Unauthorized&#8221; message. If you type this in the console it will give you the full message\/details:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: jscript; auto-links: false; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\nawait r.json()\n<\/pre><\/div>\n\n\n<p>It will probably say:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; auto-links: false; gutter: false; title: ; quick-code: false; notranslate\" title=\"\">\ncode: &quot;rest_cannot_edit&quot;\ndata: { status: 401 }\nmessage: &quot;Sorry, you are not allowed to edit this post.&quot;\n<\/pre><\/div>\n\n\n<p>That&#8217;s because you need to provide the nonce that we got at the start.<\/p>\n\n\n\n<p>According to the docs, we can pass this in POST data, so this should work:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nlet r = await fetch(\n  '\/wp-json\/wp\/v2\/posts\/12345',\n  {\n    body: JSON.stringify({\n      title: 'Hello Moon',\n      _wpnonce: 12345678\n    }),\n    method: 'POST',\n  }\n);\n<\/pre><\/div>\n\n\n<p>But it doesn&#8217;t! We get the same result!! Grrrr.<\/p>\n\n\n\n<p>The trick is to put the _wpnonce in the URL parameters:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nlet r = await fetch(\n  '\/wp-json\/wp\/v2\/posts\/12345?_wpnonce=12345678',\n  {\n    body: JSON.stringify({\n      title: 'Hello Moon'\n    }),\n    method: 'POST',\n  }\n);\n<\/pre><\/div>\n\n\n<p>THAT works.<\/p>\n\n\n\n<p>You can also use the <code>X-WP-Nonce<\/code> header, and perhaps that is just more reliable? That looks like this:<\/p>\n\n\n<div class=\"wp-block-syntaxhighlighter-code \"><pre class=\"brush: plain; title: ; notranslate\" title=\"\">\nlet r = await fetch(\n  '\/wp-json\/wp\/v2\/posts\/12345',\n  {\n    body: JSON.stringify({\n      title: 'Hello Moon'\n    }),\n    method: 'POST',\n    headers: {\n      'X-WP-Nonce': '12345678'\n    }\n  }\n);\n<\/pre><\/div>\n\n\n<p>I hope this helps you, and future me!<\/p>\n",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>If you&#8217;re using a script that uses cookie authentication with the WordPress REST API then you may also need a nonce. Here&#8217;s how to make this work!<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "sig_custom_text": "",
+        "sig_image_type": "featured-image",
+        "sig_custom_image": 0,
+        "sig_is_disabled": false,
+        "url": "",
+        "footnotes": ""
+    },
+    "categories": [
+        639
+    ],
+    "tags": [
+        286,
+        64,
+        107,
+        16264,
+        181,
+        462
+    ],
+    "class_list": [
+        "post-255543",
+        "post",
+        "type-post",
+        "status-publish",
+        "format-standard",
+        "hentry",
+        "category-wordpress",
+        "tag-coding",
+        "tag-development",
+        "tag-javascript",
+        "tag-rest-api",
+        "tag-web",
+        "tag-wordpress"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>WordPress REST API Auth nonces in POST requests - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"WordPress REST API Auth nonces in POST requests - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"If you&#039;re using a script that uses cookie authentication with the WordPress REST API then you may also need a nonce. Here&#039;s how to make this work!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2024-08-11T16:44:43+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2024-08-11T18:07:42+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/\",\"url\":\"https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/\",\"name\":\"WordPress REST API Auth nonces in POST requests - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2024-08-11T16:44:43+00:00\",\"dateModified\":\"2024-08-11T18:07:42+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"WordPress REST API Auth nonces in POST requests\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "yoast_head_json": {
+        "title": "WordPress REST API Auth nonces in POST requests - Ross Wintle",
+        "robots": {
+            "index": "index",
+            "follow": "follow",
+            "max-snippet": "max-snippet:-1",
+            "max-image-preview": "max-image-preview:large",
+            "max-video-preview": "max-video-preview:-1"
+        },
+        "canonical": "https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/",
+        "og_locale": "en_US",
+        "og_type": "article",
+        "og_title": "WordPress REST API Auth nonces in POST requests - Ross Wintle",
+        "og_description": "If you're using a script that uses cookie authentication with the WordPress REST API then you may also need a nonce. Here's how to make this work!",
+        "og_url": "https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/",
+        "og_site_name": "Ross Wintle",
+        "article_published_time": "2024-08-11T16:44:43+00:00",
+        "article_modified_time": "2024-08-11T18:07:42+00:00",
+        "og_image": [
+            {
+                "width": 600,
+                "height": 399,
+                "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
+                "type": "image\/jpeg"
+            }
+        ],
+        "author": "Ross Wintle",
+        "twitter_card": "summary_large_image",
+        "twitter_creator": "@magicroundabout",
+        "twitter_site": "@magicroundabout",
+        "twitter_misc": {
+            "Written by": "Ross Wintle",
+            "Est. reading time": "2 minutes"
+        },
+        "schema": {
+            "@context": "https:\/\/schema.org",
+            "@graph": [
+                {
+                    "@type": "WebPage",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/",
+                    "url": "https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/",
+                    "name": "WordPress REST API Auth nonces in POST requests - Ross Wintle",
+                    "isPartOf": {
+                        "@id": "https:\/\/rosswintle.uk\/#website"
+                    },
+                    "datePublished": "2024-08-11T16:44:43+00:00",
+                    "dateModified": "2024-08-11T18:07:42+00:00",
+                    "author": {
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc"
+                    },
+                    "breadcrumb": {
+                        "@id": "https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/#breadcrumb"
+                    },
+                    "inLanguage": "en-US",
+                    "potentialAction": [
+                        {
+                            "@type": "ReadAction",
+                            "target": [
+                                "https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@type": "BreadcrumbList",
+                    "@id": "https:\/\/rosswintle.uk\/2024\/08\/wordpress-rest-api-auth-nonces-in-post-requests\/#breadcrumb",
+                    "itemListElement": [
+                        {
+                            "@type": "ListItem",
+                            "position": 1,
+                            "name": "Home",
+                            "item": "https:\/\/rosswintle.uk\/"
+                        },
+                        {
+                            "@type": "ListItem",
+                            "position": 2,
+                            "name": "WordPress REST API Auth nonces in POST requests"
+                        }
+                    ]
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https:\/\/rosswintle.uk\/#website",
+                    "url": "https:\/\/rosswintle.uk\/",
+                    "name": "Ross Wintle",
+                    "description": "Creativity, curiosity, and code",
+                    "potentialAction": [
+                        {
+                            "@type": "SearchAction",
+                            "target": {
+                                "@type": "EntryPoint",
+                                "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
+                            },
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
+                        }
+                    ],
+                    "inLanguage": "en-US"
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc",
+                    "name": "Ross Wintle",
+                    "image": {
+                        "@type": "ImageObject",
+                        "inLanguage": "en-US",
+                        "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
+                        "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
+                        "caption": "Ross Wintle"
+                    },
+                    "url": "https:\/\/rosswintle.uk\/author\/rosswintle\/"
+                }
+            ]
+        }
+    },
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255543"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/comments?post=255543"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 2,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255543\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 255545,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/posts\/255543\/revisions\/255545"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/media?parent=255543"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/categories?post=255543"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/rosswintle.uk\/wp-json\/wp\/v2\/tags?post=255543"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}

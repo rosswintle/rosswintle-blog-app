@@ -37,7 +37,14 @@
         "url": "",
         "footnotes": ""
     },
-    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Twitter Basics - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Twitter Basics - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A series of posts I wrote on getting to grips with Twitter.\u00a0 Some of this info is a little out of date now (things move so fast in the social networking world), but still a good overview: Introduction Types of Message Making Life Easier &#8211; Client Applications Other Sites Wisdom\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\",\"url\":\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\",\"name\":\"Twitter Basics - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-11-29T11:37:18+00:00\",\"dateModified\":\"2009-11-29T11:37:18+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Projects\",\"item\":\"https:\/\/rosswintle.uk\/projects\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Twitter Basics\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "class_list": [
+        "post-674",
+        "page",
+        "type-page",
+        "status-publish",
+        "hentry"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Twitter Basics - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Twitter Basics - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"A series of posts I wrote on getting to grips with Twitter.\u00a0 Some of this info is a little out of date now (things move so fast in the social networking world), but still a good overview: Introduction Types of Message Making Life Easier &#8211; Client Applications Other Sites Wisdom\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\",\"url\":\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\",\"name\":\"Twitter Basics - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2009-11-29T11:37:18+00:00\",\"dateModified\":\"2009-11-29T11:37:18+00:00\",\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/projects\/twitter-basics\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Projects\",\"item\":\"https:\/\/rosswintle.uk\/projects\/\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Twitter Basics\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
     "yoast_head_json": {
         "title": "Twitter Basics - Ross Wintle",
         "robots": {
@@ -48,7 +55,7 @@
             "max-video-preview": "max-video-preview:-1"
         },
         "canonical": "https:\/\/rosswintle.uk\/projects\/twitter-basics\/",
-        "og_locale": "en_GB",
+        "og_locale": "en_US",
         "og_type": "article",
         "og_title": "Twitter Basics - Ross Wintle",
         "og_description": "A series of posts I wrote on getting to grips with Twitter.\u00a0 Some of this info is a little out of date now (things move so fast in the social networking world), but still a good overview: Introduction Types of Message Making Life Easier &#8211; Client Applications Other Sites Wisdom",
@@ -56,8 +63,8 @@
         "og_site_name": "Ross Wintle",
         "og_image": [
             {
-                "width": "600",
-                "height": "399",
+                "width": 600,
+                "height": 399,
                 "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                 "type": "image\/jpeg"
             }
@@ -80,7 +87,7 @@
                     "breadcrumb": {
                         "@id": "https:\/\/rosswintle.uk\/projects\/twitter-basics\/#breadcrumb"
                     },
-                    "inLanguage": "en-GB",
+                    "inLanguage": "en-US",
                     "potentialAction": [
                         {
                             "@type": "ReadAction",
@@ -126,10 +133,14 @@
                                 "@type": "EntryPoint",
                                 "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                             },
-                            "query-input": "required name=search_term_string"
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
                         }
                     ],
-                    "inLanguage": "en-GB"
+                    "inLanguage": "en-US"
                 }
             ]
         }

@@ -47,7 +47,22 @@
         131,
         181
     ],
-    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>notsoeasyhosting.com\/tricky.css - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"notsoeasyhosting.com\/tricky.css - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m currently running...err...at least 4 small web-based projects at the moment, so I&#039;m getting to grips with Hosting, DNS and CSS again.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2009-11-21T13:09:33+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\",\"url\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\",\"name\":\"notsoeasyhosting.com\/tricky.css - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#primaryimage\"},\"thumbnailUrl\":\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\",\"datePublished\":\"2009-11-21T13:09:33+00:00\",\"dateModified\":\"2009-11-21T13:09:33+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#primaryimage\",\"url\":\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\",\"contentUrl\":\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"notsoeasyhosting.com\/tricky.css\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "class_list": [
+        "post-667",
+        "post",
+        "type-post",
+        "status-publish",
+        "format-aside",
+        "hentry",
+        "category-techie",
+        "tag-css",
+        "tag-development",
+        "tag-hosting",
+        "tag-programming",
+        "tag-web",
+        "post_format-post-format-aside"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>notsoeasyhosting.com\/tricky.css - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"notsoeasyhosting.com\/tricky.css - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m currently running...err...at least 4 small web-based projects at the moment, so I&#039;m getting to grips with Hosting, DNS and CSS again.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2009-11-21T13:09:33+00:00\" \/>\n<meta property=\"og:image\" content=\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\" \/>\n<meta name=\"author\" content=\"magicroundabout\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"magicroundabout\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\",\"url\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\",\"name\":\"notsoeasyhosting.com\/tricky.css - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#primaryimage\"},\"thumbnailUrl\":\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\",\"datePublished\":\"2009-11-21T13:09:33+00:00\",\"dateModified\":\"2009-11-21T13:09:33+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#primaryimage\",\"url\":\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\",\"contentUrl\":\"http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"notsoeasyhosting.com\/tricky.css\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/2fbba234b43a5cc9c44b1ecf9990cfd2\",\"name\":\"magicroundabout\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g\",\"caption\":\"magicroundabout\"},\"description\":\"I'm a Swindon-based web developer cyclist, gardener, husband, and newbie dad. I write about all that, and a whole load more.\",\"sameAs\":[\"https:\/\/x.com\/magicroundabout\"],\"url\":\"https:\/\/rosswintle.uk\/author\/magicroundabout\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
     "yoast_head_json": {
         "title": "notsoeasyhosting.com\/tricky.css - Ross Wintle",
         "robots": {
@@ -58,7 +73,7 @@
             "max-video-preview": "max-video-preview:-1"
         },
         "canonical": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/",
-        "og_locale": "en_GB",
+        "og_locale": "en_US",
         "og_type": "article",
         "og_title": "notsoeasyhosting.com\/tricky.css - Ross Wintle",
         "og_description": "I'm currently running...err...at least 4 small web-based projects at the moment, so I'm getting to grips with Hosting, DNS and CSS again.",
@@ -76,7 +91,7 @@
         "twitter_site": "@magicroundabout",
         "twitter_misc": {
             "Written by": "magicroundabout",
-            "Estimated reading time": "4 minutes"
+            "Est. reading time": "4 minutes"
         },
         "schema": {
             "@context": "https:\/\/schema.org",
@@ -104,7 +119,7 @@
                     "breadcrumb": {
                         "@id": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#breadcrumb"
                     },
-                    "inLanguage": "en-GB",
+                    "inLanguage": "en-US",
                     "potentialAction": [
                         {
                             "@type": "ReadAction",
@@ -116,7 +131,7 @@
                 },
                 {
                     "@type": "ImageObject",
-                    "inLanguage": "en-GB",
+                    "inLanguage": "en-US",
                     "@id": "https:\/\/rosswintle.uk\/2009\/11\/notsoeasyhosting-comtricky-css\/#primaryimage",
                     "url": "http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300",
                     "contentUrl": "http:\/\/magicroundabout.files.wordpress.com\/2009\/11\/css-by-aaron-landry-flickr-com-photos-s4xton.jpg?w=300"
@@ -151,10 +166,14 @@
                                 "@type": "EntryPoint",
                                 "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                             },
-                            "query-input": "required name=search_term_string"
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
                         }
                     ],
-                    "inLanguage": "en-GB"
+                    "inLanguage": "en-US"
                 },
                 {
                     "@type": "Person",
@@ -162,7 +181,7 @@
                     "name": "magicroundabout",
                     "image": {
                         "@type": "ImageObject",
-                        "inLanguage": "en-GB",
+                        "inLanguage": "en-US",
                         "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                         "url": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",
                         "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/9845283a8a09cad6becba480a960292c?s=96&d=identicon&r=g",

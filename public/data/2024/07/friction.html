@@ -1,0 +1,106 @@
+<body><header><h1 data-pagefind-meta="title">Friction</h1></header><main>
+<p>This is really turning into a blog about coding. Apologies to less nerdy followers.</p>
+
+
+
+<p>I want to talk (<a href="https://rosswintle.uk/2024/03/readable-code-tips-intro/">again</a>) about friction. Things that slow us down. How some friction is good, and some is bad.</p>
+
+
+
+<h2 class="wp-block-heading">Deterring thieves</h2>
+
+
+
+<p>My classic example of &#8220;friction&#8221; is the lock on the door of your house. There is some ideal world in which you don&#8217;t need a lock on your door. Everyone can be trusted.</p>
+
+
+
+<p>This makes life easier for you. You don&#8217;t need to carry keys. You don&#8217;t risk losing keys. You can easily get into your house while carrying 6 bags of shopping. Your children can come and go as they please. That would be a nice world.</p>
+
+
+
+<p>But the lock is a necessary piece of friction. It slows you down, but it has the benefit of keeping unwanted people out of your house.</p>
+
+
+
+<p>Equally, there might be a world in which you need more than one lock. Perhaps a locked bar across the door. Perhaps an additional electronic lock with biometrics.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full is-resized"><img loading="lazy" decoding="async" width="640" height="640" src="https://rosswintle.uk/wp-content/uploads/2024/07/edna-mode-typing.gif" alt="" class="wp-image-255394" style="width:459px;height:auto"/></figure></div>
+
+
+<p>This might be necessary &#8220;good friction&#8221; in some crazy world. But it might be &#8220;bad friction&#8221; too &#8211; you&#8217;ve overdone it and caused yourself a ton of cost and frequent inconvenience for no real benefit.</p>
+
+
+
+<h2 class="wp-block-heading">You can do this with code too</h2>
+
+
+
+<p>For those that don&#8217;t know, I&#8217;m a staunch advocate of static analysis. I used to wonder why people cluttered up their code with docblocks, but now I have tooling that uses typehints in them, I can really see the benefit and I encourage them.</p>
+
+
+
+<p>Docblocks and typehints <em>can </em>be good friction. Yes, they can slow you down a bit, but used wisely they can detect some errors early, ensure you handle edge cases, speed up code review, and give you more confidence in your code.</p>
+
+
+
+<p>But&#8230; despite being a static analysis advocate, I know that it can be used badly, and so I&#8217;m an advocate of cautious and incremental adoption. Use types and static analysis where they help you. Don&#8217;t use them when they are in the way and <em>not</em> helping. That&#8217;s silly.</p>
+
+
+
+<p>Bad use of TypeScript seems to be particularly common. On <a href="https://shoptalkshow.com/623/#t=36:10">Shop Talk Show this week</a> Dave and Chris were discussing using AI coding tools like Co-Pilot and they said this:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>&#8220;Part of it&#8217;s like TypeScript&#8217;s mad and I don&#8217;t know how to make it un-mad. It&#8217;s like &#8216;Just tell me what to do&#8230; make it shut up.&#8221;</p>
+
+
+
+<p>&#8220;I love hovering over a red TypeScript thing, scrolling down to the bottom of the tool tip and saying &#8216;Fix with Co-Pilot&#8217;&#8230; and if it fixes it, I don&#8217;t care&#8221;</p>
+</blockquote>
+
+
+
+<p>Which is just really sad. This is bad friction. If types aren&#8217;t helping you, get them the hell outta the way! Stop using them. They&#8217;re not bringing you value (the &#8220;I don&#8217;t care&#8221; bit) and they&#8217;re slowing you down.</p>
+
+
+
+<p>I, like Chris and Dave, find TypeScript is too demanding. BUT I can get a lot of value out of using <a href="https://jsdoc.app/">JSDoc</a> &#8211; it can get you as much of TypeScript as you want without even needing any build process. You can get the benefit of adding in some simple type information without going overboard and tying yourself in knots just because your editor showed some red lines and you fixed them with AI without really understanding what was going on.</p>
+
+
+
+<p><a href="https://medium.com/@trukrs/type-safe-javascript-with-jsdoc-7a2a63209b76">This excellent post</a> was what inspired me and got me going on this JSDoc journey.</p>
+
+
+
+<p>And because JSDoc can just be sprinkled in when you need it, it can be adopted incrementally in an additive way. It can be done as &#8220;good friction&#8221;!</p>
+
+
+
+<p>(Yes, there is probably some way to do this with TypeScript as well, but I&#8217;ve not seen it done in practice.)</p>
+
+
+
+<p>Nico Verbruggen <a href="https://phpc.social/@nicoverbruggen/112756665388007959">said today</a>:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Friction is always the bottleneck.<br><br>When APIs don&#8217;t work as expected.<br>When things break in obtuse ways.<br>When tests are flakey.<br>When clients change their mind.<br><br>It&#8217;s almost always friction that slows software development down.</p>
+</blockquote>
+
+
+
+<p>I totally agree. But these are all examples of bad friction. And I also think that friction <em>can</em> speed us up, and make us better developers.</p>
+
+
+
+<p>But you need just enough of it, and not too much.</p>
+
+
+
+<p>And the difficult wisdom is knowing how much friction is good.</p>
+</main></body>

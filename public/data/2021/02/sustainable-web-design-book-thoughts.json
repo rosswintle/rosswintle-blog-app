@@ -15,7 +15,7 @@
         "rendered": "Sustainable Web Design: Book thoughts"
     },
     "content": {
-        "rendered": "\n<p>I&#8217;m reading <a href=\"https:\/\/twitter.com\/eatwholegrain\">Tom Greenwood<\/a>&#8216;s book <a href=\"https:\/\/abookapart.com\/products\/sustainable-web-design\">Sustainable Web Design<\/a> and, interestingly, my main takeaways aren&#8217;t technical web design\/development things. They are around:<\/p>\n\n\n\n<ul><li>Business\/strategy &#8211; how there may (or may not) be benefit in positioning yourself as a sustainable web designer\/developer.<\/li><li>UX &#8211; there are some nuggets around user journeys that I&#8217;d not considered before. Reducing page loads is good!<\/li><li>Spaceflight (!) &#8211; as an aviation geek and wannabe engineer I&#8217;m fascinated by space flight tech, and there&#8217;s some interesting stuff about the emissions from SpaceX&#8217;s Starlink satellite launches.<\/li><\/ul>\n\n\n\n<p>I&#8217;ve often wondered about carbon emissions of spaceflight and satellite deployment, but apparently a SpaceX Starlink launch is &#8220;roughly equivalent to 5 full passenger planes journeying from London to Sydney&#8221; and &#8220;a fraction of what it would take to build physical infrastructure&#8221;.<\/p>\n\n\n\n<p>This stat is from The Smithsonian via <a href=\"https:\/\/wholegraindigital.com\/curiously-green\/issue-2\/\">Wholegrain&#8217;s newsletter<\/a> and it looks like it&#8217;s actually ONLY the fuel burning cost, so includes none of the embodied energy in the vehicle (energy used to make the rocket and fuel).<\/p>\n\n\n\n<p>I have to wonder how much energy is needed to make liquid oxygen and create and move around these colossal metal structures.<\/p>\n\n\n\n<p>(Aside: I have so many questions about the use of super-cold liquid fuels in rockets!)<\/p>\n\n\n\n<p>The other thing from the book that terrified me is the thought that so much of the UK&#8217;s internet backbone is in Docklands and could be flooded. If we lost a good proportion of our internet backbone I dread to think what would happen. Supply chains would collapse. My work would disappear overnight. Etc, etc. I&#8217;m sure there are backups and backups of backups for critical stuff like this but even so. Plus, the flooding map of London&#8230; ARGH!<\/p>\n\n\n\n<p>I close with this quote from the book&#8217;s conclusion:<\/p>\n\n\n\n<p>&#8220;There is no downside to a sustainable web, and creating it isn\u2019t fundamentally difficult. In fact, it\u2019s one of the most tangible and achievable steps in the zero-carbon revolution we\u2019re embarking on.&#8221;<\/p>\n",
+        "rendered": "\n<p>I&#8217;m reading <a href=\"https:\/\/twitter.com\/eatwholegrain\">Tom Greenwood<\/a>&#8216;s book <a href=\"https:\/\/abookapart.com\/products\/sustainable-web-design\">Sustainable Web Design<\/a> and, interestingly, my main takeaways aren&#8217;t technical web design\/development things. They are around:<\/p>\n\n\n\n<ul class=\"wp-block-list\"><li>Business\/strategy &#8211; how there may (or may not) be benefit in positioning yourself as a sustainable web designer\/developer.<\/li><li>UX &#8211; there are some nuggets around user journeys that I&#8217;d not considered before. Reducing page loads is good!<\/li><li>Spaceflight (!) &#8211; as an aviation geek and wannabe engineer I&#8217;m fascinated by space flight tech, and there&#8217;s some interesting stuff about the emissions from SpaceX&#8217;s Starlink satellite launches.<\/li><\/ul>\n\n\n\n<p>I&#8217;ve often wondered about carbon emissions of spaceflight and satellite deployment, but apparently a SpaceX Starlink launch is &#8220;roughly equivalent to 5 full passenger planes journeying from London to Sydney&#8221; and &#8220;a fraction of what it would take to build physical infrastructure&#8221;.<\/p>\n\n\n\n<p>This stat is from The Smithsonian via <a href=\"https:\/\/wholegraindigital.com\/curiously-green\/issue-2\/\">Wholegrain&#8217;s newsletter<\/a> and it looks like it&#8217;s actually ONLY the fuel burning cost, so includes none of the embodied energy in the vehicle (energy used to make the rocket and fuel).<\/p>\n\n\n\n<p>I have to wonder how much energy is needed to make liquid oxygen and create and move around these colossal metal structures.<\/p>\n\n\n\n<p>(Aside: I have so many questions about the use of super-cold liquid fuels in rockets!)<\/p>\n\n\n\n<p>The other thing from the book that terrified me is the thought that so much of the UK&#8217;s internet backbone is in Docklands and could be flooded. If we lost a good proportion of our internet backbone I dread to think what would happen. Supply chains would collapse. My work would disappear overnight. Etc, etc. I&#8217;m sure there are backups and backups of backups for critical stuff like this but even so. Plus, the flooding map of London&#8230; ARGH!<\/p>\n\n\n\n<p>I close with this quote from the book&#8217;s conclusion:<\/p>\n\n\n\n<p>&#8220;There is no downside to a sustainable web, and creating it isn\u2019t fundamentally difficult. In fact, it\u2019s one of the most tangible and achievable steps in the zero-carbon revolution we\u2019re embarking on.&#8221;<\/p>\n",
         "protected": false
     },
     "excerpt": {
@@ -48,7 +48,22 @@
         301,
         181
     ],
-    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Sustainable Web Design: Book thoughts - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Sustainable Web Design: Book thoughts - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some brief and random thoughts on the excellent book &quot;Sustainable Web Development&quot;\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2021-02-25T15:54:17+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-02-25T16:16:20+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\",\"url\":\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\",\"name\":\"Sustainable Web Design: Book thoughts - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2021-02-25T15:54:17+00:00\",\"dateModified\":\"2021-02-25T16:16:20+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Sustainable Web Design: Book thoughts\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+    "class_list": [
+        "post-9949",
+        "post",
+        "type-post",
+        "status-publish",
+        "format-standard",
+        "hentry",
+        "category-climate-change",
+        "category-techie",
+        "tag-books-2",
+        "tag-carbon",
+        "tag-development",
+        "tag-sustainability",
+        "tag-web"
+    ],
+    "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Sustainable Web Design: Book thoughts - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Sustainable Web Design: Book thoughts - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Some brief and random thoughts on the excellent book &quot;Sustainable Web Development&quot;\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2021-02-25T15:54:17+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2021-02-25T16:16:20+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"2 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\",\"url\":\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\",\"name\":\"Sustainable Web Design: Book thoughts - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2021-02-25T15:54:17+00:00\",\"dateModified\":\"2021-02-25T16:16:20+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Sustainable Web Design: Book thoughts\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
     "yoast_head_json": {
         "title": "Sustainable Web Design: Book thoughts - Ross Wintle",
         "robots": {
@@ -59,7 +74,7 @@
             "max-video-preview": "max-video-preview:-1"
         },
         "canonical": "https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/",
-        "og_locale": "en_GB",
+        "og_locale": "en_US",
         "og_type": "article",
         "og_title": "Sustainable Web Design: Book thoughts - Ross Wintle",
         "og_description": "Some brief and random thoughts on the excellent book \"Sustainable Web Development\"",
@@ -69,8 +84,8 @@
         "article_modified_time": "2021-02-25T16:16:20+00:00",
         "og_image": [
             {
-                "width": "600",
-                "height": "399",
+                "width": 600,
+                "height": 399,
                 "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                 "type": "image\/jpeg"
             }
@@ -81,7 +96,7 @@
         "twitter_site": "@magicroundabout",
         "twitter_misc": {
             "Written by": "Ross Wintle",
-            "Estimated reading time": "2 minutes"
+            "Est. reading time": "2 minutes"
         },
         "schema": {
             "@context": "https:\/\/schema.org",
@@ -102,7 +117,7 @@
                     "breadcrumb": {
                         "@id": "https:\/\/rosswintle.uk\/2021\/02\/sustainable-web-design-book-thoughts\/#breadcrumb"
                     },
-                    "inLanguage": "en-GB",
+                    "inLanguage": "en-US",
                     "potentialAction": [
                         {
                             "@type": "ReadAction",
@@ -142,10 +157,14 @@
                                 "@type": "EntryPoint",
                                 "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                             },
-                            "query-input": "required name=search_term_string"
+                            "query-input": {
+                                "@type": "PropertyValueSpecification",
+                                "valueRequired": true,
+                                "valueName": "search_term_string"
+                            }
                         }
                     ],
-                    "inLanguage": "en-GB"
+                    "inLanguage": "en-US"
                 },
                 {
                     "@type": "Person",
@@ -153,7 +172,7 @@
                     "name": "Ross Wintle",
                     "image": {
                         "@type": "ImageObject",
-                        "inLanguage": "en-GB",
+                        "inLanguage": "en-US",
                         "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                         "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                         "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",

@@ -49,7 +49,21 @@
                 677,
                 462
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Where I&#039;m at with WordPress: Gutenberg - as a business owner and developer - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Where I&#039;m at with WordPress: Gutenberg - as a business owner and developer - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Gutenberg will be great for new projects going forward, but I&#039;ve yet to be convinced that enabling it for all sites when they update to WordPress 5.0 is a good idea. So my plan is not to.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-10T22:31:57+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-10T22:54:13+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"6 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\",\"name\":\"Where I'm at with WordPress: Gutenberg - as a business owner and developer - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-01-10T22:31:57+00:00\",\"dateModified\":\"2018-01-10T22:54:13+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Where I&#8217;m at with WordPress: Gutenberg &#8211; as a business owner and developer\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3083",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "hentry",
+                "category-business",
+                "category-wordpress",
+                "tag-business",
+                "tag-development",
+                "tag-gutenberg",
+                "tag-wordpress"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Where I&#039;m at with WordPress: Gutenberg - as a business owner and developer - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Where I&#039;m at with WordPress: Gutenberg - as a business owner and developer - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Gutenberg will be great for new projects going forward, but I&#039;ve yet to be convinced that enabling it for all sites when they update to WordPress 5.0 is a good idea. So my plan is not to.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-10T22:31:57+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-10T22:54:13+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"6 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\",\"name\":\"Where I'm at with WordPress: Gutenberg - as a business owner and developer - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-01-10T22:31:57+00:00\",\"dateModified\":\"2018-01-10T22:54:13+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Where I&#8217;m at with WordPress: Gutenberg &#8211; as a business owner and developer\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Where I'm at with WordPress: Gutenberg - as a business owner and developer - Ross Wintle",
                 "robots": {
@@ -60,7 +74,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Where I'm at with WordPress: Gutenberg - as a business owner and developer - Ross Wintle",
                 "og_description": "Gutenberg will be great for new projects going forward, but I've yet to be convinced that enabling it for all sites when they update to WordPress 5.0 is a good idea. So my plan is not to.",
@@ -70,8 +84,8 @@
                 "article_modified_time": "2018-01-10T22:54:13+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -82,7 +96,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "Ross Wintle",
-                    "Estimated reading time": "6 minutes"
+                    "Est. reading time": "6 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -103,7 +117,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/01\/wordpress-gutenberg-business-owner-developer\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -143,10 +157,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -154,7 +172,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -263,7 +281,7 @@
                 "rendered": "Testing out TDD &#8211; initial thoughts"
             },
             "content": {
-                "rendered": "\n<p><em>TDD is a BIG change of mindset for development. Here&#x27;s my initial thoughts after paddling around in the shallow end for a little bit.\ufeff<\/em><\/p>\n\n\n\n<p>TDD &#8211; Test Driven Development &#8211; has been on my radar for a while. This week, following conversations with friends\u00a0<a href=\"http:\/\/twitter.com\/keiron\">Keiron<\/a>\u00a0and <a href=\"https:\/\/twitter.com\/joelambert\">Joe<\/a>, I decided I&#x27;d try to dig in a little bit in my &quot;spare time&quot; and give it a go on a micro-side-project.<\/p>\n\n\n\n<p>I&#x27;m signed up to Adam Wathan&#x27;s video course <a href=\"https:\/\/adamwathan.me\/test-driven-laravel\/\">Test Driven Laravel<\/a> (which, it turns out, is one of the best produced video courses I&#x27;ve taken &#8211; so far at least). So I&#x27;m using that to find out both Adam&#x27;s way of developing with Laravel, and how to use PHPUnit (and all of Laravel&#x27;s helpers) along with it.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Initial Impressions<\/h2>\n\n\n\n<p>I&#x27;d watched an intro video, and I&#x27;d seen other Laravel videos on TDD, and my initial impression has always been that this looks like a very tedious way of writing code.<\/p>\n\n\n\n<p>The loop of run test -&gt; determine failure -&gt; write the next bit of code -&gt; run test without any thinking ahead of what you might do next (e.g. I KNOW I have to create a model, migration and controller to make this test pass, so why don&#x27;t I just go ahead and do all of that) has always bothered me slightly.<\/p>\n\n\n\n<p>But I put this aside on the advice of others to try it out.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Questions as I went<\/h2>\n\n\n\n<p>I&#x27;ve watched 11 of the videos now &#8211; I&#x27;m just at the stage where we&#x27;re simulating a real data-creation procedure.<\/p>\n\n\n\n<p>And as I&#x27;ve gone through, I&#x27;ve been trying to apply what I&#x27;ve learned directly to this tiny micro-project I&#x27;ve started.<\/p>\n\n\n\n<p>A few questions came up for me when I hit data creation that haven&#x27;t been addressed yet, but I suspect will come up in future videos soon. But at the moment they are real questions:<\/p>\n\n\n\n<ol>\n    <li>How do I test CRSF tokens?<\/li>\n    <li>How do I check constraints that SHOULD be in the database (but aren&#x27;t yet) such as column uniqueness?<\/li>\n    <li>And, following on from question 2: if, as I&#x27;m doing the test -&gt; write -&gt; test loop, I have thoughts about what needs to happen in future (e.g. some column in my database will need to have unique values), where do I record those? Should I go off and write some kind of stub of a test that just passes for now?<\/li>\n<\/ol>\n\n\n\n<p>You can see that small questions about the specifics of testing lead to bigger ones about the nature of how I should develop.<\/p>\n\n\n\n<p>I&#x27;m SURE all this will be addressed in the course.\u00a0 But at the moment, I have a growing list of these kinds of issues.<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\" alt=\"Screengrab of lovely green TDD tests\" \/><\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">Other thoughts about the TDD process<\/h2>\n\n\n\n<p>The TDD process has other things about it that need shifts inside my head.<\/p>\n\n\n\n<p>Other things that have come up:<\/p>\n\n\n\n<ol>\n    <li>How do I commit this stuff to version control in an orderly fashion? Do I commit the test and the code that makes the test pass at the same time? I wouldn&#x27;t normally commit a whole set of route, controller, model and migration all at once. Is this the way now?<\/li>\n    <li>It&#x27;s REALLY weird being able to write code that I know works, because the tests pass, but without actually having to visit the pages you&#x27;re creating. But GOOD weird!<\/li>\n    <li>How do I track all the stubbed-out stuff and work that needs to be done to complete it? Adam, in the videos, is striving to get his tests to green, and he sometimes makes tests pass by creating some incomplete stub. If the development process is being driven by the tests, and the tests are all running OK, then how am I supposed to know that there is more work to do?<\/li>\n<\/ol>\n\n\n\n<h2 class=\"wp-block-heading\">Summing up<\/h2>\n\n\n\n<p>I&#x27;m enjoying this process. I&#x27;m enjoying learning. And Adam&#x27;s course is fantastic. And I REALLY want to get to grips with testing.<\/p>\n\n\n\n<p>But at the moment, I feel like I&#x27;ve learned enough to be able to ask more and bigger questions. And I&#x27;m concerned that it will take a while to get those bigger questions answered.<\/p>\n\n\n\n<p>Are you a developer who does TDD? What do you love about it? How did you learn? What questions &#8211; or answers &#8211; do you have?<\/p>\n",
+                "rendered": "\n<p><em>TDD is a BIG change of mindset for development. Here&#x27;s my initial thoughts after paddling around in the shallow end for a little bit.\ufeff<\/em><\/p>\n\n\n\n<p>TDD &#8211; Test Driven Development &#8211; has been on my radar for a while. This week, following conversations with friends\u00a0<a href=\"http:\/\/twitter.com\/keiron\">Keiron<\/a>\u00a0and <a href=\"https:\/\/twitter.com\/joelambert\">Joe<\/a>, I decided I&#x27;d try to dig in a little bit in my &quot;spare time&quot; and give it a go on a micro-side-project.<\/p>\n\n\n\n<p>I&#x27;m signed up to Adam Wathan&#x27;s video course <a href=\"https:\/\/adamwathan.me\/test-driven-laravel\/\">Test Driven Laravel<\/a> (which, it turns out, is one of the best produced video courses I&#x27;ve taken &#8211; so far at least). So I&#x27;m using that to find out both Adam&#x27;s way of developing with Laravel, and how to use PHPUnit (and all of Laravel&#x27;s helpers) along with it.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Initial Impressions<\/h2>\n\n\n\n<p>I&#x27;d watched an intro video, and I&#x27;d seen other Laravel videos on TDD, and my initial impression has always been that this looks like a very tedious way of writing code.<\/p>\n\n\n\n<p>The loop of run test -&gt; determine failure -&gt; write the next bit of code -&gt; run test without any thinking ahead of what you might do next (e.g. I KNOW I have to create a model, migration and controller to make this test pass, so why don&#x27;t I just go ahead and do all of that) has always bothered me slightly.<\/p>\n\n\n\n<p>But I put this aside on the advice of others to try it out.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Questions as I went<\/h2>\n\n\n\n<p>I&#x27;ve watched 11 of the videos now &#8211; I&#x27;m just at the stage where we&#x27;re simulating a real data-creation procedure.<\/p>\n\n\n\n<p>And as I&#x27;ve gone through, I&#x27;ve been trying to apply what I&#x27;ve learned directly to this tiny micro-project I&#x27;ve started.<\/p>\n\n\n\n<p>A few questions came up for me when I hit data creation that haven&#x27;t been addressed yet, but I suspect will come up in future videos soon. But at the moment they are real questions:<\/p>\n\n\n\n<ol class=\"wp-block-list\">\n    <li>How do I test CRSF tokens?<\/li>\n    <li>How do I check constraints that SHOULD be in the database (but aren&#x27;t yet) such as column uniqueness?<\/li>\n    <li>And, following on from question 2: if, as I&#x27;m doing the test -&gt; write -&gt; test loop, I have thoughts about what needs to happen in future (e.g. some column in my database will need to have unique values), where do I record those? Should I go off and write some kind of stub of a test that just passes for now?<\/li>\n<\/ol>\n\n\n\n<p>You can see that small questions about the specifics of testing lead to bigger ones about the nature of how I should develop.<\/p>\n\n\n\n<p>I&#x27;m SURE all this will be addressed in the course.\u00a0 But at the moment, I have a growing list of these kinds of issues.<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\" alt=\"Screengrab of lovely green TDD tests\" \/><\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">Other thoughts about the TDD process<\/h2>\n\n\n\n<p>The TDD process has other things about it that need shifts inside my head.<\/p>\n\n\n\n<p>Other things that have come up:<\/p>\n\n\n\n<ol class=\"wp-block-list\">\n    <li>How do I commit this stuff to version control in an orderly fashion? Do I commit the test and the code that makes the test pass at the same time? I wouldn&#x27;t normally commit a whole set of route, controller, model and migration all at once. Is this the way now?<\/li>\n    <li>It&#x27;s REALLY weird being able to write code that I know works, because the tests pass, but without actually having to visit the pages you&#x27;re creating. But GOOD weird!<\/li>\n    <li>How do I track all the stubbed-out stuff and work that needs to be done to complete it? Adam, in the videos, is striving to get his tests to green, and he sometimes makes tests pass by creating some incomplete stub. If the development process is being driven by the tests, and the tests are all running OK, then how am I supposed to know that there is more work to do?<\/li>\n<\/ol>\n\n\n\n<h2 class=\"wp-block-heading\">Summing up<\/h2>\n\n\n\n<p>I&#x27;m enjoying this process. I&#x27;m enjoying learning. And Adam&#x27;s course is fantastic. And I REALLY want to get to grips with testing.<\/p>\n\n\n\n<p>But at the moment, I feel like I&#x27;ve learned enough to be able to ask more and bigger questions. And I&#x27;m concerned that it will take a while to get those bigger questions answered.<\/p>\n\n\n\n<p>Are you a developer who does TDD? What do you love about it? How did you learn? What questions &#8211; or answers &#8211; do you have?<\/p>\n",
                 "protected": false
             },
             "excerpt": {
@@ -289,7 +307,17 @@
                 642
             ],
             "tags": [],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Testing out TDD - initial thoughts - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Testing out TDD - initial thoughts - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"TDD is a BIG change of mindset for development. Here&#039;s my initial thoughts after paddling around in the shallow end for a little bit.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-24T23:19:33+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\" \/>\n\t<meta property=\"og:image:width\" content=\"1190\" \/>\n\t<meta property=\"og:image:height\" content=\"542\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\",\"name\":\"Testing out TDD - initial thoughts - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\",\"datePublished\":\"2018-01-24T23:19:33+00:00\",\"dateModified\":\"2018-01-24T23:19:33+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\",\"width\":1190,\"height\":542,\"caption\":\"Screengrab of lovely green TDD tests\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Testing out TDD &#8211; initial thoughts\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3173",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "has-post-thumbnail",
+                "hentry",
+                "category-laravel"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Testing out TDD - initial thoughts - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Testing out TDD - initial thoughts - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"TDD is a BIG change of mindset for development. Here&#039;s my initial thoughts after paddling around in the shallow end for a little bit.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-24T23:19:33+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\" \/>\n\t<meta property=\"og:image:width\" content=\"1190\" \/>\n\t<meta property=\"og:image:height\" content=\"542\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/png\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\",\"name\":\"Testing out TDD - initial thoughts - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\",\"datePublished\":\"2018-01-24T23:19:33+00:00\",\"dateModified\":\"2018-01-24T23:19:33+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\",\"width\":1190,\"height\":542,\"caption\":\"Screengrab of lovely green TDD tests\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Testing out TDD &#8211; initial thoughts\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Testing out TDD - initial thoughts - Ross Wintle",
                 "robots": {
@@ -300,7 +328,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Testing out TDD - initial thoughts - Ross Wintle",
                 "og_description": "TDD is a BIG change of mindset for development. Here's my initial thoughts after paddling around in the shallow end for a little bit.",
@@ -321,7 +349,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
+                    "Est. reading time": "4 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -349,7 +377,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -361,7 +389,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png",
@@ -399,10 +427,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -410,7 +442,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -501,7 +533,7 @@
         "type": "post",
         "link": "https:\/\/rosswintle.uk\/2018\/01\/testing-out-tdd-initial-thoughts\/",
         "title": "Testing out TDD &#8211; initial thoughts",
-        "content": "\n<p><em>TDD is a BIG change of mindset for development. Here&#x27;s my initial thoughts after paddling around in the shallow end for a little bit.\ufeff<\/em><\/p>\n\n\n\n<p>TDD &#8211; Test Driven Development &#8211; has been on my radar for a while. This week, following conversations with friends\u00a0<a href=\"http:\/\/twitter.com\/keiron\">Keiron<\/a>\u00a0and <a href=\"https:\/\/twitter.com\/joelambert\">Joe<\/a>, I decided I&#x27;d try to dig in a little bit in my &quot;spare time&quot; and give it a go on a micro-side-project.<\/p>\n\n\n\n<p>I&#x27;m signed up to Adam Wathan&#x27;s video course <a href=\"https:\/\/adamwathan.me\/test-driven-laravel\/\">Test Driven Laravel<\/a> (which, it turns out, is one of the best produced video courses I&#x27;ve taken &#8211; so far at least). So I&#x27;m using that to find out both Adam&#x27;s way of developing with Laravel, and how to use PHPUnit (and all of Laravel&#x27;s helpers) along with it.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Initial Impressions<\/h2>\n\n\n\n<p>I&#x27;d watched an intro video, and I&#x27;d seen other Laravel videos on TDD, and my initial impression has always been that this looks like a very tedious way of writing code.<\/p>\n\n\n\n<p>The loop of run test -&gt; determine failure -&gt; write the next bit of code -&gt; run test without any thinking ahead of what you might do next (e.g. I KNOW I have to create a model, migration and controller to make this test pass, so why don&#x27;t I just go ahead and do all of that) has always bothered me slightly.<\/p>\n\n\n\n<p>But I put this aside on the advice of others to try it out.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Questions as I went<\/h2>\n\n\n\n<p>I&#x27;ve watched 11 of the videos now &#8211; I&#x27;m just at the stage where we&#x27;re simulating a real data-creation procedure.<\/p>\n\n\n\n<p>And as I&#x27;ve gone through, I&#x27;ve been trying to apply what I&#x27;ve learned directly to this tiny micro-project I&#x27;ve started.<\/p>\n\n\n\n<p>A few questions came up for me when I hit data creation that haven&#x27;t been addressed yet, but I suspect will come up in future videos soon. But at the moment they are real questions:<\/p>\n\n\n\n<ol>\n    <li>How do I test CRSF tokens?<\/li>\n    <li>How do I check constraints that SHOULD be in the database (but aren&#x27;t yet) such as column uniqueness?<\/li>\n    <li>And, following on from question 2: if, as I&#x27;m doing the test -&gt; write -&gt; test loop, I have thoughts about what needs to happen in future (e.g. some column in my database will need to have unique values), where do I record those? Should I go off and write some kind of stub of a test that just passes for now?<\/li>\n<\/ol>\n\n\n\n<p>You can see that small questions about the specifics of testing lead to bigger ones about the nature of how I should develop.<\/p>\n\n\n\n<p>I&#x27;m SURE all this will be addressed in the course.\u00a0 But at the moment, I have a growing list of these kinds of issues.<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\" alt=\"Screengrab of lovely green TDD tests\" \/><\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">Other thoughts about the TDD process<\/h2>\n\n\n\n<p>The TDD process has other things about it that need shifts inside my head.<\/p>\n\n\n\n<p>Other things that have come up:<\/p>\n\n\n\n<ol>\n    <li>How do I commit this stuff to version control in an orderly fashion? Do I commit the test and the code that makes the test pass at the same time? I wouldn&#x27;t normally commit a whole set of route, controller, model and migration all at once. Is this the way now?<\/li>\n    <li>It&#x27;s REALLY weird being able to write code that I know works, because the tests pass, but without actually having to visit the pages you&#x27;re creating. But GOOD weird!<\/li>\n    <li>How do I track all the stubbed-out stuff and work that needs to be done to complete it? Adam, in the videos, is striving to get his tests to green, and he sometimes makes tests pass by creating some incomplete stub. If the development process is being driven by the tests, and the tests are all running OK, then how am I supposed to know that there is more work to do?<\/li>\n<\/ol>\n\n\n\n<h2 class=\"wp-block-heading\">Summing up<\/h2>\n\n\n\n<p>I&#x27;m enjoying this process. I&#x27;m enjoying learning. And Adam&#x27;s course is fantastic. And I REALLY want to get to grips with testing.<\/p>\n\n\n\n<p>But at the moment, I feel like I&#x27;ve learned enough to be able to ask more and bigger questions. And I&#x27;m concerned that it will take a while to get those bigger questions answered.<\/p>\n\n\n\n<p>Are you a developer who does TDD? What do you love about it? How did you learn? What questions &#8211; or answers &#8211; do you have?<\/p>\n",
+        "content": "\n<p><em>TDD is a BIG change of mindset for development. Here&#x27;s my initial thoughts after paddling around in the shallow end for a little bit.\ufeff<\/em><\/p>\n\n\n\n<p>TDD &#8211; Test Driven Development &#8211; has been on my radar for a while. This week, following conversations with friends\u00a0<a href=\"http:\/\/twitter.com\/keiron\">Keiron<\/a>\u00a0and <a href=\"https:\/\/twitter.com\/joelambert\">Joe<\/a>, I decided I&#x27;d try to dig in a little bit in my &quot;spare time&quot; and give it a go on a micro-side-project.<\/p>\n\n\n\n<p>I&#x27;m signed up to Adam Wathan&#x27;s video course <a href=\"https:\/\/adamwathan.me\/test-driven-laravel\/\">Test Driven Laravel<\/a> (which, it turns out, is one of the best produced video courses I&#x27;ve taken &#8211; so far at least). So I&#x27;m using that to find out both Adam&#x27;s way of developing with Laravel, and how to use PHPUnit (and all of Laravel&#x27;s helpers) along with it.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Initial Impressions<\/h2>\n\n\n\n<p>I&#x27;d watched an intro video, and I&#x27;d seen other Laravel videos on TDD, and my initial impression has always been that this looks like a very tedious way of writing code.<\/p>\n\n\n\n<p>The loop of run test -&gt; determine failure -&gt; write the next bit of code -&gt; run test without any thinking ahead of what you might do next (e.g. I KNOW I have to create a model, migration and controller to make this test pass, so why don&#x27;t I just go ahead and do all of that) has always bothered me slightly.<\/p>\n\n\n\n<p>But I put this aside on the advice of others to try it out.<\/p>\n\n\n\n<h2 class=\"wp-block-heading\">Questions as I went<\/h2>\n\n\n\n<p>I&#x27;ve watched 11 of the videos now &#8211; I&#x27;m just at the stage where we&#x27;re simulating a real data-creation procedure.<\/p>\n\n\n\n<p>And as I&#x27;ve gone through, I&#x27;ve been trying to apply what I&#x27;ve learned directly to this tiny micro-project I&#x27;ve started.<\/p>\n\n\n\n<p>A few questions came up for me when I hit data creation that haven&#x27;t been addressed yet, but I suspect will come up in future videos soon. But at the moment they are real questions:<\/p>\n\n\n\n<ol class=\"wp-block-list\">\n    <li>How do I test CRSF tokens?<\/li>\n    <li>How do I check constraints that SHOULD be in the database (but aren&#x27;t yet) such as column uniqueness?<\/li>\n    <li>And, following on from question 2: if, as I&#x27;m doing the test -&gt; write -&gt; test loop, I have thoughts about what needs to happen in future (e.g. some column in my database will need to have unique values), where do I record those? Should I go off and write some kind of stub of a test that just passes for now?<\/li>\n<\/ol>\n\n\n\n<p>You can see that small questions about the specifics of testing lead to bigger ones about the nature of how I should develop.<\/p>\n\n\n\n<p>I&#x27;m SURE all this will be addressed in the course.\u00a0 But at the moment, I have a growing list of these kinds of issues.<\/p>\n\n\n\n<figure class=\"wp-block-image\"><img decoding=\"async\" src=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/01\/Screen-Shot-2018-01-24-at-23.05.04.png\" alt=\"Screengrab of lovely green TDD tests\" \/><\/figure>\n\n\n\n<h2 class=\"wp-block-heading\">Other thoughts about the TDD process<\/h2>\n\n\n\n<p>The TDD process has other things about it that need shifts inside my head.<\/p>\n\n\n\n<p>Other things that have come up:<\/p>\n\n\n\n<ol class=\"wp-block-list\">\n    <li>How do I commit this stuff to version control in an orderly fashion? Do I commit the test and the code that makes the test pass at the same time? I wouldn&#x27;t normally commit a whole set of route, controller, model and migration all at once. Is this the way now?<\/li>\n    <li>It&#x27;s REALLY weird being able to write code that I know works, because the tests pass, but without actually having to visit the pages you&#x27;re creating. But GOOD weird!<\/li>\n    <li>How do I track all the stubbed-out stuff and work that needs to be done to complete it? Adam, in the videos, is striving to get his tests to green, and he sometimes makes tests pass by creating some incomplete stub. If the development process is being driven by the tests, and the tests are all running OK, then how am I supposed to know that there is more work to do?<\/li>\n<\/ol>\n\n\n\n<h2 class=\"wp-block-heading\">Summing up<\/h2>\n\n\n\n<p>I&#x27;m enjoying this process. I&#x27;m enjoying learning. And Adam&#x27;s course is fantastic. And I REALLY want to get to grips with testing.<\/p>\n\n\n\n<p>But at the moment, I feel like I&#x27;ve learned enough to be able to ask more and bigger questions. And I&#x27;m concerned that it will take a while to get those bigger questions answered.<\/p>\n\n\n\n<p>Are you a developer who does TDD? What do you love about it? How did you learn? What questions &#8211; or answers &#8211; do you have?<\/p>\n",
         "excerpt": "<p>TDD is a BIG change of mindset for development. Here&#8217;s my initial thoughts after paddling around in the shallow end for a little bit.<\/p>\n",
         "parentId": 0,
         "authorId": 2,
@@ -555,7 +587,19 @@
                 677,
                 462
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Where I&#039;m NOW at with WordPress: Gutenberg as a developer - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Where I&#039;m NOW at with WordPress: Gutenberg as a developer - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"As a developer, I think I&#039;m coming around to the idea of the new WordPress Gutenberg editor. Here&#039;s my updated thoughts and reflections.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-29T23:22:59+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-30T11:56:14+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"8 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\",\"name\":\"Where I'm NOW at with WordPress: Gutenberg as a developer - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-01-29T23:22:59+00:00\",\"dateModified\":\"2018-01-30T11:56:14+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Where I&#8217;m NOW at with WordPress: Gutenberg as a developer\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3227",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "hentry",
+                "category-wordpress",
+                "tag-coding",
+                "tag-gutenberg",
+                "tag-wordpress"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Where I&#039;m NOW at with WordPress: Gutenberg as a developer - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Where I&#039;m NOW at with WordPress: Gutenberg as a developer - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"As a developer, I think I&#039;m coming around to the idea of the new WordPress Gutenberg editor. Here&#039;s my updated thoughts and reflections.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-01-29T23:22:59+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-01-30T11:56:14+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"8 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\",\"name\":\"Where I'm NOW at with WordPress: Gutenberg as a developer - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-01-29T23:22:59+00:00\",\"dateModified\":\"2018-01-30T11:56:14+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Where I&#8217;m NOW at with WordPress: Gutenberg as a developer\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Where I'm NOW at with WordPress: Gutenberg as a developer - Ross Wintle",
                 "robots": {
@@ -566,7 +610,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Where I'm NOW at with WordPress: Gutenberg as a developer - Ross Wintle",
                 "og_description": "As a developer, I think I'm coming around to the idea of the new WordPress Gutenberg editor. Here's my updated thoughts and reflections.",
@@ -576,8 +620,8 @@
                 "article_modified_time": "2018-01-30T11:56:14+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -588,7 +632,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "Ross Wintle",
-                    "Estimated reading time": "8 minutes"
+                    "Est. reading time": "8 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -609,7 +653,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/01\/im-now-wordpress-gutenberg-developer\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -649,10 +693,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -660,7 +708,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -804,7 +852,24 @@
                 172,
                 181
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>I need to add social sharing buttons to a website... - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"I need to add social sharing buttons to a website... - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Here&#039;s a thread designed to help non-web people understand how something that seems trivial on a website can lead to so many micro-decisions needing to be made.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-02-21T22:19:19+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\",\"name\":\"I need to add social sharing buttons to a website... - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-02-21T22:19:19+00:00\",\"dateModified\":\"2018-02-21T22:19:19+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"I need to add social sharing buttons to a website&#8230;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3267",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "hentry",
+                "category-techie",
+                "category-work",
+                "tag-development",
+                "tag-sharing",
+                "tag-socialnetworking",
+                "tag-svg",
+                "tag-thread",
+                "tag-twitter",
+                "tag-web"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>I need to add social sharing buttons to a website... - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"I need to add social sharing buttons to a website... - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"Here&#039;s a thread designed to help non-web people understand how something that seems trivial on a website can lead to so many micro-decisions needing to be made.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-02-21T22:19:19+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"4 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\",\"name\":\"I need to add social sharing buttons to a website... - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-02-21T22:19:19+00:00\",\"dateModified\":\"2018-02-21T22:19:19+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"I need to add social sharing buttons to a website&#8230;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "I need to add social sharing buttons to a website... - Ross Wintle",
                 "robots": {
@@ -815,7 +880,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "I need to add social sharing buttons to a website... - Ross Wintle",
                 "og_description": "Here's a thread designed to help non-web people understand how something that seems trivial on a website can lead to so many micro-decisions needing to be made.",
@@ -824,8 +889,8 @@
                 "article_published_time": "2018-02-21T22:19:19+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -836,7 +901,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "Ross Wintle",
-                    "Estimated reading time": "4 minutes"
+                    "Est. reading time": "4 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -857,7 +922,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/02\/i-need-add-social-sharing-buttons-website\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -897,10 +962,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -908,7 +977,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -1050,7 +1119,22 @@
                 643,
                 219
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>What AM I doing? (Answer: I&#039;m building analytics!) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"What AM I doing? (Answer: I&#039;m building analytics!) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m going on the journey of building a simple, private, self-hosted, cookie-free analytics tool that I&#039;m calling Kownter. I may fail. But it will be fun and interesting! Come along!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-04T21:00:05+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-03-05T14:00:34+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\",\"name\":\"What AM I doing? (Answer: I'm building analytics!) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-03-04T21:00:05+00:00\",\"dateModified\":\"2018-03-05T14:00:34+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"What AM I doing? (Answer: I&#8217;m building analytics!)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3302",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "hentry",
+                "category-laravel",
+                "category-techie",
+                "tag-analytics",
+                "tag-gdpr",
+                "tag-kownter",
+                "tag-laravel",
+                "tag-privacy"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>What AM I doing? (Answer: I&#039;m building analytics!) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"What AM I doing? (Answer: I&#039;m building analytics!) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m going on the journey of building a simple, private, self-hosted, cookie-free analytics tool that I&#039;m calling Kownter. I may fail. But it will be fun and interesting! Come along!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-04T21:00:05+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-03-05T14:00:34+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"3 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\",\"name\":\"What AM I doing? (Answer: I'm building analytics!) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-03-04T21:00:05+00:00\",\"dateModified\":\"2018-03-05T14:00:34+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"What AM I doing? (Answer: I&#8217;m building analytics!)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "What AM I doing? (Answer: I'm building analytics!) - Ross Wintle",
                 "robots": {
@@ -1061,7 +1145,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "What AM I doing? (Answer: I'm building analytics!) - Ross Wintle",
                 "og_description": "I'm going on the journey of building a simple, private, self-hosted, cookie-free analytics tool that I'm calling Kownter. I may fail. But it will be fun and interesting! Come along!",
@@ -1071,8 +1155,8 @@
                 "article_modified_time": "2018-03-05T14:00:34+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -1083,7 +1167,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "Ross Wintle",
-                    "Estimated reading time": "3 minutes"
+                    "Est. reading time": "3 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -1104,7 +1188,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/03\/building-analytics\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -1144,10 +1228,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -1155,7 +1243,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -1292,7 +1380,18 @@
             "tags": [
                 126
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Good company - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Good company - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This is the cool kid I get to hang out with on Thursdays. ?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-08T08:34:02+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg\" \/>\n\t<meta property=\"og:image:width\" content=\"3024\" \/>\n\t<meta property=\"og:image:height\" content=\"4032\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\",\"name\":\"Good company - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg\",\"datePublished\":\"2018-03-08T08:34:02+00:00\",\"dateModified\":\"2018-03-08T08:34:02+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg\",\"width\":3024,\"height\":4032},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Good company\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3308",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "has-post-thumbnail",
+                "hentry",
+                "category-photos-2",
+                "tag-photos"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Good company - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Good company - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"This is the cool kid I get to hang out with on Thursdays. ?\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-08T08:34:02+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg\" \/>\n\t<meta property=\"og:image:width\" content=\"3024\" \/>\n\t<meta property=\"og:image:height\" content=\"4032\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\",\"name\":\"Good company - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg\",\"datePublished\":\"2018-03-08T08:34:02+00:00\",\"dateModified\":\"2018-03-08T08:34:02+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg\",\"width\":3024,\"height\":4032},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/good-company\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Good company\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Good company - Ross Wintle",
                 "robots": {
@@ -1303,7 +1402,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/03\/good-company\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Good company - Ross Wintle",
                 "og_description": "This is the cool kid I get to hang out with on Thursdays. ?",
@@ -1351,7 +1450,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/03\/good-company\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -1363,7 +1462,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2018\/03\/good-company\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/03\/FC397587-2DE9-4840-AFE5-2C854EB6A994.jpeg",
@@ -1400,10 +1499,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -1411,7 +1514,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -1552,7 +1655,21 @@
                 687,
                 581
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>If you&#039;ve ever felt like you owed me a beer... - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"If you&#039;ve ever felt like you owed me a beer... - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"My college computing teacher, Ray Burcham, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment. https:\/\/www.justgiving.com\/fundraising\/raymond-burcham This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-09T10:27:01+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-03-09T10:54:54+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\",\"name\":\"If you've ever felt like you owed me a beer... - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-03-09T10:27:01+00:00\",\"dateModified\":\"2018-03-09T10:54:54+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"If you&#8217;ve ever felt like you owed me a beer&#8230;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3326",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "hentry",
+                "category-general",
+                "tag-charity",
+                "tag-fundraising",
+                "tag-hospital",
+                "tag-sponsorship",
+                "tag-swindon"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>If you&#039;ve ever felt like you owed me a beer... - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"If you&#039;ve ever felt like you owed me a beer... - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"My college computing teacher, Ray Burcham, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment. https:\/\/www.justgiving.com\/fundraising\/raymond-burcham This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, [&hellip;]\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-09T10:27:01+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-03-09T10:54:54+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"1 minute\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\",\"name\":\"If you've ever felt like you owed me a beer... - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-03-09T10:27:01+00:00\",\"dateModified\":\"2018-03-09T10:54:54+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"If you&#8217;ve ever felt like you owed me a beer&#8230;\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "If you've ever felt like you owed me a beer... - Ross Wintle",
                 "robots": {
@@ -1563,7 +1680,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "If you've ever felt like you owed me a beer... - Ross Wintle",
                 "og_description": "My college computing teacher, Ray Burcham, is raising money for the Great Western Hospital radiotherapy unit. This will mean that cancer patients don&#8217;t have to travel 30 miles to Oxford for daily cancer treatment. https:\/\/www.justgiving.com\/fundraising\/raymond-burcham This man is the reason I&#8217;m writing code today. So if you&#8217;ve ever had some advice, good-value work, IT support, [&hellip;]",
@@ -1573,8 +1690,8 @@
                 "article_modified_time": "2018-03-09T10:54:54+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -1585,7 +1702,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "Ross Wintle",
-                    "Estimated reading time": "1 minute"
+                    "Est. reading time": "1 minute"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -1606,7 +1723,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/03\/you-owe-me-a-beer\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -1646,10 +1763,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -1657,7 +1778,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -1799,7 +1920,22 @@
                 691,
                 163
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Laravel: Further forays into Test Driven Development (TDD) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Laravel: Further forays into Test Driven Development (TDD) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m using Test Driven Development (TDD) for the first (and second) time on a couple of side projects. Here are some further reflections on the process and issues I&#039;ve come across.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-17T23:22:20+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-03-18T16:37:34+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Estimated reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"8 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\",\"name\":\"Laravel: Further forays into Test Driven Development (TDD) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-03-17T23:22:20+00:00\",\"dateModified\":\"2018-03-18T16:37:34+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Laravel: Further forays into Test Driven Development (TDD)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3367",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "hentry",
+                "category-laravel",
+                "category-techie",
+                "category-thoughts",
+                "tag-laravel",
+                "tag-tdd",
+                "tag-test-driven-development",
+                "tag-testing"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Laravel: Further forays into Test Driven Development (TDD) - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Laravel: Further forays into Test Driven Development (TDD) - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m using Test Driven Development (TDD) for the first (and second) time on a couple of side projects. Here are some further reflections on the process and issues I&#039;ve come across.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-03-17T23:22:20+00:00\" \/>\n<meta property=\"article:modified_time\" content=\"2018-03-18T16:37:34+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"600\" \/>\n\t<meta property=\"og:image:height\" content=\"399\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n\t<meta name=\"twitter:label2\" content=\"Est. reading time\" \/>\n\t<meta name=\"twitter:data2\" content=\"8 minutes\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\",\"name\":\"Laravel: Further forays into Test Driven Development (TDD) - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"datePublished\":\"2018-03-17T23:22:20+00:00\",\"dateModified\":\"2018-03-18T16:37:34+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/\"]}]},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Laravel: Further forays into Test Driven Development (TDD)\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Laravel: Further forays into Test Driven Development (TDD) - Ross Wintle",
                 "robots": {
@@ -1810,7 +1946,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Laravel: Further forays into Test Driven Development (TDD) - Ross Wintle",
                 "og_description": "I'm using Test Driven Development (TDD) for the first (and second) time on a couple of side projects. Here are some further reflections on the process and issues I've come across.",
@@ -1820,8 +1956,8 @@
                 "article_modified_time": "2018-03-18T16:37:34+00:00",
                 "og_image": [
                     {
-                        "width": "600",
-                        "height": "399",
+                        "width": 600,
+                        "height": 399,
                         "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2012\/06\/DSC_0005-small.jpg",
                         "type": "image\/jpeg"
                     }
@@ -1832,7 +1968,7 @@
                 "twitter_site": "@magicroundabout",
                 "twitter_misc": {
                     "Written by": "Ross Wintle",
-                    "Estimated reading time": "8 minutes"
+                    "Est. reading time": "8 minutes"
                 },
                 "schema": {
                     "@context": "https:\/\/schema.org",
@@ -1853,7 +1989,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/03\/laravel-further-forays-into-test-driven-development\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -1893,10 +2029,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -1904,7 +2044,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -2041,7 +2181,18 @@
             "tags": [
                 126
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Perfect, beautiful curls \u2764\ufe0f - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-\u2764\ufe0f\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Perfect, beautiful curls \u2764\ufe0f - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The girl&#039;s hair is SO pretty.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-\u2764\ufe0f\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-04-30T14:59:14+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"4032\" \/>\n\t<meta property=\"og:image:height\" content=\"3024\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/\",\"name\":\"Perfect, beautiful curls \u2764\ufe0f - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg\",\"datePublished\":\"2018-04-30T14:59:14+00:00\",\"dateModified\":\"2018-04-30T14:59:14+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg\",\"width\":4032,\"height\":3024,\"caption\":\"Ada's perfect curls\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Perfect, beautiful curls \u2764\ufe0f\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3427",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "has-post-thumbnail",
+                "hentry",
+                "category-photos-2",
+                "tag-photos"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>Perfect, beautiful curls \u2764\ufe0f - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-\u2764\ufe0f\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"Perfect, beautiful curls \u2764\ufe0f - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"The girl&#039;s hair is SO pretty.\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-\u2764\ufe0f\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-04-30T14:59:14+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"4032\" \/>\n\t<meta property=\"og:image:height\" content=\"3024\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/\",\"name\":\"Perfect, beautiful curls \u2764\ufe0f - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg\",\"datePublished\":\"2018-04-30T14:59:14+00:00\",\"dateModified\":\"2018-04-30T14:59:14+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg\",\"width\":4032,\"height\":3024,\"caption\":\"Ada's perfect curls\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Perfect, beautiful curls \u2764\ufe0f\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "Perfect, beautiful curls \u2764\ufe0f - Ross Wintle",
                 "robots": {
@@ -2052,7 +2203,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-\u2764\ufe0f\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "Perfect, beautiful curls \u2764\ufe0f - Ross Wintle",
                 "og_description": "The girl's hair is SO pretty.",
@@ -2100,7 +2251,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -2112,7 +2263,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2018\/04\/perfect-beautiful-curls-%e2%9d%a4%ef%b8%8f\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7691.jpg",
@@ -2150,10 +2301,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -2161,7 +2316,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
@@ -2298,7 +2453,18 @@
             "tags": [
                 126
             ],
-            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v22.5 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>I made things! A basketball hoop! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\" \/>\n<meta property=\"og:locale\" content=\"en_GB\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"I made things! A basketball hoop! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m a computer guy, not a physical things guy. IT systems bow to my every whim (sometimes), but doors, cars, and bits of wood and string aren&#039;t my thing.  Except...last week...I made a basketball hoop for my currently-basketball-obsessed boy out of an old plant pot, some lying around wood, and some cable ties.  A real slam dunk!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-04-30T15:21:46+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"3024\" \/>\n\t<meta property=\"og:image:height\" content=\"4032\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\",\"name\":\"I made things! A basketball hoop! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg\",\"datePublished\":\"2018-04-30T15:21:46+00:00\",\"dateModified\":\"2018-04-30T15:21:46+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#breadcrumb\"},\"inLanguage\":\"en-GB\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg\",\"width\":3024,\"height\":4032,\"caption\":\"Makeshift basketball hoop\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"I made things! A basketball hoop!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":\"required name=search_term_string\"}],\"inLanguage\":\"en-GB\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-GB\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
+            "class_list": [
+                "post-3429",
+                "post",
+                "type-post",
+                "status-publish",
+                "format-standard",
+                "has-post-thumbnail",
+                "hentry",
+                "category-photos-2",
+                "tag-photos"
+            ],
+            "yoast_head": "<!-- This site is optimized with the Yoast SEO plugin v23.6 - https:\/\/yoast.com\/wordpress\/plugins\/seo\/ -->\n<title>I made things! A basketball hoop! - Ross Wintle<\/title>\n<meta name=\"robots\" content=\"index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1\" \/>\n<link rel=\"canonical\" href=\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\" \/>\n<meta property=\"og:locale\" content=\"en_US\" \/>\n<meta property=\"og:type\" content=\"article\" \/>\n<meta property=\"og:title\" content=\"I made things! A basketball hoop! - Ross Wintle\" \/>\n<meta property=\"og:description\" content=\"I&#039;m a computer guy, not a physical things guy. IT systems bow to my every whim (sometimes), but doors, cars, and bits of wood and string aren&#039;t my thing.  Except...last week...I made a basketball hoop for my currently-basketball-obsessed boy out of an old plant pot, some lying around wood, and some cable ties.  A real slam dunk!\" \/>\n<meta property=\"og:url\" content=\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\" \/>\n<meta property=\"og:site_name\" content=\"Ross Wintle\" \/>\n<meta property=\"article:published_time\" content=\"2018-04-30T15:21:46+00:00\" \/>\n<meta property=\"og:image\" content=\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg\" \/>\n\t<meta property=\"og:image:width\" content=\"3024\" \/>\n\t<meta property=\"og:image:height\" content=\"4032\" \/>\n\t<meta property=\"og:image:type\" content=\"image\/jpeg\" \/>\n<meta name=\"author\" content=\"Ross Wintle\" \/>\n<meta name=\"twitter:card\" content=\"summary_large_image\" \/>\n<meta name=\"twitter:creator\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:site\" content=\"@magicroundabout\" \/>\n<meta name=\"twitter:label1\" content=\"Written by\" \/>\n\t<meta name=\"twitter:data1\" content=\"Ross Wintle\" \/>\n<script type=\"application\/ld+json\" class=\"yoast-schema-graph\">{\"@context\":\"https:\/\/schema.org\",\"@graph\":[{\"@type\":\"WebPage\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\",\"url\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\",\"name\":\"I made things! A basketball hoop! - Ross Wintle\",\"isPartOf\":{\"@id\":\"https:\/\/rosswintle.uk\/#website\"},\"primaryImageOfPage\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#primaryimage\"},\"image\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#primaryimage\"},\"thumbnailUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg\",\"datePublished\":\"2018-04-30T15:21:46+00:00\",\"dateModified\":\"2018-04-30T15:21:46+00:00\",\"author\":{\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\"},\"breadcrumb\":{\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#breadcrumb\"},\"inLanguage\":\"en-US\",\"potentialAction\":[{\"@type\":\"ReadAction\",\"target\":[\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/\"]}]},{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#primaryimage\",\"url\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg\",\"contentUrl\":\"https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg\",\"width\":3024,\"height\":4032,\"caption\":\"Makeshift basketball hoop\"},{\"@type\":\"BreadcrumbList\",\"@id\":\"https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#breadcrumb\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Home\",\"item\":\"https:\/\/rosswintle.uk\/\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"I made things! A basketball hoop!\"}]},{\"@type\":\"WebSite\",\"@id\":\"https:\/\/rosswintle.uk\/#website\",\"url\":\"https:\/\/rosswintle.uk\/\",\"name\":\"Ross Wintle\",\"description\":\"Creativity, curiosity, and code\",\"potentialAction\":[{\"@type\":\"SearchAction\",\"target\":{\"@type\":\"EntryPoint\",\"urlTemplate\":\"https:\/\/rosswintle.uk\/?s={search_term_string}\"},\"query-input\":{\"@type\":\"PropertyValueSpecification\",\"valueRequired\":true,\"valueName\":\"search_term_string\"}}],\"inLanguage\":\"en-US\"},{\"@type\":\"Person\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/9f9bec147b2bfd762f09a2c2da7177dc\",\"name\":\"Ross Wintle\",\"image\":{\"@type\":\"ImageObject\",\"inLanguage\":\"en-US\",\"@id\":\"https:\/\/rosswintle.uk\/#\/schema\/person\/image\/\",\"url\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"contentUrl\":\"https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g\",\"caption\":\"Ross Wintle\"},\"url\":\"https:\/\/rosswintle.uk\/author\/rosswintle\/\"}]}<\/script>\n<!-- \/ Yoast SEO plugin. -->",
             "yoast_head_json": {
                 "title": "I made things! A basketball hoop! - Ross Wintle",
                 "robots": {
@@ -2309,7 +2475,7 @@
                     "max-video-preview": "max-video-preview:-1"
                 },
                 "canonical": "https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/",
-                "og_locale": "en_GB",
+                "og_locale": "en_US",
                 "og_type": "article",
                 "og_title": "I made things! A basketball hoop! - Ross Wintle",
                 "og_description": "I'm a computer guy, not a physical things guy. IT systems bow to my every whim (sometimes), but doors, cars, and bits of wood and string aren't my thing.  Except...last week...I made a basketball hoop for my currently-basketball-obsessed boy out of an old plant pot, some lying around wood, and some cable ties.  A real slam dunk!",
@@ -2357,7 +2523,7 @@
                             "breadcrumb": {
                                 "@id": "https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#breadcrumb"
                             },
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "potentialAction": [
                                 {
                                     "@type": "ReadAction",
@@ -2369,7 +2535,7 @@
                         },
                         {
                             "@type": "ImageObject",
-                            "inLanguage": "en-GB",
+                            "inLanguage": "en-US",
                             "@id": "https:\/\/rosswintle.uk\/2018\/04\/i-made-things-a-basketball-hoop\/#primaryimage",
                             "url": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg",
                             "contentUrl": "https:\/\/rosswintle.uk\/wp-content\/uploads\/2018\/04\/IMG_7634.jpg",
@@ -2407,10 +2573,14 @@
                                         "@type": "EntryPoint",
                                         "urlTemplate": "https:\/\/rosswintle.uk\/?s={search_term_string}"
                                     },
-                                    "query-input": "required name=search_term_string"
+                                    "query-input": {
+                                        "@type": "PropertyValueSpecification",
+                                        "valueRequired": true,
+                                        "valueName": "search_term_string"
+                                    }
                                 }
                             ],
-                            "inLanguage": "en-GB"
+                            "inLanguage": "en-US"
                         },
                         {
                             "@type": "Person",
@@ -2418,7 +2588,7 @@
                             "name": "Ross Wintle",
                             "image": {
                                 "@type": "ImageObject",
-                                "inLanguage": "en-GB",
+                                "inLanguage": "en-US",
                                 "@id": "https:\/\/rosswintle.uk\/#\/schema\/person\/image\/",
                                 "url": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",
                                 "contentUrl": "https:\/\/secure.gravatar.com\/avatar\/28519fc7c37998eea059b525da5fc7ce?s=96&d=identicon&r=g",

@@ -1,0 +1,147 @@
+<body><header><h1 data-pagefind-meta="title">WordPress REST API Auth nonces in POST requests</h1></header><main>
+<p>I have a strange feeling I&#8217;ve been here before.</p>
+
+
+
+<p>Let&#8217;s say you (who me?) are injecting JavaScript into a WordPress admin page that wants to do stuff with the REST API.</p>
+
+
+
+<p>You can&#8217;t be bothered to set up application passwords as if you&#8217;re logged in you already have cookies that authenticate you! Application passwords are for use <em>outside</em> WordPress itself, and you know that you are already <em>inside</em> WordPress.</p>
+
+
+
+<p>However, if you are using cookie-based authentication for WordPress REST API requests you need both the cookies for authentication <em>and</em> a nonce for actions (POST requests).</p>
+
+
+
+<p>The <a href="https://developer.wordpress.org/rest-api/using-the-rest-api/authentication/">authentication docs</a> say this:</p>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>[the nonce] can then be passed to the API via the _wpnonce data parameter (either POST data or in the query for GET requests), or via the X-WP-Nonce header</p>
+</blockquote>
+
+
+
+<p>And it turns out that the POST data approach <em>does not work!</em></p>
+
+
+
+<h2 class="wp-block-heading">Testing requests in the browser</h2>
+
+
+
+<p>I was testing requests in the browser using the <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">fetch API</a>.</p>
+
+
+
+<p>First you&#8217;ll need the nonce, which you can get by opening up the dev tools console once you&#8217;re logged into WordPress and type in this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+wpApiSettings.nonce
+</pre></div>
+
+
+<p>You can then use the nonce, and a known post ID (we will update the title, so make sure you&#8217;re working on production!) to so something like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+let r = await fetch(
+  '/wp-json/wp/v2/posts/12345',
+  {
+    body: JSON.stringify({
+      title: 'Hello Moon'
+    }),
+    method: 'POST',
+  }
+);
+</pre></div>
+
+
+<p>This will fail with a &#8220;401 Unauthorized&#8221; message. If you type this in the console it will give you the full message/details:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: jscript; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+await r.json()
+</pre></div>
+
+
+<p>It will probably say:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; auto-links: false; gutter: false; title: ; quick-code: false; notranslate" title="">
+code: &quot;rest_cannot_edit&quot;
+data: { status: 401 }
+message: &quot;Sorry, you are not allowed to edit this post.&quot;
+</pre></div>
+
+
+<p>That&#8217;s because you need to provide the nonce that we got at the start.</p>
+
+
+
+<p>According to the docs, we can pass this in POST data, so this should work:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+let r = await fetch(
+  '/wp-json/wp/v2/posts/12345',
+  {
+    body: JSON.stringify({
+      title: 'Hello Moon',
+      _wpnonce: 12345678
+    }),
+    method: 'POST',
+  }
+);
+</pre></div>
+
+
+<p>But it doesn&#8217;t! We get the same result!! Grrrr.</p>
+
+
+
+<p>The trick is to put the _wpnonce in the URL parameters:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+let r = await fetch(
+  '/wp-json/wp/v2/posts/12345?_wpnonce=12345678',
+  {
+    body: JSON.stringify({
+      title: 'Hello Moon'
+    }),
+    method: 'POST',
+  }
+);
+</pre></div>
+
+
+<p>THAT works.</p>
+
+
+
+<p>You can also use the <code>X-WP-Nonce</code> header, and perhaps that is just more reliable? That looks like this:</p>
+
+
+<div class="wp-block-syntaxhighlighter-code "><pre class="brush: plain; title: ; notranslate" title="">
+let r = await fetch(
+  '/wp-json/wp/v2/posts/12345',
+  {
+    body: JSON.stringify({
+      title: 'Hello Moon'
+    }),
+    method: 'POST',
+    headers: {
+      'X-WP-Nonce': '12345678'
+    }
+  }
+);
+</pre></div>
+
+
+<p>I hope this helps you, and future me!</p>
+</main></body>

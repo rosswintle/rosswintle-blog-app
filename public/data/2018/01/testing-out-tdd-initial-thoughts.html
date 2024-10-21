@@ -43,7 +43,7 @@
 
 
 
-<ol>
+<ol class="wp-block-list">
     <li>How do I test CRSF tokens?</li>
     <li>How do I check constraints that SHOULD be in the database (but aren&#x27;t yet) such as column uniqueness?</li>
     <li>And, following on from question 2: if, as I&#x27;m doing the test -&gt; write -&gt; test loop, I have thoughts about what needs to happen in future (e.g. some column in my database will need to have unique values), where do I record those? Should I go off and write some kind of stub of a test that just passes for now?</li>
@@ -75,7 +75,7 @@
 
 
 
-<ol>
+<ol class="wp-block-list">
     <li>How do I commit this stuff to version control in an orderly fashion? Do I commit the test and the code that makes the test pass at the same time? I wouldn&#x27;t normally commit a whole set of route, controller, model and migration all at once. Is this the way now?</li>
     <li>It&#x27;s REALLY weird being able to write code that I know works, because the tests pass, but without actually having to visit the pages you&#x27;re creating. But GOOD weird!</li>
     <li>How do I track all the stubbed-out stuff and work that needs to be done to complete it? Adam, in the videos, is striving to get his tests to green, and he sometimes makes tests pass by creating some incomplete stub. If the development process is being driven by the tests, and the tests are all running OK, then how am I supposed to know that there is more work to do?</li>
